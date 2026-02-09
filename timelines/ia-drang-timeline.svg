@@ -30,86 +30,81 @@
   <text class="month-label" x="783.9791952446274" y="812" text-anchor="middle">July</text>
   <line class="tick-month" x1="902.6074531321445" y1="800" x2="902.6074531321445" y2="804"/>
   <text class="month-label" x="902.6074531321445" y="812" text-anchor="middle">October</text>
-  <rect class="event-box" x="259.4387288523091" y="676" width="180" height="72"/>
+  <rect class="event-box" x="259.4387288523091" y="680" width="180" height="68"/>
   <line class="event-line" x1="349.4387288523091" y1="800" x2="349.4387288523091" y2="750"/>
   <circle class="event-dot" cx="349.4387288523091" cy="750" r="3"/>
-  <text class="event-text" x="349.4387288523091" y="693" text-anchor="middle">Jul 29, 1965</text>
-  <text class="event-text" x="349.4387288523091" y="711" text-anchor="middle">1st Brigade, 101st Airborne</text>
-  <text class="event-text" x="349.4387288523091" y="725" text-anchor="middle">Division (Separate) arrives</text>
-  <text class="event-text" x="349.4387288523091" y="739" text-anchor="middle">at Cam Ranh.</text>
-  <rect class="event-box" x="320.0422953818016" y="634" width="180" height="72"/>
+  <text class="event-text" x="265.4387288523091" y="697" text-anchor="start">Jul 29, 1965 1st Brigade,</text>
+  <text class="event-text" x="265.4387288523091" y="711" text-anchor="start">101st Airborne Division</text>
+  <text class="event-text" x="265.4387288523091" y="725" text-anchor="start">(Separate) arrives at Cam</text>
+  <text class="event-text" x="265.4387288523091" y="739" text-anchor="start">Ranh.</text>
+  <rect class="event-box" x="320.0422953818016" y="652" width="180" height="54"/>
   <line class="event-line" x1="410.0422953818016" y1="800" x2="410.0422953818016" y2="708"/>
   <circle class="event-dot" cx="410.0422953818016" cy="708" r="3"/>
-  <text class="event-text" x="410.0422953818016" y="651" text-anchor="middle">Sep 14, 1965</text>
-  <text class="event-text" x="410.0422953818016" y="669" text-anchor="middle">1st Cavalry Division</text>
-  <text class="event-text" x="410.0422953818016" y="683" text-anchor="middle">(Airmobile) arrives at An</text>
-  <text class="event-text" x="410.0422953818016" y="697" text-anchor="middle">Khe.</text>
-  <rect class="event-box" x="360.0148605395519" y="578" width="180" height="86"/>
+  <text class="event-text" x="326.0422953818016" y="669" text-anchor="start">Sep 14, 1965 1st Cavalry</text>
+  <text class="event-text" x="326.0422953818016" y="683" text-anchor="start">Division (Airmobile) arrives</text>
+  <text class="event-text" x="326.0422953818016" y="697" text-anchor="start">at An Khe.</text>
+  <rect class="event-box" x="360.0148605395519" y="582" width="180" height="82"/>
   <line class="event-line" x1="450.0148605395519" y1="800" x2="450.0148605395519" y2="666"/>
   <circle class="event-dot" cx="450.0148605395519" cy="666" r="3"/>
-  <text class="event-text" x="450.0148605395519" y="595" text-anchor="middle">Oct 15, 1965</text>
-  <text class="event-text" x="450.0148605395519" y="613" text-anchor="middle">At a protest rally in the</text>
-  <text class="event-text" x="450.0148605395519" y="627" text-anchor="middle">U.S., David Millar becomes</text>
-  <text class="event-text" x="450.0148605395519" y="641" text-anchor="middle">the first man to burn his</text>
-  <text class="event-text" x="450.0148605395519" y="655" text-anchor="middle">draft card. He is arrested.</text>
-  <rect class="event-box" x="360.0148605395519" y="536" width="180" height="86"/>
+  <text class="event-text" x="366.0148605395519" y="599" text-anchor="start">Oct 15, 1965 At a protest</text>
+  <text class="event-text" x="366.0148605395519" y="613" text-anchor="start">rally in the U.S., David</text>
+  <text class="event-text" x="366.0148605395519" y="627" text-anchor="start">Millar becomes the first man</text>
+  <text class="event-text" x="366.0148605395519" y="641" text-anchor="start">to burn his draft card. He</text>
+  <text class="event-text" x="366.0148605395519" y="655" text-anchor="start">is arrested.</text>
+  <rect class="event-box" x="360.0148605395519" y="540" width="180" height="82"/>
   <line class="event-line" x1="450.0148605395519" y1="800" x2="450.0148605395519" y2="624"/>
   <circle class="event-dot" cx="450.0148605395519" cy="624" r="3"/>
-  <text class="event-text" x="450.0148605395519" y="553" text-anchor="middle">Oct 15, 1965</text>
-  <text class="event-text" x="450.0148605395519" y="571" text-anchor="middle">Relatively minor antiwar</text>
-  <text class="event-text" x="450.0148605395519" y="585" text-anchor="middle">protests held in over 40</text>
-  <text class="event-text" x="450.0148605395519" y="599" text-anchor="middle">U.S. cities and various</text>
-  <text class="event-text" x="450.0148605395519" y="613" text-anchor="middle">western European capitals.</text>
-  <rect class="event-box" x="366.4620484682213" y="508" width="180" height="72"/>
+  <text class="event-text" x="366.0148605395519" y="557" text-anchor="start">Oct 15, 1965 Relatively</text>
+  <text class="event-text" x="366.0148605395519" y="571" text-anchor="start">minor antiwar protests held</text>
+  <text class="event-text" x="366.0148605395519" y="585" text-anchor="start">in over 40 U.S. cities and</text>
+  <text class="event-text" x="366.0148605395519" y="599" text-anchor="start">various western European</text>
+  <text class="event-text" x="366.0148605395519" y="613" text-anchor="start">capitals.</text>
+  <rect class="event-box" x="366.4620484682213" y="526" width="180" height="54"/>
   <line class="event-line" x1="456.4620484682213" y1="800" x2="456.4620484682213" y2="582"/>
   <circle class="event-dot" cx="456.4620484682213" cy="582" r="3"/>
-  <text class="event-text" x="456.4620484682213" y="525" text-anchor="middle">Oct 20, 1965</text>
-  <text class="event-text" x="456.4620484682213" y="543" text-anchor="middle">NVA attack on Plei Me</text>
-  <text class="event-text" x="456.4620484682213" y="557" text-anchor="middle">Special Forces camp, Central</text>
-  <text class="event-text" x="456.4620484682213" y="571" text-anchor="middle">Highlands.</text>
-  <rect class="event-box" x="398.7517146776406" y="480" width="180" height="58"/>
+  <text class="event-text" x="372.4620484682213" y="543" text-anchor="start">Oct 20, 1965 NVA attack on</text>
+  <text class="event-text" x="372.4620484682213" y="557" text-anchor="start">Plei Me Special Forces camp,</text>
+  <text class="event-text" x="372.4620484682213" y="571" text-anchor="start">Central Highlands.</text>
+  <rect class="event-box" x="398.7517146776406" y="484" width="180" height="54"/>
   <line class="event-line" x1="488.7517146776406" y1="800" x2="488.7517146776406" y2="540"/>
   <circle class="event-dot" cx="488.7517146776406" cy="540" r="3"/>
-  <text class="event-text" x="488.7517146776406" y="497" text-anchor="middle">Nov 14, 1965</text>
-  <text class="event-text" x="488.7517146776406" y="515" text-anchor="middle">1/7th Cavalry assault LZ</text>
-  <text class="event-text" x="488.7517146776406" y="529" text-anchor="middle">X-Ray, Ia Drang valley.</text>
-  <rect class="event-box" x="415.51440329218104" y="424" width="180" height="72"/>
+  <text class="event-text" x="404.7517146776406" y="501" text-anchor="start">Nov 14, 1965 1/7th Cavalry</text>
+  <text class="event-text" x="404.7517146776406" y="515" text-anchor="start">assault LZ X-Ray, Ia Drang</text>
+  <text class="event-text" x="404.7517146776406" y="529" text-anchor="start">valley.</text>
+  <rect class="event-box" x="415.51440329218104" y="428" width="180" height="68"/>
   <line class="event-line" x1="505.51440329218104" y1="800" x2="505.51440329218104" y2="498"/>
   <circle class="event-dot" cx="505.51440329218104" cy="498" r="3"/>
-  <text class="event-text" x="505.51440329218104" y="441" text-anchor="middle">Nov 27, 1965</text>
-  <text class="event-text" x="505.51440329218104" y="459" text-anchor="middle">Pentagon calls for a troop</text>
-  <text class="event-text" x="505.51440329218104" y="473" text-anchor="middle">buildup in Vietnam in 1966</text>
-  <text class="event-text" x="505.51440329218104" y="487" text-anchor="middle">to nearly 400,000 men.</text>
-  <rect class="event-box" x="451.6186556927298" y="354" width="180" height="100"/>
+  <text class="event-text" x="421.51440329218104" y="445" text-anchor="start">Nov 27, 1965 Pentagon calls</text>
+  <text class="event-text" x="421.51440329218104" y="459" text-anchor="start">for a troop buildup in</text>
+  <text class="event-text" x="421.51440329218104" y="473" text-anchor="start">Vietnam in 1966 to nearly</text>
+  <text class="event-text" x="421.51440329218104" y="487" text-anchor="start">400,000 men.</text>
+  <rect class="event-box" x="451.6186556927298" y="358" width="180" height="96"/>
   <line class="event-line" x1="541.6186556927298" y1="800" x2="541.6186556927298" y2="456"/>
   <circle class="event-dot" cx="541.6186556927298" cy="456" r="3"/>
-  <text class="event-text" x="541.6186556927298" y="371" text-anchor="middle">Dec 25, 1965</text>
-  <text class="event-text" x="541.6186556927298" y="389" text-anchor="middle">President Johnson suspends</text>
-  <text class="event-text" x="541.6186556927298" y="403" text-anchor="middle">Rolling Thunder air attacks</text>
-  <text class="event-text" x="541.6186556927298" y="417" text-anchor="middle">on the North to induce</text>
-  <text class="event-text" x="541.6186556927298" y="431" text-anchor="middle">negotiations. Bombing</text>
-  <text class="event-text" x="541.6186556927298" y="445" text-anchor="middle">resumes January 31, 1966.</text>
-  <rect class="event-box" x="483.8545953360767" y="326" width="180" height="86"/>
+  <text class="event-text" x="457.6186556927298" y="375" text-anchor="start">Dec 25, 1965 President</text>
+  <text class="event-text" x="457.6186556927298" y="389" text-anchor="start">Johnson suspends Rolling</text>
+  <text class="event-text" x="457.6186556927298" y="403" text-anchor="start">Thunder air attacks on the</text>
+  <text class="event-text" x="457.6186556927298" y="417" text-anchor="start">North to induce</text>
+  <text class="event-text" x="457.6186556927298" y="431" text-anchor="start">negotiations. Bombing</text>
+  <text class="event-text" x="457.6186556927298" y="445" text-anchor="start">resumes January 31, 1966.</text>
+  <rect class="event-box" x="483.8545953360767" y="344" width="180" height="68"/>
   <line class="event-line" x1="573.8545953360767" y1="800" x2="573.8545953360767" y2="414"/>
   <circle class="event-dot" cx="573.8545953360767" cy="414" r="3"/>
-  <text class="event-text" x="573.8545953360767" y="343" text-anchor="middle">Jan 19, 1966</text>
-  <text class="event-text" x="573.8545953360767" y="361" text-anchor="middle">President Johnson asks</text>
-  <text class="event-text" x="573.8545953360767" y="375" text-anchor="middle">Congress for an additional</text>
-  <text class="event-text" x="573.8545953360767" y="389" text-anchor="middle">$12.8 billion for the war in</text>
-  <text class="event-text" x="573.8545953360767" y="403" text-anchor="middle">Vietnam.</text>
-  <rect class="event-box" x="490.3017832647463" y="298" width="180" height="72"/>
+  <text class="event-text" x="489.8545953360767" y="361" text-anchor="start">Jan 19, 1966 President</text>
+  <text class="event-text" x="489.8545953360767" y="375" text-anchor="start">Johnson asks Congress for an</text>
+  <text class="event-text" x="489.8545953360767" y="389" text-anchor="start">additional $12.8 billion for</text>
+  <text class="event-text" x="489.8545953360767" y="403" text-anchor="start">the war in Vietnam.</text>
+  <rect class="event-box" x="490.3017832647463" y="316" width="180" height="54"/>
   <line class="event-line" x1="580.3017832647463" y1="800" x2="580.3017832647463" y2="372"/>
   <circle class="event-dot" cx="580.3017832647463" cy="372" r="3"/>
-  <text class="event-text" x="580.3017832647463" y="315" text-anchor="middle">Jan 24, 1966</text>
-  <text class="event-text" x="580.3017832647463" y="333" text-anchor="middle">Operation Masher/White Wing</text>
-  <text class="event-text" x="580.3017832647463" y="347" text-anchor="middle">begins in IICTZ (ends March</text>
-  <text class="event-text" x="580.3017832647463" y="361" text-anchor="middle">6).</text>
-  <rect class="event-box" x="507.06447187928666" y="242" width="180" height="86"/>
+  <text class="event-text" x="496.3017832647463" y="333" text-anchor="start">Jan 24, 1966 Operation</text>
+  <text class="event-text" x="496.3017832647463" y="347" text-anchor="start">Masher/White Wing begins in</text>
+  <text class="event-text" x="496.3017832647463" y="361" text-anchor="start">IICTZ (ends March 6).</text>
+  <rect class="event-box" x="507.06447187928666" y="260" width="180" height="68"/>
   <line class="event-line" x1="597.0644718792867" y1="800" x2="597.0644718792867" y2="330"/>
   <circle class="event-dot" cx="597.0644718792867" cy="330" r="3"/>
-  <text class="event-text" x="597.0644718792867" y="259" text-anchor="middle">Feb 6, 1966</text>
-  <text class="event-text" x="597.0644718792867" y="277" text-anchor="middle">Honolulu Conference:</text>
-  <text class="event-text" x="597.0644718792867" y="291" text-anchor="middle">President Johnson reaffirms</text>
-  <text class="event-text" x="597.0644718792867" y="305" text-anchor="middle">U.S. support to South</text>
-  <text class="event-text" x="597.0644718792867" y="319" text-anchor="middle">Vietnam.</text>
+  <text class="event-text" x="513.0644718792867" y="277" text-anchor="start">Feb 6, 1966 Honolulu</text>
+  <text class="event-text" x="513.0644718792867" y="291" text-anchor="start">Conference: President</text>
+  <text class="event-text" x="513.0644718792867" y="305" text-anchor="start">Johnson reaffirms U.S.</text>
+  <text class="event-text" x="513.0644718792867" y="319" text-anchor="start">support to South Vietnam.</text>
 </svg>

@@ -200,12 +200,14 @@ def add_events(xml, events, layout, start_date, end_date)
     row  = i % max_rows
     y    = dot_y.call(row)
 
-    date_str   = ev[:date].strftime("%b %-d, %Y")
-    label_lines = wrap_text(ev[:label])
-    # Box: fixed width, height = padding + date line + gap + label lines + padding
-    box_h = EVENT_BOX_PADDING + EVENT_LINE_HEIGHT + 4 + (label_lines.size * EVENT_LINE_HEIGHT) + EVENT_BOX_PADDING
+    date_str = ev[:date].strftime("%b %-d, %Y")
+    # First line starts with date then label; wrap gives ragged-right (left-aligned) lines
+    content_lines = wrap_text("#{date_str} #{ev[:label]}")
     box_w = EVENT_BOX_WIDTH
     half  = box_w / 2.0
+    text_left_x = x - half + EVENT_BOX_PADDING
+    # Box height = padding + lines only (date on first line saves space)
+    box_h = EVENT_BOX_PADDING + (content_lines.size * EVENT_LINE_HEIGHT) + EVENT_BOX_PADDING
 
     box_top_y = if events_above
       box_bottom_y = y - 2
@@ -226,11 +228,9 @@ def add_events(xml, events, layout, start_date, end_date)
     )
     xml.circle("class" => "event-dot", "cx" => x, "cy" => y, "r" => 3)
 
-    date_y = box_top_y + EVENT_BOX_PADDING + 11
-    xml.text_("class" => "event-text", "x" => x, "y" => date_y, "text-anchor" => "middle") { xml.text date_str }
-    label_lines.each_with_index do |line, i|
-      line_y = date_y + 4 + EVENT_LINE_HEIGHT + i * EVENT_LINE_HEIGHT
-      xml.text_("class" => "event-text", "x" => x, "y" => line_y, "text-anchor" => "middle") { xml.text line }
+    content_lines.each_with_index do |line, i|
+      line_y = box_top_y + EVENT_BOX_PADDING + 11 + i * EVENT_LINE_HEIGHT
+      xml.text_("class" => "event-text", "x" => text_left_x, "y" => line_y, "text-anchor" => "start") { xml.text line }
     end
   end
 end
