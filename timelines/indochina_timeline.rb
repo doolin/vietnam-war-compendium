@@ -76,6 +76,7 @@ HEIGHT = 850
 START_YEAR = 1965
 END_YEAR   = 1966  # timeline spans exactly 2 years (1965–1966)
 DATA_FILE    = File.join(__dir__, "ia-drang-pimlott.yaml")
+STARLITE_FILE = File.join(__dir__, "starlite-pimlott.yaml")
 BLOCKS_FILE  = File.join(__dir__, "blocks.yaml")
 OUTPUT_FILE  = File.join(__dir__, "ia-drang-timeline.svg")
 DEFAULT_TIER = 2  # LOD: show at month/day zoom; 0=overview, 1=year, 2=month, 3=day
@@ -228,6 +229,8 @@ def add_title_and_style(xml)
       .year-label { font-family: Georgia, serif; font-size: 16px; font-weight: bold; fill: #1a1a1a; }
       .month-label { font-family: Georgia, serif; font-size: 11px; fill: #444; }
       .block-rect { fill: #d4e4f0; stroke: #6a9fb5; stroke-width: 0.75; }
+      .block-starlite { fill: #d4e4f0; stroke: #6a9fb5; }
+      .block-ia_drang { fill: #e8ddd0; stroke: #8a7566; }
       .block-label { font-family: Georgia, serif; font-size: 11px; fill: #2a4a5a; font-weight: bold; }
     CSS
   end
@@ -416,8 +419,9 @@ def add_blocks(xml, blocks, layout, start_date, end_date)
       mid_x  = x + width / 2.0
       label_y = band_top + rect_height / 2.0 + 3
 
+      block_class = "block-rect block-#{block[:id]}"
       xml.rect(
-        "class" => "block-rect",
+        "class" => block_class,
         "x" => x, "y" => band_top,
         "width" => width, "height" => rect_height
       )
@@ -470,10 +474,11 @@ def build_svg(events, start_date, end_date, blocks = [])
 end
 
 # --- Entry point --------------------------------------------------------------
-# Load events from DATA_FILE, build SVG for [START_YEAR, END_YEAR], write to
-# OUTPUT_FILE.
+# Load events from DATA_FILE and STARLITE_FILE, merge and sort by date, build
+# SVG for [START_YEAR, END_YEAR], write to OUTPUT_FILE.
 def main
-  events = Events.load(DATA_FILE)
+  events = Events.load(DATA_FILE) + Events.load(STARLITE_FILE)
+  events = events.sort_by { |e| e[:date] }
   blocks = Blocks.load(BLOCKS_FILE)
   start_date = Date.new(START_YEAR, 1, 1)
   end_date   = Date.new(END_YEAR, 12, 31)
