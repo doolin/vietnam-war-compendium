@@ -227,6 +227,8 @@ def add_title_and_style(xml)
       .event-group:hover { z-index: 1; }
       .year-label { font-family: Georgia, serif; font-size: 16px; font-weight: bold; fill: #1a1a1a; }
       .month-label { font-family: Georgia, serif; font-size: 11px; fill: #444; }
+      .block-rect { fill: #d4e4f0; stroke: #6a9fb5; stroke-width: 0.75; }
+      .block-label { font-family: Georgia, serif; font-size: 11px; fill: #2a4a5a; font-weight: bold; }
     CSS
   end
 end
@@ -238,6 +240,9 @@ EVENT_BOX_WIDTH   = 180
 EVENT_BOX_PADDING = 6
 EVENT_LINE_HEIGHT = 14
 EVENT_CHARS_PER_LINE = 28
+
+# Block band: strip just above the axis for time-range blocks (e.g. Ia Drang).
+BLOCK_BAND_HEIGHT = 24
 
 # Word-wrap to max_chars per line (word boundaries). Used for "Date Label..."
 # so the first line can start with the bold date and continue with label text.
@@ -383,6 +388,44 @@ def add_events(xml, events, layout, start_date, end_date)
   end
 end
 
+# --- SVG: time-range blocks ---------------------------------------------------
+# Draw each block that overlaps [start_date, end_date] as one rect in a band
+# just above the axis, with label. Band uses same time scale (date_to_x).
+# Group has pointer-events: none so event boxes still get hover.
+def add_blocks(xml, blocks, layout, start_date, end_date)
+  return if blocks.nil? || blocks.empty?
+
+  axis_x_min = layout[:axis_x_min]
+  axis_len   = layout[:axis_len]
+  axis_y     = layout[:axis_y]
+  band_top   = axis_y - BLOCK_BAND_HEIGHT
+  rect_height = BLOCK_BAND_HEIGHT - 2  # small gap above axis
+
+  xml.g("class" => "timeline-blocks", "style" => "pointer-events: none;") do
+    blocks.each do |block|
+      next if block[:end_date] < start_date || block[:start_date] > end_date
+
+      t1 = date_to_x(block[:start_date], start_date, end_date)
+      t2 = date_to_x(block[:end_date], start_date, end_date)
+      t1 = 0.0 if t1 < 0
+      t2 = 1.0 if t2 > 1
+      next if t2 <= t1
+
+      x      = axis_x_min + t1 * axis_len
+      width  = (t2 - t1) * axis_len
+      mid_x  = x + width / 2.0
+      label_y = band_top + rect_height / 2.0 + 3
+
+      xml.rect(
+        "class" => "block-rect",
+        "x" => x, "y" => band_top,
+        "width" => width, "height" => rect_height
+      )
+      xml.text_("class" => "block-label", "x" => mid_x, "y" => label_y, "text-anchor" => "middle") { xml.text block[:label] }
+    end
+  end
+end
+
 # --- SVG: hover script --------------------------------------------------------
 # Bring hovered event to front: appendChild(this) so this group is last in the
 # SVG and paints on top. Class "hovered" drives grey highlight; we clear it
@@ -405,10 +448,9 @@ def add_event_hover_script(xml)
 end
 
 # --- Build full SVG document -------------------------------------------------
-# Order: title + style, timeline axis (pointer-events none), event groups,
-# then script. Events are drawn after the axis so they sit on top; axis doesn’t
-# capture hover.
-def build_svg(events, start_date, end_date)
+# Order: title + style, timeline axis (pointer-events none), blocks band,
+# event groups, then script. Events are drawn after blocks so they sit on top.
+def build_svg(events, start_date, end_date, blocks = [])
   layout = svg_layout
 
   Nokogiri::XML::Builder.new(encoding: "UTF-8") do |xml|
@@ -420,6 +462,7 @@ def build_svg(events, start_date, end_date)
     ) do
       add_title_and_style(xml)
       add_timeline_axis(xml, layout, start_date, end_date)
+      add_blocks(xml, blocks, layout, start_date, end_date)
       add_events(xml, events, layout, start_date, end_date)
       add_event_hover_script(xml)
     end
@@ -435,7 +478,7 @@ def main
   start_date = Date.new(START_YEAR, 1, 1)
   end_date   = Date.new(END_YEAR, 12, 31)
 
-  doc = build_svg(events, start_date, end_date)
+  doc = build_svg(events, start_date, end_date, blocks)
   svg = doc.to_xml(indent: 2)
 
   File.write(OUTPUT_FILE, svg)

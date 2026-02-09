@@ -16,6 +16,8 @@
 .event-group:hover { z-index: 1; }
 .year-label { font-family: Georgia, serif; font-size: 16px; font-weight: bold; fill: #1a1a1a; }
 .month-label { font-family: Georgia, serif; font-size: 11px; fill: #444; }
+.block-rect { fill: #d4e4f0; stroke: #6a9fb5; stroke-width: 0.75; }
+.block-label { font-family: Georgia, serif; font-size: 11px; fill: #2a4a5a; font-weight: bold; }
 ]]></style>
   <g class="timeline-axis" style="pointer-events: none;">
     <line class="axis" x1="80" y1="800" x2="1020" y2="800"/>
@@ -37,6 +39,10 @@
     <text class="month-label" x="783.9791952446274" y="812" text-anchor="middle">July</text>
     <line class="tick-month" x1="902.6074531321445" y1="800" x2="902.6074531321445" y2="804"/>
     <text class="month-label" x="902.6074531321445" y="812" text-anchor="middle">October</text>
+  </g>
+  <g class="timeline-blocks" style="pointer-events: none;">
+    <rect class="block-rect" x="349.4387288523091" y="776" width="247.62574302697757" height="22"/>
+    <text class="block-label" x="473.2516003657979" y="790.0" text-anchor="middle">Ia Drang</text>
   </g>
   <g class="event-group">
     <rect class="event-box" x="259.4387288523091" y="680" width="180" height="68"/>

@@ -2,6 +2,6 @@
 # start/end: YYYY-MM-DD. Optional event_source for future use.
 blocks:
   - id: ia_drang
-    start: "1965-11-14"
-    end: "1965-11-18"
+    start: "1965-07-29"
+    end: "1966-02-06"
     label: "Ia Drang"
