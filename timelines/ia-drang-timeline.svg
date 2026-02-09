@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 850" width="11in" height="8.5in">
+  <title>Vietnam War Timeline — Ia Drang (1965–1966)</title>
+  <style><![CDATA[.axis { stroke: #333; stroke-width: 1; fill: none; }
+.tick { stroke: #333; stroke-width: 1; }
+.event-line { stroke: #666; stroke-width: 0.5; stroke-dasharray: 2,2; }
+.event-dot { fill: #c00; }
+.event-text { font-family: Georgia, serif; font-size: 12px; fill: #1a1a1a; }
+.year-label { font-family: Georgia, serif; font-size: 16px; font-weight: bold; fill: #1a1a1a; }
+]]></style>
+  <line class="axis" x1="80" y1="120" x2="1020" y2="120"/>
+  <line class="tick" x1="80.0" y1="120" x2="80.0" y2="128"/>
+  <text class="year-label" x="80.0" y="148" text-anchor="middle">1965</text>
+  <line class="tick" x1="550.0" y1="120" x2="550.0" y2="128"/>
+  <text class="year-label" x="550.0" y="148" text-anchor="middle">1966</text>
+  <line class="tick" x1="1020.0" y1="120" x2="1020.0" y2="128"/>
+  <text class="year-label" x="1020.0" y="148" text-anchor="middle">1967</text>
+</svg>

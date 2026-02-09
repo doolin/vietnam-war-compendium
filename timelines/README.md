@@ -1,5 +1,5 @@
 # Events of the Indochina conflicts
 
-Format TBD.
+Format SVG.
 
 
