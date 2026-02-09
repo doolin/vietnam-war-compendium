@@ -1,17 +1,76 @@
 #!/usr/bin/env ruby
 
-# This is the driver file for a Vietnam War timeline
-# rendered in SVG format. The timeline will initially
-# start in 1965, and end in 1966. The initial physical
-# size will be letter/landscape.
+# =============================================================================
+# INDOCHINA TIMELINE — SVG timeline driver (Vietnam War / Ia Drang, 1965–1966)
+# =============================================================================
 #
-# The first set of events will be Ia Drang from Pimlott.
+# PURPOSE
+#   Reads event YAML, builds a single SVG file: horizontal time axis at the
+#   bottom, events above it in boxed labels. Interactive in browser: hover
+#   brings that event to the front (z-order) and highlights it grey; focus
+#   leave or hover another event clears the highlight.
+#
+# STRATEGY (pipeline)
+#   1. Load events: Events.load(path) parses YAML (the_war_years or timeline
+#      key), normalizes dates (e.g. "Oct. 15/16, 1965" → first day), returns
+#      [{ date: Date, label: String }, ...].
+#   2. Layout: svg_layout returns a hash (axis_x_min/max/len, axis_y,
+#      row_height, max_rows, events_above). All positioning uses this so we
+#      can change one place.
+#   3. Build SVG with Nokogiri::XML::Builder: root <svg>, then title + <style>,
+#      then timeline axis (in a group with pointer-events: none so it doesn’t
+#      steal hover), then event groups (each a <g class="event-group"> with
+#      rect, line, circle, text), then a <script> for hover behaviour.
+#   4. Write doc.to_xml to OUTPUT_FILE.
+#
+# COORDINATE SYSTEM
+#   SVG y increases downward. "Above" the axis means smaller y. The axis is
+#   at the bottom of the canvas (axis_y = HEIGHT - margin_bottom) so event
+#   boxes sit in the upper area and stay inside the viewBox. Time runs left
+#   to right: date_to_x maps a date to [0,1] over [start_date, end_date];
+#   x = axis_x_min + t * axis_len.
+#
+# TIME AXIS (2 years only)
+#   We deliberately span exactly 2 years (START_YEAR..END_YEAR = 1965–1966)
+#   so each year gets equal visual weight. axis_start = Jan 1 1965,
+#   axis_end = Dec 31 1966. Year ticks at Jan 1 of 1965 and 1966 (so 1966
+#   is at the midpoint); right-end tick at Dec 31 1966 labeled "1967"
+#   (traditional end-of-year label). Month ticks: April, July, October for
+#   each of 1965 and 1966, positioned by date_to_x for true elapsed time.
+#
+# EVENT BOXES
+#   Fixed width (EVENT_BOX_WIDTH), variable height from wrapped text. First
+#   line is "Date Label..." (date bold via .event-date tspan), rest wrapped
+#   at word boundaries (EVENT_CHARS_PER_LINE). Left-aligned text, ragged
+#   right. Box is a rect behind the connector line and dot so the line/dot
+#   stay visible.
+#
+# HOVER INTERACTION (script)
+#   SVG paint order = DOM order; z-index is unreliable in many viewers. So we
+#   don’t use z-index for “bring to front”. Instead: on mouseenter we
+#   remove class "hovered" from every .event-group, add "hovered" to the
+#   current group, and appendChild(this) so this group becomes the last child
+#   of the SVG and is painted on top. CSS: .event-group.hovered .event-box
+#   (and :hover) get light grey fill; .event-group .event-box is explicit
+#   default (white) so when "hovered" is removed the box returns to white.
+#   Clearing "hovered" from all groups on each mouseenter ensures the
+#   previously hovered box goes back to white when you move to another event;
+#   mouseleave clears the current group when focus leaves to empty space.
+#   The timeline axis is wrapped in a group with pointer-events: none so
+#   the axis doesn’t capture the mouse and event boxes receive hover.
+#
+# RUN
+#   ruby indochina_timeline.rb  → writes ia-drang-timeline.svg. Open in a
+#   browser (not as a static image) for hover/script to work.
+#
+# =============================================================================
 
 require "yaml"
 require "date"
 require "nokogiri"
 
-# Letter landscape: 11" x 8.5"
+# --- Dimensions and data paths -----------------------------------------------
+# Letter landscape: 11" x 8.5"; viewBox 1100×850.
 WIDTH  = 1100
 HEIGHT = 850
 START_YEAR = 1965
@@ -19,7 +78,10 @@ END_YEAR   = 1966  # timeline spans exactly 2 years (1965–1966)
 DATA_FILE   = File.join(__dir__, "ia-drang-pimlott.yaml")
 OUTPUT_FILE = File.join(__dir__, "ia-drang-timeline.svg")
 
-# Parses timeline YAML files (the_war_years or timeline key) into events with :date and :label.
+# --- Events: YAML → array of { date:, label: } -------------------------------
+# Supports YAML with top-level key "the_war_years" or "timeline" (array of
+# { "date" => "...", "event" => "..." }). Normalizes date strings like
+# "Oct. 15/16, 1965" to the first day; skips entries that don’t parse.
 class Events
   EVENT_KEYS = %w[the_war_years timeline].freeze
 
@@ -61,6 +123,9 @@ class Events
   end
 end
 
+# --- Time → x position --------------------------------------------------------
+# Maps a date to [0, 1] over [start_date, end_date]; used for axis ticks and
+# event x positions so the scale is true elapsed time.
 def date_to_x(date, start_date, end_date)
   start_ord = start_date.to_time.to_f
   end_ord   = end_date.to_time.to_f
@@ -68,7 +133,9 @@ def date_to_x(date, start_date, end_date)
   (t - start_ord) / (end_ord - start_ord)
 end
 
-# SVG y increases downward; "above" the axis means smaller y.
+# --- Layout constants --------------------------------------------------------
+# Single place for margins, axis position, event row spacing. SVG y increases
+# downward; "above" the axis means smaller y. Axis at bottom so events fit.
 def svg_layout
   margin_left   = 80
   margin_right  = 80
@@ -87,6 +154,9 @@ def svg_layout
   }
 end
 
+# --- SVG: title and CSS -------------------------------------------------------
+# Styles for axis, ticks, event box (default + hover/hovered), text. Timeline
+# axis group gets pointer-events: none later so it doesn’t steal hover.
 def add_title_and_style(xml)
   xml.title { xml.text "Vietnam War Timeline — Ia Drang (1965–1966)" }
   xml.style do
@@ -112,12 +182,14 @@ end
 
 MONTH_TICKS = { 4 => "April", 7 => "July", 10 => "October" }.freeze
 
-# Event label box: fixed width, height from wrapped text
+# Event box dimensions and text wrap (chars per line ≈ 12px font in box width).
 EVENT_BOX_WIDTH   = 180
 EVENT_BOX_PADDING = 6
 EVENT_LINE_HEIGHT = 14
-EVENT_CHARS_PER_LINE = 28  # approximate for 12px font in box width
+EVENT_CHARS_PER_LINE = 28
 
+# Word-wrap to max_chars per line (word boundaries). Used for "Date Label..."
+# so the first line can start with the bold date and continue with label text.
 def wrap_text(text, max_chars: EVENT_CHARS_PER_LINE)
   words = text.to_s.split
   lines = []
@@ -138,15 +210,17 @@ def wrap_text(text, max_chars: EVENT_CHARS_PER_LINE)
   lines
 end
 
+# --- SVG: timeline axis -------------------------------------------------------
+# Horizontal axis at layout[:axis_y], ticks and labels by date. Wrapped in
+# <g class="timeline-axis" pointer-events="none"> so the axis doesn’t capture
+# hover; event boxes (drawn after this) receive mouse events.
 def add_timeline_axis(xml, layout, start_date, end_date)
   axis_x_min = layout[:axis_x_min]
   axis_len   = layout[:axis_len]
   axis_y     = layout[:axis_y]
-  # Axis = elapsed time from start of START_YEAR to end of END_YEAR (2 years)
   axis_start = Date.new(START_YEAR, 1, 1)
   axis_end   = Date.new(END_YEAR, 12, 31)
 
-  # pointer-events: none so axis doesn't steal hover from event boxes
   xml.g("class" => "timeline-axis", "style" => "pointer-events: none;") do
   xml.line(
     "class" => "axis",
@@ -190,6 +264,11 @@ def add_timeline_axis(xml, layout, start_date, end_date)
   end
 end
 
+# --- SVG: event groups --------------------------------------------------------
+# Each event: one <g class="event-group"> containing rect (box), line (axis →
+# dot), circle (dot), then text lines. Box width fixed; height from wrapped
+# "Date Label..." lines. Date on first line in bold (.event-date tspan), rest
+# left-aligned. box_top_y places the box above the dot when events_above.
 def add_events(xml, events, layout, start_date, end_date)
   axis_x_min   = layout[:axis_x_min]
   axis_len     = layout[:axis_len]
@@ -198,7 +277,6 @@ def add_events(xml, events, layout, start_date, end_date)
   max_rows     = layout[:max_rows]
   events_above = layout[:events_above]
 
-  # Offset from axis to first event row; above = negative (smaller y)
   base_offset = 50
   row_offset  = ->(row) { base_offset + row * row_height }
   dot_y       = ->(row) { events_above ? axis_y - row_offset.call(row) : axis_y + row_offset.call(row) }
@@ -254,8 +332,12 @@ def add_events(xml, events, layout, start_date, end_date)
   end
 end
 
+# --- SVG: hover script --------------------------------------------------------
+# Bring hovered event to front: appendChild(this) so this group is last in the
+# SVG and paints on top. Class "hovered" drives grey highlight; we clear it
+# from all groups on every mouseenter so only one is highlighted and the
+# previous one returns to white; mouseleave clears when focus leaves to empty.
 def add_event_hover_script(xml)
-  # Bring hovered event to front by moving it to end of parent (SVG paint order = DOM order)
   xml.script do
     xml.cdata <<~JS
       var groups = document.querySelectorAll('.event-group');
@@ -271,6 +353,10 @@ def add_event_hover_script(xml)
   end
 end
 
+# --- Build full SVG document -------------------------------------------------
+# Order: title + style, timeline axis (pointer-events none), event groups,
+# then script. Events are drawn after the axis so they sit on top; axis doesn’t
+# capture hover.
 def build_svg(events, start_date, end_date)
   layout = svg_layout
 
@@ -289,6 +375,9 @@ def build_svg(events, start_date, end_date)
   end
 end
 
+# --- Entry point --------------------------------------------------------------
+# Load events from DATA_FILE, build SVG for [START_YEAR, END_YEAR], write to
+# OUTPUT_FILE.
 def main
   events = Events.load(DATA_FILE)
   start_date = Date.new(START_YEAR, 1, 1)
