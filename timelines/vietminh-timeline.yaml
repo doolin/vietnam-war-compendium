@@ -1,8 +1,10 @@
 timeline:
   - date: "May 10, 1941"
+    tier: 0
     event: "Viet Nam Doc Lap Dong Minh Hoi (Viet Minh) formed by Ho Chi Minh to coordinate resistance activities."
 
   - date: "Sept. 2, 1945"
+    tier: 0
     event: "Japan formally surrenders to the Allies; Ho Chi Minh declares the independence of Vietnam in Hanoi."
 
   - date: "Dec. 19/20, 1946"
@@ -24,11 +26,13 @@ timeline:
     event: "Dwight D. Eisenhower elected President of the U.S."
 
   - date: "May 7, 1954"
+    tier: 0
     event: "Dien Bien Phu falls to the Viet Minh after a 55-day siege."
 
   - date: "July 7, 1954"
     event: "Ngo Dinh Diem appointed Prime Minister of (South) Vietnam under the Emperor Bao Dai."
 
   - date: "July 20/21, 1954"
+    tier: 0
     event: "Geneva Accords grant independence to Laos, Cambodia, and a divided Vietnam; First Indochina War ends."
 

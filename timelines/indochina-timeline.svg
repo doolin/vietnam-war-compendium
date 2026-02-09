@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 850" width="11in" height="8.5in" overflow="visible" data-timeline-start="1941-01-01" data-timeline-end="1966-12-31">
+  <title>Indochina Timeline (1941–1966) — Viet Minh, Starlite, Ia Drang</title>
+  <style><![CDATA[.axis { stroke: #333; stroke-width: 1; fill: none; }
+.tick { stroke: #333; stroke-width: 1; }
+.tick-month { stroke: #555; stroke-width: 0.75; }
+.event-line { stroke: #666; stroke-width: 0.5; stroke-dasharray: 2,2; }
+.event-dot { fill: #c00; }
+.event-box { fill: #fff; stroke: #999; stroke-width: 0.75; }
+.event-group .event-box { fill: #fff; stroke: #999; stroke-width: 0.75; }
+.event-group:hover .event-box,
+.event-group.hovered .event-box { fill: #e0e0e0; stroke: #666; stroke-width: 1; }
+.event-group.block-starlite .event-box { fill: #eaf0f7; stroke: #6a9fb5; }
+.event-group.block-starlite:hover .event-box,
+.event-group.block-starlite.hovered .event-box { fill: #b8d4e8; stroke: #4a7f95; stroke-width: 1; }
+.event-group.block-ia_drang .event-box { fill: #f3ece5; stroke: #8a7566; }
+.event-group.block-ia_drang:hover .event-box,
+.event-group.block-ia_drang.hovered .event-box { fill: #d8c8b8; stroke: #6a5544; stroke-width: 1; }
+.event-text { font-family: Georgia, serif; font-size: 12px; fill: #1a1a1a; }
+.event-date { font-weight: bold; }
+.event-group { isolation: isolate; z-index: 0; cursor: pointer; }
+.event-group:hover { z-index: 1; }
+.year-label { font-family: Georgia, serif; font-size: 16px; font-weight: bold; fill: #1a1a1a; }
+.month-label { font-family: Georgia, serif; font-size: 11px; fill: #444; }
+.block-rect { fill: #d4e4f0; stroke: #6a9fb5; stroke-width: 0.75; }
+.block-starlite { fill: #d4e4f0; stroke: #6a9fb5; }
+.block-ia_drang { fill: #e8ddd0; stroke: #8a7566; }
+.block-vietminh { fill: #d8e6d8; stroke: #5a7a5a; }
+.block-label { font-family: Georgia, serif; font-size: 11px; fill: #2a4a5a; font-weight: bold; }
+.event-group.block-vietminh .event-box { fill: #e8f0e8; stroke: #5a7a5a; }
+.event-group.block-vietminh:hover .event-box,
+.event-group.block-vietminh.hovered .event-box { fill: #b8d0b8; stroke: #3a5a3a; stroke-width: 1; }
+.event-group.hidden { display: none; }
+.zoom-controls { font-family: Arial, sans-serif; font-size: 12px; }
+.zoom-btn { cursor: pointer; fill: #666; }
+.zoom-btn:hover { fill: #333; }
+]]></style>
+  <g class="zoom-controls"><rect class="zoom-btn" id="zoom-in" x="10" y="10" width="60" height="24" rx="4" fill="#e0e0e0" stroke="#999"/>{"x" =&gt; 40, "y" =&gt; 26, "text-anchor" =&gt; "middle", "fill" =&gt; "#333", "font-size" =&gt; "12px"}<rect class="zoom-btn" id="zoom-out" x="80" y="10" width="60" height="24" rx="4" fill="#e0e0e0" stroke="#999"/>{"x" =&gt; 110, "y" =&gt; 26, "text-anchor" =&gt; "middle", "fill" =&gt; "#333", "font-size" =&gt; "12px"}<rect class="zoom-btn" id="zoom-reset" x="150" y="10" width="60" height="24" rx="4" fill="#e0e0e0" stroke="#999"/>{"x" =&gt; 180, "y" =&gt; 26, "text-anchor" =&gt; "middle", "fill" =&gt; "#333", "font-size" =&gt; "12px"}</g>
+  <g class="timeline-axis" style="pointer-events: none;">
+    <line class="axis" x1="100" y1="800" x2="1020" y2="800"/>
+    <line class="tick" x1="100.0" y1="800" x2="100.0" y2="808"/>
+    <text class="year-label" x="100.0" y="828" text-anchor="middle">1941</text>
+    <line class="tick" x1="276.92680358083203" y1="800" x2="276.92680358083203" y2="808"/>
+    <text class="year-label" x="276.92680358083203" y="828" text-anchor="middle">1946</text>
+    <line class="tick" x1="453.85360716166406" y1="800" x2="453.85360716166406" y2="808"/>
+    <text class="year-label" x="453.85360716166406" y="828" text-anchor="middle">1951</text>
+    <line class="tick" x1="630.7804107424961" y1="800" x2="630.7804107424961" y2="808"/>
+    <text class="year-label" x="630.7804107424961" y="828" text-anchor="middle">1956</text>
+    <line class="tick" x1="807.8041074249605" y1="800" x2="807.8041074249605" y2="808"/>
+    <text class="year-label" x="807.8041074249605" y="828" text-anchor="middle">1961</text>
+    <line class="tick" x1="984.7309110057926" y1="800" x2="984.7309110057926" y2="808"/>
+    <text class="year-label" x="984.7309110057926" y="828" text-anchor="middle">1966</text>
+    <line class="tick" x1="1020.0" y1="800" x2="1020.0" y2="808"/>
+    <text class="year-label" x="1020.0" y="828" text-anchor="middle">1967</text>
+    <line class="tick-month" x1="922.7193259610322" y1="800" x2="922.7193259610322" y2="804"/>
+    <text class="month-label" x="922.7193259610322" y="812" text-anchor="middle">April</text>
+    <line class="tick-month" x1="931.5325609970159" y1="800" x2="931.5325609970159" y2="804"/>
+    <text class="month-label" x="931.5325609970159" y="812" text-anchor="middle">July</text>
+    <line class="tick-month" x1="940.4467263472003" y1="800" x2="940.4467263472003" y2="804"/>
+    <text class="month-label" x="940.4467263472003" y="812" text-anchor="middle">October</text>
+    <line class="tick-month" x1="958.085308056872" y1="800" x2="958.085308056872" y2="804"/>
+    <text class="month-label" x="958.085308056872" y="812" text-anchor="middle">April</text>
+    <line class="tick-month" x1="966.8985430928559" y1="800" x2="966.8985430928559" y2="804"/>
+    <text class="month-label" x="966.8985430928559" y="812" text-anchor="middle">July</text>
+    <line class="tick-month" x1="975.8127084430402" y1="800" x2="975.8127084430402" y2="804"/>
+    <text class="month-label" x="975.8127084430402" y="812" text-anchor="middle">October</text>
+    <line class="tick-month" x1="993.451290152712" y1="800" x2="993.451290152712" y2="804"/>
+    <text class="month-label" x="993.451290152712" y="812" text-anchor="middle">April</text>
+    <line class="tick-month" x1="1002.2645251886958" y1="800" x2="1002.2645251886958" y2="804"/>
+    <text class="month-label" x="1002.2645251886958" y="812" text-anchor="middle">July</text>
+    <line class="tick-month" x1="1011.1786905388801" y1="800" x2="1011.1786905388801" y2="804"/>
+    <text class="month-label" x="1011.1786905388801" y="812" text-anchor="middle">October</text>
+  </g>
+  <g class="timeline-blocks" style="pointer-events: none;">
+    <rect class="block-rect block-vietminh" x="112.49921011058451" y="776" width="467.02071265578377" height="22"/>
+    <text class="block-label" x="346.0095664384764" y="790.0" text-anchor="middle">First Indochina / Viet Minh</text>
+    <rect class="block-rect block-starlite" x="955.7598736176935" y="776" width="13.754783219238153" height="22"/>
+    <text class="block-label" x="962.6372652273126" y="790.0" text-anchor="middle">Starlite</text>
+    <rect class="block-rect block-ia_drang" x="969.6115499385642" y="776" width="18.60751272599606" height="22"/>
+    <text class="block-label" x="978.9153063015622" y="790.0" text-anchor="middle">Ia Drang</text>
+  </g>
+  <g class="event-group block-vietminh" data-date="1941-05-10" data-tier="0">
+    <rect class="event-box" x="22.499210110584514" y="666" width="180" height="82"/>
+    <line class="event-line" x1="112.49921011058451" y1="800" x2="112.49921011058451" y2="750"/>
+    <circle class="event-dot" cx="112.49921011058451" cy="750" r="3"/>
+    <text class="event-text" x="28.499210110584514" y="683" text-anchor="start">
+      <tspan class="event-date">May 10, 1941 </tspan>
+      <tspan>Viet Nam Doc</tspan>
+    </text>
+    <text class="event-text" x="28.499210110584514" y="697" text-anchor="start">Lap Dong Minh Hoi (Viet</text>
+    <text class="event-text" x="28.499210110584514" y="711" text-anchor="start">Minh) formed by Ho Chi Minh</text>
+    <text class="event-text" x="28.499210110584514" y="725" text-anchor="start">to coordinate resistance</text>
+    <text class="event-text" x="28.499210110584514" y="739" text-anchor="start">activities.</text>
+  </g>
+  <g class="event-group block-vietminh" data-date="1945-09-02" data-tier="0">
+    <rect class="event-box" x="175.198701070739" y="624" width="180" height="82"/>
+    <line class="event-line" x1="265.198701070739" y1="800" x2="265.198701070739" y2="708"/>
+    <circle class="event-dot" cx="265.198701070739" cy="708" r="3"/>
+    <text class="event-text" x="181.198701070739" y="641" text-anchor="start">
+      <tspan class="event-date">Sep 2, 1945 </tspan>
+      <tspan>Japan formally</tspan>
+    </text>
+    <text class="event-text" x="181.198701070739" y="655" text-anchor="start">surrenders to the Allies; Ho</text>
+    <text class="event-text" x="181.198701070739" y="669" text-anchor="start">Chi Minh declares the</text>
+    <text class="event-text" x="181.198701070739" y="683" text-anchor="start">independence of Vietnam in</text>
+    <text class="event-text" x="181.198701070739" y="697" text-anchor="start">Hanoi.</text>
+  </g>
+  <g class="event-group block-vietminh" data-date="1946-12-19" data-tier="2">
+    <rect class="event-box" x="221.03317535545023" y="596" width="180" height="68"/>
+    <line class="event-line" x1="311.0331753554502" y1="800" x2="311.0331753554502" y2="666"/>
+    <circle class="event-dot" cx="311.0331753554502" cy="666" r="3"/>
+    <text class="event-text" x="227.03317535545023" y="613" text-anchor="start">
+      <tspan class="event-date">Dec 19, 1946 </tspan>
+      <tspan>French troops</tspan>
+    </text>
+    <text class="event-text" x="227.03317535545023" y="627" text-anchor="start">oust the Viet Minh from</text>
+    <text class="event-text" x="227.03317535545023" y="641" text-anchor="start">Hanoi; First Indochina War</text>
+    <text class="event-text" x="227.03317535545023" y="655" text-anchor="start">begins.</text>
+  </g>
+  <g class="event-group block-vietminh" data-date="1949-10-01" data-tier="2">
+    <rect class="event-box" x="319.5734597156398" y="568" width="180" height="54"/>
+    <line class="event-line" x1="409.5734597156398" y1="800" x2="409.5734597156398" y2="624"/>
+    <circle class="event-dot" cx="409.5734597156398" cy="624" r="3"/>
+    <text class="event-text" x="325.5734597156398" y="585" text-anchor="start">
+      <tspan class="event-date">Oct 1, 1949 </tspan>
+      <tspan>Mao Tse-tung</tspan>
+    </text>
+    <text class="event-text" x="325.5734597156398" y="599" text-anchor="start">declares the People's</text>
+    <text class="event-text" x="325.5734597156398" y="613" text-anchor="start">Republic of China in Peking.</text>
+  </g>
+  <g class="event-group block-vietminh" data-date="1950-02-27" data-tier="2">
+    <rect class="event-box" x="334.0105318588731" y="512" width="180" height="68"/>
+    <line class="event-line" x1="424.0105318588731" y1="800" x2="424.0105318588731" y2="582"/>
+    <circle class="event-dot" cx="424.0105318588731" cy="582" r="3"/>
+    <text class="event-text" x="340.0105318588731" y="529" text-anchor="start">
+      <tspan class="event-date">Feb 27, 1950 </tspan>
+      <tspan>NSCM 64</tspan>
+    </text>
+    <text class="event-text" x="340.0105318588731" y="543" text-anchor="start">outlines U.S. policy to</text>
+    <text class="event-text" x="340.0105318588731" y="557" text-anchor="start">contain the spread of</text>
+    <text class="event-text" x="340.0105318588731" y="571" text-anchor="start">communism in Southeast Asia.</text>
+  </g>
+  <g class="event-group block-vietminh" data-date="1950-06-25" data-tier="2">
+    <rect class="event-box" x="345.4398806389328" y="456" width="180" height="82"/>
+    <line class="event-line" x1="435.4398806389328" y1="800" x2="435.4398806389328" y2="540"/>
+    <circle class="event-dot" cx="435.4398806389328" cy="540" r="3"/>
+    <text class="event-text" x="351.4398806389328" y="473" text-anchor="start">
+      <tspan class="event-date">Jun 25, 1950 </tspan>
+      <tspan>North Korean</tspan>
+    </text>
+    <text class="event-text" x="351.4398806389328" y="487" text-anchor="start">invasion of South Korea;</text>
+    <text class="event-text" x="351.4398806389328" y="501" text-anchor="start">United Nations troops</text>
+    <text class="event-text" x="351.4398806389328" y="515" text-anchor="start">committed to support the</text>
+    <text class="event-text" x="351.4398806389328" y="529" text-anchor="start">South (war ends July, 1953).</text>
+  </g>
+  <g class="event-group block-vietminh" data-date="1950-08-03" data-tier="2">
+    <rect class="event-box" x="349.21871160259786" y="414" width="180" height="82"/>
+    <line class="event-line" x1="439.21871160259786" y1="800" x2="439.21871160259786" y2="498"/>
+    <circle class="event-dot" cx="439.21871160259786" cy="498" r="3"/>
+    <text class="event-text" x="355.21871160259786" y="431" text-anchor="start">
+      <tspan class="event-date">Aug 3, 1950 </tspan>
+      <tspan>U.S. Military</tspan>
+    </text>
+    <text class="event-text" x="355.21871160259786" y="445" text-anchor="start">Assistance Advisory Group</text>
+    <text class="event-text" x="355.21871160259786" y="459" text-anchor="start">(MAAG) set up in Vietnam to</text>
+    <text class="event-text" x="355.21871160259786" y="473" text-anchor="start">coordinate U.S. aid to the</text>
+    <text class="event-text" x="355.21871160259786" y="487" text-anchor="start">French.</text>
+  </g>
+  <g class="event-group block-vietminh" data-date="1952-11-04" data-tier="2">
+    <rect class="event-box" x="429.06266456029493" y="400" width="180" height="54"/>
+    <line class="event-line" x1="519.0626645602949" y1="800" x2="519.0626645602949" y2="456"/>
+    <circle class="event-dot" cx="519.0626645602949" cy="456" r="3"/>
+    <text class="event-text" x="435.06266456029493" y="417" text-anchor="start">
+      <tspan class="event-date">Nov 4, 1952 </tspan>
+      <tspan>Dwight D.</tspan>
+    </text>
+    <text class="event-text" x="435.06266456029493" y="431" text-anchor="start">Eisenhower elected President</text>
+    <text class="event-text" x="435.06266456029493" y="445" text-anchor="start">of the U.S.</text>
+  </g>
+  <g class="event-group block-vietminh" data-date="1954-05-07" data-tier="0">
+    <rect class="event-box" x="482.25294014393535" y="358" width="180" height="54"/>
+    <line class="event-line" x1="572.2529401439353" y1="800" x2="572.2529401439353" y2="414"/>
+    <circle class="event-dot" cx="572.2529401439353" cy="414" r="3"/>
+    <text class="event-text" x="488.25294014393535" y="375" text-anchor="start">
+      <tspan class="event-date">May 7, 1954 </tspan>
+      <tspan>Dien Bien Phu</tspan>
+    </text>
+    <text class="event-text" x="488.25294014393535" y="389" text-anchor="start">falls to the Viet Minh after</text>
+    <text class="event-text" x="488.25294014393535" y="403" text-anchor="start">a 55-day siege.</text>
+  </g>
+  <g class="event-group block-vietminh" data-date="1954-07-07" data-tier="2">
+    <rect class="event-box" x="488.1634193435141" y="302" width="180" height="68"/>
+    <line class="event-line" x1="578.1634193435141" y1="800" x2="578.1634193435141" y2="372"/>
+    <circle class="event-dot" cx="578.1634193435141" cy="372" r="3"/>
+    <text class="event-text" x="494.1634193435141" y="319" text-anchor="start">
+      <tspan class="event-date">Jul 7, 1954 </tspan>
+      <tspan>Ngo Dinh Diem</tspan>
+    </text>
+    <text class="event-text" x="494.1634193435141" y="333" text-anchor="start">appointed Prime Minister of</text>
+    <text class="event-text" x="494.1634193435141" y="347" text-anchor="start">(South) Vietnam under the</text>
+    <text class="event-text" x="494.1634193435141" y="361" text-anchor="start">Emperor Bao Dai.</text>
+  </g>
+  <g class="event-group block-vietminh" data-date="1954-07-20" data-tier="0">
+    <rect class="event-box" x="489.42302966473585" y="246" width="180" height="82"/>
+    <line class="event-line" x1="579.4230296647359" y1="800" x2="579.4230296647359" y2="330"/>
+    <circle class="event-dot" cx="579.4230296647359" cy="330" r="3"/>
+    <text class="event-text" x="495.42302966473585" y="263" text-anchor="start">
+      <tspan class="event-date">Jul 20, 1954 </tspan>
+      <tspan>Geneva Accords</tspan>
+    </text>
+    <text class="event-text" x="495.42302966473585" y="277" text-anchor="start">grant independence to Laos,</text>
+    <text class="event-text" x="495.42302966473585" y="291" text-anchor="start">Cambodia, and a divided</text>
+    <text class="event-text" x="495.42302966473585" y="305" text-anchor="start">Vietnam; First Indochina War</text>
+    <text class="event-text" x="495.42302966473585" y="319" text-anchor="start">ends.</text>
+  </g>
+  <g class="event-group block-starlite" data-date="1965-03-08" data-tier="0">
+    <rect class="event-box" x="865.7598736176935" y="218" width="180" height="68"/>
+    <line class="event-line" x1="955.7598736176935" y1="800" x2="955.7598736176935" y2="288"/>
+    <circle class="event-dot" cx="955.7598736176935" cy="288" r="3"/>
+    <text class="event-text" x="871.7598736176935" y="235" text-anchor="start">
+      <tspan class="event-date">Mar 8, 1965 </tspan>
+      <tspan>U.S. Marines go</tspan>
+    </text>
+    <text class="event-text" x="871.7598736176935" y="249" text-anchor="start">ashore at Da Nang: the first</text>
+    <text class="event-text" x="871.7598736176935" y="263" text-anchor="start">Marine combat ground troops</text>
+    <text class="event-text" x="871.7598736176935" y="277" text-anchor="start">to be deployed to Vietnam.</text>
+  </g>
+  <g class="event-group block-starlite" data-date="1965-04-01" data-tier="2">
+    <rect class="event-box" x="868.085308056872" y="666" width="180" height="82"/>
+    <line class="event-line" x1="958.085308056872" y1="800" x2="958.085308056872" y2="750"/>
+    <circle class="event-dot" cx="958.085308056872" cy="750" r="3"/>
+    <text class="event-text" x="874.085308056872" y="683" text-anchor="start">
+      <tspan class="event-date">Apr 1, 1965 </tspan>
+      <tspan>General</tspan>
+    </text>
+    <text class="event-text" x="874.085308056872" y="697" text-anchor="start">Westmoreland persuades</text>
+    <text class="event-text" x="874.085308056872" y="711" text-anchor="start">President Johnson to</text>
+    <text class="event-text" x="874.085308056872" y="725" text-anchor="start">increase U.S. force levels</text>
+    <text class="event-text" x="874.085308056872" y="739" text-anchor="start">in Vietnam to 33,000 men.</text>
+  </g>
+  <g class="event-group block-starlite" data-date="1965-04-22" data-tier="2">
+    <rect class="event-box" x="870.1200631911532" y="638" width="180" height="68"/>
+    <line class="event-line" x1="960.1200631911532" y1="800" x2="960.1200631911532" y2="708"/>
+    <circle class="event-dot" cx="960.1200631911532" cy="708" r="3"/>
+    <text class="event-text" x="876.1200631911532" y="655" text-anchor="start">
+      <tspan class="event-date">Apr 22, 1965 </tspan>
+      <tspan>First clash</tspan>
+    </text>
+    <text class="event-text" x="876.1200631911532" y="669" text-anchor="start">between U.S. Marine ground</text>
+    <text class="event-text" x="876.1200631911532" y="683" text-anchor="start">troops and VC guerrillas, at</text>
+    <text class="event-text" x="876.1200631911532" y="697" text-anchor="start">Binh Thai.</text>
+  </g>
+  <g class="event-group block-starlite" data-date="1965-04-24" data-tier="2">
+    <rect class="event-box" x="870.3138493944181" y="596" width="180" height="68"/>
+    <line class="event-line" x1="960.3138493944181" y1="800" x2="960.3138493944181" y2="666"/>
+    <circle class="event-dot" cx="960.3138493944181" cy="666" r="3"/>
+    <text class="event-text" x="876.3138493944181" y="613" text-anchor="start">
+      <tspan class="event-date">Apr 24, 1965 </tspan>
+      <tspan>Johnson</tspan>
+    </text>
+    <text class="event-text" x="876.3138493944181" y="627" text-anchor="start">officially designates</text>
+    <text class="event-text" x="876.3138493944181" y="641" text-anchor="start">Vietnam a "combat zone" for</text>
+    <text class="event-text" x="876.3138493944181" y="655" text-anchor="start">U.S. forces.</text>
+  </g>
+  <g class="event-group block-starlite" data-date="1965-05-07" data-tier="2">
+    <rect class="event-box" x="871.5694225030718" y="568" width="180" height="54"/>
+    <line class="event-line" x1="961.5694225030718" y1="800" x2="961.5694225030718" y2="624"/>
+    <circle class="event-dot" cx="961.5694225030718" cy="624" r="3"/>
+    <text class="event-text" x="877.5694225030718" y="585" text-anchor="start">
+      <tspan class="event-date">May 7, 1965 </tspan>
+      <tspan>3,500 men of the</tspan>
+    </text>
+    <text class="event-text" x="877.5694225030718" y="599" text-anchor="start">173d Airborne Brigade arrive</text>
+    <text class="event-text" x="877.5694225030718" y="613" text-anchor="start">in Bien Hoa.</text>
+  </g>
+  <g class="event-group block-starlite" data-date="1965-06-10" data-tier="2">
+    <rect class="event-box" x="874.8637879585747" y="498" width="180" height="82"/>
+    <line class="event-line" x1="964.8637879585747" y1="800" x2="964.8637879585747" y2="582"/>
+    <circle class="event-dot" cx="964.8637879585747" cy="582" r="3"/>
+    <text class="event-text" x="880.8637879585747" y="515" text-anchor="start">
+      <tspan class="event-date">Jun 10, 1965 </tspan>
+      <tspan>Battle between</tspan>
+    </text>
+    <text class="event-text" x="880.8637879585747" y="529" text-anchor="start">Army Special Forces, U.S.</text>
+    <text class="event-text" x="880.8637879585747" y="543" text-anchor="start">sailors, native mercenaries</text>
+    <text class="event-text" x="880.8637879585747" y="557" text-anchor="start">and VC at Dong Xoai; U.S.</text>
+    <text class="event-text" x="880.8637879585747" y="571" text-anchor="start">airpower crucial.</text>
+  </g>
+  <g class="event-group block-starlite" data-date="1965-06-18" data-tier="2">
+    <rect class="event-box" x="875.6389327716342" y="484" width="180" height="54"/>
+    <line class="event-line" x1="965.6389327716342" y1="800" x2="965.6389327716342" y2="540"/>
+    <circle class="event-dot" cx="965.6389327716342" cy="540" r="3"/>
+    <text class="event-text" x="881.6389327716342" y="501" text-anchor="start">
+      <tspan class="event-date">Jun 18, 1965 </tspan>
+      <tspan>Air Marshal</tspan>
+    </text>
+    <text class="event-text" x="881.6389327716342" y="515" text-anchor="start">Nguyen Cao Ky appointed</text>
+    <text class="event-text" x="881.6389327716342" y="529" text-anchor="start">premier of South Vietnam.</text>
+  </g>
+  <g class="event-group block-starlite" data-date="1965-07-01" data-tier="2">
+    <rect class="event-box" x="876.8985430928559" y="442" width="180" height="54"/>
+    <line class="event-line" x1="966.8985430928559" y1="800" x2="966.8985430928559" y2="498"/>
+    <circle class="event-dot" cx="966.8985430928559" cy="498" r="3"/>
+    <text class="event-text" x="882.8985430928559" y="459" text-anchor="start">
+      <tspan class="event-date">Jul 1, 1965 </tspan>
+      <tspan>U.S. Marines</tspan>
+    </text>
+    <text class="event-text" x="882.8985430928559" y="473" text-anchor="start">land at Qui Nhon in Binh</text>
+    <text class="event-text" x="882.8985430928559" y="487" text-anchor="start">Dinh province.</text>
+  </g>
+  <g class="event-group block-starlite" data-date="1965-07-12" data-tier="2">
+    <rect class="event-box" x="877.9643672108127" y="372" width="180" height="82"/>
+    <line class="event-line" x1="967.9643672108127" y1="800" x2="967.9643672108127" y2="456"/>
+    <circle class="event-dot" cx="967.9643672108127" cy="456" r="3"/>
+    <text class="event-text" x="883.9643672108127" y="389" text-anchor="start">
+      <tspan class="event-date">Jul 12, 1965 </tspan>
+      <tspan>U.S. Marine</tspan>
+    </text>
+    <text class="event-text" x="883.9643672108127" y="403" text-anchor="start">Lieutenant Frank S. Reasoner</text>
+    <text class="event-text" x="883.9643672108127" y="417" text-anchor="start">killed in action; later</text>
+    <text class="event-text" x="883.9643672108127" y="431" text-anchor="start">awarded the first Medal of</text>
+    <text class="event-text" x="883.9643672108127" y="445" text-anchor="start">Honor of the Vietnam War.</text>
+  </g>
+  <g class="event-group block-starlite" data-date="1965-07-28" data-tier="2">
+    <rect class="event-box" x="879.5146568369317" y="330" width="180" height="82"/>
+    <line class="event-line" x1="969.5146568369317" y1="800" x2="969.5146568369317" y2="414"/>
+    <circle class="event-dot" cx="969.5146568369317" cy="414" r="3"/>
+    <text class="event-text" x="885.5146568369317" y="347" text-anchor="start">
+      <tspan class="event-date">Jul 28, 1965 </tspan>
+      <tspan>Johnson</tspan>
+    </text>
+    <text class="event-text" x="885.5146568369317" y="361" text-anchor="start">promises to increase U.S.</text>
+    <text class="event-text" x="885.5146568369317" y="375" text-anchor="start">force levels in Vietnam to</text>
+    <text class="event-text" x="885.5146568369317" y="389" text-anchor="start">125,000 men (confirmed at</text>
+    <text class="event-text" x="885.5146568369317" y="403" text-anchor="start">Honolulu, early August).</text>
+  </g>
+  <g class="event-group block-ia_drang" data-date="1965-07-29" data-tier="2">
+    <rect class="event-box" x="879.6115499385642" y="302" width="180" height="68"/>
+    <line class="event-line" x1="969.6115499385642" y1="800" x2="969.6115499385642" y2="372"/>
+    <circle class="event-dot" cx="969.6115499385642" cy="372" r="3"/>
+    <text class="event-text" x="885.6115499385642" y="319" text-anchor="start">
+      <tspan class="event-date">Jul 29, 1965 </tspan>
+      <tspan>1st Brigade,</tspan>
+    </text>
+    <text class="event-text" x="885.6115499385642" y="333" text-anchor="start">101st Airborne Division</text>
+    <text class="event-text" x="885.6115499385642" y="347" text-anchor="start">(Separate) arrives at Cam</text>
+    <text class="event-text" x="885.6115499385642" y="361" text-anchor="start">Ranh.</text>
+  </g>
+  <g class="event-group block-ia_drang" data-date="1965-09-14" data-tier="2">
+    <rect class="event-box" x="884.1655257152887" y="274" width="180" height="54"/>
+    <line class="event-line" x1="974.1655257152887" y1="800" x2="974.1655257152887" y2="330"/>
+    <circle class="event-dot" cx="974.1655257152887" cy="330" r="3"/>
+    <text class="event-text" x="890.1655257152887" y="291" text-anchor="start">
+      <tspan class="event-date">Sep 14, 1965 </tspan>
+      <tspan>1st Cavalry</tspan>
+    </text>
+    <text class="event-text" x="890.1655257152887" y="305" text-anchor="start">Division (Airmobile) arrives</text>
+    <text class="event-text" x="890.1655257152887" y="319" text-anchor="start">at An Khe.</text>
+  </g>
+  <g class="event-group block-ia_drang" data-date="1965-10-15" data-tier="2">
+    <rect class="event-box" x="887.1692118658943" y="204" width="180" height="82"/>
+    <line class="event-line" x1="977.1692118658943" y1="800" x2="977.1692118658943" y2="288"/>
+    <circle class="event-dot" cx="977.1692118658943" cy="288" r="3"/>
+    <text class="event-text" x="893.1692118658943" y="221" text-anchor="start">
+      <tspan class="event-date">Oct 15, 1965 </tspan>
+      <tspan>At a protest</tspan>
+    </text>
+    <text class="event-text" x="893.1692118658943" y="235" text-anchor="start">rally in the U.S., David</text>
+    <text class="event-text" x="893.1692118658943" y="249" text-anchor="start">Millar becomes the first man</text>
+    <text class="event-text" x="893.1692118658943" y="263" text-anchor="start">to burn his draft card. He</text>
+    <text class="event-text" x="893.1692118658943" y="277" text-anchor="start">is arrested.</text>
+  </g>
+  <g class="event-group block-ia_drang" data-date="1965-10-15" data-tier="2">
+    <rect class="event-box" x="887.1692118658943" y="666" width="180" height="82"/>
+    <line class="event-line" x1="977.1692118658943" y1="800" x2="977.1692118658943" y2="750"/>
+    <circle class="event-dot" cx="977.1692118658943" cy="750" r="3"/>
+    <text class="event-text" x="893.1692118658943" y="683" text-anchor="start">
+      <tspan class="event-date">Oct 15, 1965 </tspan>
+      <tspan>Relatively</tspan>
+    </text>
+    <text class="event-text" x="893.1692118658943" y="697" text-anchor="start">minor antiwar protests held</text>
+    <text class="event-text" x="893.1692118658943" y="711" text-anchor="start">in over 40 U.S. cities and</text>
+    <text class="event-text" x="893.1692118658943" y="725" text-anchor="start">various western European</text>
+    <text class="event-text" x="893.1692118658943" y="739" text-anchor="start">capitals.</text>
+  </g>
+  <g class="event-group block-ia_drang" data-date="1965-10-20" data-tier="2">
+    <rect class="event-box" x="887.6536773740565" y="652" width="180" height="54"/>
+    <line class="event-line" x1="977.6536773740565" y1="800" x2="977.6536773740565" y2="708"/>
+    <circle class="event-dot" cx="977.6536773740565" cy="708" r="3"/>
+    <text class="event-text" x="893.6536773740565" y="669" text-anchor="start">
+      <tspan class="event-date">Oct 20, 1965 </tspan>
+      <tspan>NVA attack on</tspan>
+    </text>
+    <text class="event-text" x="893.6536773740565" y="683" text-anchor="start">Plei Me Special Forces camp,</text>
+    <text class="event-text" x="893.6536773740565" y="697" text-anchor="start">Central Highlands.</text>
+  </g>
+  <g class="event-group block-ia_drang" data-date="1965-11-14" data-tier="0">
+    <rect class="event-box" x="890.0800421274355" y="610" width="180" height="54"/>
+    <line class="event-line" x1="980.0800421274355" y1="800" x2="980.0800421274355" y2="666"/>
+    <circle class="event-dot" cx="980.0800421274355" cy="666" r="3"/>
+    <text class="event-text" x="896.0800421274355" y="627" text-anchor="start">
+      <tspan class="event-date">Nov 14, 1965 </tspan>
+      <tspan>1/7th Cavalry</tspan>
+    </text>
+    <text class="event-text" x="896.0800421274355" y="641" text-anchor="start">assault LZ X-Ray, Ia Drang</text>
+    <text class="event-text" x="896.0800421274355" y="655" text-anchor="start">valley.</text>
+  </g>
+  <g class="event-group block-ia_drang" data-date="1965-11-27" data-tier="2">
+    <rect class="event-box" x="891.3396524486573" y="554" width="180" height="68"/>
+    <line class="event-line" x1="981.3396524486573" y1="800" x2="981.3396524486573" y2="624"/>
+    <circle class="event-dot" cx="981.3396524486573" cy="624" r="3"/>
+    <text class="event-text" x="897.3396524486573" y="571" text-anchor="start">
+      <tspan class="event-date">Nov 27, 1965 </tspan>
+      <tspan>Pentagon calls</tspan>
+    </text>
+    <text class="event-text" x="897.3396524486573" y="585" text-anchor="start">for a troop buildup in</text>
+    <text class="event-text" x="897.3396524486573" y="599" text-anchor="start">Vietnam in 1966 to nearly</text>
+    <text class="event-text" x="897.3396524486573" y="613" text-anchor="start">400,000 men.</text>
+  </g>
+  <g class="event-group block-ia_drang" data-date="1965-12-25" data-tier="2">
+    <rect class="event-box" x="894.0526592943655" y="484" width="180" height="96"/>
+    <line class="event-line" x1="984.0526592943655" y1="800" x2="984.0526592943655" y2="582"/>
+    <circle class="event-dot" cx="984.0526592943655" cy="582" r="3"/>
+    <text class="event-text" x="900.0526592943655" y="501" text-anchor="start">
+      <tspan class="event-date">Dec 25, 1965 </tspan>
+      <tspan>President</tspan>
+    </text>
+    <text class="event-text" x="900.0526592943655" y="515" text-anchor="start">Johnson suspends Rolling</text>
+    <text class="event-text" x="900.0526592943655" y="529" text-anchor="start">Thunder air attacks on the</text>
+    <text class="event-text" x="900.0526592943655" y="543" text-anchor="start">North to induce</text>
+    <text class="event-text" x="900.0526592943655" y="557" text-anchor="start">negotiations. Bombing</text>
+    <text class="event-text" x="900.0526592943655" y="571" text-anchor="start">resumes January 31, 1966.</text>
+  </g>
+  <g class="event-group block-ia_drang" data-date="1966-01-19" data-tier="2">
+    <rect class="event-box" x="896.4749868351764" y="470" width="180" height="68"/>
+    <line class="event-line" x1="986.4749868351764" y1="800" x2="986.4749868351764" y2="540"/>
+    <circle class="event-dot" cx="986.4749868351764" cy="540" r="3"/>
+    <text class="event-text" x="902.4749868351764" y="487" text-anchor="start">
+      <tspan class="event-date">Jan 19, 1966 </tspan>
+      <tspan>President</tspan>
+    </text>
+    <text class="event-text" x="902.4749868351764" y="501" text-anchor="start">Johnson asks Congress for an</text>
+    <text class="event-text" x="902.4749868351764" y="515" text-anchor="start">additional $12.8 billion for</text>
+    <text class="event-text" x="902.4749868351764" y="529" text-anchor="start">the war in Vietnam.</text>
+  </g>
+  <g class="event-group block-ia_drang" data-date="1966-01-24" data-tier="2">
+    <rect class="event-box" x="896.9594523433386" y="442" width="180" height="54"/>
+    <line class="event-line" x1="986.9594523433386" y1="800" x2="986.9594523433386" y2="498"/>
+    <circle class="event-dot" cx="986.9594523433386" cy="498" r="3"/>
+    <text class="event-text" x="902.9594523433386" y="459" text-anchor="start">
+      <tspan class="event-date">Jan 24, 1966 </tspan>
+      <tspan>Operation</tspan>
+    </text>
+    <text class="event-text" x="902.9594523433386" y="473" text-anchor="start">Masher/White Wing begins in</text>
+    <text class="event-text" x="902.9594523433386" y="487" text-anchor="start">IICTZ (ends March 6).</text>
+  </g>
+  <g class="event-group block-ia_drang" data-date="1966-02-06" data-tier="2">
+    <rect class="event-box" x="898.2190626645603" y="386" width="180" height="68"/>
+    <line class="event-line" x1="988.2190626645603" y1="800" x2="988.2190626645603" y2="456"/>
+    <circle class="event-dot" cx="988.2190626645603" cy="456" r="3"/>
+    <text class="event-text" x="904.2190626645603" y="403" text-anchor="start">
+      <tspan class="event-date">Feb 6, 1966 </tspan>
+      <tspan>Honolulu</tspan>
+    </text>
+    <text class="event-text" x="904.2190626645603" y="417" text-anchor="start">Conference: President</text>
+    <text class="event-text" x="904.2190626645603" y="431" text-anchor="start">Johnson reaffirms U.S.</text>
+    <text class="event-text" x="904.2190626645603" y="445" text-anchor="start">support to South Vietnam.</text>
+  </g>
+  <script><![CDATA[(function() {
+  var svg = document.querySelector('svg');
+  var viewBox = { x: 0, y: 0, width: 1100, height: 850 };
+  var isDragging = false;
+  var dragStart = { x: 0, y: 0 };
+  var dragViewBox = { x: 0, y: 0, width: 0, height: 0 };
+  var timelineStart = new Date('1941-01-01');
+  var timelineEnd = new Date('1966-12-31');
+  var timelineDays = (timelineEnd - timelineStart) / (1000 * 60 * 60 * 24);
+  var axisXMin = 100;
+  var axisLen = 920;
+  
+  // Tier max spans (days): 0=30y, 1=5y, 2=1y, 3=30d
+  var tierMaxSpanDays = {
+    0: 30 * 365,
+    1: 5 * 365,
+    2: 365,
+    3: 30
+  };
+  
+  function updateViewBox() {
+    svg.setAttribute('viewBox', viewBox.x + ' ' + viewBox.y + ' ' + viewBox.width + ' ' + viewBox.height);
+    updateLOD();
+  }
+  
+  function updateLOD() {
+    // Calculate visible time span from viewBox
+    // Map viewBox x range to timeline x range
+    var viewBoxXMin = viewBox.x;
+    var viewBoxXMax = viewBox.x + viewBox.width;
+    var viewBoxWidth = viewBox.width;
+    
+    // Convert viewBox x to timeline x (accounting for margins)
+    var timelineXMin = Math.max(0, viewBoxXMin - axisXMin);
+    var timelineXMax = Math.min(axisLen, viewBoxXMax - axisXMin);
+    var visibleTimelineLen = timelineXMax - timelineXMin;
+    
+    // Convert timeline x to date
+    var t1 = timelineXMin / axisLen;
+    var t2 = timelineXMax / axisLen;
+    var visibleStart = new Date(timelineStart.getTime() + t1 * timelineDays * 24 * 60 * 60 * 1000);
+    var visibleEnd = new Date(timelineStart.getTime() + t2 * timelineDays * 24 * 60 * 60 * 1000);
+    var visibleSpanDays = (visibleEnd - visibleStart) / (1000 * 60 * 60 * 24);
+    
+    // Show/hide events based on tier and visible span
+    var events = document.querySelectorAll('.event-group');
+    events.forEach(function(ev) {
+      var tier = parseInt(ev.getAttribute('data-tier') || '2');
+      var maxSpan = tierMaxSpanDays[tier] || tierMaxSpanDays[2];
+      var eventDate = new Date(ev.getAttribute('data-date'));
+      
+      // Show if: event is in visible range AND visible span <= tier's max span
+      var inRange = eventDate >= visibleStart && eventDate <= visibleEnd;
+      var spanOK = visibleSpanDays <= maxSpan;
+      
+      if (inRange && spanOK) {
+        ev.classList.remove('hidden');
+      } else {
+        ev.classList.add('hidden');
+      }
+    });
+  }
+  
+  // Zoom functions
+  function zoom(factor, centerX, centerY) {
+    var newWidth = viewBox.width * factor;
+    var newHeight = viewBox.height * factor;
+    var newX = centerX - (centerX - viewBox.x) * factor;
+    var newY = centerY - (centerY - viewBox.y) * factor;
+    
+    // Clamp to bounds
+    newWidth = Math.max(100, Math.min(1100, newWidth));
+    newHeight = Math.max(100, Math.min(850, newHeight));
+    newX = Math.max(0, Math.min(1100 - newWidth, newX));
+    newY = Math.max(0, Math.min(850 - newHeight, newY));
+    
+    viewBox.width = newWidth;
+    viewBox.height = newHeight;
+    viewBox.x = newX;
+    viewBox.y = newY;
+    updateViewBox();
+  }
+  
+  function zoomToRange(startDate, endDate) {
+    var t1 = (startDate - timelineStart) / (timelineDays * 24 * 60 * 60 * 1000);
+    var t2 = (endDate - timelineStart) / (timelineDays * 24 * 60 * 60 * 1000);
+    var x1 = axisXMin + t1 * axisLen;
+    var x2 = axisXMin + t2 * axisLen;
+    
+    // Add padding
+    var padding = 50;
+    viewBox.x = Math.max(0, x1 - padding);
+    viewBox.width = Math.min(1100, x2 - x1 + 2 * padding);
+    viewBox.y = 0;
+    viewBox.height = 850;
+    updateViewBox();
+  }
+  
+  // Mouse wheel zoom
+  svg.addEventListener('wheel', function(e) {
+    e.preventDefault();
+    var rect = svg.getBoundingClientRect();
+    var x = (e.clientX - rect.left) * (1100 / rect.width);
+    var y = (e.clientY - rect.top) * (850 / rect.height);
+    var factor = e.deltaY > 0 ? 1.2 : 1/1.2;
+    zoom(factor, x, y);
+  });
+  
+  // Drag to pan
+  svg.addEventListener('mousedown', function(e) {
+    if (e.target.closest('.zoom-btn')) return;
+    isDragging = true;
+    dragStart.x = e.clientX;
+    dragStart.y = e.clientY;
+    dragViewBox.x = viewBox.x;
+    dragViewBox.y = viewBox.y;
+  });
+  
+  svg.addEventListener('mousemove', function(e) {
+    if (!isDragging) return;
+    var dx = (e.clientX - dragStart.x) * (viewBox.width / svg.getBoundingClientRect().width);
+    var dy = (e.clientY - dragStart.y) * (viewBox.height / svg.getBoundingClientRect().height);
+    viewBox.x = Math.max(0, Math.min(1100 - viewBox.width, dragViewBox.x - dx));
+    viewBox.y = Math.max(0, Math.min(850 - viewBox.height, dragViewBox.y - dy));
+    updateViewBox();
+  });
+  
+  svg.addEventListener('mouseup', function() { isDragging = false; });
+  svg.addEventListener('mouseleave', function() { isDragging = false; });
+  
+  // Button controls
+  document.getElementById('zoom-in').addEventListener('click', function() {
+    zoom(0.7, 550, 425);
+  });
+  
+  document.getElementById('zoom-out').addEventListener('click', function() {
+    zoom(1/0.7, 550, 425);
+  });
+  
+  document.getElementById('zoom-reset').addEventListener('click', function() {
+    viewBox = { x: 0, y: 0, width: 1100, height: 850 };
+    updateViewBox();
+  });
+  
+  // Initial LOD update
+  updateLOD();
+})();
+]]></script>
+  <script><![CDATA[var groups = document.querySelectorAll('.event-group');
+groups.forEach(function(g) {
+  g.addEventListener('mouseenter', function() {
+    groups.forEach(function(other) { other.classList.remove('hovered'); });
+    this.classList.add('hovered');
+    this.parentNode.appendChild(this);
+  });
+  g.addEventListener('mouseleave', function() { this.classList.remove('hovered'); });
+});
+]]></script>
+</svg>

@@ -10,6 +10,7 @@ the_war_years:
   - date: "Oct. 20, 1965"
     event: "NVA attack on Plei Me Special Forces camp, Central Highlands."
   - date: "Nov. 14, 1965"
+    tier: 0
     event: "1/7th Cavalry assault LZ X-Ray, Ia Drang valley."
   - date: "Nov. 27, 1965"
     event: "Pentagon calls for a troop buildup in Vietnam in 1966 to nearly 400,000 men."

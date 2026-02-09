@@ -1,6 +1,10 @@
 # Time-range blocks for LOD: when zoomed out, show as one unit (e.g. "Ia Drang").
 # start/end: YYYY-MM-DD. Optional event_source for future use.
 blocks:
+  - id: vietminh
+    start: "1941-05-10"
+    end: "1954-07-21"
+    label: "First Indochina / Viet Minh"
   - id: starlite
     start: "1965-03-08"
     end: "1965-07-28"

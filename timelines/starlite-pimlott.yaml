@@ -1,5 +1,6 @@
 the_war_years:
   - date: "March 8, 1965"
+    tier: 0
     event: "U.S. Marines go ashore at Da Nang: the first Marine combat ground troops to be deployed to Vietnam."
   - date: "April 1, 1965"
     event: "General Westmoreland persuades President Johnson to increase U.S. force levels in Vietnam to 33,000 men."

@@ -73,13 +73,24 @@ require "nokogiri"
 # Letter landscape: 11" x 8.5"; viewBox 1100×850.
 WIDTH  = 1100
 HEIGHT = 850
-START_YEAR = 1965
-END_YEAR   = 1966  # timeline spans exactly 2 years (1965–1966)
+START_YEAR = 1941
+END_YEAR   = 1966  # full span: Viet Minh formation through Ia Drang period
+VIETMINH_FILE = File.join(__dir__, "vietminh-timeline.yaml")
 DATA_FILE    = File.join(__dir__, "ia-drang-pimlott.yaml")
 STARLITE_FILE = File.join(__dir__, "starlite-pimlott.yaml")
 BLOCKS_FILE  = File.join(__dir__, "blocks.yaml")
-OUTPUT_FILE  = File.join(__dir__, "ia-drang-timeline.svg")
+OUTPUT_FILE  = File.join(__dir__, "indochina-timeline.svg")
 DEFAULT_TIER = 2  # LOD: show at month/day zoom; 0=overview, 1=year, 2=month, 3=day
+
+# LOD: show event only when visible time span is at most this many days (zoomed out = large span).
+# Tier 0 = overview (show when span ≤ 30y); tier 1 = year (≤5y); tier 2 = month (≤1y); tier 3 = day (≤1 month).
+# So at 25y span only tier-0 events appear; zooming in reveals more.
+TIER_MAX_SPAN_DAYS = {
+  0 => 30 * 365,
+  1 => 5 * 365,
+  2 => 365,
+  3 => 30
+}.freeze
 
 # --- Events: YAML → array of { date:, label: } -------------------------------
 # Supports YAML with top-level key "the_war_years" or "timeline" (array of
@@ -189,7 +200,7 @@ end
 # Single place for margins, axis position, event row spacing. SVG y increases
 # downward; "above" the axis means smaller y. Axis at bottom so events fit.
 def svg_layout
-  margin_left   = 80
+  margin_left   = 100   # enough room for leftmost event box (Vietminh) so it isn’t clipped
   margin_right  = 80
   margin_bottom = 50   # space below axis (ticks + year labels)
   axis_y        = HEIGHT - margin_bottom
@@ -210,7 +221,7 @@ end
 # Styles for axis, ticks, event box (default + hover/hovered), text. Timeline
 # axis group gets pointer-events: none later so it doesn’t steal hover.
 def add_title_and_style(xml)
-  xml.title { xml.text "Vietnam War Timeline — Ia Drang (1965–1966)" }
+  xml.title { xml.text "Indochina Timeline (1941–1966) — Viet Minh, Starlite, Ia Drang" }
   xml.style do
     xml.cdata <<~CSS
       .axis { stroke: #333; stroke-width: 1; fill: none; }
@@ -237,7 +248,15 @@ def add_title_and_style(xml)
       .block-rect { fill: #d4e4f0; stroke: #6a9fb5; stroke-width: 0.75; }
       .block-starlite { fill: #d4e4f0; stroke: #6a9fb5; }
       .block-ia_drang { fill: #e8ddd0; stroke: #8a7566; }
+      .block-vietminh { fill: #d8e6d8; stroke: #5a7a5a; }
       .block-label { font-family: Georgia, serif; font-size: 11px; fill: #2a4a5a; font-weight: bold; }
+      .event-group.block-vietminh .event-box { fill: #e8f0e8; stroke: #5a7a5a; }
+      .event-group.block-vietminh:hover .event-box,
+      .event-group.block-vietminh.hovered .event-box { fill: #b8d0b8; stroke: #3a5a3a; stroke-width: 1; }
+      .event-group.hidden { display: none; }
+      .zoom-controls { font-family: Arial, sans-serif; font-size: 12px; }
+      .zoom-btn { cursor: pointer; fill: #666; }
+      .zoom-btn:hover { fill: #333; }
     CSS
   end
 end
@@ -293,9 +312,14 @@ def add_timeline_axis(xml, layout, start_date, end_date)
     "x2" => layout[:axis_x_max], "y2" => axis_y
   )
 
-  # Year ticks (long) and labels — at start of each year so each year gets equal visual span
-  # Axis runs Jan 1 1965 .. Dec 31 1966 (2 years); 1965 and 1966 at Jan 1 so right half = 1966, end = Dec 31 1966
-  (START_YEAR..END_YEAR).each do |year|
+  # Year ticks: when span > 10 years, use every 5 years to avoid crowding
+  span_years = END_YEAR - START_YEAR + 1
+  year_ticks = if span_years > 10
+    (START_YEAR..END_YEAR).select { |y| (y - START_YEAR) % 5 == 0 }
+  else
+    (START_YEAR..END_YEAR).to_a
+  end
+  year_ticks.each do |year|
     d = Date.new(year, 1, 1)
     t = date_to_x(d, axis_start, axis_end)
     x = axis_x_min + t * axis_len
@@ -306,14 +330,19 @@ def add_timeline_axis(xml, layout, start_date, end_date)
     )
     xml.text_("class" => "year-label", "x" => x, "y" => axis_y + 28, "text-anchor" => "middle") { xml.text year }
   end
-  # Right-end tick: end of 1966, labeled 1967 (traditional: end of year shows next year)
+  # Right-end tick: end of last year, labeled next year (traditional)
   t_end = date_to_x(axis_end, axis_start, axis_end)
   x_end = axis_x_min + t_end * axis_len
   xml.line("class" => "tick", "x1" => x_end, "y1" => axis_y, "x2" => x_end, "y2" => axis_y + 8)
   xml.text_("class" => "year-label", "x" => x_end, "y" => axis_y + 28, "text-anchor" => "middle") { xml.text END_YEAR + 1 }
 
-  # Month ticks (short) and labels — April, July, October for 1965 and 1966 only
-  (START_YEAR..END_YEAR).each do |year|
+  # Month ticks (short): only for recent years when span is long, to keep right side readable
+  month_tick_years = if span_years > 10
+    [END_YEAR - 2, END_YEAR - 1, END_YEAR].select { |y| y >= START_YEAR }.uniq
+  else
+    (START_YEAR..END_YEAR).to_a
+  end
+  month_tick_years.each do |year|
     MONTH_TICKS.each do |month, label|
       d = Date.new(year, month, 1)
       t = date_to_x(d, axis_start, axis_end)
@@ -336,6 +365,7 @@ end
 # left-aligned. box_top_y places the box above the dot when events_above.
 # If blocks are provided, events whose date falls in a block get class block-<id>
 # so their box fill matches that block (lighter default, darker on hover).
+# All events are included in the SVG; JavaScript handles LOD filtering based on visible viewBox.
 def add_events(xml, events, layout, start_date, end_date, blocks = [])
   axis_x_min   = layout[:axis_x_min]
   axis_len     = layout[:axis_len]
@@ -372,7 +402,8 @@ def add_events(xml, events, layout, start_date, end_date, blocks = [])
     end
 
     group_class = "event-group" + (block_id ? " block-#{block_id}" : "")
-    xml.g("class" => group_class) do
+    tier = [[ev[:tier].to_i, 0].max, 3].min
+    xml.g("class" => group_class, "data-date" => ev[:date].iso8601, "data-tier" => tier.to_s) do
       xml.rect(
         "class" => "event-box",
         "x" => x - half, "y" => box_top_y,
@@ -440,6 +471,178 @@ def add_blocks(xml, blocks, layout, start_date, end_date)
   end
 end
 
+# --- SVG: zoom controls ------------------------------------------------------
+# Buttons for zoom in, zoom out, reset to full view
+def add_zoom_controls(xml)
+  xml.g("class" => "zoom-controls") do
+    # Zoom in button
+    xml.rect("class" => "zoom-btn", "id" => "zoom-in", "x" => 10, "y" => 10, "width" => 60, "height" => 24, "rx" => 4, "fill" => "#e0e0e0", "stroke" => "#999")
+    xml.text("x" => 40, "y" => 26, "text-anchor" => "middle", "fill" => "#333", "font-size" => "12px") { xml.text "Zoom In" }
+    # Zoom out button
+    xml.rect("class" => "zoom-btn", "id" => "zoom-out", "x" => 80, "y" => 10, "width" => 60, "height" => 24, "rx" => 4, "fill" => "#e0e0e0", "stroke" => "#999")
+    xml.text("x" => 110, "y" => 26, "text-anchor" => "middle", "fill" => "#333", "font-size" => "12px") { xml.text "Zoom Out" }
+    # Reset button
+    xml.rect("class" => "zoom-btn", "id" => "zoom-reset", "x" => 150, "y" => 10, "width" => 60, "height" => 24, "rx" => 4, "fill" => "#e0e0e0", "stroke" => "#999")
+    xml.text("x" => 180, "y" => 26, "text-anchor" => "middle", "fill" => "#333", "font-size" => "12px") { xml.text "Reset" }
+  end
+end
+
+# --- SVG: zoom and LOD script -------------------------------------------------
+# Interactive zoom/pan: mouse wheel zooms, drag pans. LOD: show/hide events based on visible time span.
+def add_zoom_and_lod_script(xml, start_date, end_date)
+  xml.script do
+    xml.cdata <<~JS
+      (function() {
+        var svg = document.querySelector('svg');
+        var viewBox = { x: 0, y: 0, width: #{WIDTH}, height: #{HEIGHT} };
+        var isDragging = false;
+        var dragStart = { x: 0, y: 0 };
+        var dragViewBox = { x: 0, y: 0, width: 0, height: 0 };
+        var timelineStart = new Date('#{start_date.iso8601}');
+        var timelineEnd = new Date('#{end_date.iso8601}');
+        var timelineDays = (timelineEnd - timelineStart) / (1000 * 60 * 60 * 24);
+        var axisXMin = #{svg_layout[:axis_x_min]};
+        var axisLen = #{svg_layout[:axis_len]};
+        
+        // Tier max spans (days): 0=30y, 1=5y, 2=1y, 3=30d
+        var tierMaxSpanDays = {
+          0: 30 * 365,
+          1: 5 * 365,
+          2: 365,
+          3: 30
+        };
+        
+        function updateViewBox() {
+          svg.setAttribute('viewBox', viewBox.x + ' ' + viewBox.y + ' ' + viewBox.width + ' ' + viewBox.height);
+          updateLOD();
+        }
+        
+        function updateLOD() {
+          // Calculate visible time span from viewBox
+          // Map viewBox x range to timeline x range
+          var viewBoxXMin = viewBox.x;
+          var viewBoxXMax = viewBox.x + viewBox.width;
+          var viewBoxWidth = viewBox.width;
+          
+          // Convert viewBox x to timeline x (accounting for margins)
+          var timelineXMin = Math.max(0, viewBoxXMin - axisXMin);
+          var timelineXMax = Math.min(axisLen, viewBoxXMax - axisXMin);
+          var visibleTimelineLen = timelineXMax - timelineXMin;
+          
+          // Convert timeline x to date
+          var t1 = timelineXMin / axisLen;
+          var t2 = timelineXMax / axisLen;
+          var visibleStart = new Date(timelineStart.getTime() + t1 * timelineDays * 24 * 60 * 60 * 1000);
+          var visibleEnd = new Date(timelineStart.getTime() + t2 * timelineDays * 24 * 60 * 60 * 1000);
+          var visibleSpanDays = (visibleEnd - visibleStart) / (1000 * 60 * 60 * 24);
+          
+          // Show/hide events based on tier and visible span
+          var events = document.querySelectorAll('.event-group');
+          events.forEach(function(ev) {
+            var tier = parseInt(ev.getAttribute('data-tier') || '2');
+            var maxSpan = tierMaxSpanDays[tier] || tierMaxSpanDays[2];
+            var eventDate = new Date(ev.getAttribute('data-date'));
+            
+            // Show if: event is in visible range AND visible span <= tier's max span
+            var inRange = eventDate >= visibleStart && eventDate <= visibleEnd;
+            var spanOK = visibleSpanDays <= maxSpan;
+            
+            if (inRange && spanOK) {
+              ev.classList.remove('hidden');
+            } else {
+              ev.classList.add('hidden');
+            }
+          });
+        }
+        
+        // Zoom functions
+        function zoom(factor, centerX, centerY) {
+          var newWidth = viewBox.width * factor;
+          var newHeight = viewBox.height * factor;
+          var newX = centerX - (centerX - viewBox.x) * factor;
+          var newY = centerY - (centerY - viewBox.y) * factor;
+          
+          // Clamp to bounds
+          newWidth = Math.max(100, Math.min(#{WIDTH}, newWidth));
+          newHeight = Math.max(100, Math.min(#{HEIGHT}, newHeight));
+          newX = Math.max(0, Math.min(#{WIDTH} - newWidth, newX));
+          newY = Math.max(0, Math.min(#{HEIGHT} - newHeight, newY));
+          
+          viewBox.width = newWidth;
+          viewBox.height = newHeight;
+          viewBox.x = newX;
+          viewBox.y = newY;
+          updateViewBox();
+        }
+        
+        function zoomToRange(startDate, endDate) {
+          var t1 = (startDate - timelineStart) / (timelineDays * 24 * 60 * 60 * 1000);
+          var t2 = (endDate - timelineStart) / (timelineDays * 24 * 60 * 60 * 1000);
+          var x1 = axisXMin + t1 * axisLen;
+          var x2 = axisXMin + t2 * axisLen;
+          
+          // Add padding
+          var padding = 50;
+          viewBox.x = Math.max(0, x1 - padding);
+          viewBox.width = Math.min(#{WIDTH}, x2 - x1 + 2 * padding);
+          viewBox.y = 0;
+          viewBox.height = #{HEIGHT};
+          updateViewBox();
+        }
+        
+        // Mouse wheel zoom
+        svg.addEventListener('wheel', function(e) {
+          e.preventDefault();
+          var rect = svg.getBoundingClientRect();
+          var x = (e.clientX - rect.left) * (#{WIDTH} / rect.width);
+          var y = (e.clientY - rect.top) * (#{HEIGHT} / rect.height);
+          var factor = e.deltaY > 0 ? 1.2 : 1/1.2;
+          zoom(factor, x, y);
+        });
+        
+        // Drag to pan
+        svg.addEventListener('mousedown', function(e) {
+          if (e.target.closest('.zoom-btn')) return;
+          isDragging = true;
+          dragStart.x = e.clientX;
+          dragStart.y = e.clientY;
+          dragViewBox.x = viewBox.x;
+          dragViewBox.y = viewBox.y;
+        });
+        
+        svg.addEventListener('mousemove', function(e) {
+          if (!isDragging) return;
+          var dx = (e.clientX - dragStart.x) * (viewBox.width / svg.getBoundingClientRect().width);
+          var dy = (e.clientY - dragStart.y) * (viewBox.height / svg.getBoundingClientRect().height);
+          viewBox.x = Math.max(0, Math.min(#{WIDTH} - viewBox.width, dragViewBox.x - dx));
+          viewBox.y = Math.max(0, Math.min(#{HEIGHT} - viewBox.height, dragViewBox.y - dy));
+          updateViewBox();
+        });
+        
+        svg.addEventListener('mouseup', function() { isDragging = false; });
+        svg.addEventListener('mouseleave', function() { isDragging = false; });
+        
+        // Button controls
+        document.getElementById('zoom-in').addEventListener('click', function() {
+          zoom(0.7, #{WIDTH/2}, #{HEIGHT/2});
+        });
+        
+        document.getElementById('zoom-out').addEventListener('click', function() {
+          zoom(1/0.7, #{WIDTH/2}, #{HEIGHT/2});
+        });
+        
+        document.getElementById('zoom-reset').addEventListener('click', function() {
+          viewBox = { x: 0, y: 0, width: #{WIDTH}, height: #{HEIGHT} };
+          updateViewBox();
+        });
+        
+        // Initial LOD update
+        updateLOD();
+      })();
+    JS
+  end
+end
+
 # --- SVG: hover script --------------------------------------------------------
 # Bring hovered event to front: appendChild(this) so this group is last in the
 # SVG and paints on top. Class "hovered" drives grey highlight; we clear it
@@ -472,12 +675,17 @@ def build_svg(events, start_date, end_date, blocks = [])
       "xmlns" => "http://www.w3.org/2000/svg",
       "viewBox" => "0 0 #{WIDTH} #{HEIGHT}",
       "width" => "11in",
-      "height" => "8.5in"
+      "height" => "8.5in",
+      "overflow" => "visible",
+      "data-timeline-start" => start_date.iso8601,
+      "data-timeline-end" => end_date.iso8601
     ) do
       add_title_and_style(xml)
+      add_zoom_controls(xml)
       add_timeline_axis(xml, layout, start_date, end_date)
       add_blocks(xml, blocks, layout, start_date, end_date)
       add_events(xml, events, layout, start_date, end_date, blocks)
+      add_zoom_and_lod_script(xml, start_date, end_date)
       add_event_hover_script(xml)
     end
   end
@@ -487,7 +695,8 @@ end
 # Load events from DATA_FILE and STARLITE_FILE, merge and sort by date, build
 # SVG for [START_YEAR, END_YEAR], write to OUTPUT_FILE.
 def main
-  events = Events.load(DATA_FILE) + Events.load(STARLITE_FILE)
+  # Merge: load all event sources, concatenate, then sort by date (single chronological list).
+  events = Events.load(VIETMINH_FILE) + Events.load(DATA_FILE) + Events.load(STARLITE_FILE)
   events = events.sort_by { |e| e[:date] }
   blocks = Blocks.load(BLOCKS_FILE)
   start_date = Date.new(START_YEAR, 1, 1)
@@ -497,7 +706,7 @@ def main
   svg = doc.to_xml(indent: 2)
 
   File.write(OUTPUT_FILE, svg)
-  puts "Wrote #{OUTPUT_FILE} (#{events.size} events, #{blocks.size} blocks)"
+  puts "Wrote #{OUTPUT_FILE} (#{events.size} events total, #{blocks.size} blocks, interactive zoom enabled)"
 end
 
 main if __FILE__ == $PROGRAM_NAME
