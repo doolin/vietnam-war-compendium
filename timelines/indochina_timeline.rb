@@ -96,6 +96,7 @@ def add_title_and_style(xml)
       .tick-month { stroke: #555; stroke-width: 0.75; }
       .event-line { stroke: #666; stroke-width: 0.5; stroke-dasharray: 2,2; }
       .event-dot { fill: #c00; }
+      .event-box { fill: #fff; stroke: #999; stroke-width: 0.75; }
       .event-text { font-family: Georgia, serif; font-size: 12px; fill: #1a1a1a; }
       .year-label { font-family: Georgia, serif; font-size: 16px; font-weight: bold; fill: #1a1a1a; }
       .month-label { font-family: Georgia, serif; font-size: 11px; fill: #444; }
@@ -104,6 +105,32 @@ def add_title_and_style(xml)
 end
 
 MONTH_TICKS = { 4 => "April", 7 => "July", 10 => "October" }.freeze
+
+# Event label box: fixed width, height from wrapped text
+EVENT_BOX_WIDTH   = 180
+EVENT_BOX_PADDING = 6
+EVENT_LINE_HEIGHT = 14
+EVENT_CHARS_PER_LINE = 28  # approximate for 12px font in box width
+
+def wrap_text(text, max_chars: EVENT_CHARS_PER_LINE)
+  words = text.to_s.split
+  lines = []
+  current = []
+  current_len = 0
+  words.each do |w|
+    need = current_len.zero? ? w.length : current_len + 1 + w.length
+    if need > max_chars && current.any?
+      lines << current.join(" ")
+      current = [w]
+      current_len = w.length
+    else
+      current << w
+      current_len = need
+    end
+  end
+  lines << current.join(" ") if current.any?
+  lines
+end
 
 def add_timeline_axis(xml, layout, start_date, end_date)
   axis_x_min = layout[:axis_x_min]
@@ -173,7 +200,25 @@ def add_events(xml, events, layout, start_date, end_date)
     row  = i % max_rows
     y    = dot_y.call(row)
 
-    # Line from axis to event dot (same y order in both cases: axis_y then y)
+    date_str   = ev[:date].strftime("%b %-d, %Y")
+    label_lines = wrap_text(ev[:label])
+    # Box: fixed width, height = padding + date line + gap + label lines + padding
+    box_h = EVENT_BOX_PADDING + EVENT_LINE_HEIGHT + 4 + (label_lines.size * EVENT_LINE_HEIGHT) + EVENT_BOX_PADDING
+    box_w = EVENT_BOX_WIDTH
+    half  = box_w / 2.0
+
+    box_top_y = if events_above
+      box_bottom_y = y - 2
+      box_bottom_y - box_h
+    else
+      y + 2
+    end
+
+    xml.rect(
+      "class" => "event-box",
+      "x" => x - half, "y" => box_top_y,
+      "width" => box_w, "height" => box_h
+    )
     xml.line(
       "class" => "event-line",
       "x1" => x, "y1" => axis_y,
@@ -181,19 +226,11 @@ def add_events(xml, events, layout, start_date, end_date)
     )
     xml.circle("class" => "event-dot", "cx" => x, "cy" => y, "r" => 3)
 
-    # Text: above axis = date and label above the dot (smaller y)
-    date_str = ev[:date].strftime("%b %-d, %Y")
-    label_text = ev[:label].length > 65 ? ev[:label][0..61] + "..." : ev[:label]
-    if events_above
-      date_y  = y - 4
-      label_y = y - 18
-      xml.text_("class" => "event-text", "x" => x, "y" => label_y, "text-anchor" => "middle") { xml.text label_text }
-      xml.text_("class" => "event-text", "x" => x, "y" => date_y, "text-anchor" => "middle") { xml.text date_str }
-    else
-      date_y  = y + 4
-      label_y = date_y + 14
-      xml.text_("class" => "event-text", "x" => x, "y" => date_y, "text-anchor" => "middle") { xml.text date_str }
-      xml.text_("class" => "event-text", "x" => x, "y" => label_y, "text-anchor" => "middle") { xml.text label_text }
+    date_y = box_top_y + EVENT_BOX_PADDING + 11
+    xml.text_("class" => "event-text", "x" => x, "y" => date_y, "text-anchor" => "middle") { xml.text date_str }
+    label_lines.each_with_index do |line, i|
+      line_y = date_y + 4 + EVENT_LINE_HEIGHT + i * EVENT_LINE_HEIGHT
+      xml.text_("class" => "event-text", "x" => x, "y" => line_y, "text-anchor" => "middle") { xml.text line }
     end
   end
 end
