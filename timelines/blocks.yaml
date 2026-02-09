@@ -1,0 +1,7 @@
+# Time-range blocks for LOD: when zoomed out, show as one unit (e.g. "Ia Drang").
+# start/end: YYYY-MM-DD. Optional event_source for future use.
+blocks:
+  - id: ia_drang
+    start: "1965-11-14"
+    end: "1965-11-18"
+    label: "Ia Drang"

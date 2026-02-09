@@ -75,8 +75,10 @@ WIDTH  = 1100
 HEIGHT = 850
 START_YEAR = 1965
 END_YEAR   = 1966  # timeline spans exactly 2 years (1965–1966)
-DATA_FILE   = File.join(__dir__, "ia-drang-pimlott.yaml")
-OUTPUT_FILE = File.join(__dir__, "ia-drang-timeline.svg")
+DATA_FILE    = File.join(__dir__, "ia-drang-pimlott.yaml")
+BLOCKS_FILE  = File.join(__dir__, "blocks.yaml")
+OUTPUT_FILE  = File.join(__dir__, "ia-drang-timeline.svg")
+DEFAULT_TIER = 2  # LOD: show at month/day zoom; 0=overview, 1=year, 2=month, 3=day
 
 # --- Events: YAML → array of { date:, label: } -------------------------------
 # Supports YAML with top-level key "the_war_years" or "timeline" (array of
@@ -111,13 +113,62 @@ class Events
     date = parse_date(entry["date"])
     return nil unless date
 
-    { date: date, label: entry["event"].to_s }
+    tier = (entry["tier"] || DEFAULT_TIER).to_i
+    { date: date, label: entry["event"].to_s, tier: tier }
   end
 
   def parse_date(str)
     # Normalize "Month day/day, year" to "Month day, year" (use first day)
     normalized = str.to_s.gsub(%r{/\d+\s*,?\s*}, ", ")
     Date.parse(normalized)
+  rescue ArgumentError
+    nil
+  end
+end
+
+# --- Blocks: time ranges for LOD (e.g. "Ia Drang" as one unit when zoomed out) ---
+# YAML: top-level key "blocks", array of { id:, start:, end:, label: }. start/end
+# are date strings (YYYY-MM-DD or parseable). Optional event_source for later.
+# Returns [{ id:, start_date:, end_date:, label: }, ...]. Not used by renderer yet.
+class Blocks
+  def self.load(path)
+    return [] unless path && File.file?(path)
+
+    new(path).blocks
+  end
+
+  def initialize(path)
+    @path = path
+  end
+
+  def blocks
+    @blocks ||= raw_entries.map { |e| entry_to_block(e) }.compact
+  end
+
+  private
+
+  def raw_entries
+    data = YAML.load_file(@path)
+    return [] unless data.is_a?(Hash) && data["blocks"].is_a?(Array)
+
+    data["blocks"]
+  end
+
+  def entry_to_block(entry)
+    start_date = parse_date(entry["start"])
+    end_date   = parse_date(entry["end"])
+    return nil unless start_date && end_date
+
+    {
+      id:         entry["id"].to_s,
+      start_date: start_date,
+      end_date:   end_date,
+      label:      entry["label"].to_s,
+    }
+  end
+
+  def parse_date(str)
+    Date.parse(str.to_s)
   rescue ArgumentError
     nil
   end
@@ -380,6 +431,7 @@ end
 # OUTPUT_FILE.
 def main
   events = Events.load(DATA_FILE)
+  blocks = Blocks.load(BLOCKS_FILE)
   start_date = Date.new(START_YEAR, 1, 1)
   end_date   = Date.new(END_YEAR, 12, 31)
 
@@ -387,7 +439,7 @@ def main
   svg = doc.to_xml(indent: 2)
 
   File.write(OUTPUT_FILE, svg)
-  puts "Wrote #{OUTPUT_FILE} (#{events.size} events)"
+  puts "Wrote #{OUTPUT_FILE} (#{events.size} events, #{blocks.size} blocks)"
 end
 
 main if __FILE__ == $PROGRAM_NAME
