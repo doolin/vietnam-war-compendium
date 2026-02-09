@@ -97,12 +97,13 @@ def add_title_and_style(xml)
       .event-line { stroke: #666; stroke-width: 0.5; stroke-dasharray: 2,2; }
       .event-dot { fill: #c00; }
       .event-box { fill: #fff; stroke: #999; stroke-width: 0.75; }
+      .event-group .event-box { fill: #fff; stroke: #999; stroke-width: 0.75; }
+      .event-group:hover .event-box,
+      .event-group.hovered .event-box { fill: #e0e0e0; stroke: #666; stroke-width: 1; }
       .event-text { font-family: Georgia, serif; font-size: 12px; fill: #1a1a1a; }
       .event-date { font-weight: bold; }
       .event-group { isolation: isolate; z-index: 0; cursor: pointer; }
       .event-group:hover { z-index: 1; }
-      .event-group:hover .event-box,
-      .event-group.hovered .event-box { fill: #e0e0e0; stroke: #666; stroke-width: 1; }
       .year-label { font-family: Georgia, serif; font-size: 16px; font-weight: bold; fill: #1a1a1a; }
       .month-label { font-family: Georgia, serif; font-size: 11px; fill: #444; }
     CSS
@@ -257,8 +258,10 @@ def add_event_hover_script(xml)
   # Bring hovered event to front by moving it to end of parent (SVG paint order = DOM order)
   xml.script do
     xml.cdata <<~JS
-      document.querySelectorAll('.event-group').forEach(function(g) {
+      var groups = document.querySelectorAll('.event-group');
+      groups.forEach(function(g) {
         g.addEventListener('mouseenter', function() {
+          groups.forEach(function(other) { other.classList.remove('hovered'); });
           this.classList.add('hovered');
           this.parentNode.appendChild(this);
         });
