@@ -3,18 +3,32 @@
   <title>Vietnam War Timeline — Ia Drang (1965–1966)</title>
   <style><![CDATA[.axis { stroke: #333; stroke-width: 1; fill: none; }
 .tick { stroke: #333; stroke-width: 1; }
+.tick-month { stroke: #555; stroke-width: 0.75; }
 .event-line { stroke: #666; stroke-width: 0.5; stroke-dasharray: 2,2; }
 .event-dot { fill: #c00; }
 .event-text { font-family: Georgia, serif; font-size: 12px; fill: #1a1a1a; }
 .year-label { font-family: Georgia, serif; font-size: 16px; font-weight: bold; fill: #1a1a1a; }
+.month-label { font-family: Georgia, serif; font-size: 11px; fill: #444; }
 ]]></style>
   <line class="axis" x1="80" y1="800" x2="1020" y2="800"/>
   <line class="tick" x1="80.0" y1="800" x2="80.0" y2="808"/>
   <text class="year-label" x="80.0" y="828" text-anchor="middle">1965</text>
-  <line class="tick" x1="550.0" y1="800" x2="550.0" y2="808"/>
-  <text class="year-label" x="550.0" y="828" text-anchor="middle">1966</text>
+  <line class="tick" x1="550.6447187928669" y1="800" x2="550.6447187928669" y2="808"/>
+  <text class="year-label" x="550.6447187928669" y="828" text-anchor="middle">1966</text>
   <line class="tick" x1="1020.0" y1="800" x2="1020.0" y2="808"/>
   <text class="year-label" x="1020.0" y="828" text-anchor="middle">1967</text>
+  <line class="tick-month" x1="196.04938271604937" y1="800" x2="196.04938271604937" y2="804"/>
+  <text class="month-label" x="196.04938271604937" y="812" text-anchor="middle">April</text>
+  <line class="tick-month" x1="313.33447645176045" y1="800" x2="313.33447645176045" y2="804"/>
+  <text class="month-label" x="313.33447645176045" y="812" text-anchor="middle">July</text>
+  <line class="tick-month" x1="431.9627343392776" y1="800" x2="431.9627343392776" y2="804"/>
+  <text class="month-label" x="431.9627343392776" y="812" text-anchor="middle">October</text>
+  <line class="tick-month" x1="666.6941015089163" y1="800" x2="666.6941015089163" y2="804"/>
+  <text class="month-label" x="666.6941015089163" y="812" text-anchor="middle">April</text>
+  <line class="tick-month" x1="783.9791952446274" y1="800" x2="783.9791952446274" y2="804"/>
+  <text class="month-label" x="783.9791952446274" y="812" text-anchor="middle">July</text>
+  <line class="tick-month" x1="902.6074531321445" y1="800" x2="902.6074531321445" y2="804"/>
+  <text class="month-label" x="902.6074531321445" y="812" text-anchor="middle">October</text>
   <line class="event-line" x1="349.4387288523091" y1="800" x2="349.4387288523091" y2="750"/>
   <circle class="event-dot" cx="349.4387288523091" cy="750" r="3"/>
   <text class="event-text" x="349.4387288523091" y="732" text-anchor="middle">1st Brigade, 101st Airborne Division (Separate) arrives at Cam...</text>
