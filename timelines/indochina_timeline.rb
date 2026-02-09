@@ -98,6 +98,7 @@ def add_title_and_style(xml)
       .event-dot { fill: #c00; }
       .event-box { fill: #fff; stroke: #999; stroke-width: 0.75; }
       .event-text { font-family: Georgia, serif; font-size: 12px; fill: #1a1a1a; }
+      .event-date { font-weight: bold; }
       .year-label { font-family: Georgia, serif; font-size: 16px; font-weight: bold; fill: #1a1a1a; }
       .month-label { font-family: Georgia, serif; font-size: 11px; fill: #444; }
     CSS
@@ -230,7 +231,16 @@ def add_events(xml, events, layout, start_date, end_date)
 
     content_lines.each_with_index do |line, i|
       line_y = box_top_y + EVENT_BOX_PADDING + 11 + i * EVENT_LINE_HEIGHT
-      xml.text_("class" => "event-text", "x" => text_left_x, "y" => line_y, "text-anchor" => "start") { xml.text line }
+      if i == 0 && (line.start_with?(date_str) || line.include?(date_str))
+        # First line: date in bold, rest in regular weight (tspan continues from previous)
+        rest = line.sub(/\A#{Regexp.escape(date_str)}\s*/, "")
+        xml.text_("class" => "event-text", "x" => text_left_x, "y" => line_y, "text-anchor" => "start") do
+          xml.tspan("class" => "event-date") { xml.text "#{date_str} " }
+          xml.tspan { xml.text rest } if rest != ""
+        end
+      else
+        xml.text_("class" => "event-text", "x" => text_left_x, "y" => line_y, "text-anchor" => "start") { xml.text line }
+      end
     end
   end
 end
