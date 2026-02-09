@@ -99,6 +99,10 @@ def add_title_and_style(xml)
       .event-box { fill: #fff; stroke: #999; stroke-width: 0.75; }
       .event-text { font-family: Georgia, serif; font-size: 12px; fill: #1a1a1a; }
       .event-date { font-weight: bold; }
+      .event-group { isolation: isolate; z-index: 0; cursor: pointer; }
+      .event-group:hover { z-index: 1; }
+      .event-group:hover .event-box,
+      .event-group.hovered .event-box { fill: #e0e0e0; stroke: #666; stroke-width: 1; }
       .year-label { font-family: Georgia, serif; font-size: 16px; font-weight: bold; fill: #1a1a1a; }
       .month-label { font-family: Georgia, serif; font-size: 11px; fill: #444; }
     CSS
@@ -141,6 +145,8 @@ def add_timeline_axis(xml, layout, start_date, end_date)
   axis_start = Date.new(START_YEAR, 1, 1)
   axis_end   = Date.new(END_YEAR, 12, 31)
 
+  # pointer-events: none so axis doesn't steal hover from event boxes
+  xml.g("class" => "timeline-axis", "style" => "pointer-events: none;") do
   xml.line(
     "class" => "axis",
     "x1" => layout[:axis_x_min], "y1" => axis_y,
@@ -180,6 +186,7 @@ def add_timeline_axis(xml, layout, start_date, end_date)
       xml.text_("class" => "month-label", "x" => x, "y" => axis_y + 12, "text-anchor" => "middle") { xml.text label }
     end
   end
+  end
 end
 
 def add_events(xml, events, layout, start_date, end_date)
@@ -217,31 +224,47 @@ def add_events(xml, events, layout, start_date, end_date)
       y + 2
     end
 
-    xml.rect(
-      "class" => "event-box",
-      "x" => x - half, "y" => box_top_y,
-      "width" => box_w, "height" => box_h
-    )
-    xml.line(
-      "class" => "event-line",
-      "x1" => x, "y1" => axis_y,
-      "x2" => x, "y2" => y
-    )
-    xml.circle("class" => "event-dot", "cx" => x, "cy" => y, "r" => 3)
+    xml.g("class" => "event-group") do
+      xml.rect(
+        "class" => "event-box",
+        "x" => x - half, "y" => box_top_y,
+        "width" => box_w, "height" => box_h
+      )
+      xml.line(
+        "class" => "event-line",
+        "x1" => x, "y1" => axis_y,
+        "x2" => x, "y2" => y
+      )
+      xml.circle("class" => "event-dot", "cx" => x, "cy" => y, "r" => 3)
 
-    content_lines.each_with_index do |line, i|
-      line_y = box_top_y + EVENT_BOX_PADDING + 11 + i * EVENT_LINE_HEIGHT
-      if i == 0 && (line.start_with?(date_str) || line.include?(date_str))
-        # First line: date in bold, rest in regular weight (tspan continues from previous)
-        rest = line.sub(/\A#{Regexp.escape(date_str)}\s*/, "")
-        xml.text_("class" => "event-text", "x" => text_left_x, "y" => line_y, "text-anchor" => "start") do
-          xml.tspan("class" => "event-date") { xml.text "#{date_str} " }
-          xml.tspan { xml.text rest } if rest != ""
+      content_lines.each_with_index do |line, i|
+        line_y = box_top_y + EVENT_BOX_PADDING + 11 + i * EVENT_LINE_HEIGHT
+        if i == 0 && (line.start_with?(date_str) || line.include?(date_str))
+          rest = line.sub(/\A#{Regexp.escape(date_str)}\s*/, "")
+          xml.text_("class" => "event-text", "x" => text_left_x, "y" => line_y, "text-anchor" => "start") do
+            xml.tspan("class" => "event-date") { xml.text "#{date_str} " }
+            xml.tspan { xml.text rest } if rest != ""
+          end
+        else
+          xml.text_("class" => "event-text", "x" => text_left_x, "y" => line_y, "text-anchor" => "start") { xml.text line }
         end
-      else
-        xml.text_("class" => "event-text", "x" => text_left_x, "y" => line_y, "text-anchor" => "start") { xml.text line }
       end
     end
+  end
+end
+
+def add_event_hover_script(xml)
+  # Bring hovered event to front by moving it to end of parent (SVG paint order = DOM order)
+  xml.script do
+    xml.cdata <<~JS
+      document.querySelectorAll('.event-group').forEach(function(g) {
+        g.addEventListener('mouseenter', function() {
+          this.classList.add('hovered');
+          this.parentNode.appendChild(this);
+        });
+        g.addEventListener('mouseleave', function() { this.classList.remove('hovered'); });
+      });
+    JS
   end
 end
 
@@ -258,6 +281,7 @@ def build_svg(events, start_date, end_date)
       add_title_and_style(xml)
       add_timeline_axis(xml, layout, start_date, end_date)
       add_events(xml, events, layout, start_date, end_date)
+      add_event_hover_script(xml)
     end
   end
 end
