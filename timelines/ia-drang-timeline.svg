@@ -8,11 +8,55 @@
 .event-text { font-family: Georgia, serif; font-size: 12px; fill: #1a1a1a; }
 .year-label { font-family: Georgia, serif; font-size: 16px; font-weight: bold; fill: #1a1a1a; }
 ]]></style>
-  <line class="axis" x1="80" y1="120" x2="1020" y2="120"/>
-  <line class="tick" x1="80.0" y1="120" x2="80.0" y2="128"/>
-  <text class="year-label" x="80.0" y="148" text-anchor="middle">1965</text>
-  <line class="tick" x1="550.0" y1="120" x2="550.0" y2="128"/>
-  <text class="year-label" x="550.0" y="148" text-anchor="middle">1966</text>
-  <line class="tick" x1="1020.0" y1="120" x2="1020.0" y2="128"/>
-  <text class="year-label" x="1020.0" y="148" text-anchor="middle">1967</text>
+  <line class="axis" x1="80" y1="800" x2="1020" y2="800"/>
+  <line class="tick" x1="80.0" y1="800" x2="80.0" y2="808"/>
+  <text class="year-label" x="80.0" y="828" text-anchor="middle">1965</text>
+  <line class="tick" x1="550.0" y1="800" x2="550.0" y2="808"/>
+  <text class="year-label" x="550.0" y="828" text-anchor="middle">1966</text>
+  <line class="tick" x1="1020.0" y1="800" x2="1020.0" y2="808"/>
+  <text class="year-label" x="1020.0" y="828" text-anchor="middle">1967</text>
+  <line class="event-line" x1="349.4387288523091" y1="800" x2="349.4387288523091" y2="750"/>
+  <circle class="event-dot" cx="349.4387288523091" cy="750" r="3"/>
+  <text class="event-text" x="349.4387288523091" y="732" text-anchor="middle">1st Brigade, 101st Airborne Division (Separate) arrives at Cam...</text>
+  <text class="event-text" x="349.4387288523091" y="746" text-anchor="middle">Jul 29, 1965</text>
+  <line class="event-line" x1="410.0422953818016" y1="800" x2="410.0422953818016" y2="708"/>
+  <circle class="event-dot" cx="410.0422953818016" cy="708" r="3"/>
+  <text class="event-text" x="410.0422953818016" y="690" text-anchor="middle">1st Cavalry Division (Airmobile) arrives at An Khe.</text>
+  <text class="event-text" x="410.0422953818016" y="704" text-anchor="middle">Sep 14, 1965</text>
+  <line class="event-line" x1="450.0148605395519" y1="800" x2="450.0148605395519" y2="666"/>
+  <circle class="event-dot" cx="450.0148605395519" cy="666" r="3"/>
+  <text class="event-text" x="450.0148605395519" y="648" text-anchor="middle">At a protest rally in the U.S., David Millar becomes the first...</text>
+  <text class="event-text" x="450.0148605395519" y="662" text-anchor="middle">Oct 15, 1965</text>
+  <line class="event-line" x1="450.0148605395519" y1="800" x2="450.0148605395519" y2="624"/>
+  <circle class="event-dot" cx="450.0148605395519" cy="624" r="3"/>
+  <text class="event-text" x="450.0148605395519" y="606" text-anchor="middle">Relatively minor antiwar protests held in over 40 U.S. cities ...</text>
+  <text class="event-text" x="450.0148605395519" y="620" text-anchor="middle">Oct 15, 1965</text>
+  <line class="event-line" x1="456.4620484682213" y1="800" x2="456.4620484682213" y2="582"/>
+  <circle class="event-dot" cx="456.4620484682213" cy="582" r="3"/>
+  <text class="event-text" x="456.4620484682213" y="564" text-anchor="middle">NVA attack on Plei Me Special Forces camp, Central Highlands.</text>
+  <text class="event-text" x="456.4620484682213" y="578" text-anchor="middle">Oct 20, 1965</text>
+  <line class="event-line" x1="488.7517146776406" y1="800" x2="488.7517146776406" y2="540"/>
+  <circle class="event-dot" cx="488.7517146776406" cy="540" r="3"/>
+  <text class="event-text" x="488.7517146776406" y="522" text-anchor="middle">1/7th Cavalry assault LZ X-Ray, Ia Drang valley.</text>
+  <text class="event-text" x="488.7517146776406" y="536" text-anchor="middle">Nov 14, 1965</text>
+  <line class="event-line" x1="505.51440329218104" y1="800" x2="505.51440329218104" y2="498"/>
+  <circle class="event-dot" cx="505.51440329218104" cy="498" r="3"/>
+  <text class="event-text" x="505.51440329218104" y="480" text-anchor="middle">Pentagon calls for a troop buildup in Vietnam in 1966 to nearl...</text>
+  <text class="event-text" x="505.51440329218104" y="494" text-anchor="middle">Nov 27, 1965</text>
+  <line class="event-line" x1="541.6186556927298" y1="800" x2="541.6186556927298" y2="456"/>
+  <circle class="event-dot" cx="541.6186556927298" cy="456" r="3"/>
+  <text class="event-text" x="541.6186556927298" y="438" text-anchor="middle">President Johnson suspends Rolling Thunder air attacks on the ...</text>
+  <text class="event-text" x="541.6186556927298" y="452" text-anchor="middle">Dec 25, 1965</text>
+  <line class="event-line" x1="573.8545953360767" y1="800" x2="573.8545953360767" y2="414"/>
+  <circle class="event-dot" cx="573.8545953360767" cy="414" r="3"/>
+  <text class="event-text" x="573.8545953360767" y="396" text-anchor="middle">President Johnson asks Congress for an additional $12.8 billio...</text>
+  <text class="event-text" x="573.8545953360767" y="410" text-anchor="middle">Jan 19, 1966</text>
+  <line class="event-line" x1="580.3017832647463" y1="800" x2="580.3017832647463" y2="372"/>
+  <circle class="event-dot" cx="580.3017832647463" cy="372" r="3"/>
+  <text class="event-text" x="580.3017832647463" y="354" text-anchor="middle">Operation Masher/White Wing begins in IICTZ (ends March 6).</text>
+  <text class="event-text" x="580.3017832647463" y="368" text-anchor="middle">Jan 24, 1966</text>
+  <line class="event-line" x1="597.0644718792867" y1="800" x2="597.0644718792867" y2="330"/>
+  <circle class="event-dot" cx="597.0644718792867" cy="330" r="3"/>
+  <text class="event-text" x="597.0644718792867" y="312" text-anchor="middle">Honolulu Conference: President Johnson reaffirms U.S. support ...</text>
+  <text class="event-text" x="597.0644718792867" y="326" text-anchor="middle">Feb 6, 1966</text>
 </svg>

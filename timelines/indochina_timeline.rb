@@ -69,19 +69,22 @@ def date_to_x(date, start_date, end_date)
   (t - start_ord) / (end_ord - start_ord)
 end
 
+# SVG y increases downward; "above" the axis means smaller y.
 def svg_layout
-  margin_left  = 80
-  margin_right = 80
-  axis_y      = 120
-  axis_x_min  = margin_left
-  axis_x_max  = WIDTH - margin_right
+  margin_left   = 80
+  margin_right  = 80
+  margin_bottom = 50   # space below axis (ticks + year labels)
+  axis_y        = HEIGHT - margin_bottom
+  axis_x_min    = margin_left
+  axis_x_max    = WIDTH - margin_right
   {
-    axis_x_min: axis_x_min,
-    axis_x_max: axis_x_max,
-    axis_len:   axis_x_max - axis_x_min,
-    axis_y:     axis_y,
-    row_height: 42,
-    max_rows:   12
+    axis_x_min:  axis_x_min,
+    axis_x_max:  axis_x_max,
+    axis_len:    axis_x_max - axis_x_min,
+    axis_y:      axis_y,
+    row_height:  42,
+    max_rows:    12,
+    events_above: true,  # events drawn above axis (smaller y)
   }
 end
 
@@ -124,18 +127,25 @@ def add_timeline_axis(xml, layout, start_date, end_date)
 end
 
 def add_events(xml, events, layout, start_date, end_date)
-  axis_x_min = layout[:axis_x_min]
-  axis_len   = layout[:axis_len]
-  axis_y     = layout[:axis_y]
-  row_height = layout[:row_height]
-  max_rows   = layout[:max_rows]
+  axis_x_min   = layout[:axis_x_min]
+  axis_len     = layout[:axis_len]
+  axis_y       = layout[:axis_y]
+  row_height   = layout[:row_height]
+  max_rows     = layout[:max_rows]
+  events_above = layout[:events_above]
+
+  # Offset from axis to first event row; above = negative (smaller y)
+  base_offset = 50
+  row_offset  = ->(row) { base_offset + row * row_height }
+  dot_y       = ->(row) { events_above ? axis_y - row_offset.call(row) : axis_y + row_offset.call(row) }
 
   events.each_with_index do |ev, i|
-    t   = date_to_x(ev[:date], start_date, end_date)
-    x   = axis_x_min + t * axis_len
-    row = i % max_rows
-    y   = axis_y + 50 + row * row_height
+    t    = date_to_x(ev[:date], start_date, end_date)
+    x    = axis_x_min + t * axis_len
+    row  = i % max_rows
+    y    = dot_y.call(row)
 
+    # Line from axis to event dot (same y order in both cases: axis_y then y)
     xml.line(
       "class" => "event-line",
       "x1" => x, "y1" => axis_y,
@@ -143,12 +153,20 @@ def add_events(xml, events, layout, start_date, end_date)
     )
     xml.circle("class" => "event-dot", "cx" => x, "cy" => y, "r" => 3)
 
-    label_y  = y + 4
+    # Text: above axis = date and label above the dot (smaller y)
     date_str = ev[:date].strftime("%b %-d, %Y")
-    xml.text_("class" => "event-text", "x" => x, "y" => label_y, "text-anchor" => "middle") { xml.text date_str }
-
-    text = ev[:label].length > 65 ? ev[:label][0..61] + "..." : ev[:label]
-    xml.text_("class" => "event-text", "x" => x, "y" => label_y + 14, "text-anchor" => "middle") { xml.text text }
+    label_text = ev[:label].length > 65 ? ev[:label][0..61] + "..." : ev[:label]
+    if events_above
+      date_y  = y - 4
+      label_y = y - 18
+      xml.text_("class" => "event-text", "x" => x, "y" => label_y, "text-anchor" => "middle") { xml.text label_text }
+      xml.text_("class" => "event-text", "x" => x, "y" => date_y, "text-anchor" => "middle") { xml.text date_str }
+    else
+      date_y  = y + 4
+      label_y = date_y + 14
+      xml.text_("class" => "event-text", "x" => x, "y" => date_y, "text-anchor" => "middle") { xml.text date_str }
+      xml.text_("class" => "event-text", "x" => x, "y" => label_y, "text-anchor" => "middle") { xml.text label_text }
+    end
   end
 end
 
@@ -164,7 +182,7 @@ def build_svg(events, start_date, end_date)
     ) do
       add_title_and_style(xml)
       add_timeline_axis(xml, layout, start_date, end_date)
-      # add_events(xml, events, layout, start_date, end_date)
+      add_events(xml, events, layout, start_date, end_date)
     end
   end
 end
