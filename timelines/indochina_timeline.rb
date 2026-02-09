@@ -222,6 +222,12 @@ def add_title_and_style(xml)
       .event-group .event-box { fill: #fff; stroke: #999; stroke-width: 0.75; }
       .event-group:hover .event-box,
       .event-group.hovered .event-box { fill: #e0e0e0; stroke: #666; stroke-width: 1; }
+      .event-group.block-starlite .event-box { fill: #eaf0f7; stroke: #6a9fb5; }
+      .event-group.block-starlite:hover .event-box,
+      .event-group.block-starlite.hovered .event-box { fill: #b8d4e8; stroke: #4a7f95; stroke-width: 1; }
+      .event-group.block-ia_drang .event-box { fill: #f3ece5; stroke: #8a7566; }
+      .event-group.block-ia_drang:hover .event-box,
+      .event-group.block-ia_drang.hovered .event-box { fill: #d8c8b8; stroke: #6a5544; stroke-width: 1; }
       .event-text { font-family: Georgia, serif; font-size: 12px; fill: #1a1a1a; }
       .event-date { font-weight: bold; }
       .event-group { isolation: isolate; z-index: 0; cursor: pointer; }
@@ -328,7 +334,9 @@ end
 # dot), circle (dot), then text lines. Box width fixed; height from wrapped
 # "Date Label..." lines. Date on first line in bold (.event-date tspan), rest
 # left-aligned. box_top_y places the box above the dot when events_above.
-def add_events(xml, events, layout, start_date, end_date)
+# If blocks are provided, events whose date falls in a block get class block-<id>
+# so their box fill matches that block (lighter default, darker on hover).
+def add_events(xml, events, layout, start_date, end_date, blocks = [])
   axis_x_min   = layout[:axis_x_min]
   axis_len     = layout[:axis_len]
   axis_y       = layout[:axis_y]
@@ -341,6 +349,7 @@ def add_events(xml, events, layout, start_date, end_date)
   dot_y       = ->(row) { events_above ? axis_y - row_offset.call(row) : axis_y + row_offset.call(row) }
 
   events.each_with_index do |ev, i|
+    block_id = blocks.find { |b| ev[:date] >= b[:start_date] && ev[:date] <= b[:end_date] }&.dig(:id)
     t    = date_to_x(ev[:date], start_date, end_date)
     x    = axis_x_min + t * axis_len
     row  = i % max_rows
@@ -362,7 +371,8 @@ def add_events(xml, events, layout, start_date, end_date)
       y + 2
     end
 
-    xml.g("class" => "event-group") do
+    group_class = "event-group" + (block_id ? " block-#{block_id}" : "")
+    xml.g("class" => group_class) do
       xml.rect(
         "class" => "event-box",
         "x" => x - half, "y" => box_top_y,
@@ -467,7 +477,7 @@ def build_svg(events, start_date, end_date, blocks = [])
       add_title_and_style(xml)
       add_timeline_axis(xml, layout, start_date, end_date)
       add_blocks(xml, blocks, layout, start_date, end_date)
-      add_events(xml, events, layout, start_date, end_date)
+      add_events(xml, events, layout, start_date, end_date, blocks)
       add_event_hover_script(xml)
     end
   end
