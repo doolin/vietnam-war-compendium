@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 850" width="11in" height="8.5in" overflow="visible" data-timeline-start="1967-11-01" data-timeline-end="1968-04-30">
+  <title>Indochina Timeline (1941–1966) — Viet Minh, Starlite, Ia Drang</title>
+  <style><![CDATA[.axis { stroke: #333; stroke-width: 1; fill: none; }
+.tick { stroke: #333; stroke-width: 1; }
+.tick-month { stroke: #555; stroke-width: 0.75; }
+.event-line { stroke: #666; stroke-width: 0.5; stroke-dasharray: 2,2; }
+.event-dot { fill: #c00; }
+.event-box { fill: #fff; stroke: #999; stroke-width: 0.75; }
+.event-group .event-box { fill: #fff; stroke: #999; stroke-width: 0.75; }
+.event-group:hover .event-box,
+.event-group.hovered .event-box { fill: #e0e0e0; stroke: #666; stroke-width: 1; }
+.event-group.block-starlite .event-box { fill: #eaf0f7; stroke: #6a9fb5; }
+.event-group.block-starlite:hover .event-box,
+.event-group.block-starlite.hovered .event-box { fill: #b8d4e8; stroke: #4a7f95; stroke-width: 1; }
+.event-group.block-ia_drang .event-box { fill: #f3ece5; stroke: #8a7566; }
+.event-group.block-ia_drang:hover .event-box,
+.event-group.block-ia_drang.hovered .event-box { fill: #d8c8b8; stroke: #6a5544; stroke-width: 1; }
+.event-text { font-family: Georgia, serif; font-size: 12px; fill: #1a1a1a; }
+.event-date { font-weight: bold; }
+.event-group { isolation: isolate; z-index: 0; cursor: pointer; }
+.event-group:hover { z-index: 1; }
+.year-label { font-family: Georgia, serif; font-size: 16px; font-weight: bold; fill: #1a1a1a; }
+.month-label { font-family: Georgia, serif; font-size: 11px; fill: #444; }
+.block-rect { fill: #d4e4f0; stroke: #6a9fb5; stroke-width: 0.75; }
+.block-starlite { fill: #d4e4f0; stroke: #6a9fb5; }
+.block-ia_drang { fill: #e8ddd0; stroke: #8a7566; }
+.block-vietminh { fill: #d8e6d8; stroke: #5a7a5a; }
+.block-label { font-family: Georgia, serif; font-size: 11px; fill: #2a4a5a; font-weight: bold; }
+.event-group.block-vietminh .event-box { fill: #e8f0e8; stroke: #5a7a5a; }
+.event-group.block-vietminh:hover .event-box,
+.event-group.block-vietminh.hovered .event-box { fill: #b8d0b8; stroke: #3a5a3a; stroke-width: 1; }
+.event-group.hidden { display: none; }
+.zoom-controls { font-family: Arial, sans-serif; font-size: 12px; }
+.zoom-btn { cursor: pointer; fill: #666; }
+.zoom-btn:hover { fill: #333; }
+]]></style>
+  <g class="zoom-controls"><rect class="zoom-btn" id="zoom-in" x="10" y="10" width="60" height="24" rx="4" fill="#e0e0e0" stroke="#999"/>{"x" =&gt; 40, "y" =&gt; 26, "text-anchor" =&gt; "middle", "fill" =&gt; "#333", "font-size" =&gt; "12px"}<rect class="zoom-btn" id="zoom-out" x="80" y="10" width="60" height="24" rx="4" fill="#e0e0e0" stroke="#999"/>{"x" =&gt; 110, "y" =&gt; 26, "text-anchor" =&gt; "middle", "fill" =&gt; "#333", "font-size" =&gt; "12px"}<rect class="zoom-btn" id="zoom-reset" x="150" y="10" width="60" height="24" rx="4" fill="#e0e0e0" stroke="#999"/>{"x" =&gt; 180, "y" =&gt; 26, "text-anchor" =&gt; "middle", "fill" =&gt; "#333", "font-size" =&gt; "12px"}</g>
+  <g class="timeline-axis" style="pointer-events: none;">
+    <line class="axis" x1="100" y1="800" x2="1020" y2="800"/>
+    <line class="tick" x1="100.0" y1="800" x2="100.0" y2="808"/>
+    <text class="year-label" x="100.0" y="828" text-anchor="middle">1941</text>
+    <line class="tick" x1="243.74262000513392" y1="800" x2="243.74262000513392" y2="808"/>
+    <text class="year-label" x="243.74262000513392" y="828" text-anchor="middle">1946</text>
+    <line class="tick" x1="387.48524001026783" y1="800" x2="387.48524001026783" y2="808"/>
+    <text class="year-label" x="387.48524001026783" y="828" text-anchor="middle">1951</text>
+    <line class="tick" x1="531.2278600154018" y1="800" x2="531.2278600154018" y2="808"/>
+    <text class="year-label" x="531.2278600154018" y="828" text-anchor="middle">1956</text>
+    <line class="tick" x1="675.0491999657739" y1="800" x2="675.0491999657739" y2="808"/>
+    <text class="year-label" x="675.0491999657739" y="828" text-anchor="middle">1961</text>
+    <line class="tick" x1="818.7918199709078" y1="800" x2="818.7918199709078" y2="808"/>
+    <text class="year-label" x="818.7918199709078" y="828" text-anchor="middle">1966</text>
+    <line class="tick" x1="962.5344399760418" y1="800" x2="962.5344399760418" y2="808"/>
+    <text class="year-label" x="962.5344399760418" y="828" text-anchor="middle">1971</text>
+    <line class="tick" x1="1020.0" y1="800" x2="1020.0" y2="808"/>
+    <text class="year-label" x="1020.0" y="828" text-anchor="middle">1973</text>
+    <line class="tick-month" x1="940.8864550355095" y1="800" x2="940.8864550355095" y2="804"/>
+    <text class="month-label" x="940.8864550355095" y="812" text-anchor="middle">April</text>
+    <line class="tick-month" x1="948.0466900544765" y1="800" x2="948.0466900544765" y2="804"/>
+    <text class="month-label" x="948.0466900544765" y="812" text-anchor="middle">July</text>
+    <line class="tick-month" x1="955.2889250164" y1="800" x2="955.2889250164" y2="804"/>
+    <text class="month-label" x="955.2889250164" y="812" text-anchor="middle">October</text>
+    <line class="tick-month" x1="969.6192350474887" y1="800" x2="969.6192350474887" y2="804"/>
+    <text class="month-label" x="969.6192350474887" y="812" text-anchor="middle">April</text>
+    <line class="tick-month" x1="976.7794700664556" y1="800" x2="976.7794700664556" y2="804"/>
+    <text class="month-label" x="976.7794700664556" y="812" text-anchor="middle">July</text>
+    <line class="tick-month" x1="984.0217050283791" y1="800" x2="984.0217050283791" y2="804"/>
+    <text class="month-label" x="984.0217050283791" y="812" text-anchor="middle">October</text>
+    <line class="tick-month" x1="998.4307350047061" y1="800" x2="998.4307350047061" y2="804"/>
+    <text class="month-label" x="998.4307350047061" y="812" text-anchor="middle">April</text>
+    <line class="tick-month" x1="1005.5909700236731" y1="800" x2="1005.5909700236731" y2="804"/>
+    <text class="month-label" x="1005.5909700236731" y="812" text-anchor="middle">July</text>
+    <line class="tick-month" x1="1012.8332049855965" y1="800" x2="1012.8332049855965" y2="804"/>
+    <text class="month-label" x="1012.8332049855965" y="812" text-anchor="middle">October</text>
+  </g>
+  <g class="event-group" data-date="1967-11-21" data-tier="1">
+    <rect class="event-box" x="111.68086576099472" y="666" width="180" height="82"/>
+    <line class="event-line" x1="201.68086576099472" y1="800" x2="201.68086576099472" y2="750"/>
+    <circle class="event-dot" cx="201.68086576099472" cy="750" r="3"/>
+    <text class="event-text" x="117.68086576099472" y="683" text-anchor="start">
+      <tspan class="event-date">Nov 21, 1967 </tspan>
+      <tspan>In Washington,</tspan>
+    </text>
+    <text class="event-text" x="117.68086576099472" y="697" text-anchor="start">General Westmoreland</text>
+    <text class="event-text" x="117.68086576099472" y="711" text-anchor="start">predicts U.S. troop</text>
+    <text class="event-text" x="117.68086576099472" y="725" text-anchor="start">withdrawals can start in two</text>
+    <text class="event-text" x="117.68086576099472" y="739" text-anchor="start">years.</text>
+  </g>
+  <g class="event-group" data-date="1967-12-18" data-tier="2">
+    <rect class="event-box" x="248.95003453833755" y="652" width="180" height="54"/>
+    <line class="event-line" x1="338.95003453833755" y1="800" x2="338.95003453833755" y2="708"/>
+    <circle class="event-dot" cx="338.95003453833755" cy="708" r="3"/>
+    <text class="event-text" x="254.95003453833755" y="669" text-anchor="start">
+      <tspan class="event-date">Dec 18, 1967 </tspan>
+      <tspan>In Detroit,</tspan>
+    </text>
+    <text class="event-text" x="254.95003453833755" y="683" text-anchor="start">General Wheeler warns of</text>
+    <text class="event-text" x="254.95003453833755" y="697" text-anchor="start">possible enemy offensive.</text>
+  </g>
+  <g class="event-group" data-date="1967-12-20" data-tier="2">
+    <rect class="event-box" x="259.11812111443703" y="582" width="180" height="82"/>
+    <line class="event-line" x1="349.11812111443703" y1="800" x2="349.11812111443703" y2="666"/>
+    <circle class="event-dot" cx="349.11812111443703" cy="666" r="3"/>
+    <text class="event-text" x="265.11812111443703" y="599" text-anchor="start">
+      <tspan class="event-date">Dec 20, 1967 </tspan>
+      <tspan>Westmoreland</tspan>
+    </text>
+    <text class="event-text" x="265.11812111443703" y="613" text-anchor="start">privately tells Washington</text>
+    <text class="event-text" x="265.11812111443703" y="627" text-anchor="start">of communists' decision to</text>
+    <text class="event-text" x="265.11812111443703" y="641" text-anchor="start">try countrywide win-the-war</text>
+    <text class="event-text" x="265.11812111443703" y="655" text-anchor="start">effort.</text>
+  </g>
+  <g class="event-group" data-date="1967-12-21" data-tier="2">
+    <rect class="event-box" x="264.2021644024868" y="498" width="180" height="124"/>
+    <line class="event-line" x1="354.2021644024868" y1="800" x2="354.2021644024868" y2="624"/>
+    <circle class="event-dot" cx="354.2021644024868" cy="624" r="3"/>
+    <text class="event-text" x="270.2021644024868" y="515" text-anchor="start">
+      <tspan class="event-date">Dec 21, 1967 </tspan>
+      <tspan>President</tspan>
+    </text>
+    <text class="event-text" x="270.2021644024868" y="529" text-anchor="start">Johnson confides to</text>
+    <text class="event-text" x="270.2021644024868" y="543" text-anchor="start">Australian officials he</text>
+    <text class="event-text" x="270.2021644024868" y="557" text-anchor="start">expects 'kamikaze' attacks</text>
+    <text class="event-text" x="270.2021644024868" y="571" text-anchor="start">in Vietnam. Later, he</text>
+    <text class="event-text" x="270.2021644024868" y="585" text-anchor="start">publicly discusses Vietnam,</text>
+    <text class="event-text" x="270.2021644024868" y="599" text-anchor="start">does not mention 'kamikaze'</text>
+    <text class="event-text" x="270.2021644024868" y="613" text-anchor="start">attacks.</text>
+  </g>
+  <g class="event-group" data-date="1968-01-20" data-tier="1">
+    <rect class="event-box" x="416.7234630439788" y="540" width="180" height="40"/>
+    <line class="event-line" x1="506.7234630439788" y1="800" x2="506.7234630439788" y2="582"/>
+    <circle class="event-dot" cx="506.7234630439788" cy="582" r="3"/>
+    <text class="event-text" x="422.7234630439788" y="557" text-anchor="start">
+      <tspan class="event-date">Jan 20, 1968 </tspan>
+      <tspan>Siege of Khe</tspan>
+    </text>
+    <text class="event-text" x="422.7234630439788" y="571" text-anchor="start">Sanh begins.</text>
+  </g>
+  <g class="event-group" data-date="1968-01-22" data-tier="2">
+    <rect class="event-box" x="426.8915496200782" y="470" width="180" height="68"/>
+    <line class="event-line" x1="516.8915496200782" y1="800" x2="516.8915496200782" y2="540"/>
+    <circle class="event-dot" cx="516.8915496200782" cy="540" r="3"/>
+    <text class="event-text" x="432.8915496200782" y="487" text-anchor="start">
+      <tspan class="event-date">Jan 22, 1968 </tspan>
+      <tspan>Westmoreland</tspan>
+    </text>
+    <text class="event-text" x="432.8915496200782" y="501" text-anchor="start">tells NBC he expects major</text>
+    <text class="event-text" x="432.8915496200782" y="515" text-anchor="start">enemy effort around Tet</text>
+    <text class="event-text" x="432.8915496200782" y="529" text-anchor="start">(Lunar New Year) holidays.</text>
+  </g>
+  <g class="event-group" data-date="1968-01-23" data-tier="2">
+    <rect class="event-box" x="431.97559290812796" y="442" width="180" height="54"/>
+    <line class="event-line" x1="521.975592908128" y1="800" x2="521.975592908128" y2="498"/>
+    <circle class="event-dot" cx="521.975592908128" cy="498" r="3"/>
+    <text class="event-text" x="437.97559290812796" y="459" text-anchor="start">
+      <tspan class="event-date">Jan 23, 1968 </tspan>
+      <tspan>North Koreans</tspan>
+    </text>
+    <text class="event-text" x="437.97559290812796" y="473" text-anchor="start">seize U.S. intelligence ship</text>
+    <text class="event-text" x="437.97559290812796" y="487" text-anchor="start">Pueblo.</text>
+  </g>
+  <g class="event-group" data-date="1968-01-29" data-tier="2">
+    <rect class="event-box" x="462.47985263642636" y="386" width="180" height="68"/>
+    <line class="event-line" x1="552.4798526364264" y1="800" x2="552.4798526364264" y2="456"/>
+    <circle class="event-dot" cx="552.4798526364264" cy="456" r="3"/>
+    <text class="event-text" x="468.47985263642636" y="403" text-anchor="start">
+      <tspan class="event-date">Jan 29, 1968 </tspan>
+      <tspan>Tet holiday</tspan>
+    </text>
+    <text class="event-text" x="468.47985263642636" y="417" text-anchor="start">cease-fire begins. Saigon's</text>
+    <text class="event-text" x="468.47985263642636" y="431" text-anchor="start">troops on 50 percent holiday</text>
+    <text class="event-text" x="468.47985263642636" y="445" text-anchor="start">leave. Curfew lifted.</text>
+  </g>
+  <g class="event-group" data-date="1968-01-30" data-tier="1">
+    <rect class="event-box" x="467.5638959244761" y="344" width="180" height="68"/>
+    <line class="event-line" x1="557.5638959244761" y1="800" x2="557.5638959244761" y2="414"/>
+    <circle class="event-dot" cx="557.5638959244761" cy="414" r="3"/>
+    <text class="event-text" x="473.5638959244761" y="361" text-anchor="start">
+      <tspan class="event-date">Jan 30, 1968 </tspan>
+      <tspan>(Saigon time)</tspan>
+    </text>
+    <text class="event-text" x="473.5638959244761" y="375" text-anchor="start">Communists launch surprise</text>
+    <text class="event-text" x="473.5638959244761" y="389" text-anchor="start">attacks in II Corps, hit Da</text>
+    <text class="event-text" x="473.5638959244761" y="403" text-anchor="start">Nang and Hoi An in I Corps.</text>
+  </g>
+  <g class="event-group" data-date="1968-01-31" data-tier="0">
+    <rect class="event-box" x="472.6479392125259" y="274" width="180" height="96"/>
+    <line class="event-line" x1="562.6479392125259" y1="800" x2="562.6479392125259" y2="372"/>
+    <circle class="event-dot" cx="562.6479392125259" cy="372" r="3"/>
+    <text class="event-text" x="478.6479392125259" y="291" text-anchor="start">
+      <tspan class="event-date">Jan 31, 1968 </tspan>
+      <tspan>(Saigon time)</tspan>
+    </text>
+    <text class="event-text" x="478.6479392125259" y="305" text-anchor="start">Attacks throughout South</text>
+    <text class="event-text" x="478.6479392125259" y="319" text-anchor="start">Vietnam, including Hue, Ben</text>
+    <text class="event-text" x="478.6479392125259" y="333" text-anchor="start">Tre, Saigon's Tan Son Nhut</text>
+    <text class="event-text" x="478.6479392125259" y="347" text-anchor="start">Air Base, the U.S. Embassy,</text>
+    <text class="event-text" x="478.6479392125259" y="361" text-anchor="start">and the Presidential Palace.</text>
+  </g>
+  <g class="event-group" data-date="1968-02-01" data-tier="2">
+    <rect class="event-box" x="477.73198250057567" y="274" width="180" height="54"/>
+    <line class="event-line" x1="567.7319825005757" y1="800" x2="567.7319825005757" y2="330"/>
+    <circle class="event-dot" cx="567.7319825005757" cy="330" r="3"/>
+    <text class="event-text" x="483.73198250057567" y="291" text-anchor="start">
+      <tspan class="event-date">Feb 1, 1968 </tspan>
+      <tspan>Westmoreland</tspan>
+    </text>
+    <text class="event-text" x="483.73198250057567" y="305" text-anchor="start">predicts more enemy</text>
+    <text class="event-text" x="483.73198250057567" y="319" text-anchor="start">initiatives.</text>
+  </g>
+  <g class="event-group" data-date="1968-02-02" data-tier="2">
+    <rect class="event-box" x="482.81602578862544" y="218" width="180" height="68"/>
+    <line class="event-line" x1="572.8160257886254" y1="800" x2="572.8160257886254" y2="288"/>
+    <circle class="event-dot" cx="572.8160257886254" cy="288" r="3"/>
+    <text class="event-text" x="488.81602578862544" y="235" text-anchor="start">
+      <tspan class="event-date">Feb 2, 1968 </tspan>
+      <tspan>Johnson says Tet</tspan>
+    </text>
+    <text class="event-text" x="488.81602578862544" y="249" text-anchor="start">offensive was a military</text>
+    <text class="event-text" x="488.81602578862544" y="263" text-anchor="start">failure, but predicts more</text>
+    <text class="event-text" x="488.81602578862544" y="277" text-anchor="start">hard fighting.</text>
+  </g>
+  <g class="event-group" data-date="1968-02-05" data-tier="2">
+    <rect class="event-box" x="498.0681556527745" y="708" width="180" height="40"/>
+    <line class="event-line" x1="588.0681556527745" y1="800" x2="588.0681556527745" y2="750"/>
+    <circle class="event-dot" cx="588.0681556527745" cy="750" r="3"/>
+    <text class="event-text" x="504.0681556527745" y="725" text-anchor="start">
+      <tspan class="event-date">Feb 5, 1968 </tspan>
+      <tspan>Hanoi's Nhan Dan</tspan>
+    </text>
+    <text class="event-text" x="504.0681556527745" y="739" text-anchor="start">claims impending victory.</text>
+  </g>
+  <g class="event-group" data-date="1968-02-07" data-tier="2">
+    <rect class="event-box" x="508.23624222887406" y="610" width="180" height="96"/>
+    <line class="event-line" x1="598.2362422288741" y1="800" x2="598.2362422288741" y2="708"/>
+    <circle class="event-dot" cx="598.2362422288741" cy="708" r="3"/>
+    <text class="event-text" x="514.2362422288741" y="627" text-anchor="start">
+      <tspan class="event-date">Feb 7, 1968 </tspan>
+      <tspan>Communists take</tspan>
+    </text>
+    <text class="event-text" x="514.2362422288741" y="641" text-anchor="start">Lang Vei outpost near Khe</text>
+    <text class="event-text" x="514.2362422288741" y="655" text-anchor="start">Sanh, hang on in Hue and</text>
+    <text class="event-text" x="514.2362422288741" y="669" text-anchor="start">Saigon outskirts, but have</text>
+    <text class="event-text" x="514.2362422288741" y="683" text-anchor="start">withdrawn from other urban</text>
+    <text class="event-text" x="514.2362422288741" y="697" text-anchor="start">areas.</text>
+  </g>
+  <g class="event-group" data-date="1968-02-08" data-tier="2">
+    <rect class="event-box" x="513.3202855169238" y="610" width="180" height="54"/>
+    <line class="event-line" x1="603.3202855169238" y1="800" x2="603.3202855169238" y2="666"/>
+    <circle class="event-dot" cx="603.3202855169238" cy="666" r="3"/>
+    <text class="event-text" x="519.3202855169238" y="627" text-anchor="start">
+      <tspan class="event-date">Feb 8, 1968 </tspan>
+      <tspan>Senator Robert</tspan>
+    </text>
+    <text class="event-text" x="519.3202855169238" y="641" text-anchor="start">Kennedy assails Johnson's</text>
+    <text class="event-text" x="519.3202855169238" y="655" text-anchor="start">policy.</text>
+  </g>
+  <g class="event-group" data-date="1968-02-13" data-tier="2">
+    <rect class="event-box" x="538.7405019571725" y="568" width="180" height="54"/>
+    <line class="event-line" x1="628.7405019571725" y1="800" x2="628.7405019571725" y2="624"/>
+    <circle class="event-dot" cx="628.7405019571725" cy="624" r="3"/>
+    <text class="event-text" x="544.7405019571725" y="585" text-anchor="start">
+      <tspan class="event-date">Feb 13, 1968 </tspan>
+      <tspan>Pentagon</tspan>
+    </text>
+    <text class="event-text" x="544.7405019571725" y="599" text-anchor="start">sending 10,500 more men to</text>
+    <text class="event-text" x="544.7405019571725" y="613" text-anchor="start">Vietnam.</text>
+  </g>
+  <g class="event-group" data-date="1968-02-18" data-tier="2">
+    <rect class="event-box" x="564.1607183974211" y="512" width="180" height="68"/>
+    <line class="event-line" x1="654.1607183974211" y1="800" x2="654.1607183974211" y2="582"/>
+    <circle class="event-dot" cx="654.1607183974211" cy="582" r="3"/>
+    <text class="event-text" x="570.1607183974211" y="529" text-anchor="start">
+      <tspan class="event-date">Feb 18, 1968 </tspan>
+      <tspan>Communist</tspan>
+    </text>
+    <text class="event-text" x="570.1607183974211" y="543" text-anchor="start">gunners shell 45 cities and</text>
+    <text class="event-text" x="570.1607183974211" y="557" text-anchor="start">bases, but only four ground</text>
+    <text class="event-text" x="570.1607183974211" y="571" text-anchor="start">attacks are launched.</text>
+  </g>
+  <g class="event-group" data-date="1968-02-24" data-tier="1">
+    <rect class="event-box" x="594.6649781257196" y="498" width="180" height="40"/>
+    <line class="event-line" x1="684.6649781257196" y1="800" x2="684.6649781257196" y2="540"/>
+    <circle class="event-dot" cx="684.6649781257196" cy="540" r="3"/>
+    <text class="event-text" x="600.6649781257196" y="515" text-anchor="start">
+      <tspan class="event-date">Feb 24, 1968 </tspan>
+      <tspan>Hue city</tspan>
+    </text>
+    <text class="event-text" x="600.6649781257196" y="529" text-anchor="start">cleared of enemy forces.</text>
+  </g>
+  <g class="event-group" data-date="1968-02-25" data-tier="2">
+    <rect class="event-box" x="599.7490214137692" y="414" width="180" height="82"/>
+    <line class="event-line" x1="689.7490214137692" y1="800" x2="689.7490214137692" y2="498"/>
+    <circle class="event-dot" cx="689.7490214137692" cy="498" r="3"/>
+    <text class="event-text" x="605.7490214137692" y="431" text-anchor="start">
+      <tspan class="event-date">Feb 25, 1968 </tspan>
+      <tspan>In AP</tspan>
+    </text>
+    <text class="event-text" x="605.7490214137692" y="445" text-anchor="start">interview, Westmoreland is</text>
+    <text class="event-text" x="605.7490214137692" y="459" text-anchor="start">optimistic, but says he may</text>
+    <text class="event-text" x="605.7490214137692" y="473" text-anchor="start">need additional U.S. forces</text>
+    <text class="event-text" x="605.7490214137692" y="487" text-anchor="start">in future.</text>
+  </g>
+  <g class="event-group" data-date="1968-02-27" data-tier="1">
+    <rect class="event-box" x="609.9171079898687" y="386" width="180" height="68"/>
+    <line class="event-line" x1="699.9171079898687" y1="800" x2="699.9171079898687" y2="456"/>
+    <circle class="event-dot" cx="699.9171079898687" cy="456" r="3"/>
+    <text class="event-text" x="615.9171079898687" y="403" text-anchor="start">
+      <tspan class="event-date">Feb 27, 1968 </tspan>
+      <tspan>In a special</tspan>
+    </text>
+    <text class="event-text" x="615.9171079898687" y="417" text-anchor="start">report, CBS's Walter</text>
+    <text class="event-text" x="615.9171079898687" y="431" text-anchor="start">Cronkite says negotiation is</text>
+    <text class="event-text" x="615.9171079898687" y="445" text-anchor="start">only way out of the war.</text>
+  </g>
+  <g class="event-group" data-date="1968-02-28" data-tier="1">
+    <rect class="event-box" x="615.0011512779186" y="274" width="180" height="138"/>
+    <line class="event-line" x1="705.0011512779186" y1="800" x2="705.0011512779186" y2="414"/>
+    <circle class="event-dot" cx="705.0011512779186" cy="414" r="3"/>
+    <text class="event-text" x="621.0011512779186" y="291" text-anchor="start">
+      <tspan class="event-date">Feb 28, 1968 </tspan>
+      <tspan>After trip to</tspan>
+    </text>
+    <text class="event-text" x="621.0011512779186" y="305" text-anchor="start">Saigon, Wheeler presents</text>
+    <text class="event-text" x="621.0011512779186" y="319" text-anchor="start">complex 206,000-troop</text>
+    <text class="event-text" x="621.0011512779186" y="333" text-anchor="start">request; Johnson orders task</text>
+    <text class="event-text" x="621.0011512779186" y="347" text-anchor="start">force under incoming</text>
+    <text class="event-text" x="621.0011512779186" y="361" text-anchor="start">Secretary of Defense Clark</text>
+    <text class="event-text" x="621.0011512779186" y="375" text-anchor="start">Clifford to study it.</text>
+    <text class="event-text" x="621.0011512779186" y="389" text-anchor="start">Administration and Congress</text>
+    <text class="event-text" x="621.0011512779186" y="403" text-anchor="start">divided on war.</text>
+  </g>
+  <g class="event-group" data-date="1968-03-01" data-tier="2">
+    <rect class="event-box" x="625.169237854018" y="316" width="180" height="54"/>
+    <line class="event-line" x1="715.169237854018" y1="800" x2="715.169237854018" y2="372"/>
+    <circle class="event-dot" cx="715.169237854018" cy="372" r="3"/>
+    <text class="event-text" x="631.169237854018" y="333" text-anchor="start">
+      <tspan class="event-date">Mar 1, 1968 </tspan>
+      <tspan>Last major</tspan>
+    </text>
+    <text class="event-text" x="631.169237854018" y="347" text-anchor="start">communist push at Khe Sanh</text>
+    <text class="event-text" x="631.169237854018" y="361" text-anchor="start">repelled.</text>
+  </g>
+  <g class="event-group" data-date="1968-03-06" data-tier="2">
+    <rect class="event-box" x="650.5894542942667" y="232" width="180" height="96"/>
+    <line class="event-line" x1="740.5894542942667" y1="800" x2="740.5894542942667" y2="330"/>
+    <circle class="event-dot" cx="740.5894542942667" cy="330" r="3"/>
+    <text class="event-text" x="656.5894542942667" y="249" text-anchor="start">
+      <tspan class="event-date">Mar 6, 1968 </tspan>
+      <tspan>In</tspan>
+    </text>
+    <text class="event-text" x="656.5894542942667" y="263" text-anchor="start">'backgrounder,' Westmoreland</text>
+    <text class="event-text" x="656.5894542942667" y="277" text-anchor="start">sees Hue as more likely</text>
+    <text class="event-text" x="656.5894542942667" y="291" text-anchor="start">enemy target now than Khe</text>
+    <text class="event-text" x="656.5894542942667" y="305" text-anchor="start">Sanh; says allies are going</text>
+    <text class="event-text" x="656.5894542942667" y="319" text-anchor="start">on the offensive.</text>
+  </g>
+  <g class="event-group" data-date="1968-03-08" data-tier="2">
+    <rect class="event-box" x="660.7575408703661" y="204" width="180" height="82"/>
+    <line class="event-line" x1="750.7575408703661" y1="800" x2="750.7575408703661" y2="288"/>
+    <circle class="event-dot" cx="750.7575408703661" cy="288" r="3"/>
+    <text class="event-text" x="666.7575408703661" y="221" text-anchor="start">
+      <tspan class="event-date">Mar 8, 1968 </tspan>
+      <tspan>Wheeler cables</tspan>
+    </text>
+    <text class="event-text" x="666.7575408703661" y="235" text-anchor="start">Westmoreland 'cheerless</text>
+    <text class="event-text" x="666.7575408703661" y="249" text-anchor="start">counsel' that chances of</text>
+    <text class="event-text" x="666.7575408703661" y="263" text-anchor="start">getting troop increase are</text>
+    <text class="event-text" x="666.7575408703661" y="277" text-anchor="start">all but dead.</text>
+  </g>
+  <g class="event-group" data-date="1968-03-10" data-tier="1">
+    <rect class="event-box" x="670.9256274464656" y="638" width="180" height="110"/>
+    <line class="event-line" x1="760.9256274464656" y1="800" x2="760.9256274464656" y2="750"/>
+    <circle class="event-dot" cx="760.9256274464656" cy="750" r="3"/>
+    <text class="event-text" x="676.9256274464656" y="655" text-anchor="start">
+      <tspan class="event-date">Mar 10, 1968 </tspan>
+      <tspan>New York Times</tspan>
+    </text>
+    <text class="event-text" x="676.9256274464656" y="669" text-anchor="start">reports that Westmoreland</text>
+    <text class="event-text" x="676.9256274464656" y="683" text-anchor="start">has asked for 206,000 more</text>
+    <text class="event-text" x="676.9256274464656" y="697" text-anchor="start">men, 'to regain the</text>
+    <text class="event-text" x="676.9256274464656" y="711" text-anchor="start">initiative.' NBC's Frank</text>
+    <text class="event-text" x="676.9256274464656" y="725" text-anchor="start">McGee says U.S. is losing</text>
+    <text class="event-text" x="676.9256274464656" y="739" text-anchor="start">the war.</text>
+  </g>
+  <g class="event-group" data-date="1968-03-11" data-tier="1">
+    <rect class="event-box" x="676.0096707345153" y="596" width="180" height="110"/>
+    <line class="event-line" x1="766.0096707345153" y1="800" x2="766.0096707345153" y2="708"/>
+    <circle class="event-dot" cx="766.0096707345153" cy="708" r="3"/>
+    <text class="event-text" x="682.0096707345153" y="613" text-anchor="start">
+      <tspan class="event-date">Mar 11, 1968 </tspan>
+      <tspan>Newsweek</tspan>
+    </text>
+    <text class="event-text" x="682.0096707345153" y="627" text-anchor="start">features 'Agony of Khe</text>
+    <text class="event-text" x="682.0096707345153" y="641" text-anchor="start">Sanh,' calls for peace.</text>
+    <text class="event-text" x="682.0096707345153" y="655" text-anchor="start">Senator Eugene McCarthy wins</text>
+    <text class="event-text" x="682.0096707345153" y="669" text-anchor="start">42 percent of vote in New</text>
+    <text class="event-text" x="682.0096707345153" y="683" text-anchor="start">Hampshire Democratic</text>
+    <text class="event-text" x="682.0096707345153" y="697" text-anchor="start">primary.</text>
+  </g>
+  <g class="event-group" data-date="1968-03-16" data-tier="2">
+    <rect class="event-box" x="701.429887174764" y="624" width="180" height="40"/>
+    <line class="event-line" x1="791.429887174764" y1="800" x2="791.429887174764" y2="666"/>
+    <circle class="event-dot" cx="791.429887174764" cy="666" r="3"/>
+    <text class="event-text" x="707.429887174764" y="641" text-anchor="start">
+      <tspan class="event-date">Mar 16, 1968 </tspan>
+      <tspan>Robert Kennedy</tspan>
+    </text>
+    <text class="event-text" x="707.429887174764" y="655" text-anchor="start">announces candidacy.</text>
+  </g>
+  <g class="event-group" data-date="1968-03-21" data-tier="3">
+    <rect class="event-box" x="726.8501036150126" y="582" width="180" height="40"/>
+    <line class="event-line" x1="816.8501036150126" y1="800" x2="816.8501036150126" y2="624"/>
+    <circle class="event-dot" cx="816.8501036150126" cy="624" r="3"/>
+    <text class="event-text" x="732.8501036150126" y="599" text-anchor="start">
+      <tspan class="event-date">Mar 21, 1968 </tspan>
+      <tspan>Thai announces</tspan>
+    </text>
+    <text class="event-text" x="732.8501036150126" y="613" text-anchor="start">135,000-man Army increase.</text>
+  </g>
+  <g class="event-group" data-date="1968-03-22" data-tier="2">
+    <rect class="event-box" x="731.9341469030625" y="512" width="180" height="68"/>
+    <line class="event-line" x1="821.9341469030625" y1="800" x2="821.9341469030625" y2="582"/>
+    <circle class="event-dot" cx="821.9341469030625" cy="582" r="3"/>
+    <text class="event-text" x="737.9341469030625" y="529" text-anchor="start">
+      <tspan class="event-date">Mar 22, 1968 </tspan>
+      <tspan>Johnson</tspan>
+    </text>
+    <text class="event-text" x="737.9341469030625" y="543" text-anchor="start">announces that Westmoreland</text>
+    <text class="event-text" x="737.9341469030625" y="557" text-anchor="start">will become Army Chief of</text>
+    <text class="event-text" x="737.9341469030625" y="571" text-anchor="start">Staff (in mid-1968).</text>
+  </g>
+  <g class="event-group" data-date="1968-03-30" data-tier="2">
+    <rect class="event-box" x="772.6064932074603" y="470" width="180" height="68"/>
+    <line class="event-line" x1="862.6064932074603" y1="800" x2="862.6064932074603" y2="540"/>
+    <circle class="event-dot" cx="862.6064932074603" cy="540" r="3"/>
+    <text class="event-text" x="778.6064932074603" y="487" text-anchor="start">
+      <tspan class="event-date">Mar 30, 1968 </tspan>
+      <tspan>Gallup poll</tspan>
+    </text>
+    <text class="event-text" x="778.6064932074603" y="501" text-anchor="start">reports all-time low in</text>
+    <text class="event-text" x="778.6064932074603" y="515" text-anchor="start">public approval of Johnson's</text>
+    <text class="event-text" x="778.6064932074603" y="529" text-anchor="start">performance as President.</text>
+  </g>
+  <g class="event-group" data-date="1968-03-31" data-tier="0">
+    <rect class="event-box" x="777.6905364955101" y="386" width="180" height="110"/>
+    <line class="event-line" x1="867.6905364955101" y1="800" x2="867.6905364955101" y2="498"/>
+    <circle class="event-dot" cx="867.6905364955101" cy="498" r="3"/>
+    <text class="event-text" x="783.6905364955101" y="403" text-anchor="start">
+      <tspan class="event-date">Mar 31, 1968 </tspan>
+      <tspan>Johnson gives</tspan>
+    </text>
+    <text class="event-text" x="783.6905364955101" y="417" text-anchor="start">first nationwide TV speech</text>
+    <text class="event-text" x="783.6905364955101" y="431" text-anchor="start">since Tet; he announces</text>
+    <text class="event-text" x="783.6905364955101" y="445" text-anchor="start">partial bombing pause,</text>
+    <text class="event-text" x="783.6905364955101" y="459" text-anchor="start">willingness to negotiate</text>
+    <text class="event-text" x="783.6905364955101" y="473" text-anchor="start">with Hanoi, and his decision</text>
+    <text class="event-text" x="783.6905364955101" y="487" text-anchor="start">not to run for re-election.</text>
+  </g>
+  <script><![CDATA[(function() {
+  var svg = document.querySelector('svg');
+  var viewBox = { x: 0, y: 0, width: 1100, height: 850 };
+  var isDragging = false;
+  var dragStart = { x: 0, y: 0 };
+  var dragViewBox = { x: 0, y: 0, width: 0, height: 0 };
+  var timelineStart = new Date('1967-11-01');
+  var timelineEnd = new Date('1968-04-30');
+  var timelineDays = (timelineEnd - timelineStart) / (1000 * 60 * 60 * 24);
+  var axisXMin = 100;
+  var axisLen = 920;
+  
+  // Tier max spans (days): 0=30y, 1=5y, 2=1y, 3=30d
+  var tierMaxSpanDays = {
+    0: 30 * 365,
+    1: 5 * 365,
+    2: 365,
+    3: 30
+  };
+  
+  function updateViewBox() {
+    svg.setAttribute('viewBox', viewBox.x + ' ' + viewBox.y + ' ' + viewBox.width + ' ' + viewBox.height);
+    updateLOD();
+  }
+  
+  function updateLOD() {
+    // Calculate visible time span from viewBox
+    // Map viewBox x range to timeline x range
+    var viewBoxXMin = viewBox.x;
+    var viewBoxXMax = viewBox.x + viewBox.width;
+    var viewBoxWidth = viewBox.width;
+    
+    // Convert viewBox x to timeline x (accounting for margins)
+    var timelineXMin = Math.max(0, viewBoxXMin - axisXMin);
+    var timelineXMax = Math.min(axisLen, viewBoxXMax - axisXMin);
+    var visibleTimelineLen = timelineXMax - timelineXMin;
+    
+    // Convert timeline x to date
+    var t1 = timelineXMin / axisLen;
+    var t2 = timelineXMax / axisLen;
+    var visibleStart = new Date(timelineStart.getTime() + t1 * timelineDays * 24 * 60 * 60 * 1000);
+    var visibleEnd = new Date(timelineStart.getTime() + t2 * timelineDays * 24 * 60 * 60 * 1000);
+    var visibleSpanDays = (visibleEnd - visibleStart) / (1000 * 60 * 60 * 24);
+    
+    // Show/hide events based on tier and visible span
+    var events = document.querySelectorAll('.event-group');
+    events.forEach(function(ev) {
+      var tier = parseInt(ev.getAttribute('data-tier') || '2');
+      var maxSpan = tierMaxSpanDays[tier] || tierMaxSpanDays[2];
+      var eventDate = new Date(ev.getAttribute('data-date'));
+      
+      // Show if: event is in visible range AND visible span <= tier's max span
+      var inRange = eventDate >= visibleStart && eventDate <= visibleEnd;
+      var spanOK = visibleSpanDays <= maxSpan;
+      
+      if (inRange && spanOK) {
+        ev.classList.remove('hidden');
+      } else {
+        ev.classList.add('hidden');
+      }
+    });
+  }
+  
+  // Zoom functions
+  function zoom(factor, centerX, centerY) {
+    var newWidth = viewBox.width * factor;
+    var newHeight = viewBox.height * factor;
+    var newX = centerX - (centerX - viewBox.x) * factor;
+    var newY = centerY - (centerY - viewBox.y) * factor;
+    
+    // Clamp to bounds
+    newWidth = Math.max(100, Math.min(1100, newWidth));
+    newHeight = Math.max(100, Math.min(850, newHeight));
+    newX = Math.max(0, Math.min(1100 - newWidth, newX));
+    newY = Math.max(0, Math.min(850 - newHeight, newY));
+    
+    viewBox.width = newWidth;
+    viewBox.height = newHeight;
+    viewBox.x = newX;
+    viewBox.y = newY;
+    updateViewBox();
+  }
+  
+  function zoomToRange(startDate, endDate) {
+    var t1 = (startDate - timelineStart) / (timelineDays * 24 * 60 * 60 * 1000);
+    var t2 = (endDate - timelineStart) / (timelineDays * 24 * 60 * 60 * 1000);
+    var x1 = axisXMin + t1 * axisLen;
+    var x2 = axisXMin + t2 * axisLen;
+    
+    // Add padding
+    var padding = 50;
+    viewBox.x = Math.max(0, x1 - padding);
+    viewBox.width = Math.min(1100, x2 - x1 + 2 * padding);
+    viewBox.y = 0;
+    viewBox.height = 850;
+    updateViewBox();
+  }
+  
+  // Mouse wheel zoom
+  svg.addEventListener('wheel', function(e) {
+    e.preventDefault();
+    var rect = svg.getBoundingClientRect();
+    var x = (e.clientX - rect.left) * (1100 / rect.width);
+    var y = (e.clientY - rect.top) * (850 / rect.height);
+    var factor = e.deltaY > 0 ? 1.2 : 1/1.2;
+    zoom(factor, x, y);
+  });
+  
+  // Drag to pan
+  svg.addEventListener('mousedown', function(e) {
+    if (e.target.closest('.zoom-btn')) return;
+    isDragging = true;
+    dragStart.x = e.clientX;
+    dragStart.y = e.clientY;
+    dragViewBox.x = viewBox.x;
+    dragViewBox.y = viewBox.y;
+  });
+  
+  svg.addEventListener('mousemove', function(e) {
+    if (!isDragging) return;
+    var dx = (e.clientX - dragStart.x) * (viewBox.width / svg.getBoundingClientRect().width);
+    var dy = (e.clientY - dragStart.y) * (viewBox.height / svg.getBoundingClientRect().height);
+    viewBox.x = Math.max(0, Math.min(1100 - viewBox.width, dragViewBox.x - dx));
+    viewBox.y = Math.max(0, Math.min(850 - viewBox.height, dragViewBox.y - dy));
+    updateViewBox();
+  });
+  
+  svg.addEventListener('mouseup', function() { isDragging = false; });
+  svg.addEventListener('mouseleave', function() { isDragging = false; });
+  
+  // Button controls
+  document.getElementById('zoom-in').addEventListener('click', function() {
+    zoom(0.7, 550, 425);
+  });
+  
+  document.getElementById('zoom-out').addEventListener('click', function() {
+    zoom(1/0.7, 550, 425);
+  });
+  
+  document.getElementById('zoom-reset').addEventListener('click', function() {
+    viewBox = { x: 0, y: 0, width: 1100, height: 850 };
+    updateViewBox();
+  });
+  
+  // Initial LOD update
+  updateLOD();
+})();
+]]></script>
+  <script><![CDATA[var groups = document.querySelectorAll('.event-group');
+groups.forEach(function(g) {
+  g.addEventListener('mouseenter', function() {
+    groups.forEach(function(other) { other.classList.remove('hovered'); });
+    this.classList.add('hovered');
+    this.parentNode.appendChild(this);
+  });
+  g.addEventListener('mouseleave', function() { this.classList.remove('hovered'); });
+});
+]]></script>
+</svg>

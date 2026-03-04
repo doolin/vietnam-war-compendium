@@ -1,0 +1,131 @@
+# A Brief Chronology of the Tet Period
+# Source: "The Big Story" — photographed timeline in bigstorytet/
+#
+# Transcribed from big-story-timeline-1.jpg and big-story-timeline-2.jpg
+
+the_war_years:
+  # 1967
+  - date: "Nov. 21, 1967"
+    event: "In Washington, General Westmoreland predicts U.S. troop withdrawals can start in two years."
+    tier: 1
+
+  - date: "Dec. 18, 1967"
+    event: "In Detroit, General Wheeler warns of possible enemy offensive."
+    tier: 2
+
+  - date: "Dec. 20, 1967"
+    event: "Westmoreland privately tells Washington of communists' decision to try countrywide win-the-war effort."
+    tier: 2
+
+  - date: "Dec. 21, 1967"
+    event: "President Johnson confides to Australian officials he expects 'kamikaze' attacks in Vietnam. Later, he publicly discusses Vietnam, does not mention 'kamikaze' attacks."
+    tier: 2
+
+  # 1968
+  - date: "Jan. 20, 1968"
+    event: "Siege of Khe Sanh begins."
+    tier: 1
+
+  - date: "Jan. 22, 1968"
+    event: "Westmoreland tells NBC he expects major enemy effort around Tet (Lunar New Year) holidays."
+    tier: 2
+
+  - date: "Jan. 23, 1968"
+    event: "North Koreans seize U.S. intelligence ship Pueblo."
+    tier: 2
+
+  - date: "Jan. 29, 1968"
+    event: "Tet holiday cease-fire begins. Saigon's troops on 50 percent holiday leave. Curfew lifted."
+    tier: 2
+
+  - date: "Jan. 30, 1968"
+    event: "(Saigon time) Communists launch surprise attacks in II Corps, hit Da Nang and Hoi An in I Corps."
+    tier: 1
+
+  - date: "Jan. 31, 1968"
+    event: "(Saigon time) Attacks throughout South Vietnam, including Hue, Ben Tre, Saigon's Tan Son Nhut Air Base, the U.S. Embassy, and the Presidential Palace."
+    tier: 0
+
+  - date: "Feb. 1, 1968"
+    event: "Westmoreland predicts more enemy initiatives."
+    tier: 2
+
+  - date: "Feb. 2, 1968"
+    event: "Johnson says Tet offensive was a military failure, but predicts more hard fighting."
+    tier: 2
+
+  - date: "Feb. 5, 1968"
+    event: "Hanoi's Nhan Dan claims impending victory."
+    tier: 2
+
+  - date: "Feb. 7, 1968"
+    event: "Communists take Lang Vei outpost near Khe Sanh, hang on in Hue and Saigon outskirts, but have withdrawn from other urban areas."
+    tier: 2
+
+  - date: "Feb. 8, 1968"
+    event: "Senator Robert Kennedy assails Johnson's policy."
+    tier: 2
+
+  - date: "Feb. 13, 1968"
+    event: "Pentagon sending 10,500 more men to Vietnam."
+    tier: 2
+
+  - date: "Feb. 18, 1968"
+    event: "Communist gunners shell 45 cities and bases, but only four ground attacks are launched."
+    tier: 2
+
+  - date: "Feb. 24, 1968"
+    event: "Hue city cleared of enemy forces."
+    tier: 1
+
+  - date: "Feb. 25, 1968"
+    event: "In AP interview, Westmoreland is optimistic, but says he may need additional U.S. forces in future."
+    tier: 2
+
+  - date: "Feb. 27, 1968"
+    event: "In a special report, CBS's Walter Cronkite says negotiation is only way out of the war."
+    tier: 1
+
+  - date: "Feb. 28, 1968"
+    event: "After trip to Saigon, Wheeler presents complex 206,000-troop request; Johnson orders task force under incoming Secretary of Defense Clark Clifford to study it. Administration and Congress divided on war."
+    tier: 1
+
+  - date: "Mar. 1, 1968"
+    event: "Last major communist push at Khe Sanh repelled."
+    tier: 2
+
+  - date: "Mar. 6, 1968"
+    event: "In 'backgrounder,' Westmoreland sees Hue as more likely enemy target now than Khe Sanh; says allies are going on the offensive."
+    tier: 2
+
+  - date: "Mar. 8, 1968"
+    event: "Wheeler cables Westmoreland 'cheerless counsel' that chances of getting troop increase are all but dead."
+    tier: 2
+
+  - date: "Mar. 10, 1968"
+    event: "New York Times reports that Westmoreland has asked for 206,000 more men, 'to regain the initiative.' NBC's Frank McGee says U.S. is losing the war."
+    tier: 1
+
+  - date: "Mar. 11, 1968"
+    event: "Newsweek features 'Agony of Khe Sanh,' calls for peace. Senator Eugene McCarthy wins 42 percent of vote in New Hampshire Democratic primary."
+    tier: 1
+
+  - date: "Mar. 16, 1968"
+    event: "Robert Kennedy announces candidacy."
+    tier: 2
+
+  - date: "Mar. 21, 1968"
+    event: "Thai announces 135,000-man Army increase."
+    tier: 3
+
+  - date: "Mar. 22, 1968"
+    event: "Johnson announces that Westmoreland will become Army Chief of Staff (in mid-1968)."
+    tier: 2
+
+  - date: "Mar. 30, 1968"
+    event: "Gallup poll reports all-time low in public approval of Johnson's performance as President."
+    tier: 2
+
+  - date: "Mar. 31, 1968"
+    event: "Johnson gives first nationwide TV speech since Tet; he announces partial bombing pause, willingness to negotiate with Hanoi, and his decision not to run for re-election."
+    tier: 0

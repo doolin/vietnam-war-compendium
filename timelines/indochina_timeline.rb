@@ -74,7 +74,7 @@ require "nokogiri"
 WIDTH  = 1100
 HEIGHT = 850
 START_YEAR = 1941
-END_YEAR   = 1966  # full span: Viet Minh formation through Ia Drang period
+END_YEAR   = 1972  # full span: Viet Minh formation through SOG deactivation
 VIETMINH_FILE = File.join(__dir__, "vietminh-timeline.yaml")
 DATA_FILE    = File.join(__dir__, "ia-drang-pimlott.yaml")
 STARLITE_FILE = File.join(__dir__, "starlite-pimlott.yaml")
