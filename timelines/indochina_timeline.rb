@@ -78,6 +78,7 @@ END_YEAR   = 1966  # full span: Viet Minh formation through Ia Drang period
 VIETMINH_FILE = File.join(__dir__, "vietminh-timeline.yaml")
 DATA_FILE    = File.join(__dir__, "ia-drang-pimlott.yaml")
 STARLITE_FILE = File.join(__dir__, "starlite-pimlott.yaml")
+KINDLE_TIMELINE_FILE = File.join(__dir__, "kindle-highlights-timeline.yaml")
 BLOCKS_FILE  = File.join(__dir__, "blocks.yaml")
 OUTPUT_FILE  = File.join(__dir__, "indochina-timeline.svg")
 DEFAULT_TIER = 2  # LOD: show at month/day zoom; 0=overview, 1=year, 2=month, 3=day
@@ -696,7 +697,8 @@ end
 # SVG for [START_YEAR, END_YEAR], write to OUTPUT_FILE.
 def main
   # Merge: load all event sources, concatenate, then sort by date (single chronological list).
-  events = Events.load(VIETMINH_FILE) + Events.load(DATA_FILE) + Events.load(STARLITE_FILE)
+  kindle_events = File.exist?(KINDLE_TIMELINE_FILE) ? Events.load(KINDLE_TIMELINE_FILE) : []
+  events = Events.load(VIETMINH_FILE) + Events.load(DATA_FILE) + Events.load(STARLITE_FILE) + kindle_events
   events = events.sort_by { |e| e[:date] }
   blocks = Blocks.load(BLOCKS_FILE)
   start_date = Date.new(START_YEAR, 1, 1)
