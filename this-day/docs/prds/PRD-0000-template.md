@@ -91,6 +91,13 @@ List what is explicitly out of scope.
 ### 3.3 Success Definition
 Describe what “done” means from a product perspective.
 
+### 3.4 Future Work
+List desirable work that is explicitly deferred from this effort.
+
+- Future work 1:
+- Future work 2:
+- Future work 3:
+
 ---
 
 ## 4. Stakeholders

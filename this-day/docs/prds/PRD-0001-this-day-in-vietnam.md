@@ -42,7 +42,7 @@ A single AWS Lambda function that:
 - Loads event data from an in-memory SQLite3 database
 - Matches events to the current date (month and day, single date)
 - Selects one event at random when multiple events exist for that date
-- Renders a styled, self-contained HTML page with embedded CSS and JavaScript
+- Renders a styled, self-contained HTML page with embedded CSS
 - Returns the page to the browser
 
 ### 1.4 Expected Outcome
@@ -174,7 +174,7 @@ Standard web accessibility: readable font sizes, sufficient contrast, semantic H
 
 - **FR-001:** The service shall return an HTML page for the current date.
 - **FR-002:** The page shall display a title in the format "This Day in Viet Nam — {Month} {Day}, {Year}".
-- **FR-003:** When multiple events exist for a date, one shall be selected at random.
+- **FR-003:** When multiple events exist for a date, one shall be selected at random. The selected event's year determines the year displayed in the heading (FR-002).
 - **FR-004:** Each event shall include 1–3 hyperlinked references.
 - **FR-005:** When a photo is available for an event, it shall be displayed right-aligned beside the text.
 - **FR-006:** The HTML response shall be self-contained with no external CSS, JavaScript, or font dependencies.
@@ -267,7 +267,7 @@ The core entity is an **Event** with the following conceptual attributes:
 
 - **month** and **day** — used to match the current date
 - **year** — the specific year the event occurred
-- **title** — short description used in the page heading
+- **title** — short description used as the HTML document title and for internal identification; the visible page heading is constructed from the date fields per FR-002
 - **body** — one or more paragraphs of explanatory text
 - **photo_url** — optional; path or URL to an image
 - **photo_alt** — alt text for the image
@@ -543,13 +543,13 @@ No compliance, legal, or policy requirements apply to this project. All content 
 | Requirement ID | Section | Related Story | Test Coverage | Status |
 |----------------|---------|---------------|---------------|--------|
 | FR-001 | 7 | Visitor sees event for today | 16.3 — FR-001 | Draft |
-| FR-002 | 7 | Visitor sees event for today | 16.3 — FR-002 | Draft |
-| FR-003 | 7 | Visitor sees event for today | 16.3 — FR-003 | Draft |
+| FR-002 | 7 | Visitor sees correctly formatted title | 16.3 — FR-002 | Draft |
+| FR-003 | 7 | Visitor sees a different event on reload | 16.3 — FR-003 | Draft |
 | FR-004 | 7 | Visitor sees hyperlinked references | 16.3 — FR-004 | Draft |
 | FR-005 | 7 | Visitor sees photo when available | 16.3 — FR-005 | Draft |
-| FR-006 | 7 | Page loads quickly | 16.3 — FR-006 | Draft |
+| FR-006 | 7 | Page is self-contained with no external dependencies | 16.3 — FR-006 | Draft |
 | FR-007 | 7 | Page readable on phone | 16.3 — FR-007 | Draft |
-| FR-008 | 7 | Visitor sees event for today | 16.3 — FR-008 | Draft |
+| FR-008 | 7 | Visitor sees fallback when no event exists | 16.3 — FR-008 | Draft |
 
 ---
 
