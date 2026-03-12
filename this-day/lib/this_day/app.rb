@@ -5,7 +5,8 @@ require_relative "database"
 
 module ThisDay
   class App < Roda
-    plugin :render, engine: "erb", views: File.expand_path("../../views", __dir__)
+    plugin :render, engine: "erb", views: File.expand_path("../../views", __dir__),
+                    template_opts: { default_encoding: "UTF-8" }
     plugin :head
     plugin :status_handler
     plugin :typecast_params

@@ -1,31 +1,23 @@
 AWSTemplateFormatVersion: '2010-09-09'
 Transform: AWS::Serverless-2016-10-31
-Description: This Day in Viet Nam — daily Vietnam War history page
+Description: >
+  This Day in Viet Nam — daily Vietnam War history page.
+  SAM template used for building only; infrastructure managed by Terraform.
 
 Globals:
   Function:
     Timeout: 10
-    MemorySize: 128
+    MemorySize: 512
 
 Resources:
   ThisDayFunction:
     Type: AWS::Serverless::Function
     Properties:
-      Handler: bin/handler.handler
-      Runtime: ruby3.4
+      Handler: app.handler
+      Runtime: ruby3.3
       CodeUri: .
-      FunctionUrlConfig:
-        AuthType: NONE
       Environment:
         Variables:
           THIS_DAY_DB_PATH: db/this_day.sqlite3
     Metadata:
-      BuildMethod: ruby3.4
-
-Outputs:
-  FunctionUrl:
-    Description: Lambda Function URL
-    Value: !GetAtt ThisDayFunctionUrl.FunctionUrl
-  ThisDayFunction:
-    Description: Lambda Function ARN
-    Value: !GetAtt ThisDayFunction.Arn
+      BuildMethod: ruby3.3

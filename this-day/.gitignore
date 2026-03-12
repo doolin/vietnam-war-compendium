@@ -3,3 +3,4 @@ db/test.sqlite3
 .bundle/
 vendor/bundle/
 .aws-sam/
+.build/
