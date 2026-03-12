@@ -27,7 +27,9 @@ module ThisDay
     end
 
     status_handler(404) do
-      view("fallback", locals: { date_string: format_date(Date.today) })
+      today = Date.today
+      view("fallback", locals: { date_string: format_date(today),
+                                 prev_date: today - 1, next_date: today + 1 })
     end
 
     status_handler(500) do
@@ -36,29 +38,44 @@ module ThisDay
 
     route do |r|
       r.root do
-        serve_today(r)
+        serve_date(Date.today)
       end
 
       r.on "this-day-in-vietnam-war" do
+        r.get String, String do |month, day|
+          date = Date.new(Date.today.year, month.to_i, day.to_i)
+          serve_date(date)
+        rescue ArgumentError
+          response.status = 404
+          view("fallback", locals: { date_string: "Invalid date" })
+        end
+
         r.get true do
-          serve_today(r)
+          serve_date(Date.today)
         end
       end
     end
 
     private
 
-    def serve_today(_r)
-      today = Date.today
-      event = self.class.database.event_for_date(today.month, today.day)
+    def serve_date(date)
+      event = self.class.database.event_for_date(date.month, date.day)
+      prev_date = date - 1
+      next_date = date + 1
 
       if event
         date_string = format_date_with_year(event.month, event.day, event.year)
-        view("event", locals: { event: event, date_string: date_string })
+        view("event", locals: { event: event, date_string: date_string,
+                                prev_date: prev_date, next_date: next_date })
       else
-        date_string = format_date(today)
-        view("fallback", locals: { date_string: date_string })
+        date_string = format_date(date)
+        view("fallback", locals: { date_string: date_string,
+                                   prev_date: prev_date, next_date: next_date })
       end
+    end
+
+    def date_path(date)
+      "/this-day-in-vietnam-war/#{date.month}/#{date.day}"
     end
 
     def format_date(date)

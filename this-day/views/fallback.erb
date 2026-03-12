@@ -1,3 +1,8 @@
+<nav class="day-nav">
+  <a href="<%= date_path(prev_date) %>"><%= prev_date.strftime("%B %-d") %></a>
+  <a href="<%= date_path(next_date) %>"><%= next_date.strftime("%B %-d") %></a>
+</nav>
+
 <h1>This Day in Viet Nam &mdash; <%= date_string %></h1>
 
 <div class="fallback">
