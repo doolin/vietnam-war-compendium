@@ -1,0 +1,25 @@
+<h1>This Day in Viet Nam &mdash; <%= date_string %></h1>
+
+<% if event.photo_url %>
+<figure class="event-photo">
+  <img src="<%= event.photo_url %>" alt="<%= event.photo_alt %>">
+  <% if event.photo_alt %>
+  <figcaption><%= event.photo_alt %></figcaption>
+  <% end %>
+</figure>
+<% end %>
+
+<article class="event-body">
+  <%= event.body %>
+</article>
+
+<% unless event.references.empty? %>
+<nav class="references" aria-label="References">
+  <h2>References</h2>
+  <ol>
+    <% event.references.each do |ref| %>
+    <li><a href="<%= ref.url %>" rel="noopener noreferrer"><%= ref.label %></a></li>
+    <% end %>
+  </ol>
+</nav>
+<% end %>

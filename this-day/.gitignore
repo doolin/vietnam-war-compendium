@@ -1,0 +1,5 @@
+db/this_day.sqlite3
+db/test.sqlite3
+.bundle/
+vendor/bundle/
+.aws-sam/

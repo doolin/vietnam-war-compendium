@@ -1,0 +1,31 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: This Day in Viet Nam — daily Vietnam War history page
+
+Globals:
+  Function:
+    Timeout: 10
+    MemorySize: 128
+
+Resources:
+  ThisDayFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: bin/handler.handler
+      Runtime: ruby3.4
+      CodeUri: .
+      FunctionUrlConfig:
+        AuthType: NONE
+      Environment:
+        Variables:
+          THIS_DAY_DB_PATH: db/this_day.sqlite3
+    Metadata:
+      BuildMethod: ruby3.4
+
+Outputs:
+  FunctionUrl:
+    Description: Lambda Function URL
+    Value: !GetAtt ThisDayFunctionUrl.FunctionUrl
+  ThisDayFunction:
+    Description: Lambda Function ARN
+    Value: !GetAtt ThisDayFunction.Arn

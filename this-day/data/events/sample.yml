@@ -1,0 +1,169 @@
+# Seed events for "This Day in Viet Nam"
+# Sources: timelines/tet-bigstory.yaml, timelines/starlite-pimlott.yaml,
+#          kindle-highlights/sog-kontum.yaml, kindle-highlights/foresaken-warriors.yaml
+
+# --- March events ---
+
+- month: 3
+  day: 1
+  year: 1968
+  title: "Last major communist push at Khe Sanh repelled"
+  body: "<p>Marines at the besieged combat base at Khe Sanh repelled the last major ground assault by North Vietnamese forces. The siege, which began on January 20, had riveted American media attention for weeks, drawing comparisons to the French defeat at Dien Bien Phu in 1954.</p><p>Although the base held, the siege consumed enormous resources and attention, and the Marines would ultimately abandon Khe Sanh in July 1968.</p>"
+  photo_url:
+  photo_alt:
+  references:
+    - label: "The Big Story by Peter Braestrup"
+      url: "https://yalebooks.yale.edu/book/9780300026306/big-story/"
+    - label: "Valley of Decision: The Siege of Khe Sanh by John Prados and Ray Stubbe"
+      url: "https://www.amazon.com/dp/0440215005"
+
+- month: 3
+  day: 2
+  year: 1965
+  title: "Operation Rolling Thunder begins"
+  body: "<p>The United States launched Operation Rolling Thunder, a sustained aerial bombing campaign against North Vietnam. Initially conceived as an eight-week campaign, it would continue with occasional pauses until November 1968, dropping more bombs on Vietnam than were dropped during all of World War II.</p>"
+  photo_url:
+  photo_alt:
+  references:
+    - label: "The Pentagon Papers, Gravel Edition, Chapter IV.C.3"
+      url: "https://www.archives.gov/research/pentagon-papers"
+    - label: "Rolling Thunder 1965–1968, USAF Historical Division"
+      url: "https://media.defense.gov/2010/Sep/28/2001329801/-1/-1/0/AFD-100928-054.pdf"
+
+- month: 3
+  day: 3
+  year: 1971
+  title: "U.S. Special Forces officially depart Vietnam"
+  body: "<p>The 5th Special Forces Group formally ended its decade-long presence in Vietnam. An honor guard bearing the group's colors boarded an aircraft at Nha Trang Airbase for the flight to Fort Bragg, North Carolina, closing a chapter that began with the first Special Forces advisors arriving in 1961.</p><p>During their ten years in Vietnam, Special Forces soldiers had trained and fought alongside Montagnard tribesmen, Civilian Irregular Defense Groups, and Vietnamese Special Forces in some of the war's most remote and dangerous operations.</p>"
+  photo_url:
+  photo_alt:
+  references:
+    - label: "Forsaken Warriors by Robert Pratt"
+      url: "https://www.amazon.com/dp/1935149075"
+    - label: "U.S. Army Special Forces in Vietnam, 1961–1971"
+      url: "https://history.army.mil/html/books/090/90-23-1/cmhPub_90-23.htm"
+
+- month: 3
+  day: 8
+  year: 1965
+  title: "U.S. Marines land at Da Nang"
+  body: "<p>The 9th Marine Expeditionary Brigade waded ashore at Red Beach near Da Nang, becoming the first American combat ground troops deployed to Vietnam. The two battalion landing teams — 3,500 Marines in all — were greeted on the beach by Vietnamese girls bearing flower garlands, a scene at sharp odds with the mission's purpose: to defend the Da Nang air base against Viet Cong attack.</p><p>The landing marked a decisive escalation from the advisory role American forces had played since the early 1960s. Within months, the Marines would shift from a defensive posture to active offensive operations.</p>"
+  photo_url:
+  photo_alt:
+  references:
+    - label: "U.S. Marines in Vietnam: The Landing and the Buildup, 1965"
+      url: "https://www.usmcu.edu/Research/Marine-Corps-History-Division/Brief-Histories/Marines-in-the-Vietnam-War/"
+    - label: "Vietnam: The Definitive Oral History by Christian Appy"
+      url: "https://www.amazon.com/dp/0143035258"
+
+- month: 3
+  day: 10
+  year: 1968
+  title: "New York Times reveals 206,000-troop request"
+  body: "<p>The New York Times published a front-page story revealing that General Westmoreland had requested 206,000 additional troops for Vietnam, ostensibly to 'regain the initiative' after the Tet Offensive. The story, based on leaked Pentagon documents, stunned a public that had been told the war was being won.</p><p>That same day, NBC anchor Frank McGee told viewers that the United States was losing the war. The twin blows deepened the credibility gap between the Johnson administration's optimistic assessments and the reality on the ground.</p>"
+  photo_url:
+  photo_alt:
+  references:
+    - label: "The Big Story by Peter Braestrup"
+      url: "https://yalebooks.yale.edu/book/9780300026306/big-story/"
+    - label: "Dereliction of Duty by H.R. McMaster"
+      url: "https://www.amazon.com/dp/0060929081"
+
+- month: 3
+  day: 11
+  year: 1968
+  title: "McCarthy wins New Hampshire; Newsweek calls for peace"
+  body: "<p>Senator Eugene McCarthy of Minnesota won 42 percent of the vote in the New Hampshire Democratic presidential primary, a stunning result against an incumbent president. Running on an anti-war platform, McCarthy's near-victory demonstrated the depth of public opposition to the war and shook the political establishment.</p><p>The same week, Newsweek featured 'The Agony of Khe Sanh' on its cover and editorialized in favor of seeking peace. Four days later, Robert Kennedy would enter the race.</p>"
+  photo_url:
+  photo_alt:
+  references:
+    - label: "The Big Story by Peter Braestrup"
+      url: "https://yalebooks.yale.edu/book/9780300026306/big-story/"
+    - label: "America's Longest War by George Herring"
+      url: "https://www.amazon.com/dp/0073513253"
+
+- month: 3
+  day: 16
+  year: 1968
+  title: "Robert Kennedy announces presidential candidacy"
+  body: "<p>Senator Robert F. Kennedy of New York announced his candidacy for the Democratic presidential nomination in the same Senate Caucus Room where his brother John had declared his candidacy eight years earlier. Kennedy cited the Vietnam War and domestic unrest as his reasons for challenging President Johnson.</p><p>Kennedy's entry, coming five days after McCarthy's strong showing in New Hampshire, further fractured the Democratic Party and intensified pressure on Johnson to change course in Vietnam.</p>"
+  photo_url:
+  photo_alt:
+  references:
+    - label: "Robert Kennedy and His Times by Arthur Schlesinger Jr."
+      url: "https://www.amazon.com/dp/0618219285"
+    - label: "The Big Story by Peter Braestrup"
+      url: "https://yalebooks.yale.edu/book/9780300026306/big-story/"
+
+- month: 3
+  day: 22
+  year: 1968
+  title: "Johnson reassigns Westmoreland"
+  body: "<p>President Johnson announced that General William Westmoreland would leave his command in Vietnam to become Army Chief of Staff. Although framed as a promotion, the reassignment was widely interpreted as a vote of no confidence in Westmoreland's conduct of the war, coming in the wake of the Tet Offensive and the controversial 206,000-troop request.</p><p>General Creighton Abrams succeeded Westmoreland as commander of U.S. forces in Vietnam and would oversee the shift toward Vietnamization.</p>"
+  photo_url:
+  photo_alt:
+  references:
+    - label: "Westmoreland: The General Who Lost Vietnam by Lewis Sorley"
+      url: "https://www.amazon.com/dp/0547844921"
+    - label: "The Big Story by Peter Braestrup"
+      url: "https://yalebooks.yale.edu/book/9780300026306/big-story/"
+
+- month: 3
+  day: 31
+  year: 1968
+  title: "Johnson announces he will not seek re-election"
+  body: "<p>In a nationally televised address, President Lyndon B. Johnson announced a partial halt to the bombing of North Vietnam, expressed willingness to negotiate with Hanoi, and then stunned the nation with an unscripted-sounding conclusion: 'I shall not seek, and I will not accept, the nomination of my party for another term as your President.'</p><p>The speech marked the definitive political casualty of the Tet Offensive. The man who had won a historic landslide in 1964 had been broken by the war he had escalated.</p>"
+  photo_url:
+  photo_alt:
+  references:
+    - label: "The Big Story by Peter Braestrup"
+      url: "https://yalebooks.yale.edu/book/9780300026306/big-story/"
+    - label: "Lyndon Johnson's War by Larry Berman"
+      url: "https://www.amazon.com/dp/0393307867"
+    - label: "LBJ Presidential Library: Address to the Nation"
+      url: "https://www.lbjlibrary.org/object/text/address-nation-3-31-1968"
+
+# --- Non-March events for variety ---
+
+- month: 1
+  day: 30
+  year: 1968
+  title: "Tet Offensive launched"
+  body: "<p>North Vietnamese and Viet Cong forces launched a coordinated series of surprise attacks on more than 100 cities and towns across South Vietnam during the Tet holiday ceasefire. The offensive included an assault on the US Embassy in Saigon and the beginning of the Battle of Hue.</p><p>Although a military defeat for the attackers, the Tet Offensive profoundly shifted American public opinion against the war and is widely regarded as a turning point in the conflict.</p>"
+  photo_url:
+  photo_alt:
+  references:
+    - label: "Tet! The Turning Point in the Vietnam War by Don Oberdorfer"
+      url: "https://www.amazon.com/dp/0801867037"
+    - label: "The Tet Offensive: A Concise History by James H. Willbanks"
+      url: "https://www.amazon.com/dp/0231128401"
+    - label: "National Archives: The Tet Offensive"
+      url: "https://www.archives.gov/research/military/vietnam-war/tet-offensive"
+
+- month: 11
+  day: 14
+  year: 1965
+  title: "Battle of Ia Drang"
+  body: "<p>Elements of the 1st Battalion, 7th Cavalry Regiment, 1st Cavalry Division (Airmobile) landed in Landing Zone X-Ray in the Ia Drang Valley of the Central Highlands. Over the next three days, they fought one of the fiercest battles of the Vietnam War against the 66th and 33rd Regiments of the People's Army of Vietnam.</p><p>The battle demonstrated both the potential and the cost of the US Army's new airmobile tactics, with 79 Americans killed at LZ X-Ray and an additional 155 killed in a subsequent ambush at LZ Albany.</p>"
+  photo_url:
+  photo_alt:
+  references:
+    - label: "We Were Soldiers Once... and Young by Hal Moore and Joe Galloway"
+      url: "https://www.amazon.com/dp/0345472640"
+    - label: "Pleiku: The Dawn of Helicopter Warfare in Vietnam by J.D. Coleman"
+      url: "https://www.amazon.com/dp/0312070004"
+
+- month: 4
+  day: 30
+  year: 1975
+  title: "Fall of Saigon"
+  body: "<p>North Vietnamese tanks crashed through the gates of the Presidential Palace in Saigon, marking the end of the Vietnam War. In the preceding hours, the United States had completed Operation Frequent Wind, the helicopter evacuation of American personnel and at-risk Vietnamese from the city.</p><p>The iconic image of a helicopter atop the Pittman Apartments (often misidentified as the US Embassy) came to symbolize the end of American involvement in Vietnam. South Vietnam ceased to exist as the country was reunified under Communist rule.</p>"
+  photo_url:
+  photo_alt:
+  references:
+    - label: "Decent Interval by Frank Snepp"
+      url: "https://www.amazon.com/dp/0700612459"
+    - label: "Last Men Out by Bob Drury and Tom Clavin"
+      url: "https://www.amazon.com/dp/1451610351"
+    - label: "The Fall of Saigon, National Archives"
+      url: "https://www.archives.gov/research/military/vietnam-war/fall-of-saigon"

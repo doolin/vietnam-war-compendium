@@ -1,0 +1,50 @@
+# frozen_string_literal: true
+
+require "rake"
+
+namespace :db do
+  desc "Build the SQLite3 database from YAML event files"
+  task :build do
+    ruby "db/seed.rb"
+  end
+
+  desc "Build a test database with sample events"
+  task :build_test do
+    require "sqlite3"
+    require "fileutils"
+
+    db_path = File.expand_path("db/test.sqlite3", __dir__)
+    schema_path = File.expand_path("db/schema.sql", __dir__)
+    FileUtils.rm_f(db_path)
+
+    db = SQLite3::Database.new(db_path)
+    db.execute_batch(File.read(schema_path))
+
+    # Sample event for March 11
+    db.execute(
+      "INSERT INTO events (month, day, year, title, body, photo_url, photo_alt) VALUES (?, ?, ?, ?, ?, ?, ?)",
+      [3, 11, 1965, "Operation Rolling Thunder begins",
+       "<p>The United States launched Operation Rolling Thunder, a sustained aerial bombing campaign against North Vietnam. The campaign would continue, with occasional pauses, until November 1968.</p>",
+       nil, nil]
+    )
+    event_id = db.last_insert_row_id
+    db.execute(
+      'INSERT INTO "references" (event_id, position, label, url) VALUES (?, ?, ?, ?)',
+      [event_id, 1, "The Pentagon Papers, Chapter IV.C.3", "https://www.archives.gov/research/pentagon-papers"]
+    )
+    db.execute(
+      'INSERT INTO "references" (event_id, position, label, url) VALUES (?, ?, ?, ?)',
+      [event_id, 2, "USAF Historical Division monograph", "https://media.defense.gov/2010/Sep/28/2001329801/-1/-1/0/AFD-100928-054.pdf"]
+    )
+
+    db.close
+    puts "Built test database at #{db_path}"
+  end
+end
+
+desc "Run RSpec tests"
+task :spec do
+  sh "bundle exec rspec"
+end
+
+task default: :spec
