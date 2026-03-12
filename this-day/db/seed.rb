@@ -5,7 +5,7 @@
 # Usage:
 #   rake db:build
 #
-# The YAML source files are expected in data/events/*.yml relative to the
+# The YAML source files are expected in data/events/*.yaml relative to the
 # project root. Each file contains an array of event hashes.
 
 require "sqlite3"
@@ -23,7 +23,7 @@ def build_database
   db = SQLite3::Database.new(DB_PATH)
   db.execute_batch(File.read(SCHEMA_PATH))
 
-  event_files = Dir.glob(File.join(DATA_DIR, "*.yml")).sort
+  event_files = Dir.glob(File.join(DATA_DIR, "*.yaml")).sort
   if event_files.empty?
     warn "Warning: No YAML event files found in #{DATA_DIR}"
     db.close

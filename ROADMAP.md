@@ -2,15 +2,13 @@
 
 ## Structural Issues
 
-### 1. File extension inconsistency
-- `this-day/data/events/` uses `.yml`
-- `kindle-highlights/` and `timelines/` use `.yaml`
-- Not a bug, but signals ad-hoc growth rather than intentional convention.
+### ~~1. File extension inconsistency~~
+Resolved. All YAML files now use `.yaml`.
 
 ### 2. Timeline top-level key naming
 - Three files use `the_war_years:`, two use `timeline:`. The Ruby driver has to handle both. Pick one and enforce it.
 
-### 3. Empty URL strings in dereliction-of-duty.yml
+### 3. Empty URL strings in dereliction-of-duty.yaml
 - All 31 events have `url: ""` instead of null. These render as `<a href="">` — broken links that reload the current page.
 
 ### 4. starlite.yaml is a stub
@@ -19,14 +17,14 @@
 ### 5. No seed validation
 - `db/seed.rb` silently accepts invalid months/days, missing required fields, and empty reference URLs.
 
-### 6. sample.yml naming is ambiguous
+### 6. sample.yaml naming is ambiguous
 - Contains real, curated events (Tet, Ia Drang, Khe Sanh, etc.) — not sample/test data. The name undersells it and may cause confusion about whether it's safe to delete.
 
 ## Redundancy
 
 ### 7. Two parallel data paths
 - **Timelines pipeline**: `kindle-highlights/*.yaml` → `extract_timeline.rb` → `timelines/kindle-highlights-timeline.yaml` → SVG
-- **This-day pipeline**: `kindle-highlights/*.yaml` → manual/skill extraction → `this-day/data/events/*.yml` → SQLite
+- **This-day pipeline**: `kindle-highlights/*.yaml` → manual/skill extraction → `this-day/data/events/*.yaml` → SQLite
 
 Both consume the same highlights but produce different formats with no shared intermediate step. Fine for now but worth noting.
 
@@ -36,7 +34,7 @@ Both consume the same highlights but produce different formats with no shared in
 ## Priorities
 
 1. Fix the empty URLs — either null them out or remove the `url` field from references that lack one
-2. Rename `sample.yml` to something descriptive (e.g., by source)
+2. Rename `sample.yaml` to something descriptive (e.g., by source)
 3. Delete `starlite.yaml` stub
 4. Pick one timeline key (`timeline:` vs `the_war_years:`)
 5. Add basic validation to `seed.rb` (required fields, valid date ranges)
@@ -47,4 +45,4 @@ Both consume the same highlights but produce different formats with no shared in
 SVG timeline visualizations generated from YAML data in `timelines/`. Supports level-of-detail tiers (0-3) and time-range blocks for zoom-based rendering.
 
 ### This Day in Viet Nam
-Daily history page served by a Roda app on AWS Lambda with bundled SQLite3. Events sourced from `this-day/data/events/*.yml`, built into the database via `rake db:build`, deployed via `rake deploy:all`.
+Daily history page served by a Roda app on AWS Lambda with bundled SQLite3. Events sourced from `this-day/data/events/*.yaml`, built into the database via `rake db:build`, deployed via `rake deploy:all`.
