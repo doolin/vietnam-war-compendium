@@ -13,6 +13,7 @@ end
 
 group :development do
   gem "puma", "~> 6.0"
+  gem "rackup", "~> 2.0"
   gem "rake", "~> 13.0"
 end
 
