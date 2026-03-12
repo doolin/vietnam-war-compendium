@@ -36,20 +36,30 @@ module ThisDay
 
     route do |r|
       r.root do
-        today = Date.today
-        event = self.class.database.event_for_date(today.month, today.day)
+        serve_today(r)
+      end
 
-        if event
-          date_string = format_date_with_year(event.month, event.day, event.year)
-          view("event", locals: { event: event, date_string: date_string })
-        else
-          date_string = format_date(today)
-          view("fallback", locals: { date_string: date_string })
+      r.on "this-day-in-vietnam-war" do
+        r.get true do
+          serve_today(r)
         end
       end
     end
 
     private
+
+    def serve_today(_r)
+      today = Date.today
+      event = self.class.database.event_for_date(today.month, today.day)
+
+      if event
+        date_string = format_date_with_year(event.month, event.day, event.year)
+        view("event", locals: { event: event, date_string: date_string })
+      else
+        date_string = format_date(today)
+        view("fallback", locals: { date_string: date_string })
+      end
+    end
 
     def format_date(date)
       date.strftime("%B %-d")
