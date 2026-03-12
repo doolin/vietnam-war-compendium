@@ -17,9 +17,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [rusk, kennedy]
   cross_refs: []
   dates: []
+  quality: 2
 - id: 2
   type: highlight
   section: '1 - The New Frontiersmen and the Old Guard: 1961–October 1962'
@@ -33,9 +34,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [nsc, kennedy, planning-board, operations-coordinating-board]
   cross_refs: []
   dates: []
+  quality: 4
 - id: 3
   type: highlight
   section: '1 - The New Frontiersmen and the Old Guard: 1961–October 1962'
@@ -49,9 +51,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [kennedy, johnson]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 4
   type: highlight
   section: '1 - The New Frontiersmen and the Old Guard: 1961–October 1962'
@@ -63,9 +66,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [defense-policy, congress]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 5
   type: highlight
   section: '1 - The New Frontiersmen and the Old Guard: 1961–October 1962'
@@ -78,9 +82,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [defense-reorganization-act, pentagon]
   cross_refs: []
-  dates: []
+  dates: ['1958']
+  quality: 4
 - id: 6
   type: highlight
   section: '1 - The New Frontiersmen and the Old Guard: 1961–October 1962'
@@ -92,9 +97,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [kennedy, mcnamara, pentagon]
   cross_refs: []
   dates: []
+  quality: 2
 - id: 7
   type: highlight
   section: '1 - The New Frontiersmen and the Old Guard: 1961–October 1962'
@@ -106,9 +112,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [mcnamara, pentagon]
   cross_refs: []
   dates: []
+  quality: 2
 - id: 8
   type: highlight
   section: '1 - The New Frontiersmen and the Old Guard: 1961–October 1962'
@@ -121,9 +128,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [harvard]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 9
   type: highlight
   section: '2 - Havana and Hanoi: October 1962–November 1963'
@@ -136,9 +144,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [ho-chi-minh, france, indochina]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 10
   type: highlight
   section: '2 - Havana and Hanoi: October 1962–November 1963'
@@ -149,9 +158,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [coup, saigon]
   cross_refs: []
-  dates: []
+  dates: ['1963-11-01']
+  quality: 4
 - id: 11
   type: highlight
   section: '2 - Havana and Hanoi: October 1962–November 1963'
@@ -164,9 +174,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [kennedy, johnson, jcs]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 12
   type: highlight
   section: '3 - New War, New Leader: November 1963–January 1964'
@@ -178,9 +189,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [diem, coup]
   cross_refs: []
   dates: []
+  quality: 2
 - id: 13
   type: highlight
   section: '3 - New War, New Leader: November 1963–January 1964'
@@ -192,9 +204,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [minh, diem, saigon, viet-cong]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 14
   type: highlight
   section: '3 - New War, New Leader: November 1963–January 1964'
@@ -217,9 +230,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [johnson, jcs]
   cross_refs: []
   dates: []
+  quality: 4
 - id: 15
   type: highlight
   section: '3 - New War, New Leader: November 1963–January 1964'
@@ -233,9 +247,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [mcnamara, macv, harkins]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 16
   type: highlight
   section: '3 - New War, New Leader: November 1963–January 1964'
@@ -248,9 +263,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [mcnamara, macv]
   cross_refs: []
   dates: []
+  quality: 2
 - id: 17
   type: highlight
   section: '4 - Graduated Pressure: January–March 1964'
@@ -262,19 +278,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [jcs, mcnamara, nsam-273]
   cross_refs: []
-  dates:
-  - date: Jan. 22, 1964
-    event: On January 22, 1964, the JCS sent McNamara a memorandum on Vietnam and
-      Southeast Asia that referenced NSAM 273 of Nov...
-    tier: 2
-    status: suggested
-  - date: Nov. 26, 1963
-    event: On January 22, 1964, the JCS sent McNamara a memorandum on Vietnam and
-      Southeast Asia that referenced NSAM 273 of Nov...
-    tier: 2
-    status: suggested
+  dates: ['1964-01-22', '1963-11-26']
+  quality: 5
 - id: 18
   type: highlight
   section: '4 - Graduated Pressure: January–March 1964'
@@ -287,9 +294,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [minh, coup, saigon]
   cross_refs: []
-  dates: []
+  dates: ['1964-01-30']
+  quality: 4
 - id: 19
   type: highlight
   section: '4 - Graduated Pressure: January–March 1964'
@@ -307,9 +315,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [mcnamara, rusk, graduated-pressure, cuban-missile-crisis]
   cross_refs: []
   dates: []
+  quality: 4
 - id: 20
   type: highlight
   section: '4 - Graduated Pressure: January–March 1964'
@@ -323,9 +332,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [taylor, jcs, mcnamara]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 21
   type: highlight
   section: '4 - Graduated Pressure: January–March 1964'
@@ -339,9 +349,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [johnson, jcs]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 22
   type: highlight
   section: '4 - Graduated Pressure: January–March 1964'
@@ -354,9 +365,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [johnson, mcnamara, taylor]
   cross_refs: []
   dates: []
+  quality: 2
 - id: 23
   type: highlight
   section: '5 - From Distrust to Deceit: March–July 1964'
@@ -371,9 +383,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [mcnamara]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 24
   type: highlight
   section: '5 - From Distrust to Deceit: March–July 1964'
@@ -388,9 +401,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [graduated-pressure, negotiations]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 25
   type: highlight
   section: '5 - From Distrust to Deceit: March–July 1964'
@@ -404,9 +418,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [rusk, wheeler, william-bundy, saigon, oplan-37-64, lodge]
   cross_refs: []
-  dates: []
+  dates: ['1964-04-19']
+  quality: 5
 - id: 26
   type: highlight
   section: '5 - From Distrust to Deceit: March–July 1964'
@@ -420,9 +435,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [wheeler, vance]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 27
   type: highlight
   section: '5 - From Distrust to Deceit: March–July 1964'
@@ -434,9 +450,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [macv]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 28
   type: highlight
   section: '5 - From Distrust to Deceit: March–July 1964'
@@ -450,9 +467,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [mcnamara]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 29
   type: highlight
   section: '5 - From Distrust to Deceit: March–July 1964'
@@ -465,9 +483,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [wall-street-journal]
   cross_refs: []
-  dates: []
+  dates: ['1964-05-13']
+  quality: 5
 - id: 30
   type: highlight
   section: '5 - From Distrust to Deceit: March–July 1964'
@@ -478,9 +497,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [johnson, cater]
   cross_refs: []
-  dates: []
+  dates: ['1964-05-19']
+  quality: 2
 - id: 31
   type: highlight
   section: '5 - From Distrust to Deceit: March–July 1964'
@@ -493,9 +513,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [nsc, mcnamara, graduated-pressure]
   cross_refs: []
-  dates: []
+  dates: ['1964-05-25']
+  quality: 5
 - id: 32
   type: highlight
   section: '5 - From Distrust to Deceit: March–July 1964'
@@ -507,9 +528,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [honolulu]
   cross_refs: []
-  dates: []
+  dates: ['1964-06-01']
+  quality: 4
 - id: 33
   type: highlight
   section: '5 - From Distrust to Deceit: March–July 1964'
@@ -522,9 +544,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [jcs, taylor]
   cross_refs: []
-  dates: []
+  dates: ['1964-05-30']
+  quality: 4
 - id: 34
   type: highlight
   section: '5 - From Distrust to Deceit: March–July 1964'
@@ -537,9 +560,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [jcs, graduated-pressure]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 35
   type: highlight
   section: '5 - From Distrust to Deceit: March–July 1964'
@@ -553,9 +577,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [mcnamara, graduated-pressure, laos]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 36
   type: highlight
   section: '5 - From Distrust to Deceit: March–July 1964'
@@ -569,9 +594,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [laos, pathet-lao, plain-of-jars, reconnaissance]
   cross_refs: []
-  dates: []
+  dates: ['1964-05-19', '1964-06-06']
+  quality: 5
 - id: 37
   type: highlight
   section: '5 - From Distrust to Deceit: March–July 1964'
@@ -582,9 +608,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [laos]
   cross_refs: []
-  dates: []
+  dates: ['1964-06-07']
+  quality: 4
 - id: 38
   type: highlight
   section: '6 - Across the Threshold: July–August 1964'
@@ -596,9 +623,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [wheeler, westmoreland, congress]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 39
   type: highlight
   section: '6 - Across the Threshold: July–August 1964'
@@ -612,9 +640,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [taylor, saigon]
   cross_refs: []
-  dates: []
+  dates: ['1964-07-07']
+  quality: 5
 - id: 40
   type: highlight
   section: '6 - Across the Threshold: July–August 1964'
@@ -627,9 +656,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [mcnamara, covert-operations]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 41
   type: highlight
   section: '6 - Across the Threshold: July–August 1964'
@@ -644,9 +674,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [marops, navy-seals, danang]
   cross_refs: []
   dates: []
+  quality: 4
 - id: 42
   type: highlight
   section: '6 - Across the Threshold: July–August 1964'
@@ -660,9 +691,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [jcs, desoto, marops, westmoreland, danang, tonkin-gulf, hon-me, hon-nieu]
   cross_refs: []
-  dates: []
+  dates: ['1964-07-22', '1964-07-31']
+  quality: 5
 - id: 43
   type: highlight
   section: '6 - Across the Threshold: July–August 1964'
@@ -675,9 +707,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [cincpac, sharp, mcdonald, jcs, maddox, tonkin-gulf]
   cross_refs: []
-  dates: []
+  dates: ['1964-08-02']
+  quality: 5
 - id: 44
   type: highlight
   section: '6 - Across the Threshold: July–August 1964'
@@ -690,9 +723,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [ball, forrestal, mcnamara]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 45
   type: highlight
   section: '6 - Across the Threshold: July–August 1964'
@@ -707,9 +741,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [marops, william-bundy, vinh-son]
   cross_refs: []
-  dates: []
+  dates: ['1964-08-03']
+  quality: 5
 - id: 46
   type: highlight
   section: '6 - Across the Threshold: July–August 1964'
@@ -722,9 +757,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [johnson]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 47
   type: highlight
   section: '6 - Across the Threshold: July–August 1964'
@@ -736,9 +772,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [wheeler, mcnamara, rusk, senate]
   cross_refs: []
-  dates: []
+  dates: ['1964-08-06']
+  quality: 5
 - id: 48
   type: highlight
   section: '6 - Across the Threshold: July–August 1964'
@@ -750,9 +787,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [maddox, turner-joy, tonkin-gulf]
   cross_refs: []
-  dates: []
+  dates: ['1964-08-04']
+  quality: 4
 - id: 49
   type: highlight
   section: '7 - Contriving Consensus: August–September 1964'
@@ -765,9 +803,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [graduated-pressure]
   cross_refs: []
   dates: []
+  quality: 2
 - id: 50
   type: highlight
   section: '7 - Contriving Consensus: August–September 1964'
@@ -781,6 +820,7 @@ highlights:
   tags: []
   cross_refs: []
   dates: []
+  quality: 1
 - id: 51
   type: highlight
   section: '7 - Contriving Consensus: August–September 1964'
@@ -792,9 +832,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [lemay, jcs]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 52
   type: highlight
   section: '7 - Contriving Consensus: August–September 1964'
@@ -807,9 +848,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [lemay, jcs]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 53
   type: highlight
   section: '7 - Contriving Consensus: August–September 1964'
@@ -821,9 +863,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [munich]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 54
   type: highlight
   section: '7 - Contriving Consensus: August–September 1964'
@@ -835,9 +878,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [jcs, osd]
   cross_refs: []
-  dates: []
+  dates: ['1964-08']
+  quality: 4
 - id: 55
   type: highlight
   section: '7 - Contriving Consensus: August–September 1964'
@@ -849,9 +893,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [johnson]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 56
   type: highlight
   section: '7 - Contriving Consensus: August–September 1964'
@@ -864,9 +909,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [jcs, viet-cong, pathet-lao, ho-chi-minh-trail, laos]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 57
   type: highlight
   section: '7 - Contriving Consensus: August–September 1964'
@@ -878,9 +924,10 @@ highlights:
   kindle_url: ''
   note: this would be Harold Johnson.
   context: ''
-  tags: []
+  tags: [johnson, taylor, saigon]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 58
   type: highlight
   section: '7 - Contriving Consensus: August–September 1964'
@@ -893,9 +940,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [taylor]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 59
   type: highlight
   section: '7 - Contriving Consensus: August–September 1964'
@@ -909,14 +957,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [johnson, nsam-314, tonkin-gulf, 34a-operations, laos]
   cross_refs: []
-  dates:
-  - date: Sept. 10, 1964
-    event: On September 10, 1964, the president signed NSAM 314 approving the resumption
-      of U.S. naval patrols in the Gulf of To...
-    tier: 2
-    status: suggested
+  dates: ['1964-09-10']
+  quality: 5
 - id: 60
   type: highlight
   section: '7 - Contriving Consensus: August–September 1964'
@@ -928,9 +972,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [johnson, nsam-314]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 61
   type: highlight
   section: '7 - Contriving Consensus: August–September 1964'
@@ -943,9 +988,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [johnson]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 62
   type: highlight
   section: '8 - Prophecies Rejected and the Path of Least Resistance: September–November
@@ -958,9 +1004,10 @@ highlights:
   kindle_url: ''
   note: Does any re ord of tbis exist?
   context: ''
-  tags: []
+  tags: [pentagon, bombing]
   cross_refs: []
   dates: []
+  quality: 2
 - id: 63
   type: highlight
   section: '8 - Prophecies Rejected and the Path of Least Resistance: September–November
@@ -973,9 +1020,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [sigma-i]
   cross_refs: []
-  dates: []
+  dates: ['1964-04']
+  quality: 2
 - id: 64
   type: highlight
   section: '8 - Prophecies Rejected and the Path of Least Resistance: September–November
@@ -989,9 +1037,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [cold-war, credibility]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 65
   type: highlight
   section: '8 - Prophecies Rejected and the Path of Least Resistance: September–November
@@ -1004,9 +1053,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [graduated-pressure]
   cross_refs: []
   dates: []
+  quality: 2
 - id: 66
   type: highlight
   section: '8 - Prophecies Rejected and the Path of Least Resistance: September–November
@@ -1019,9 +1069,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [systems-analysis]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 67
   type: highlight
   section: '8 - Prophecies Rejected and the Path of Least Resistance: September–November
@@ -1033,9 +1084,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [johnson]
   cross_refs: []
   dates: []
+  quality: 1
 - id: 68
   type: highlight
   section: '9 - Planning for Failure: November–December 1964'
@@ -1048,9 +1100,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [mcnaughton, william-bundy]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 69
   type: highlight
   section: '9 - Planning for Failure: November–December 1964'
@@ -1065,6 +1118,7 @@ highlights:
   tags: []
   cross_refs: []
   dates: []
+  quality: 3
 - id: 70
   type: highlight
   section: '9 - Planning for Failure: November–December 1964'
@@ -1076,9 +1130,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [william-bundy, mcnaughton]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 71
   type: highlight
   section: '9 - Planning for Failure: November–December 1964'
@@ -1092,9 +1147,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [mcnaughton, forrestal, william-bundy]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 72
   type: highlight
   section: '9 - Planning for Failure: November–December 1964'
@@ -1106,9 +1162,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [credibility]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 73
   type: highlight
   section: '9 - Planning for Failure: November–December 1964'
@@ -1123,6 +1180,7 @@ highlights:
   tags: []
   cross_refs: []
   dates: []
+  quality: 2
 - id: 74
   type: highlight
   section: '9 - Planning for Failure: November–December 1964'
@@ -1135,9 +1193,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [mcnaughton, credibility]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 75
   type: highlight
   section: '9 - Planning for Failure: November–December 1964'
@@ -1150,9 +1209,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [mcnamara, johnson, jcs]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 76
   type: highlight
   section: '9 - Planning for Failure: November–December 1964'
@@ -1164,9 +1224,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [johnson, viet-cong]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 77
   type: highlight
   section: '9 - Planning for Failure: November–December 1964'
@@ -1179,9 +1240,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [mcnamara]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 78
   type: highlight
   section: '9 - Planning for Failure: November–December 1964'
@@ -1196,9 +1258,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [new-york-times]
   cross_refs: []
-  dates: []
+  dates: ['1964-11-25']
+  quality: 5
 - id: 79
   type: highlight
   section: '10 - A Fork in the Road: December 1964–February 1965'
@@ -1210,9 +1273,10 @@ highlights:
   kindle_url: ''
   note: I need to get a copy of this telegram.
   context: ''
-  tags: []
+  tags: [taylor]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 80
   type: highlight
   section: '10 - A Fork in the Road: December 1964–February 1965'
@@ -1225,9 +1289,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [william-bundy, mcnaughton, ball]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 81
   type: highlight
   section: '10 - A Fork in the Road: December 1964–February 1965'
@@ -1243,6 +1308,7 @@ highlights:
   tags: []
   cross_refs: []
   dates: []
+  quality: 3
 - id: 82
   type: highlight
   section: '10 - A Fork in the Road: December 1964–February 1965'
@@ -1255,9 +1321,10 @@ highlights:
   kindle_url: ''
   note: Stupid.
   context: ''
-  tags: []
+  tags: [mcnamara]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 83
   type: highlight
   section: '10 - A Fork in the Road: December 1964–February 1965'
@@ -1268,9 +1335,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [william-bundy]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 84
   type: highlight
   section: '10 - A Fork in the Road: December 1964–February 1965'
@@ -1285,6 +1353,7 @@ highlights:
   tags: []
   cross_refs: []
   dates: []
+  quality: 3
 - id: 85
   type: highlight
   section: '10 - A Fork in the Road: December 1964–February 1965'
@@ -1298,9 +1367,10 @@ highlights:
   kindle_url: ''
   note: They flip flopped.
   context: ''
-  tags: []
+  tags: [mcnamara, william-bundy]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 86
   type: highlight
   section: '10 - A Fork in the Road: December 1964–February 1965'
@@ -1312,9 +1382,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [wheeler, sharp, desoto]
   cross_refs: []
-  dates: []
+  dates: ['1965-01-28', '1965-02-03']
+  quality: 5
 - id: 87
   type: highlight
   section: '10 - A Fork in the Road: December 1964–February 1965'
@@ -1326,9 +1397,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [johnson, jcs, china]
   cross_refs: []
-  dates: []
+  dates: ['1965-02-01']
+  quality: 5
 - id: 88
   type: highlight
   section: '11 - The Foot in the Door: February–March 1965'
@@ -1340,9 +1412,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [mcgeorge-bundy, mcnaughton, credibility]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 89
   type: highlight
   section: '11 - The Foot in the Door: February–March 1965'
@@ -1353,9 +1426,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [mcgeorge-bundy, mcnaughton]
   cross_refs: []
   dates: []
+  quality: 2
 - id: 90
   type: highlight
   section: '11 - The Foot in the Door: February–March 1965'
@@ -1369,9 +1443,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [mcgeorge-bundy]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 91
   type: highlight
   section: '11 - The Foot in the Door: February–March 1965'
@@ -1384,9 +1459,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [johnson, taylor]
   cross_refs: []
-  dates: []
+  dates: ['1965-02-08']
+  quality: 4
 - id: 92
   type: highlight
   section: '11 - The Foot in the Door: February–March 1965'
@@ -1398,9 +1474,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [viet-cong, qui-nhon]
   cross_refs: []
-  dates: []
+  dates: ['1965-02-10']
+  quality: 5
 - id: 93
   type: highlight
   section: '11 - The Foot in the Door: February–March 1965'
@@ -1415,7 +1492,8 @@ highlights:
   context: ''
   tags: []
   cross_refs: []
-  dates: []
+  dates: ['1965-02-07', '1965-02-08', '1965-02-11']
+  quality: 4
 - id: 94
   type: highlight
   section: '11 - The Foot in the Door: February–March 1965'
@@ -1428,9 +1506,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [jcs, mcnamara, rolling-thunder]
   cross_refs: []
-  dates: []
+  dates: ['1965-02-18', '1965-02-20']
+  quality: 5
 - id: 95
   type: highlight
   section: '11 - The Foot in the Door: February–March 1965'
@@ -1441,9 +1520,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [rolling-thunder]
   cross_refs: []
-  dates: []
+  dates: ['1965-03-02']
+  quality: 4
 - id: 96
   type: highlight
   section: '11 - The Foot in the Door: February–March 1965'
@@ -1458,9 +1538,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [rolling-thunder, hanoi]
   cross_refs: []
   dates: []
+  quality: 2
 - id: 97
   type: highlight
   section: '11 - The Foot in the Door: February–March 1965'
@@ -1473,9 +1554,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [rolling-thunder, credibility]
   cross_refs: []
   dates: []
+  quality: 2
 - id: 98
   type: highlight
   section: '11 - The Foot in the Door: February–March 1965'
@@ -1486,13 +1568,10 @@ highlights:
   kindle_url: ''
   note: NSAM 288
   context: ''
-  tags: []
+  tags: [nsam-288]
   cross_refs: []
-  dates:
-  - date: Mar. 17, 1964
-    event: March 17, 1964)
-    tier: 2
-    status: suggested
+  dates: ['1964-03-17']
+  quality: 1
 - id: 99
   type: highlight
   section: '11 - The Foot in the Door: February–March 1965'
@@ -1503,9 +1582,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [mcnaughton, danang, marines]
   cross_refs: []
   dates: []
+  quality: 2
 - id: 100
   type: highlight
   section: '11 - The Foot in the Door: February–March 1965'
@@ -1518,9 +1598,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [hanoi]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 101
   type: highlight
   section: '12 - A Quicksand of Lies: March–April 1965'
@@ -1533,9 +1614,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [viet-cong]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 102
   type: highlight
   section: '12 - A Quicksand of Lies: March–April 1965'
@@ -1548,9 +1630,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [johnson, jcs]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 103
   type: highlight
   section: '12 - A Quicksand of Lies: March–April 1965'
@@ -1567,9 +1650,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [taylor, rusk]
   cross_refs: []
   dates: []
+  quality: 4
 - id: 104
   type: highlight
   section: '12 - A Quicksand of Lies: March–April 1965'
@@ -1582,9 +1666,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [mcnamara, taylor, enclave]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 105
   type: highlight
   section: '12 - A Quicksand of Lies: March–April 1965'
@@ -1597,9 +1682,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [johnson]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 106
   type: highlight
   section: '12 - A Quicksand of Lies: March–April 1965'
@@ -1613,9 +1699,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [mccone]
   cross_refs: []
   dates: []
+  quality: 4
 - id: 107
   type: highlight
   section: '12 - A Quicksand of Lies: March–April 1965'
@@ -1626,9 +1713,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [johnson]
   cross_refs: []
   dates: []
+  quality: 2
 - id: 108
   type: highlight
   section: '12 - A Quicksand of Lies: March–April 1965'
@@ -1643,6 +1731,7 @@ highlights:
   tags: []
   cross_refs: []
   dates: []
+  quality: 1
 - id: 109
   type: highlight
   section: '12 - A Quicksand of Lies: March–April 1965'
@@ -1656,9 +1745,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [rufus-taylor, mcdonald]
   cross_refs: []
-  dates: []
+  dates: ['1965-01']
+  quality: 4
 - id: 110
   type: highlight
   section: '13 - The Coach and His Team: April–June 1965'
@@ -1672,9 +1762,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [johnson, marines, mcnamara, rusk]
   cross_refs: []
-  dates: []
+  dates: ['1965-04-06']
+  quality: 5
 - id: 111
   type: highlight
   section: '13 - The Coach and His Team: April–June 1965'
@@ -1689,14 +1780,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [johnson, jcs, mcnamara, vance, johns-hopkins]
   cross_refs: []
-  dates:
-  - date: Apr. 8, 1965
-    event: Johnson arranged a meeting on April 8, 1965, the day after the Johns Hopkins
-      speech, with the JCS, McNamara, and Depu...
-    tier: 2
-    status: suggested
+  dates: ['1965-04-08']
+  quality: 5
 - id: 112
   type: highlight
   section: '13 - The Coach and His Team: April–June 1965'
@@ -1709,9 +1796,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [johnson, wheeler]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 113
   type: highlight
   section: '13 - The Coach and His Team: April–June 1965'
@@ -1724,9 +1812,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [johnson, jcs]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 114
   type: highlight
   section: '13 - The Coach and His Team: April–June 1965'
@@ -1738,9 +1827,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [johnson, wheeler, viet-cong]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 115
   type: highlight
   section: '13 - The Coach and His Team: April–June 1965'
@@ -1752,9 +1842,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [cincpac, macv, wheeler]
   cross_refs: []
-  dates: []
+  dates: ['1965-04-14', '1965-04-13']
+  quality: 5
 - id: 116
   type: highlight
   section: '13 - The Coach and His Team: April–June 1965'
@@ -1765,9 +1856,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [taylor]
   cross_refs: []
   dates: []
+  quality: 2
 - id: 117
   type: highlight
   section: '13 - The Coach and His Team: April–June 1965'
@@ -1780,9 +1872,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [173d-airborne, bien-hoa, vung-tau]
   cross_refs: []
   dates: []
+  quality: 4
 - id: 118
   type: highlight
   section: '14 - War without Direction: April–June 1965'
@@ -1794,9 +1887,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [taylor]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 119
   type: highlight
   section: '14 - War without Direction: April–June 1965'
@@ -1808,9 +1902,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [honolulu]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 120
   type: highlight
   section: '14 - War without Direction: April–June 1965'
@@ -1824,9 +1919,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [johnson, mcnamara]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 121
   type: highlight
   section: '14 - War without Direction: April–June 1965'
@@ -1838,9 +1934,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [mcnamara, johnson]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 122
   type: highlight
   section: '14 - War without Direction: April–June 1965'
@@ -1852,9 +1949,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [mcnamara, rusk, ball, mcgeorge-bundy, mccone, raborn]
   cross_refs: []
-  dates: []
+  dates: ['1965-04-21']
+  quality: 4
 - id: 123
   type: highlight
   section: '14 - War without Direction: April–June 1965'
@@ -1866,9 +1964,10 @@ highlights:
   kindle_url: ''
   note: April 22 apparently.
   context: ''
-  tags: []
+  tags: [marines, honolulu]
   cross_refs: []
-  dates: []
+  dates: ['1965-04-22']
+  quality: 4
 - id: 124
   type: highlight
   section: '14 - War without Direction: April–June 1965'
@@ -1880,9 +1979,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [johnson, bombing-pause, mayflower]
   cross_refs: []
-  dates: []
+  dates: ['1965-05-10']
+  quality: 5
 - id: 125
   type: highlight
   section: '14 - War without Direction: April–June 1965'
@@ -1893,9 +1993,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [rolling-thunder]
   cross_refs: []
-  dates: []
+  dates: ['1965-05-18']
+  quality: 4
 - id: 126
   type: highlight
   section: '14 - War without Direction: April–June 1965'
@@ -1907,9 +2008,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [rolling-thunder]
   cross_refs: []
-  dates: []
+  dates: ['1965-06']
+  quality: 2
 - id: 127
   type: highlight
   section: '14 - War without Direction: April–June 1965'
@@ -1922,9 +2024,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [mcnamara, johnson]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 128
   type: highlight
   section: '14 - War without Direction: April–June 1965'
@@ -1938,9 +2041,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [raborn, johnson]
   cross_refs: []
-  dates: []
+  dates: ['1965-05-08']
+  quality: 5
 - id: 129
   type: highlight
   section: '14 - War without Direction: April–June 1965'
@@ -1953,7 +2057,8 @@ highlights:
   context: ''
   tags: []
   cross_refs: []
-  dates: []
+  dates: ['1965-05-11']
+  quality: 4
 - id: 130
   type: highlight
   section: '14 - War without Direction: April–June 1965'
@@ -1965,9 +2070,10 @@ highlights:
   kindle_url: ''
   note: '1965'
   context: ''
-  tags: []
+  tags: [quat, saigon]
   cross_refs: []
-  dates: []
+  dates: ['1965-06-11']
+  quality: 5
 - id: 131
   type: highlight
   section: '14 - War without Direction: April–June 1965'
@@ -1980,9 +2086,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [johnson]
   cross_refs: []
-  dates: []
+  dates: ['1965-04-22']
+  quality: 4
 - id: 132
   type: highlight
   section: '14 - War without Direction: April–June 1965'
@@ -1994,9 +2101,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [westmoreland, cincpac]
   cross_refs: []
-  dates: []
+  dates: ['1965-06-07']
+  quality: 4
 - id: 133
   type: highlight
   section: '14 - War without Direction: April–June 1965'
@@ -2009,9 +2117,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [johnson]
   cross_refs: []
-  dates: []
+  dates: ['1965-04-13']
+  quality: 4
 - id: 134
   type: highlight
   section: '14 - War without Direction: April–June 1965'
@@ -2022,9 +2131,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [johnson]
   cross_refs: []
   dates: []
+  quality: 2
 - id: 135
   type: highlight
   section: '14 - War without Direction: April–June 1965'
@@ -2036,9 +2146,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [mansfield, johnson]
   cross_refs: []
-  dates: []
+  dates: ['1965-06-05']
+  quality: 4
 - id: 136
   type: highlight
   section: '14 - War without Direction: April–June 1965'
@@ -2050,9 +2161,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [johnson]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 137
   type: highlight
   section: '14 - War without Direction: April–June 1965'
@@ -2064,9 +2176,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [mcnamara, johnson]
   cross_refs: []
   dates: []
+  quality: 2
 - id: 138
   type: highlight
   section: '14 - War without Direction: April–June 1965'
@@ -2079,9 +2192,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [johnson]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 139
   type: highlight
   section: '14 - War without Direction: April–June 1965'
@@ -2094,9 +2208,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [johnson, westmoreland, 1st-cavalry-division]
   cross_refs: []
-  dates: []
+  dates: ['1965-06-18']
+  quality: 5
 - id: 140
   type: highlight
   section: '14 - War without Direction: April–June 1965'
@@ -2108,9 +2223,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [mcnamara, johnson]
   cross_refs: []
   dates: []
+  quality: 2
 - id: 141
   type: highlight
   section: '14 - War without Direction: April–June 1965'
@@ -2124,9 +2240,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [graduated-pressure, johnson]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 142
   type: highlight
   section: '15 - Five Silent Men: July 1965'
@@ -2137,9 +2254,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [ball]
   cross_refs: []
-  dates: []
+  dates: ['1965-06-23']
+  quality: 5
 - id: 143
   type: highlight
   section: '15 - Five Silent Men: July 1965'
@@ -2153,9 +2271,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [rusk, credibility]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 144
   type: highlight
   section: '15 - Five Silent Men: July 1965'
@@ -2169,9 +2288,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [mcnamara, johnson, attrition, stalemate]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 145
   type: highlight
   section: '15 - Five Silent Men: July 1965'
@@ -2184,9 +2304,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [mcgeorge-bundy, johnson, mcnamara, ball, rusk, william-bundy]
   cross_refs: []
-  dates: []
+  dates: ['1965-07-01']
+  quality: 5
 - id: 146
   type: highlight
   section: '15 - Five Silent Men: July 1965'
@@ -2198,9 +2319,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [johnson, marines, danang, qui-nhon]
   cross_refs: []
-  dates: []
+  dates: ['1965-07-02']
+  quality: 4
 - id: 147
   type: highlight
   section: '15 - Five Silent Men: July 1965'
@@ -2212,9 +2334,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [harold-johnson]
   cross_refs: []
   dates: []
+  quality: 2
 - id: 148
   type: highlight
   section: '15 - Five Silent Men: July 1965'
@@ -2228,6 +2351,7 @@ highlights:
   tags: []
   cross_refs: []
   dates: []
+  quality: 1
 - id: 149
   type: highlight
   section: '15 - Five Silent Men: July 1965'
@@ -2239,9 +2363,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [johnson, westmoreland]
   cross_refs: []
-  dates: []
+  dates: ['1965-07-08']
+  quality: 5
 - id: 150
   type: highlight
   section: '15 - Five Silent Men: July 1965'
@@ -2254,9 +2379,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [greene, wheeler, goodpaster]
   cross_refs: []
-  dates: []
+  dates: ['1965-07-02', '1965-07-12']
+  quality: 5
 - id: 151
   type: highlight
   section: '15 - Five Silent Men: July 1965'
@@ -2269,9 +2395,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [goodpaster, mcnamara]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 152
   type: highlight
   section: '15 - Five Silent Men: July 1965'
@@ -2286,6 +2413,7 @@ highlights:
   tags: []
   cross_refs: []
   dates: []
+  quality: 3
 - id: 153
   type: highlight
   section: '15 - Five Silent Men: July 1965'
@@ -2297,9 +2425,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [jcs, johnson, mcnamara]
   cross_refs: []
-  dates: []
+  dates: ['1965-07-22']
+  quality: 4
 - id: 154
   type: highlight
   section: '15 - Five Silent Men: July 1965'
@@ -2312,9 +2441,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [guerrilla-war]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 155
   type: highlight
   section: '15 - Five Silent Men: July 1965'
@@ -2327,9 +2457,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [jcs, johnson]
   cross_refs: []
-  dates: []
+  dates: ['1965-07-23']
+  quality: 5
 - id: 156
   type: highlight
   section: '15 - Five Silent Men: July 1965'
@@ -2341,9 +2472,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [johnson, nsc, congress]
   cross_refs: []
-  dates: []
+  dates: ['1965-07-27']
+  quality: 5
 - id: 157
   type: highlight
   section: Epilogue
@@ -2355,9 +2487,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [johnson]
   cross_refs: []
-  dates: []
+  dates: ['1963-11', '1965-07']
+  quality: 4
 - id: 158
   type: highlight
   section: Epilogue
@@ -2369,9 +2502,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [graduated-pressure]
   cross_refs: []
   dates: []
+  quality: 2
 - id: 159
   type: highlight
   section: Epilogue
@@ -2385,6 +2519,7 @@ highlights:
   tags: []
   cross_refs: []
   dates: []
+  quality: 1
 - id: 160
   type: highlight
   section: Epilogue
@@ -2400,6 +2535,7 @@ highlights:
   tags: []
   cross_refs: []
   dates: []
+  quality: 3
 - id: 161
   type: highlight
   section: Epilogue
@@ -2413,9 +2549,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [credibility]
   cross_refs: []
   dates: []
+  quality: 3
 - id: 162
   type: highlight
   section: Epilogue
@@ -2428,6 +2565,7 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags: [stalemate, graduated-pressure]
   cross_refs: []
   dates: []
+  quality: 3
