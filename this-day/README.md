@@ -2,7 +2,7 @@
 
 A lightweight web service that serves a single HTML page describing what happened
 on the current date during the Vietnam War. Built with Ruby, Roda, and SQLite3;
-deployed to AWS Lambda via SAM.
+deployed to AWS Lambda behind CloudFront.
 
 See [PRD-0001](docs/prds/PRD-0001-this-day-in-vietnam.md) and
 [ADR-001](docs/adrs/ADR-001-lambda-sqlite-architecture.md) for full requirements
@@ -76,13 +76,88 @@ After editing, rebuild the database with `rake db:build`.
 
 ## Deploy to AWS
 
-Requires AWS SAM CLI and Docker (for building native extensions):
+Infrastructure is managed by Terraform (separate repo). Deployment uses Docker
+to bundle gems for Lambda's x86_64 Linux environment, then uploads to S3 and
+updates the Lambda function.
+
+### Prerequisites
+
+- Docker (for cross-compiling native gems)
+- AWS CLI configured with appropriate credentials
+- The build directory uses `/tmp/this-day-build` because Docker Desktop's
+  file sharing doesn't include home directories by default on macOS
+
+### Full deploy (recommended)
 
 ```sh
-sam build --use-container
-sam deploy --guided   # first time
-sam deploy            # subsequent deploys
+bundle exec rake deploy:all
 ```
+
+This runs all four steps in order: build database, build zip, push to Lambda,
+invalidate CloudFront.
+
+### Manual step-by-step
+
+1. **Build the database** from YAML event files:
+   ```sh
+   bundle exec rake db:build
+   ```
+
+2. **Build the deployment zip** (bundles gems via Docker, packages app + db):
+   ```sh
+   bundle exec rake deploy:build
+   ```
+   This copies the app to `/tmp/this-day-build`, runs `bundle install` inside
+   a Docker container matching Lambda's runtime, and creates `/tmp/this-day-deploy.zip`.
+
+3. **Push to Lambda** (upload zip to S3, update function code):
+   ```sh
+   bundle exec rake deploy:push
+   ```
+
+4. **Invalidate CloudFront cache**:
+   ```sh
+   bundle exec rake deploy:invalidate
+   ```
+
+### Manual AWS CLI commands (no Rake)
+
+```sh
+# Upload zip to S3
+aws s3 cp /tmp/this-day-deploy.zip \
+  s3://this-day-in-vietnam-war-deployments/this-day-deploy.zip \
+  --region us-west-1
+
+# Update Lambda function code
+aws lambda update-function-code \
+  --function-name this-day-in-vietnam-war \
+  --s3-bucket this-day-in-vietnam-war-deployments \
+  --s3-key this-day-deploy.zip \
+  --region us-west-1
+
+# Wait for update to complete
+aws lambda wait function-updated \
+  --function-name this-day-in-vietnam-war \
+  --region us-west-1
+
+# Invalidate CloudFront cache
+aws cloudfront create-invalidation \
+  --distribution-id ERIW60YQ29CKU \
+  --paths '/this-day-in-vietnam*'
+```
+
+### Deployment constants
+
+| Resource             | Value                                    |
+|----------------------|------------------------------------------|
+| Lambda function      | `this-day-in-vietnam-war`                |
+| S3 bucket            | `this-day-in-vietnam-war-deployments`    |
+| S3 key               | `this-day-deploy.zip`                    |
+| AWS region           | `us-west-1`                              |
+| CloudFront dist ID   | `ERIW60YQ29CKU`                          |
+| CloudFront path      | `/this-day-in-vietnam*`                  |
+| Docker image         | `public.ecr.aws/sam/build-ruby3.3:latest-x86_64` |
+| Build directory      | `/tmp/this-day-build`                    |
 
 ## Project structure
 
@@ -96,7 +171,7 @@ this-day/
 ├── db/                 # Schema and seed script
 ├── data/events/        # YAML event source files
 ├── spec/               # RSpec tests
-├── bin/handler.rb      # Lambda entry point (lamby)
+├── app.rb              # Lambda entry point (lamby)
 ├── config.ru           # Rack entry point
-└── template.yaml       # SAM template
+└── template.yaml       # SAM template (build-only)
 ```

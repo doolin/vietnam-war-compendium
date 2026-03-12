@@ -2,6 +2,16 @@
 
 require "rake"
 
+LAMBDA_FUNCTION = "this-day-in-vietnam-war"
+S3_BUCKET = "this-day-in-vietnam-war-deployments"
+S3_KEY = "this-day-deploy.zip"
+AWS_REGION = "us-west-1"
+CF_DISTRIBUTION = "ERIW60YQ29CKU"
+CF_INVALIDATION_PATH = "/this-day-in-vietnam*"
+BUILD_DIR = "/tmp/this-day-build"
+DEPLOY_ZIP = "/tmp/this-day-deploy.zip"
+DOCKER_IMAGE = "public.ecr.aws/sam/build-ruby3.3:latest-x86_64"
+
 namespace :db do
   desc "Build the SQLite3 database from YAML event files"
   task :build do
@@ -20,7 +30,6 @@ namespace :db do
     db = SQLite3::Database.new(db_path)
     db.execute_batch(File.read(schema_path))
 
-    # Sample event for March 11
     db.execute(
       "INSERT INTO events (month, day, year, title, body, photo_url, photo_alt) VALUES (?, ?, ?, ?, ?, ?, ?)",
       [3, 11, 1965, "Operation Rolling Thunder begins",
@@ -39,6 +48,59 @@ namespace :db do
 
     db.close
     puts "Built test database at #{db_path}"
+  end
+end
+
+namespace :deploy do
+  desc "Build the deployment zip (bundle gems for Lambda via Docker, package app + db)"
+  task :build do
+    sh "rm -rf #{BUILD_DIR}"
+    sh "mkdir -p #{BUILD_DIR}/db"
+    sh "cp -r lib views app.rb config.ru Gemfile Gemfile.lock #{BUILD_DIR}/"
+    sh "cp db/this_day.sqlite3 db/schema.sql #{BUILD_DIR}/db/"
+
+    puts "Bundling gems for x86_64-linux via Docker..."
+    sh "docker run --rm --platform linux/amd64 " \
+       "-v #{BUILD_DIR}:/var/task -w /var/task #{DOCKER_IMAGE} " \
+       'bash -c "bundle config set --local path vendor/bundle && ' \
+       "bundle config set --local without 'development test' && " \
+       'bundle install"'
+
+    sh "mkdir -p #{BUILD_DIR}/.bundle"
+    File.write("#{BUILD_DIR}/.bundle/config", <<~YAML)
+      ---
+      BUNDLE_PATH: "vendor/bundle"
+      BUNDLE_WITHOUT: "development:test"
+    YAML
+
+    puts "Creating zip..."
+    sh "cd #{BUILD_DIR} && zip -r #{DEPLOY_ZIP} . -x '*.DS_Store'"
+    puts "Built #{DEPLOY_ZIP}"
+  end
+
+  desc "Upload zip to S3 and update Lambda function code"
+  task :push do
+    sh "aws s3 cp #{DEPLOY_ZIP} s3://#{S3_BUCKET}/#{S3_KEY} --region #{AWS_REGION}"
+    sh "aws lambda update-function-code " \
+       "--function-name #{LAMBDA_FUNCTION} " \
+       "--s3-bucket #{S3_BUCKET} --s3-key #{S3_KEY} " \
+       "--region #{AWS_REGION}"
+    puts "Waiting for Lambda update..."
+    sh "aws lambda wait function-updated --function-name #{LAMBDA_FUNCTION} --region #{AWS_REGION}"
+    puts "Lambda updated."
+  end
+
+  desc "Invalidate CloudFront cache"
+  task :invalidate do
+    sh "aws cloudfront create-invalidation " \
+       "--distribution-id #{CF_DISTRIBUTION} " \
+       "--paths '#{CF_INVALIDATION_PATH}'"
+    puts "CloudFront invalidation submitted."
+  end
+
+  desc "Full deploy: build database, build zip, push to Lambda, invalidate CloudFront"
+  task all: ["db:build", "deploy:build", "deploy:push", "deploy:invalidate"] do
+    puts "Deploy complete."
   end
 end
 
