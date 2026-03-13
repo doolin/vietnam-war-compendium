@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bundle *)",
+      "Bash(ruby *)",
+      "Bash(rake *)",
+      "Bash(perl -pi -e *)"
+    ]
+  }
+}

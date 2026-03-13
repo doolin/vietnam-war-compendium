@@ -184,6 +184,7 @@ def parse_html(html_path)
       "authors" => authors,
       "asin" => "",
       "citation" => citation.empty? ? "" : citation,
+      "url" => "",
       "source_file" => File.basename(html_path)
     },
     "highlights" => highlights
