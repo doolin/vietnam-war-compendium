@@ -83,7 +83,7 @@ For event candidates, create entries in `this-day/data/events/` following this f
 
 Event writing guidelines:
 - **Title**: Short, active, specific. "Johnson rejects JCS bombing plan" not "Decision about bombing".
-- **Body**: Must be grounded in what the highlight text actually says. Do not add facts, claims, or context from outside the source text. Past tense, no editorializing.
+- **Body**: Must be grounded in what the highlight text actually says. Do not add facts, claims, or context from outside the source text. Past tense, no editorializing. The body text MUST include the full date (e.g., "On March 2, 1965, ..."). When leading with the date would be awkward, work it naturally into the text elsewhere.
 - **References**: ONLY the source book. Do NOT fabricate corroborating sources or URLs. The user will add additional references themselves. For the `url` field, use the `url` from the highlight file's `book:` metadata. If no `url` is present, look up the book on Goodreads; do not guess or fabricate a URL.
 - **File placement**: Create a new file named after the source book (e.g., `dereliction-of-duty.yaml`). Keep events sorted by date within each file.
 
