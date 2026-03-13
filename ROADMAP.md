@@ -39,6 +39,25 @@ Both consume the same highlights but produce different formats with no shared in
 4. Pick one timeline key (`timeline:` vs `the_war_years:`)
 5. Add basic validation to `seed.rb` (required fields, valid date ranges)
 
+## Scraper Infrastructure
+
+A polite web scraper (`scraper/`) is in place for acquiring events from public domain government sources:
+
+- **`scraper/lib/polite_fetcher.rb`** — per-domain rate limiting, parallel across domains, local HTML cache
+- **`scraper/fetch.rb`** — CLI entry point for fetching and caching pages
+- **`scraper/parsers/moh_army_mil.rb`** — parser for army.mil Medal of Honor citation pages (A-L and M-Z cached)
+- **`scraper/parsers/moh_navy.rb`** — parser stub for Navy History site (blocked by SSL cert issue)
+- **`scraper/cache/`** — gitignored; raw HTML cached locally to avoid re-fetching
+
+### Active sources
+- army.mil MOH citations: ~260 Vietnam War recipients with exact dates, units, locations, and full citation narratives. Two Marine events created as proof of concept; remainder available for bulk extraction.
+
+### Future sources
+- Navy History MOH pages (needs SSL workaround)
+- VVMF Wall of Faces
+- FRUS document collections
+- Pentagon Papers
+
 ## Two Goals the Data Supports
 
 ### Timelines

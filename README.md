@@ -82,6 +82,10 @@ Some sources are already structured rather than embedded in prose:
 - **DPAA (Defense POW/MIA Accounting Agency)** — records for every unaccounted-for service member. Date of loss, location, circumstances.
 - **CACTA (Combat Area Casualties Current File)** — the DoD's master casualty database. Available from NARA. Every U.S. casualty with date, cause, location.
 - **CORDS/HES (Hamlet Evaluation System) data** — monthly security ratings for every hamlet in South Vietnam. Dateable state changes.
+- **Medal of Honor citations** — each citation contains an exact date, location, unit, and detailed narrative of the action. ~260 Vietnam War recipients. Public domain as official government records.
+  - [U.S. Army MOH citations](https://www.army.mil/medalofhonor/citations25.html)
+  - [Navy/Marine Corps MOH recipients](https://www.history.navy.mil/browse-by-topic/heritage/awards/decorations/medal-of-honor/vietnam-war-medal-of-honor-recipients.html)
+  - [Vietnam War 50th Commemoration MOH recipients](https://www.vietnamwar50th.com/history_and_legacy/medal_of_honor_recipients/)
 
 The Wall of Faces alone could generate an event for every single day of the war, multiple times over.
 
@@ -117,6 +121,7 @@ Scholars who have already done the archival work:
 
 ### 9. Programmatic acquisition methods
 
+- **Polite web scraping** — `scraper/` contains a rate-limited fetcher (`PoliteFetcher`) that enforces one request at a time per domain with configurable delay, fetches multiple domains in parallel, and caches raw HTML locally. Parsers in `scraper/parsers/` extract structured data from cached pages. Currently active: army.mil MOH citations.
 - **Web scraping of digitized archives** — the Vietnam Archive at Texas Tech, FRUS, Pentagon Papers, and NARA catalogs all have searchable web interfaces.
 - **PDF/OCR processing** — many of the best sources are scanned PDFs. OCR + date extraction (the `convert_html.rb` pattern scaled up) could process bulk documents.
 - **LLM-assisted extraction** — feed digitized pages to a model, ask it to extract dated events with citations. The model identifies events in source text; it does not invent them. This is essentially what `/process-highlights` does, applied to any digitized text.
