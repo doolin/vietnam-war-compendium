@@ -62,6 +62,7 @@ Both consume the same highlights but produce different formats with no shared in
 5. Add basic validation to `seed.rb` (required fields, valid date ranges)
 6. Process remaining MOH citations into events (bulk extraction)
 7. Process `war-for-ho-chi-minh-trail.yaml` highlights
+8. Add disclaimer to the web page (accuracy, work-in-progress, not a definitive source)
 
 ## Scraper Infrastructure
 

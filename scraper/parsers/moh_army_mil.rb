@@ -18,6 +18,9 @@ require "nokogiri"
 require "date"
 
 class MohArmyMilParser
+  MONTHS = %w[January February March April May June July August September October November December].freeze
+  MONTH_RE = MONTHS.join("|")
+
   # Parse an index page and return an array of recipient hashes.
   # Each hash contains:
   #   :name, :posthumous, :rank, :organization, :place, :date,
@@ -28,6 +31,8 @@ class MohArmyMilParser
 
     doc.css("h3").each do |h3|
       name_raw = h3.text.strip
+      next if name_raw.match?(/Additional Medal of Honor/i)
+
       node = h3.next
       text = ""
       until node.nil? || %w[h2 h3].include?(node.name)
@@ -35,8 +40,9 @@ class MohArmyMilParser
         node = node.next
       end
 
-      raw = text.strip
+      raw = text.gsub(/\s+/, " ").strip
       next if raw.empty?
+      next if raw.match?(/Additional Medal of Honor/i)
 
       posthumous = name_raw.start_with?("*")
       name = name_raw.sub(/^\*\s*/, "").strip
@@ -47,8 +53,8 @@ class MohArmyMilParser
         raw_text: raw
       }
 
-      # Extract structured fields
-      if (m = raw.match(/Rank and organization:\s*(.+?)(?:\.\s*Place|\s*Place)/mi))
+      # Extract structured fields — handles "date" and "dale" (typo on army.mil)
+      if (m = raw.match(/Rank and organization:\s*(.+?)(?:\.\s*Place|\s*Place)/i))
         rank_org = m[1].strip
         if (ro = rank_org.match(/\A(.+?),\s*(.+)/))
           recipient[:rank] = ro[1].strip
@@ -58,35 +64,35 @@ class MohArmyMilParser
         end
       end
 
-      if (m = raw.match(/Place and [Dd]ate:\s*(.+?)(?:\.\s*Entered|\s*Entered|\s*Born|\s*G\.O\.)/mi))
-        place_date = m[1].strip.gsub(/\s+/, " ")
-        # Split on the date portion
-        if (pd = place_date.match(/(.+?),?\s*(\d{1,2}\s+\w+\s+\d{4}|\w+\s+\d{1,2},?\s+\d{4})\s*$/))
-          recipient[:place] = pd[1].strip.sub(/,\s*$/, "")
-          recipient[:date] = parse_date(pd[2])
-          recipient[:date_raw] = pd[2].strip
-        else
-          recipient[:place] = place_date
-        end
+      extract_place_and_date(raw, recipient)
+
+      # Fallback: extract date from citation text for new-format entries
+      unless recipient[:date]
+        extract_date_from_citation(raw, recipient)
       end
 
       # Extract citation text
-      if (m = raw.match(/(Citation:\s*)(.*)/mi))
-        recipient[:citation] = m[2].strip.gsub(/\s+/, " ")
-      elsif (m = raw.match(/(For conspicuous gallantry.*)/mi))
-        recipient[:citation] = m[1].strip.gsub(/\s+/, " ")
+      if (m = raw.match(/Citation:+\s*(.*)/i))
+        recipient[:citation] = m[1].strip
+      elsif (m = raw.match(/(For conspicuous gallantry.*)/i))
+        recipient[:citation] = m[1].strip
       end
 
       # Extract branch
       recipient[:branch] = if raw.match?(/Marine Corps/i)
-                             "USMC"
-                           elsif raw.match?(/U\.S\. Navy|Navy/i)
-                             "USN"
-                           elsif raw.match?(/Air Force/i)
-                             "USAF"
-                           else
-                             "USA"
-                           end
+                               "USMC"
+                             elsif raw.match?(/U\.S\. Navy|Navy/i)
+                               "USN"
+                             elsif raw.match?(/Air Force/i)
+                               "USAF"
+                             else
+                               "USA"
+                             end
+
+      # Extract rank from new-format citations if not already found
+      unless recipient[:rank]
+        extract_rank_from_citation(raw, recipient)
+      end
 
       recipients << recipient
     end
@@ -139,15 +145,103 @@ class MohArmyMilParser
 
   private
 
+  def extract_place_and_date(raw, recipient)
+    # Match "Place and date:" or "Place and dale:" (typo) or "Place and date." (period instead of colon)
+    m = raw.match(/Place and [Dd]a[lt]e[.:]\s*(.+?)(?:\.\s*Entered|\s*Entered|\s*Born|\s*G\.O\.)/i)
+    return unless m
+
+    place_date = m[1].strip.sub(/[.,]+\z/, "")
+
+    # Try standard date patterns at end of string
+    date = nil
+    place = place_date
+
+    # "25 May 1971" or "May 25, 1971"
+    if (pd = place_date.match(/(.+?),?\s*(\d{1,2}\s+(?:#{MONTH_RE})\s+\d{4})\s*$/i))
+      place = pd[1].strip.sub(/,\s*$/, "")
+      date = parse_date(pd[2])
+    elsif (pd = place_date.match(/(.+?),?\s*((?:#{MONTH_RE})\s+\d{1,2},?\s+\d{4})\s*$/i))
+      place = pd[1].strip.sub(/,\s*$/, "")
+      date = parse_date(pd[2])
+    # "13 February. 1969" (period instead of comma)
+    elsif (pd = place_date.match(/(.+?),?\s*(\d{1,2}\s+(?:#{MONTH_RE})[.,]?\s+\d{4})\s*$/i))
+      place = pd[1].strip.sub(/,\s*$/, "")
+      date = parse_date(pd[2].gsub(/[.,]/, " "))
+    # "6th and 7th February 1968" — use first date
+    elsif (pd = place_date.match(/(.+?),?\s*(\d{1,2})(?:st|nd|rd|th)\s+(?:and|to|-)\s+\d{1,2}(?:st|nd|rd|th)?\s+((?:#{MONTH_RE})\s+\d{4})/i))
+      place = pd[1].strip.sub(/,\s*$/, "")
+      date = parse_date("#{pd[2]} #{pd[3]}")
+    # Date range "31 December 1964 to 8 December, 1967" — use first date
+    elsif (pd = place_date.match(/(.+?),?\s*(\d{1,2}\s+(?:#{MONTH_RE})\s+\d{4})\s+to\s/i))
+      place = pd[1].strip.sub(/,\s*$/, "")
+      date = parse_date(pd[2])
+    # Year range "1969-1970" — skip, too vague
+    end
+
+    recipient[:place] = place
+    recipient[:date] = date if date
+    recipient[:date_raw] = place_date if date
+  end
+
+  def extract_date_from_citation(raw, recipient)
+    # Use only the citation portion to avoid grabbing "Born:" dates.
+    # For new-format entries without structured fields, the entire text is
+    # the citation — but strip any "Born:" section to avoid birthdate matches.
+    citation = if (m = raw.match(/Citation:+\s*(.*)/i))
+                 m[1]
+               elsif (m = raw.match(/(For conspicuous gallantry.*)/i))
+                 m[1]
+               elsif !raw.match?(/Rank and organization/i)
+                 raw.sub(%r{Born:.*}i, "")
+               else
+                 return
+               end
+
+    if (m = citation.match(/on\s+(\d{1,2}\s+(?:#{MONTH_RE}),?\s+\d{4})/i))
+      recipient[:date] = parse_date(m[1])
+    elsif (m = citation.match(/on\s+((?:#{MONTH_RE})\s+\d{1,2},?\s+\d{4})/i))
+      recipient[:date] = parse_date(m[1])
+    # "May 13 - 15, 1969" — use first date
+    elsif (m = citation.match(/((?:#{MONTH_RE})\s+\d{1,2})\s*[-–]\s*\d{1,2},?\s+(\d{4})/i))
+      recipient[:date] = parse_date("#{m[1]} #{m[2]}")
+    # "during the period 10 to 15 May 1968" — use first date
+    elsif (m = citation.match(/(\d{1,2})\s+(?:to|-)\s+\d{1,2}\s+((?:#{MONTH_RE})\s+\d{4})/i))
+      recipient[:date] = parse_date("#{m[1]} #{m[2]}")
+    # Standalone date: "14 November 1965"
+    elsif (m = citation.match(/(\d{1,2}\s+(?:#{MONTH_RE}),?\s+\d{4})/i))
+      recipient[:date] = parse_date(m[1])
+    elsif (m = citation.match(/((?:#{MONTH_RE})\s+\d{1,2},?\s+\d{4})/i))
+      recipient[:date] = parse_date(m[1])
+    end
+  end
+
+  def extract_rank_from_citation(raw, recipient)
+    ranks = [
+      "Specialist Four", "Specialist Five", "Specialist Six",
+      "Private First Class", "Staff Sergeant", "Sergeant First Class",
+      "Master Sergeant", "First Sergeant", "Sergeant Major",
+      "Command Sergeant Major", "Gunnery Sergeant",
+      "Second Lieutenant", "First Lieutenant", "Lieutenant Colonel",
+      "Brigadier General", "Major General",
+      "Corporal", "Sergeant", "Lieutenant", "Captain", "Major",
+      "Colonel", "General", "Private"
+    ]
+    ranks.each do |rank|
+      if raw.match?(/\b#{Regexp.escape(rank)}\b/i)
+        recipient[:rank] = rank
+        return
+      end
+    end
+  end
+
   def parse_date(str)
-    # "25 May 1971" or "March 11, 1970"
-    months = %w[January February March April May June July August September October November December]
+    str = str.gsub(/[.,]/, " ").gsub(/\s+/, " ").strip
     if (m = str.match(/(\d{1,2})\s+(\w+)\s+(\d{4})/))
-      mi = months.index(m[2])
+      mi = MONTHS.index(m[2])
       return nil unless mi
       Date.new(m[3].to_i, mi + 1, m[1].to_i) rescue nil
-    elsif (m = str.match(/(\w+)\s+(\d{1,2}),?\s+(\d{4})/))
-      mi = months.index(m[1])
+    elsif (m = str.match(/(\w+)\s+(\d{1,2})\s*(\d{4})/))
+      mi = MONTHS.index(m[1])
       return nil unless mi
       Date.new(m[3].to_i, mi + 1, m[2].to_i) rescue nil
     end
