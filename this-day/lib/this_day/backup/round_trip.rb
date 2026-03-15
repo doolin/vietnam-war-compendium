@@ -4,6 +4,8 @@ require "digest"
 require "tempfile"
 require "securerandom"
 require "fileutils"
+require_relative "s3_backup"
+require_relative "s3_restore"
 
 module ThisDay
   module Backup
