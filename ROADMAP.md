@@ -63,6 +63,7 @@ Resolved. All Kindle highlight files processed. `war-for-ho-chi-minh-trail.yaml`
 6. ~~Process remaining MOH citations into events~~ — resolved, all 264 extracted
 7. ~~Process `war-for-ho-chi-minh-trail.yaml` highlights~~ — resolved, all 12 processed; no event candidates (year-only dates, analytical/background material)
 8. ~~Add disclaimer to the web page~~ — resolved, added to event template
+9. Add SVG favicon of Vietnam country outline
 
 ## Scraper Infrastructure
 

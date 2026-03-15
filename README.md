@@ -83,9 +83,11 @@ Some sources are already structured rather than embedded in prose:
 - **CACTA (Combat Area Casualties Current File)** — the DoD's master casualty database. Available from NARA. Every U.S. casualty with date, cause, location.
 - **CORDS/HES (Hamlet Evaluation System) data** — monthly security ratings for every hamlet in South Vietnam. Dateable state changes.
 - **Medal of Honor citations** — each citation contains an exact date, location, unit, and detailed narrative of the action. ~260 Vietnam War recipients. Public domain as official government records.
-  - [U.S. Army MOH citations](https://www.army.mil/medalofhonor/citations25.html)
+  - [U.S. Army MOH citations](https://www.army.mil/medalofhonor/citations25.html) — Note: this page is poorly constructed (inconsistent formatting, typos in field labels, missing structured data for newer recipients). It reads like minimum-effort contract work. The data required extensive parser workarounds. Better .mil sources with richer data (including headshots) exist elsewhere on army.mil and navy.mil.
   - [Navy/Marine Corps MOH recipients](https://www.history.navy.mil/browse-by-topic/heritage/awards/decorations/medal-of-honor/vietnam-war-medal-of-honor-recipients.html)
   - [Vietnam War 50th Commemoration MOH recipients](https://www.vietnamwar50th.com/history_and_legacy/medal_of_honor_recipients/)
+  - [Congressional Medal of Honor Society](https://www.cmohs.org/) — recipient profiles with photographs
+  - **Copyright note:** MOH citations from .mil domains are U.S. government works and public domain. Non-government aggregator sites repackage this public domain material and may assert copyright over their presentation. We link to them to honor the recipients, but we do not use, scrape, or derive from their content. All our MOH data is built from .mil and .gov primary sources only.
 
 The Wall of Faces alone could generate an event for every single day of the war, multiple times over.
 
