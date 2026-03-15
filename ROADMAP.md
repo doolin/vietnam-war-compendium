@@ -28,8 +28,8 @@ Resolved. All book-sourced events now have Goodreads URLs. The process-highlight
 ### ~~4. starlite.yaml is a stub~~
 Resolved. Deleted; real data is in `starlite-pimlott.yaml`.
 
-### 5. No seed validation
-`db/seed.rb` silently accepts invalid months/days, missing required fields, and empty reference URLs. Only `YAML.safe_load_file` provides basic safety.
+### ~~5. No seed validation~~
+Resolved. `db/seed.rb` validates required fields, date ranges (month 1-12, day 1-31, year 1940-1980), and reference completeness. Invalid events are skipped with warnings; build aborts if any errors found.
 
 ### ~~6. sample.yaml naming is ambiguous~~
 Resolved. Renamed to `landmark-events.yaml`.
@@ -59,7 +59,7 @@ Both consume the same highlights but produce different formats with no shared in
 2. ~~Rename `sample.yaml`~~ — resolved, renamed to `landmark-events.yaml`
 3. ~~Delete `starlite.yaml` stub~~ — resolved, deleted
 4. Pick one timeline key and enforce it
-5. Add basic validation to `seed.rb` (required fields, valid date ranges)
+5. ~~Add basic validation to `seed.rb`~~ — resolved, validates required fields, date ranges, reference completeness
 6. ~~Process remaining MOH citations into events~~ — resolved, all 264 extracted
 7. Process `war-for-ho-chi-minh-trail.yaml` highlights
 8. ~~Add disclaimer to the web page~~ — resolved, added to event template
