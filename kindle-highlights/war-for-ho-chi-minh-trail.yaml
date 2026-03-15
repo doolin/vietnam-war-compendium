@@ -19,9 +19,12 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags:
+  - monsoon
+  - infiltration
   cross_refs: []
   dates: []
+  quality: 3
 - id: 2
   type: highlight
   section: CHAPTER 2 - THE INFILTRATION PROBLEM
@@ -33,9 +36,11 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags:
+  - transportation-group-559
   cross_refs: []
   dates: []
+  quality: 3
 - id: 3
   type: highlight
   section: CHAPTER 2 - THE INFILTRATION PROBLEM
@@ -46,9 +51,11 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags:
+  - ho-chi-minh-trail
   cross_refs: []
   dates: []
+  quality: 3
 - id: 4
   type: highlight
   section: CHAPTER 2 - THE INFILTRATION PROBLEM
@@ -60,9 +67,12 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags:
+  - ho-chi-minh-trail
+  - infiltration
   cross_refs: []
   dates: []
+  quality: 3
 - id: 5
   type: highlight
   section: CHAPTER 2 - THE INFILTRATION PROBLEM
@@ -75,9 +85,14 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags:
+  - ho-chi-minh-trail
+  - infiltration
+  - logistics
   cross_refs: []
-  dates: []
+  dates:
+  - '1965'
+  quality: 3
 - id: 6
   type: highlight
   section: CHAPTER 2 - THE INFILTRATION PROBLEM
@@ -89,9 +104,13 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags:
+  - tchepone
+  - base-area-604
+  - logistics
   cross_refs: []
   dates: []
+  quality: 3
 - id: 7
   type: highlight
   section: CHAPTER 2 - THE INFILTRATION PROBLEM
@@ -102,9 +121,11 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags:
+  - truong-son
   cross_refs: []
   dates: []
+  quality: 1
 - id: 8
   type: highlight
   section: CHAPTER 2 - THE INFILTRATION PROBLEM
@@ -119,9 +140,14 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags:
+  - cambodia
+  - laos
+  - logistics
+  - sanctuary
   cross_refs: []
   dates: []
+  quality: 4
 - id: 9
   type: highlight
   section: CHAPTER 2 - THE INFILTRATION PROBLEM
@@ -134,23 +160,33 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags:
+  - lam-son-719
+  - tchepone
+  - base-area-604
+  - arvn
   cross_refs: []
-  dates: []
+  dates:
+  - '1971'
+  quality: 4
 - id: 10
   type: highlight
   section: CHAPTER 3 - POLITICAL AND STRATEGIC CONSIDERATIONS
   page:
   location: 472
   color: pink
-  text: Averell Harriman later stated that “We must recognize that the North Vietnamese
-    did not keep the Laos Agreement of 1962 for a single day.”{
+  text: Averell Harriman later stated that "We must recognize that the North Vietnamese
+    did not keep the Laos Agreement of 1962 for a single day."{
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags:
+  - harriman
+  - laos-agreement-1962
   cross_refs: []
-  dates: []
+  dates:
+  - '1962'
+  quality: 3
 - id: 11
   type: highlight
   section: CHAPTER 3 - POLITICAL AND STRATEGIC CONSIDERATIONS
@@ -162,9 +198,11 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags:
+  - strategy
   cross_refs: []
   dates: []
+  quality: 3
 - id: 12
   type: highlight
   section: CHAPTER 4 - INTERDICTION-MILITARY ACTIONS
@@ -177,6 +215,10 @@ highlights:
   kindle_url: ''
   note: ''
   context: ''
-  tags: []
+  tags:
+  - interdiction
+  - air-campaign
+  - laos
   cross_refs: []
   dates: []
+  quality: 3

@@ -47,8 +47,8 @@ Both consume the same highlights but produce different formats with no shared in
 
 ## Content Pipeline
 
-### Unprocessed highlights
-- `kindle-highlights/war-for-ho-chi-minh-trail.yaml` — 12 highlights, no dates/tags/quality scored yet. Mostly analytical/background passages about the Trail network.
+### ~~Unprocessed highlights~~
+Resolved. All Kindle highlight files processed. `war-for-ho-chi-minh-trail.yaml` contained 12 analytical/background highlights with no event candidates.
 
 ### MOH bulk extraction
 - army.mil A-L and M-Z pages cached in `scraper/cache/`. Parser extracts ~260 recipients with dates, units, locations, citations. Two Marine events created as proof of concept. Remainder available for bulk extraction.
@@ -61,7 +61,7 @@ Both consume the same highlights but produce different formats with no shared in
 4. Pick one timeline key and enforce it
 5. ~~Add basic validation to `seed.rb`~~ — resolved, validates required fields, date ranges, reference completeness
 6. ~~Process remaining MOH citations into events~~ — resolved, all 264 extracted
-7. Process `war-for-ho-chi-minh-trail.yaml` highlights
+7. ~~Process `war-for-ho-chi-minh-trail.yaml` highlights~~ — resolved, all 12 processed; no event candidates (year-only dates, analytical/background material)
 8. ~~Add disclaimer to the web page~~ — resolved, added to event template
 
 ## Scraper Infrastructure
