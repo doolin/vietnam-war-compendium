@@ -12,6 +12,8 @@ group :production do
 end
 
 group :development do
+  gem "aws-sdk-s3", "~> 1.0"
+  gem "rexml"
   gem "puma", "~> 6.0"
   gem "rackup", "~> 2.0"
   gem "rake", "~> 13.0"

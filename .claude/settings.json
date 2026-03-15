@@ -4,7 +4,8 @@
       "Bash(bundle *)",
       "Bash(ruby *)",
       "Bash(rake *)",
-      "Bash(perl -pi -e *)"
+      "Bash(perl -pi -e *)",
+      "Bash(wc -l /Users/daviddoolin/src/vietnam-war-compendium/this-day/data/events/*.yaml)"
     ]
   }
 }

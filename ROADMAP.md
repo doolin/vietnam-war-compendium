@@ -82,6 +82,30 @@ A polite web scraper (`scraper/`) is in place for acquiring events from public d
 - FRUS document collections
 - Pentagon Papers
 
+## Database Backup
+
+S3-based backup and restore for the SQLite database, modeled on the `dbb` project's approach but without attestation reports or blockchain anchoring. The database is currently fully rebuildable from YAML source files via `rake db:build`, but as the schema grows some tables may not remain rebuildable from source alone. Backup increases optionality.
+
+### Design
+
+- **Bucket:** `inventium-backups`
+- **Key structure:** `this-day/backups/{YYYYMMDD}/{HHMMSS}.sql.gz`
+- **Format:** gzipped SQL dump via `sqlite3 <db> .dump`, not binary `.sqlite3` copy
+- **Checksum:** SHA-256 of the compressed artifact, printed to console
+
+### Rake tasks (in existing Rakefile)
+
+- `rake db:backup` — dump, gzip, upload to S3
+- `rake db:restore` — download from S3, decompress, restore into local SQLite
+- `rake db:backup_round_trip` — backup → upload → download → restore to temp DB → checksum both SQL dumps → pass/fail to console
+
+### Implementation notes
+
+- Use AWS SDK (`aws-sdk-s3`) directly, same credentials/profile as the existing deploy tasks
+- Restore should accept an optional S3 key argument; default to the most recent backup
+- Round-trip verification compares SHA-256 of the original and restored plaintext SQL dumps (not binary DB files)
+- Console output only — no PDF reports, no Solana anchoring
+
 ## Two Goals the Data Supports
 
 ### Timelines

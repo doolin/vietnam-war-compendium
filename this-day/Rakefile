@@ -4,6 +4,8 @@ require "rake"
 
 LAMBDA_FUNCTION = "this-day-in-vietnam-war"
 S3_BUCKET = "this-day-in-vietnam-war-deployments"
+BACKUP_BUCKET = "inventium-backups"
+BACKUP_REGION = "us-east-1"
 S3_KEY = "this-day-deploy.zip"
 AWS_REGION = "us-west-1"
 CF_DISTRIBUTION = "ERIW60YQ29CKU"
@@ -11,6 +13,8 @@ CF_INVALIDATION_PATH = "/this-day-in-vietnam*"
 BUILD_DIR = "/tmp/this-day-build"
 DEPLOY_ZIP = "/tmp/this-day-deploy.zip"
 DOCKER_IMAGE = "public.ecr.aws/sam/build-ruby3.3:latest-x86_64"
+BACKUP_PREFIX = "this-day/backups"
+DB_PATH = File.expand_path("db/this_day.sqlite3", __dir__)
 
 namespace :db do
   desc "Build the SQLite3 database from YAML event files"
@@ -48,6 +52,51 @@ namespace :db do
 
     db.close
     puts "Built test database at #{db_path}"
+  end
+
+  desc "Backup SQLite database to S3 (gzipped SQL dump)"
+  task :backup do
+    require_relative "lib/this_day/backup/s3_backup"
+
+    backup = ThisDay::Backup::S3Backup.new(
+      db_path: DB_PATH, bucket: BACKUP_BUCKET,
+      region: BACKUP_REGION, prefix: BACKUP_PREFIX
+    )
+    result = backup.call
+
+    puts "Backup uploaded to s3://#{BACKUP_BUCKET}/#{result[:s3_key]}"
+    puts "SHA-256: #{result[:backup_checksum]}"
+  end
+
+  desc "Restore SQLite database from S3 backup (optional S3_KEY=... for specific backup)"
+  task :restore do
+    require_relative "lib/this_day/backup/s3_restore"
+
+    restore = ThisDay::Backup::S3Restore.new(
+      bucket: BACKUP_BUCKET, region: BACKUP_REGION, prefix: BACKUP_PREFIX
+    )
+
+    key = ENV["S3_KEY"] || restore.latest_key
+    raise "No backups found under s3://#{BACKUP_BUCKET}/#{BACKUP_PREFIX}" unless key
+
+    restore.call(s3_key: key, target_db_path: DB_PATH)
+    puts "Restored #{DB_PATH} from s3://#{BACKUP_BUCKET}/#{key}"
+  end
+
+  desc "Backup round-trip test: backup → upload → download → restore → checksum verify"
+  task :backup_round_trip do
+    require_relative "lib/this_day/backup/round_trip"
+
+    round_trip = ThisDay::Backup::RoundTrip.new(
+      db_path: DB_PATH, bucket: BACKUP_BUCKET,
+      region: BACKUP_REGION, prefix: BACKUP_PREFIX
+    )
+    evidence = round_trip.call
+
+    evidence[:steps].each do |step|
+      puts "  #{step[:name]}: #{step[:result]}"
+    end
+    puts "Round-trip test: #{evidence[:status]}"
   end
 end
 
