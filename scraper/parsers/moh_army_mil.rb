@@ -145,6 +145,14 @@ class MohArmyMilParser
 
   private
 
+  # TODO: Refactor extract_place_and_date — the cascading if/elsif regex chain is
+  # brittle and order-dependent (e.g., COOK's date range hits the wrong branch because
+  # "Month DD, YYYY" at end of string matches before the "to" branch). Consider:
+  # - A DateExtractor class with named patterns and explicit priority
+  # - Normalizing the place_date string first (strip trailing punctuation, collapse
+  #   ordinals, normalize "to"/"and" ranges) then matching a single canonical form
+  # - Extracting place and date as separate steps rather than splitting a combined field
+  # Full branch coverage is in place (82 specs, 100% line+branch) to support safe refactoring.
   def extract_place_and_date(raw, recipient)
     # Match "Place and date:" or "Place and dale:" (typo) or "Place and date." (period instead of colon)
     m = raw.match(/Place and [Dd]a[lt]e[.:]\s*(.+?)(?:\.\s*Entered|\s*Entered|\s*Born|\s*G\.O\.)/i)
@@ -183,6 +191,12 @@ class MohArmyMilParser
     recipient[:date_raw] = place_date if date
   end
 
+  # TODO: Refactor extract_date_from_citation — similar cascading regex issue.
+  # The citation-source selection (Citation: vs "For conspicuous" vs raw text) and
+  # the date pattern matching are two distinct concerns tangled together. Consider
+  # extracting a citation_text(raw) method and reusing the same date patterns as
+  # extract_place_and_date. The "Born:" stripping is a workaround for the lack of
+  # structured field boundaries in new-format entries.
   def extract_date_from_citation(raw, recipient)
     # Use only the citation portion to avoid grabbing "Born:" dates.
     # For new-format entries without structured fields, the entire text is
@@ -234,6 +248,10 @@ class MohArmyMilParser
     end
   end
 
+  # TODO: Refactor parse_date — consolidate with the date patterns in
+  # extract_place_and_date and extract_date_from_citation. All three methods
+  # duplicate month-name matching. A single DateParser with named patterns
+  # would reduce the surface area for regex bugs.
   def parse_date(str)
     str = str.gsub(/[.,]/, " ").gsub(/\s+/, " ").strip
     if (m = str.match(/(\d{1,2})\s+(\w+)\s+(\d{4})/))
