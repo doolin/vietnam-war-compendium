@@ -25,14 +25,14 @@ Pick one and enforce it.
 ### ~~3. Empty URL strings in book-sourced events~~
 Resolved. All book-sourced events now have Goodreads URLs. The process-highlights skill has been updated to use Goodreads as the default book URL.
 
-### 4. starlite.yaml is a stub
-`timelines/starlite.yaml` contains only `Starlite:\n  - 1965-08-18:0630 launched`. The real data is in `starlite-pimlott.yaml`. Likely an abandoned draft.
+### ~~4. starlite.yaml is a stub~~
+Resolved. Deleted; real data is in `starlite-pimlott.yaml`.
 
 ### 5. No seed validation
 `db/seed.rb` silently accepts invalid months/days, missing required fields, and empty reference URLs. Only `YAML.safe_load_file` provides basic safety.
 
-### 6. sample.yaml naming is ambiguous
-Contains real, curated events (Tet, Ia Drang, Khe Sanh, Rolling Thunder, Fall of Saigon, etc.) — not sample/test data. The name undersells it and may cause confusion about whether it's safe to delete.
+### ~~6. sample.yaml naming is ambiguous~~
+Resolved. Renamed to `landmark-events.yaml`.
 
 ## Redundancy
 
@@ -56,13 +56,13 @@ Both consume the same highlights but produce different formats with no shared in
 ## Priorities
 
 1. ~~Fix empty URLs~~ — resolved, all events now have Goodreads or source URLs
-2. Rename `sample.yaml` to something descriptive (e.g., `landmark-events.yaml`)
-3. Delete `starlite.yaml` stub
+2. ~~Rename `sample.yaml`~~ — resolved, renamed to `landmark-events.yaml`
+3. ~~Delete `starlite.yaml` stub~~ — resolved, deleted
 4. Pick one timeline key and enforce it
 5. Add basic validation to `seed.rb` (required fields, valid date ranges)
-6. Process remaining MOH citations into events (bulk extraction)
+6. ~~Process remaining MOH citations into events~~ — resolved, all 264 extracted
 7. Process `war-for-ho-chi-minh-trail.yaml` highlights
-8. Add disclaimer to the web page (accuracy, work-in-progress, not a definitive source)
+8. ~~Add disclaimer to the web page~~ — resolved, added to event template
 
 ## Scraper Infrastructure
 
