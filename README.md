@@ -1,6 +1,13 @@
-# A compendium and factbook for 20th conflicts in Indochino
+# A compendium and factbook for 20th century conflicts in Indochina
 
-This is a placeholder to help me clear my mind.
+A goal of this project is to make public domain information about the Vietnam War freely accessible in structured, searchable form — rather than leaving it gated behind private sector tools, JavaScript-rendered SPAs, or interfaces that prevent bulk access. The data belongs to the public; it should be easy to find and use.
+
+The site maintainer makes every effort to ensure all data is obtained
+from public domain sources and is not subject to copyright restrictions.
+In the event that copyrighted information is present, the maintainer will
+be delighted to PURGE THAT INFORMATION AND EVERY. SINGLE. REFERENCE TO IT.
+
+
 
 ## Links
 
