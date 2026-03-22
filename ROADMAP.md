@@ -83,6 +83,8 @@ A polite web scraper (`scraper/`) is in place for acquiring events from public d
 - VVMF Wall of Faces
 - FRUS document collections
 - Pentagon Papers
+- DPAA unaccounted-for personnel (~1,584 Vietnam War records) — requires FOIA request; no API or bulk download exists. See `research/dpaa-nara-casualty-data.md`
+- NARA DCAS Vietnam Conflict Extract (58,220 fatal casualties including 1,085 MIA, 116 POW, 124 MSG incident records) — downloaded to `research/nara-dcas/`, codebook in repo, `.dat` file gitignored. **TODO: archive `.dat` to S3 (`inventium-backups`)**
 
 ## Database Backup
 

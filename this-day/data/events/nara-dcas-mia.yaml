@@ -1,0 +1,29 @@
+# MIA/POW events sourced from NARA DCAS Vietnam Conflict Extract Data File
+# NAID: 2240992, Duke mirror: https://repository.duke.edu/catalog/7d184168-b570-4ae0-8503-cf5120d30122
+# Codebook: research/nara-dcas/DCAS-codebook.pdf
+
+- month: 2
+  day: 20
+  year: 1971
+  title: "UH-1C gunship crew lost during Lam Son 719 resupply mission"
+  body: "<p>On February 20, 1971, a UH-1C helicopter from the 48th Aviation Company ('Jokers'), 223rd Aviation Battalion, 1st Aviation Brigade, was shot down by hostile fire while providing gun cover for an emergency resupply mission 20 miles southeast of Sepone, Laos, during Operation Lam Son 719.</p><p>All four crew members remain unaccounted-for: WO Jon E. Reid (pilot), 1LT David M. May (co-pilot), SP5 Randall L. Johnson (crew chief), and SP4 Robert J. Acalotto (door gunner, Greensburg, PA). Two people were seen exiting the crashed aircraft and running toward nearby trees, but their identities could not be confirmed. Rescue attempts failed due to heavy enemy fire. No remains have been recovered.</p>"
+  photo_url:
+  photo_alt:
+  references:
+    - label: "NARA DCAS Vietnam Conflict Extract Data File (NAID 2240992)"
+      url: "https://catalog.archives.gov/id/2240992"
+    - label: "POW Network — Acalotto, Robert Joseph"
+      url: "https://www.pownetwork.org/bios/a/a063.htm"
+
+- month: 5
+  day: 20
+  year: 1968
+  title: "MACV-SOG Strike Team Idaho vanishes in Laos"
+  body: "<p>On May 20, 1968, Strike Team Idaho was inserted by H-34 Kingbee helicopter into the A Shau Valley, Laos, on a reconnaissance patrol for MACV-SOG out of FOB 1, Phu Bai. The team reported 'Team OK' after insertion but then failed to make scheduled radio contact with Forward Air Controllers. By nightfall, no communication had been established.</p><p>A Bright Light rescue mission (ST Oregon) was launched to locate the team but encountered overwhelming enemy forces. Searchers found what appeared to be a trail in the grass and evidence of M-26 grenade fragments and CAR-15 gunfire, suggesting ST Idaho had been wiped out or captured. Neither outcome was confirmed.</p><p>The two American team members remain unaccounted-for with no remains recovered: MSG Glen Oliver Lane (One-Zero, Odessa, TX), an Infantry Operations and Intelligence Specialist, and SFC Robert Duval Owen (One-One, Chatham, VA), a Radio Operator. Four South Vietnamese indigenous troops were also lost. Lane was declared dead June 1, 1974; Owen on November 1, 1973.</p>"
+  photo_url:
+  photo_alt:
+  references:
+    - label: "NARA DCAS Vietnam Conflict Extract Data File (NAID 2240992)"
+      url: "https://catalog.archives.gov/id/2240992"
+    - label: "ST Idaho Still Missing — MACV-SOG"
+      url: "https://sogsite.com/2021/04/29/st-idaho-still-missing-53-years-later/"
