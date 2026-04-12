@@ -8,6 +8,16 @@ See [PRD-0001](docs/prds/PRD-0001-this-day-in-vietnam.md) and
 [ADR-001](docs/adrs/ADR-001-lambda-sqlite-architecture.md) for full requirements
 and architecture decisions.
 
+## Upcoming
+
+These attributes need to be added to each record:
+1. source,
+2. reference,
+3. contrbutor,
+4. verifier,
+5. maintairer,
+6. last update
+
 ## Prerequisites
 
 - Ruby (>= 3.2; development uses whatever is current, Lambda uses 3.4)
