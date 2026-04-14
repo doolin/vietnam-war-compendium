@@ -1,10 +1,19 @@
 # frozen_string_literal: true
 
+require "json"
 require "roda"
 require_relative "database"
 
 module ThisDay
   class App < Roda
+    BUILD_SHA = begin
+      raw = File.read(File.expand_path("../../version.json", __dir__))
+      (JSON.parse(raw)["sha"] || "")[0, 7]
+    rescue Errno::ENOENT, JSON::ParserError
+      "dev"
+    end
+
+    def self.build_sha = BUILD_SHA
     plugin :render, engine: "erb", views: File.expand_path("../../views", __dir__),
                     template_opts: { default_encoding: "UTF-8" }
     plugin :head

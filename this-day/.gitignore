@@ -4,3 +4,4 @@ db/test.sqlite3
 vendor/bundle/
 .aws-sam/
 .build/
+version.json

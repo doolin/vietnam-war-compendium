@@ -119,6 +119,14 @@
       font-size: 1.1rem;
     }
 
+    #build-info {
+      text-align: center;
+      margin-top: 2rem;
+      font-size: 0.75rem;
+      color: #aaa;
+      font-family: monospace;
+    }
+
     @media (max-width: 480px) {
       h1 { font-size: 1.25rem; }
 
@@ -133,6 +141,7 @@
 <body>
   <main>
     <%= yield %>
+    <footer id="build-info"><%= ThisDay::App.build_sha %></footer>
   </main>
 </body>
 </html>

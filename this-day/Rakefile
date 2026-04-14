@@ -108,6 +108,9 @@ namespace :deploy do
     sh "cp -r lib views app.rb config.ru Gemfile Gemfile.lock #{BUILD_DIR}/"
     sh "cp db/this_day.sqlite3 db/schema.sql #{BUILD_DIR}/db/"
 
+    sha = `git rev-parse HEAD`.strip
+    File.write("#{BUILD_DIR}/version.json", %({"sha":"#{sha}"}\n))
+
     puts "Bundling gems for x86_64-linux via Docker..."
     sh "docker run --rm --platform linux/amd64 " \
        "-v #{BUILD_DIR}:/var/task -w /var/task #{DOCKER_IMAGE} " \
