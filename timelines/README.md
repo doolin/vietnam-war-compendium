@@ -8,6 +8,7 @@ SVG timelines for the Indochina conflicts. Events come from YAML; the driver ren
 - **`ia-drang-pimlott.yaml`** — Events keyed under `the_war_years` (date + event text). Optional per-event `tier` (0–3) for future LOD; see `LOD_AND_BLOCKS.md`.
 - **`blocks.yaml`** — Time-range blocks (id, start, end, label) for future LOD; loaded but not yet rendered. See `LOD_AND_BLOCKS.md`.
 - **`LOD_AND_BLOCKS.md`** — Design notes for level-of-detail and blocks (zoom, tiers, block-as-one-box).
+- **`REFERENCES.md`** — Timeline design literature (Rosenberg & Grafton, Tufte, Brehmer et al., LifeLines); PDFs in `references/`. Label-placement literature is in `LABEL_PLACEMENT.md`.
 - **`ia-drang-timeline.svg`** — Output. Open in a **browser** (not as a static image) for hover: bring event to front and grey highlight.
 
 ## Run
