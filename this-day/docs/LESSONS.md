@@ -77,6 +77,30 @@ a failure (`bot-wall` status) so it is retried and never counted as
 verified. Fetch catalog metadata once and cache it before fanning
 out agents that all want it.
 
+## 2026-10-25 — Re-sourcing is where the corrections come from
+
+Rewriting a body from its old text fixes prose. Rewriting it from a
+newly fetched primary source fixes facts. The twelve "landmark"
+events, re-sourced from FRUS, presidential papers, and a 1969 USMC
+history, changed in four places: a wrong date (the New Hampshire
+primary), a wrong actor (ARVN Rangers, not Marines, at Khe Sanh on
+March 1, 1968), an unsupported figure, and an unsupported
+"five days after". The casualty file did the same to the MIA
+events. None of these were visible from the old text alone.
+
+Lesson: budget for a source-finding pass separate from the writing
+pass, and give the writer only the fetched passages.
+
+## 2026-10-25 — Wikipedia year pages as a candidate index
+
+The 21 "YEAR in the Vietnam War" pages yielded 449 dated October and
+November entries, at least three for every day, each with its
+revision id and the citations attached to it. They work as an index
+of candidates, not as the source: a draft quotes the entry, cites the
+permalink, and carries the entry's own cited source when it has a
+URL (FRUS, Army CMH, Nixon Library). About a third of entries have no
+URL citation; those drafts are single-source and marked for review.
+
 ## 2026-10-25 — Line endings on committed files
 
 AGENTS.md was committed with CRLF. The repo's `.gitattributes`

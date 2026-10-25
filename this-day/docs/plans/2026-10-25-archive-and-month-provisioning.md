@@ -42,13 +42,13 @@ site shows progress.
 - [ ] 4b. Added mid-session: resummarize every event from its archived source with a credited model (`docs/SUMMARY_STYLE.md`).
   - [x] HistoryNet 1975 (12). Deployed (2b1bd35).
   - [x] Dereliction of Duty (31). Deployed (2b1bd35).
-  - [ ] Medal of Honor (264): batches 1, 3, 5, 6, 7, 8 done; 2 and 4 resuming after the session limit.
-  - [ ] SOG Kontum, Forsaken Warriors, Laotian Panhandle (31): resuming.
-  - [ ] Landmark (12): re-sourcing agent resuming.
+  - [x] Medal of Honor (264): 261 rewritten, 3 legacy kept (no citation).
+  - [x] SOG Kontum, Forsaken Warriors, Laotian Panhandle (31).
+  - [x] Landmark (12): re-sourced from public documents and rewritten (Claude Opus 5.5).
   - [ ] NARA DCAS (2): rewrite from the DCAS record after review items 4 and 5.
 - Open questions for the operator: `docs/REVIEW_QUEUE.md`.
-- [ ] 5. October.
-- [ ] 6. November.
+- [x] 5. October: 23 drafts, every day now has an event.
+- [x] 6. November: 15 drafts, every day now has an event.
 - [~] 7. Deck growing in `docs/slides/`.
 - [~] 8. Lessons growing in `docs/LESSONS.md`.
 

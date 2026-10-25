@@ -1,178 +1,241 @@
-# Events from Forsaken Warriors by Robert L. Tonsetic
-# Source: kindle-highlights/foresaken-warriors.yaml
-
+# Book: Forsaken Warriors: The Story of an American Advisor with the South Vietnamese Rangers and Airborne (Robert L. Tonsetic; Casemate, 2009)
+# Highlights: /Users/daviddoolin/src/vietnam-war-compendium/kindle-highlights/foresaken-warriors.yaml
 - month: 12
   day: 1
   year: 1965
   title: "ARVN Airborne Brigade expanded to division"
-  body: "<p>On December 1, 1965, the South Vietnamese Airborne Brigade was expanded to a divisional-size unit and designated as the ARVN high command's general reserve.</p>"
-  photo_url:
-  photo_alt:
+  body: "<p>On December 1, 1965, the Airborne Brigade was expanded to a divisional size unit and designated as the ARVN high command's general reserve.</p><p>Author Robert L. Tonsetic later served with the division. His reporting date to the Vietnamese Airborne Division Detachment, Team 162, was 29 May 1971, and when he signed in at the Airborne Advisory Detachment at Tan Son Nhut Airbase he was told his assignment was Senior Advisor to the Airborne Division's 2d Battalion. That battalion had defended Fire Support Base 30 during Operation Lam Son 719 and, after linking up with the 7th Airborne Battalion, the two units fought as a rearguard during the withdrawal phase until they were extracted by helicopter on 20 March.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Forsaken Warriors by Robert L. Tonsetic"
-      url: "https://www.goodreads.com/book/show/7104791-forsaken-warriors"
+    - label: "Robert L. Tonsetic, Forsaken Warriors: The Story of an American Advisor with the South Vietnamese Rangers and Airborne (Casemate, 2009), Kindle locations 2920, 2942, 3223, 3227"
+      url: https://openlibrary.org/works/OL27982066W
+  status: approved
+  source_text: "[loc 2920] My reporting date to the Vietnamese Airborne Division Detachment, Team 162, was 29 May 1971. [loc 2942] On 1 December 1965, the Airborne Brigade was expanded to a divisional size unit, and was designated as the ARVN high command’s general reserve. [loc 3223] When I signed in at the Airborne Advisory Detachment at Tan Son Nhut Airbase, I was told that my specific assignment was Senior Advisor to the Airborne Division’s 2d Battalion. This was the battalion that defended Fire Support Base 30 during Operation Lam Son 719. [loc 3227] After linking up with the 7th Airborne Battalion, the two units fought as a rearguard during the withdrawal phase of Lam Son 719, until they were extracted by helicopter on 20 March."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:27:14Z"
 
 - month: 7
   day: 30
   year: 1968
-  title: "U.S. Mobile Riverine Force enters the U Minh Forest"
-  body: "<p>The U.S. Naval Assault Flotilla One transported troops from the 9th Infantry Division's 2d Brigade into the U Minh Forest on July 30, 1968. Taking advantage of a huge fire in the spring of 1968, this was one of the only U.S. ground force operations conducted in the notoriously difficult U Minh.</p>"
-  photo_url:
-  photo_alt:
+  title: "Mobile Riverine Force enters the U Minh Forest"
+  body: "<p>On July 30, 1968, the U.S. Naval Assault Flotilla One transported troops from the 9th Infantry Division's 2d Brigade into the U Minh, taking advantage of a huge fire in the forest that spring. Except for a number of U.S. Navy SEAL missions into the forest, the 9th Infantry Division's Mobile Riverine Force was the only U.S. ground force to conduct operations in the U Minh.</p><p>Later that year, on 31 December 1968, a U.S. gunship team working in the U Minh spotted a figure in black pajamas running through a relatively open swampy area. The figure was Special Forces prisoner of war Nick Rowe.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Forsaken Warriors by Robert L. Tonsetic"
-      url: "https://www.goodreads.com/book/show/7104791-forsaken-warriors"
+    - label: "Robert L. Tonsetic, Forsaken Warriors: The Story of an American Advisor with the South Vietnamese Rangers and Airborne (Casemate, 2009), Kindle locations 1683, 1689"
+      url: https://openlibrary.org/works/OL27982066W
+  status: approved
+  source_text: "[loc 1683] Except for a number of U.S. Navy Seal missions into the forest, the only U.S. ground force to conduct operations in the U Minh was the 9th Infantry Division’s Mobile Riverine Force. Taking advantage of a huge fire in the spring of 1968, the U.S. Naval Assault Flotilla One transported troops from the 9th Division’s 2d Brigade into the U Minh on 30 July 1968. [loc 1689] On 31 December 1968, a U.S. gunship team working in the U Minh spotted a figure in black pajamas running through a relatively open swampy area. (Operator note: SF pow, Nick Rowe)"
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:27:14Z"
 
 - month: 12
   day: 31
   year: 1968
-  title: "U.S. gunship crew spots Nick Rowe escaping in the U Minh"
-  body: "<p>On December 31, 1968, a U.S. gunship team working in the U Minh spotted a figure in black pajamas running through a relatively open swampy area. The figure was Special Forces Lieutenant Nick Rowe, who had escaped after more than five years as a prisoner of the Viet Cong.</p>"
-  photo_url:
-  photo_alt:
+  title: "Gunship team spots Special Forces POW Nick Rowe in the U Minh"
+  body: "<p>On December 31, 1968, a U.S. gunship team working in the U Minh spotted a figure in black pajamas running through a relatively open swampy area. The figure was Special Forces prisoner of war Nick Rowe.</p><p>Few U.S. ground forces had operated in the U Minh. Except for a number of U.S. Navy SEAL missions into the forest, the only U.S. ground force to conduct operations there was the 9th Infantry Division's Mobile Riverine Force. Taking advantage of a huge fire in the spring of 1968, the U.S. Naval Assault Flotilla One had transported troops from the 9th Division's 2d Brigade into the U Minh on 30 July 1968.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Forsaken Warriors by Robert L. Tonsetic"
-      url: "https://www.goodreads.com/book/show/7104791-forsaken-warriors"
+    - label: "Robert L. Tonsetic, Forsaken Warriors: The Story of an American Advisor with the South Vietnamese Rangers and Airborne (Casemate, 2009), Kindle locations 1683, 1689"
+      url: https://openlibrary.org/works/OL27982066W
+  status: approved
+  source_text: "[loc 1683] Except for a number of U.S. Navy Seal missions into the forest, the only U.S. ground force to conduct operations in the U Minh was the 9th Infantry Division’s Mobile Riverine Force. Taking advantage of a huge fire in the spring of 1968, the U.S. Naval Assault Flotilla One transported troops from the 9th Division’s 2d Brigade into the U Minh on 30 July 1968. [loc 1689] On 31 December 1968, a U.S. gunship team working in the U Minh spotted a figure in black pajamas running through a relatively open swampy area. (Operator note: SF pow, Nick Rowe)"
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:27:14Z"
 
 - month: 1
   day: 14
   year: 1970
   title: "Camp Ba Xoai attacked in the Seven Mountains"
-  body: "<p>Camp Ba Xoai in the Mekong Delta's Seven Mountains area, near the Cambodian border, came under attack on January 14, 1970.</p>"
-  photo_url:
-  photo_alt:
+  body: "<p>On January 14, 1970, Camp Ba Xoai in the Delta's Seven Mountains area, near the Cambodian border, came under attack.</p><p>The book records the attack alongside the end of the U.S. Special Forces presence in the country. U.S. Special Forces officially ended their decade-long stay in Vietnam on 3 March 1971, when an honor guard boarded an aircraft at Nha Trang Airbase with the 5th Special Forces Group colors and flew home to Fort Bragg. General Abrams declined to attend the group's departure ceremony.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Forsaken Warriors by Robert L. Tonsetic"
-      url: "https://www.goodreads.com/book/show/7104791-forsaken-warriors"
+    - label: "Robert L. Tonsetic, Forsaken Warriors: The Story of an American Advisor with the South Vietnamese Rangers and Airborne (Casemate, 2009), Kindle locations 2125, 2129"
+      url: https://openlibrary.org/works/OL27982066W
+  status: approved
+  source_text: "[loc 2125] Camp Ba Xoai in the Delta’s Seven Mountains area, near the Cambodian border, came under attack on January 14, 1970. [loc 2129] U.S. Special Forces officially ended their decade-long stay in Vietnam on 3 March 1971, when an honor guard boarded an aircraft in Nha Trang Airbase with the 5th Special Forces Group colors and flew home to Fort Bragg. General Abrams declined to attend the group’s departure ceremony."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:27:14Z"
 
 - month: 9
   day: 2
   year: 1970
-  title: "American advisor arrives at Binh Thuy airbase"
-  body: "<p>An American advisor arrived at Binh Thuy airbase on the evening of September 2, 1970, beginning his assignment with the 44th Ranger Battalion in the Mekong Delta.</p>"
-  photo_url:
-  photo_alt:
+  title: "Advisor Tonsetic begins Vietnam tour"
+  body: "<p>On September 2, 1970, in the evening, Robert L. Tonsetic was at the Hoa airbase, the first dated point in his account of his tour as an American advisor with South Vietnamese forces. By 21 October 1970 he was with the advisors of the 44th Ranger Battalion, which pulled off the mountain identified as Nui Ba Voi on U.S. maps early that morning.</p><p>Tonsetic had served in Southeast Asia before. He deployed with Company D of the 1st Special Forces Group from Fort Bragg in October 1966; the company was redesignated the 46th Special Forces Company during his tour, and in partnership with the Thai Special Forces its detachments spread throughout the country to quell a growing threat from Communist insurgents in the northeastern and southern regions. In early 1967, Lieutenant Colonel Kollat selected him for the Infantry Training Committee of a task force that trained the \"Queen's Cobras\" Regiment, the first Thai unit to deploy to Vietnam.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Forsaken Warriors by Robert L. Tonsetic"
-      url: "https://www.goodreads.com/book/show/7104791-forsaken-warriors"
+    - label: "Robert L. Tonsetic, Forsaken Warriors: The Story of an American Advisor with the South Vietnamese Rangers and Airborne (Casemate, 2009), Kindle locations 166, 184, 332, 1421"
+      url: https://openlibrary.org/works/OL27982066W
+  status: approved
+  source_text: "[loc 166] I deployed with Company D of the 1st Special Forces Group from Fort Bragg in October of 1966. The company was redesignated as the 46th Special Forces Company during my tour. In partnership with the Thai Special Forces, our detachments spread throughout the large country to quell a growing threat from Communist insurgents in the northeastern and southern regions of the country. [loc 184] In early 1967, Lieutenant Colonel Kollat was assigned to lead a Task Force that would train the first Thai unit to deploy to Vietnam, the “Queen’s Cobras” Regiment. LTC Kollat, the Task Force Slick Commander, selected me to become a member of the Task Force Infantry Training Committee. [loc 332] Hoa airbase on the evening of 2 September 1970. [loc 1421] Early on the morning of 21 October 1970, the 44th Ranger Battalion with its advisors pulled off the mountain identified as Nui Ba Voi on the U.S. maps."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:27:14Z"
 
 - month: 10
   day: 21
   year: 1970
   title: "44th Ranger Battalion withdraws from Nui Ba Voi"
-  body: "<p>Early on the morning of October 21, 1970, the 44th Ranger Battalion with its American advisors pulled off the mountain identified as Nui Ba Voi on U.S. maps.</p>"
-  photo_url:
-  photo_alt:
+  body: "<p>On October 21, 1970, early in the morning, the 44th Ranger Battalion with its advisors pulled off the mountain identified as Nui Ba Voi on the U.S. maps. Author Robert L. Tonsetic, who served as an American advisor with the battalion, had been in Vietnam since the evening of 2 September 1970.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Forsaken Warriors by Robert L. Tonsetic"
-      url: "https://www.goodreads.com/book/show/7104791-forsaken-warriors"
+    - label: "Robert L. Tonsetic, Forsaken Warriors: The Story of an American Advisor with the South Vietnamese Rangers and Airborne (Casemate, 2009), Kindle locations 332, 1421"
+      url: https://openlibrary.org/works/OL27982066W
+  status: approved
+  source_text: "[loc 332] Hoa airbase on the evening of 2 September 1970. [loc 1421] Early on the morning of 21 October 1970, the 44th Ranger Battalion with its advisors pulled off the mountain identified as Nui Ba Voi on the U.S. maps."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:27:14Z"
 
 - month: 1
   day: 5
   year: 1971
   title: "Cooper-Church amendment bars U.S. advisors from Cambodia"
-  body: "<p>The revised Cooper-Church amendment, enacted on January 5, 1971, forbade the use of U.S. ground troops or advisors in Cambodia.</p>"
-  photo_url:
-  photo_alt:
+  body: "<p>On January 5, 1971, the revised Cooper-Church amendment was enacted, forbidding the use of U.S. ground troops or advisors in Cambodia.</p><p>The South Vietnamese went into Cambodia without their advisors that month. On 13 January 1971, the 44th Ranger Battalion was ordered to move to Hong Nhu near the Cambodian border. The South Vietnamese named the January 1971 Cambodian operation Cuu Long 44-02, and D-day was set for 15 January 1971. The 44th Ranger Battalion withdrew from Cambodia on 22 January 1971 and returned to its base camp at Cai Rang.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Forsaken Warriors by Robert L. Tonsetic"
-      url: "https://www.goodreads.com/book/show/7104791-forsaken-warriors"
+    - label: "Robert L. Tonsetic, Forsaken Warriors: The Story of an American Advisor with the South Vietnamese Rangers and Airborne (Casemate, 2009), Kindle locations 2217, 2219, 2221, 2228, 2305"
+      url: https://openlibrary.org/works/OL27982066W
+  status: approved
+  source_text: "[loc 2217] On 13 January 1971, the 44th Ranger Battalion was ordered to move to Hong Nhu near the Cambodian border. [loc 2219] The South Vietnamese named the January 1971 Cambodian operation Cuu Long 44-02. [loc 2221] D-day for Cuu Long 44-02 was set for 15 January 1971. [loc 2228] The revised Cooper-Church amendment, enacted on 5 January 1971, forbade the use of U.S. ground troops or advisors in Cambodia. [loc 2305] The 44th Ranger Battalion withdrew from Cambodia on 22 January 1971 and returned to their base camp at Cai Rang."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:27:14Z"
 
 - month: 1
   day: 13
   year: 1971
-  title: "44th Ranger Battalion ordered to Cambodian border"
-  body: "<p>On January 13, 1971, the 44th Ranger Battalion was ordered to move to Hong Ngu near the Cambodian border.</p>"
-  photo_url:
-  photo_alt:
+  title: "44th Ranger Battalion ordered to Hong Nhu on the Cambodian border"
+  body: "<p>On January 13, 1971, the 44th Ranger Battalion was ordered to move to Hong Nhu near the Cambodian border. The move preceded the January 1971 Cambodian operation, which the South Vietnamese named Cuu Long 44-02; D-day was set for 15 January 1971.</p><p>The battalion's American advisors could not accompany it across the border. The revised Cooper-Church amendment, enacted on 5 January 1971, forbade the use of U.S. ground troops or advisors in Cambodia. The 44th Ranger Battalion withdrew from Cambodia on 22 January 1971 and returned to its base camp at Cai Rang.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Forsaken Warriors by Robert L. Tonsetic"
-      url: "https://www.goodreads.com/book/show/7104791-forsaken-warriors"
+    - label: "Robert L. Tonsetic, Forsaken Warriors: The Story of an American Advisor with the South Vietnamese Rangers and Airborne (Casemate, 2009), Kindle locations 2217, 2219, 2221, 2228, 2305"
+      url: https://openlibrary.org/works/OL27982066W
+  status: approved
+  source_text: "[loc 2217] On 13 January 1971, the 44th Ranger Battalion was ordered to move to Hong Nhu near the Cambodian border. [loc 2219] The South Vietnamese named the January 1971 Cambodian operation Cuu Long 44-02. [loc 2221] D-day for Cuu Long 44-02 was set for 15 January 1971. [loc 2228] The revised Cooper-Church amendment, enacted on 5 January 1971, forbade the use of U.S. ground troops or advisors in Cambodia. [loc 2305] The 44th Ranger Battalion withdrew from Cambodia on 22 January 1971 and returned to their base camp at Cai Rang."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:27:14Z"
 
 - month: 1
   day: 15
   year: 1971
-  title: "Operation Cuu Long 44-02 launched into Cambodia"
-  body: "<p>D-day for Operation Cuu Long 44-02, the South Vietnamese 44th Ranger Battalion's cross-border operation into Cambodia, was set for January 15, 1971.</p>"
-  photo_url:
-  photo_alt:
+  title: "Operation Cuu Long 44-02 begins in Cambodia"
+  body: "<p>On January 15, 1971, D-day arrived for Cuu Long 44-02, the name the South Vietnamese gave the January 1971 Cambodian operation. The 44th Ranger Battalion had been ordered to move to Hong Nhu near the Cambodian border two days earlier, on 13 January. Its American advisors stayed behind: the revised Cooper-Church amendment, enacted on 5 January 1971, forbade the use of U.S. ground troops or advisors in Cambodia.</p><p>On 17 January 1971, Cambodian forces supported by South Vietnamese Marine forces secured the strategically important Pic Nil Pass, while the Vietnamese 4th Armored Brigade cleared Route 4 as far north as Route 18, reopening Cambodia's lifeline to the sea. The 44th Ranger Battalion withdrew from Cambodia on 22 January 1971 and returned to its base camp at Cai Rang.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Forsaken Warriors by Robert L. Tonsetic"
-      url: "https://www.goodreads.com/book/show/7104791-forsaken-warriors"
+    - label: "Robert L. Tonsetic, Forsaken Warriors: The Story of an American Advisor with the South Vietnamese Rangers and Airborne (Casemate, 2009), Kindle locations 2217, 2219, 2221, 2228, 2286, 2305"
+      url: https://openlibrary.org/works/OL27982066W
+  status: approved
+  source_text: "[loc 2217] On 13 January 1971, the 44th Ranger Battalion was ordered to move to Hong Nhu near the Cambodian border. [loc 2219] The South Vietnamese named the January 1971 Cambodian operation Cuu Long 44-02. [loc 2221] D-day for Cuu Long 44-02 was set for 15 January 1971. [loc 2228] The revised Cooper-Church amendment, enacted on 5 January 1971, forbade the use of U.S. ground troops or advisors in Cambodia. [loc 2286] Another significant battle occurred on 17 January 1971, when Cambodian forces supported by South Vietnamese Marine forces, secured the strategically important Pic Nil Pass, while the Vietnamese 4th Armored Brigade cleared Route 4 as far north as Route 18. Cambodia’s lifeline to the sea was once again open. [loc 2305] The 44th Ranger Battalion withdrew from Cambodia on 22 January 1971 and returned to their base camp at Cai Rang."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:27:14Z"
 
 - month: 1
   day: 17
   year: 1971
-  title: "Cambodian and VNMC forces secure Pic Nil Pass"
-  body: "<p>On January 17, 1971, Cambodian forces supported by South Vietnamese Marine forces secured the strategically important Pic Nil Pass, while the Vietnamese 4th Armored Brigade cleared Route 4 as far north as Route 18. Cambodia's lifeline to the sea was once again open.</p>"
-  photo_url:
-  photo_alt:
+  title: "Cambodian and South Vietnamese Marine forces secure Pic Nil Pass"
+  body: "<p>On January 17, 1971, Cambodian forces supported by South Vietnamese Marine forces secured the strategically important Pic Nil Pass, while the Vietnamese 4th Armored Brigade cleared Route 4 as far north as Route 18. Cambodia's lifeline to the sea was once again open.</p><p>The battle came during the January 1971 Cambodian operation the South Vietnamese named Cuu Long 44-02, for which D-day had been set for 15 January 1971. The 44th Ranger Battalion, ordered to Hong Nhu near the Cambodian border on 13 January, withdrew from Cambodia on 22 January 1971 and returned to its base camp at Cai Rang.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Forsaken Warriors by Robert L. Tonsetic"
-      url: "https://www.goodreads.com/book/show/7104791-forsaken-warriors"
+    - label: "Robert L. Tonsetic, Forsaken Warriors: The Story of an American Advisor with the South Vietnamese Rangers and Airborne (Casemate, 2009), Kindle locations 2217, 2219, 2221, 2286, 2305"
+      url: https://openlibrary.org/works/OL27982066W
+  status: approved
+  source_text: "[loc 2217] On 13 January 1971, the 44th Ranger Battalion was ordered to move to Hong Nhu near the Cambodian border. [loc 2219] The South Vietnamese named the January 1971 Cambodian operation Cuu Long 44-02. [loc 2221] D-day for Cuu Long 44-02 was set for 15 January 1971. [loc 2286] Another significant battle occurred on 17 January 1971, when Cambodian forces supported by South Vietnamese Marine forces, secured the strategically important Pic Nil Pass, while the Vietnamese 4th Armored Brigade cleared Route 4 as far north as Route 18. Cambodia’s lifeline to the sea was once again open. [loc 2305] The 44th Ranger Battalion withdrew from Cambodia on 22 January 1971 and returned to their base camp at Cai Rang."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:27:14Z"
 
 - month: 1
   day: 22
   year: 1971
   title: "44th Ranger Battalion withdraws from Cambodia"
-  body: "<p>The 44th Ranger Battalion withdrew from Cambodia on January 22, 1971, and returned to their base camp at Cai Rang.</p>"
-  photo_url:
-  photo_alt:
+  body: "<p>On January 22, 1971, the 44th Ranger Battalion withdrew from Cambodia and returned to its base camp at Cai Rang. The battalion had been ordered to move to Hong Nhu near the Cambodian border on 13 January, ahead of the operation the South Vietnamese named Cuu Long 44-02, whose D-day was set for 15 January 1971. Under the revised Cooper-Church amendment, enacted on 5 January 1971, no U.S. ground troops or advisors could go into Cambodia with it.</p><p>The battalion's stay at Cai Rang was short. On 26 January 1971 a new mission was passed to the 44th Ranger Battalion, and that day it was airlifted by CH-46 Sea Knight helicopters from Can Tho to the Solid Anchor base.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Forsaken Warriors by Robert L. Tonsetic"
-      url: "https://www.goodreads.com/book/show/7104791-forsaken-warriors"
+    - label: "Robert L. Tonsetic, Forsaken Warriors: The Story of an American Advisor with the South Vietnamese Rangers and Airborne (Casemate, 2009), Kindle locations 2217, 2221, 2228, 2305, 2345, 2371"
+      url: https://openlibrary.org/works/OL27982066W
+  status: approved
+  source_text: "[loc 2217] On 13 January 1971, the 44th Ranger Battalion was ordered to move to Hong Nhu near the Cambodian border. [loc 2221] D-day for Cuu Long 44-02 was set for 15 January 1971. [loc 2228] The revised Cooper-Church amendment, enacted on 5 January 1971, forbade the use of U.S. ground troops or advisors in Cambodia. [loc 2305] The 44th Ranger Battalion withdrew from Cambodia on 22 January 1971 and returned to their base camp at Cai Rang. [loc 2345] the mission was passed to the 44th Ranger Battalion on 26 January 1971. [loc 2371] On 26 January 1971, the 44th Ranger Battalion was airlifted by CH-46 Sea Knight Helicopters from Can Tho to the Solid Anchor base."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:27:14Z"
 
 - month: 1
   day: 26
   year: 1971
   title: "44th Rangers airlifted to Solid Anchor base"
-  body: "<p>On January 26, 1971, the 44th Ranger Battalion was airlifted by CH-46 Sea Knight helicopters from Can Tho to the Solid Anchor base in the southernmost tip of South Vietnam.</p>"
-  photo_url:
-  photo_alt:
+  body: "<p>On January 26, 1971, the mission at Solid Anchor was passed to the 44th Ranger Battalion, and the battalion was airlifted by CH-46 Sea Knight helicopters from Can Tho to the Solid Anchor base. The Rangers had returned to their base camp at Cai Rang from Cambodia only four days earlier, on 22 January. The Solid Anchor base had become functional by the end of October 1970.</p><p>The base came under fire during the battalion's stay. On the evening of 18 February the VC lobbed approximately 25 82mm rounds into the base, and the following day the 44th Ranger Battalion was ordered to conduct a riverine operation on the Rach Ong Dinh waterway. On the night of 28 February, the VC mortared the base again.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Forsaken Warriors by Robert L. Tonsetic"
-      url: "https://www.goodreads.com/book/show/7104791-forsaken-warriors"
+    - label: "Robert L. Tonsetic, Forsaken Warriors: The Story of an American Advisor with the South Vietnamese Rangers and Airborne (Casemate, 2009), Kindle locations 2305, 2324, 2345, 2371, 2556, 2558, 2591"
+      url: https://openlibrary.org/works/OL27982066W
+  status: approved
+  source_text: "[loc 2305] The 44th Ranger Battalion withdrew from Cambodia on 22 January 1971 and returned to their base camp at Cai Rang. [loc 2324] Despite these obstacles, the Solid Anchor base became functional by the end of October 1970. [loc 2345] the mission was passed to the 44th Ranger Battalion on 26 January 1971. [loc 2371] On 26 January 1971, the 44th Ranger Battalion was airlifted by CH-46 Sea Knight Helicopters from Can Tho to the Solid Anchor base. [loc 2556] On the evening of 18 February the VC lobbed approximately 25 82mm rounds into the Solid Anchor base. [loc 2558] injured during the barrage. The following day, the 44th Ranger Battalion was ordered to conduct a riverine operation on the Rach ong Dinh waterway. [loc 2591] On the night of 28 February, the VC mortared the base again."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:27:14Z"
 
 - month: 1
   day: 29
   year: 1971
-  title: "Nixon approves Lam Son 719 cross-border operation"
-  body: "<p>On January 29, 1971, President Nixon gave his approval for Operation Lam Son 719 to proceed. South Vietnamese troops moved to the border on February 8.</p>"
-  photo_url:
-  photo_alt:
+  title: "Nixon approves Lam Son 719"
+  body: "<p>On January 29, 1971, President Nixon gave his approval for the operation to proceed, and South Vietnamese troops moved to the border on 8 February.</p><p>The book's account of Operation Lam Son 719 follows. The first attack on the 3d Airborne Brigade's FSB 31 began around 1100 hours on 25 February, when the NVA opened with a mortar and artillery barrage that included fire from heavy 130mm field guns. The Airborne Division's 2d Battalion defended Fire Support Base 30 during the operation and, after linking up with the 7th Airborne Battalion, the two units fought as a rearguard during the withdrawal phase until they were extracted by helicopter on 20 March. Author Robert L. Tonsetic became the 2d Battalion's Senior Advisor later in 1971.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Forsaken Warriors by Robert L. Tonsetic"
-      url: "https://www.goodreads.com/book/show/7104791-forsaken-warriors"
+    - label: "Robert L. Tonsetic, Forsaken Warriors: The Story of an American Advisor with the South Vietnamese Rangers and Airborne (Casemate, 2009), Kindle locations 3021, 3074, 3223, 3227"
+      url: https://openlibrary.org/works/OL27982066W
+  status: approved
+  source_text: "[loc 3021] On 29 January 1971, President Nixon gave his approval for the operation to proceed, and South Vietnamese troops moved to the border on 8 February. [loc 3074] The first attack on the 3d Airborne Brigade’s FSB 31 began around 1100 hours on 25 February. The NVA opened with a murderous mortar and artillery barrage that included fire from heavy 130mm field guns. [loc 3223] I was told that my specific assignment was Senior Advisor to the Airborne Division’s 2d Battalion. This was the battalion that defended Fire Support Base 30 during Operation Lam Son 719. [loc 3227] After linking up with the 7th Airborne Battalion, the two units fought as a rearguard during the withdrawal phase of Lam Son 719, until they were extracted by helicopter on 20 March."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:27:14Z"
 
 - month: 5
   day: 29
   year: 1971
-  title: "American advisor reports to Vietnamese Airborne Division"
-  body: "<p>An American advisor reported to the Vietnamese Airborne Division Detachment, Team 162, on May 29, 1971, for assignment as Senior Advisor to the Airborne Division's 2d Battalion.</p>"
-  photo_url:
-  photo_alt:
+  title: "Tonsetic reports to Airborne Division advisory Team 162"
+  body: "<p>On May 29, 1971, Robert L. Tonsetic reported to the Vietnamese Airborne Division Detachment, Team 162. When he signed in at the Airborne Advisory Detachment at Tan Son Nhut Airbase, he was told that his specific assignment was Senior Advisor to the Airborne Division's 2d Battalion.</p><p>The 2d Battalion had defended Fire Support Base 30 during Operation Lam Son 719. After linking up with the 7th Airborne Battalion, the two units fought as a rearguard during the withdrawal phase until they were extracted by helicopter on 20 March. The division itself dated from 1 December 1965, when the Airborne Brigade was expanded to a divisional size unit and designated the ARVN high command's general reserve.</p><p>Tonsetic's move came as the Battalion Combat Assistance Teams (BCATs) with which he had served were scheduled to be phased out by 1 July 1971.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Forsaken Warriors by Robert L. Tonsetic"
-      url: "https://www.goodreads.com/book/show/7104791-forsaken-warriors"
+    - label: "Robert L. Tonsetic, Forsaken Warriors: The Story of an American Advisor with the South Vietnamese Rangers and Airborne (Casemate, 2009), Kindle locations 2613, 2614, 2920, 2942, 3223, 3227"
+      url: https://openlibrary.org/works/OL27982066W
+  status: approved
+  source_text: "[loc 2613] Battalion Combat Assistance Teams (BCATs). [loc 2614] All BCATs were scheduled to be phased out by 1 July 1971. [loc 2920] My reporting date to the Vietnamese Airborne Division Detachment, Team 162, was 29 May 1971. [loc 2942] On 1 December 1965, the Airborne Brigade was expanded to a divisional size unit, and was designated as the ARVN high command’s general reserve. [loc 3223] When I signed in at the Airborne Advisory Detachment at Tan Son Nhut Airbase, I was told that my specific assignment was Senior Advisor to the Airborne Division’s 2d Battalion. This was the battalion that defended Fire Support Base 30 during Operation Lam Son 719. [loc 3227] After linking up with the 7th Airborne Battalion, the two units fought as a rearguard during the withdrawal phase of Lam Son 719, until they were extracted by helicopter on 20 March."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:27:14Z"
 
 - month: 7
   day: 1
   year: 1971
-  title: "Battalion Combat Assistance Teams phased out"
-  body: "<p>All Battalion Combat Assistance Teams (BCATs), the small advisory groups embedded with South Vietnamese combat battalions, were scheduled to be phased out by July 1, 1971, as part of the ongoing Vietnamization drawdown.</p>"
-  photo_url:
-  photo_alt:
+  title: "Battalion Combat Assistance Teams scheduled to end"
+  body: "<p>On July 1, 1971, all Battalion Combat Assistance Teams (BCATs) were, by schedule, to be phased out.</p><p>Author Robert L. Tonsetic had served on such a team with the 44th Ranger Battalion, which in January 1971 went into Cambodia without its advisors and then took up the mission at the Solid Anchor base. Before the phase-out date he moved to the airborne: his reporting date to the Vietnamese Airborne Division Detachment, Team 162, was 29 May 1971, and when he signed in at the Airborne Advisory Detachment at Tan Son Nhut Airbase he was told his assignment was Senior Advisor to the Airborne Division's 2d Battalion, the battalion that had defended Fire Support Base 30 during Operation Lam Son 719.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Forsaken Warriors by Robert L. Tonsetic"
-      url: "https://www.goodreads.com/book/show/7104791-forsaken-warriors"
+    - label: "Robert L. Tonsetic, Forsaken Warriors: The Story of an American Advisor with the South Vietnamese Rangers and Airborne (Casemate, 2009), Kindle locations 2228, 2305, 2371, 2613, 2614, 2920, 3223"
+      url: https://openlibrary.org/works/OL27982066W
+  status: approved
+  source_text: "[loc 2228] The revised Cooper-Church amendment, enacted on 5 January 1971, forbade the use of U.S. ground troops or advisors in Cambodia. [loc 2305] The 44th Ranger Battalion withdrew from Cambodia on 22 January 1971 and returned to their base camp at Cai Rang. [loc 2371] On 26 January 1971, the 44th Ranger Battalion was airlifted by CH-46 Sea Knight Helicopters from Can Tho to the Solid Anchor base. [loc 2613] Battalion Combat Assistance Teams (BCATs). [loc 2614] All BCATs were scheduled to be phased out by 1 July 1971. [loc 2920] My reporting date to the Vietnamese Airborne Division Detachment, Team 162, was 29 May 1971. [loc 3223] When I signed in at the Airborne Advisory Detachment at Tan Son Nhut Airbase, I was told that my specific assignment was Senior Advisor to the Airborne Division’s 2d Battalion. This was the battalion that defended Fire Support Base 30 during Operation Lam Son 719."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:27:14Z"
 
 - month: 9
   day: 26
   year: 1971
-  title: "American advisor leaves 2d Airborne Battalion in War Zone D"
-  body: "<p>An American advisor departed the 2d Airborne Battalion in War Zone D on September 26, 1971, ending his tour with the South Vietnamese airborne forces.</p>"
-  photo_url:
-  photo_alt:
+  title: "Tonsetic leaves 2d Airborne Battalion in War Zone D"
+  body: "<p>On September 26, 1971, Robert L. Tonsetic left the 2d Airborne Battalion in War Zone D, ending his time as the battalion's Senior Advisor.</p><p>He had reported to the Vietnamese Airborne Division Detachment, Team 162, on 29 May 1971, and on signing in at the Airborne Advisory Detachment at Tan Son Nhut Airbase was told that his specific assignment was Senior Advisor to the Airborne Division's 2d Battalion. That battalion had defended Fire Support Base 30 during Operation Lam Son 719 and, after linking up with the 7th Airborne Battalion, fought as a rearguard during the withdrawal phase until the two units were extracted by helicopter on 20 March.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Forsaken Warriors by Robert L. Tonsetic"
-      url: "https://www.goodreads.com/book/show/7104791-forsaken-warriors"
+    - label: "Robert L. Tonsetic, Forsaken Warriors: The Story of an American Advisor with the South Vietnamese Rangers and Airborne (Casemate, 2009), Kindle locations 2920, 3223, 3227, 3665"
+      url: https://openlibrary.org/works/OL27982066W
+  status: approved
+  source_text: "[loc 2920] My reporting date to the Vietnamese Airborne Division Detachment, Team 162, was 29 May 1971. [loc 3223] When I signed in at the Airborne Advisory Detachment at Tan Son Nhut Airbase, I was told that my specific assignment was Senior Advisor to the Airborne Division’s 2d Battalion. This was the battalion that defended Fire Support Base 30 during Operation Lam Son 719. [loc 3227] After linking up with the 7th Airborne Battalion, the two units fought as a rearguard during the withdrawal phase of Lam Son 719, until they were extracted by helicopter on 20 March. [loc 3665] After leaving the 2d Airborne Battalion in War Zone D on 26 September 1971,"
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:27:14Z"

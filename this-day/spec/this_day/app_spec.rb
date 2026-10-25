@@ -117,10 +117,12 @@ RSpec.describe ThisDay::App do
 
   describe "GET /this-day-in-vietnam-war/review/:month" do
     # A month other than today's, so the "today" seeds above do not land in it.
-    let(:month) { Date.today.month == 4 ? 5 : 4 }
+    REVIEW_MONTH = Date.today.month == 4 ? 5 : 4
+    let(:month) { REVIEW_MONTH }
     let(:days_in_month) { Date.new(2000, month, -1).day }
 
-    before do
+    before(:all) do
+      month = REVIEW_MONTH
       db = SQLite3::Database.new(TestDatabaseHelper::TEST_DB_PATH)
       TestDatabaseHelper.seed_event(
         db, month: month, day: 3, year: 1966, title: "Review draft", body: "<p>Draft body.</p>",
@@ -154,6 +156,12 @@ RSpec.describe ThisDay::App do
       expect(body.scan('class="badge missing"').size).to eq(days_in_month - 1)
       expect(body).to include("1 of #{days_in_month} days have an event")
       expect(body).to include("1 drafts awaiting review")
+    end
+
+    it "labels a draft on the day page" do
+      get "/this-day-in-vietnam-war/#{month}/3"
+      body = last_response.body
+      expect(body).to include("Draft body.").and include("draft-notice")
     end
 
     it "returns 404 for a month outside 1-12" do

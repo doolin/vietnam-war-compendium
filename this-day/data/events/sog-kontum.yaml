@@ -1,156 +1,211 @@
-# Events from SOG Kontum by Joe Parnar and Robert Dumont
-# Source: kindle-highlights/sog-kontum.yaml
-
+# Book: SOG Kontum: Top Secret Missions in Vietnam, Laos, and Cambodia, 1968–1969 (Joe Parnar and Robert Dumont)
+# Highlights: /Users/daviddoolin/src/vietnam-war-compendium/kindle-highlights/sog-kontum.yaml
 - month: 1
   day: 24
   year: 1964
   title: "Joint Chiefs create MACV-SOG"
-  body: "<p>The Joint Chiefs of Staff created the Studies and Observations Group (SOG) on January 24, 1964, as a subsidiary command of the Military Assistance Command, Vietnam (MACV).</p>"
-  photo_url:
-  photo_alt:
+  body: "<p>On January 24, 1964, the Joint Chiefs of Staff created SOG as a subsidiary command of the Military Assistance Command, Vietnam (MACV).</p><p>SOG recon team missions were conducted in a \"target box,\" which on a map was a 6x6 kilometer area with an alpha-numeric designation.</p><p>MACV-SOG was deactivated on April 30, 1972, and its personnel returned to Fort Bragg, North Carolina. The command's achievements came at a high cost: twelve recon teams disappeared entirely. Eight men assigned to SOG received the Congressional Medal of Honor, and a total of 23 received the Distinguished Service Cross, the nation's second-highest award for valor.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "SOG Kontum by Joe Parnar and Robert Dumont"
-      url: "https://www.goodreads.com/book/show/60847360-sog-kontum"
+    - label: "Joe Parnar and Robert Dumont, SOG Kontum: Top Secret Missions in Vietnam, Laos, and Cambodia, 1968–1969, Kindle locations 154, 222, 4487, 4490, 4493"
+      url: https://openlibrary.org/works/OL27817833W
+  status: approved
+  source_text: "[loc 154] The Joint Chiefs of Staff created SOG on 24 January, 1964 as a subsidiary command of the Military Assistance Command, Vietnam (MACV). [loc 222] SOG recon team missions were conducted in a “target box” which on a map was a 6x6 kilometer area with an alpha-numeric designation. [loc 4487] personnel returned to Fort Bragg, North Carolina. MACV-SOG was deactivated on April 30, 1972. [loc 4490] The achievements of SOG were many, but came at a high cost. Twelve RTs disappeared entirely [loc 4493] Eight men assigned to SOG received the Congressional Medal of Honor. A total of 23 received the Distinguished Service Cross, the nation’s second-highest award for valor."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:27:14Z"
 
 - month: 6
   day: 13
   year: 1968
-  title: "SOG chase medic Parnar flies on Ghost 153"
-  body: "<p>Specialist 4 Joseph F. Parnar served as chase medic riding on Ghost 153 on June 13, 1968, supporting SOG recon team operations out of FOB-2 Kontum.</p>"
-  photo_url:
-  photo_alt:
+  title: "Chase medic Parnar flies on Ghost 153"
+  body: "<p>On June 13, 1968, Specialist 4 Joseph F. Parnar flew as chase medic aboard Ghost 153. The book records the flight, in a photograph credited to Bryon Loucks, in its chapter on the loss of John Kedenburg. Specialist 5 John J. Kedenburg had served as One-Two of ST Nevada in May 1968.</p><p>The following day a Bright Light rescue operation launched from the FOB to search for Kedenburg. Specialist 5 Thomas P. Cunningham went on the June 14 mission as a straphanger with ST Illinois.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "SOG Kontum by Joe Parnar and Robert Dumont"
-      url: "https://www.goodreads.com/book/show/60847360-sog-kontum"
+    - label: "Joe Parnar and Robert Dumont, SOG Kontum: Top Secret Missions in Vietnam, Laos, and Cambodia, 1968–1969, Kindle locations 464, 773, 894, 896"
+      url: https://openlibrary.org/works/OL27817833W
+  status: approved
+  source_text: "[loc 464] Specialist 5 John J. Kedenburg, One-Two of ST Nevada in May 1968. (Lou DeSeta) [loc 773] Specialist 4 Joseph F. Parnar, chase medic riding on Ghost 153 on June 13, 1968. (Bryon Loucks) [loc 894] Specialist 5 Thomas P. Cunningham, straphanger of ST Illinois on June 14, 1968 Bright Light mission. (Tony Love) [loc 896] The following day a Bright Light [rescue] operation launched from the FOB to search for John Kedenburg."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:27:14Z"
 
 - month: 6
   day: 14
   year: 1968
-  title: "SOG Bright Light rescue mission launched for Kedenburg"
-  body: "<p>Specialist 5 Thomas P. Cunningham served as a straphanger on Spike Team Illinois during a Bright Light rescue mission on June 14, 1968, searching for missing SOG operative John Kedenburg.</p>"
-  photo_url:
-  photo_alt:
+  title: "Bright Light mission launches to search for Kedenburg"
+  body: "<p>On June 14, 1968, a Bright Light rescue operation launched from the FOB to search for John Kedenburg. Specialist 5 John J. Kedenburg had served as One-Two of ST Nevada in May 1968. Specialist 5 Thomas P. Cunningham went on the mission as a straphanger with ST Illinois.</p><p>The previous day, Specialist 4 Joseph F. Parnar had flown as chase medic aboard Ghost 153.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "SOG Kontum by Joe Parnar and Robert Dumont"
-      url: "https://www.goodreads.com/book/show/60847360-sog-kontum"
+    - label: "Joe Parnar and Robert Dumont, SOG Kontum: Top Secret Missions in Vietnam, Laos, and Cambodia, 1968–1969, Kindle locations 464, 773, 894, 896"
+      url: https://openlibrary.org/works/OL27817833W
+  status: approved
+  source_text: "[loc 464] Specialist 5 John J. Kedenburg, One-Two of ST Nevada in May 1968. (Lou DeSeta) [loc 773] Specialist 4 Joseph F. Parnar, chase medic riding on Ghost 153 on June 13, 1968. (Bryon Loucks) [loc 894] Specialist 5 Thomas P. Cunningham, straphanger of ST Illinois on June 14, 1968 Bright Light mission. (Tony Love) [loc 896] The following day a Bright Light [rescue] operation launched from the FOB to search for John Kedenburg."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:27:14Z"
 
 - month: 11
   day: 10
   year: 1968
-  title: "RT California ambushes NVA on Ho Chi Minh Trail"
-  body: "<p>On November 10, 1968, the second day of a combat patrol mission in Target Area Juliett-9, RT California, led by One-Zero Staff Sergeant Joe Walker, set up an ambush along a branch of Highway 96, a main artery of the Ho Chi Minh Trail.</p>"
-  photo_url:
-  photo_alt:
+  title: "RT California sets ambush on Highway 96 during SLAM VII"
+  body: "<p>On November 10, 1968, the second day of a combat patrol mission in Target Area Juliett-9, RT California, led by One-Zero Staff Sergeant Joe Walker, set up an ambush along a branch of Highway 96, a main artery of the Ho Chi Minh Trail.</p><p>The patrol was part of SLAM VII, which was targeted against Base Area 613, a suspected Viet Cong/NVA base area and logistic complex. SLAM VII was initiated in November and continued into early December. Thirteen recon teams, four independent platoons, and four companies were concentrated against the target area, and 112 tactical air and 42 helicopter gunship strikes were employed to exploit targets detected and fixed by ground elements.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "SOG Kontum by Joe Parnar and Robert Dumont"
-      url: "https://www.goodreads.com/book/show/60847360-sog-kontum"
+    - label: "Joe Parnar and Robert Dumont, SOG Kontum: Top Secret Missions in Vietnam, Laos, and Cambodia, 1968–1969, Kindle locations 1928, 2885"
+      url: https://openlibrary.org/works/OL27817833W
+  status: approved
+  source_text: "[loc 1928] On November 10, 1968, the second day of a combat patrol mission in Target Area Juliett-9, RT California, led by One-Zero Staff Sergeant Joe Walker, had set up an ambush along a branch of Highway 96—a main artery of the Ho Chi Minh Trail. [loc 2885] SLAM VII, targeted against BA [Base Area] 613 was initiated in November and continued on into early December. Thirteen RTs, four independent platoons, and four companies were concentrated against the target area, a suspected Viet Cong/ NVA Base Area—Logistic Complex. There were 112 tac air and 42 helicopter gunship strikes employed to exploit targets detected and fixed by ground elements."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:27:14Z"
 
 - month: 11
   day: 18
   year: 1968
-  title: "SOG chase medic's Huey shot down during SLAM VII"
-  body: "<p>Staff Sergeant Anthony C. Dorff, serving as chase medic, was aboard a Huey helicopter that was shot down on November 18, 1968, during SOG's SLAM VII operation in the tri-border area near Kontum.</p>"
-  photo_url:
-  photo_alt:
+  title: "Chase medic Dorff's Huey shot down during SLAM VII"
+  body: "<p>On November 18, 1968, Staff Sergeant Anthony C. Dorff was serving as chase medic aboard a Huey when the helicopter was shot down. The book records the loss, with a photograph credited to Dorff himself, in a chapter on SLAM VII titled \"Shot Down on the LZ,\" which carries Carl Hoeck's account of the day.</p><p>SLAM VII was targeted against Base Area 613, a suspected Viet Cong/NVA base area and logistic complex. It was initiated in November and continued into early December. Thirteen recon teams, four independent platoons, and four companies were concentrated against the target area, and 112 tactical air and 42 helicopter gunship strikes were employed to exploit targets detected and fixed by ground elements.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "SOG Kontum by Joe Parnar and Robert Dumont"
-      url: "https://www.goodreads.com/book/show/60847360-sog-kontum"
+    - label: "Joe Parnar and Robert Dumont, SOG Kontum: Top Secret Missions in Vietnam, Laos, and Cambodia, 1968–1969, Kindle locations 2606, 2885"
+      url: https://openlibrary.org/works/OL27817833W
+  status: approved
+  source_text: "[loc 2606] Staff Sergeant Anthony C. Dorff, chase medic on Huey shot down on November 18, 1968. (Tony Dorff) [loc 2885] SLAM VII, targeted against BA [Base Area] 613 was initiated in November and continued on into early December. Thirteen RTs, four independent platoons, and four companies were concentrated against the target area, a suspected Viet Cong/ NVA Base Area—Logistic Complex. There were 112 tac air and 42 helicopter gunship strikes employed to exploit targets detected and fixed by ground elements."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:27:14Z"
 
 - month: 12
   day: 30
   year: 1968
   title: "Bright Light platoon searches for PFC Scherdin in Cambodia"
-  body: "<p>On December 30, 1968, a Bright Light recovery platoon was launched to search for Private First Class Robert Scherdin, who had gone missing during RT Vermont's mission in Cambodia.</p>"
-  photo_url:
-  photo_alt:
+  body: "<p>On December 30, 1968, the day after RT Vermont's mission, a Bright Light recovery platoon was launched to search for Private First Class Robert Scherdin. Gerald Apperson, Team One-Zero of RT Vermont, gave a written statement on the loss dated January 2, 1969.</p><p>The search continued into the new year. A recon team inserted into Cambodia to search for Scherdin's body was picked up on January 8, 1969, after four days on the ground. Between November 13 and 15, 1993, a Joint U.S.–Cambodian Field Activity was conducted to search for his remains, recorded as Case #1351.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "SOG Kontum by Joe Parnar and Robert Dumont"
-      url: "https://www.goodreads.com/book/show/60847360-sog-kontum"
+    - label: "Joe Parnar and Robert Dumont, SOG Kontum: Top Secret Missions in Vietnam, Laos, and Cambodia, 1968–1969, Kindle locations 3165, 3241, 3327, 3491"
+      url: https://openlibrary.org/works/OL27817833W
+  status: approved
+  source_text: "[loc 3165] Written statement: Gerald Apperson, Team One-Zero, RT Vermont, January 2, 1969: [loc 3241] The following day (after RT Vermont’s mission), December 30, 1968, a Bright Light recovery platoon was launched to search for Private First Class Robert Scherdin. [loc 3327] I was flying as chase medic when we picked up a recon team on January 8, 1969, in Cambodia that had been inserted four days previously to search for the body of Private Robert F. Scherdin, [loc 3491] Between November 13 and 15, 1993, a Joint U.S.–Cambodian Field Activity was conducted to search for the remains of Robert Scherdin (Case #1351)."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:27:14Z"
 
 - month: 1
   day: 8
   year: 1969
-  title: "SOG recon team extracted from Cambodia after Scherdin search"
-  body: "<p>A chase medic picked up a recon team on January 8, 1969, in Cambodia that had been inserted four days previously to search for the body of Private Robert F. Scherdin, a SOG operative missing since late December 1968.</p>"
-  photo_url:
-  photo_alt:
+  title: "Recon team extracted from Cambodia after Scherdin search"
+  body: "<p>On January 8, 1969, a recon team was picked up in Cambodia after four days on the ground searching for the body of Private Robert F. Scherdin. The narrator of the account was flying as chase medic on the pickup.</p><p>Scherdin had been lost during RT Vermont's mission at the end of December. On December 30, 1968, the day after that mission, a Bright Light recovery platoon had been launched to search for him, and Gerald Apperson, Team One-Zero of RT Vermont, gave a written statement dated January 2, 1969. The search did not end with the war: between November 13 and 15, 1993, a Joint U.S.–Cambodian Field Activity was conducted to search for his remains, recorded as Case #1351.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "SOG Kontum by Joe Parnar and Robert Dumont"
-      url: "https://www.goodreads.com/book/show/60847360-sog-kontum"
+    - label: "Joe Parnar and Robert Dumont, SOG Kontum: Top Secret Missions in Vietnam, Laos, and Cambodia, 1968–1969, Kindle locations 3165, 3241, 3327, 3491"
+      url: https://openlibrary.org/works/OL27817833W
+  status: approved
+  source_text: "[loc 3165] Written statement: Gerald Apperson, Team One-Zero, RT Vermont, January 2, 1969: [loc 3241] The following day (after RT Vermont’s mission), December 30, 1968, a Bright Light recovery platoon was launched to search for Private First Class Robert Scherdin. [loc 3327] I was flying as chase medic when we picked up a recon team on January 8, 1969, in Cambodia that had been inserted four days previously to search for the body of Private Robert F. Scherdin, [loc 3491] Between November 13 and 15, 1993, a Joint U.S.–Cambodian Field Activity was conducted to search for the remains of Robert Scherdin (Case #1351)."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:27:14Z"
 
 - month: 1
   day: 28
   year: 1969
-  title: "RT New Mexico inserted north of Dak Xou river"
-  body: "<p>On January 28, 1969, a newly formed team, RT New Mexico, was inserted on a recon mission north of the Dak Xou river, a couple of kilometers east of Target Area Juliett-9, under the command of One-Zero Specialist 5 Larry A. Stephens.</p>"
-  photo_url:
-  photo_alt:
+  title: "RT New Mexico inserted north of the Dak Xou river"
+  body: "<p>On January 28, 1969, a newly formed team, RT New Mexico, was inserted on a recon mission north of the Dak Xou river, a couple of kilometers east of the eastern border of Target Area Juliett-9, under the command of One-Zero Specialist 5 Larry A. Stephens.</p><p>SOG recon team missions were conducted in a \"target box,\" which on a map was a 6x6 kilometer area with an alpha-numeric designation. Juliett-9 had drawn earlier missions: on October 24, RT Colorado and One-Zero Sergeant Dennis Mack were inserted there to do an area recon, and on November 10, 1968, RT California set up an ambush there along a branch of Highway 96, a main artery of the Ho Chi Minh Trail.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "SOG Kontum by Joe Parnar and Robert Dumont"
-      url: "https://www.goodreads.com/book/show/60847360-sog-kontum"
+    - label: "Joe Parnar and Robert Dumont, SOG Kontum: Top Secret Missions in Vietnam, Laos, and Cambodia, 1968–1969, Kindle locations 222, 1635, 1928, 3547"
+      url: https://openlibrary.org/works/OL27817833W
+  status: approved
+  source_text: "[loc 222] SOG recon team missions were conducted in a “target box” which on a map was a 6x6 kilometer area with an alpha-numeric designation. [loc 1635] On October 24, RT Colorado and One-Zero Sergeant Dennis Mack were inserted into Target Area Juliett-9 to do an area recon. [loc 1928] On November 10, 1968, the second day of a combat patrol mission in Target Area Juliett-9, RT California, led by One-Zero Staff Sergeant Joe Walker, had set up an ambush along a branch of Highway 96—a main artery of the Ho Chi Minh Trail. [loc 3547] On January 28, 1969, a newly formed team, RT New Mexico, was inserted on a recon mission north of the Dak Xou river, a couple of klicks east of the eastern border of Target Area Juliett-9, under the command of One-Zero Specialist 5 Larry A. Stephens."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:27:14Z"
 
 - month: 3
   day: 3
   year: 1969
-  title: "NVA attacks Ben Het with Russian PT-76 tanks"
-  body: "<p>On March 3, 1969, the isolated Special Forces camp at Ben Het was attacked by the North Vietnamese Army using Russian PT-76 tanks and BMP-40 armored personnel carriers.</p>"
-  photo_url:
-  photo_alt:
+  title: "NVA attacks Ben Het with PT-76 tanks"
+  body: "<p>On March 3, 1969, the isolated Special Forces Camp at Ben Het was attacked by the North Vietnamese Army using Russian PT-76 tanks and BMP-40 armored personnel carriers.</p><p>The book's chapter on Operation Nightcap (SLAM 9) opens with the attack. Nightcap got underway on March 15, 1969, when Company A was inserted by helicopter along with RT Arizona, which provided reconnaissance capabilities and served as the eyes and ears of the SLAM company.</p><p>The camp was still under siege in June. On June 16, 1969, Cobra pilot Mark Clotfelter and his co-pilot Warrant Officer Michael Mahowald were killed in action while flying convoy support near the camp during the siege.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "SOG Kontum by Joe Parnar and Robert Dumont"
-      url: "https://www.goodreads.com/book/show/60847360-sog-kontum"
+    - label: "Joe Parnar and Robert Dumont, SOG Kontum: Top Secret Missions in Vietnam, Laos, and Cambodia, 1968–1969, Kindle locations 3061, 3786, 3795"
+      url: https://openlibrary.org/works/OL27817833W
+  status: approved
+  source_text: "[loc 3061] on June 16, 1969, Cobra pilot Mark Clotfelter and his co-pilot Warrant Officer Michael Mahowald were KIA while flying convoy support near the Special Forces Camp at Ben Het during the siege of that camp. [loc 3786] On March 3, 1969, the isolated Special Forces Camp at Ben Het, was attacked by the North Vietnamese Army using Russian PT-76 Tanks and BMP-40 Armored Personnel Carriers. [loc 3795] Operation Nightcap got underway when Company A was inserted by helicopter on March 15, 1969, along with RT Arizona which would provide reconnaissance capabilities and serve as the eyes and ears of the SLAM company."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:27:14Z"
 
 - month: 3
   day: 11
   year: 1969
   title: "RT New York inserted in Target Area Tango-7"
-  body: "<p>On March 11, 1969, RT New York was inserted in Target Area Tango-7 to conduct an area reconnaissance.</p>"
-  photo_url:
-  photo_alt:
+  body: "<p>On March 11, 1969, RT New York was inserted in Target Area Tango-7 to recon the area. SOG recon team missions were conducted in a \"target box,\" which on a map was a 6x6 kilometer area with an alpha-numeric designation. The book records the insertion in its chapter on the attack on FOB-2, the wounding of Bryon Loucks, and the loss of Lieutenant James L. Ripanti.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "SOG Kontum by Joe Parnar and Robert Dumont"
-      url: "https://www.goodreads.com/book/show/60847360-sog-kontum"
+    - label: "Joe Parnar and Robert Dumont, SOG Kontum: Top Secret Missions in Vietnam, Laos, and Cambodia, 1968–1969, Kindle locations 222, 3739"
+      url: https://openlibrary.org/works/OL27817833W
+  status: approved
+  source_text: "[loc 222] SOG recon team missions were conducted in a “target box” which on a map was a 6x6 kilometer area with an alpha-numeric designation. [loc 3739] On March 11, 1969, RT New York was inserted in Target Area Tango-7 to recon the area."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:27:14Z"
 
 - month: 3
   day: 15
   year: 1969
-  title: "Operation Nightcap begins near Ben Het"
-  body: "<p>Operation Nightcap got underway when Company A was inserted by helicopter on March 15, 1969, along with RT Arizona, which provided reconnaissance capabilities and served as the eyes and ears of the SLAM company operating near the besieged Special Forces camp at Ben Het.</p>"
-  photo_url:
-  photo_alt:
+  title: "Operation Nightcap begins with Company A insertion"
+  body: "<p>On March 15, 1969, Operation Nightcap got underway when Company A was inserted by helicopter along with RT Arizona, which provided reconnaissance capabilities and served as the eyes and ears of the SLAM company. The book records the operation as SLAM 9.</p><p>The chapter opens with the attack twelve days earlier on the isolated Special Forces Camp at Ben Het, which the North Vietnamese Army struck on March 3, 1969, using Russian PT-76 tanks and BMP-40 armored personnel carriers. The camp was still under siege in June, when Cobra pilot Mark Clotfelter and his co-pilot Warrant Officer Michael Mahowald were killed in action flying convoy support nearby.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "SOG Kontum by Joe Parnar and Robert Dumont"
-      url: "https://www.goodreads.com/book/show/60847360-sog-kontum"
+    - label: "Joe Parnar and Robert Dumont, SOG Kontum: Top Secret Missions in Vietnam, Laos, and Cambodia, 1968–1969, Kindle locations 3061, 3786, 3795"
+      url: https://openlibrary.org/works/OL27817833W
+  status: approved
+  source_text: "[loc 3061] on June 16, 1969, Cobra pilot Mark Clotfelter and his co-pilot Warrant Officer Michael Mahowald were KIA while flying convoy support near the Special Forces Camp at Ben Het during the siege of that camp. [loc 3786] On March 3, 1969, the isolated Special Forces Camp at Ben Het, was attacked by the North Vietnamese Army using Russian PT-76 Tanks and BMP-40 Armored Personnel Carriers. [loc 3795] Operation Nightcap got underway when Company A was inserted by helicopter on March 15, 1969, along with RT Arizona which would provide reconnaissance capabilities and serve as the eyes and ears of the SLAM company."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:27:14Z"
 
 - month: 3
   day: 26
   year: 1969
   title: "First Lieutenant Sheridan killed in action"
-  body: "<p>First Lieutenant Robert E. Sheridan was killed in action on March 26, 1969, during a Hatchet Force operation in Target Area Lima-6 near Kontum.</p>"
-  photo_url:
-  photo_alt:
+  body: "<p>On March 26, 1969, First Lieutenant Robert E. Sheridan was killed in action. The book records his death, with a photograph credited to Terry Cadenbach, in its chapter on the Hatchet Force operation in Target Area Lima 6.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "SOG Kontum by Joe Parnar and Robert Dumont"
-      url: "https://www.goodreads.com/book/show/60847360-sog-kontum"
+    - label: "Joe Parnar and Robert Dumont, SOG Kontum: Top Secret Missions in Vietnam, Laos, and Cambodia, 1968–1969, Kindle location 4319"
+      url: https://openlibrary.org/works/OL27817833W
+  status: approved
+  source_text: "[loc 4319] First Lieutenant Robert E. Sheridan was KIA on March 26, 1969. (Terry Cadenbach)"
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:27:14Z"
 
 - month: 6
   day: 16
   year: 1969
-  title: "Cobra pilot and co-pilot killed near Ben Het"
-  body: "<p>On June 16, 1969, Cobra pilot Mark Clotfelter and his co-pilot Warrant Officer Michael Mahowald were killed in action while flying convoy support near the Special Forces camp at Ben Het during the siege of that camp.</p>"
-  photo_url:
-  photo_alt:
+  title: "Cobra pilot Clotfelter and co-pilot Mahowald killed near Ben Het"
+  body: "<p>On June 16, 1969, Cobra pilot Mark Clotfelter and his co-pilot Warrant Officer Michael Mahowald were killed in action while flying convoy support near the Special Forces Camp at Ben Het during the siege of that camp.</p><p>The isolated camp had been attacked on March 3, 1969, by the North Vietnamese Army using Russian PT-76 tanks and BMP-40 armored personnel carriers, and it was still under siege more than three months later when the two pilots died. The book notes their deaths in its chapter on the last days of SLAM VII.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "SOG Kontum by Joe Parnar and Robert Dumont"
-      url: "https://www.goodreads.com/book/show/60847360-sog-kontum"
+    - label: "Joe Parnar and Robert Dumont, SOG Kontum: Top Secret Missions in Vietnam, Laos, and Cambodia, 1968–1969, Kindle locations 3061, 3786"
+      url: https://openlibrary.org/works/OL27817833W
+  status: approved
+  source_text: "[loc 3061] on June 16, 1969, Cobra pilot Mark Clotfelter and his co-pilot Warrant Officer Michael Mahowald were KIA while flying convoy support near the Special Forces Camp at Ben Het during the siege of that camp. [loc 3786] On March 3, 1969, the isolated Special Forces Camp at Ben Het, was attacked by the North Vietnamese Army using Russian PT-76 Tanks and BMP-40 Armored Personnel Carriers."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:27:14Z"
 
 - month: 4
   day: 30
   year: 1972
   title: "MACV-SOG deactivated"
-  body: "<p>MACV-SOG was deactivated on April 30, 1972. Personnel returned to Fort Bragg, North Carolina. During its existence, twelve recon teams disappeared entirely, and eight men assigned to SOG received the Congressional Medal of Honor.</p>"
-  photo_url:
-  photo_alt:
+  body: "<p>On April 30, 1972, MACV-SOG was deactivated and its personnel returned to Fort Bragg, North Carolina. The Joint Chiefs of Staff had created SOG on January 24, 1964, as a subsidiary command of the Military Assistance Command, Vietnam.</p><p>The achievements of SOG were many, but came at a high cost. Twelve recon teams disappeared entirely. Eight men assigned to SOG received the Congressional Medal of Honor, and a total of 23 received the Distinguished Service Cross, the nation's second-highest award for valor.</p><p>Following the North Vietnamese victory in 1975, the Communists instituted what the book calls Cultural Leveling, a long-term ethnic cleansing, to eradicate all ethnic minority cultures in Vietnam.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "SOG Kontum by Joe Parnar and Robert Dumont"
-      url: "https://www.goodreads.com/book/show/60847360-sog-kontum"
+    - label: "Joe Parnar and Robert Dumont, SOG Kontum: Top Secret Missions in Vietnam, Laos, and Cambodia, 1968–1969, Kindle locations 154, 4487, 4490, 4493, 4516"
+      url: https://openlibrary.org/works/OL27817833W
+  status: approved
+  source_text: "[loc 154] The Joint Chiefs of Staff created SOG on 24 January, 1964 as a subsidiary command of the Military Assistance Command, Vietnam (MACV). [loc 4487] personnel returned to Fort Bragg, North Carolina. MACV-SOG was deactivated on April 30, 1972. [loc 4490] The achievements of SOG were many, but came at a high cost. Twelve RTs disappeared entirely [loc 4493] Eight men assigned to SOG received the Congressional Medal of Honor. A total of 23 received the Distinguished Service Cross, the nation’s second-highest award for valor. [loc 4516] Following the North Vietnamese victory in 1975, the Communists instituted Cultural Leveling (long-term ethnic cleansing) to eradicate all ethnic minority cultures in Vietnam."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:27:14Z"

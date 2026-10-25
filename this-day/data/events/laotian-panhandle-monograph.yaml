@@ -1,13 +1,16 @@
-# Events from LG Military Operations in the Laotian Panhandle by Brig. Gen. Soutchay Vongsavanh
-# Source: kindle-highlights/laotian-panhandle-monograph.yaml
-
+# Book: RLG Military Operations and Activities in the Laotian Panhandle (Soutchay Vongsavanh; U.S. Government Printing Office/U.S. Army Center for Military History, 1978)
+# Highlights: /Users/daviddoolin/src/vietnam-war-compendium/kindle-highlights/laotian-panhandle-monograph.yaml
 - month: 3
   day: 9
   year: 1945
-  title: "Viet Minh seize Tchepone region after Japanese coup"
-  body: "<p>Following the March 9, 1945 Japanese coup against the French colonial administration, the Viet Minh clamped their hold on the Tchepone region and its people. Tchepone would later become the site of Base Area 604, the main North Vietnamese logistic base on the Ho Chi Minh Trail.</p>"
-  photo_url:
-  photo_alt:
+  title: "Viet Minh take hold of Tchepone region after March 9 coup"
+  body: "<p>On March 9, 1945, a coup took place, and following it the Viet Minh clamped their hold on the Tchepone region and its people.</p><p>Tchepone later became the site of Base Area 604, one of the North Vietnamese base areas in southern Laos serving the war in South Vietnam, alongside Base Area 611 east of Muong Nong and Base Area 612 between Sarvane and Ban Bac. Base Area 604 was the main logistic base during the Vietnam War; from there the coordination and distribution of supplies into the Republic of Vietnam's military regions was carried out.</p><p>Infiltration of Communist cadre from North to South Vietnam started in 1959, when the North Vietnamese decided to support and strengthen the guerrilla war in the South. In the north sector, the North Vietnamese were able to use old roads through the Keo Neua and Mu Gia passes, which had been improved during 1961 and 1962 under their aid agreements with Prince Souvannaphouma.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "LG Military Operations in the Laotian Panhandle by Brig. Gen. Soutchay Vongsavanh"
-      url: "https://www.goodreads.com/book/show/15837503-rlg-military-operations-and-activities-in-the-laotian-panhandle"
+    - label: "Soutchay Vongsavanh, RLG Military Operations and Activities in the Laotian Panhandle (U.S. Government Printing Office/U.S. Army Center for Military History, 1978), Kindle locations 181, 195, 218, 228, 241"
+      url: https://openlibrary.org/works/OL6443002W
+  status: approved
+  source_text: "[loc 181] Infiltration of Communist cadre from North to South Vietnam started in 1959 when the North Vietnamese decided to support and strengthen the guerrilla war in the South. [loc 195] In the north sector, the North Vietnamese were able to use old roads through the Keo Neua and Mu Gia passes which had been improved during 1961 and 1962 under their aid agreements with Prince Souvannaphouma. [loc 218] Following the March 9, 1945 Coup the Viet Minh clamped their hold on the Tchepone region and its people. [loc 228] South Vietnam were: Base Area 604—Tchepone{ 1} Base Area 611—East of Muong Nong Base Area 612—Between Sarvane and Ban Bac [loc 241] Base Area 604 was the main logistic base during the Vietnam War; from here the coordination and distribution of supplies into RVN Military Region"
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:27:14Z"

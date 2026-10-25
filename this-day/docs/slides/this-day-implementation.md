@@ -230,7 +230,7 @@ books. A 200 with the wrong title is worse than a 404.
 | Medal of Honor | 264 | full citation (public domain) | Claude Fable 5.1, 8 parallel agents |
 | Kindle books | 62 | the highlights consulted, with locations | Claude Fable 5.1, 2 agents |
 | HistoryNet 1975 | 12 | the sentences relied on | Claude Fable 5.1 |
-| Landmark | 12 | re-sourced from public-domain documents | pending |
+| Landmark | 12 | re-sourced from public-domain documents | Claude Opus 5.5 |
 
 Every rewritten event: opens "On <Month> <day>, <year>, ",
 80–180 words, `summarized_by` and `summarized_at` set,
@@ -250,6 +250,24 @@ Goal: at least one event for every day of October, then November.
 4. Archive every reference before the event is committed.
 5. Deploy. Review on the phone at `/review/10`.
 6. Approve or reject by date in chat; status flips in YAML.
+
+---
+
+# Provisioning October and November
+
+```
+21 Wikipedia year pages (1955–1975), fetched once, cached, revid pinned
+  └─ 449 dated entries for Oct/Nov, each with its attached citations
+       └─ uncovered days: Oct 23, Nov 15
+            └─ top 4 candidates per day (specific date, cited URL, length)
+                 └─ writer agent picks one, writes from the entry only
+                      └─ status: draft, source_text = the entry, refs =
+                         permalink + the entry's own cited source
+                           └─ archiver fetches every new URL → S3
+```
+
+Result: every day of October and November has at least one event.
+38 drafts wait for review; 8 are under 80 words, 6 single-source.
 
 ---
 

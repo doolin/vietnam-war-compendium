@@ -1,169 +1,192 @@
-# Seed events for "This Day in Viet Nam"
-# Sources: timelines/tet-bigstory.yaml, timelines/starlite-pimlott.yaml,
-#          kindle-highlights/sog-kontum.yaml, kindle-highlights/foresaken-warriors.yaml
+# Landmark events for "This Day in Viet Nam"
+# Re-sourced and rewritten 2026-10-25. Each body is written only from the
+# public source listed under that event's references; the passage relied
+# on is quoted verbatim in source_text.
 
 # --- March events ---
 
 - month: 3
   day: 1
   year: 1968
-  title: "Last major communist push at Khe Sanh repelled"
-  body: "<p>On March 1, 1968, Marines at the besieged combat base at Khe Sanh repelled the last major ground assault by North Vietnamese forces. The siege, which began on January 20, had riveted American media attention for weeks, drawing comparisons to the French defeat at Dien Bien Phu in 1954.</p><p>Although the base held, the siege consumed enormous resources and attention, and the Marines would ultimately abandon Khe Sanh in July 1968.</p>"
-  photo_url:
-  photo_alt:
+  title: "ARVN Rangers repel last major NVA assault at Khe Sanh"
+  body: "<p>On March 1, 1968, at 0315, North Vietnamese troops made the last of three assaults in a night attack on the 37th ARVN Ranger Battalion at Khe Sanh. The attack began at 2130 on 29 February, when a battalion from the 304th NVA Division struck the Rangers, who held positions in the eastern sector of the combat base. The Rangers answered with their final protective fires, 1/13 fired thousands of artillery rounds, and strike aircraft raked the attackers. The assaults at 2330 and 0315 were stopped short of the wire, and the North Vietnamese withdrew. The next morning the Rangers found 78 dead NVA soldiers in three assault trenches a few hundred meters from the perimeter.</p><p>The North Vietnamese continued to probe throughout March, but they never mustered another large ground attack against the base.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "The Big Story by Peter Braestrup"
-      url: "https://yalebooks.yale.edu/book/9780300026306/big-story/"
-    - label: "Valley of Decision: The Siege of Khe Sanh by John Prados and Ray Stubbe"
-      url: "https://www.amazon.com/dp/0440215005"
+    - label: "Shore, Moyers S., II, Capt., USMC. The Battle for Khe Sanh. Historical Branch, G-3 Division, Headquarters, U.S. Marine Corps, 1969 (public domain; Project Gutenberg eBook #54613 transcription)."
+      url: "https://www.gutenberg.org/files/54613/54613-h/54613-h.htm"
+  status: "approved"
+  source_text: "The NVA launched a heavy attack against the base on 29 February; whether it was in fact the main prong of the Communist offensive, historians may never know for sure. ... At 2130, a battalion from the 304th NVA Division launched the first attack against the 37th ARVN Ranger Battalion. The South Vietnamese responded with their final protective fires; 1/13 contributed thousands of conventional and special artillery rounds while strike aircraft streaked in and raked the attacking force. The enemy pulled back without even breaching the outer defenses. The first assault was followed by one at 2330 and another at 0315 (1 March); both were similarly stifled short of the wire. The North Vietnamese finally called it quits and withdrew with those bodies which they could retrieve. When the Rangers investigated the next morning, they found 78 dead NVA soldiers huddled in three successive assault trenches a few hundred meters from the perimeter. ... Even though the North Vietnamese continued to probe throughout March, it was obvious that they had shot their bolt on the night of 29 February/1 March. The NVA never mustered another large ground attack against the base; the battle had reached a turning point. ... [Chronology:] 27 Jan 37th ARVN Ranger Battalion arrives KSCB and takes up positions in eastern sector of combat base."
+  summarized_by: "Claude Opus 5.5"
+  summarized_at: "2026-10-25T15:22:14Z"
 
 - month: 3
   day: 2
   year: 1965
-  title: "Operation Rolling Thunder begins"
-  body: "<p>On March 2, 1965, the United States launched Operation Rolling Thunder, a sustained aerial bombing campaign against North Vietnam. Initially conceived as an eight-week campaign, it would continue with occasional pauses until November 1968, dropping more bombs on Vietnam than were dropped during all of World War II.</p>"
-  photo_url:
-  photo_alt:
+  title: "First Rolling Thunder strike hits Xom Bang and Quang Khe"
+  body: "<p>On March 2, 1965, the first Rolling Thunder mission to get off the ground, designated Rolling Thunder V, was carried out. A force of 104 U.S. Air Force B-57s, F-100s, and F-105s, joined by 19 South Vietnamese Skyraiders, attacked the Xom Bang ammunition depot just north of the DMZ and the Quang Khe naval base.</p><p>Anti-aircraft fire downed six of the U.S. aircraft. Five of the six pilots were rescued. No announcement of the attack was made in Washington or Saigon. On March 4 the Soviet Government issued a statement protesting the air strike, which Foreign Minister Gromyko presented to Ambassador Kohler in Moscow.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "The Pentagon Papers, Gravel Edition, Chapter IV.C.3"
-      url: "https://www.archives.gov/research/pentagon-papers"
-    - label: "Rolling Thunder 1965–1968, USAF Historical Division"
-      url: "https://media.defense.gov/2010/Sep/28/2001329801/-1/-1/0/AFD-100928-054.pdf"
+    - label: "U.S. Department of State, Office of the Historian. \"175. Editorial Note.\" Foreign Relations of the United States, 1964-1968, Volume II, Vietnam, January-June 1965 (event of March 2, 1965)."
+      url: "https://history.state.gov/historicaldocuments/frus1964-68v02/d175"
+  status: "approved"
+  source_text: "On March 2 the first Rolling Thunder mission to get off the ground ( Rolling Thunder V) was carried out by 104 U.S. Air Force B–57’s, F-100’s, and F-105’s and 19 South Vietnamese Skyraiders against the Xom Bang ammunition depot just north of the DMZ and the Quang Khe naval base. Six of the U.S. aircraft were downed by anti-aircraft fire. Five of the six pilots were rescued. No announcement was made in Washington or Saigon concerning the air attack. For text of a statement of March 4 by the Soviet Government protesting the air strike, which Foreign Minister Gromyko presented to Ambassador Kohler in Moscow, see American Foreign Policy: Current Documents, 1965, pages 841–842."
+  summarized_by: "Claude Opus 5.5"
+  summarized_at: "2026-10-25T15:22:14Z"
 
 - month: 3
   day: 3
   year: 1971
-  title: "U.S. Special Forces officially depart Vietnam"
-  body: "<p>On March 3, 1971, the 5th Special Forces Group formally ended its decade-long presence in Vietnam. An honor guard bearing the group's colors boarded an aircraft at Nha Trang Airbase for the flight to Fort Bragg, North Carolina, closing a chapter that began with the first Special Forces advisors arriving in 1961.</p><p>During their ten years in Vietnam, Special Forces soldiers had trained and fought alongside Montagnard tribesmen, Civilian Irregular Defense Groups, and Vietnamese Special Forces in some of the war's most remote and dangerous operations.</p>"
-  photo_url:
-  photo_alt:
+  title: "5th Special Forces Group leaves Nha Trang for Fort Bragg"
+  body: "<p>On March 3, 1971, the 5th Special Forces Group redeployed from Nha Trang, South Vietnam, to Fort Bragg, North Carolina, according to the timeline kept by the U.S. Army Special Operations Command History Office. The reduction of U.S. forces in South Vietnam under President Richard M. Nixon's 'Vietnamization' policy had begun in 1970.</p><p>The group had been activated at Fort Bragg on September 21, 1961. On October 1, 1964, it was reassigned from Fort Bragg to Nha Trang, where its headquarters became the command element for all U.S. Army Special Forces personnel in Vietnam and controlled all Special Forces activities in the country.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Forsaken Warriors by Robert Pratt"
-      url: "https://www.amazon.com/dp/1935149075"
-    - label: "U.S. Army Special Forces in Vietnam, 1961–1971"
-      url: "https://history.army.mil/html/books/090/90-23-1/cmhPub_90-23.htm"
+    - label: "U.S. Army Special Operations Command History Office. \"A Timeline of U.S. Army Special Operations Forces,\" entry for 3 March 1971. Veritas / arsof-history.org."
+      url: "https://arsof-history.org/arsof_timeline/index.html"
+  status: "approved"
+  source_text: "21 SEP 1961 5th SFG Activated at Fort Bragg, NC. ... 1 OCT 1964 5th SFG Reassigned From Fort Bragg, NC, to Nha Trang, South Vietnam. It replaced USASFV(P) as the command element for all U.S. Army Special Forces personnel in Vietnam. ... 3 MAR 1971 5th SFG Redeployed From Nha Trang, South Vietnam to Fort Bragg, NC. ... [Era summary, 1 NOV 1955 – 30 APR 1975:] In 1964, 5th Special Forces Group headquarters deployed to South Vietnam to control all Special Forces activities in-country. ... President Richard M. Nixon’s ‘Vietnamization’ policy led to the reduction of U.S. forces in South Vietnam beginning in 1970"
+  summarized_by: "Claude Opus 5.5"
+  summarized_at: "2026-10-25T15:22:14Z"
 
 - month: 3
   day: 8
   year: 1965
-  title: "U.S. Marines land at Da Nang"
-  body: "<p>On March 8, 1965, the 9th Marine Expeditionary Brigade waded ashore at Red Beach near Da Nang, becoming the first American combat ground troops deployed to Vietnam. The two battalion landing teams — 3,500 Marines in all — were greeted on the beach by Vietnamese girls bearing flower garlands, a scene at sharp odds with the mission's purpose: to defend the Da Nang air base against Viet Cong attack.</p><p>The landing marked a decisive escalation from the advisory role American forces had played since the early 1960s. Within months, the Marines would shift from a defensive posture to active offensive operations.</p>"
-  photo_url:
-  photo_alt:
+  title: "Two Marine battalion landing teams land at Danang"
+  body: "<p>On March 8, 1965, at approximately 9 a.m. (8 p.m. EST on March 7), two Marine Battalion Landing Teams under the command of Brigadier General Frederick J. Karch landed at Danang. The welcoming ceremonies included a greeting by the mayor of Danang and by General Thi, the Commander of I Corps Tactical Zone.</p><p>A third Battalion Landing Team and a Marine helicopter unit were airlifted into Danang by March 12. In Foreign Relations of the United States, the State Department's documentary history, the landing closes the section on the introduction of U.S. ground combat forces, February 11 to March 8, 1965.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "U.S. Marines in Vietnam: The Landing and the Buildup, 1965"
-      url: "https://www.usmcu.edu/Research/Marine-Corps-History-Division/Brief-Histories/Marines-in-the-Vietnam-War/"
-    - label: "Vietnam: The Definitive Oral History by Christian Appy"
-      url: "https://www.amazon.com/dp/0143035258"
+    - label: "U.S. Department of State, Office of the Historian. \"188. Editorial Note.\" Foreign Relations of the United States, 1964-1968, Volume II, Vietnam, January-June 1965 (event of March 8, 1965)."
+      url: "https://history.state.gov/historicaldocuments/frus1964-68v02/d188"
+  status: "approved"
+  source_text: "At approximately 9 a.m. on March 8 (8 p.m. EST on March 7), two Marine Battalion Landing Teams, under the command of Brigadier General Frederick J. Karch, landed at Danang. Welcoming ceremonies included a greeting by the mayor of Danang and the Commander of I Corps Tactical Zone, General Thi. A third BLT and a Marine helicopter unit were airlifted into Danang by March 12. For further details, see Jack Shulimson and Charles M. Johnson, U.S. Marines in Vietnam: The Landing and the Buildup, 1965 , pages 6–15. ... [Volume contents:] Initiation of a program of air strikes against North Vietnam; Introduction of U.S. ground combat forces, February 11–March 8 (Documents 109–188)"
+  summarized_by: "Claude Opus 5.5"
+  summarized_at: "2026-10-25T15:22:14Z"
 
 - month: 3
   day: 10
   year: 1968
-  title: "New York Times reveals 206,000-troop request"
-  body: "<p>On March 10, 1968, the New York Times published a front-page story revealing that General Westmoreland had requested 206,000 additional troops for Vietnam, ostensibly to 'regain the initiative' after the Tet Offensive. The story, based on leaked Pentagon documents, stunned a public that had been told the war was being won.</p><p>That same day, NBC anchor Frank McGee told viewers that the United States was losing the war. The twin blows deepened the credibility gap between the Johnson administration's optimistic assessments and the reality on the ground.</p>"
-  photo_url:
-  photo_alt:
+  title: "New York Times exposes administration troop debate"
+  body: "<p>On March 10, 1968, reporters Neil Sheehan and Hedrick Smith published an article in The New York Times that revealed in detail the administration's internal assessment of further troop deployments to Vietnam. By March 8, Sheehan, who covered the Pentagon for the Times, had been calling people at the State Department with the 206,000 figure.</p><p>At 11:20 that morning, Walt Rostow, the President's Special Assistant, sent President Johnson his judgment of the article. He wrote that its material came mainly from medium-level officials in State and Defense who opposed sending more troops, and that they had drawn on one of the working papers prepared for the Clifford Committee that argued against more troops. He called the article \"the product of dangerous insubordination which can only be met by an early decision by the President and a full account of where we stand in the winter-spring enemy offensive and what we intend to do.\"</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "The Big Story by Peter Braestrup"
-      url: "https://yalebooks.yale.edu/book/9780300026306/big-story/"
-    - label: "Dereliction of Duty by H.R. McMaster"
-      url: "https://www.amazon.com/dp/0060929081"
+    - label: "Rostow, Walt W. \"116. Information Memorandum From the President's Special Assistant (Rostow) to President Johnson,\" March 10, 1968, 11:20 a.m., with editorial footnotes. Foreign Relations of the United States, 1964-1968, Volume VI, Vietnam, January-August 1968."
+      url: "https://history.state.gov/historicaldocuments/frus1964-68v06/d116"
+  status: "approved"
+  source_text: "Washington , March 10, 1968, 11:20 a.m. Mr. President: Herewith my judgment on today’s New York Times article on troops. 1. The materials were mainly gathered from medium-level officials in both State and Defense, who oppose the sending of more troops to Vietnam. 2. These officials either made available, read, or summarized—probably the latter—from one of the working papers prepared for the Clifford Committee, which made the argument against more troops. ... I regard the article as the product of dangerous insubordination which can only be met by an early decision by the President and a full account of where we stand in the winter-spring enemy offensive and what we intend to do. ... [Footnote:] The continuing debate within the administration over further troop deployments became public on March 10 when reporters Neil Sheehan and Hedrick Smith published an article in The New York Times that extensively revealed details of the policy assessment. ... In a note to Clifford, March 8, Goulding wrote: “Nick Katzenbach called me this afternoon to say that Neil Sheehan—who covers the Pentagon for the Times —had been calling various State people with the 206,000 figure, but without the detail that Smith apparently has."
+  summarized_by: "Claude Opus 5.5"
+  summarized_at: "2026-10-25T15:22:14Z"
 
 - month: 3
-  day: 11
+  day: 12
   year: 1968
-  title: "McCarthy wins New Hampshire; Newsweek calls for peace"
-  body: "<p>On March 11, 1968, Senator Eugene McCarthy of Minnesota won 42 percent of the vote in the New Hampshire Democratic presidential primary, a stunning result against an incumbent president. Running on an anti-war platform, McCarthy's near-victory demonstrated the depth of public opposition to the war and shook the political establishment.</p><p>The same week, Newsweek featured 'The Agony of Khe Sanh' on its cover and editorialized in favor of seeking peace. Four days later, Robert Kennedy would enter the race.</p>"
-  photo_url:
-  photo_alt:
+  title: "McCarthy takes 20 of 24 New Hampshire delegates"
+  body: "<p>On March 12, 1968, Senator Eugene McCarthy made a surprisingly strong showing in the New Hampshire Democratic Presidential primary, winning all but 4 of the 24 delegate votes. The State Department's historians describe his tally as a significant repudiation of the Johnson administration's policies, at a time when the war in Vietnam was becoming a significant factor in domestic politics.</p><p>McCarthy's relative success encouraged Senator Robert Kennedy to enter the race for the Presidential nomination four days later, on March 16.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "The Big Story by Peter Braestrup"
-      url: "https://yalebooks.yale.edu/book/9780300026306/big-story/"
-    - label: "America's Longest War by George Herring"
-      url: "https://www.amazon.com/dp/0073513253"
+    - label: "U.S. Department of State, Office of the Historian. \"123. Editorial Note.\" Foreign Relations of the United States, 1964-1968, Volume VI, Vietnam, January-August 1968 (events of March 12-16, 1968)."
+      url: "https://history.state.gov/historicaldocuments/frus1964-68v06/d123"
+  status: "approved"
+  source_text: "The impact of the war in Vietnam in domestic politics became a significant factor during mid-March 1968. On March 12 Senator Eugene McCarthy made a surprisingly strong showing in the balloting for the New Hampshire Democratic Presidential primary by winning all but 4 of the 24 delegate votes. His tally represented a significant repudiation of the administration’s policies. McCarthy’s relative success encouraged Senator Robert Kennedy to enter the Presidential nomination race on March 16."
+  summarized_by: "Claude Opus 5.5"
+  summarized_at: "2026-10-25T15:22:14Z"
 
 - month: 3
   day: 16
   year: 1968
-  title: "Robert Kennedy announces presidential candidacy"
-  body: "<p>On March 16, 1968, Senator Robert F. Kennedy of New York announced his candidacy for the Democratic presidential nomination in the same Senate Caucus Room where his brother John had declared his candidacy eight years earlier. Kennedy cited the Vietnam War and domestic unrest as his reasons for challenging President Johnson.</p><p>Kennedy's entry, coming five days after McCarthy's strong showing in New Hampshire, further fractured the Democratic Party and intensified pressure on Johnson to change course in Vietnam.</p>"
-  photo_url:
-  photo_alt:
+  title: "Robert Kennedy enters presidential race"
+  body: "<p>On March 16, 1968, Senator Robert Kennedy entered the race for the Democratic Presidential nomination, encouraged by Senator Eugene McCarthy's relative success in the New Hampshire primary four days earlier.</p><p>Five days before the announcement, Kennedy adviser Theodore Sorensen met President Johnson at the White House to present Kennedy's position on Vietnam. At 11 a.m. on March 14, Sorensen and Kennedy met Secretary of Defense Clark Clifford and suggested that the Senator would not declare his candidacy if Johnson agreed to appoint a commission to re-evaluate U.S. policy in Vietnam. Kennedy suggested that he and nine others would direct the commission toward changing the course of the war. Johnson rejected the proposal the same day, concluding that it would \"appear to be a political deal.\"</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Robert Kennedy and His Times by Arthur Schlesinger Jr."
-      url: "https://www.amazon.com/dp/0618219285"
-    - label: "The Big Story by Peter Braestrup"
-      url: "https://yalebooks.yale.edu/book/9780300026306/big-story/"
+    - label: "U.S. Department of State, Office of the Historian. \"123. Editorial Note.\" Foreign Relations of the United States, 1964-1968, Volume VI, Vietnam, January-August 1968 (events of March 12-16, 1968)."
+      url: "https://history.state.gov/historicaldocuments/frus1964-68v06/d123"
+  status: "approved"
+  source_text: "On March 12 Senator Eugene McCarthy made a surprisingly strong showing in the balloting for the New Hampshire Democratic Presidential primary by winning all but 4 of the 24 delegate votes. ... McCarthy’s relative success encouraged Senator Robert Kennedy to enter the Presidential nomination race on March 16. Five days prior to this announcement, Kennedy adviser Theodore Sorensen met with the President at the White House to present Kennedy’s position on Vietnam. ... Both Sorensen and Kennedy met with Secretary of Defense Clark Clifford at 11 a.m. on March 14. In this meeting, Sorensen and Kennedy suggested that the Senator would not declare his candidacy for the Democratic nomination for President if Johnson agreed to appoint a commission to re-evaluate U.S. policy in Vietnam. Kennedy suggested that he and nine others would direct the commission toward changing the course of the war. That same day Clifford discussed the proposal with the President in a meeting at the White House. The President concluded that he could not accept the proposal since it would “appear to be a political deal.”"
+  summarized_by: "Claude Opus 5.5"
+  summarized_at: "2026-10-25T15:22:14Z"
 
 - month: 3
   day: 22
   year: 1968
-  title: "Johnson reassigns Westmoreland"
-  body: "<p>On March 22, 1968, President Johnson announced that General William Westmoreland would leave his command in Vietnam to become Army Chief of Staff. Although framed as a promotion, the reassignment was widely interpreted as a vote of no confidence in Westmoreland's conduct of the war, coming in the wake of the Tet Offensive and the controversial 206,000-troop request.</p><p>General Creighton Abrams succeeded Westmoreland as commander of U.S. forces in Vietnam and would oversee the shift toward Vietnamization.</p>"
-  photo_url:
-  photo_alt:
+  title: "Johnson names Westmoreland Army Chief of Staff"
+  body: "<p>On March 22, 1968, President Johnson announced at a news conference that General William C. Westmoreland, Commander, United States Military Assistance Command, Vietnam, would succeed Gen. Harold K. Johnson as Chief of Staff of the Army. General Johnson's term expired in July 1968, and he planned to retire. Westmoreland would assume the duties on July 2, 1968, if the Senate acted on his confirmation by then, and would be relieved of his duty in Vietnam that day.</p><p>The President said no successor to Westmoreland had been selected. Asked whether the change implied any shift in the search and destroy strategy associated with Westmoreland's name, he answered, \"The strategy and the tactical operations have nothing to do with the appointments as such.\" He called Westmoreland \"a very talented and very able officer.\"</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Westmoreland: The General Who Lost Vietnam by Lewis Sorley"
-      url: "https://www.amazon.com/dp/0547844921"
-    - label: "The Big Story by Peter Braestrup"
-      url: "https://yalebooks.yale.edu/book/9780300026306/big-story/"
+    - label: "Johnson, Lyndon B. \"The President's News Conference,\" March 22, 1968. Public Papers of the Presidents; online by Gerhard Peters and John T. Woolley, The American Presidency Project (https://www.presidency.ucsb.edu/node/238207)."
+      url: "https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-1203"
+  status: "approved"
+  source_text: "General Johnson's term expires as Chief of Staff of the Army in July 1968. He plans to retire. He has notified us of his desire to retire. He will be succeeded by General Westmoreland, who will assume the duties, assuming the Senate acts on the confirmation at that time, on July 2, 1968. We have not selected a successor to General Westmoreland. [Footnotes:] Gen. Harold K. Johnson, Chief of Staff, United States Army. ... Gen. William C. Westmoreland, Commander, United States Military Assistance Command, Vietnam. ... THE PRESIDENT. July 2. That successor post specifically doesn't require Senate confirmation. General Westmoreland would be relieved of his duty effective that day. ... Q. ... does the replacement of General Westmoreland imply any change of search and destroy strategy with which his name has been associated or any other tactical adjustment in Vietnam? THE PRESIDENT. The strategy and the tactical operations have nothing to do with the appointments as such. I do not know at this time who the commanding general of our troops there will be. Therefore, I cannot speak for his plans or for his program. I feel that General Westmoreland is a very talented and very able officer."
+  summarized_by: "Claude Opus 5.5"
+  summarized_at: "2026-10-25T15:22:14Z"
 
 - month: 3
   day: 31
   year: 1968
-  title: "Johnson announces he will not seek re-election"
-  body: "<p>On March 31, 1968, in a nationally televised address, President Lyndon B. Johnson announced a partial halt to the bombing of North Vietnam, expressed willingness to negotiate with Hanoi, and then stunned the nation with an unscripted-sounding conclusion: 'I shall not seek, and I will not accept, the nomination of my party for another term as your President.'</p><p>The speech marked the definitive political casualty of the Tet Offensive. The man who had won a historic landslide in 1964 had been broken by the war he had escalated.</p>"
-  photo_url:
-  photo_alt:
+  title: "Johnson limits bombing and declines to seek re-election"
+  body: "<p>On March 31, 1968, in an address to the nation, President Lyndon B. Johnson announced that he had ordered U.S. aircraft and naval vessels to make no attacks on North Vietnam except in the area north of the demilitarized zone, where the enemy buildup threatened allied forward positions. The area where attacks stopped held almost 90 percent of North Vietnam's population. He renewed his offer to stop the bombardment, asked that talks begin promptly, and designated Ambassador Averell Harriman as his personal representative for such talks.</p><p>Later in the address he said he would not devote his time to any personal partisan causes: \"Accordingly, I shall not seek, and I will not accept, the nomination of my party for another term as your President.\"</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "The Big Story by Peter Braestrup"
-      url: "https://yalebooks.yale.edu/book/9780300026306/big-story/"
-    - label: "Lyndon Johnson's War by Larry Berman"
-      url: "https://www.amazon.com/dp/0393307867"
-    - label: "LBJ Presidential Library: Address to the Nation"
-      url: "https://www.lbjlibrary.org/object/text/address-nation-3-31-1968"
+    - label: "Johnson, Lyndon B. \"The President's Address to the Nation Announcing Steps To Limit the War in Vietnam and Reporting His Decision Not To Seek Reelection,\" March 31, 1968. Public Papers of the Presidents; online by Gerhard Peters and John T. Woolley, The American Presidency Project (https://www.presidency.ucsb.edu/node/238065)."
+      url: "https://www.presidency.ucsb.edu/documents/the-presidents-address-the-nation-announcing-steps-limit-the-war-vietnam-and-reporting-his"
+  status: "approved"
+  source_text: "Tonight, I renew the offer I made last August--to stop the bombardment of North Vietnam. We ask that talks begin promptly, that they be serious talks on the substance of peace. ... So, tonight, in the hope that this action will lead to early talks, I am taking the first step to deescalate the conflict. We are reducing-substantially reducing--the present level of hostilities. And we are doing so unilaterally, and at once. Tonight, I have ordered our aircraft and our naval vessels to make no attacks on North Vietnam, except in the area north of the demilitarized zone where the continuing enemy buildup directly threatens allied forward positions and where the movements of their troops and supplies are clearly related to that threat. The area in which we are stopping our attacks includes almost 90 percent of North Vietnam's population, and most of its territory. ... I am designating one of our most distinguished Americans, Ambassador Averell Harriman, as my personal representative for such talks. ... With America's sons in the fields far away, with America's future under challenge right here at home, with our hopes and the world's hopes for peace in the balance every day, I do not believe that I should devote an hour or a day of my time to any personal partisan causes or to any duties other than the awesome duties of this office--the Presidency of your country. Accordingly, I shall not seek, and I will not accept, the nomination of my party for another term as your President."
+  summarized_by: "Claude Opus 5.5"
+  summarized_at: "2026-10-25T15:22:14Z"
 
 # --- Non-March events for variety ---
 
 - month: 1
   day: 30
   year: 1968
-  title: "Tet Offensive launched"
-  body: "<p>On January 30, 1968, North Vietnamese and Viet Cong forces launched a coordinated series of surprise attacks on more than 100 cities and towns across South Vietnam during the Tet holiday ceasefire. The offensive included an assault on the US Embassy in Saigon and the beginning of the Battle of Hue.</p><p>Although a military defeat for the attackers, the Tet Offensive profoundly shifted American public opinion against the war and is widely regarded as a turning point in the conflict.</p>"
-  photo_url:
-  photo_alt:
+  title: "Viet Cong and North Vietnamese open Tet offensive"
+  body: "<p>On January 30, 1968, attacks took place in parts of I and II Corps in South Vietnam. They were followed by an extensive series of coordinated assaults on most of the urban centers of South Vietnam by Viet Cong cadre and North Vietnamese Army regulars, a force that numbered 58,000 at first and quickly rose to about 84,000. The attacks reached the capital, the six largest cities, 36 of 44 provincial capitals, and 64 of 242 district centers. Viet Cong sapper teams penetrated the U.S. Embassy compound, the Presidential Palace, and Ton Son Nhut airport in Saigon, and Hue, the ancient imperial capital, fell after an assault lasting only a few hours.</p><p>Press reports stressed that the attackers had achieved a strategic victory. In retrospect they had suffered a devastating tactical defeat, losing nearly 70 percent of their cadres in the South, but public opinion polls showed the American public turning sharply against continuing President Johnson's effort in Vietnam.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Tet! The Turning Point in the Vietnam War by Don Oberdorfer"
-      url: "https://www.amazon.com/dp/0801867037"
-    - label: "The Tet Offensive: A Concise History by James H. Willbanks"
-      url: "https://www.amazon.com/dp/0231128401"
-    - label: "National Archives: The Tet Offensive"
-      url: "https://www.archives.gov/research/military/vietnam-war/tet-offensive"
+    - label: "U.S. Department of State, Office of the Historian. \"33. Editorial Note.\" Foreign Relations of the United States, 1964-1968, Volume VI, Vietnam, January-August 1968 (Tet Offensive, January 30-31, 1968)."
+      url: "https://history.state.gov/historicaldocuments/frus1964-68v06/d33"
+  status: "approved"
+  source_text: "Following attacks that took place in parts of I and II Corps on January 30, 1968, a force numbering initially 58,000 and quickly rising to approximately 84,000 Viet Cong ( VC ) cadre and North Vietnamese Army ( NVA ) regulars launched an extensive series of coordinated assaults on most of the urban centers of South Vietnam. ... The insurgents rose up in the capital, the six largest cities of South Vietnam, 36 of 44 provincial capitals, 64 of 242 district centers, and numerous other smaller villages and hamlets. The tactical surprise the NVA / VC achieved was evidenced in the audacious nature of their attacks, which included penetrations by VC sapper teams of the U.S. Embassy compound, the Presidential Palace, and Ton Son Nhut airport in Saigon; damage to ships in Cam Ranh Bay; the seizure of the U.S. military billet in the center of Dalat; and the fall of the ancient imperial capital of Hue to NVA / VC units after an assault lasting only a few hours. ... The impact of the Tet offensive on the American public was immense. Press reports stressed that the NVA / VC forces had achieved a strategic victory. In retrospect, it became clear that they had suffered a devastating tactical defeat, with the eradication of nearly 70 percent of NVA / VC cadres in the South. In the immediate aftermath, however, public opinion polls reflected that the American public turned sharply against supporting a continuation of President Lyndon Johnson ’s effort in Vietnam."
+  summarized_by: "Claude Opus 5.5"
+  summarized_at: "2026-10-25T15:22:14Z"
 
 - month: 11
   day: 14
   year: 1965
-  title: "Battle of Ia Drang"
-  body: "<p>On November 14, 1965, elements of the 1st Battalion, 7th Cavalry Regiment, 1st Cavalry Division (Airmobile) landed in Landing Zone X-Ray in the Ia Drang Valley of the Central Highlands. Over the next three days, they fought one of the fiercest battles of the Vietnam War against the 66th and 33rd Regiments of the People's Army of Vietnam.</p><p>The battle demonstrated both the potential and the cost of the US Army's new airmobile tactics, with 79 Americans killed at LZ X-Ray and an additional 155 killed in a subsequent ambush at LZ Albany.</p>"
-  photo_url:
-  photo_alt:
+  title: "Air Cavalry meets first major test in Ia Drang Valley"
+  body: "<p>On November 14, 1965, the 1st Cavalry Division began the first major test of the Air Cavalry in battle, engaging North Vietnamese troops in the Ia Drang Valley of the Central Highlands. The fighting lasted through November 17. Elements of the division were greatly outnumbered, and helicopter crews braved extreme enemy fire to reinforce the ground troops. Fifty-nine helicopters were damaged, but only four were shot down, and three of those were recovered. Helicopter pilots Maj. Bruce Crandall and Capt. Ed Freeman received the Medal of Honor for their actions in the valley.</p><p>The division's Presidential Unit Citation states that it had driven a North Vietnamese division back from Plei Me to the foot of the Chu Pong Massif. There, in the valley of the Ia Drang, the enemy was reinforced by a fresh regiment. The division attacked this staging area by air and defeated the numerically superior enemy.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "We Were Soldiers Once... and Young by Hal Moore and Joe Galloway"
-      url: "https://www.amazon.com/dp/0345472640"
-    - label: "Pleiku: The Dawn of Helicopter Warfare in Vietnam by J.D. Coleman"
-      url: "https://www.amazon.com/dp/0312070004"
+    - label: "The Vietnam Center and Sam Johnson Vietnam Archive, Texas Tech University. \"Vietnam: The Helicopter War\" exhibit, Air Cavalry section, Ia Drang (cites After Action Report, Ia Drang Valley Operation, 1st Battalion, 7th Cavalry, 14-16 November 1965, item 1710101004)."
+      url: "https://www.vietnam.ttu.edu/exhibits/helicopter/aircav.php"
+    - label: "Johnson, Lyndon B. \"Remarks Upon Presenting the Presidential Unit Citation to the 1st Cavalry Division (Airmobile) and Attached Units.\" Public Papers of the Presidents; online by Gerhard Peters and John T. Woolley, The American Presidency Project."
+      url: "https://www.presidency.ucsb.edu/documents/remarks-upon-presenting-the-presidential-unit-citation-the-1st-cavalry-division-airmobile"
+  status: "approved"
+  source_text: "[Texas Tech exhibit:] The first major test of the Air Cavalry in battle took place 14-17 November 1965 when the 1st Cavalry engaged North Vietnamese troops in the Ia Drang Valley of the Vietnamese Central Highlands. Elements of the 1st Cav were greatly outnumbered by North Vietnamese forces and American helicopter crews braved extreme enemy fire to reinforce the American ground troops. ... fifty-nine helicopters were damaged, but only four were shot down and three of those were recovered ... Helicopter pilots Maj. Bruce Crandall and Capt. Ed Freeman received the Medal of Honor for their heroic actions in the Ia Drang Valley. [Presidential Unit Citation:] ... succeeded in driving the invading North Vietnamese division back from its positions at Plei Me to the foot of the Chu Pong Massif. There, in the valley of the Ia Drang, the enemy was reinforced by a fresh regiment and undertook preparations for more incursions into Pleiku Province. The 1st Cavalry Division deployed by air its men and weapons to launch an attack on this enemy staging area, which was 35 kilometers from the nearest road and 50 kilometers from the nearest logistical base. Fully utilizing air mobility in applying their combat power in a series of offensive blows, the men of the division completely defeated the numerically superior enemy."
+  summarized_by: "Claude Opus 5.5"
+  summarized_at: "2026-10-25T15:22:14Z"
 
 - month: 4
   day: 30
   year: 1975
-  title: "Fall of Saigon"
-  body: "<p>On April 30, 1975, North Vietnamese tanks crashed through the gates of the Presidential Palace in Saigon, marking the end of the Vietnam War. In the preceding hours, the United States had completed Operation Frequent Wind, the helicopter evacuation of American personnel and at-risk Vietnamese from the city.</p><p>The iconic image of a helicopter atop the Pittman Apartments (often misidentified as the US Embassy) came to symbolize the end of American involvement in Vietnam. South Vietnam ceased to exist as the country was reunified under Communist rule.</p>"
-  photo_url:
-  photo_alt:
+  title: "North Vietnamese tanks crash palace gates in Saigon"
+  body: "<p>On April 30, 1975, North Vietnamese tanks crashed the palace gates in Saigon, just hours after the end of a last-minute evacuation of American civilians and South Vietnamese citizens at risk of retaliation by the communists. The final phase of the evacuation had begun on April 29.</p><p>Ambassador Graham Martin left Saigon aboard a CH-46 military helicopter at 2058Z on April 29, and the last members of the U.S. Marine Corps Ground Security Force left the Embassy complex at 2346Z. During the Frequent Wind Operation, from 0252Z on April 29 to 0054Z on April 30, the U.S. military evacuated 7,806 U.S. citizens and foreign nationals from South Vietnam.</p><p>North Vietnamese Army forces had attacked major cities in the highlands in March 1975, and the South Vietnamese Army crumbled.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Decent Interval by Frank Snepp"
-      url: "https://www.amazon.com/dp/0700612459"
-    - label: "Last Men Out by Bob Drury and Tom Clavin"
-      url: "https://www.amazon.com/dp/1451610351"
-    - label: "The Fall of Saigon, National Archives"
-      url: "https://www.archives.gov/research/military/vietnam-war/fall-of-saigon"
+    - label: "U.S. National Archives and Records Administration, National Archives Museum. \"Episode 12: Fall of Saigon,\" Remembering Vietnam exhibit (online)."
+      url: "https://visit.archives.gov/whats-on/explore-exhibits/episode-12-fall-saigon"
+    - label: "U.S. Department of State, Office of the Historian. \"278. Editorial Note.\" Foreign Relations of the United States, 1969-1976, Volume X, Vietnam, January 1973-July 1975."
+      url: "https://history.state.gov/historicaldocuments/frus1969-76v10/d278"
+  status: "approved"
+  source_text: "[National Archives exhibit:] North Vietnamese Army forces attacked major cities in the highlands in March 1975. The South Vietnamese Army crumbled. ... A frenzied, last-minute evacuation of American civilians and South Vietnamese citizens at risk of retaliation by the communists ended just hours before a North Vietnamese Army tank crashed the Imperial Palace gates. ... April 29, 1975: Final phase of Saigon Evacuation begins | April 30, 1975: North Vietnamese tanks crash gates of Imperial Palace [FRUS editorial note:] The Ambassador to Vietnam, Graham Martin , left Saigon aboard a CH–46 military helicopter at 2058Z, April 29, 1975. The last members of the U.S. Marine Corps Ground Security Force left the Embassy complex at 2346Z. During the Frequent Wind Operation, 0252Z, April 29 to 0054Z, April 30, the U.S. military evacuated 7,806 U.S. citizens and foreign nationals from South Vietnam."
+  summarized_by: "Claude Opus 5.5"
+  summarized_at: "2026-10-25T15:22:14Z"
