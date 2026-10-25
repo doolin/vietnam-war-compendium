@@ -1,143 +1,182 @@
-# Events from the final collapse of South Vietnam, 1975
-# Source: "Final Fiasco: The Fall of Saigon" by Edward Rasen, HistoryNet
-#         https://historynet.com/final-fiasco-the-fall-of-saigon/
+# Events from the final collapse of South Vietnam, 1975. Bodies rewritten 2026-10-25 from the archived copy of
+# Edward Rasen, "Final Fiasco: The Fall of Saigon," HistoryNet, https://historynet.com/final-fiasco-the-fall-of-saigon/
 
 - month: 1
   day: 6
   year: 1975
-  title: "PAVN captures Phuoc Long province"
-  body: "<p>On January 6, 1975, after a month-long battle, People's Army of Vietnam units captured Phuoc Long, a provincial capital just 75 miles north of Saigon. It was the first province lost entirely by South Vietnam since the 1973 Paris Peace Accords. The lack of any American response confirmed Hanoi's assessment that the United States would not re-intervene.</p>"
-  photo_url:
-  photo_alt:
+  title: "PAVN takes Phuoc Long after a monthlong battle"
+  body: "<p>On January 6, 1975, People's Army of Vietnam (PAVN) units took Phuoc Long after a nearly monthlong battle. By early March the unraveling of South Vietnam was in full swing, and on March 12 the PAVN captured Buon Ma Thuot, a provincial capital on the southern edge of the Central Highlands.</p><p>Frank Snepp, the CIA's chief analyst in Vietnam during 1975, said that after the fall of Phuoc Long, President Nguyen Van Thieu realized the United States was not going to save him. Thieu decided to retrench, which Snepp called too little, too late. As of March 14 he conceived a strategy he called \"light at the top, heavy at the bottom,\" pulling forces out of northern South Vietnam and concentrating them around the palace, because he was concerned his military commanders might move against him.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Final Fiasco: The Fall of Saigon by Edward Rasen, HistoryNet"
+    - label: "Edward Rasen, \"Final Fiasco: The Fall of Saigon,\" HistoryNet"
       url: "https://historynet.com/final-fiasco-the-fall-of-saigon/"
-    - label: "Decent Interval by Frank Snepp"
-      url: "https://www.amazon.com/dp/0700612459"
+  status: "approved"
+  source_text: "In January 1975, after a nearly monthlong battle, People’s Army of Vietnam (PAVN) units took Phuoc Long, and by early March the complete unraveling of South Vietnam was in full swing. On March 12, the PAVN captured Buon Ma Thuot, a provincial capital on the southern edge of the strategic Central Highlands. … “After the fall of Phuoc Long, Thieu realized the United States was not going to save him,” recalled Snepp. “He decided to retrench, but it was too little, too late. He conceived a strategy as of March 14 called ‘light at the top, heavy at the bottom,’ pulling forces out of northern South Vietnam and concentrating them around the palace…because he was concerned his military commanders might move against him.”"
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:25:26Z"
 
 - month: 3
   day: 12
   year: 1975
   title: "PAVN captures Buon Ma Thuot"
-  body: "<p>On March 12, 1975, the People's Army of Vietnam captured Buon Ma Thuot, the strategic provincial capital on the southern edge of the Central Highlands. The fall of this key city triggered a chain reaction of military and political decisions that would lead to the collapse of South Vietnam in less than seven weeks.</p><p>President Thieu responded by conceiving a strategy he called 'light at the top, heavy at the bottom' — withdrawing forces from the northern provinces to consolidate around Saigon. The retreat quickly became a rout.</p>"
-  photo_url:
-  photo_alt:
+  body: "<p>On March 12, 1975, the People's Army of Vietnam (PAVN) captured Buon Ma Thuot, a provincial capital on the southern edge of the strategic Central Highlands. In January, PAVN units had taken Phuoc Long after a nearly monthlong battle, and by early March the unraveling of South Vietnam was in full swing.</p><p>President Nguyen Van Thieu decided to abandon Military Regions 1 and 2 to protect Saigon and the Mekong Delta, telling his commanders that the loss of two of four military regions was preferable to a coalition government with the Communists. Like all his predecessors, Thieu had achieved power through a military coup and now feared being the victim of another; he wanted elite military units nearby to protect him from his enemies in the South. He told his National Security Council that he planned to withdraw all military forces from the Central Highlands and warned them not to divulge the decision to anyone.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Final Fiasco: The Fall of Saigon by Edward Rasen, HistoryNet"
+    - label: "Edward Rasen, \"Final Fiasco: The Fall of Saigon,\" HistoryNet"
       url: "https://historynet.com/final-fiasco-the-fall-of-saigon/"
-    - label: "Decent Interval by Frank Snepp"
-      url: "https://www.amazon.com/dp/0700612459"
+  status: "approved"
+  source_text: "On March 12, the PAVN captured Buon Ma Thuot, a provincial capital on the southern edge of the strategic Central Highlands. … In deciding to abandon Military Regions 1 and 2 to protect Saigon and the Mekong Delta, Thieu told his commanders the loss of two of four military regions was preferable to a coalition government with the Communists. … Like all his predecessors, Thieu had achieved power via a military coup and now feared being victim of another. He wanted elite military units nearby to protect him from his enemies in the South. Telling his National Security Council that he planned to withdraw all military forces from the Central Highlands, Thieu warned them not to divulge his decision to anyone."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:25:26Z"
 
 - month: 3
   day: 13
   year: 1975
-  title: "South Vietnamese paratroopers repel attack near the DMZ"
-  body: "<p>On March 13, 1975, South Vietnamese paratroopers repelled an enemy attack east of Route 1 from the demilitarized zone, one of the last successful defensive actions as the military situation deteriorated across the country. Within days, President Thieu's decision to withdraw from the Central Highlands would turn a local defeat into a national catastrophe.</p>"
-  photo_url:
-  photo_alt:
+  title: "Paratroopers repel attack near the DMZ; Thieu orders Airborne Division to Saigon"
+  body: "<p>On March 13, 1975, South Vietnamese paratroopers repelled an enemy attack east of Route 1 from the DMZ. Even so, President Nguyen Van Thieu ordered his elite Airborne Division to deploy from Quang Tri to Saigon. He had decided to abandon Military Regions 1 and 2 to protect Saigon and the Mekong Delta, and he told his commanders that the loss of two of four military regions was preferable to a coalition government with the Communists.</p><p>Thieu had greater fears than a coalition government. Like all his predecessors, he had achieved power through a military coup and now feared being the victim of another; he wanted elite military units nearby to protect him from his enemies in the South. He went to Cam Ranh Bay with the message that the Airborne should be pulled back and shifted around, but, as Frank Snepp, the CIA's chief analyst in Vietnam in 1975, recalled, he did not follow through and did not tell his commanders about his timetable.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Final Fiasco: The Fall of Saigon by Edward Rasen, HistoryNet"
+    - label: "Edward Rasen, \"Final Fiasco: The Fall of Saigon,\" HistoryNet"
       url: "https://historynet.com/final-fiasco-the-fall-of-saigon/"
+  status: "approved"
+  source_text: "And, even though his paratroopers had repelled an enemy attack east of Route 1 from the DMZ on March 13, Thieu ordered his elite Airborne Division to deploy from Quang Tri to Saigon. … However, he had greater fears than a coalition government. Like all his predecessors, Thieu had achieved power via a military coup and now feared being victim of another. He wanted elite military units nearby to protect him from his enemies in the South. … He went to Cam Ranh Bay and his message was, let’s pull the Airborne back, let’s shift them around. “But he didn’t follow through,” Snepp said. “He didn’t tell his commanders about his timetable"
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:25:26Z"
 
 - month: 3
   day: 14
   year: 1975
-  title: "Thieu orders withdrawal from the Central Highlands"
-  body: "<p>On March 14, 1975, President Nguyen Van Thieu ordered the withdrawal from the Central Highlands, conceiving the strategy he called 'light at the top, heavy at the bottom' — abandoning the northern provinces to consolidate South Vietnamese forces around Saigon and the Mekong Delta. The withdrawal, poorly planned and executed in secrecy, quickly became a chaotic rout as soldiers and civilians fled south together.</p>"
-  photo_url:
-  photo_alt:
+  title: "Thieu adopts 'light at the top, heavy at the bottom' strategy"
+  body: "<p>On March 14, 1975, President Nguyen Van Thieu conceived a strategy he called \"light at the top, heavy at the bottom,\" pulling forces out of northern South Vietnam and concentrating them around the palace. Frank Snepp, the CIA's chief analyst in Vietnam in 1975, said Thieu retrenched after the fall of Phuoc Long made him realize the United States was not going to save him, and because he was concerned his military commanders might move against him. Snepp called it too little, too late.</p><p>Thieu did not follow through, Snepp said. He did not tell his commanders about his timetable, so when the North Vietnamese moved out of the Central Highlands and concentrated in Military Region 1, the South Vietnamese army was in a confused state. Thieu had also deliberately deceived the Americans; the CIA learned what he was doing only belatedly, from electronic intercepts, after the Communists began talking about it. The North Vietnamese quickly turned their forces and cut off the retreating South Vietnamese army.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Final Fiasco: The Fall of Saigon by Edward Rasen, HistoryNet"
+    - label: "Edward Rasen, \"Final Fiasco: The Fall of Saigon,\" HistoryNet"
       url: "https://historynet.com/final-fiasco-the-fall-of-saigon/"
-    - label: "Decent Interval by Frank Snepp"
-      url: "https://www.amazon.com/dp/0700612459"
+  status: "approved"
+  source_text: "“He conceived a strategy as of March 14 called ‘light at the top, heavy at the bottom,’ pulling forces out of northern South Vietnam and concentrating them around the palace…because he was concerned his military commanders might move against him.” … “But he didn’t follow through,” Snepp said. “He didn’t tell his commanders about his timetable, so when the North Vietnamese moved out of the Central Highlands and concentrated in Military Region 1, the South Vietnamese army was in a confused state.” … “We didn’t know what Thieu was planning because he had deliberately deceived us,” said Snepp. … The North Vietnamese quickly turned their forces and cut off the retreating South Vietnamese army."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:25:26Z"
 
 - month: 3
   day: 25
   year: 1975
-  title: "South Vietnamese army disintegrates in retreat"
-  body: "<p>By March 25, 1975, approximately 150,000 South Vietnamese soldiers had been annihilated or simply disappeared in the chaotic withdrawal from the Central Highlands and northern provinces. What President Thieu had envisioned as a strategic redeployment had become a catastrophic rout, with entire divisions ceasing to exist as fighting units.</p>"
-  photo_url:
-  photo_alt:
+  title: "South Vietnamese army collapses in the northern half of the country"
+  body: "<p>On March 25, 1975, the date from which a CIA report later counted the losses, the South Vietnamese army in the northern half of the country was collapsing. Some 150,000 South Vietnamese soldiers were annihilated or simply disappeared from that date onward, according to the report, and the North Vietnamese captured more than $1 billion worth of equipment, including 400 airplanes and helicopters.</p><p>Frank Snepp, the CIA's chief analyst in Vietnam in 1975, tied the speed of the collapse to President Nguyen Van Thieu's failure to tell his commanders the timetable for his withdrawal, which left the army in a confused state when the North Vietnamese moved out of the Central Highlands and concentrated in Military Region 1. The North Vietnamese quickly turned their forces and cut off the retreating South Vietnamese army.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Final Fiasco: The Fall of Saigon by Edward Rasen, HistoryNet"
+    - label: "Edward Rasen, \"Final Fiasco: The Fall of Saigon,\" HistoryNet"
       url: "https://historynet.com/final-fiasco-the-fall-of-saigon/"
+  status: "approved"
+  source_text: "Kissinger knew, however, that the CIA had reported that some 150,000 South Vietnamese soldiers in the northern half of the country had been annihilated or simply disappeared since March 25, 1975, and that the North Vietnamese had captured more than $1 billion worth of equipment, including 400 airplanes and helicopters. … “He didn’t tell his commanders about his timetable, so when the North Vietnamese moved out of the Central Highlands and concentrated in Military Region 1, the South Vietnamese army was in a confused state. That was one of the reasons they collapsed so rapidly.” … The North Vietnamese quickly turned their forces and cut off the retreating South Vietnamese army."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:25:26Z"
 
 - month: 3
   day: 31
   year: 1975
-  title: "Colonel LeGro warns defeat is inevitable"
-  body: "<p>On March 31, 1975, Colonel William LeGro, the senior U.S. intelligence officer remaining in Vietnam, told General Frederick Weyand that it was 'already too late' to prevent South Vietnam's defeat. That same day, the Provisional Revolutionary Government announced its willingness to discuss talks with South Vietnamese leaders — terms that amounted to a demand for surrender.</p>"
-  photo_url:
-  photo_alt:
+  title: "Colonel LeGro tells Weyand it is 'already too late' for military aid"
+  body: "<p>On March 31, 1975, Colonel William LeGro, the Defense Attaché Office intelligence chief, told General Fred Weyand that it was \"already too late\" for military aid. In his report to Weyand he wrote, \"defeat is all but certain within 90 days.\" His assessment differed from that of Weyand and Ambassador Graham Martin, who believed the lack of ammunition and fuel was the primary reason for the collapse of the Army of the Republic of Vietnam (ARVN) and that a rapid injection of military aid would enable South Vietnam to survive another six weeks until the rainy season began.</p><p>The same day, the Provisional Revolutionary Government (PRG) announced over Liberation Radio that it would consider talks with South Vietnamese leaders, but only after \"traitor Thieu\" was removed from office. Thomas Polgar, the CIA station chief in Saigon, believed the North Vietnamese could capture Saigon but thought they would prefer a coalition government led by a South Vietnamese neutralist such as General Duong Van Minh.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Final Fiasco: The Fall of Saigon by Edward Rasen, HistoryNet"
+    - label: "Edward Rasen, \"Final Fiasco: The Fall of Saigon,\" HistoryNet"
       url: "https://historynet.com/final-fiasco-the-fall-of-saigon/"
+  status: "approved"
+  source_text: "Weyand and Martin believed that the lack of ammunition and fuel was the primary reason for the Army of the Republic of Vietnam’s (ARVN) collapse and that a rapid injection of military aid would enable South Vietnam to survive another six weeks until the rainy season began … Colonel William LeGro, the Defense Attaché Office intelligence chief, told Weyand on March 31 that it was “already too late” for military aid. In his report to Weyand, he wrote, “defeat is all but certain within 90 days.” … Indeed, on March 31, the Provisional Revolutionary Government (PRG) had announced over Liberation Radio that it would consider talks with South Vietnamese leaders, but only after “traitor Thieu” was removed from office."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:25:26Z"
 
 - month: 4
   day: 2
   year: 1975
-  title: "South Vietnam's National Assembly turns on Thieu"
-  body: "<p>On April 2, 1975, South Vietnam's National Assembly accused President Thieu of abuse of power and demanded his removal, as the military situation deteriorated beyond recovery. CIA Station Chief Thomas Polgar warned the White House that collapse was imminent. The political disintegration mirrored the military collapse already underway across the country.</p>"
-  photo_url:
-  photo_alt:
+  title: "South Vietnam's National Assembly accuses Thieu of abuse of power"
+  body: "<p>On April 2, 1975, South Vietnam's National Assembly accused President Nguyen Van Thieu of \"abuse of power, corruption and social injustice\" and called for a new \"government of national union.\" The same day, Thomas Polgar, the CIA station chief in Saigon, sent a top-secret cable to the White House warning that South Vietnam would collapse within \"the next few months\" if Thieu was not removed from office, and the French ambassador to South Vietnam began actively supporting General Duong Van Minh as Thieu's successor.</p><p>Also on April 2, CIA Director William Colby told President Gerald Ford's Washington Special Action Group that \"the balance of forces in South Vietnam has now shifted decisively in the Communists' favor.\" Colby's conclusion followed the ARVN's abandonment the day before of Nha Trang, capital of Khanh Hoa province, even though the city had not been attacked or even probed by the North Vietnamese. Two days later the Roman Catholic archbishop for Saigon, Nguyen Van Binh, demanded that Thieu resign; former premier Nguyen Cao Ky endorsed the demand and secretly began to organize a coup.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Final Fiasco: The Fall of Saigon by Edward Rasen, HistoryNet"
+    - label: "Edward Rasen, \"Final Fiasco: The Fall of Saigon,\" HistoryNet"
       url: "https://historynet.com/final-fiasco-the-fall-of-saigon/"
+  status: "approved"
+  source_text: "The day after Nha Trang was abandoned, April 2, South Vietnam’s National Assembly accused Thieu of “abuse of power, corruption and social injustice” and called for a new “government of national union.” The same day, Polgar sent a top-secret cable to the White House warning that South Vietnam would collapse within “the next few months” if Thieu was not removed from office. The French ambassador to South Vietnam began actively supporting General Minh as Thieu’s successor. Two days later, the Roman Catholic archbishop for Saigon, Nguyen Van Binh, demanded that Thieu resign … CIA Director William Colby told President Ford’s Washington Special Action Group (WSAG) on April 2: “The balance of forces in South Vietnam has now shifted decisively in the Communists’ favor.”"
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:25:26Z"
 
 - month: 4
   day: 5
   year: 1975
   title: "General Weyand reports privately to Ford and Kissinger"
-  body: "<p>On April 5, 1975, General Frederick Weyand, just returned from Saigon, reported privately to President Ford and Secretary of State Kissinger at Palm Springs. His assessment was grim: South Vietnam was collapsing and only massive American aid could change the outcome. Ford would soon ask Congress for $722 million in emergency military assistance — a request Congress would reject.</p>"
-  photo_url:
-  photo_alt:
+  body: "<p>On April 5, 1975, General Fred Weyand, Army chief of staff and former commander of the Military Assistance Command Vietnam, reported privately to President Gerald Ford and Secretary of State Henry Kissinger in Palm Springs after his trip to Saigon to assess the situation. Before departing Saigon he had told reporters that the South Vietnamese military forces \"are still strong and have the capability to defeat the North Vietnamese.\" His report said otherwise: \"The current military situation is critical and the probability of the survival of South Vietnam as a truncated nation is marginal at best. The Government of Vietnam is on the brink of military defeat.\"</p><p>To buy time, Weyand urged Ford to ask Congress for $722 million in emergency military aid. He also told Ford, \"Thieu will have to step down.\"</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Final Fiasco: The Fall of Saigon by Edward Rasen, HistoryNet"
+    - label: "Edward Rasen, \"Final Fiasco: The Fall of Saigon,\" HistoryNet"
       url: "https://historynet.com/final-fiasco-the-fall-of-saigon/"
+  status: "approved"
+  source_text: "Before departing Saigon, General Weyand told reporters that the South Vietnamese military forces “are still strong and have the capability to defeat the North Vietnamese.” However, he privately told a different story to Ford and Kissinger in Palm Springs on April 5. In his report, Weyand wrote: “The current military situation is critical and the probability of the survival of South Vietnam as a truncated nation is marginal at best. The Government of Vietnam is on the brink of military defeat. …” To buy time, Weyand urged the president to ask Congress for $722 million in emergency military aid. He also told Ford, “Thieu will have to step down.”"
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:25:26Z"
 
 - month: 4
   day: 10
   year: 1975
   title: "Ford asks Congress for $722 million in emergency aid"
-  body: "<p>On April 10, 1975, in a televised address, President Gerald Ford asked Congress for $722 million in emergency military assistance for South Vietnam, warning that the fall of Saigon was imminent without American support. Congress, weary of the war and skeptical that more money could change the outcome, would ultimately reject the request.</p>"
-  photo_url:
-  photo_alt:
+  body: "<p>On April 10, 1975, in a televised speech to a joint session of Congress, President Gerald Ford asked for $722 million in emergency military aid for South Vietnam and an additional $250 million for refugee relief. He blamed Congress for not providing \"adequate support\" to South Vietnam and implied that North Vietnam's invasion was a direct result. He made no mention of the warnings from General Fred Weyand and CIA Director William Colby that South Vietnam was on the brink of collapse.</p><p>Ford's domestic political advisers, including Donald Rumsfeld, John Marsh and speechwriter Bob Hartmann, were taken aback by the speech's confrontational stance. The next day, Senator John McClellan, chairman of the Senate Appropriations Committee, told Secretary of State Henry Kissinger, \"I think it is too late to do any good.\"</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Final Fiasco: The Fall of Saigon by Edward Rasen, HistoryNet"
+    - label: "Edward Rasen, \"Final Fiasco: The Fall of Saigon,\" HistoryNet"
       url: "https://historynet.com/final-fiasco-the-fall-of-saigon/"
+  status: "approved"
+  source_text: "In a televised speech to a joint session of Congress on April 10, Ford blamed Congress for not providing “adequate support” to South Vietnam and implied that North Vietnam’s invasion was a direct result. He made no mention of Weyand’s and Colby’s warnings that South Vietnam was on the brink of collapse, but he did ask for the $722 million and an additional $250 million for refugee relief. … Ford’s top domestic political advisers, including Donald Rumsfeld, John Marsh and speechwriter Bob Hartmann, were taken aback by the president’s confrontational stance. … Senator John McClellan, committee chairman … “I think it is too late to do any good.”"
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:25:26Z"
 
 - month: 4
   day: 16
   year: 1975
-  title: "Phan Rang defense line collapses; Senate rejects emergency aid"
-  body: "<p>On April 16, 1975, the defense line at Phan Rang — the last hope for a shortened, defensible perimeter around Saigon — was penetrated by North Vietnamese forces. The same day, the Senate Armed Forces Committee formally rejected President Ford's request for $722 million in emergency military aid to South Vietnam, sealing the country's fate.</p>"
-  photo_url:
-  photo_alt:
+  title: "PAVN divisions penetrate the Weyand line at Phan Rang"
+  body: "<p>On April 16, 1975, two People's Army of Vietnam (PAVN) divisions penetrated the so-called Weyand line of defense at Phan Rang, 370 kilometers northeast of Saigon. General Fred Weyand had proposed the line at his April 3 meeting with President Nguyen Van Thieu, along with a second line along Highway 4 between Saigon and the Cambodian border.</p><p>The same day, President Gerald Ford told the American Society of Newspaper Editors that the action of Congress \"didn't make me proud to be an American,\" saying, \"The United States did not carry out its commitment in the supplying of military hardware and economic aid. If we had, this present tragic situation in South Vietnam would not have occurred.\" The next day Ford learned that the Senate Armed Forces Committee had rejected his emergency aid request, and two days after that CIA Director William Colby told him, \"South Vietnam faces total defeat and soon.\"</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Final Fiasco: The Fall of Saigon by Edward Rasen, HistoryNet"
+    - label: "Edward Rasen, \"Final Fiasco: The Fall of Saigon,\" HistoryNet"
       url: "https://historynet.com/final-fiasco-the-fall-of-saigon/"
+  status: "approved"
+  source_text: "The so-called Weyand line of defense at Phan Rang was penetrated on April 16 by two PAVN divisions. … Weyand also proposed a new line of defense at Phan Rang, 370 kilometers northeast of Saigon, and a second line along Highway 4, between Saigon and the Cambodian border. … The action of Congress, “didn’t make me proud to be an American,” he told the American Society of Newspaper Editors on April 16. “The United States did not carry out its commitment in the supplying of military hardware and economic aid. If we had, this present tragic situation in South Vietnam would not have occurred.” … “Those bastards!” yelled Ford when informed on April 17 that the Senate Armed Forces Committee rejected his emergency aid request."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:25:26Z"
 
 - month: 4
   day: 21
   year: 1975
   title: "President Thieu resigns"
-  body: "<p>On April 21, 1975, President Nguyen Van Thieu announced his resignation at noon in a bitter, tearful television address, denouncing the United States for abandoning South Vietnam. He handed control to Vice President Tran Van Huong, who would himself hand power to General Duong Van Minh just days before the end. Thieu soon fled the country with a reported fortune in gold.</p>"
-  photo_url:
-  photo_alt:
+  body: "<p>On April 21, 1975, at noon, President Nguyen Van Thieu told close advisers that he intended to resign that evening during a speech to South Vietnam's National Assembly. South Vietnamese Army units had withdrawn the previous evening from Xuan Loc, the last line of defense for Saigon. In the speech, Thieu tearfully said the United States \"ran away and left us.\" He handed control to Tran Van Huong, the 72-year-old half-blind vice president.</p><p>The night before the resignation, CIA station chief Thomas Polgar had assigned Frank Snepp to collect Thieu at the deputy prime minister's house and take him to Tan Son Nhut airbase so he could escape the country. Snepp recalled that Thieu was drunk when he arrived, and that aides shoved suitcases into the car that clinked with metal: Thieu was moving the last of his personal fortune in gold bullion out of the country. A CIA C-130 waited to fly Thieu to Taiwan; after he boarded, Ambassador Graham Martin yanked the ramp away from the aircraft.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Final Fiasco: The Fall of Saigon by Edward Rasen, HistoryNet"
+    - label: "Edward Rasen, \"Final Fiasco: The Fall of Saigon,\" HistoryNet"
       url: "https://historynet.com/final-fiasco-the-fall-of-saigon/"
-    - label: "Decent Interval by Frank Snepp"
-      url: "https://www.amazon.com/dp/0700612459"
+  status: "approved"
+  source_text: "During the evening of April 20, South Vietnamese Army units withdrew from Xuan Loc, the last line of defense for Saigon. Seeing the writing on the wall, at noon the next day Thieu told close advisers that he intended to resign that evening during a speech to South Vietnam’s National Assembly. In a command performance, he tearfully said the United States “ran away and left us.” Thieu handed control to Tran Van Huong, the 72-year-old half-blind vice president. … “He was moving the last of his personal fortune in gold bullion out of the country.” Polgar was standing by at the CIA’s black C-130 aircraft waiting to whisk Thieu to Taiwan."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:25:26Z"
 
 - month: 4
   day: 24
   year: 1975
   title: "Ford declares the war 'finished' at Tulane University"
-  body: "<p>On April 24, 1975, President Gerald Ford delivered a speech at Tulane University in which he declared that the Vietnam War was 'finished as far as America is concerned.' The student audience erupted in applause. In Saigon, Americans still awaiting evacuation heard the speech with a mixture of relief and dread.</p>"
-  photo_url:
-  photo_alt:
+  body: "<p>On April 24, 1975, President Gerald Ford delivered a speech at Tulane University written by Bob Hartmann. Speaking of American pride, Ford declared that \"it cannot be achieved by fighting a war that is finished as far as America is concerned.\" The predominantly student audience exploded with wild cheers, and Ford displayed a mile-wide smile.</p><p>Hartmann, a presidential speechwriter, had been among the domestic political advisers taken aback by Ford's confrontational April 10 speech to Congress. With the Tulane speech, Hartmann got some revenge against Secretary of State Henry Kissinger. On April 28, Ambassador Graham Martin cabled Kissinger predicting that Americans would be in Saigon \"for a year or more.\"</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Final Fiasco: The Fall of Saigon by Edward Rasen, HistoryNet"
+    - label: "Edward Rasen, \"Final Fiasco: The Fall of Saigon,\" HistoryNet"
       url: "https://historynet.com/final-fiasco-the-fall-of-saigon/"
+  status: "approved"
+  source_text: "Bob Hartmann wrote the speech President Ford delivered on April 24 at Tulane University and got some revenge against Kissinger for Ford’s speech to Congress on April 10. Hartmann wrote about American pride, and Ford declared, “it cannot be achieved by fighting a war that is finished as far as America is concerned.” The predominantly student audience exploded with wild cheers. Ford displayed a mile-wide smile. … Ford’s top domestic political advisers, including Donald Rumsfeld, John Marsh and speechwriter Bob Hartmann, were taken aback by the president’s confrontational stance. … On April 28, Martin sent Kissinger a classified cable in which he predicted Americans would be in Saigon “for a year or more.”"
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:25:26Z"

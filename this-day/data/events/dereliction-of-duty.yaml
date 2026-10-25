@@ -1,343 +1,466 @@
-# Events from Dereliction of Duty by H.R. McMaster
-# Source: kindle-highlights/dereliction-of-duty.yaml (quality-5 highlights)
-
+# Events rewritten from H. R. McMaster, Dereliction of Duty: Johnson, McNamara, the Joint Chiefs of Staff (ISBN 0060929081)
+# Source highlights: kindle-highlights/dereliction-of-duty.yaml
 - month: 11
   day: 26
   year: 1963
-  title: "NSAM 273 issued after Kennedy assassination"
-  body: "<p>National Security Action Memorandum 273 was issued on November 26, 1963, four days after President Kennedy's assassination. The JCS would later reference NSAM 273 in a January 22, 1964 memorandum to McNamara on Vietnam and Southeast Asia.</p>"
-  photo_url:
-  photo_alt:
+  title: "NSAM 273 issued"
+  body: "<p>On November 26, 1963, NSAM 273 was issued. On January 22, 1964, the JCS sent McNamara a memorandum on Vietnam and Southeast Asia that referenced NSAM 273 of November 26, 1963.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Dereliction of Duty by H.R. McMaster"
-      url: "https://www.goodreads.com/book/show/422680.Dereliction_of_Duty"
+    - label: "H.R. McMaster, Dereliction of Duty (1998), Kindle location 1323"
+      url: https://openlibrary.org/isbn/0060929081
+  status: approved
+  source_text: "[loc 1323] On January 22, 1964, the JCS sent McNamara a memorandum on Vietnam and Southeast Asia that referenced NSAM 273 of November 26, 1963."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:26:48Z"
 
 - month: 1
   day: 22
   year: 1964
-  title: "JCS send McNamara memorandum on Vietnam"
-  body: "<p>On January 22, 1964, the Joint Chiefs of Staff sent Secretary of Defense McNamara a memorandum on Vietnam and Southeast Asia that referenced NSAM 273 of November 26, 1963.</p>"
-  photo_url:
-  photo_alt:
+  title: "JCS send McNamara memorandum on Vietnam and Southeast Asia"
+  body: "<p>On January 22, 1964, the JCS sent McNamara a memorandum on Vietnam and Southeast Asia. The memorandum referenced NSAM 273 of November 26, 1963.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Dereliction of Duty by H.R. McMaster"
-      url: "https://www.goodreads.com/book/show/422680.Dereliction_of_Duty"
+    - label: "H.R. McMaster, Dereliction of Duty (1998), Kindle location 1323"
+      url: https://openlibrary.org/isbn/0060929081
+  status: approved
+  source_text: "[loc 1323] On January 22, 1964, the JCS sent McNamara a memorandum on Vietnam and Southeast Asia that referenced NSAM 273 of November 26, 1963."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:26:48Z"
 
 - month: 4
   day: 19
   year: 1964
-  title: "Rusk and Wheeler travel to Saigon to discuss OPLAN 37-64"
-  body: "<p>On April 19 and 20, Secretary of State Rusk, General Wheeler, and Assistant Secretary of State for Far Eastern Affairs William Bundy traveled to Saigon to discuss OPLAN 37-64 with Ambassador Lodge.</p>"
-  photo_url:
-  photo_alt:
+  title: "Rusk, Wheeler, and William Bundy discuss OPLAN 37-64 with Lodge in Saigon"
+  body: "<p>On April 19, 1964, Rusk, General Wheeler, and Assistant Secretary of State for Far Eastern Affairs William Bundy traveled to Saigon to discuss OPLAN 37–64 with Lodge. The discussions continued on April 20.</p><p>Graduated pressure, the strategy under discussion, depended on the assumption that the limited application of force would compel the North Vietnamese to the negotiating table and exact from them a favorable diplomatic settlement. In this view there was no need to pursue military victory, because negotiations would achieve the same political objectives with only the threat of more severe military action. The only question was \"when, not if, the enemy would be induced to negotiate.\"</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Dereliction of Duty by H.R. McMaster"
-      url: "https://www.goodreads.com/book/show/422680.Dereliction_of_Duty"
+    - label: "H.R. McMaster, Dereliction of Duty (1998), Kindle locations 1918, 1920"
+      url: https://openlibrary.org/isbn/0060929081
+  status: approved
+  source_text: "[loc 1918] Graduated pressure depended on the assumption that the limited application of force would compel the North Vietnamese to the negotiating table and exact from them a favorable diplomatic settlement. There was no need to pursue military victory because negotiations would achieve the same political objectives with only the threat of more severe military action. [loc 1920] The only question was when, not if, the enemy would be induced to negotiate. On April 19 and 20, Rusk, General Wheeler, and Assistant Secretary of State for Far Eastern Affairs William Bundy traveled to Saigon to discuss OPLAN 37–64 with Lodge."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:26:48Z"
 
 - month: 5
   day: 13
   year: 1964
-  title: "Wall Street Journal criticizes lack of U.S. strategy in Vietnam"
-  body: "<p>A May 13 editorial in the Wall Street Journal titled \"Error Upon Error\" observed that \"it is almost impossible to figure out what is the U.S. strategy,\" and declared that \"the evidence indicates the lack of any plan.\"</p>"
-  photo_url:
-  photo_alt:
+  title: "Wall Street Journal editorial finds \"the lack of any plan\" in Vietnam"
+  body: "<p>On May 13, 1964, an editorial in the Wall Street Journal titled \"Error Upon Error\" observed that \"it is almost impossible to figure out what is the U.S. strategy,\" and declared that \"the evidence indicates the lack of any plan.\"</p><p>Within the government, the military tried gradually to erode barriers to further action, while McNamara, suspicious of the military's behavior and eager to avoid increasing the troop strength in Vietnam, was determined to make the generals justify every request quantitatively, in writing. He ordered the MACV officers to base their requests on quantitative data so that his staff could test their validity.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Dereliction of Duty by H.R. McMaster"
-      url: "https://www.goodreads.com/book/show/422680.Dereliction_of_Duty"
+    - label: "H.R. McMaster, Dereliction of Duty (1998), Kindle locations 1990, 1983, 1965"
+      url: https://openlibrary.org/isbn/0060929081
+  status: approved
+  source_text: "[loc 1990] A May 13 editorial in the Wall Street Journal titled “Error Upon Error” observed that “it is almost impossible to figure out what is the U.S. strategy,” and declared that “the evidence indicates the lack of any plan.” [loc 1983] The military tried gradually to erode barriers to further action, while McNamara, suspicious of the military’s behavior and eager to avoid increasing the troop strength in Vietnam, was determined to make the generals justify every request quantitatively, in writing. [loc 1965] He ordered the MACV officers to base their requests on quantitative data so his staff could test their validity."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:26:48Z"
 
 - month: 5
   day: 19
   year: 1964
   title: "U.S. begins reconnaissance flights over Laos"
-  body: "<p>The United States began photo and reconnaissance flights over Laos on May 19 to track the fighting between government forces and Pathet Lao guerrillas on the Plain of Jars.</p>"
-  photo_url:
-  photo_alt:
+  body: "<p>On May 19, 1964, the United States began photo and reconnaissance flights over Laos to track the fighting between government forces and Pathet Lao guerrillas on the Plain of Jars.</p><p>On June 6 the Pathet Lao shot down a photo reconnaissance jet. The next day, June 7, another escort aircraft was shot down over Laos.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Dereliction of Duty by H.R. McMaster"
-      url: "https://www.goodreads.com/book/show/422680.Dereliction_of_Duty"
+    - label: "H.R. McMaster, Dereliction of Duty (1998), Kindle locations 2111, 2132"
+      url: https://openlibrary.org/isbn/0060929081
+  status: approved
+  source_text: "[loc 2111] The United States had begun photo and reconnaissance flights over Laos on May 19 to track the fighting between government forces and Pathet Lao guerrillas on the Plain of Jars. On June 6 the Pathet Lao shot down a photo reconnaissance jet. [loc 2132] The next day, June 7, another escort aircraft was shot down over Laos."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:26:48Z"
 
 - month: 5
   day: 25
   year: 1964
   title: "NSC Executive Committee refines graduated pressure memo"
-  body: "<p>On May 25 the Executive Committee of the NSC prepared a memo entitled \"Basic Recommendations and Projected Course of Action on Southeast Asia,\" which refined McNamara's earlier memo on graduated pressure.</p>"
-  photo_url:
-  photo_alt:
+  body: "<p>On May 25, 1964, the Executive Committee of the NSC prepared a memo entitled \"Basic Recommendations and Projected Course of Action on Southeast Asia,\" which refined McNamara's earlier memo on graduated pressure. The president agreed to call a meeting of government officials from Saigon and Washington in Honolulu from June 1 to 3.</p><p>On May 30, just prior to the Honolulu conference, the JCS met without Taylor present and prepared a memorandum expressing concern over the \"lack of definition, even a confusion in respect to objectives.\" The memorandum criticized the gradual options under consideration because they were based on a \"lesser objective\" of persuading rather than compelling the North Vietnamese to change their policy and terminate their \"subversive support.\"</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Dereliction of Duty by H.R. McMaster"
-      url: "https://www.goodreads.com/book/show/422680.Dereliction_of_Duty"
+    - label: "H.R. McMaster, Dereliction of Duty (1998), Kindle locations 2030, 2040, 2058, 2063"
+      url: https://openlibrary.org/isbn/0060929081
+  status: approved
+  source_text: "[loc 2030] On May 25 the Executive Committee of the NSC prepared a memo entitled Basic Recommendations and Projected Course of Action on Southeast Asia, which refined McNamara’s earlier memo on graduated pressure. [loc 2040] The president agreed to call a meeting of government officials from Saigon and Washington in Honolulu from June 1 to 3. [loc 2058] May 30, just prior to the Honolulu conference, the JCS met without Taylor present and prepared a memorandum expressing concern over the “lack of definition, even a confusion in respect to objectives [loc 2063] The memorandum criticized the gradual options under consideration because they were based on a “lesser objective” of persuading rather than compelling the North Vietnamese to change their policy and terminate their “subversive support.”"
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:26:48Z"
 
 - month: 6
   day: 6
   year: 1964
-  title: "Pathet Lao shoots down U.S. reconnaissance jet over Laos"
-  body: "<p>On June 6 the Pathet Lao shot down a U.S. photo reconnaissance jet over Laos. The United States had begun these flights on May 19 to track fighting between government forces and Pathet Lao guerrillas on the Plain of Jars.</p>"
-  photo_url:
-  photo_alt:
+  title: "Pathet Lao shoot down U.S. reconnaissance jet over Laos"
+  body: "<p>On June 6, 1964, the Pathet Lao shot down a United States photo reconnaissance jet over Laos. The United States had begun photo and reconnaissance flights over Laos on May 19 to track the fighting between government forces and Pathet Lao guerrillas on the Plain of Jars.</p><p>The next day, June 7, another escort aircraft was shot down over Laos.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Dereliction of Duty by H.R. McMaster"
-      url: "https://www.goodreads.com/book/show/422680.Dereliction_of_Duty"
+    - label: "H.R. McMaster, Dereliction of Duty (1998), Kindle locations 2111, 2132"
+      url: https://openlibrary.org/isbn/0060929081
+  status: approved
+  source_text: "[loc 2111] The United States had begun photo and reconnaissance flights over Laos on May 19 to track the fighting between government forces and Pathet Lao guerrillas on the Plain of Jars. On June 6 the Pathet Lao shot down a photo reconnaissance jet. [loc 2132] The next day, June 7, another escort aircraft was shot down over Laos."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:26:48Z"
 
 - month: 7
   day: 7
   year: 1964
-  title: "Ambassador Taylor arrives in Saigon, reorganizes mission"
-  body: "<p>Ambassador Maxwell Taylor arrived in Saigon on July 7, 1964. He wasted no time exercising his broad license, cabling that he was reorganizing operations in Saigon \"under direction of a U.S. Mission Council over which I will preside.\"</p>"
-  photo_url:
-  photo_alt:
+  title: "Taylor arrives in Saigon and reorganizes the U.S. mission"
+  body: "<p>On July 7, 1964, the day he arrived in Saigon, Taylor cabled that he was reorganizing operations in Saigon \"under direction of a U.S. Mission Council over which I will preside.\" He wasted no time exercising his broad license and promised to undertake a vigorous review of all mission activities.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Dereliction of Duty by H.R. McMaster"
-      url: "https://www.goodreads.com/book/show/422680.Dereliction_of_Duty"
+    - label: "H.R. McMaster, Dereliction of Duty (1998), Kindle location 2280"
+      url: https://openlibrary.org/isbn/0060929081
+  status: approved
+  source_text: "[loc 2280] Taylor wasted no time exercising his broad license. He promised to undertake a vigorous review of all mission activities. On July 7, the day he arrived in Saigon, he cabled that he was reorganizing operations in Saigon “under direction of a U.S. Mission Council over which I will preside.”"
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:26:48Z"
 
 - month: 7
   day: 22
   year: 1964
-  title: "JCS authorize DESOTO patrol in Gulf of Tonkin"
-  body: "<p>On July 22 the Joint Chiefs authorized a July 31 DESOTO patrol to assess North Vietnamese naval capability. Separately, on the night of July 30-31, under orders from General Westmoreland, four MAROPS patrol boats departed Danang for targets on the islands of Hon Me and Hon Nieu in the Gulf of Tonkin.</p>"
-  photo_url:
-  photo_alt:
+  title: "Joint Chiefs authorize DESOTO patrol in the Gulf of Tonkin"
+  body: "<p>On July 22, 1964, the Joint Chiefs authorized a July 31 DESOTO patrol to assess North Vietnamese naval capability. Separately, on the night of July 30–31, under orders from General Westmoreland, four of the MAROPS patrol boats departed Danang for targets on the islands of Hon Me and Hon Nieu in the Gulf of Tonkin.</p><p>Maritime operations (MAROPS) involved teams of South Vietnamese sailors and saboteurs using small, high-speed motor boats commanded and crewed by U.S. Navy SEALs. Equipped with 40-mm cannons or 81-mm mortars, the boats either shelled their objectives or landed frogmen to plant explosives. After hitting their targets, the teams withdrew to their base in Danang, South Vietnam. Covert operations appealed to McNamara because they allowed him to apply carefully measured pressure against North Vietnam without jeopardizing the president's campaign.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Dereliction of Duty by H.R. McMaster"
-      url: "https://www.goodreads.com/book/show/422680.Dereliction_of_Duty"
+    - label: "H.R. McMaster, Dereliction of Duty (1998), Kindle locations 2464, 2448, 2445"
+      url: https://openlibrary.org/isbn/0060929081
+  status: approved
+  source_text: "[loc 2464] On July 22 the Joint Chiefs authorized a July 31 DESOTO patrol to assess North Vietnamese naval capability. Separately, on the night of July 30–31, under orders from General Westmoreland, four of the MAROPS patrol boats departed Danang for targets on the islands of Hon Me and Hon Nieu in the Gulf of Tonkin. [loc 2448] Maritime operations (MAROPS) involved teams of South Vietnamese sailors and saboteurs using small, high-speed motor boats commanded and crewed by U.S. Navy SEALs. Equipped with 40-mm cannons or 81-mm mortars, the boats either shelled their objectives or landed frogmen to plant explosives. After hitting their targets, the teams withdrew to their base in Danang, South Vietnam. [loc 2445] Above all, covert operations appealed to McNamara because they allowed him to apply carefully measured pressure against North Vietnam without jeopardizing the president’s campaign."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:26:48Z"
 
 - month: 8
   day: 2
   year: 1964
-  title: "North Vietnamese torpedo boats attack USS Maddox"
-  body: "<p>At 3:40 P.M. Saigon time on August 2, CINCPAC Admiral Sharp sent a flash message to Admiral McDonald and the Joint Chiefs reporting that three torpedo boats had attacked the Navy destroyer Maddox in the Gulf of Tonkin.</p>"
-  photo_url:
-  photo_alt:
+  title: "Torpedo boats attack the destroyer Maddox in the Gulf of Tonkin"
+  body: "<p>On August 2, 1964, at 3:40 P.M. Saigon time, the CINCPAC, Admiral Sharp, sent a flash message to Admiral McDonald and the Joint Chiefs. He reported that three torpedo boats had attacked the Navy destroyer Maddox in the Gulf of Tonkin.</p><p>In the discussions that followed, Ball recommended that Forrestal work with McNamara's staff in the ISA division to develop some \"announceable rules for engagement that would appear fierce.\"</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Dereliction of Duty by H.R. McMaster"
-      url: "https://www.goodreads.com/book/show/422680.Dereliction_of_Duty"
+    - label: "H.R. McMaster, Dereliction of Duty (1998), Kindle locations 2467, 2494"
+      url: https://openlibrary.org/isbn/0060929081
+  status: approved
+  source_text: "[loc 2467] At 3: 40 P.M. Saigon time on August 2, the CINCPAC, Admiral Sharp, sent a flash message to Admiral McDonald and the Joint Chiefs. He reported that three torpedo boats had attacked the Navy destroyer Maddox in the Gulf of Tonkin. [loc 2494] As an alternative Ball recommended that Forrestal work with McNamara’s staff in the ISA division to develop some “announceable rules for engagement that would appear fierce.”"
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:26:48Z"
 
 - month: 8
   day: 3
   year: 1964
-  title: "MAROPS boats shell North Vietnamese targets after Tonkin incident"
-  body: "<p>After midnight on August 3, two PT boats poured 770 rounds of high-explosive munitions into the North Vietnamese radar facility near Vinh Son. Another boat illuminated and shelled a security post near the mouth of the Ron River, leaving it in flames.</p>"
-  photo_url:
-  photo_alt:
+  title: "MAROPS boats shell North Vietnamese radar site and security post"
+  body: "<p>On August 3, 1964, after midnight, two PT boats poured 770 rounds of high-explosive munitions into the North Vietnamese radar facility near Vinh Son. Another boat illuminated and shelled a security post near the mouth of the Ron River, leaving it in flames. Assistant Secretary of State William Bundy described such actions as \"inherently small and unimportant.\"</p><p>The raids were maritime operations (MAROPS), which involved teams of South Vietnamese sailors and saboteurs using small, high-speed motor boats commanded and crewed by U.S. Navy SEALs. Equipped with 40-mm cannons or 81-mm mortars, the boats either shelled their objectives or landed frogmen to plant explosives. After hitting their targets, the teams withdrew to their base in Danang, South Vietnam.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Dereliction of Duty by H.R. McMaster"
-      url: "https://www.goodreads.com/book/show/422680.Dereliction_of_Duty"
+    - label: "H.R. McMaster, Dereliction of Duty (1998), Kindle locations 2530, 2448"
+      url: https://openlibrary.org/isbn/0060929081
+  status: approved
+  source_text: "[loc 2530] After midnight on August 3, two PT boats, in one of the many actions that Assistant Secretary of State William Bundy described as “inherently small and unimportant,” poured 770 rounds of high-explosive munitions into the North Vietnamese radar facility near Vinh Son. Another boat illuminated and shelled a security post near the mouth of the Ron River, leaving it in flames. [loc 2448] Maritime operations (MAROPS) involved teams of South Vietnamese sailors and saboteurs using small, high-speed motor boats commanded and crewed by U.S. Navy SEALs. Equipped with 40-mm cannons or 81-mm mortars, the boats either shelled their objectives or landed frogmen to plant explosives. After hitting their targets, the teams withdrew to their base in Danang, South Vietnam."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:26:48Z"
 
 - month: 8
   day: 6
   year: 1964
-  title: "Wheeler, McNamara, and Rusk testify on Tonkin Gulf"
-  body: "<p>On August 6 General Wheeler accompanied McNamara and Rusk to a joint session of the Senate Foreign Relations and Armed Services Committees to testify on the Gulf of Tonkin incidents.</p>"
-  photo_url:
-  photo_alt:
+  title: "Wheeler, McNamara, and Rusk appear before Senate committees"
+  body: "<p>On August 6, 1964, General Wheeler accompanied McNamara and Rusk to a joint session of the Senate Foreign Relations and Armed Services Committees. The session came two days after the August 4 attack on the Maddox and Turner Joy, of which it was later said that \"there was a hell of a lot of confusion.\"</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Dereliction of Duty by H.R. McMaster"
-      url: "https://www.goodreads.com/book/show/422680.Dereliction_of_Duty"
+    - label: "H.R. McMaster, Dereliction of Duty (1998), Kindle locations 2723, 2728"
+      url: https://openlibrary.org/isbn/0060929081
+  status: approved
+  source_text: "[loc 2723] On August 6 General Wheeler accompanied McNamara and Rusk to a joint session of the Senate Foreign Relations and Armed Services Committees. [loc 2728] “there was a hell of a lot of confusion” surrounding the August 4 attack on the Maddox and Turner Joy."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:26:48Z"
 
 - month: 9
   day: 10
   year: 1964
-  title: "Johnson signs NSAM 314 approving resumed naval patrols"
-  body: "<p>On September 10, 1964, President Johnson signed NSAM 314 approving the resumption of U.S. naval patrols in the Gulf of Tonkin, 34A operations including maritime raids, air drops, and leaflet operations, and planning for South Vietnamese cross-border air and ground operations into Laos.</p>"
-  photo_url:
-  photo_alt:
+  title: "Johnson signs NSAM 314"
+  body: "<p>On September 10, 1964, the president signed NSAM 314, approving the resumption of U.S. naval patrols in the Gulf of Tonkin; 34A operations, including maritime raids, air drops, and leaflet operations; and planning for South Vietnamese cross-border air and ground operations into Laos.</p><p>LBJ would later delay or disapprove many of the actions that NSAM 314 ostensibly cleared for implementation.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Dereliction of Duty by H.R. McMaster"
-      url: "https://www.goodreads.com/book/show/422680.Dereliction_of_Duty"
+    - label: "H.R. McMaster, Dereliction of Duty (1998), Kindle locations 3085, 3098"
+      url: https://openlibrary.org/isbn/0060929081
+  status: approved
+  source_text: "[loc 3085] On September 10, 1964, the president signed NSAM 314 approving the resumption of U.S. naval patrols in the Gulf of Tonkin, 34A operations (including maritime raids, air drops, and leaflet operations), and planning for South Vietnamese cross-border air and ground operations into Laos. [loc 3098] Despite these assurances, however, LBJ would later delay or disapprove many of the actions that NSAM 314 ostensibly cleared for implementation."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:26:48Z"
 
 - month: 11
   day: 25
   year: 1964
-  title: "New York Times editorial questions expanding war"
-  body: "<p>A November 25 New York Times editorial reminded readers of the president's campaign remarks and suggested: \"If there is to be a new policy now, if an Asian war is to be converted into an American war, the country has a right to insist that it be told what has changed so profoundly in the past two months to justify it.\"</p>"
-  photo_url:
-  photo_alt:
+  title: "New York Times editorial asks what has changed to justify a wider war"
+  body: "<p>On November 25, 1964, a New York Times editorial reminded readers of the president's campaign remarks and suggested: \"If there is to be a new policy now, if an Asian war is to be converted into an American war, the country has a right to insist that it be told what has changed so profoundly in the past two months to justify it.\"</p><p>At the time, the president attempted to conceal from the American public the difficulties in the South Vietnamese armed forces and the gains in Viet Cong strength. On McNamara's recommendation, he removed from a draft of an official White House statement an announcement that the State Department would soon release a study of increased infiltration from North Vietnam.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Dereliction of Duty by H.R. McMaster"
-      url: "https://www.goodreads.com/book/show/422680.Dereliction_of_Duty"
+    - label: "H.R. McMaster, Dereliction of Duty (1998), Kindle locations 3899, 3892, 3893"
+      url: https://openlibrary.org/isbn/0060929081
+  status: approved
+  source_text: "[loc 3899] A November 25 New York Times editorial reminded readers of the president’s campaign remarks and suggested: “If there is to be a new policy now, if an Asian war is to be converted into an American war, the country has a right to insist that it be told what has changed so profoundly in the past two months to justify it.” [loc 3892] The president attempted to conceal from the American public the difficulties in the South Vietnamese armed forces and the gains in Viet Cong strength. [loc 3893] On McNamara’s recommendation, he removed from a draft of an official White House statement an announcement that the State Department would soon release a study of increased infiltration from North Vietnam."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:26:48Z"
 
 - month: 1
   day: 28
   year: 1965
   title: "Wheeler orders Sharp to resume DESOTO patrols"
-  body: "<p>On January 28, General Wheeler ordered Admiral Sharp to resume DESOTO patrols on February 3. They would be the first since September 1964.</p>"
-  photo_url:
-  photo_alt:
+  body: "<p>On January 28, 1965, General Wheeler ordered Admiral Sharp to resume DESOTO patrols on February 3; they would be the first since September of 1964.</p><p>Bundy and McNamara had told the president that the current policy was the \"worst course of action\" and condemned the United States to an \"essentially passive role which can only lead to eventual defeat and an invitation to get out in humiliating circumstances.\" On February 1 Johnson warned the Chiefs that any direct military pressure against North Vietnam could cause Chinese intervention.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Dereliction of Duty by H.R. McMaster"
-      url: "https://www.goodreads.com/book/show/422680.Dereliction_of_Duty"
+    - label: "H.R. McMaster, Dereliction of Duty (1998), Kindle locations 4240, 4222, 4250"
+      url: https://openlibrary.org/isbn/0060929081
+  status: approved
+  source_text: "[loc 4240] On January 28, General Wheeler ordered Admiral Sharp to resume DESOTO patrols on February 3; they would be the first since September of 1964. [loc 4222] Bundy and McNamara told the president that the current policy was the “worst course of action” and condemned the United States to an “essentially passive role which can only lead to eventual defeat and an invitation to get out in humiliating circumstances.” [loc 4250] On February 1 Johnson warned the Chiefs that any direct military pressure against North Vietnam could cause Chinese intervention."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:26:48Z"
 
 - month: 2
   day: 1
   year: 1965
-  title: "Johnson warns JCS that bombing could cause Chinese intervention"
-  body: "<p>On February 1, 1965, President Johnson warned the Joint Chiefs that any direct military pressure against North Vietnam could cause Chinese intervention.</p>"
-  photo_url:
-  photo_alt:
+  title: "Johnson warns the Chiefs that pressure on North Vietnam could bring in China"
+  body: "<p>On February 1, 1965, Johnson warned the Chiefs that any direct military pressure against North Vietnam could cause Chinese intervention.</p><p>Four days earlier, on January 28, General Wheeler had ordered Admiral Sharp to resume DESOTO patrols on February 3, the first since September of 1964.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Dereliction of Duty by H.R. McMaster"
-      url: "https://www.goodreads.com/book/show/422680.Dereliction_of_Duty"
+    - label: "H.R. McMaster, Dereliction of Duty (1998), Kindle locations 4250, 4240"
+      url: https://openlibrary.org/isbn/0060929081
+  status: approved
+  source_text: "[loc 4250] On February 1 Johnson warned the Chiefs that any direct military pressure against North Vietnam could cause Chinese intervention. [loc 4240] On January 28, General Wheeler ordered Admiral Sharp to resume DESOTO patrols on February 3; they would be the first since September of 1964."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:26:48Z"
 
 - month: 2
   day: 10
   year: 1965
   title: "Viet Cong bomb American barracks at Qui Nhon"
-  body: "<p>On February 10, Viet Cong terrorists bombed an American enlisted soldiers' barracks in the coastal city of Qui Nhon.</p>"
-  photo_url:
-  photo_alt:
+  body: "<p>On February 10, 1965, Viet Cong terrorists bombed an American enlisted soldiers' barracks in the coastal city of Qui Nhon.</p><p>On February 7, 8, and 11, the United States launched 267 aircraft sorties against 491 buildings and destroyed only 47 of them. Operations at the North Vietnamese barracks continued unimpaired.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Dereliction of Duty by H.R. McMaster"
-      url: "https://www.goodreads.com/book/show/422680.Dereliction_of_Duty"
+    - label: "H.R. McMaster, Dereliction of Duty (1998), Kindle locations 4374, 4383"
+      url: https://openlibrary.org/isbn/0060929081
+  status: approved
+  source_text: "[loc 4374] On February 10 Viet Cong terrorists bombed an American enlisted soldiers’ barracks in the coastal city of Qui Nhon. [loc 4383] On February 7, 8, and 11, the United States had launched 267 aircraft sorties against 491 buildings and had destroyed only 47 of them. Operations at the North Vietnamese barracks continued unimpaired."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:26:48Z"
 
 - month: 2
   day: 18
   year: 1965
-  title: "JCS issue execute order for Rolling Thunder I"
-  body: "<p>On February 18, one week after submitting a compromise memo to McNamara, the JCS issued the execute order for Rolling Thunder I. United States and South Vietnamese aircraft were to strike a North Vietnamese naval base on February 20.</p>"
-  photo_url:
-  photo_alt:
+  title: "JCS issue the execute order for Rolling Thunder I"
+  body: "<p>On February 18, 1965, one week after they submitted their compromise memo to McNamara, the JCS issued the execute order for Rolling Thunder I. United States and South Vietnamese aircraft were to strike a North Vietnamese naval base on February 20. The first Rolling Thunder mission was not conducted until March 2.</p><p>Various senior members of the Johnson administration and the military had differing objectives for the air campaign, including forcing Hanoi to negotiate, coercing Hanoi either to reduce its support for or \"call off the insurgency,\" interdicting supplies and infiltration into South Vietnam, \"punishing\" Hanoi, boosting morale in South Vietnam, destroying North Vietnamese military capabilities, and protecting U.S. credibility by posing as the \"good doctor\" trying his best to keep South Vietnam from succumbing to the disease of the Viet Cong insurgency.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Dereliction of Duty by H.R. McMaster"
-      url: "https://www.goodreads.com/book/show/422680.Dereliction_of_Duty"
+    - label: "H.R. McMaster, Dereliction of Duty (1998), Kindle locations 4492, 4495, 4641, 4643"
+      url: https://openlibrary.org/isbn/0060929081
+  status: approved
+  source_text: "[loc 4492] On February 18, one week after they submitted their compromise memo to McNamara, the JCS issued the execute order for Rolling Thunder I. United States and South Vietnamese aircraft were to strike a North Vietnamese naval base on February 20. [loc 4495] The first Rolling Thunder mission was not conducted until March 2. [loc 4641] Various senior members of the Johnson administration and the military had differing objectives for the air campaign, including forcing Hanoi to negotiate, coercing Hanoi either to reduce its support for or “call off the insurgency,” interdicting supplies and infiltration into South Vietnam, “punishing” Hanoi, boosting morale in [loc 4643] South Vietnam, destroying North Vietnamese military capabilities, and protecting U.S. credibility by posing as the “good doctor” trying his best to keep South Vietnam from succumbing to the disease of the Viet Cong insurgency."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:26:48Z"
 
 - month: 4
   day: 6
   year: 1965
-  title: "Johnson approves expanded Marine mission in Vietnam"
-  body: "<p>In an NSAM issued on April 6, President Johnson approved a change of mission for all Marine battalions deployed to Vietnam to permit their more active use under conditions to be established and approved by the Secretary of Defense in consultation with the Secretary of State.</p>"
-  photo_url:
-  photo_alt:
+  title: "Johnson approves more active use of Marine battalions"
+  body: "<p>On April 6, 1965, in an NSAM, \"the president approved a change of mission for all Marine battalions deployed to Vietnam to permit their more active use under conditions to be established and approved by the Secretary of Defense in consultation with the Secretary of State.\"</p><p>McMaster judged that in the long run the change of mission that committed American troops to offensive combat was more significant than the deployment of additional troops, but that the former decision was easier to conceal from the American public in the short term.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Dereliction of Duty by H.R. McMaster"
-      url: "https://www.goodreads.com/book/show/422680.Dereliction_of_Duty"
+    - label: "H.R. McMaster, Dereliction of Duty (1998), Kindle locations 5257, 5046"
+      url: https://openlibrary.org/isbn/0060929081
+  status: approved
+  source_text: "[loc 5257] In an NSAM issued on April 6, “the president approved a change of mission for all Marine battalions deployed to Vietnam to permit their more active use under conditions to be established and approved by the Secretary of Defense in consultation with the Secretary of State.” [loc 5046] In the long run the change of mission that committed American troops to offensive combat was more significant than the deployment of additional troops, but the former decision was easier to conceal from the American public in the short term."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:26:48Z"
 
 - month: 4
   day: 8
   year: 1965
-  title: "Johnson demands results from JCS under bombing restrictions"
-  body: "<p>On April 8, 1965, the day after his Johns Hopkins speech, President Johnson met with the JCS, McNamara, and Deputy Secretary of Defense Vance. The president was determined to avoid any discussion of the bombing of North Vietnam and made it clear to the Chiefs that he expected results in Vietnam even under the restrictions he had placed on air and ground operations.</p>"
-  photo_url:
-  photo_alt:
+  title: "Johnson tells the Chiefs he expects results and will control the war from Washington"
+  body: "<p>On April 8, 1965, the day after the Johns Hopkins speech, Johnson met with the JCS, McNamara, and Deputy Secretary of Defense Vance. The president was determined to avoid any discussion of the bombing of North Vietnam and made it clear to the Chiefs that he expected results in Vietnam even under the restrictions that he had placed on air and ground operations.</p><p>LBJ's eyes turned to Wheeler: \"You're graduates of the Military Academy and you should be able to give me an answer. I want you to come back here next Tuesday and tell me how we are going to kill more Viet Cong.\" He referred to recent press reports that the war had been controlled too tightly from Washington, and told the JCS that \"as long as I am Commander in Chief, I am going to control from Washington.\"</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Dereliction of Duty by H.R. McMaster"
-      url: "https://www.goodreads.com/book/show/422680.Dereliction_of_Duty"
+    - label: "H.R. McMaster, Dereliction of Duty (1998), Kindle locations 5266, 5284, 5297"
+      url: https://openlibrary.org/isbn/0060929081
+  status: approved
+  source_text: "[loc 5266] Johnson arranged a meeting on April 8, 1965, the day after the Johns Hopkins speech, with the JCS, McNamara, and Deputy Secretary of Defense Vance. The president was determined to avoid any discussion of the bombing of North Vietnam and made it clear to the Chiefs that he expected results in Vietnam even under the restrictions that he had placed on air and ground operations. [loc 5284] LBJ’s eyes turned to Wheeler: “You’re graduates of the Military Academy and you should be able to give me an answer. I want you to come back here next Tuesday and tell me how we are going to kill more Viet Cong.” [loc 5297] He referred to recent press reports that the war had been controlled too tightly from Washington, and told the JCS that “as long as I am Commander in Chief, I am going to control from Washington.”"
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:26:48Z"
 
 - month: 4
   day: 14
   year: 1965
-  title: "Wheeler relays Johnson's decisions to CINCPAC and MACV"
-  body: "<p>On April 14, General Wheeler sent a message to CINCPAC, MACV, and the Saigon embassy detailing the decisions that the president had made in his April 13 meeting with the JCS.</p>"
-  photo_url:
-  photo_alt:
+  title: "Wheeler relays the president's April 13 decisions to CINCPAC and MACV"
+  body: "<p>On April 14, 1965, General Wheeler sent a message to CINCPAC, MACV, and the Saigon embassy, detailing the decisions that the president had made in his April 13 meeting with the JCS. At that meeting the president had asked Wheeler, \"How many Viet Cong have we killed since you were here last time?\"</p><p>Ambassador Taylor obtained approval from the South Vietnamese government for the deployment the message ordered: \"DEPLOY 173D AIRBORNE BRIGADE AND NECESSARY SUPPORT ELEMENTS TO BIEN HOA-VUNG TAU AREA WITH THE INITIAL MISSION OF SECURITY OF US INSTALLATIONS AND FACILITIES. EXPAND INITIAL MISSION TO INCLUDE ENGAGEMENT IN COUNTERINSURGENCY COMBAT OPERATIONS.\"</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Dereliction of Duty by H.R. McMaster"
-      url: "https://www.goodreads.com/book/show/422680.Dereliction_of_Duty"
+    - label: "H.R. McMaster, Dereliction of Duty (1998), Kindle locations 5437, 5300, 5439, 5440"
+      url: https://openlibrary.org/isbn/0060929081
+  status: approved
+  source_text: "[loc 5437] On April 14 he sent a message to CINCPAC, MACV, and the Saigon embassy, detailing the decisions that the president had made in his April 13 meeting with the JCS. [loc 5300] He asked Wheeler, “How many Viet Cong have we killed since you were here last time?” [loc 5439] Ambassador Taylor obtained approval from the South Vietnamese government: [loc 5440] DEPLOY 173D AIRBORNE BRIGADE AND NECESSARY SUPPORT ELEMENTS TO BIEN HOA-VUNG TAU AREA WITH THE INITIAL MISSION OF SECURITY OF US INSTALLATIONS AND FACILITIES. EXPAND INITIAL MISSION TO INCLUDE ENGAGEMENT IN COUNTERIN-SURGENCY COMBAT OPERATIONS."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:26:48Z"
 
 - month: 5
   day: 8
   year: 1965
-  title: "CIA Director Raborn warns Johnson of quagmire"
-  body: "<p>On May 8, DCI Raborn wrote to President Johnson predicting, based largely on the French experience, that \"we will find ourselves pinned down, with little choice left among possible subsequent courses of action: i.e. disengagement at very high cost or broadening the conflict in quantum jumps.\"</p>"
-  photo_url:
-  photo_alt:
+  title: "DCI Raborn warns Johnson the United States will be \"pinned down\""
+  body: "<p>On May 8, 1965, DCI Raborn wrote to President Johnson predicting, based largely on the French experience of the war, that \"we will find ourselves pinned down, with little choice left among possible subsequent courses of action: i.e. disengagement at very high cost or broadening the conflict in quantum jumps.\"</p><p>McNamara and the president were aware of predictions that an expansion of the American effort on the ground would lead to a protracted, indecisive war that the United States would ultimately lose.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Dereliction of Duty by H.R. McMaster"
-      url: "https://www.goodreads.com/book/show/422680.Dereliction_of_Duty"
+    - label: "H.R. McMaster, Dereliction of Duty (1998), Kindle locations 5706, 5704"
+      url: https://openlibrary.org/isbn/0060929081
+  status: approved
+  source_text: "[loc 5706] On May 8 DCI Raborn wrote to Johnson predicting—based largely on the French experience—that “we will find ourselves pinned down, with little choice left among possible subsequent courses of action: i.e. disengagement at very high cost or broadening the conflict in quantum jumps.” [loc 5704] McNamara and the president were aware of predictions that an expansion of the American effort on the ground would lead to a protracted, indecisive war that the United States would ultimately lose."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:26:48Z"
 
 - month: 5
   day: 10
   year: 1965
   title: "Johnson approves bombing pause code-named Mayflower"
-  body: "<p>On May 10, President Johnson approved a five-to-seven-day bombing pause, code-named Mayflower.</p>"
-  photo_url:
-  photo_alt:
+  body: "<p>On May 10, 1965, the president approved a five-to-seven-day bombing pause, code-named Mayflower. The Communist summer offensive began the next day, May 11.</p><p>The president and his advisers decided to resume Rolling Thunder on May 18.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Dereliction of Duty by H.R. McMaster"
-      url: "https://www.goodreads.com/book/show/422680.Dereliction_of_Duty"
+    - label: "H.R. McMaster, Dereliction of Duty (1998), Kindle locations 5629, 5725, 5657"
+      url: https://openlibrary.org/isbn/0060929081
+  status: approved
+  source_text: "[loc 5629] On May 10 the president approved a five-to-seven-day bombing pause, code-named Mayflower. [loc 5725] The Communist summer offensive had begun on May 11. [loc 5657] the president and his advisers decided to resume Rolling Thunder on May 18."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:26:48Z"
 
 - month: 6
   day: 11
   year: 1965
-  title: "Civilian government falls in South Vietnam"
-  body: "<p>On June 11, Prime Minister Quat ceded the Saigon government to the military and the eight-month interlude of civilian rule in South Vietnam ended, never to return.</p>"
-  photo_url:
-  photo_alt:
+  title: "Quat cedes the Saigon government to the military"
+  body: "<p>On June 11, 1965, Quat ceded the Saigon government to the military, and the eight-month interlude of civilian rule in South Vietnam ended, never to return.</p><p>The Communist summer offensive had begun on May 11. On June 7 General Westmoreland had sent a cable to CINCPAC requesting more American troops.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Dereliction of Duty by H.R. McMaster"
-      url: "https://www.goodreads.com/book/show/422680.Dereliction_of_Duty"
+    - label: "H.R. McMaster, Dereliction of Duty (1998), Kindle locations 5732, 5725, 5758"
+      url: https://openlibrary.org/isbn/0060929081
+  status: approved
+  source_text: "[loc 5732] On June 11 Quat ceded the Saigon government to the military and the eight-month interlude of civilian rule in South Vietnam ended, never to return. [loc 5725] The Communist summer offensive had begun on May 11. [loc 5758] On June 7 General Westmoreland sent a cable to CINCPAC requesting more American troops"
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:26:48Z"
 
 - month: 6
   day: 18
   year: 1965
-  title: "Johnson approves 1st Cavalry Division deployment to Vietnam"
-  body: "<p>On June 18, President Johnson formally approved a portion of Westmoreland's troop request. The airmobile 1st Cavalry Division, comprising nine battalions and 23,000 troops, would be sent to South Vietnam.</p>"
-  photo_url:
-  photo_alt:
+  title: "Johnson approves the First Cavalry Division for South Vietnam"
+  body: "<p>On June 18, 1965, the president formally approved a portion of Westmoreland's request. The air mobile First Cavalry Division (nine battalions, 23,000 troops) would be sent to South Vietnam. The request had come in a cable General Westmoreland sent to CINCPAC on June 7 asking for more American troops.</p><p>Despite his recognition that his advisers had \"no plan for victory militarily or diplomatically,\" Lyndon Johnson remained resolved to do only what was necessary to avoid defeat in Vietnam. To help the president steer the middle course, McNamara began to develop a program aimed at achieving a \"stalemate in Vietnam.\"</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Dereliction of Duty by H.R. McMaster"
-      url: "https://www.goodreads.com/book/show/422680.Dereliction_of_Duty"
+    - label: "H.R. McMaster, Dereliction of Duty (1998), Kindle locations 5911, 5758, 5899, 5922"
+      url: https://openlibrary.org/isbn/0060929081
+  status: approved
+  source_text: "[loc 5911] On June 18 the president formally approved a portion of Westmoreland’s request. The air mobile First Cavalry Division (nine battalions, 23,000 troops) would be sent to South Vietnam. [loc 5758] On June 7 General Westmoreland sent a cable to CINCPAC requesting more American troops [loc 5899] Despite his recognition that his advisers had “no plan for victory militarily or diplomatically,” Lyndon Johnson remained resolved to do only what was necessary to avoid defeat in Vietnam. [loc 5922] To help the president steer the middle course, McNamara began to develop a program aimed at achieving a “stalemate in Vietnam.”"
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:26:48Z"
 
 - month: 6
   day: 23
   year: 1965
-  title: "George Ball recommends U.S. cut losses in Vietnam"
-  body: "<p>On June 23, Under Secretary of State George Ball recommended that the United States cut its losses in Vietnam.</p>"
-  photo_url:
-  photo_alt:
+  title: "Ball recommends cutting U.S. losses in Vietnam"
+  body: "<p>On June 23, 1965, Ball recommended that the United States cut its losses in Vietnam.</p><p>Rusk predicted that pulling out of Vietnam would damage U.S. credibility, which \"is the pillar of peace throughout the world,\" and argued that such a diminution of American reputation would \"lead to our ruin and almost certainly to catastrophic war.\" McNamara wrote to LBJ that \"expanded military and political moves\" would convince North Vietnam and the Viet Cong \"that the odds are against their winning.\" By default, in McMaster's account, attrition had become the military strategy and stalemate was its objective.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Dereliction of Duty by H.R. McMaster"
-      url: "https://www.goodreads.com/book/show/422680.Dereliction_of_Duty"
+    - label: "H.R. McMaster, Dereliction of Duty (1998), Kindle locations 5951, 5957, 5975"
+      url: https://openlibrary.org/isbn/0060929081
+  status: approved
+  source_text: "[loc 5951] On June 23 Ball recommended that the United States cut its losses in Vietnam. [loc 5957] Rusk, who predicted that pulling out of Vietnam would damage U.S. credibility, which “is the pillar of peace throughout the world.” Rusk argued that such a diminution of American reputation would “lead to our ruin and almost certainly to catastrophic war. [loc 5975] These “expanded military and political moves,” McNamara wrote to LBJ, would convince North Vietnam and the Viet Cong “that the odds are against their winning.” By default, attrition had become the military strategy and stalemate was its objective."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:26:48Z"
 
 - month: 7
   day: 1
   year: 1965
-  title: "McGeorge Bundy sends Johnson competing Vietnam policy papers"
-  body: "<p>Before President Johnson met with his advisers on July 1, McGeorge Bundy sent him a memorandum attaching Vietnam policy papers from McNamara and Ball, and from Rusk and William Bundy.</p>"
-  photo_url:
-  photo_alt:
+  title: "McGeorge Bundy sends Johnson the competing Vietnam policy papers"
+  body: "<p>On July 1, 1965, before the president met with his advisers, McGeorge Bundy sent him a memorandum to which he attached the Vietnam policy papers from McNamara and Ball, and from Rusk and William Bundy.</p><p>The authors had already staked out their positions. On June 23 Ball had recommended that the United States cut its losses in Vietnam. Rusk predicted that pulling out of Vietnam would damage U.S. credibility, which \"is the pillar of peace throughout the world,\" and argued that such a diminution of American reputation would \"lead to our ruin and almost certainly to catastrophic war.\" McNamara wrote to LBJ that \"expanded military and political moves\" would convince North Vietnam and the Viet Cong \"that the odds are against their winning.\"</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Dereliction of Duty by H.R. McMaster"
-      url: "https://www.goodreads.com/book/show/422680.Dereliction_of_Duty"
+    - label: "H.R. McMaster, Dereliction of Duty (1998), Kindle locations 5993, 5951, 5957, 5975"
+      url: https://openlibrary.org/isbn/0060929081
+  status: approved
+  source_text: "[loc 5993] Before the president met with his advisers on July 1, McGeorge Bundy sent him a memorandum to which he attached the Vietnam policy papers from McNamara and Ball, and from Rusk and William Bundy. [loc 5951] On June 23 Ball recommended that the United States cut its losses in Vietnam. [loc 5957] Rusk, who predicted that pulling out of Vietnam would damage U.S. credibility, which “is the pillar of peace throughout the world.” Rusk argued that such a diminution of American reputation would “lead to our ruin and almost certainly to catastrophic war. [loc 5975] These “expanded military and political moves,” McNamara wrote to LBJ, would convince North Vietnam and the Viet Cong “that the odds are against their winning.”"
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:26:48Z"
 
 - month: 7
   day: 8
   year: 1965
-  title: "Johnson approves thirty-four battalion deployment to Vietnam"
-  body: "<p>On July 8, President Johnson approved the deployment to South Vietnam of the full thirty-four battalions that General Westmoreland had requested.</p>"
-  photo_url:
-  photo_alt:
+  title: "Johnson approves Westmoreland's full thirty-four battalions"
+  body: "<p>On July 8, 1965, the president approved the deployment to South Vietnam of the full thirty-four battalions that Westmoreland had requested. McMaster records the approval as something later divulged rather than announced at the time.</p><p>Harold Johnson estimated that to guarantee a free and independent South Vietnam would take six to seven hundred thousand troops and five years of fighting.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Dereliction of Duty by H.R. McMaster"
-      url: "https://www.goodreads.com/book/show/422680.Dereliction_of_Duty"
+    - label: "H.R. McMaster, Dereliction of Duty (1998), Kindle locations 6033, 6025"
+      url: https://openlibrary.org/isbn/0060929081
+  status: approved
+  source_text: "[loc 6033] He divulged that the president had, on July 8, approved the deployment to South Vietnam of the full thirty-four battalions that Westmoreland had requested. [loc 6025] Harold Johnson estimated that to guarantee a free and independent South Vietnam would take six to seven hundred thousand troops and five years of fighting."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:26:48Z"
 
 - month: 7
   day: 2
   year: 1965
-  title: "Wheeler secretly tasks committee to assess winning prospects"
-  body: "<p>Since July 2, an ad hoc committee under General Goodpaster's direction had been charged by General Wheeler with determining what \"assurance the U.S. can have of winning if we do everything we can.\" Marine Commandant Greene would not discover this committee's existence until July 12.</p>"
-  photo_url:
-  photo_alt:
+  title: "Wheeler charges Goodpaster committee to assess chances of winning"
+  body: "<p>On July 2, 1965, as more U.S. Marines landed at Danang and Qui Nhon, Johnson met with his closest advisers. The same day, an ad hoc committee under Goodpaster's direction was charged by Wheeler with determining what \"assurance the U.S. can have of winning if we do everything we can.\" Greene would not discover the committee's existence until July 12.</p><p>In essence Goodpaster told McNamara that the United States would have to remove virtually all restrictions on the application of conventional military power to win in Vietnam. He also argued that the estimate should be based on the enemy's capabilities rather than on unrealistic assumptions concerning enemy intentions.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Dereliction of Duty by H.R. McMaster"
-      url: "https://www.goodreads.com/book/show/422680.Dereliction_of_Duty"
+    - label: "H.R. McMaster, Dereliction of Duty (1998), Kindle locations 6048, 6004, 6090, 6096"
+      url: https://openlibrary.org/isbn/0060929081
+  status: approved
+  source_text: "[loc 6048] Greene would not discover until July 12 that, since July 2, an ad hoc committee under Goodpaster’s direction had been charged by Wheeler with determining what “assurance the U.S. can have of winning if we do everything we can.” [loc 6004] On July 2, as more U.S. Marines landed at Danang and Qui Nhon, Johnson met with his closest advisers. [loc 6090] In essence Goodpaster told McNamara that the United States would have to remove virtually all restrictions on the application of conventional military power to win in Vietnam. [loc 6096] He also argued that the estimate should be based on the enemy’s capabilities rather than on unrealistic assumptions concerning enemy intentions."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:26:48Z"
 
 - month: 7
   day: 23
   year: 1965
-  title: "JCS realize domestic politics overwhelm Vietnam planning"
-  body: "<p>By Friday night, July 23, it had finally become clear to the Joint Chiefs of Staff that the president's domestic political priorities had overwhelmed the assumptions on which they had based Vietnam planning.</p>"
-  photo_url:
-  photo_alt:
+  title: "JCS see domestic politics overwhelm their Vietnam planning"
+  body: "<p>On July 23, 1965, a Friday, it had by nightfall become clear to the JCS that the president's domestic political priorities had overwhelmed the assumptions on which they had based Vietnam planning. The JCS and the service secretaries had met with the president the day before, on July 22.</p><p>One passage McMaster quotes from the period reads: \"We are about to fight a war we can't fight and win, the country we are trying to help is quitting. The failure on our own to fully realize what guerrilla war is like. We are sending conventional troops to do an unconventional job.\"</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Dereliction of Duty by H.R. McMaster"
-      url: "https://www.goodreads.com/book/show/422680.Dereliction_of_Duty"
+    - label: "H.R. McMaster, Dereliction of Duty (1998), Kindle locations 6272, 6217, 6252"
+      url: https://openlibrary.org/isbn/0060929081
+  status: approved
+  source_text: "[loc 6272] By Friday night, July 23, it had finally become clear to the JCS that the president’s domestic political priorities had overwhelmed the assumptions on which they had based Vietnam planning. [loc 6217] The JCS and the service secretaries met with the president on July 22. [loc 6252] We are about to fight a war we can’t fight and win, the country we are trying to help is quitting. The failure on our own to fully realize what guerrilla war is like. We are sending conventional troops to do an unconventional job."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:26:48Z"
 
 - month: 7
   day: 27
   year: 1965
-  title: "Johnson lobbies NSC and Congress before announcing escalation"
-  body: "<p>On the evening of July 27, before making public his decision, President Johnson made one last effort to soften up his own NSC and selected members of Congress.</p>"
-  photo_url:
-  photo_alt:
+  title: "Johnson works on the NSC and Congress before announcing his decision"
+  body: "<p>On July 27, 1965, in the evening, before he made public his decision, President Johnson made one last effort to soften up his own NSC and selected members of Congress.</p><p>In McMaster's assessment, between November 1963 and July 1965 LBJ made the critical decisions that took the United States into war almost without realizing it.</p>"
+  photo_url: null
+  photo_alt: null
   references:
-    - label: "Dereliction of Duty by H.R. McMaster"
-      url: "https://www.goodreads.com/book/show/422680.Dereliction_of_Duty"
+    - label: "H.R. McMaster, Dereliction of Duty (1998), Kindle locations 6318, 6403"
+      url: https://openlibrary.org/isbn/0060929081
+  status: approved
+  source_text: "[loc 6318] On the evening of July 27, before he made public his decision, President Johnson made one last effort to soften up his own NSC and selected members of Congress. [loc 6403] Between November 1963 and July 1965, LBJ made the critical decisions that took the United States into war almost without realizing it."
+  summarized_by: "Claude Fable 5.1"
+  summarized_at: "2026-10-25T14:26:48Z"
