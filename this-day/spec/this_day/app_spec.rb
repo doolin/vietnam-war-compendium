@@ -115,6 +115,53 @@ RSpec.describe ThisDay::App do
     end
   end
 
+  describe "GET /this-day-in-vietnam-war/review/:month" do
+    # A month other than today's, so the "today" seeds above do not land in it.
+    let(:month) { Date.today.month == 4 ? 5 : 4 }
+    let(:days_in_month) { Date.new(2000, month, -1).day }
+
+    before do
+      db = SQLite3::Database.new(TestDatabaseHelper::TEST_DB_PATH)
+      TestDatabaseHelper.seed_event(
+        db, month: month, day: 3, year: 1966, title: "Review draft", body: "<p>Draft body.</p>",
+        status: "draft", source_text: "Excerpt from the source.", source_file: "drafts.yaml",
+        summarized_by: "Claude Fable 5.1", summarized_at: "2026-10-25T19:00:00Z",
+        references: [{ label: "Dead link", url: "https://example.com/404", archive_status: "http-404" }]
+      )
+      TestDatabaseHelper.seed_event(
+        db, month: month, day: 3, year: 1970, title: "Review rejected", body: "<p>No.</p>", status: "rejected"
+      )
+      db.close
+      described_class.reset_database!
+    end
+
+    it "lists every day of the month with its events and statuses" do
+      get "/this-day-in-vietnam-war/review/#{month}"
+      expect(last_response.status).to eq(200)
+      body = last_response.body
+      expect(body).to include("Review &mdash; #{Date::MONTHNAMES[month]}")
+      expect(body).to include('id="day-1"')
+      expect(body).to include(%(id="day-#{days_in_month}"))
+      expect(body).to include("Review draft")
+      expect(body).to include('class="badge draft"')
+      expect(body).to include("Review rejected")
+      expect(body).to include('class="badge rejected"')
+      expect(body).to include("Excerpt from the source.")
+      expect(body).to include("unverified (http-404)")
+      expect(body).to include("drafts.yaml")
+      expect(body).to include("Summary by Claude Fable 5.1, 2026-10-25")
+      expect(body).to include("unattributed summary")
+      expect(body.scan('class="badge missing"').size).to eq(days_in_month - 1)
+      expect(body).to include("1 of #{days_in_month} days have an event")
+      expect(body).to include("1 drafts awaiting review")
+    end
+
+    it "returns 404 for a month outside 1-12" do
+      get "/this-day-in-vietnam-war/review/13"
+      expect(last_response.status).to eq(404)
+    end
+  end
+
   describe "HEAD /" do
     it "returns 200 with no body" do
       head "/"

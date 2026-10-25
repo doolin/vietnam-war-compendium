@@ -18,6 +18,10 @@
   <%= event.body %>
 </article>
 
+<% if event.credit %>
+<p class="credit"><%= event.credit %></p>
+<% end %>
+
 <p class="disclaimer">All material is for entertainment purposes only.</p>
 
 <% unless event.references.empty? %>

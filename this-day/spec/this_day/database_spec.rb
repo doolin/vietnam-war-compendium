@@ -34,6 +34,26 @@ RSpec.describe ThisDay::Database do
 
     TestDatabaseHelper.seed_event(
       db,
+      month: 11, day: 20, year: 1969,
+      title: "Rejected November event",
+      body: "<p>Should never be served.</p>",
+      status: "rejected"
+    )
+
+    TestDatabaseHelper.seed_event(
+      db,
+      month: 11, day: 3, year: 1967,
+      title: "Draft November event",
+      body: "<p>Awaiting review.</p>",
+      status: "draft",
+      source_text: "Verbatim excerpt the body was written from.",
+      source_file: "october-november-drafts.yaml",
+      summarized_by: "Claude Fable 5.1",
+      summarized_at: "2026-10-25T19:00:00Z"
+    )
+
+    TestDatabaseHelper.seed_event(
+      db,
       month: 1, day: 30, year: 1968,
       title: "Tet Offensive begins",
       body: "<p>The Tet Offensive launched across South Vietnam.</p>",
@@ -105,6 +125,37 @@ RSpec.describe ThisDay::Database do
       event = database.event_for_date(1, 30)
       expect(event.photo_url).to be_nil
       expect(event.photo_alt).to be_nil
+    end
+
+    it "never serves a rejected event" do
+      expect(database.event_for_date(11, 20)).to be_nil
+    end
+
+    it "serves drafts with their review fields" do
+      event = database.event_for_date(11, 3)
+      expect(event).to be_draft
+      expect(event.source_text).to eq("Verbatim excerpt the body was written from.")
+      expect(event.source_file).to eq("october-november-drafts.yaml")
+      expect(event.credit).to eq("Summary by Claude Fable 5.1, 2026-10-25")
+    end
+
+    it "has no credit for legacy unattributed summaries" do
+      expect(database.event_for_date(1, 30).credit).to be_nil
+    end
+  end
+
+  describe "#events_for_month" do
+    it "returns every event in the month, rejected included, ordered by day then year" do
+      events = database.events_for_month(11)
+      expect(events.map { |e| [e.day, e.year, e.status] }).to eq(
+        [[3, 1967, "draft"], [9, 1965, "approved"], [9, 1967, "approved"], [20, 1969, "rejected"]]
+      )
+      expect(events.first.references).to eq([])
+      expect(events[1].references.first.label).to eq("We Were Soldiers Once... and Young")
+    end
+
+    it "returns an empty list for a month with nothing" do
+      expect(database.events_for_month(6)).to eq([])
     end
   end
 end

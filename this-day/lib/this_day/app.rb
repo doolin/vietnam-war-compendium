@@ -51,6 +51,10 @@ module ThisDay
       end
 
       r.on "this-day-in-vietnam-war" do
+        r.get "review", String do |month|
+          serve_review(month.to_i)
+        end
+
         r.get String, String do |month, day|
           date = Date.new(Date.today.year, month.to_i, day.to_i)
           serve_date(date)
@@ -81,6 +85,21 @@ module ThisDay
         view("fallback", locals: { date_string: date_string,
                                    prev_date: prev_date, next_date: next_date })
       end
+    end
+
+    def serve_review(month)
+      unless (1..12).cover?(month)
+        response.status = 404
+        return view("fallback", locals: { date_string: "Invalid month",
+                                          prev_date: Date.today - 1, next_date: Date.today + 1 })
+      end
+
+      events = self.class.database.events_for_month(month)
+      by_day = events.group_by(&:day)
+      days_in_month = Date.new(2000, month, -1).day
+      view("review", locals: { month: month, month_name: Date::MONTHNAMES[month],
+                               days: (1..days_in_month).map { |d| [d, by_day.fetch(d, [])] },
+                               date_string: "Review #{Date::MONTHNAMES[month]}" })
     end
 
     def date_path(date)

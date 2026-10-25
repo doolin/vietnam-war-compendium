@@ -16,10 +16,14 @@ module TestDatabaseHelper
     db
   end
 
-  def self.seed_event(db, month:, day:, year:, title:, body:, photo_url: nil, photo_alt: nil, references: [])
+  def self.seed_event(db, month:, day:, year:, title:, body:, photo_url: nil, photo_alt: nil, references: [],
+                      status: "approved", source_text: nil, source_file: "test.yaml",
+                      summarized_by: nil, summarized_at: nil)
     db.execute(
-      "INSERT INTO events (month, day, year, title, body, photo_url, photo_alt) VALUES (?, ?, ?, ?, ?, ?, ?)",
-      [month, day, year, title, body, photo_url, photo_alt]
+      "INSERT INTO events (month, day, year, title, body, photo_url, photo_alt, status, source_text, " \
+      "source_file, summarized_by, summarized_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+      [month, day, year, title, body, photo_url, photo_alt, status, source_text, source_file,
+       summarized_by, summarized_at]
     )
     event_id = db.last_insert_row_id
 

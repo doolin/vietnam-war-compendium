@@ -1,0 +1,51 @@
+<% covered = days.count { |_, evts| evts.any? { |e| !e.status.eql?("rejected") } } %>
+<nav class="day-nav">
+  <a href="/this-day-in-vietnam-war/review/<%= month == 1 ? 12 : month - 1 %>"><%= Date::MONTHNAMES[month == 1 ? 12 : month - 1] %></a>
+  <a href="/this-day-in-vietnam-war/review/<%= month == 12 ? 1 : month + 1 %>"><%= Date::MONTHNAMES[month == 12 ? 1 : month + 1] %></a>
+</nav>
+
+<h1>Review &mdash; <%= month_name %></h1>
+
+<p class="review-summary">
+  <%= covered %> of <%= days.size %> days have an event.
+  <%= days.sum { |_, e| e.count(&:draft?) } %> drafts awaiting review.
+</p>
+
+<% days.each do |day, events| %>
+<section class="review-day <%= events.empty? ? "empty" : "" %>" id="day-<%= day %>">
+  <h2>
+    <a href="/this-day-in-vietnam-war/<%= month %>/<%= day %>"><%= month_name %> <%= day %></a>
+    <% if events.empty? %><span class="badge missing">no event</span><% end %>
+  </h2>
+
+  <% events.each do |event| %>
+  <article class="review-event status-<%= event.status %>">
+    <h3>
+      <%= event.year %> &mdash; <%= event.title %>
+      <span class="badge <%= event.status %>"><%= event.status %></span>
+    </h3>
+    <div class="event-body"><%= event.body %></div>
+
+    <% if event.source_text %>
+    <details class="source-text">
+      <summary>Source excerpt</summary>
+      <blockquote><%= event.source_text %></blockquote>
+    </details>
+    <% end %>
+
+    <ol class="review-refs">
+      <% event.references.each do |ref| %>
+      <li><a href="<%= ref.url %>" rel="noopener noreferrer"><%= ref.label %></a>
+        <% if ref.archived? %>
+        <span class="archive-status archived">archived <%= ref.archived_on %></span>
+        <% else %>
+        <span class="archive-status unverified">unverified<%= ref.archive_status ? " (#{ref.archive_status})" : "" %></span>
+        <% end %>
+      </li>
+      <% end %>
+    </ol>
+    <p class="source-file"><%= event.source_file %><%= event.credit ? " · #{event.credit}" : " · unattributed summary" %></p>
+  </article>
+  <% end %>
+</section>
+<% end %>

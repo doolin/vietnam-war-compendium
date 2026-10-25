@@ -6,7 +6,12 @@ CREATE TABLE IF NOT EXISTS events (
   title TEXT NOT NULL,
   body TEXT NOT NULL,
   photo_url TEXT,
-  photo_alt TEXT
+  photo_alt TEXT,
+  status TEXT NOT NULL DEFAULT 'approved',
+  source_text TEXT,
+  source_file TEXT,
+  summarized_by TEXT,
+  summarized_at TEXT
 );
 
 CREATE TABLE IF NOT EXISTS "references" (

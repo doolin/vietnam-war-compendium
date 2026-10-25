@@ -20,6 +20,7 @@ DATA_DIR = File.expand_path("../data/events", __dir__)
 ARCHIVE_INDEX = ThisDay::Archive::Index.new
 
 REQUIRED_EVENT_FIELDS = %w[month day year title body].freeze
+STATUSES = %w[draft approved rejected].freeze
 
 def validate_event(evt, file, index)
   errors = []
@@ -53,6 +54,11 @@ def validate_event(evt, file, index)
   Array(evt["references"]).each_with_index do |ref, i|
     errors << "reference #{i + 1} missing 'label'" if ref["label"].nil? || ref["label"].to_s.empty?
     errors << "reference #{i + 1} missing 'url'" if ref["url"].nil? || ref["url"].to_s.empty?
+  end
+
+  status = evt["status"]
+  unless status.nil? || STATUSES.include?(status)
+    errors << "status '#{status}' not one of #{STATUSES.join(', ')}"
   end
 
   unless errors.empty?
@@ -90,8 +96,11 @@ def build_database
         next unless errors.empty?
 
         db.execute(
-          "INSERT INTO events (month, day, year, title, body, photo_url, photo_alt) VALUES (?, ?, ?, ?, ?, ?, ?)",
-          [evt["month"], evt["day"], evt["year"], evt["title"], evt["body"], evt["photo_url"], evt["photo_alt"]]
+          "INSERT INTO events (month, day, year, title, body, photo_url, photo_alt, status, source_text, " \
+          "source_file, summarized_by, summarized_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+          [evt["month"], evt["day"], evt["year"], evt["title"], evt["body"], evt["photo_url"], evt["photo_alt"],
+           evt["status"] || "approved", evt["source_text"], File.basename(file),
+           evt["summarized_by"], evt["summarized_at"]&.to_s]
         )
         event_id = db.last_insert_row_id
 
