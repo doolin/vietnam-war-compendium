@@ -1,4 +1,69 @@
 ---
+- url: http://history.state.gov/historicaldocuments/frus1964-68v01/d387
+  final_url: https://history.state.gov/historicaldocuments/frus1964-68v01/d387
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-25T23:40:39Z'
+  sha256: 7e86a0b4fae38d67cc7061ac8a063a08df14a9d61036ec02a5f02a568016401f
+  bytes: 35812
+  title: Historical Documents - Office of the Historian
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/c6687f6234eed42d.html"
+  s3_key: this-day/references/c6687f6234eed42d/7e86a0b4fae38d67cc7061ac8a063a08df14a9d61036ec02a5f02a568016401f.html
+- url: http://mcadams.posc.mu.edu/viet17.htm
+  final_url: https://www.jfk-assassination.net
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-25T23:35:44Z'
+  sha256: 964de824145fec8a32e01677a0d66ceb2c524565b9fdfcf7ca3eea9b6006f84f
+  bytes: 10177
+  title: McAdams's Kennedy Assassination Home Page Index
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/cdeb94c0399cd046.html"
+  s3_key: this-day/references/cdeb94c0399cd046/964de824145fec8a32e01677a0d66ceb2c524565b9fdfcf7ca3eea9b6006f84f.html
+- url: http://www.afhso.af.mil/shared/media/document/AFD-100525-052.pdf
+  final_url: http://www.afhso.af.mil/shared/media/document/AFD-100525-052.pdf
+  status: error
+  code: 0
+  fetched_at: '2026-10-25T23:28:22Z'
+  note: 'Socket::ResolutionError: Failed to open TCP connection to www.afhso.af.mil:80
+    (getaddrinfo(3): nodename nor servname provided, or not known)'
+- url: http://www.let.rug.nl/usa/presidents/richard-milhous-nixon/vietnamization-speech-1969.php
+  final_url: https://www.let.rug.nl/usa/presidents/richard-milhous-nixon/vietnamization-speech-1969.php
+  status: http-404
+  code: 404
+  content_type: text/html
+  fetched_at: '2026-10-25T23:28:15Z'
+- url: http://www.nixonlibrary.gov/exhibits/decbomb/chapter-ii.html
+  final_url: https://www.nixonlibrary.gov/exhibits/decbomb/chapter-ii.html
+  status: http-404
+  code: 404
+  content_type: text/html
+  fetched_at: '2026-10-25T23:40:43Z'
+- url: http://www.usno.navy.mil/NOOC/nmfc-ph/RSS/jtwc/atcr/1971atcr.pdf
+  final_url: http://www.usno.navy.mil/NOOC/nmfc-ph/RSS/jtwc/atcr/1971atcr.pdf
+  status: error
+  code: 0
+  fetched_at: '2026-10-25T23:40:31Z'
+  note: 'Net::OpenTimeout: Failed to open TCP connection to www.usno.navy.mil:80 (user
+    specified timeout for www.usno.navy.mil port 80)'
+- url: https://arsof-history.org/arsof_timeline/index.html
+  final_url: https://arsof-history.org/arsof_timeline/index.html
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-25T23:41:19Z'
+  sha256: 78cd1b731e13cb16c2596b304f00bdf2d9406bc141f4b1b1220ca689ce1537a8
+  bytes: 262257
+  title: A Timeline of U.S. Army Special Operations Forces
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/398fae52712e507c.html"
+  s3_key: this-day/references/398fae52712e507c/78cd1b731e13cb16c2596b304f00bdf2d9406bc141f4b1b1220ca689ce1537a8.html
+- url: https://aviation-safety.net/wikibase/76002
+  final_url: https://aviation-safety.net/wikibase/76002
+  status: http-403
+  code: 403
+  content_type: text/html
+  fetched_at: '2026-10-25T23:36:36Z'
 - url: https://catalog.archives.gov/id/2240992
   final_url: https://catalog.archives.gov/id/2240992
   status: ok
@@ -10,12 +75,299 @@
   title:
   cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/5dcde3362be4261b.html"
   s3_key: this-day/references/5dcde3362be4261b/65e27e92402bf9312141b6aa3e6379d58e6f5e2d66d91989fe1db4231a3557d5.html
+- url: https://en.wikipedia.org/w/index.php?title=1961_in_the_Vietnam_War&oldid=1370279448
+  final_url: https://en.wikipedia.org/w/index.php?title=1961_in_the_Vietnam_War&oldid=1370279448
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-25T23:28:45Z'
+  sha256: 30c0961b6ced76d3ecab973bf2d49e36fc58a2e54b0a3816c5c4de298865819b
+  bytes: 396521
+  title: 1961 in the Vietnam War - Wikipedia
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/d84cd13c23937274.html"
+  s3_key: this-day/references/d84cd13c23937274/30c0961b6ced76d3ecab973bf2d49e36fc58a2e54b0a3816c5c4de298865819b.html
+- url: https://en.wikipedia.org/w/index.php?title=1962_in_the_Vietnam_War&oldid=1374503779
+  final_url: https://en.wikipedia.org/w/index.php?title=1962_in_the_Vietnam_War&oldid=1374503779
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-25T23:38:12Z'
+  sha256: 7514a6473acd45572eb04296684d5b1299e43b2b0dafe39844e69770817250c1
+  bytes: 359272
+  title: 1962 in the Vietnam War - Wikipedia
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/062c5536ac5562d1.html"
+  s3_key: this-day/references/062c5536ac5562d1/7514a6473acd45572eb04296684d5b1299e43b2b0dafe39844e69770817250c1.html
+- url: https://en.wikipedia.org/w/index.php?title=1963_in_the_Vietnam_War&oldid=1370279475
+  final_url: https://en.wikipedia.org/w/index.php?title=1963_in_the_Vietnam_War&oldid=1370279475
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-25T23:27:01Z'
+  sha256: 7e9e429adb2fd05ba068faa56f28d576f0f957f20b919910402b368742250a03
+  bytes: 413061
+  title: 1963 in the Vietnam War - Wikipedia
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/478168c677ef41c2.html"
+  s3_key: this-day/references/478168c677ef41c2/7e9e429adb2fd05ba068faa56f28d576f0f957f20b919910402b368742250a03.html
+- url: https://en.wikipedia.org/w/index.php?title=1964_in_the_Vietnam_War&oldid=1370342430
+  final_url: https://en.wikipedia.org/w/index.php?title=1964_in_the_Vietnam_War&oldid=1370342430
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-25T23:28:16Z'
+  sha256: '094a380b6456cbbbe3ca30ba83c22d05f049d4ba3f0cf9826da0ef904e696533'
+  bytes: 880151
+  title: 1964 in the Vietnam War - Wikipedia
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/61b6b4353c633a62.html"
+  s3_key: this-day/references/61b6b4353c633a62/094a380b6456cbbbe3ca30ba83c22d05f049d4ba3f0cf9826da0ef904e696533.html
+- url: https://en.wikipedia.org/w/index.php?title=1965_in_the_Vietnam_War&oldid=1370279555
+  final_url: https://en.wikipedia.org/w/index.php?title=1965_in_the_Vietnam_War&oldid=1370279555
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-25T23:28:48Z'
+  sha256: bc76fe9222fb8e619f9f44c09c209d2db2b92fc0c1daf6866f3cf3a745d3c677
+  bytes: 1130095
+  title: 1965 in the Vietnam War - Wikipedia
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/ebfa20757c978f4f.html"
+  s3_key: this-day/references/ebfa20757c978f4f/bc76fe9222fb8e619f9f44c09c209d2db2b92fc0c1daf6866f3cf3a745d3c677.html
+- url: https://en.wikipedia.org/w/index.php?title=1966_in_the_Vietnam_War&oldid=1380091905
+  final_url: https://en.wikipedia.org/w/index.php?title=1966_in_the_Vietnam_War&oldid=1380091905
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-25T23:36:36Z'
+  sha256: b3614c1ff40af31ffe89794e1fe4c4b6c26fe397bfb2fd8772257cfa0571b310
+  bytes: 845997
+  title: 1966 in the Vietnam War - Wikipedia
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/4af3a20c168c031f.html"
+  s3_key: this-day/references/4af3a20c168c031f/b3614c1ff40af31ffe89794e1fe4c4b6c26fe397bfb2fd8772257cfa0571b310.html
+- url: https://en.wikipedia.org/w/index.php?title=1967_in_the_Vietnam_War&oldid=1370279584
+  final_url: https://en.wikipedia.org/w/index.php?title=1967_in_the_Vietnam_War&oldid=1370279584
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-25T23:28:23Z'
+  sha256: 0c3e6921c175238e154faf7075457054cdaf50b77c75db871bb662293824c03b
+  bytes: 882740
+  title: 1967 in the Vietnam War - Wikipedia
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/47d2d03e8a9b58d6.html"
+  s3_key: this-day/references/47d2d03e8a9b58d6/0c3e6921c175238e154faf7075457054cdaf50b77c75db871bb662293824c03b.html
+- url: https://en.wikipedia.org/w/index.php?title=1969_in_the_Vietnam_War&oldid=1370279610
+  final_url: https://en.wikipedia.org/w/index.php?title=1969_in_the_Vietnam_War&oldid=1370279610
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-25T23:27:13Z'
+  sha256: 65af1d7f49c3679f337c43cf6eac2f4ff3e7eeab90e549b7c560922c811a1ec8
+  bytes: 729756
+  title: 1969 in the Vietnam War - Wikipedia
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/6d22fa7e678fa6b6.html"
+  s3_key: this-day/references/6d22fa7e678fa6b6/65af1d7f49c3679f337c43cf6eac2f4ff3e7eeab90e549b7c560922c811a1ec8.html
+- url: https://en.wikipedia.org/w/index.php?title=1970_in_the_Vietnam_War&oldid=1377614479
+  final_url: https://en.wikipedia.org/w/index.php?title=1970_in_the_Vietnam_War&oldid=1377614479
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-25T23:35:52Z'
+  sha256: 2c6be87307c2a79e18ff90cb7ae074f16eb1bc02593f72d4aa38917ecfaf3f50
+  bytes: 710841
+  title: 1970 in the Vietnam War - Wikipedia
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/817fa38e93294d2b.html"
+  s3_key: this-day/references/817fa38e93294d2b/2c6be87307c2a79e18ff90cb7ae074f16eb1bc02593f72d4aa38917ecfaf3f50.html
+- url: https://en.wikipedia.org/w/index.php?title=1971_in_the_Vietnam_War&oldid=1370279651
+  final_url: https://en.wikipedia.org/w/index.php?title=1971_in_the_Vietnam_War&oldid=1370279651
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-25T23:36:27Z'
+  sha256: cad7c24c19580a7031fd92dbb5ebf217724c92a2ddce064394015c00a9e22f3c
+  bytes: 1223071
+  title: 1971 in the Vietnam War - Wikipedia
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/b8da0ccc6e1ba01b.html"
+  s3_key: this-day/references/b8da0ccc6e1ba01b/cad7c24c19580a7031fd92dbb5ebf217724c92a2ddce064394015c00a9e22f3c.html
+- url: https://en.wikipedia.org/w/index.php?title=1972_in_the_Vietnam_War&oldid=1372115736
+  final_url: https://en.wikipedia.org/w/index.php?title=1972_in_the_Vietnam_War&oldid=1372115736
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-25T23:36:46Z'
+  sha256: aaf709dd706042b8eebe7cfcbfd0a25a4790c206ca352e9a5a0d6bccecf63364
+  bytes: 2066899
+  title: 1972 in the Vietnam War - Wikipedia
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/916d483e12e919d6.html"
+  s3_key: this-day/references/916d483e12e919d6/aaf709dd706042b8eebe7cfcbfd0a25a4790c206ca352e9a5a0d6bccecf63364.html
+- url: https://history.army.mil/Publications/Publications-Catalog-Sub/Publications-By-Title/Advice-and-Support-The-Middle-Years/
+  final_url: https://history.army.mil/Publications/Publications-Catalog-Sub/Publications-By-Title/Advice-and-Support-The-Middle-Years/
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-25T23:28:21Z'
+  sha256: 500c6bd94141dcb20b9ee7ad9c0946755b053a450713ae477cc9ea3327c7e88d
+  bytes: 36591
+  title: Publications
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/b2ce7c0657817b70.html"
+  s3_key: this-day/references/b2ce7c0657817b70/500c6bd94141dcb20b9ee7ad9c0946755b053a450713ae477cc9ea3327c7e88d.html
 - url: https://history.army.mil/html/books/090/90-23-1/cmhPub_90-23.htm
   final_url: https://history.army.mil/html/books/090/90-23-1/cmhPub_90-23
   status: http-404
   code: 404
   content_type: text/html
   fetched_at: '2026-10-25T14:36:10Z'
+- url: https://history.army.mil/html/books/091/91-5/index.html
+  final_url: https://history.army.mil/html/books/091/91-5/
+  status: http-404
+  code: 404
+  content_type: text/html
+  fetched_at: '2026-10-25T23:36:27Z'
+- url: https://history.army.mil/html/books/091/91-6/CMH_Pub_91-6.pdf
+  final_url: https://history.army.mil/html/books/091/91-6/CMH_Pub_91-6.pdf
+  status: http-404
+  code: 404
+  content_type: text/html
+  fetched_at: '2026-10-25T23:40:11Z'
+- url: https://history.state.gov/historicaldocuments/frus1961-63v01
+  final_url: https://history.state.gov/historicaldocuments/frus1961-63v01
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-25T23:38:09Z'
+  sha256: 901feaf98735ac5deace34bc07419918bbea8ef8052f24be30d68a2371cb7a2e
+  bytes: 33903
+  title: Historical Documents - Office of the Historian
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/6d79bac122b58fbb.html"
+  s3_key: this-day/references/6d79bac122b58fbb/901feaf98735ac5deace34bc07419918bbea8ef8052f24be30d68a2371cb7a2e.html
+- url: https://history.state.gov/historicaldocuments/frus1961-63v04/d181
+  final_url: https://history.state.gov/historicaldocuments/frus1961-63v04/d181
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-25T23:38:06Z'
+  sha256: f1f29d346abea60e3e068744b0ace5e7ff7f222dd49926dc968d97bbba76dbd1
+  bytes: 73176
+  title: Historical Documents - Office of the Historian
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/4de6217cdc0abf0c.html"
+  s3_key: this-day/references/4de6217cdc0abf0c/f1f29d346abea60e3e068744b0ace5e7ff7f222dd49926dc968d97bbba76dbd1.html
+- url: https://history.state.gov/historicaldocuments/frus1961-63v04/d225
+  final_url: https://history.state.gov/historicaldocuments/frus1961-63v04/d225
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-25T23:40:45Z'
+  sha256: f8e31d9584465f01e00f68553cf56164c3c7d45f5c3f0426dc2aae9b9ae51d7b
+  bytes: 54496
+  title: Historical Documents - Office of the Historian
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/31fcc07622b2c4f8.html"
+  s3_key: this-day/references/31fcc07622b2c4f8/f8e31d9584465f01e00f68553cf56164c3c7d45f5c3f0426dc2aae9b9ae51d7b.html
+- url: https://history.state.gov/historicaldocuments/frus1961-63v04/d242
+  final_url: https://history.state.gov/historicaldocuments/frus1961-63v04/d242
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-25T23:40:47Z'
+  sha256: d50a4c13a0af0e026b56a04da0dc4f0cb2fa275bfb7fc32bb536b3d66ee7052e
+  bytes: 56168
+  title: Historical Documents - Office of the Historian
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/495b10e2cb53af2c.html"
+  s3_key: this-day/references/495b10e2cb53af2c/d50a4c13a0af0e026b56a04da0dc4f0cb2fa275bfb7fc32bb536b3d66ee7052e.html
+- url: https://history.state.gov/historicaldocuments/frus1961-63v04/d249
+  final_url: https://history.state.gov/historicaldocuments/frus1961-63v04/d249
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-25T23:41:01Z'
+  sha256: f3bf7b1e2b2f8f550e5cd3158cdae305b8ff1d33364c9e456e9f89094260377c
+  bytes: 45843
+  title: Historical Documents - Office of the Historian
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/63c06db5f034a4ac.html"
+  s3_key: this-day/references/63c06db5f034a4ac/f3bf7b1e2b2f8f550e5cd3158cdae305b8ff1d33364c9e456e9f89094260377c.html
+- url: https://history.state.gov/historicaldocuments/frus1961-63v04/d280
+  final_url: https://history.state.gov/historicaldocuments/frus1961-63v04/d280
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-25T23:27:09Z'
+  sha256: 6957533e0671c3bfb3ef4872f54e062ac36a637c9a0be9448f9224150f4fdffd
+  bytes: 35057
+  title: Historical Documents - Office of the Historian
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/c020a47a0b604489.html"
+  s3_key: this-day/references/c020a47a0b604489/6957533e0671c3bfb3ef4872f54e062ac36a637c9a0be9448f9224150f4fdffd.html
+- url: https://history.state.gov/historicaldocuments/frus1964-68v02/d175
+  final_url: https://history.state.gov/historicaldocuments/frus1964-68v02/d175
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-25T23:41:17Z'
+  sha256: 314f74e338a0e69553ebe2a6ae6185400fff26617bc22092509dd3c4303e7015
+  bytes: 27800
+  title: Historical Documents - Office of the Historian
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/33ecfe1159e43330.html"
+  s3_key: this-day/references/33ecfe1159e43330/314f74e338a0e69553ebe2a6ae6185400fff26617bc22092509dd3c4303e7015.html
+- url: https://history.state.gov/historicaldocuments/frus1964-68v02/d188
+  final_url: https://history.state.gov/historicaldocuments/frus1964-68v02/d188
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-25T23:41:21Z'
+  sha256: 22008f93af4fc213905d78541fc2b4c3b91edcc0a7ffeaf013b7006b15c59c00
+  bytes: 26991
+  title: Historical Documents - Office of the Historian
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/fadf52f22a7132e5.html"
+  s3_key: this-day/references/fadf52f22a7132e5/22008f93af4fc213905d78541fc2b4c3b91edcc0a7ffeaf013b7006b15c59c00.html
+- url: https://history.state.gov/historicaldocuments/frus1964-68v05/d397
+  final_url: https://history.state.gov/historicaldocuments/frus1964-68v05/d397
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-25T23:28:43Z'
+  sha256: fe63b0cd30b5f1d0db00cba777d183fd7b2522c32f4956d0cf95c5aa1f747bf0
+  bytes: 44423
+  title: Historical Documents - Office of the Historian
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/1faa07a59df80eb8.html"
+  s3_key: this-day/references/1faa07a59df80eb8/fe63b0cd30b5f1d0db00cba777d183fd7b2522c32f4956d0cf95c5aa1f747bf0.html
+- url: https://history.state.gov/historicaldocuments/frus1964-68v06/d116
+  final_url: https://history.state.gov/historicaldocuments/frus1964-68v06/d116
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-25T23:41:25Z'
+  sha256: 7a0c37049682ca4439bad12f627d76e24c0db0b83f239a47fb3c6598879c2463
+  bytes: 35623
+  title: Historical Documents - Office of the Historian
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/111b897db0940156.html"
+  s3_key: this-day/references/111b897db0940156/7a0c37049682ca4439bad12f627d76e24c0db0b83f239a47fb3c6598879c2463.html
+- url: https://history.state.gov/historicaldocuments/frus1964-68v06/d123
+  final_url: https://history.state.gov/historicaldocuments/frus1964-68v06/d123
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-25T23:41:27Z'
+  sha256: '081c70cfea5fca155f06384cdc829ae28c735022a25cdb4420e7c91f00b69f6b'
+  bytes: 33221
+  title: Historical Documents - Office of the Historian
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/c62186bb13c859cf.html"
+  s3_key: this-day/references/c62186bb13c859cf/081c70cfea5fca155f06384cdc829ae28c735022a25cdb4420e7c91f00b69f6b.html
+- url: https://history.state.gov/historicaldocuments/frus1964-68v06/d33
+  final_url: https://history.state.gov/historicaldocuments/frus1964-68v06/d33
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-25T23:41:39Z'
+  sha256: ea38ef1ef8c41fbcaab627a113f6303c50e1c2949bf259faab26a28656ec4127
+  bytes: 35683
+  title: Historical Documents - Office of the Historian
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/9bec76a8982960ea.html"
+  s3_key: this-day/references/9bec76a8982960ea/ea38ef1ef8c41fbcaab627a113f6303c50e1c2949bf259faab26a28656ec4127.html
+- url: https://history.state.gov/historicaldocuments/frus1969-76v10/d278
+  final_url: https://history.state.gov/historicaldocuments/frus1969-76v10/d278
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-25T23:42:04Z'
+  sha256: e1b98dce8bf0a87ea26ab76c9e1a648fc056e949ee3b8945619fab1cfecca468
+  bytes: 31058
+  title: Historical Documents - Office of the Historian
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/0c8236cb397f49df.html"
+  s3_key: this-day/references/0c8236cb397f49df/e1b98dce8bf0a87ea26ab76c9e1a648fc056e949ee3b8945619fab1cfecca468.html
 - url: https://historynet.com/final-fiasco-the-fall-of-saigon/
   final_url: https://historynet.com/final-fiasco-the-fall-of-saigon/
   status: ok
@@ -27,18 +379,57 @@
   title: 'The Fall of Saigon: How the Vietnam War Ended in 1975'
   cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/53e0e6018e5f7cf2.html"
   s3_key: this-day/references/53e0e6018e5f7cf2/bac2cf410ecc6d5becafb15acfc6dfe5efc3777d8e6a9c21f28dc019a6c45a39.html
+- url: https://media.defense.gov/2010/Sep/21/2001329821/-1/-1/0/AFD-100921-010.pdf
+  final_url: https://media.defense.gov/2010/Sep/21/2001329821/-1/-1/0/AFD-100921-010.pdf
+  status: http-404
+  code: 404
+  content_type: text/html
+  fetched_at: '2026-10-25T23:40:16Z'
 - url: https://media.defense.gov/2010/Sep/28/2001329801/-1/-1/0/AFD-100928-054.pdf
   final_url: https://media.defense.gov/2010/Sep/28/2001329801/-1/-1/0/AFD-100928-054.pdf
   status: http-404
   code: 404
   content_type: text/html
   fetched_at: '2026-10-25T14:36:04Z'
-- url: https://openlibrary.org/isbn/0060929081
-  final_url: https://openlibrary.org/isbn/0060929081
-  status: error
-  code: 0
+- url: https://media.defense.gov/2011/Mar/22/2001330192/-1/-1/0/AFD-110322-029.pdf
+  final_url: https://media.defense.gov/2011/Mar/22/2001330192/-1/-1/0/AFD-110322-029.pdf
+  status: ok
+  code: 200
+  content_type: application/pdf
+  fetched_at: '2026-10-25T23:35:57Z'
+  sha256: ce7313074eedddde707ee10eb8518abd72ae2b02e1fafa4dfadbc89728ffdc86
+  bytes: 6413995
+  title:
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/e50b8307b405bf8f.pdf"
+  s3_key: this-day/references/e50b8307b405bf8f/ce7313074eedddde707ee10eb8518abd72ae2b02e1fafa4dfadbc89728ffdc86.pdf
+- url: https://news.google.com/newspapers?id=onYzAAAAIBAJ&sjid=t_cDAAAAIBAJ&dq=hester&pg=1831%2C5643266
+  final_url: https://news.google.com/newspapers?id=onYzAAAAIBAJ&sjid=t_cDAAAAIBAJ&dq=hester&pg=1831%2C5643266
+  status: ok
+  code: 200
   content_type: text/html
-  fetched_at: '2026-10-25T14:36:03Z'
+  fetched_at: '2026-10-25T23:40:33Z'
+  sha256: 4a48b277c418e4d7fb72fa03359bd604eac3b89d39c1dc2eb51c02df9dd25d8e
+  bytes: 18522
+  title: The Bulletin - Google News Archive Search
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/c6dce63ad2a45d7e.html"
+  s3_key: this-day/references/c6dce63ad2a45d7e/4a48b277c418e4d7fb72fa03359bd604eac3b89d39c1dc2eb51c02df9dd25d8e.html
+- url: https://nsarchive2.gwu.edu/NSAEBB/NSAEBB81/nnp05.pdf
+  final_url: https://nsarchive2.gwu.edu/NSAEBB/NSAEBB81/nnp05.pdf
+  status: ok
+  code: 200
+  content_type: application/pdf
+  fetched_at: '2026-10-25T23:40:13Z'
+  sha256: d2e04260e1856f6e83bdab05ae3cfd3ac6a03d8878a43ec2e0b1f8f2f43a68dc
+  bytes: 129550
+  title:
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/3d7c3576a1f48b14.pdf"
+  s3_key: this-day/references/3d7c3576a1f48b14/d2e04260e1856f6e83bdab05ae3cfd3ac6a03d8878a43ec2e0b1f8f2f43a68dc.pdf
+- url: https://openlibrary.org/isbn/0060929081
+  final_url: https://openlibrary.org/verify_human?next=/books/OL9239612M
+  status: bot-wall
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-25T23:27:00Z'
   sha256: 63ee18847a1ebcba7b2631b7ce492a3aa93b3e6629be7e60017b177799d87768
   bytes: 43285
   title: Human Verification | Open Library
@@ -50,7 +441,7 @@
   final_url: https://openlibrary.org/works/OL27817833W
   status: error
   code: 0
-  fetched_at: '2026-10-25T14:25:59Z'
+  fetched_at: '2026-10-25T23:42:11Z'
   note: 'Errno::ECONNREFUSED: Failed to open TCP connection to openlibrary.org:443
     (Connection refused - connect(2) for "openlibrary.org" port 443)'
 - url: https://openlibrary.org/works/OL27982066W
@@ -58,7 +449,7 @@
   status: bot-wall
   code: 200
   content_type: text/html
-  fetched_at: '2026-10-25T14:25:55Z'
+  fetched_at: '2026-10-25T23:41:10Z'
   sha256: 43399813e0da53f07bd1a7429637a95caace689a68cc3a15ebc0c988dcf9e882
   bytes: 43287
   title: Human Verification | Open Library
@@ -75,7 +466,7 @@
   final_url: https://openlibrary.org/works/OL6443002W
   status: error
   code: 0
-  fetched_at: '2026-10-25T14:26:00Z'
+  fetched_at: '2026-10-25T23:42:09Z'
   note: 'Errno::ECONNREFUSED: Failed to open TCP connection to openlibrary.org:443
     (Connection refused - connect(2) for "openlibrary.org" port 443)'
 - url: https://sogsite.com/2021/04/29/st-idaho-still-missing-53-years-later/
@@ -89,6 +480,17 @@
   title: ST Idaho Still Missing 53 Years Later &#8211; MACV-SOG
   cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/f017d9340bbc8e9d.html"
   s3_key: this-day/references/f017d9340bbc8e9d/4ae72c8828082af8bfffd1eba12f23db60c8944113ce74b1ef2bf4b7f525d299.html
+- url: https://visit.archives.gov/whats-on/explore-exhibits/episode-12-fall-saigon
+  final_url: https://visit.archives.gov/whats-on/explore-exhibits/episode-12-fall-saigon
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-25T23:42:01Z'
+  sha256: 2bc48643ecc54c5077406b04b5b1bf6f08269572a33eabb665993110e4f0dbbe
+  bytes: 33637
+  title: 'Episode 12: Fall of Saigon | National Archives Museum'
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/8e3ad87b0caf092b.html"
+  s3_key: this-day/references/8e3ad87b0caf092b/2bc48643ecc54c5077406b04b5b1bf6f08269572a33eabb665993110e4f0dbbe.html
 - url: https://www.amazon.com/dp/0060929081
   final_url: https://www.amazon.com/dp/0060929081
   status: bot-wall
@@ -335,6 +737,17 @@
     Rangers and Airborne by Robert L. Tonsetic | Goodreads'
   cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/c9c73cdffd8d09f6.html"
   s3_key: this-day/references/c9c73cdffd8d09f6/1286d1447686ab55b98429ffbc85b3ab09ad391fc15707587f0c0a3fbf20d19d.html
+- url: https://www.gutenberg.org/files/54613/54613-h/54613-h.htm
+  final_url: https://www.gutenberg.org/files/54613/54613-h/54613-h.htm
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-25T23:41:13Z'
+  sha256: 414306757214cd5650a8eecc8ff7db8a6a7ab0d28a8867723d1171cbf79d67a7
+  bytes: 563698
+  title: The Project Gutenberg eBook of The Battle For Khe Sanh, by Moyers S. Shore.
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/5484a69fbf13e28d.html"
+  s3_key: this-day/references/5484a69fbf13e28d/414306757214cd5650a8eecc8ff7db8a6a7ab0d28a8867723d1171cbf79d67a7.html
 - url: https://www.lbjlibrary.org/object/text/address-nation-3-31-1968
   final_url: https://www.lbjlibrary.org/object/text/address-nation-3-31-1968
   status: http-404
@@ -352,12 +765,83 @@
   title: Bio, Acalotto, Robert J.
   cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/ccb2aaea8f719f79.html"
   s3_key: this-day/references/ccb2aaea8f719f79/880e85a301c44a7fd230eb579ad13606748dea4423db7667d08eb5fd5ae48506.html
+- url: https://www.presidency.ucsb.edu/documents/remarks-upon-presenting-the-presidential-unit-citation-the-1st-cavalry-division-airmobile
+  final_url: https://www.presidency.ucsb.edu/documents/remarks-upon-presenting-the-presidential-unit-citation-the-1st-cavalry-division-airmobile
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-25T23:41:57Z'
+  sha256: 16e257b2981ba446364a4d560a889ee726f8bd3b686d849a80234346c69a392e
+  bytes: 37743
+  title: Remarks Upon Presenting the Presidential Unit Citation to the 1st Cavalry
+    Division (Airmobile) and Attached Units. | The American Presidency Project
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/181accc857b7f34c.html"
+  s3_key: this-day/references/181accc857b7f34c/16e257b2981ba446364a4d560a889ee726f8bd3b686d849a80234346c69a392e.html
+- url: https://www.presidency.ucsb.edu/documents/the-presidents-address-the-nation-announcing-steps-limit-the-war-vietnam-and-reporting-his
+  final_url: https://www.presidency.ucsb.edu/documents/the-presidents-address-the-nation-announcing-steps-limit-the-war-vietnam-and-reporting-his
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-25T23:41:34Z'
+  sha256: 7a9dfc0452110b0676d54076e563dc038d0741bf7b333e19b417985c2e4cda9d
+  bytes: 85195
+  title: The President&#039;s Address to the Nation Announcing Steps To Limit the
+    War in Vietnam and Reporting His Decision Not To Seek Reelection | The American
+    Presidency Project
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/d4f77e01eb4a86d8.html"
+  s3_key: this-day/references/d4f77e01eb4a86d8/7a9dfc0452110b0676d54076e563dc038d0741bf7b333e19b417985c2e4cda9d.html
+- url: https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-1203
+  final_url: https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-1203
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-25T23:41:30Z'
+  sha256: '08e0d9c8d5e03c3884901cb9f127c91de811b78f7d9c144cb8e04700829fc933'
+  bytes: 80241
+  title: The President&#039;s News Conference | The American Presidency Project
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/d81a4863613d50be.html"
+  s3_key: this-day/references/d81a4863613d50be/08e0d9c8d5e03c3884901cb9f127c91de811b78f7d9c144cb8e04700829fc933.html
+- url: https://www.usmcu.edu/Portals/218/U_S_%20Marines%20in%20Vietnam_The%20Landing%20and%20the%20Buildup%201965%20%20PCN%2019000307600.pdf
+  final_url: https://www.usmcu.edu/Portals/218/U_S_%20Marines%20in%20Vietnam_The%20Landing%20and%20the%20Buildup%201965%20%20PCN%2019000307600.pdf
+  status: ok
+  code: 200
+  content_type: application/pdf
+  fetched_at: '2026-10-25T23:28:56Z'
+  sha256: d0d7a1a2aa017e58f6306f7c5ea8c1e81d5659045ae3cbf1bb2d5ee18c8da385
+  bytes: 30571217
+  title:
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/692ea537612fcbe8.pdf"
+  s3_key: this-day/references/692ea537612fcbe8/d0d7a1a2aa017e58f6306f7c5ea8c1e81d5659045ae3cbf1bb2d5ee18c8da385.pdf
+- url: https://www.usmcu.edu/Portals/218/Vietnam_Path_To_War.pdf
+  final_url: https://www.usmcu.edu/Portals/218/Vietnam_Path_To_War.pdf
+  status: ok
+  code: 200
+  content_type: application/pdf
+  fetched_at: '2026-10-25T23:38:26Z'
+  sha256: d9f8d72806dbbfc4f9bbc138c0c38747dd2fbfef993e50b3fdcd939156a23dac
+  bytes: 3084322
+  title:
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/e13c3691f19fa076.pdf"
+  s3_key: this-day/references/e13c3691f19fa076/d9f8d72806dbbfc4f9bbc138c0c38747dd2fbfef993e50b3fdcd939156a23dac.pdf
 - url: https://www.usmcu.edu/Research/Marine-Corps-History-Division/Brief-Histories/Marines-in-the-Vietnam-War/
   final_url: https://www.usmcu.edu/Research/Marine-Corps-History-Division/Brief-Histories/Marines-in-the-Vietnam-War/
   status: http-404
   code: 404
   content_type: text/html
   fetched_at: '2026-10-25T14:36:13Z'
+- url: https://www.vietnam.ttu.edu/exhibits/helicopter/aircav.php
+  final_url: https://www.vietnam.ttu.edu/exhibits/helicopter/aircav.php
+  status: error
+  code: 0
+  fetched_at: '2026-10-25T23:41:56Z'
+  note: 'Net::OpenTimeout: Net::OpenTimeout'
+- url: https://www.vietnam.ttu.edu/reports/images.php?img=/images/231/2311404008a.pdf
+  final_url: https://www.vietnam.ttu.edu/reports/images.php?img=/images/231/2311404008a.pdf
+  status: error
+  code: 0
+  fetched_at: '2026-10-25T23:36:45Z'
+  note: 'OpenSSL::SSL::SSLError: SSL_connect returned=1 errno=0 peeraddr=141.193.178.92:443
+    state=error: certificate verify failed (unable to get local issuer certificate)'
 - url: https://yalebooks.yale.edu/book/9780300026306/big-story/
   final_url: https://yalebooks.yale.edu/book/9780300026306/big-story/
   status: ok
