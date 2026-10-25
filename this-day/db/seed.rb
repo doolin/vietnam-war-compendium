@@ -11,11 +11,13 @@
 require "sqlite3"
 require "yaml"
 require "fileutils"
+require_relative "../lib/this_day/archive/index"
 
 DB_DIR = File.expand_path(__dir__)
 DB_PATH = File.join(DB_DIR, "this_day.sqlite3")
 SCHEMA_PATH = File.join(DB_DIR, "schema.sql")
 DATA_DIR = File.expand_path("../data/events", __dir__)
+ARCHIVE_INDEX = ThisDay::Archive::Index.new
 
 REQUIRED_EVENT_FIELDS = %w[month day year title body].freeze
 
@@ -94,9 +96,11 @@ def build_database
         event_id = db.last_insert_row_id
 
         Array(evt["references"]).each_with_index do |ref, i|
+          archived = ARCHIVE_INDEX[ref["url"]] || {}
           db.execute(
-            'INSERT INTO "references" (event_id, position, label, url) VALUES (?, ?, ?, ?)',
-            [event_id, i + 1, ref["label"], ref["url"]]
+            'INSERT INTO "references" (event_id, position, label, url, archive_status, archived_at) ' \
+            "VALUES (?, ?, ?, ?, ?, ?)",
+            [event_id, i + 1, ref["label"], ref["url"], archived["status"], archived["fetched_at"]]
           )
         end
       end

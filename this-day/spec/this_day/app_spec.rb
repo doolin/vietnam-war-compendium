@@ -24,7 +24,8 @@ RSpec.describe ThisDay::App do
       title: "Test event for today",
       body: "<p>Something happened on this day during the Vietnam War.</p>",
       references: [
-        { label: "Test Reference", url: "https://example.com/ref" },
+        { label: "Test Reference", url: "https://example.com/ref",
+          archive_status: "ok", archived_at: "2026-10-25T18:02:11Z" },
         { label: "Another Reference", url: "https://example.com/ref2" }
       ]
     )
@@ -37,7 +38,9 @@ RSpec.describe ThisDay::App do
       photo_url: "https://example.com/photo.jpg",
       photo_alt: "A historical photograph",
       references: [
-        { label: "Photo Source", url: "https://example.com/photo-source" }
+        { label: "Photo Source", url: "https://example.com/photo-source",
+          archive_status: "ok", archived_at: "2026-10-25T18:02:11Z" },
+        { label: "Dead Source", url: "https://example.com/dead", archive_status: "http-404" }
       ]
     )
 
@@ -86,6 +89,13 @@ RSpec.describe ThisDay::App do
       get "/"
       expect(last_response.body).to include("<a href=")
       expect(last_response.body).to include("References")
+    end
+
+    it "marks each reference as archived or unverified" do
+      get "/"
+      expect(last_response.body).to include('class="archive-status archived"')
+      expect(last_response.body).to include("archived 2026-10-25")
+      expect(last_response.body).to include('class="archive-status unverified"')
     end
 
     it "uses semantic HTML with a main element" do

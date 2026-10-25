@@ -5,3 +5,4 @@ vendor/bundle/
 .aws-sam/
 .build/
 version.json
+archive/cache/

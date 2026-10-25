@@ -38,8 +38,9 @@ RSpec.describe ThisDay::Database do
       title: "Tet Offensive begins",
       body: "<p>The Tet Offensive launched across South Vietnam.</p>",
       references: [
-        { label: "Tet! by Don Oberdorfer", url: "https://example.com/tet" },
-        { label: "The Pentagon Papers", url: "https://example.com/papers" },
+        { label: "Tet! by Don Oberdorfer", url: "https://example.com/tet",
+          archive_status: "ok", archived_at: "2026-10-25T18:02:11Z" },
+        { label: "The Pentagon Papers", url: "https://example.com/papers", archive_status: "http-404" },
         { label: "Vietnam: A History", url: "https://example.com/history" }
       ]
     )
@@ -71,6 +72,16 @@ RSpec.describe ThisDay::Database do
       expect(event.references.length).to eq(3)
       expect(event.references.first.label).to eq("Tet! by Don Oberdorfer")
       expect(event.references.first.url).to eq("https://example.com/tet")
+    end
+
+    it "exposes archive status on references" do
+      refs = database.event_for_date(1, 30).references
+      expect(refs[0]).to be_archived
+      expect(refs[0].archived_on).to eq("2026-10-25")
+      expect(refs[1]).not_to be_archived
+      expect(refs[1].archive_status).to eq("http-404")
+      expect(refs[2]).not_to be_archived
+      expect(refs[2].archived_on).to be_nil
     end
 
     it "returns one of multiple events for the same date" do

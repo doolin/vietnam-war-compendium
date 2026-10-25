@@ -100,6 +100,54 @@ namespace :db do
   end
 end
 
+EVENTS_DIR = File.expand_path("data/events", __dir__)
+ARCHIVE_PREFIX = "this-day/references"
+
+namespace :refs do
+  def archive_components
+    require_relative "lib/this_day/archive/archiver"
+    require_relative "lib/this_day/archive/audit"
+    index = ThisDay::Archive::Index.new
+    audit = ThisDay::Archive::Audit.new(index: index, events_dir: EVENTS_DIR)
+    [index, audit]
+  end
+
+  desc "Fetch, cache, upload, and index every unarchived reference URL (URL=... for one; NO_S3=1 to skip upload)"
+  task :archive do
+    index, audit = archive_components
+    s3 = if ENV["NO_S3"]
+           nil
+         else
+           require "aws-sdk-s3"
+           Aws::S3::Client.new(region: BACKUP_REGION)
+         end
+    archiver = ThisDay::Archive::Archiver.new(index: index, bucket: BACKUP_BUCKET,
+                                              prefix: ARCHIVE_PREFIX, s3_client: s3)
+    urls = ENV["URL"] ? [ENV["URL"]] : audit.unarchived_urls
+    puts "Archiving #{urls.size} URL(s)"
+    urls.each_with_index do |url, i|
+      entry = archiver.archive(url)
+      puts format("%3d/%d %-9s %s", i + 1, urls.size, entry["status"], url)
+      index.save
+    end
+    puts "Index: #{index.size} entries at #{index.path}"
+  end
+
+  desc "Report references that are missing, failed, or whose page title contradicts the label"
+  task :audit do
+    _index, audit = archive_components
+    s = audit.summary
+    puts "References: #{s[:references]}  unique URLs: #{s[:unique_urls]}  archived: #{s[:archived]}"
+    puts "Missing: #{s[:missing]}  Failed: #{s[:failed]}  Title mismatch: #{s[:mismatch]}"
+    audit.findings.group_by(&:kind).each do |kind, findings|
+      puts "\n== #{kind} (#{findings.size})"
+      findings.each do |f|
+        puts "#{f.file} | #{f.title}\n    #{f.label}\n    #{f.url}\n    #{f.detail}"
+      end
+    end
+  end
+end
+
 namespace :deploy do
   desc "Build the deployment zip (bundle gems for Lambda via Docker, package app + db)"
   task :build do

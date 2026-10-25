@@ -1,0 +1,50 @@
+# Session plan — 2026-10-25
+
+Reference archive, content audit, and a month-provisioning proof of
+concept for This Day in Viet Nam. Written at session start; checked
+off as work lands. Deploys after each numbered increment so the live
+site shows progress.
+
+## Increments
+
+1. **Reference archive library.** `ThisDay::Archive` fetches each
+   reference URL with per-domain politeness, stores the bytes under
+   `archive/cache/` (gitignored), uploads to
+   `s3://inventium-backups/this-day/references/`, and records a row in
+   `data/archive/index.yaml` (committed): url, sha256, bytes,
+   content type, fetched_at, s3_key, status, page title. Rake tasks
+   `refs:archive` and `refs:audit`. Specs.
+2. **Archive status on the page.** Seed joins the index; the
+   references table gains `archived_at`. The event page marks each
+   reference as archived or unverified. **Deploy.**
+3. **Audit the existing 352 events.** Run `refs:audit`; record every
+   failed fetch and every page whose title does not match its label.
+   Rewrite or drop the flagged landmark and 1975 references.
+4. **Month review page.** `/this-day-in-vietnam-war/review/10` lists
+   every day of a month with its events, bodies, references, archive
+   status, and draft/approved status. Events gain an optional `status`
+   field (default approved for existing). **Deploy.**
+5. **October provisioning.** For each of the 23 uncovered October
+   days, draw a dated event from a fetchable, archivable source;
+   write the event with `status: draft` and a `source_text` excerpt
+   for review. **Deploy.**
+6. **November provisioning.** Same for the 15 uncovered days.
+   **Deploy.**
+7. **Marp deck** on the implementation, grown through the session.
+8. **Lessons** appended as they occur in `docs/LESSONS.md`.
+
+## Review loop (for the operator on a phone)
+
+Open the review page for the month. For each day, the page shows the
+title, body, the verbatim source excerpt the body was written from,
+and each reference with its archive status. Reply in chat with
+approvals or rejections by date ("approve Oct 3, Oct 4; reject Oct
+7"). Approved events get `status: approved`; rejected ones are
+removed or re-sourced.
+
+## Coverage at session start
+
+| Month | Days covered | Missing |
+|---|---|---|
+| October | 8 of 31 | 1, 3–11, 13, 16, 18–20, 23–30 |
+| November | 15 of 30 | 2–4, 6, 11, 15–17, 21–24, 27, 28, 30 |

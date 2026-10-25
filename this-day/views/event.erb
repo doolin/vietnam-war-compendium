@@ -25,7 +25,13 @@
   <h2>References</h2>
   <ol>
     <% event.references.each do |ref| %>
-    <li><a href="<%= ref.url %>" rel="noopener noreferrer"><%= ref.label %></a></li>
+    <li><a href="<%= ref.url %>" rel="noopener noreferrer"><%= ref.label %></a>
+      <% if ref.archived? %>
+      <span class="archive-status archived" title="A copy of this source was fetched and archived on <%= ref.archived_on %>">archived <%= ref.archived_on %></span>
+      <% else %>
+      <span class="archive-status unverified" title="No archived copy of this source exists yet">unverified</span>
+      <% end %>
+    </li>
     <% end %>
   </ol>
 </nav>
