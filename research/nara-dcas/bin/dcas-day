@@ -1,0 +1,122 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+# List DCAS Vietnam casualty records by calendar day of incident.
+#
+#   dcas-day MONTH DAY            one line per record, sorted by year
+#   dcas-day MONTH DAY --json     the same records as a JSON array
+#   dcas-day MONTH --count        per-day count table for the month
+#
+# Options:
+#   --file PATH   read a different extract (default: ../DCAS-vietnam.dat)
+#
+# The day matched is INCIDENT OR DEATH DATE (field 34), which for
+# declared-dead MIAs is the date of loss, not the date of the finding.
+
+require "json"
+require "date"
+require_relative "../dcas"
+
+USAGE = "usage: dcas-day MONTH DAY [--json] | dcas-day MONTH --count [--file PATH]"
+
+def die(msg)
+  warn msg
+  warn USAGE
+  exit 2
+end
+
+args = ARGV.dup
+json = args.delete("--json")
+count = args.delete("--count")
+path = DCAS::DEFAULT_PATH
+if (i = args.index("--file"))
+  path = args[i + 1] or die("--file needs a path")
+  args.slice!(i, 2)
+end
+die("unknown option #{args.find { |a| a.start_with?("-") }}") if args.any? { |a| a.start_with?("-") }
+
+month = Integer(args[0], 10, exception: false)
+day = args[1] && Integer(args[1], 10, exception: false)
+die("MONTH must be 1-12") unless month&.between?(1, 12)
+die("DAY must be a number") if args[1] && day.nil?
+die("too many arguments") if args.size > 2
+die("DAY is required unless --count is given") if day.nil? && !count
+die("#{month}/#{day} is not a calendar day") if day && !Date.valid_date?(2000, month, day) # 2000: leap year
+
+def words(str)
+  str&.split&.map { |w| DCAS.titleize(w) }&.join(" ")
+end
+
+def rank_label(r)
+  r[:rank_code].empty? ? "-" : r[:rank_code]
+end
+
+def home_label(r)
+  place = [words(r[:home_city]),r[:home_state_code].empty? ? r[:home_country] : r[:home_state_code]]
+  place.compact.join(", ").then { |s| s.empty? ? "-" : s }
+end
+
+def casualty_label(r)
+  [r[:casualty_category_name], r[:casualty_reason]].compact.join(" / ")
+end
+
+def place_label(r)
+  [words(r[:province]), r[:country]].compact.join(", ")
+end
+
+def line_for(r)
+  recovered = { true => "recovered", false => "NOT recovered" }.fetch(r[:body_recovered], "recovered?")
+  fields = [
+    r[:incident_year],
+    r[:display_name],
+    rank_label(r),
+    r[:service],
+    r[:unit] || "(no unit)",
+    home_label(r),
+    casualty_label(r),
+    recovered,
+    place_label(r)
+  ]
+  fields << r[:incident_status_code] if r[:incident_status_code]
+  fields.join(" | ")
+end
+
+def jsonable(r)
+  r.transform_values { |v| v.is_a?(Date) ? v.iso8601 : v }
+end
+
+if count
+  days = Hash.new { |h, k| h[k] = Hash.new(0) }
+  DCAS.each_record(path) do |r|
+    next unless r[:incident_month] == month
+    next if day && r[:incident_day] != day
+
+    d = days[r[:incident_day]]
+    d[:total] += 1
+    d[:hostile] += 1 if r[:hostile_death]
+    d[:non_hostile] += 1 unless r[:hostile_death]
+    d[:status] += 1 if %w[MIA POW MSG].include?(r[:incident_status_code])
+    d[:not_recovered] += 1 if r[:body_recovered] == false
+  end
+  last = day || (1..31).select { |n| Date.valid_date?(2000, month, n) }.max
+  cols = %i[total hostile non_hostile status not_recovered]
+  puts format("%-4s %6s %8s %12s %12s %14s", Date::ABBR_MONTHNAMES[month], "Total", "Hostile", "Non-hostile", "MIA/POW/MSG", "Not recovered")
+  sums = Hash.new(0)
+  ((day || 1)..last).each do |n|
+    d = days[n]
+    cols.each { |c| sums[c] += d[c] }
+    puts format("%-4d %6d %8d %12d %12d %14d", n, *cols.map { |c| d[c] })
+  end
+  puts format("%-4s %6d %8d %12d %12d %14d", "All", *cols.map { |c| sums[c] })
+  exit 0
+end
+
+matches = DCAS.each_record(path).select { |r| r[:incident_month] == month && r[:incident_day] == day }
+matches.sort_by! { |r| [r[:incident_year], r[:member_name]] }
+
+if json
+  puts JSON.pretty_generate(matches.map { |r| jsonable(r) })
+else
+  matches.each { |r| puts line_for(r) }
+  warn "#{matches.size} records for #{Date::MONTHNAMES[month]} #{day}"
+end

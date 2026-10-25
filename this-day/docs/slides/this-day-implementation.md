@@ -280,8 +280,56 @@ Built for a phone screen: one column, no tables wider than the text.
 
 ---
 
+# Agents in the loop
+
+| Job | Model | Why that class |
+|---|---|---|
+| Rewrite a body from a citation | Fable 5.1 | Faithful compression; judgment on what to leave out |
+| Find and verify a public-domain source | Opus 5.5 | Search, fetch, read, reject |
+| Build a parser from a codebook PDF | Opus 5.5 | Read spec, test against known records |
+| Merge, validate, deploy | main loop | Deterministic scripts |
+
+- Each agent gets one brief: the committed style guide plus its inputs.
+- A validator script checks every batch before merge: opening,
+  word count, key set.
+- Agents report flags, not prose. Flags go to `docs/REVIEW_QUEUE.md`.
+
+---
+
+# Two limits nobody planned for
+
+- **Account session limit.** Thirteen agents at once stopped mid-task.
+  Resume by message from the saved transcript; never restart.
+- **Host rate limits.** Open Library: "Human Verification" after
+  ~30 requests. history.army.mil, usmcu.edu: Akamai "Access Denied"
+  to any non-browser client.
+- The archiver now classifies a 200 robot page as `bot-wall`, not
+  `ok`. Fourteen index entries were reclassified.
+
+---
+
+# Cross-checking sources against each other
+
+The DCAS casualty file (58,220 records, pipe-delimited, 54 fields)
+was parsed to check the two existing MIA events:
+
+| Claim in event | DCAS record |
+|---|---|
+| ST Idaho lost May 20, 1968 | incident date May 23, 1968 |
+| UH-1C crew: no remains recovered | Reid and May: remains recovered, 2000 |
+| Crew chief "Randall L. Johnson" | "Johnson, Randolph Leroy" |
+
+A second primary source turns a confident paragraph into three
+review items.
+
+---
+
 <!-- _class: lead -->
 
 # Status
 
-*(updated at each deploy)*
+| Deploy | SHA | What changed |
+|---|---|---|
+| 1 | 7579932 | Archive markers on every reference |
+| 2 | ac89a06 | Month review page, status, credit fields |
+| 3 | 2b1bd35 | 1975 and Dereliction bodies rewritten, credited |

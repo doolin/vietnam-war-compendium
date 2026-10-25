@@ -39,7 +39,14 @@ site shows progress.
 - [x] 2. Archive status on the page. Deployed (7579932).
 - [x] 3. Audit run: 7 dead links, 1 bot wall misresolution, 4 invented ISBNs. Findings in `docs/LESSONS.md`.
 - [x] 4. Month review page with status, source excerpt, credit. Deployed (ac89a06).
-- [ ] 4b. Added mid-session: resummarize every event from its archived source with a credited model (`docs/SUMMARY_STYLE.md`). MOH, Kindle, and HistoryNet batches in flight.
+- [ ] 4b. Added mid-session: resummarize every event from its archived source with a credited model (`docs/SUMMARY_STYLE.md`).
+  - [x] HistoryNet 1975 (12). Deployed (2b1bd35).
+  - [x] Dereliction of Duty (31). Deployed (2b1bd35).
+  - [ ] Medal of Honor (264): batches 1, 3, 5, 6, 7, 8 done; 2 and 4 resuming after the session limit.
+  - [ ] SOG Kontum, Forsaken Warriors, Laotian Panhandle (31): resuming.
+  - [ ] Landmark (12): re-sourcing agent resuming.
+  - [ ] NARA DCAS (2): rewrite from the DCAS record after review items 4 and 5.
+- Open questions for the operator: `docs/REVIEW_QUEUE.md`.
 - [ ] 5. October.
 - [ ] 6. November.
 - [~] 7. Deck growing in `docs/slides/`.
