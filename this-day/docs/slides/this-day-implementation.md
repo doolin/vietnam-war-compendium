@@ -209,6 +209,36 @@ A reference is not a URL. It is:
 
 ---
 
+# First archive run: 32 URLs, 373 references
+
+| Result | URLs | What it meant |
+|---|---|---|
+| 200, right title | 14 | army.mil, NARA catalog, HistoryNet, POW Network, SOG site |
+| 200, wrong page | 15 | Amazon bot walls; one ISBN resolved to a 1741 slave-conspiracy book |
+| 404 | 7 | "official" .gov/.mil links written from memory |
+| 503 | 1 | Goodreads refuses polite fetchers |
+
+Through Open Library, 4 of 14 cited ISBNs belonged to unrelated
+books. A 200 with the wrong title is worse than a 404.
+
+---
+
+# Rewrite pass: every body from its archived source
+
+| Tier | Events | Source text carried | Model |
+|---|---|---|---|
+| Medal of Honor | 264 | full citation (public domain) | Claude Fable 5.1, 8 parallel agents |
+| Kindle books | 62 | the highlights consulted, with locations | Claude Fable 5.1, 2 agents |
+| HistoryNet 1975 | 12 | the sentences relied on | Claude Fable 5.1 |
+| Landmark | 12 | re-sourced from public-domain documents | pending |
+
+Every rewritten event: opens "On <Month> <day>, <year>, ",
+80–180 words, `summarized_by` and `summarized_at` set,
+reference URL archived. Validator script enforces the opening,
+the word count, and the key set before merge.
+
+---
+
 # Month provisioning (proof of concept)
 
 Goal: at least one event for every day of October, then November.

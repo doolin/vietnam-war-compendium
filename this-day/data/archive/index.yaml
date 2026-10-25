@@ -33,6 +33,49 @@
   code: 404
   content_type: text/html
   fetched_at: '2026-10-25T14:06:21Z'
+- url: https://openlibrary.org/isbn/0060929081
+  final_url: https://openlibrary.org/verify_human?next=/books/OL9239612M
+  status: bot-wall
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-25T14:25:29Z'
+  sha256: 63ee18847a1ebcba7b2631b7ce492a3aa93b3e6629be7e60017b177799d87768
+  bytes: 43285
+  title: Human Verification | Open Library
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/f63a0aa4aac17312.html"
+  s3_key: this-day/references/f63a0aa4aac17312/63ee18847a1ebcba7b2631b7ce492a3aa93b3e6629be7e60017b177799d87768.html
+- url: https://openlibrary.org/works/OL27817833W
+  final_url: https://openlibrary.org/works/OL27817833W
+  status: error
+  code: 0
+  fetched_at: '2026-10-25T14:25:59Z'
+  note: 'Errno::ECONNREFUSED: Failed to open TCP connection to openlibrary.org:443
+    (Connection refused - connect(2) for "openlibrary.org" port 443)'
+- url: https://openlibrary.org/works/OL27982066W
+  final_url: https://openlibrary.org/verify_human?next=/works/OL27982066W
+  status: bot-wall
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-25T14:25:55Z'
+  sha256: 43399813e0da53f07bd1a7429637a95caace689a68cc3a15ebc0c988dcf9e882
+  bytes: 43287
+  title: Human Verification | Open Library
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/ad8170fc493bbc6a.html"
+  s3_key: this-day/references/ad8170fc493bbc6a/43399813e0da53f07bd1a7429637a95caace689a68cc3a15ebc0c988dcf9e882.html
+- url: https://openlibrary.org/works/OL40265521W
+  final_url: https://openlibrary.org/works/OL40265521W
+  status: error
+  code: 0
+  fetched_at: '2026-10-25T14:26:02Z'
+  note: 'Errno::ECONNREFUSED: Failed to open TCP connection to openlibrary.org:443
+    (Connection refused - connect(2) for "openlibrary.org" port 443)'
+- url: https://openlibrary.org/works/OL6443002W
+  final_url: https://openlibrary.org/works/OL6443002W
+  status: error
+  code: 0
+  fetched_at: '2026-10-25T14:26:00Z'
+  note: 'Errno::ECONNREFUSED: Failed to open TCP connection to openlibrary.org:443
+    (Connection refused - connect(2) for "openlibrary.org" port 443)'
 - url: https://sogsite.com/2021/04/29/st-idaho-still-missing-53-years-later/
   final_url: https://sogsite.com/2021/04/29/st-idaho-still-missing-53-years-later/
   status: ok
@@ -46,7 +89,7 @@
   s3_key: this-day/references/f017d9340bbc8e9d/4ae72c8828082af8bfffd1eba12f23db60c8944113ce74b1ef2bf4b7f525d299.html
 - url: https://www.amazon.com/dp/0060929081
   final_url: https://www.amazon.com/dp/0060929081
-  status: ok
+  status: bot-wall
   code: 200
   content_type: text/html
   fetched_at: '2026-10-25T14:06:32Z'
@@ -57,7 +100,7 @@
   s3_key: this-day/references/824c80864424e894/9b3e0d92861469f6cb6cf9a8089757f63f984e7d0757dd89dcb524ec8f7e355d.html
 - url: https://www.amazon.com/dp/0073513253
   final_url: https://www.amazon.com/dp/0073513253
-  status: ok
+  status: bot-wall
   code: 200
   content_type: text/html
   fetched_at: '2026-10-25T14:06:35Z'
@@ -68,7 +111,7 @@
   s3_key: this-day/references/1c6e0bca8a06012d/de4020d3d6c7955e88d76c8395ef8c8ee57fe8924138e3fdacfa931700f7b623.html
 - url: https://www.amazon.com/dp/0143035258
   final_url: https://www.amazon.com/dp/0143035258
-  status: ok
+  status: bot-wall
   code: 200
   content_type: text/html
   fetched_at: '2026-10-25T14:06:29Z'
@@ -79,7 +122,7 @@
   s3_key: this-day/references/585170247668396f/e5f1b1e35b6205304c54f9bc6070ddad2a7ca8f53139d422e80fe6ecec85c0f5.html
 - url: https://www.amazon.com/dp/0231128401
   final_url: https://www.amazon.com/dp/0231128401
-  status: ok
+  status: bot-wall
   code: 200
   content_type: text/html
   fetched_at: '2026-10-25T14:06:50Z'
@@ -90,7 +133,7 @@
   s3_key: this-day/references/aab303e613c106f8/d819d35fb324a008389ac933a6ad9c633501af41bd9c091a04698ef5195e308a.html
 - url: https://www.amazon.com/dp/0312070004
   final_url: https://www.amazon.com/dp/0312070004
-  status: ok
+  status: bot-wall
   code: 200
   content_type: text/html
   fetched_at: '2026-10-25T14:06:56Z'
@@ -101,7 +144,7 @@
   s3_key: this-day/references/8e4e093f7030c8b0/b866439c84d63266a43e4671d6da4857b9c2a8797c317b784fb0d9ae6b9f28a1.html
 - url: https://www.amazon.com/dp/0345472640
   final_url: https://www.amazon.com/dp/0345472640
-  status: ok
+  status: bot-wall
   code: 200
   content_type: text/html
   fetched_at: '2026-10-25T14:06:53Z'
@@ -112,7 +155,7 @@
   s3_key: this-day/references/65ff97a3a9404893/c0fc8726dcdfe0c88a60436ab1519f0e6e87cf06788fb1754dc57b0ed2079872.html
 - url: https://www.amazon.com/dp/0393307867
   final_url: https://www.amazon.com/dp/0393307867
-  status: ok
+  status: bot-wall
   code: 200
   content_type: text/html
   fetched_at: '2026-10-25T14:06:44Z'
@@ -123,7 +166,7 @@
   s3_key: this-day/references/669f77a74b17c023/852345955f9df216361e11bf9da09533f67d7dfd527bd5c4491d392028e44fd4.html
 - url: https://www.amazon.com/dp/0440215005
   final_url: https://www.amazon.com/dp/0440215005
-  status: ok
+  status: bot-wall
   code: 200
   content_type: text/html
   fetched_at: '2026-10-25T14:06:20Z'
@@ -134,7 +177,7 @@
   s3_key: this-day/references/db5be35f528a370d/91422299a621ba2c2bf1705841f24f88e0e7ef7ded57868aa6efa8f28fa02db4.html
 - url: https://www.amazon.com/dp/0547844921
   final_url: https://www.amazon.com/dp/0547844921
-  status: ok
+  status: bot-wall
   code: 200
   content_type: text/html
   fetched_at: '2026-10-25T14:06:41Z'
@@ -145,7 +188,7 @@
   s3_key: this-day/references/9950ccbe9db24080/bddd450f847f3d49ceac3871e87dd0cf16bde6b1bc48422c4c83928e4eebf70e.html
 - url: https://www.amazon.com/dp/0618219285
   final_url: https://www.amazon.com/dp/0618219285
-  status: ok
+  status: bot-wall
   code: 200
   content_type: text/html
   fetched_at: '2026-10-25T14:06:38Z'
@@ -181,7 +224,7 @@
   s3_key: this-day/references/354ba602cde73b4a/bfc3298eedf1ebf807bda3a666b3b1118aada0a4d59ea34b0ca88fe153f950ba.html
 - url: https://www.amazon.com/dp/1451610351
   final_url: https://www.amazon.com/dp/1451610351
-  status: ok
+  status: bot-wall
   code: 200
   content_type: text/html
   fetched_at: '2026-10-25T14:06:59Z'
@@ -192,7 +235,7 @@
   s3_key: this-day/references/c92fd8475b02ce5a/73885d5765a0524f78fb229b9226eb1ad026a71811e5f0834d43c1da27e07b78.html
 - url: https://www.amazon.com/dp/1935149075
   final_url: https://www.amazon.com/dp/1935149075
-  status: ok
+  status: bot-wall
   code: 200
   content_type: text/html
   fetched_at: '2026-10-25T14:06:23Z'

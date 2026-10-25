@@ -39,24 +39,36 @@ module ThisDay
         entry = base_entry(url, result)
 
         if result.ok? && result.body && !result.body.empty?
-          ext = extension_for(result.content_type, result.final_url)
-          sha = Digest::SHA256.hexdigest(result.body)
-          cache_path = write_cache(url, ext, result.body)
-          entry.merge!(
-            "status" => "ok",
-            "sha256" => sha,
-            "bytes" => result.body.bytesize,
-            "title" => extract_title(result.body, result.content_type),
-            "cache_path" => cache_path,
-            "s3_key" => upload(url, sha, ext, result.body, result.content_type)
-          )
+          title = extract_title(result.body, result.content_type)
+          if bot_wall?(title)
+            entry.merge!("status" => "bot-wall", "title" => title)
+          else
+            ext = extension_for(result.content_type, result.final_url)
+            sha = Digest::SHA256.hexdigest(result.body)
+            cache_path = write_cache(url, ext, result.body)
+            entry.merge!(
+              "status" => "ok",
+              "sha256" => sha,
+              "bytes" => result.body.bytesize,
+              "title" => title,
+              "cache_path" => cache_path,
+              "s3_key" => upload(url, sha, ext, result.body, result.content_type)
+            )
+          end
         end
 
         index.upsert(entry)
         entry
       end
 
+      # Page titles that mean "a 200 was served to a robot, not the document".
+      BOT_WALL_TITLES = /human verification|robot check|access denied|just a moment|are you a human|captcha|\AAmazon\.com\z/i
+
       private
+
+      def bot_wall?(title)
+        !title.nil? && title.match?(BOT_WALL_TITLES)
+      end
 
       def base_entry(url, result)
         status = if result.error then "error"

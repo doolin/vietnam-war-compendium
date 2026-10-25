@@ -67,6 +67,26 @@ RSpec.describe ThisDay::Archive::Archiver do
     expect(index.archived?("https://amazon.test/dp/1")).to be(false)
   end
 
+  it "records a bot wall served with a 200 as not archived" do
+    wall = "<html><head><title>Human Verification | Open Library</title></head><body>prove it</body></html>"
+    entry = archiver(fetcher_returning(code: 200, body: wall, content_type: "text/html"))
+            .archive("https://openlibrary.test/works/OL1W")
+
+    expect(entry["status"]).to eq("bot-wall")
+    expect(entry["title"]).to eq("Human Verification | Open Library")
+    expect(entry).not_to have_key("sha256")
+    expect(Dir.exist?(cache_dir)).to be(false)
+    expect(s3_client).not_to have_received(:put_object)
+    expect(index.archived?("https://openlibrary.test/works/OL1W")).to be(false)
+  end
+
+  it "treats Amazon's generic robot page title as a bot wall" do
+    wall = "<html><head><title>Amazon.com</title></head><body></body></html>"
+    entry = archiver(fetcher_returning(code: 200, body: wall, content_type: "text/html"))
+            .archive("https://amazon.test/dp/1")
+    expect(entry["status"]).to eq("bot-wall")
+  end
+
   it "records a transport error with its note" do
     entry = archiver(fetcher_returning(code: 0, body: nil, content_type: nil, error: "SocketError: boom"))
             .archive("https://down.test/")

@@ -45,6 +45,38 @@ label. A 200 with the wrong title is worse than a 404 because it
 looks verified. Book references need a bibliographic record
 (ISBN resolved through an open catalog), not a storefront URL.
 
+## 2026-10-25 — ISBNs are a hallucination surface
+
+Resolving the fourteen Amazon ISBN links through Open Library:
+five were correct, four pointed at unrelated books (a Czech
+detective novel for *Lyndon Johnson's War*, Old English poems for
+*Pleiku*, a Royal Navy ship list for *Forsaken Warriors*, a novel
+for Appy's oral history), and the rest could not be resolved. A
+ten-digit number looks like a citation and costs nothing to invent.
+
+Lesson: an ISBN is only a citation once something has resolved it
+and returned the expected title. Open Library's `/isbn/<n>` and
+`/works/<id>` pages are fetchable, archivable, and carry author,
+publisher, and year, so they replace storefront links as the book
+reference target.
+
+## 2026-10-25 — Thirteen agents at once hit two different limits
+
+Running eight Medal of Honor rewriters, two Kindle rewriters, a
+HistoryNet rewriter, and three research agents in parallel tripped
+the account's session limit; six agents stopped mid-task until
+credits were added, then resumed from their transcripts by message.
+Separately, about thirty polite requests to Open Library in twenty
+minutes earned a "Human Verification" page, then connection resets.
+The archiver had recorded the verification page as a successful
+archive because it was a 200 with a title.
+
+Lessons: budget the wave, not the agent, and expect to resume rather
+than restart. Treat any 200 whose title reads like a robot check as
+a failure (`bot-wall` status) so it is retried and never counted as
+verified. Fetch catalog metadata once and cache it before fanning
+out agents that all want it.
+
 ## 2026-10-25 — Line endings on committed files
 
 AGENTS.md was committed with CRLF. The repo's `.gitattributes`

@@ -211,6 +211,15 @@ task :server do
   sh "bundle exec rackup -p #{SERVER_PORT}"
 end
 
+SLIDES_SRC = File.expand_path("docs/slides/this-day-implementation.md", __dir__)
+SLIDES_OUT = File.expand_path("docs/slides/this-day-implementation.html", __dir__)
+
+desc "Render the implementation deck with Marp (docs/slides/*.md -> .html)"
+task :slides do
+  sh "marp --html #{SLIDES_SRC} -o #{SLIDES_OUT}"
+  puts "Rendered #{SLIDES_OUT}"
+end
+
 desc "Run RSpec tests"
 task :spec do
   sh "bundle exec rspec"

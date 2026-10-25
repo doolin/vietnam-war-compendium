@@ -33,6 +33,18 @@ site shows progress.
 7. **Marp deck** on the implementation, grown through the session.
 8. **Lessons** appended as they occur in `docs/LESSONS.md`.
 
+## Progress
+
+- [x] 1. Archive library, `refs:archive`, `refs:audit`, 17 specs. Deployed (7579932).
+- [x] 2. Archive status on the page. Deployed (7579932).
+- [x] 3. Audit run: 7 dead links, 1 bot wall misresolution, 4 invented ISBNs. Findings in `docs/LESSONS.md`.
+- [x] 4. Month review page with status, source excerpt, credit. Deployed (ac89a06).
+- [ ] 4b. Added mid-session: resummarize every event from its archived source with a credited model (`docs/SUMMARY_STYLE.md`). MOH, Kindle, and HistoryNet batches in flight.
+- [ ] 5. October.
+- [ ] 6. November.
+- [~] 7. Deck growing in `docs/slides/`.
+- [~] 8. Lessons growing in `docs/LESSONS.md`.
+
 ## Review loop (for the operator on a phone)
 
 Open the review page for the month. For each day, the page shows the
