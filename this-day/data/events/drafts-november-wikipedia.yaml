@@ -52,19 +52,19 @@
 - month: 11
   day: 6
   year: 1964
-  title: "RVNAF strikes VC base in retaliation for Bien Hoa attack"
-  body: "<p>On November 6, 1964, the RVNAF, led by Air Vice Marshal Kỳ, launched a 32-aircraft attack against a VC base area in retaliation for the attack on Bien Hoa Air Base. The RVNAF claimed to have killed 500 VC.</p>"
+  title: "Ky leads 32 A-1Hs in reprisal for Bien Hoa attack"
+  body: "<p>On November 6, 1964, Air Vice Marshal Nguyen Cao Ky led thirty-two Vietnamese A-1Hs in a night attack against a Viet Cong camp in Zone D. The mission was a widely announced reprisal for the Bien Hoa incident. According to South Vietnamese intelligence reports, the attack caused five hundred enemy casualties.</p><p>On the night of November 1, a Viet Cong mortar squadron had penetrated the Vietnamese perimeter defenses at Bien Hoa. The thirty-minute barrage killed four and wounded seventy-two, destroyed five B-57s and one H-43 helicopter, and damaged thirteen B-57s and three H-43s. Vietnamese losses totaled two killed, five wounded, and three A-1Hs destroyed, with three A-1Hs and two C-47s damaged.</p><p>Ambassador Taylor favored limited retaliation against selected North Vietnamese targets by American and Vietnamese aircraft. President Johnson ruled out an instant response and ordered quick replacement of the destroyed and seriously damaged B-57s.</p>"
   photo_url: null
   photo_alt: null
   references:
+    - label: "Robert F. Futrell, \"The United States Air Force in Southeast Asia: The Advisory Years to 1965\", Office of Air Force History, 1981, pp. 253-254"
+      url: "http://www.afhso.af.mil/shared/media/document/AFD-100525-052.pdf"
     - label: "Wikipedia, \"1964 in the Vietnam War\", revision 1370342430 (CC BY-SA 4.0)"
       url: "https://en.wikipedia.org/w/index.php?title=1964_in_the_Vietnam_War&oldid=1370342430"
-    - label: "Robert Futrell, \"The United States Air Force in Southeast Asia: The Advisory Years to 1965\", Office of Air Force History, 1981"
-      url: "http://www.afhso.af.mil/shared/media/document/AFD-100525-052.pdf"
   status: "draft"
-  source_text: "[Wikipedia, 1964_in_the_Vietnam_War, rev 1370342430] The RVNAF led by Air Vice Marshal Kỳ launched a 32-aircraft attack against a VC base area in retaliation for the attack on Bien Hoa Air Base, claiming to have killed 500 VC."
-  summarized_by: "Claude Fable 5.1"
-  summarized_at: "2026-10-25T14:35:03Z"
+  source_text: "[Futrell, Advisory Years, p. 253] Viet Cong night outpost and hamlet attacks doubled in intensity during the last half of 1964. ... How insecure Bien Hoa was became clear on the night of November 1, when a Viet Cong mortar squadron penetrated the Vietnamese perimeter defenses. The ensuing thirty-minute barrage killed four and wounded seventy-two, destroyed five B-57s and one H-43 helicopter, and damaged thirteen B-57s and three H-43s. Vietnamese losses totaled two killed, five wounded, three A-1Hs destroyed, and three A-1Hs and two C-47s damaged.\n\n[Futrell, Advisory Years, p. 254] Angered by the Bien Hoa affair, Ambassador Taylor favored limited retaliation against selected North Vietnamese targets by American and Vietnamese aircraft, coupled with a policy statement warning of a similar U.S. response to future incidents. President Johnson's civilian advisers, chiefly Secretaries Rusk and McNamara, counseled patience. ... Ruling out an instant response, the President ordered quick replacement of the destroyed and seriously damaged B-57s at Bien Hoa. ... Meanwhile on the night of November 6, Air Vice Marshal Nguyen Cao Ky led thirty-two Vietnamese A-1Hs against a Viet Cong camp in Zone D. The mission was a widely announced reprisal for the Bien Hoa incident. According to South Vietnamese intelligence reports, the attack caused five hundred enemy casualties."
+  summarized_by: "Claude Opus 5.5"
+  summarized_at: "2026-10-26T09:06:59Z"
 - month: 11
   day: 11
   year: 1967
@@ -84,31 +84,35 @@
 - month: 11
   day: 15
   year: 1969
-  title: "Half a million march on Washington in second Moratorium"
-  body: "<p>On November 15, 1969, more than 500,000 protesters in Washington, D.C., staged \"the largest peace march on Washington in American history\" for the second \"Moratorium to End the War in Vietnam\". The event, which was also held on a smaller scale in other American cities, included a symbolic \"March Against Death\".</p>"
+  title: "Hundreds of thousands march on Washington on second Moratorium Day"
+  body: "<p>On November 15, 1969, the second Moratorium Day, crowds estimated at 250 to 500,000 persons took part in a mass march on Washington, D.C., to protest the Vietnam War. The marchers, mostly young persons, called it a march against death. United Press International reported that the march was peaceful, with about 3,000 Mobilization Marshals keeping the demonstrators within the bounds permitted by officials, while a few blocks away a contingent of Marines waited in full battle gear in the basement of the U.S. Capitol, ready if needed. American, UN, peace, and Viet Cong flags were waved along the mile-and-a-half route from the Capitol to the Washington Monument.</p><p>Leaders of the moratorium said they hoped that by demonstrating they could get the administration to alter its Vietnam War policy. A month earlier, thousands more across the country had shown their opposition to the war with parades and peace rallies.</p>"
   photo_url: null
   photo_alt: null
   references:
+    - label: "United Press International, \"War Protests\", 1969 In Review (audio transcript), UPI Archives"
+      url: "https://www.upi.com/Archives/Audio/1969/War-Protests/"
     - label: "Wikipedia, \"1969 in the Vietnam War\", revision 1370279610 (CC BY-SA 4.0)"
       url: "https://en.wikipedia.org/w/index.php?title=1969_in_the_Vietnam_War&oldid=1370279610"
   status: "draft"
-  source_text: "[Wikipedia, 1969_in_the_Vietnam_War, rev 1370279610] In Washington, D.C., more than 500,000 protesters staged \"the largest peace march on Washington in American history\" for the second \"Moratorium to End the War in Vietnam\". The event, which was also held on a smaller scale in other American cities, included a symbolic \"March Against Death\"."
-  summarized_by: "Claude Fable 5.1"
-  summarized_at: "2026-10-25T14:35:03Z"
+  source_text: "[UPI, 1969 In Review, 'War Protests', transcript] Announcer: The number one complaint of many Americans in 1969 was the war in Vietnam. ... They got together to demonstrate against the war. They called their get together a moratorium.\nUnknown Speaker: \"The mass march on Washington to protest the Vietnam War is peaceful, about 3,000 Mobilization Marshals are keeping the demonstrators within the bounds of the march permitted by officials. ... \"Flags, American, UN, peace, a pale blue, with the dove in the center, and Vietcong, are waved all along the route of march, but just a few blocks from here in the basement of the US capital, a contingent of Marines wait in full battle gear, ready if needed. A mile and a half route, from the capital to the Valley Point at the Washington Monument, remains a sea of humanity, Denis... Washington.\"\nThere were mostly young persons and they marched. They called their march a march against death; it was part of the second Moratorium Day, November the 15th, 1969. In Washington D.C., they marched, they chatted, they sang. ...\nAnnouncer: Crowds estimated at 250 to 500,000 persons took part in the demonstration in the nation’s capital. A month earlier across the country, thousands more showed their opposition to the war with parades and peace rallies.\nLeaders of the moratorium said they hope by demonstrating they could get the administration to alter its Vietnam War policy."
+  summarized_by: "Claude Opus 5.5"
+  summarized_at: "2026-10-26T09:06:59Z"
 - month: 11
   day: 16
   year: 1961
-  title: "Farm Gate aircraft begin arriving in South Vietnam"
-  body: "<p>On November 16, 1961, \"Farm Gate\" American aircraft began arriving in South Vietnam, in anticipation that Kennedy would soon decide to dispatch American combat soldiers there. The \"Jungle Jim\" 1st Air Commando Group was to train the RVNAF using older aircraft. The Air Commandos would also have a \"second mission of combat operations.\"</p>"
+  title: "Farm Gate detachment becomes operational in South Vietnam"
+  body: "<p>On November 16, 1961, Farm Gate, a detachment of the 4400th Combat Crew Training Squadron (nicknamed Jungle Jim), became operationally ready in South Vietnam, and Admiral Felt, CINCPAC, tasked it with conducting tactical training and pilot upgrading for the Vietnamese. President Kennedy had authorized the deployment on October 11, 1961, \"to serve under the MAAG as a training mission and not for combat at the present time.\"</p><p>Farm Gate had departed Florida on November 5. Four SC-47s flew to Clark Air Base, and eight T-28s were disassembled in California and ferried to Clark with 140 officers and airmen. After reassembly, Colonel King led two flights of T-28s to Tan Son Nhut. At Bien Hoa the detachment found a rundown French air base with a single pierced-steel-plank runway. The members of Farm Gate thought they were to conduct combat operations while training the Vietnamese, as General LeMay had briefed Colonel King.</p>"
   photo_url: null
   photo_alt: null
   references:
+    - label: "Robert F. Futrell, \"The United States Air Force in Southeast Asia: The Advisory Years to 1965\", Office of Air Force History, 1981, pp. 79-82"
+      url: "http://www.afhso.af.mil/shared/media/document/AFD-100525-052.pdf"
     - label: "Wikipedia, \"1961 in the Vietnam War\", revision 1370279448 (CC BY-SA 4.0)"
       url: "https://en.wikipedia.org/w/index.php?title=1961_in_the_Vietnam_War&oldid=1370279448"
   status: "draft"
-  source_text: "[Wikipedia, 1961_in_the_Vietnam_War, rev 1370279448] Anticipating that Kennedy would soon decide to dispatch American combat soldiers to South Vietnam, \"Farm Gate\" American aircraft began arriving in South Vietnam. The \"Jungle Jim\" 1st Air Commando Group was to train the RVNAF using older aircraft. Air Commandos would have a \"second mission of combat operations.\""
-  summarized_by: "Claude Fable 5.1"
-  summarized_at: "2026-10-25T14:35:03Z"
+  source_text: "[Futrell, Advisory Years, p. 79] The USAF combat detachment that President Kennedy ordered to Vietnam on October 11, 1961, had its roots in a small, secret organization created in the late 1950s when General LeMay was Vice Chief of Staff. ... The 4400th Combat Crew Training Squadron (nicknamed Jungle Jim) came into being at Eglin Air Force Base, Florida, on April 14, 1961. Commanded by Col. Benjamin H. King, the unit had 124 officers and 228 airmen, sixteen C-47s, eight B-26s, and eight T-28s.\n\n[Futrell, Advisory Years, p. 80] General LeMay at this point invited Secretary of the Air Force Eugene M. Zuckert's attention to the 4400th Combat Crew Training Squadron. ... President Kennedy weighed the burgeoning Viet Cong strength, the more frequent reference in planning papers to U.S. covert operations, the desire of the Joint Chiefs to make a reassuring commitment of air strength to Vietnam, and President Diem's change of heart on acceptance of American combat units in his country. On the morning of October 11, 1961, the Commander in Chief authorized the deployment of the Jungle Jim squadron to Vietnam \"to serve under the MAAG as a training mission and not for combat at the present time.\"\n\n[Futrell, Advisory Years, p. 81] On the 13th of October, Colonel King and two of his officers visited Hawaii to coordinate Jungle Jim's movement with Admiral Felt, CINCPAC, who \"enthusiastically supported the approved deployment.\" ... At Eglin the task force designated for Vietnam received the formal name of Detachment 2A, 4400th Combat Crew Training Squadron, and the code name of Farm Gate. ... Farm Gate departed Florida on the 5th of November. Four SC-47s flew to Clark Air Base. Eight T-28s were disassembled in California and, together with 140 officers and airmen, were ferried to Clark by MATS. After reassembly, Colonel King led two flights of T-28s to Tan Son Nhut. The detachment became operationally ready on the 16th, though a week passed before the last of the SC-47s and T-28s arrived. ... At Bien Hoa the Farm Gate detachment found a rundown French air base with a flight surface consisting of a single pierced-steel-plank runway 5,800 by 150 feet.\n\n[Futrell, Advisory Years, p. 82] The members of Farm Gate thought they were to conduct combat operations while training the Vietnamese. That was how General LeMay had briefed Colonel King, and King was more than willing to make his unit combat capable and responsive to Ambassador Nolting and to American military authorities. ... Nevertheless, on November 16 Admiral Felt tasked Farm Gate with conducting tactical training and pilot upgrading for the Vietnamese. President Kennedy was advised that the unit was \"training Vietnamese aircrews and supporting Vietnamese operations against the Viet Cong.\""
+  summarized_by: "Claude Opus 5.5"
+  summarized_at: "2026-10-26T09:06:59Z"
 - month: 11
   day: 17
   year: 1965

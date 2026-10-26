@@ -271,6 +271,23 @@ Result: every day of October and November has at least one event.
 
 ---
 
+# Re-sourcing the thin drafts
+
+Eleven drafts rested on a one-line Wikipedia entry. One research
+agent (Opus 5.5) found, archived, and rewrote from a primary source:
+8 rewritten, 3 left thin. Seven of the eight changed a fact.
+
+| Day | Wikipedia said | The archived source says |
+|---|---|---|
+| Oct 8 | 1962, "shot down" | **1963**; crashed together, hostile fire suspected |
+| Oct 1 | 19 killed, 10 injured | 20 killed, 36 seriously injured |
+| Oct 13 | fifth and last U.S. ace | third and final USAF ace |
+| Nov 6 | 500 VC killed | "five hundred enemy casualties" |
+| Nov 15 | more than 500,000 | "250 to 500,000" |
+| Nov 16 | aircraft began arriving | detachment became operational |
+
+---
+
 # Review page
 
 `/this-day-in-vietnam-war/review/10`

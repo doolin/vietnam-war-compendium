@@ -86,6 +86,26 @@ hosts:
     status: unreliable
     observed: 2026-10-26
     note: Net::OpenTimeout on 2026-10-25 and 2026-10-26; Wayback has the exhibit pages but not the virtual-archive PDF (images.php).
+  - host: www.usni.org
+    status: wayback-only
+    observed: 2026-10-26
+    note: Live 403; Wayback has Proceedings articles. Copyrighted, so carry only the passages used.
+  - host: www.upi.com
+    status: wayback-only
+    observed: 2026-10-26
+    note: Live 403; Wayback has the UPI "Year in Review" audio transcripts (/Archives/Audio/<year>/...). Transcripts have garbled words.
+  - host: texashistory.unt.edu
+    status: blocked
+    observed: 2026-10-26
+    note: Bot wall on the Portal to Texas History (news scripts).
+  - host: www.cia.gov
+    status: unreliable
+    observed: 2026-10-26
+    note: The FOIA reading room was down for maintenance.
+  - host: www.realtime1960s.com
+    status: fetchable
+    observed: 2026-10-26
+    note: Hobbyist reprints of unattributed 1960s news text. Not a reputable source; useful only as a lead.
   - host: www.afhso.af.mil
     status: dead
     observed: 2026-10-26
@@ -151,6 +171,31 @@ documents:
     url: https://history.state.gov/historicaldocuments/frus1961-63v01
     archived: false
     covers: U.S. government documents on Vietnam, 1961-1963. Cited by several October Wikipedia entries (1961 and 1963).
+  - title: "The Path to War: U.S. Marine Corps Operations in Southeast Asia, 1961 to 1965"
+    author: George R. Hoffman Jr.
+    publisher: History Division, Marine Corps University, 2014
+    url: https://www.usmcu.edu/Portals/218/Vietnam_Path_To_War.pdf
+    archived: true
+    covers: Marine operations in Vietnam, 1961-1965.
+  - title: "Advice and Support: The Middle Years, January 1964-June 1965"
+    author: Andrew Birtle
+    publisher: U.S. Army Center of Military History, 2024
+    url: https://history.army.mil/Publications/Publications-Catalog-Sub/Publications-By-Title/Advice-and-Support-The-Middle-Years/
+    archived: false
+    covers: >-
+      Army advisory operations, 1964-1965; the source behind many 1964
+      Wikipedia entries. The catalog page returns 403 and the archived
+      copy is an empty page shell; no fetchable PDF found as of 2026-10-26.
+  - title: "Viet Cong Strategy of Terror"
+    author: Douglas Pike
+    url: https://www.vietnam.ttu.edu/reports/images.php?img=/images/231/2311404008a.pdf
+    archived: false
+    covers: VC terror incidents. The Texas Tech virtual-archive PDF timed out on every attempt.
+  - title: "Foreign Relations of the United States, 1969-1976, Volume VII, Vietnam, July 1970-January 1972"
+    author: U.S. Department of State, Office of the Historian
+    url: https://history.state.gov/historicaldocuments/frus1969-76v07
+    archived: partial
+    covers: Paris talks and Washington decisions, 1970-1972. Documents 75 and 76 are archived.
   - title: "Defense Casualty Analysis System extract, Vietnam Conflict"
     author: National Archives and Records Administration
     url: research/nara-dcas/DCAS-vietnam.dat

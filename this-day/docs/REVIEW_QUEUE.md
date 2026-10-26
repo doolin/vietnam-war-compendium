@@ -90,10 +90,52 @@ Opened 2026-10-25.
     *Decision:* approve, reject, or re-source by date ("approve Oct
     3, 4; reject Nov 11").
 
-11. **Thin or single-source drafts.** Under 80 words because the
-    entry is one or two sentences: October 8, 13, 19, 20; November 6,
-    15, 16, 23. Wikipedia is the only reference on October 1, 7, 18
-    and November 15, 16, 23. November 11 repeats Wikipedia's "in
+11. **Thin or single-source drafts (re-sourced 2026-10-26).** Eleven
+    drafts rested on a one- or two-sentence Wikipedia entry. A
+    research agent (Claude Opus 5.5) rewrote eight from a fetched and
+    archived source; Wikipedia stays as the second reference. The
+    sources disagreed with Wikipedia on these points, and the bodies
+    now follow the sources:
+    - **Oct 8: year moved from 1962 to 1963.** Hoffman, *The Path to
+      War* (USMC History Division, 2014), p. 76: HMM-361 relieved
+      HMM-261 on 2 October 1963 and lost two UH-34Ds on 8 October.
+      Wikipedia lists it under 1962. Hoffman says they "crashed almost
+      simultaneously" and that Lt. Col. Ross concluded hostile fire
+      brought them down; Wikipedia says "shot down".
+      *Decision:* confirm 1963.
+    - Oct 1: 20 killed and 36 seriously injured (Kiland, USNI
+      *Proceedings*, 2012), against Wikipedia's 19 and 10.
+    - Oct 13: Feinstein was the "third and final USAF ace" (Futrell,
+      *Aces and Aerial Victories*), not the "fifth and last U.S. ace";
+      the fight was near Kep airfield.
+    - Oct 7: Nixon made five proposals (cease-fire in place, an
+      Indochina Peace Conference, a withdrawal timetable, a political
+      settlement, release of all prisoners), from the speech text.
+    - Nov 6: "five hundred enemy casualties" per South Vietnamese
+      intelligence, not 500 killed.
+    - Nov 15: UPI gives crowds of "250 to 500,000"; Wikipedia says
+      more than 500,000.
+    - Nov 16: Farm Gate became operationally ready on the 16th; the
+      last aircraft arrived a week later. The unit was Detachment 2A,
+      4400th Combat Crew Training Squadron ("Jungle Jim").
+
+    Three could not be re-sourced and remain thin:
+    - **Oct 19 (1964).** The only source is Birtle, *Advice and
+      Support: The Middle Years*; no fetchable copy was found.
+    - **Oct 20 (1962).** Pike's *Viet Cong Strategy of Terror*
+      (Texas Tech) does not archive. One unattributed reprint of 1962
+      news text dates a grenade attack in Saigon (six dead, 38
+      wounded) to **October 26, 1962**, so Wikipedia's October 20 may
+      be wrong. Not used, because the site is not a reputable source.
+    - **Nov 23 (1970).** FRUS 1969-76 vol. VII, doc. 76 (a November
+      24 memo) confirms North Vietnam refused to attend the November
+      25 session, but gives no announcement date and does not mention
+      the PRG. The November 23 date is unsupported.
+    *Decision:* reject these three, or keep them as drafts until a
+    source is found. Rejecting one leaves its day empty again.
+
+    November 30 is full length but cites the same Texas Tech PDF,
+    which still fails to archive. November 11 repeats Wikipedia's "in
     reality" judgment about MACV's strength estimate.
 
 ## Infrastructure

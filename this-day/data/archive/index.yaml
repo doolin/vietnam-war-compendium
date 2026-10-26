@@ -299,6 +299,17 @@
   title: Historical Documents - Office of the Historian
   cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/6d79bac122b58fbb.html"
   s3_key: this-day/references/6d79bac122b58fbb/901feaf98735ac5deace34bc07419918bbea8ef8052f24be30d68a2371cb7a2e.html
+- url: https://history.state.gov/historicaldocuments/frus1961-63v01/d169
+  final_url: https://history.state.gov/historicaldocuments/frus1961-63v01/d169
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-26T08:50:57Z'
+  sha256: 7919dcfc92fbfcfa6daab4e239c797d047a45f8b390669214c52355fd4d9f083
+  bytes: 36811
+  title: Historical Documents - Office of the Historian
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/54359be165b95fcf.html"
+  s3_key: this-day/references/54359be165b95fcf/7919dcfc92fbfcfa6daab4e239c797d047a45f8b390669214c52355fd4d9f083.html
 - url: https://history.state.gov/historicaldocuments/frus1961-63v04/d181
   final_url: https://history.state.gov/historicaldocuments/frus1961-63v04/d181
   status: ok
@@ -420,6 +431,28 @@
   title: Historical Documents - Office of the Historian
   cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/9bec76a8982960ea.html"
   s3_key: this-day/references/9bec76a8982960ea/ea38ef1ef8c41fbcaab627a113f6303c50e1c2949bf259faab26a28656ec4127.html
+- url: https://history.state.gov/historicaldocuments/frus1969-76v07/d75
+  final_url: https://history.state.gov/historicaldocuments/frus1969-76v07/d75
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-26T09:03:14Z'
+  sha256: f352a1a7d3681990332f489e7286914110e0f8f227bba996d765632e0d4bea1c
+  bytes: 40325
+  title: Historical Documents - Office of the Historian
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/f1bb52a0f1a46616.html"
+  s3_key: this-day/references/f1bb52a0f1a46616/f352a1a7d3681990332f489e7286914110e0f8f227bba996d765632e0d4bea1c.html
+- url: https://history.state.gov/historicaldocuments/frus1969-76v07/d76
+  final_url: https://history.state.gov/historicaldocuments/frus1969-76v07/d76
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-26T09:05:17Z'
+  sha256: dc75b8dcae7343a336f655f78adaa23c9bce9fa95c2f9c42b7fd3f0f0b2c3a71
+  bytes: 68859
+  title: Historical Documents - Office of the Historian
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/6bf49778b2b85dc1.html"
+  s3_key: this-day/references/6bf49778b2b85dc1/dc75b8dcae7343a336f655f78adaa23c9bce9fa95c2f9c42b7fd3f0f0b2c3a71.html
 - url: https://history.state.gov/historicaldocuments/frus1969-76v10/d278
   final_url: https://history.state.gov/historicaldocuments/frus1969-76v10/d278
   status: ok
@@ -544,6 +577,21 @@
   title: ST Idaho Still Missing 53 Years Later &#8211; MACV-SOG
   cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/f017d9340bbc8e9d.html"
   s3_key: this-day/references/f017d9340bbc8e9d/4ae72c8828082af8bfffd1eba12f23db60c8944113ce74b1ef2bf4b7f525d299.html
+- url: https://vietnamwar50th.com/1969-1971_vietnamization/Second--8220-Moratorium-8221-Day-Protests
+  final_url: https://web.archive.org/web/20251206045210id_/https://www.vietnamwar50th.com/1969-1971_vietnamization/Second--8220-Moratorium-8221-Day-Protests/
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-26T09:04:32Z'
+  sha256: d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d
+  bytes: 212
+  title:
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/42c5c688d2467d8f.html"
+  s3_key: this-day/references/42c5c688d2467d8f/d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d.html
+  via: wayback
+  snapshot_url: https://web.archive.org/web/20251206045210/https://www.vietnamwar50th.com/1969-1971_vietnamization/Second--8220-Moratorium-8221-Day-Protests/
+  captured_at: '2025-12-06T04:52:10Z'
+  live_status: http-403
 - url: https://visit.archives.gov/whats-on/explore-exhibits/episode-12-fall-saigon
   final_url: https://visit.archives.gov/whats-on/explore-exhibits/episode-12-fall-saigon
   status: ok
@@ -768,6 +816,21 @@
   title: The Project Gutenberg eBook of The Battle For Khe Sanh, by Moyers S. Shore.
   cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/5484a69fbf13e28d.html"
   s3_key: this-day/references/5484a69fbf13e28d/414306757214cd5650a8eecc8ff7db8a6a7ab0d28a8867723d1171cbf79d67a7.html
+- url: https://www.history.navy.mil/research/histories/ship-histories/danfs/n/newport-news-ii.html
+  final_url: https://web.archive.org/web/20251209075632id_/https://www.history.navy.mil/research/histories/ship-histories/danfs/n/newport-news-ii.html
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-26T08:51:05Z'
+  sha256: fed1e4a5eccf242b419155a8502505d637317475730107b8c7b110c07f787bee
+  bytes: 103415
+  title: Newport News II (CA-148)
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/025ffe365c19abf5.html"
+  s3_key: this-day/references/025ffe365c19abf5/fed1e4a5eccf242b419155a8502505d637317475730107b8c7b110c07f787bee.html
+  via: wayback
+  snapshot_url: https://web.archive.org/web/20251209075632/https://www.history.navy.mil/research/histories/ship-histories/danfs/n/newport-news-ii.html
+  captured_at: '2025-12-09T07:56:32Z'
+  live_status: error
 - url: https://www.lbjlibrary.org/object/text/address-nation-3-31-1968
   final_url: https://www.lbjlibrary.org/object/text/address-nation-3-31-1968
   status: http-404
@@ -821,6 +884,48 @@
   title: The President&#039;s News Conference | The American Presidency Project
   cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/d81a4863613d50be.html"
   s3_key: this-day/references/d81a4863613d50be/08e0d9c8d5e03c3884901cb9f127c91de811b78f7d9c144cb8e04700829fc933.html
+- url: https://www.presidency.ucsb.edu/node/240926
+  final_url: https://www.presidency.ucsb.edu/documents/address-the-nation-about-new-initiative-for-peace-southeast-asia
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-26T08:50:55Z'
+  sha256: a134e9e3801f2665fd529f9d372a6ce299514e3302c9da88981c9b1db3c4ea3f
+  bytes: 70327
+  title: Address to the Nation About a New Initiative for Peace in Southeast Asia.
+    | The American Presidency Project
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/28307e4892f42297.html"
+  s3_key: this-day/references/28307e4892f42297/a134e9e3801f2665fd529f9d372a6ce299514e3302c9da88981c9b1db3c4ea3f.html
+- url: https://www.realtime1960s.com/post/grenade-attack-in-saigon-youth-arrested
+  final_url: https://web.archive.org/web/20250121081849id_/https://www.realtime1960s.com/post/grenade-attack-in-saigon-youth-arrested
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-26T09:02:06Z'
+  sha256: 7a364b118105097b955caa8411556086d50b055ed0792785220a822cda1011d4
+  bytes: 1048576
+  title: Grenade Attack in Saigon, Youth Arrested
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/95b6b11787d47e60.html"
+  s3_key: this-day/references/95b6b11787d47e60/7a364b118105097b955caa8411556086d50b055ed0792785220a822cda1011d4.html
+  via: wayback
+  snapshot_url: https://web.archive.org/web/20250121081849/https://www.realtime1960s.com/post/grenade-attack-in-saigon-youth-arrested
+  captured_at: '2025-01-21T08:18:49Z'
+  live_status: http-404
+- url: https://www.upi.com/Archives/Audio/1969/War-Protests/
+  final_url: https://web.archive.org/web/20250517132513id_/https://www.upi.com/Archives/Audio/1969/War-Protests/
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-26T09:04:37Z'
+  sha256: 69d66773b1d8136b2da62db36a96a80afa8165aed0469c9ea80c5ab665941a33
+  bytes: 250827
+  title: War Protests - 1969 Year in Review - Audio - UPI.com
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/740430385e02ddd1.html"
+  s3_key: this-day/references/740430385e02ddd1/69d66773b1d8136b2da62db36a96a80afa8165aed0469c9ea80c5ab665941a33.html
+  via: wayback
+  snapshot_url: https://web.archive.org/web/20250517132513/https://www.upi.com/Archives/Audio/1969/War-Protests/
+  captured_at: '2025-05-17T13:25:13Z'
+  live_status: http-403
 - url: https://www.usmcu.edu/Portals/218/U_S_%20Marines%20in%20Vietnam_The%20Landing%20and%20the%20Buildup%201965%20%20PCN%2019000307600.pdf
   final_url: https://www.usmcu.edu/Portals/218/U_S_%20Marines%20in%20Vietnam_The%20Landing%20and%20the%20Buildup%201965%20%20PCN%2019000307600.pdf
   status: ok
@@ -849,6 +954,21 @@
   code: 404
   content_type: text/html
   fetched_at: '2026-10-25T14:36:13Z'
+- url: https://www.usni.org/magazines/proceedings/2012/october/fire-turret-two
+  final_url: https://web.archive.org/web/20250530091545id_/https://www.usni.org/magazines/proceedings/2012/october/fire-turret-two
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-26T08:51:51Z'
+  sha256: 1a18ccf1af04356ebda944e23e5d68dab975f680adecd9e858c7f97016980106
+  bytes: 91009
+  title: "&#039;Fire in Turret Two!&#039; | Proceedings - October 2012 Vol. 138/10/1,316"
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/a2fd6be37c7b2a31.html"
+  s3_key: this-day/references/a2fd6be37c7b2a31/1a18ccf1af04356ebda944e23e5d68dab975f680adecd9e858c7f97016980106.html
+  via: wayback
+  snapshot_url: https://web.archive.org/web/20250530091545/https://www.usni.org/magazines/proceedings/2012/october/fire-turret-two
+  captured_at: '2025-05-30T09:15:45Z'
+  live_status: http-403
 - url: https://www.vietnam.ttu.edu/exhibits/helicopter/aircav.php
   final_url: https://web.archive.org/web/20250616101854id_/https://vietnam.ttu.edu/exhibits/helicopter/aircav.php
   status: ok
@@ -869,7 +989,7 @@
   final_url: https://www.vietnam.ttu.edu/reports/images.php?img=/images/231/2311404008a.pdf
   status: error
   code: 0
-  fetched_at: '2026-10-26T01:17:04Z'
+  fetched_at: '2026-10-26T09:01:44Z'
   note: 'Net::OpenTimeout: Net::OpenTimeout'
 - url: https://yalebooks.yale.edu/book/9780300026306/big-story/
   final_url: https://yalebooks.yale.edu/book/9780300026306/big-story/
