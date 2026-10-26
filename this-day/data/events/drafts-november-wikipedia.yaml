@@ -394,16 +394,16 @@
 - month: 11
   day: 30
   year: 1966
-  title: "VC shell Tân Uyên market"
-  body: "<p>On November 30, 1966, the VC shelled Tân Uyên market in Bien Hoa Province, killing three civilians and wounding seven.</p>"
+  title: "Communists shell Tan Uyen market"
+  body: "<p>On November 30, 1966, communists shelled the Tan Uyen market in Bien Hoa province, killing three civilians and wounding seven.</p>"
   photo_url: null
   photo_alt: null
   references:
+    - label: "Douglas Pike, \"The Viet Cong Strategy of Terror\", U.S. Mission, Saigon, 1970, p. 102 (Vietnam Center and Archive, Texas Tech University, item 2311404008, part c)"
+      url: "https://vva.vietnam.ttu.edu/images.php?img=/images/231/2311404008c.pdf"
     - label: "Wikipedia, \"1966 in the Vietnam War\", revision 1380091905 (CC BY-SA 4.0)"
       url: "https://en.wikipedia.org/w/index.php?title=1966_in_the_Vietnam_War&oldid=1380091905"
-    - label: "Douglas Pike, \"The Vietcong Strategy of Terror\", US Mission, Saigon, 1970"
-      url: "https://www.vietnam.ttu.edu/reports/images.php?img=/images/231/2311404008a.pdf"
   status: "draft"
-  source_text: "[Wikipedia, 1966_in_the_Vietnam_War, rev 1380091905] The VC shelled Tân Uyên market, Bien Hoa Province, killing three civilians and wounding seven."
+  source_text: "[Pike, The Viet Cong Strategy of Terror, p. 102] Noverrtber 30, 1966\nCornrrtunist shell Tan Uyen rrtarket, Bien Hoa province, killing three civilians and wounding\nseven.\n\n[Wikipedia, 1966_in_the_Vietnam_War, rev 1380091905] The VC shelled Tân Uyên market, Bien Hoa Province, killing three civilians and wounding seven."
   summarized_by: "Claude Opus 5.5"
-  summarized_at: "2026-10-26T14:00:00Z"
+  summarized_at: "2026-10-26T15:00:00Z"

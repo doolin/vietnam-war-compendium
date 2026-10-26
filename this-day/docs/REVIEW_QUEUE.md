@@ -252,6 +252,28 @@ Opened 2026-10-25.
       late March" in the text). The body follows the caption, which
       agrees with Wikipedia.
 
+## March drafts
+
+18. **5 drafts, one per uncovered day (2026-10-26).** One Claude Opus
+    5.5 writer. Review at `/this-day-in-vietnam-war/review/3`.
+    *Decision:* approve, reject, or re-source by date.
+    - **Mar 18** (1960 Washington conference) is Wikipedia only, at the
+      80-word floor; the cited Spector history archived as an empty
+      catalog page.
+    - **Mar 27: Wikipedia's date is wrong for the battle it names.**
+      Le Gro (*Vietnam from Ceasefire to Capitulation*) has the NVA
+      attack on Duc Hue on 27 March 1974 and the ARVN sweep into Svay
+      Rieng beginning 27 April. The entry is about the Duc Hue attack.
+    - **Mar 29** (Duc Duc, 1971): the year is from the chapter context
+      of the Marine history; the passage does not print it. The writer
+      chose Duc Duc over the Calley verdict, whose source is an undated
+      UPI audio transcript.
+    - **Mar 7** (SILVER CITY): the source names no province (Wikipedia:
+      Biên Hòa); "353 Viet Cong" in the source, not "PAVN/VC".
+    - **Not used, reported:** the Aviation Safety Network record for the
+      C-123 crash Wikipedia puts on March 4, 1968 gives 6 March, a
+      Vietnam Air Force aircraft, and 49 dead (Wikipedia: USAF, 44).
+
 ## Texas Tech letters and documents
 
 14. **Letters from the Virtual Vietnam Archive (2026-10-26).** Letters
@@ -267,8 +289,16 @@ Opened 2026-10-25.
     fetched; the same file downloads from the catalog host
     (vva.vietnam.ttu.edu/images.php?img=/images/231/2311404008a.pdf).
     It is the source behind Oct 20 and Nov 30 (item 11).
-    *Decision:* cite and archive the vva URL in place of the old one,
-    and re-source Oct 20 and Nov 30 from it?
+    *Decided 2026-10-26 (operator): yes.* Done. The scan is three
+    files; the chronology Wikipedia cites (pp. 93–115) is in part c
+    (pp. 90–125), not part a (to p. 51), so Oct 20 and Nov 30 now cite
+    part c, pp. 96 and 102. Pike dates the Saigon grenade attack
+    October 20, 1962, as Wikipedia does, so the October 26 date in the
+    unattributed reprint (item 11) is not supported. Both entries stay
+    short (26 and 20 words): the chronology gives one sentence per
+    incident. Every Texas Tech report URL is now cited and archived at
+    the catalog host (`lib/this_day/archive/mirrors.rb`), including the
+    Jan 4 after-action report.
 
 ## Infrastructure
 

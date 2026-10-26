@@ -60,9 +60,13 @@ hosts:
     observed: 2026-10-25
     note: Akamai "Access Denied" to non-browser clients. Old /html/books/ URLs also 404 live; Wayback has 200 captures of many.
   - host: www.marines.mil
-    status: blocked
-    observed: 2026-10-25
-    note: Akamai "Access Denied".
+    status: unreliable
+    observed: 2026-10-26
+    note: >-
+      Akamai "Access Denied" on 2026-10-25. On 2026-10-26 a live fetch of a
+      /Portals/59/Publications/ PDF (U.S. Marines in Vietnam: Vietnamization
+      and Redeployment, 1970-1971; 17 MB) returned 200, redirected to
+      /Portals/1/. Publications PDFs may fetch where pages do not.
   - host: www.usmcu.edu
     status: blocked
     observed: 2026-10-25
@@ -202,11 +206,15 @@ documents:
     author: Douglas Pike
     url: https://www.vietnam.ttu.edu/reports/images.php?img=/images/231/2311404008a.pdf
     archived: false
+    archived: true
     covers: >-
-      VC terror incidents. The www.vietnam.ttu.edu URL timed out on every
-      attempt; the same PDF downloads from
-      https://vva.vietnam.ttu.edu/images.php?img=/images/231/2311404008a.pdf
-      (2026-10-26, 715,994 bytes). Not yet archived under either URL.
+      VC terror incidents. Scanned in three files at
+      vva.vietnam.ttu.edu/images.php?img=/images/231/2311404008{a,b,c}.pdf:
+      part a to printed p. 51, part b pp. 52-89, part c pp. 90-125 with
+      the incident chronology (about 170 dated incidents, February 1960 to
+      October 1969 by the OCR text, mostly one sentence each) that
+      Wikipedia cites as pp. 93-115. All three archived 2026-10-26. The
+      www.vietnam.ttu.edu URL timed out on every attempt.
   - title: "Foreign Relations of the United States, 1969-1976, Volume VII, Vietnam, July 1970-January 1972"
     author: U.S. Department of State, Office of the Historian
     url: https://history.state.gov/historicaldocuments/frus1969-76v07

@@ -183,6 +183,7 @@ namespace :provision do
     require "json"
     require_relative "lib/this_day/archive/archiver"
     require_relative "lib/this_day/archive/text"
+    require_relative "lib/this_day/archive/mirrors"
     require "aws-sdk-s3"
 
     month = Integer(ENV.fetch("MONTH"))
@@ -190,6 +191,8 @@ namespace :provision do
     candidates_path = File.join(dir, "candidates.json")
     ruby File.expand_path("../research/wikipedia-year-pages/select.rb", __dir__), month.to_s, candidates_path
     days = JSON.parse(File.read(candidates_path))["days"]
+    # Cite and archive the address that serves the file (see Mirrors).
+    days.each { |d| d["candidates"].each { |c| c["refs"].each { |r| r["url"] = ThisDay::Archive::Mirrors.canonical(r["url"]) if r["url"] } } }
 
     index = ThisDay::Archive::Index.new
     fetcher = ThisDay::Archive::Fetcher.new

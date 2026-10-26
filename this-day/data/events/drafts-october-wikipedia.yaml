@@ -273,18 +273,18 @@
   day: 20
   year: 1962
   title: "Grenade kills six in Saigon holiday crowd"
-  body: "<p>On October 20, 1962, a VC threw a grenade into a holiday crowd in downtown Saigon, killing six persons, including two children, and injuring 38 people.</p>"
+  body: "<p>On October 20, 1962, a teen-age communist hurled a grenade into a holiday crowd in downtown Saigon, killing six persons, including two children, and injuring 38 persons.</p>"
   photo_url: null
   photo_alt: null
   references:
+    - label: "Douglas Pike, \"The Viet Cong Strategy of Terror\", U.S. Mission, Saigon, 1970, p. 96 (Vietnam Center and Archive, Texas Tech University, item 2311404008, part c)"
+      url: "https://vva.vietnam.ttu.edu/images.php?img=/images/231/2311404008c.pdf"
     - label: "Wikipedia, \"1962 in the Vietnam War\", revision 1374503779 (CC BY-SA 4.0)"
       url: "https://en.wikipedia.org/w/index.php?title=1962_in_the_Vietnam_War&oldid=1374503779"
-    - label: "Douglas Pike, \"The Vietcong Strategy of Terror\", US Mission, Saigon, 1970"
-      url: "https://www.vietnam.ttu.edu/reports/images.php?img=/images/231/2311404008a.pdf"
   status: "draft"
-  source_text: "[Wikipedia, 1962_in_the_Vietnam_War, rev 1374503779] A VC threw a grenade into a holiday crowd in downtown Saigon, killing six persons, including two children and injuring 38 people."
+  source_text: "[Pike, The Viet Cong Strategy of Terror, p. 96] October 20, 1962\nA teen-age communist hurls a\ngrenade into a holiday crowd in downtown Saigon, killing six\npersons, including two children, and injuring 38 persons.\n\n[Wikipedia, 1962_in_the_Vietnam_War, rev 1374503779] A VC threw a grenade into a holiday crowd in downtown Saigon, killing six persons, including two children and injuring 38 people."
   summarized_by: "Claude Opus 5.5"
-  summarized_at: "2026-10-26T14:00:00Z"
+  summarized_at: "2026-10-26T15:00:00Z"
 - month: 10
   day: 20
   year: 1962

@@ -195,6 +195,20 @@ words split across PDF lines and runs that straddle a `[...]`, not
 paraphrase. It is still a script in `tmp/` and belongs in
 `provision:check`.
 
+## 2026-10-26 — The cited file is not always the file with the pages
+
+Wikipedia cites Pike's *Viet Cong Strategy of Terror* for its incident
+chronology, "pp. 93–115", at a Texas Tech URL. Once that URL could be
+fetched (through the catalog host), the file turned out to end at
+printed page 51: the scan is split into parts a, b, and c, and the
+chronology is in part c. An archived copy of the cited URL would have
+passed every check while holding none of the cited text. The fix maps
+that one citation to part c, with the page ranges in the code comment,
+and the two entries now cite part c by printed page.
+
+Check that the archived copy contains the cited page range, not only
+that the URL archived.
+
 ## 2026-10-26 — A certificate error that a browser never shows
 
 The Texas Tech Vietnam Archive catalog (vva.vietnam.ttu.edu) failed
