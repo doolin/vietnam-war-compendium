@@ -6,4 +6,5 @@ vendor/bundle/
 .build/
 version.json
 archive/cache/
+tmp/
 docs/slides/*.html

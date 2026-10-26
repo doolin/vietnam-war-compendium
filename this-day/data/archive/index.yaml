@@ -1,4 +1,15 @@
 ---
+- url: http://377sps.org/johnson/1966/Dec%204,%201966%20After%20Action%20Report.pdf
+  final_url: http://377sps.org/johnson/1966/Dec%204,%201966%20After%20Action%20Report.pdf
+  status: ok
+  code: 200
+  content_type: application/pdf
+  fetched_at: '2026-10-26T09:43:12Z'
+  sha256: f01b9a260aa1aab7bb7417d6734c40db2645d3187c4db1acc51d72b192777e90
+  bytes: 15656352
+  title:
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/77af7a6179710055.pdf"
+  s3_key: this-day/references/77af7a6179710055/f01b9a260aa1aab7bb7417d6734c40db2645d3187c4db1acc51d72b192777e90.pdf
 - url: http://history.state.gov/historicaldocuments/frus1964-68v01/d387
   final_url: https://history.state.gov/historicaldocuments/frus1964-68v01/d387
   status: ok
@@ -36,6 +47,42 @@
   snapshot_url: https://web.archive.org/web/20161123144448/http://www.afhso.af.mil/shared/media/document/AFD-100525-052.pdf
   captured_at: '2016-11-23T14:44:48Z'
   live_status: error
+- url: http://www.afhso.af.mil/shared/media/document/AFD-100921-023.pdf
+  final_url: https://web.archive.org/web/20161123144536id_/http://www.afhso.af.mil/shared/media/document/AFD-100921-023.pdf
+  status: ok
+  code: 200
+  content_type: application/pdf
+  fetched_at: '2026-10-26T09:44:10Z'
+  sha256: ab4d7bd1fe1d3ec7d1dda1a079f942ba4f578c01fe59f37090e5d6b78c2304c3
+  bytes: 39845970
+  title:
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/eb31014a99065c92.pdf"
+  s3_key: this-day/references/eb31014a99065c92/ab4d7bd1fe1d3ec7d1dda1a079f942ba4f578c01fe59f37090e5d6b78c2304c3.pdf
+  via: wayback
+  snapshot_url: https://web.archive.org/web/20161123144536/http://www.afhso.af.mil/shared/media/document/AFD-100921-023.pdf
+  captured_at: '2016-11-23T14:45:36Z'
+  live_status: error
+- url: http://www.dtic.mil/dtic/tr/fulltext/u2/509879.pdf
+  final_url: https://web.archive.org/web/20170203024952id_/http://www.dtic.mil/dtic/tr/fulltext/u2/509879.pdf
+  status: ok
+  code: 200
+  content_type: application/pdf
+  fetched_at: '2026-10-26T09:46:28Z'
+  sha256: b2b08b9f7d0d530e868a39ddf0148e36d3a853033afd99f838417b77fe7c2697
+  bytes: 3718012
+  title:
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/962e196fcd560908.pdf"
+  s3_key: this-day/references/962e196fcd560908/b2b08b9f7d0d530e868a39ddf0148e36d3a853033afd99f838417b77fe7c2697.pdf
+  via: wayback
+  snapshot_url: https://web.archive.org/web/20170203024952/http://www.dtic.mil/dtic/tr/fulltext/u2/509879.pdf
+  captured_at: '2017-02-03T02:49:52Z'
+  live_status: error
+- url: http://www.history.com/thisday-in-history/national-liberation-front-formed
+  final_url: https://www.history.com/thisday-in-history/national-liberation-front-formed
+  status: http-404
+  code: 404
+  content_type: text/html
+  fetched_at: '2026-10-26T09:49:22Z'
 - url: http://www.let.rug.nl/usa/presidents/richard-milhous-nixon/vietnamization-speech-1969.php
   final_url: https://web.archive.org/web/20260413110540id_/https://www.let.rug.nl/usa/presidents/richard-milhous-nixon/vietnamization-speech-1969.php
   status: ok
@@ -52,6 +99,22 @@
   snapshot_url: https://web.archive.org/web/20260413110540/https://www.let.rug.nl/usa/presidents/richard-milhous-nixon/vietnamization-speech-1969.php
   captured_at: '2026-04-13T11:05:40Z'
   live_status: http-404
+- url: http://www.mtholyoke.edu/acad/intrel/pentagon/pent14.htm
+  final_url: https://web.archive.org/web/20220717005117id_/https://www.mtholyoke.edu/acad/intrel/pentagon/pent14.htm
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-26T09:47:32Z'
+  sha256: f6c9d70f8d62c61ab3d9b5cac6d9645cc0f41d0461c829dae2133cb3239676c2
+  bytes: 121715
+  title: The Pentagon Papers, Volume 1, Chapter 5, Section 3, &quot;Origins of the
+    Insurgency in South Vietnam, 1954-1960&quot;
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/bce31a73d2f35e73.html"
+  s3_key: this-day/references/bce31a73d2f35e73/f6c9d70f8d62c61ab3d9b5cac6d9645cc0f41d0461c829dae2133cb3239676c2.html
+  via: wayback
+  snapshot_url: https://web.archive.org/web/20220717005117/https://www.mtholyoke.edu/acad/intrel/pentagon/pent14.htm
+  captured_at: '2022-07-17T00:51:17Z'
+  live_status: http-404
 - url: http://www.nixonlibrary.gov/exhibits/decbomb/chapter-ii.html
   final_url: https://web.archive.org/web/20170207115939id_/https://www.nixonlibrary.gov/exhibits/decbomb/chapter-ii.html
   status: ok
@@ -67,6 +130,17 @@
   snapshot_url: https://web.archive.org/web/20170207115939/https://www.nixonlibrary.gov/exhibits/decbomb/chapter-ii.html
   captured_at: '2017-02-07T11:59:39Z'
   live_status: http-404
+- url: http://www.usmm.org/badger_state.html
+  final_url: http://www.usmm.org/badger_state.html
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-26T09:53:25Z'
+  sha256: d62ea546a70494bb66a74841f5f5f5e0d83df416e777566d24a484671970bd14
+  bytes: 9110
+  title: Badger State rocked by Blasts en route to Vietnam
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/4f5863adfe64b69b.html"
+  s3_key: this-day/references/4f5863adfe64b69b/d62ea546a70494bb66a74841f5f5f5e0d83df416e777566d24a484671970bd14.html
 - url: http://www.usno.navy.mil/NOOC/nmfc-ph/RSS/jtwc/atcr/1971atcr.pdf
   final_url: https://web.archive.org/web/20201020154344id_/https://www.usno.navy.mil/NOOC/nmfc-ph/RSS/jtwc/atcr/1971atcr.pdf
   status: ok
@@ -82,6 +156,57 @@
   snapshot_url: https://web.archive.org/web/20201020154344/https://www.usno.navy.mil/NOOC/nmfc-ph/RSS/jtwc/atcr/1971atcr.pdf
   captured_at: '2020-10-20T15:43:44Z'
   live_status: error
+- url: https://apps.dtic.mil/dtic/tr/fulltext/u2/a100569.pdf
+  final_url: https://web.archive.org/web/20221231044046id_/https://apps.dtic.mil/dtic/tr/fulltext/u2/a100569.pdf
+  status: ok
+  code: 200
+  content_type: application/pdf
+  fetched_at: '2026-10-26T09:48:40Z'
+  sha256: 67abf6806a8a4c6d6cb45770967d058123a2a7607b68741201ee78e5e7fd0ce7
+  bytes: 21050227
+  title:
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/5111a3dbe6bed49b.pdf"
+  s3_key: this-day/references/5111a3dbe6bed49b/67abf6806a8a4c6d6cb45770967d058123a2a7607b68741201ee78e5e7fd0ce7.pdf
+  via: wayback
+  snapshot_url: https://web.archive.org/web/20221231044046/https://apps.dtic.mil/dtic/tr/fulltext/u2/a100569.pdf
+  captured_at: '2022-12-31T04:40:46Z'
+  live_status: http-403
+- url: https://archive.org/details/FightingTheNorthVietnamese
+  final_url: https://archive.org/details/FightingTheNorthVietnamese
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-26T09:53:20Z'
+  sha256: f1db272d2ec0bd807ec9d124a93a1e1b2f3d9688d5e4e00b4cc46027f70d46e6
+  bytes: 233995
+  title: 'U.S. Marines in Vietnam : fighting the North Vietnamese 1967 : Telfer, Gary
+    L : Free Download, Borrow, and Streaming : Internet Archive'
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/579412e32763204c.html"
+  s3_key: this-day/references/579412e32763204c/f1db272d2ec0bd807ec9d124a93a1e1b2f3d9688d5e4e00b4cc46027f70d46e6.html
+- url: https://archive.org/details/HighMobilityAndStanddown
+  final_url: https://archive.org/details/HighMobilityAndStanddown
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-26T09:49:23Z'
+  sha256: 5386eeda03ffca261b3bf92217a7d22bcd5b325baca9a0a1373b4a4f60f408f1
+  bytes: 219511
+  title: 'U.S. Marines In Vietnam: High Mobility And Standdown, 1969 : Smith, Charles
+    R. : Free Download, Borrow, and Streaming : Internet Archive'
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/91485da503aac2f2.html"
+  s3_key: this-day/references/91485da503aac2f2/5386eeda03ffca261b3bf92217a7d22bcd5b325baca9a0a1373b4a4f60f408f1.html
+- url: https://archive.org/stream/USMarinesInVietnamTheDefiningYear1968#page/n0/mode/2up
+  final_url: https://archive.org/details/USMarinesInVietnamTheDefiningYear1968?view=theater
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-26T09:53:29Z'
+  sha256: 211996e31700192d0999eba4c09589f4242c988e9260eb48889882cc8114702c
+  bytes: 289607
+  title: 'U.S. Marines In Vietnam: The Defining Year, 1968 : Shulimson, Jack : Free
+    Download, Borrow, and Streaming : Internet Archive'
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/1ca548481c01c44f.html"
+  s3_key: this-day/references/1ca548481c01c44f/211996e31700192d0999eba4c09589f4242c988e9260eb48889882cc8114702c.html
 - url: https://arsof-history.org/arsof_timeline/index.html
   final_url: https://arsof-history.org/arsof_timeline/index.html
   status: ok
@@ -93,6 +218,21 @@
   title: A Timeline of U.S. Army Special Operations Forces
   cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/398fae52712e507c.html"
   s3_key: this-day/references/398fae52712e507c/78cd1b731e13cb16c2596b304f00bdf2d9406bc141f4b1b1220ca689ce1537a8.html
+- url: https://aviation-safety.net/wikibase/193752
+  final_url: https://web.archive.org/web/20260304145830id_/https://aviation-safety.net/wikibase/193752
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-26T09:49:18Z'
+  sha256: fd839a7e4b4eb1ec9a8732272c90c88175b8bdb0fbd7be33da08afbf5e4995c3
+  bytes: 12189
+  title: Accident Fairchild C-123B-12-FA Provider 55-4522, Friday 11 December 1964
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/85d59b230e1e32f4.html"
+  s3_key: this-day/references/85d59b230e1e32f4/fd839a7e4b4eb1ec9a8732272c90c88175b8bdb0fbd7be33da08afbf5e4995c3.html
+  via: wayback
+  snapshot_url: https://web.archive.org/web/20260304145830/https://aviation-safety.net/wikibase/193752
+  captured_at: '2026-03-04T14:58:30Z'
+  live_status: http-403
 - url: https://aviation-safety.net/wikibase/76002
   final_url: https://web.archive.org/web/20260302054258id_/https://aviation-safety.net/wikibase/76002
   status: ok
@@ -119,6 +259,65 @@
   title:
   cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/5dcde3362be4261b.html"
   s3_key: this-day/references/5dcde3362be4261b/65e27e92402bf9312141b6aa3e6379d58e6f5e2d66d91989fe1db4231a3557d5.html
+- url: https://digitalcommons.law.utulsa.edu/cgi/viewcontent.cgi?article=3177&context=tlr
+  final_url: https://web.archive.org/web/20240604181055id_/https://digitalcommons.law.utulsa.edu/cgi/viewcontent.cgi?article=3177&context=tlr
+  status: ok
+  code: 200
+  content_type: application/pdf
+  fetched_at: '2026-10-26T09:51:47Z'
+  sha256: 6fa93f6a46ade91a5bf3ebd01d24d5753722078411c509cb83f4c5bad17810a6
+  bytes: 283608
+  title:
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/9c06ba8b504b1613.pdf"
+  s3_key: this-day/references/9c06ba8b504b1613/6fa93f6a46ade91a5bf3ebd01d24d5753722078411c509cb83f4c5bad17810a6.pdf
+  via: wayback
+  snapshot_url: https://web.archive.org/web/20240604181055/https://digitalcommons.law.utulsa.edu/cgi/viewcontent.cgi?article=3177&context=tlr
+  captured_at: '2024-06-04T18:10:55Z'
+  live_status: http-403
+- url: https://en.wikipedia.org/w/index.php?title=1955_in_the_Vietnam_War&oldid=1370279361
+  final_url: https://en.wikipedia.org/w/index.php?title=1955_in_the_Vietnam_War&oldid=1370279361
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-26T09:43:00Z'
+  sha256: 38a0781e7972dea96e41742ee3bb7f6d89b42880e4a56d6a6c6b7b720781ec0b
+  bytes: 293541
+  title: 1955 in the Vietnam War - Wikipedia
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/49f6dd572e079865.html"
+  s3_key: this-day/references/49f6dd572e079865/38a0781e7972dea96e41742ee3bb7f6d89b42880e4a56d6a6c6b7b720781ec0b.html
+- url: https://en.wikipedia.org/w/index.php?title=1957_in_the_Vietnam_War&oldid=1374374232
+  final_url: https://en.wikipedia.org/w/index.php?title=1957_in_the_Vietnam_War&oldid=1374374232
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-26T09:43:03Z'
+  sha256: 39380f67835916c805ba126dc83736a08e816fc9b5b1fdfed9e7c5732acb6688
+  bytes: 241408
+  title: 1957 in the Vietnam War - Wikipedia
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/023471f07e891b7d.html"
+  s3_key: this-day/references/023471f07e891b7d/39380f67835916c805ba126dc83736a08e816fc9b5b1fdfed9e7c5732acb6688.html
+- url: https://en.wikipedia.org/w/index.php?title=1959_in_the_Vietnam_War&oldid=1370279413
+  final_url: https://en.wikipedia.org/w/index.php?title=1959_in_the_Vietnam_War&oldid=1370279413
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-26T09:43:09Z'
+  sha256: e6544ab726acbb6ec397fa371804d20574955f63dca2b3579670adc68e1503ea
+  bytes: 279245
+  title: 1959 in the Vietnam War - Wikipedia
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/08d166f7e3819b31.html"
+  s3_key: this-day/references/08d166f7e3819b31/e6544ab726acbb6ec397fa371804d20574955f63dca2b3579670adc68e1503ea.html
+- url: https://en.wikipedia.org/w/index.php?title=1960_in_the_Vietnam_War&oldid=1370279430
+  final_url: https://en.wikipedia.org/w/index.php?title=1960_in_the_Vietnam_War&oldid=1370279430
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-26T09:42:54Z'
+  sha256: d8b616a6af4dda56d2dae1f93d08f08b7b133af2f25e21e20ecdcf3801a78cb4
+  bytes: 295575
+  title: 1960 in the Vietnam War - Wikipedia
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/b276436696ccbd8d.html"
+  s3_key: this-day/references/b276436696ccbd8d/d8b616a6af4dda56d2dae1f93d08f08b7b133af2f25e21e20ecdcf3801a78cb4.html
 - url: https://en.wikipedia.org/w/index.php?title=1961_in_the_Vietnam_War&oldid=1370279448
   final_url: https://en.wikipedia.org/w/index.php?title=1961_in_the_Vietnam_War&oldid=1370279448
   status: ok
@@ -196,6 +395,17 @@
   title: 1967 in the Vietnam War - Wikipedia
   cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/47d2d03e8a9b58d6.html"
   s3_key: this-day/references/47d2d03e8a9b58d6/0c3e6921c175238e154faf7075457054cdaf50b77c75db871bb662293824c03b.html
+- url: https://en.wikipedia.org/w/index.php?title=1968_in_the_Vietnam_War&oldid=1370342410
+  final_url: https://en.wikipedia.org/w/index.php?title=1968_in_the_Vietnam_War&oldid=1370342410
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-26T09:42:57Z'
+  sha256: bc122875bd5c2895bc3729cd91a69f555672be87a57b50bd4476822ac66d6241
+  bytes: 922645
+  title: 1968 in the Vietnam War - Wikipedia
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/d6796d99c2d903c5.html"
+  s3_key: this-day/references/d6796d99c2d903c5/bc122875bd5c2895bc3729cd91a69f555672be87a57b50bd4476822ac66d6241.html
 - url: https://en.wikipedia.org/w/index.php?title=1969_in_the_Vietnam_War&oldid=1370279610
   final_url: https://en.wikipedia.org/w/index.php?title=1969_in_the_Vietnam_War&oldid=1370279610
   status: ok
@@ -240,6 +450,17 @@
   title: 1972 in the Vietnam War - Wikipedia
   cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/916d483e12e919d6.html"
   s3_key: this-day/references/916d483e12e919d6/aaf709dd706042b8eebe7cfcbfd0a25a4790c206ca352e9a5a0d6bccecf63364.html
+- url: https://en.wikipedia.org/w/index.php?title=1974_in_the_Vietnam_War&oldid=1374630748
+  final_url: https://en.wikipedia.org/w/index.php?title=1974_in_the_Vietnam_War&oldid=1374630748
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-26T09:43:06Z'
+  sha256: 3178729f34640b0d99c4fb8cde352036870ae48dba245a2b7086e69cedb63b51
+  bytes: 264181
+  title: 1974 in the Vietnam War - Wikipedia
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/dff5d35b133f4ca3.html"
+  s3_key: this-day/references/dff5d35b133f4ca3/3178729f34640b0d99c4fb8cde352036870ae48dba245a2b7086e69cedb63b51.html
 - url: https://history.army.mil/Publications/Publications-Catalog-Sub/Publications-By-Title/Advice-and-Support-The-Middle-Years/
   final_url: https://history.army.mil/Publications/Publications-Catalog-Sub/Publications-By-Title/Advice-and-Support-The-Middle-Years/
   status: ok
@@ -257,6 +478,69 @@
   code: 404
   content_type: text/html
   fetched_at: '2026-10-25T14:36:10Z'
+- url: https://history.army.mil/html/books/091/91-1/index.html
+  final_url: https://web.archive.org/web/20241216191244id_/https://www.history.army.mil/html/books/091/91-1/index.html
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-26T09:47:41Z'
+  sha256: 50ab7387c9a70b5677efe313fc5f9ac4c3cab3499ecaf8c694d5902dac1237c9
+  bytes: 3248
+  title: 'Advice and Support: The Early Years, 1941-1960 - U.S. Army Center of Military
+    History'
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/2ae68b1b5b0ae3a7.html"
+  s3_key: this-day/references/2ae68b1b5b0ae3a7/50ab7387c9a70b5677efe313fc5f9ac4c3cab3499ecaf8c694d5902dac1237c9.html
+  via: wayback
+  snapshot_url: https://web.archive.org/web/20241216191244/https://www.history.army.mil/html/books/091/91-1/index.html
+  captured_at: '2024-12-16T19:12:44Z'
+  live_status: http-404
+- url: https://history.army.mil/html/books/091/91-13/index.html
+  final_url: https://web.archive.org/web/20241214024059id_/https://www.history.army.mil/html/books/091/91-13/index.html
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-26T09:51:39Z'
+  sha256: 0642b629c4a6c58cd8b2d5b40841759ff364f95be1f1a83159bceeaa1511354f
+  bytes: 3271
+  title: 'Public Affairs: The Military and the Media, 1962-1968 - U.S. Army Center
+    of Military History'
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/77ca4fe3b96dd805.html"
+  s3_key: this-day/references/77ca4fe3b96dd805/0642b629c4a6c58cd8b2d5b40841759ff364f95be1f1a83159bceeaa1511354f.html
+  via: wayback
+  snapshot_url: https://web.archive.org/web/20241214024059/https://www.history.army.mil/html/books/091/91-13/index.html
+  captured_at: '2024-12-14T02:40:59Z'
+  live_status: http-404
+- url: https://history.army.mil/html/books/091/91-15-1/index.html
+  final_url: https://web.archive.org/web/20250205040039id_/https://www.history.army.mil/html/books/091/91-15-1/index.html
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-26T09:46:17Z'
+  sha256: 5af69d47b01794fa85f9467e07daae70c35ebd4e3204e7d7247f4fb6c4155e9d
+  bytes: 3414
+  title: Combat Operations - Staying the Course | U.S. Army Center of Military History
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/75595dd79cba24d5.html"
+  s3_key: this-day/references/75595dd79cba24d5/5af69d47b01794fa85f9467e07daae70c35ebd4e3204e7d7247f4fb6c4155e9d.html
+  via: wayback
+  snapshot_url: https://web.archive.org/web/20250205040039/https://www.history.army.mil/html/books/091/91-15-1/index.html
+  captured_at: '2025-02-05T04:00:39Z'
+  live_status: http-404
+- url: https://history.army.mil/html/books/091/91-3/index.html
+  final_url: https://web.archive.org/web/20250206072757id_/https://www.history.army.mil/html/books/091/91-3/index.html
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-26T09:50:05Z'
+  sha256: def45ff977077cc1d50c2cec68d5f1e20afa9874ecf469c81bb5801e1f4a438b
+  bytes: 3248
+  title: 'Advice and Support: The Final Years, 1965-1973 - U.S. Army Center of Military
+    History'
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/cd450423cf885844.html"
+  s3_key: this-day/references/cd450423cf885844/def45ff977077cc1d50c2cec68d5f1e20afa9874ecf469c81bb5801e1f4a438b.html
+  via: wayback
+  snapshot_url: https://web.archive.org/web/20250206072757/https://www.history.army.mil/html/books/091/91-3/index.html
+  captured_at: '2025-02-06T07:27:57Z'
+  live_status: http-404
 - url: https://history.army.mil/html/books/091/91-5/index.html
   final_url: https://web.archive.org/web/20241218091602id_/https://www.history.army.mil/html/books/091/91-5/index.html
   status: ok
@@ -288,6 +572,17 @@
   snapshot_url: https://web.archive.org/web/20250104105602/https://www.history.army.mil/html/books/091/91-6/CMH_Pub_91-6.pdf
   captured_at: '2025-01-04T10:56:02Z'
   live_status: http-404
+- url: https://history.army.mil/portals/143/Images/Publications/catalog/90-4.pdf
+  final_url: https://history.army.mil/portals/143/Images/Publications/catalog/90-4.pdf
+  status: ok
+  code: 200
+  content_type: application/pdf
+  fetched_at: '2026-10-26T09:51:49Z'
+  sha256: 3f8e22e68f78bd138ecc3a8d513221489b14d92ebdf2df2d50d5652de0308dbc
+  bytes: 34530526
+  title:
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/5fe5e51fc7c55ac2.pdf"
+  s3_key: this-day/references/5fe5e51fc7c55ac2/3f8e22e68f78bd138ecc3a8d513221489b14d92ebdf2df2d50d5652de0308dbc.pdf
 - url: https://history.state.gov/historicaldocuments/frus1961-63v01
   final_url: https://history.state.gov/historicaldocuments/frus1961-63v01
   status: ok
@@ -387,6 +682,17 @@
   title: Historical Documents - Office of the Historian
   cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/fadf52f22a7132e5.html"
   s3_key: this-day/references/fadf52f22a7132e5/22008f93af4fc213905d78541fc2b4c3b91edcc0a7ffeaf013b7006b15c59c00.html
+- url: https://history.state.gov/historicaldocuments/frus1964-68v03/d221
+  final_url: https://history.state.gov/historicaldocuments/frus1964-68v03/d221
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-26T09:43:10Z'
+  sha256: 45e3a2f89671e5b17a3d6f86eda6b8211c917f064c044c8852d05940db82566c
+  bytes: 31701
+  title: Historical Documents - Office of the Historian
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/520dd0ec3dd6019e.html"
+  s3_key: this-day/references/520dd0ec3dd6019e/45e3a2f89671e5b17a3d6f86eda6b8211c917f064c044c8852d05940db82566c.html
 - url: https://history.state.gov/historicaldocuments/frus1964-68v05/d397
   final_url: https://history.state.gov/historicaldocuments/frus1964-68v05/d397
   status: ok
@@ -507,6 +813,21 @@
   title:
   cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/e50b8307b405bf8f.pdf"
   s3_key: this-day/references/e50b8307b405bf8f/ce7313074eedddde707ee10eb8518abd72ae2b02e1fafa4dfadbc89728ffdc86.pdf
+- url: https://media.defense.gov/2011/Mar/23/2001330094/-1/-1/0/AFD-110323-039.pdf
+  final_url: https://web.archive.org/web/20240619100903id_/https://media.defense.gov/2011/Mar/23/2001330094/-1/-1/0/AFD-110323-039.pdf
+  status: ok
+  code: 200
+  content_type: application/pdf
+  fetched_at: '2026-10-26T09:49:35Z'
+  sha256: 0f5d9cfd43dc156cc13f4825ffc24b3246214ed99f74e898dff16f9dfa3a1a4b
+  bytes: 9210858
+  title:
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/0389a71a2f25eb3d.pdf"
+  s3_key: this-day/references/0389a71a2f25eb3d/0f5d9cfd43dc156cc13f4825ffc24b3246214ed99f74e898dff16f9dfa3a1a4b.pdf
+  via: wayback
+  snapshot_url: https://web.archive.org/web/20240619100903/https://media.defense.gov/2011/Mar/23/2001330094/-1/-1/0/AFD-110323-039.pdf
+  captured_at: '2024-06-19T10:09:03Z'
+  live_status: http-404
 - url: https://news.google.com/newspapers?id=onYzAAAAIBAJ&sjid=t_cDAAAAIBAJ&dq=hester&pg=1831%2C5643266
   final_url: https://news.google.com/newspapers?id=onYzAAAAIBAJ&sjid=t_cDAAAAIBAJ&dq=hester&pg=1831%2C5643266
   status: ok
@@ -717,6 +1038,17 @@
   content_type: text/html
   fetched_at: '2026-10-25T14:36:06Z'
   title: Amazon.com
+- url: https://www.archives.gov/research/military/vietnam-war/casualty-statistics.html#date
+  final_url: https://www.archives.gov/research/military/vietnam-war/casualty-statistics
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-26T09:53:14Z'
+  sha256: 5d0cbd199c95d43914b8e7265ba06d215564c9963799f94aa6aa9fa7738419d6
+  bytes: 72768
+  title: Vietnam War U.S. Military Fatal Casualty Statistics | National Archives
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/57d1f223980f5df0.html"
+  s3_key: this-day/references/57d1f223980f5df0/5d0cbd199c95d43914b8e7265ba06d215564c9963799f94aa6aa9fa7738419d6.html
 - url: https://www.archives.gov/research/military/vietnam-war/fall-of-saigon
   final_url: https://www.archives.gov/research/military/vietnam-war/fall-of-saigon
   status: http-404
@@ -764,6 +1096,48 @@
     Army
   cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/26cb3f05dcf7faeb.html"
   s3_key: this-day/references/26cb3f05dcf7faeb/d24183b621ce86b979a6b65886b9e503e9012d0ae11fae412d85bbe429687e81.html
+- url: https://www.baaa-acro.com/aircraft/beechcraft-u-21-ute?page=1
+  final_url: https://web.archive.org/web/20241228051953id_/https://www.baaa-acro.com/aircraft/beechcraft-u-21-ute?page=1
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-26T09:49:29Z'
+  sha256: e4f3487412fee72cb92382637f023da19a2fb629659e9f342b71017290d725de
+  bytes: 66132
+  title: Beechcraft U-21 Ute | Bureau of Aircraft Accidents Archives
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/b285f3718f3ae6a5.html"
+  s3_key: this-day/references/b285f3718f3ae6a5/e4f3487412fee72cb92382637f023da19a2fb629659e9f342b71017290d725de.html
+  via: wayback
+  snapshot_url: https://web.archive.org/web/20241228051953/https://www.baaa-acro.com/aircraft/beechcraft-u-21-ute?page=1
+  captured_at: '2024-12-28T05:19:53Z'
+  live_status: http-404
+- url: https://www.cia.gov/library/center-for-the-study-of-intelligence/csi-publications/csi-studies/studies/vol48no1/article06.html#author1
+  final_url: https://web.archive.org/web/20201112040324id_/https://www.cia.gov/library/center-for-the-study-of-intelligence/csi-publications/csi-studies/studies/vol48no1/article06.html
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-26T09:53:10Z'
+  sha256: a9f56baeb2ff6a9f0e6b4253e39b0abedc0bea04e4655096474b72609298eadf
+  bytes: 116439
+  title: The Man in the Snow White Cell ��� Central Intelligence Agency
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/473e0e0450ec3fef.html"
+  s3_key: this-day/references/473e0e0450ec3fef/a9f56baeb2ff6a9f0e6b4253e39b0abedc0bea04e4655096474b72609298eadf.html
+  via: wayback
+  snapshot_url: https://web.archive.org/web/20201112040324/https://www.cia.gov/library/center-for-the-study-of-intelligence/csi-publications/csi-studies/studies/vol48no1/article06.html
+  captured_at: '2020-11-12T04:03:24Z'
+  live_status: http-404
+- url: https://www.foxnews.com/story/pentagon-recovers-remains-believed-to-be-howard-deans-brother/
+  final_url: https://www.foxnews.com/story/pentagon-recovers-remains-believed-to-be-howard-deans-brother/
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-26T09:49:30Z'
+  sha256: 60cf2fbc51489b61a4a21b9984220429fdbae5386e7674fcd7df2a35a90a8414
+  bytes: 412919
+  title: Pentagon Recovers Remains Believed to Be Howard Dean&#x27;s Brother | Fox
+    News
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/538f855e6b6837b2.html"
+  s3_key: this-day/references/538f855e6b6837b2/60cf2fbc51489b61a4a21b9984220429fdbae5386e7674fcd7df2a35a90a8414.html
 - url: https://www.goodreads.com/book/show/15837503-rlg-military-operations-and-activities-in-the-laotian-panhandle
   final_url: https://www.goodreads.com/book/show/15837503-rlg-military-operations-and-activities-in-the-laotian-panhandle
   status: ok
@@ -816,6 +1190,21 @@
   title: The Project Gutenberg eBook of The Battle For Khe Sanh, by Moyers S. Shore.
   cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/5484a69fbf13e28d.html"
   s3_key: this-day/references/5484a69fbf13e28d/414306757214cd5650a8eecc8ff7db8a6a7ab0d28a8867723d1171cbf79d67a7.html
+- url: https://www.history.navy.mil/content/dam/nhhc/research/publications/publication-508-pdf/WITS_508.pdf
+  final_url: https://web.archive.org/web/20251209235347id_/https://www.history.navy.mil/content/dam/nhhc/research/publications/publication-508-pdf/WITS_508.pdf
+  status: ok
+  code: 200
+  content_type: application/pdf
+  fetched_at: '2026-10-26T09:50:14Z'
+  sha256: 990499ea773337c438497d64ec6897197a1b23aa133dabb105cb36373b0717e7
+  bytes: 12707243
+  title:
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/a8f4f2c1b8e7d60e.pdf"
+  s3_key: this-day/references/a8f4f2c1b8e7d60e/990499ea773337c438497d64ec6897197a1b23aa133dabb105cb36373b0717e7.pdf
+  via: wayback
+  snapshot_url: https://web.archive.org/web/20251209235347/https://www.history.navy.mil/content/dam/nhhc/research/publications/publication-508-pdf/WITS_508.pdf
+  captured_at: '2025-12-09T23:53:47Z'
+  live_status: error
 - url: https://www.history.navy.mil/research/histories/ship-histories/danfs/n/newport-news-ii.html
   final_url: https://web.archive.org/web/20251209075632id_/https://www.history.navy.mil/research/histories/ship-histories/danfs/n/newport-news-ii.html
   status: ok
@@ -837,6 +1226,22 @@
   code: 404
   content_type: text/html
   fetched_at: '2026-10-25T14:36:28Z'
+- url: https://www.nytimes.com/1964/12/10/archives/us-casualties-in-vietnam-rise-reds-fall-back-in-3-day-battle.html
+  final_url: https://web.archive.org/web/20251107224113id_/https://www.nytimes.com/1964/12/10/archives/us-casualties-in-vietnam-rise-reds-fall-back-in-3-day-battle.html
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-26T09:46:36Z'
+  sha256: 5133b93188ee19cec7c5839e659088466491580205462363dc6250b0ccabec3d
+  bytes: 270957
+  title: U.S. Casualties in Vietnam Rise; Reds Fall Back in 3 Day Battle - The New
+    York Times
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/06f5dfd31a7d8b93.html"
+  s3_key: this-day/references/06f5dfd31a7d8b93/5133b93188ee19cec7c5839e659088466491580205462363dc6250b0ccabec3d.html
+  via: wayback
+  snapshot_url: https://web.archive.org/web/20251107224113/https://www.nytimes.com/1964/12/10/archives/us-casualties-in-vietnam-rise-reds-fall-back-in-3-day-battle.html
+  captured_at: '2025-11-07T22:41:13Z'
+  live_status: http-403
 - url: https://www.pownetwork.org/bios/a/a063.htm
   final_url: https://www.pownetwork.org/bios/a/a063.htm
   status: ok
@@ -926,6 +1331,28 @@
   snapshot_url: https://web.archive.org/web/20250517132513/https://www.upi.com/Archives/Audio/1969/War-Protests/
   captured_at: '2025-05-17T13:25:13Z'
   live_status: http-403
+- url: https://www.usmcu.edu/Portals/218/US%20Marines%20In%20Vietnam%20Vietmanization%20and%20Redeployment%201970-1971%20PCN%2019000309600.pdf
+  final_url: https://www.usmcu.edu/Portals/218/US%20Marines%20In%20Vietnam%20Vietmanization%20and%20Redeployment%201970-1971%20PCN%2019000309600.pdf
+  status: ok
+  code: 200
+  content_type: application/pdf
+  fetched_at: '2026-10-26T09:47:42Z'
+  sha256: 82c151575c6311793922ac6cf2458d1c844e236197053ce71f94ebb2c8a6c4bf
+  bytes: 17251640
+  title:
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/4934af3798614f60.pdf"
+  s3_key: this-day/references/4934af3798614f60/82c151575c6311793922ac6cf2458d1c844e236197053ce71f94ebb2c8a6c4bf.pdf
+- url: https://www.usmcu.edu/Portals/218/US%20Marines%20in%20Vietnam%20An%20Expanding%20War%201966%20%20PCN%2019000308600.pdf
+  final_url: https://www.usmcu.edu/Portals/218/US%20Marines%20in%20Vietnam%20An%20Expanding%20War%201966%20%20PCN%2019000308600.pdf
+  status: ok
+  code: 200
+  content_type: application/pdf
+  fetched_at: '2026-10-26T09:50:30Z'
+  sha256: e76afa6818e332af5cea045da37bbec27d854189e7a755377b20c3bdd988abbc
+  bytes: 24901302
+  title:
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/f7d17e7a576a0a90.pdf"
+  s3_key: this-day/references/f7d17e7a576a0a90/e76afa6818e332af5cea045da37bbec27d854189e7a755377b20c3bdd988abbc.pdf
 - url: https://www.usmcu.edu/Portals/218/U_S_%20Marines%20in%20Vietnam_The%20Landing%20and%20the%20Buildup%201965%20%20PCN%2019000307600.pdf
   final_url: https://www.usmcu.edu/Portals/218/U_S_%20Marines%20in%20Vietnam_The%20Landing%20and%20the%20Buildup%201965%20%20PCN%2019000307600.pdf
   status: ok
@@ -985,12 +1412,35 @@
   snapshot_url: https://web.archive.org/web/20250616101854/https://vietnam.ttu.edu/exhibits/helicopter/aircav.php
   captured_at: '2025-06-16T10:18:54Z'
   live_status: error
+- url: https://www.vietnam.ttu.edu/reports/images.php?img=/images/1683/168300010759.pdf
+  final_url: https://www.vietnam.ttu.edu/reports/images.php?img=/images/1683/168300010759.pdf
+  status: error
+  code: 0
+  fetched_at: '2026-10-26T09:53:35Z'
+  note: 'OpenSSL::SSL::SSLError: SSL_connect returned=1 errno=0 peeraddr=141.193.178.92:443
+    state=error: certificate verify failed (unable to get local issuer certificate)'
 - url: https://www.vietnam.ttu.edu/reports/images.php?img=/images/231/2311404008a.pdf
   final_url: https://www.vietnam.ttu.edu/reports/images.php?img=/images/231/2311404008a.pdf
   status: error
   code: 0
-  fetched_at: '2026-10-26T09:01:44Z'
-  note: 'Net::OpenTimeout: Net::OpenTimeout'
+  fetched_at: '2026-10-26T09:46:18Z'
+  note: 'OpenSSL::SSL::SSLError: SSL_connect returned=1 errno=0 peeraddr=141.193.178.92:443
+    state=error: certificate verify failed (unable to get local issuer certificate)'
+- url: https://www.vietnam.ttu.edu/resources/operations/operations.txt
+  final_url: https://web.archive.org/web/20250916105212id_/https://vietnam.ttu.edu/resources/operations/operations.txt
+  status: ok
+  code: 200
+  content_type: text/plain
+  fetched_at: '2026-10-26T09:47:05Z'
+  sha256: aa077d1d4bb208f30495d9d9ab1db60509388b8fe213451308e8adaea404578f
+  bytes: 793035
+  title:
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/b33882f2c9552f69.txt"
+  s3_key: this-day/references/b33882f2c9552f69/aa077d1d4bb208f30495d9d9ab1db60509388b8fe213451308e8adaea404578f.txt
+  via: wayback
+  snapshot_url: https://web.archive.org/web/20250916105212/https://vietnam.ttu.edu/resources/operations/operations.txt
+  captured_at: '2025-09-16T10:52:12Z'
+  live_status: error
 - url: https://yalebooks.yale.edu/book/9780300026306/big-story/
   final_url: https://yalebooks.yale.edu/book/9780300026306/big-story/
   status: ok

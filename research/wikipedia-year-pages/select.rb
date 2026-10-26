@@ -12,6 +12,7 @@
 require "yaml"
 require "json"
 require "date"
+require "fileutils"
 
 month = Integer(ARGV.fetch(0))
 out = ARGV.fetch(1)
@@ -44,6 +45,7 @@ selection = missing.map do |day|
   { "day" => day, "candidates" => top.map { |c| c.merge("score" => score(c)) } }
 end
 
+FileUtils.mkdir_p(File.dirname(out))
 File.write(out, JSON.pretty_generate("month" => month, "missing_days" => missing, "days" => selection))
 puts "month #{month}: #{missing.size} uncovered days: #{missing.inspect}"
 selection.each do |d|

@@ -107,7 +107,10 @@ namespace :refs do
   def archive_components
     require_relative "lib/this_day/archive/archiver"
     require_relative "lib/this_day/archive/audit"
-    index = ThisDay::Archive::Index.new
+    # ARCHIVE_INDEX=tmp/x.yaml (passed after the task name) writes to a
+    # separate index, so parallel archive runs do not overwrite each
+    # other's entries; merge with refs:merge.
+    index = ThisDay::Archive::Index.new(*[ENV["ARCHIVE_INDEX"]].compact)
     audit = ThisDay::Archive::Audit.new(index: index, events_dir: EVENTS_DIR)
     [index, audit]
   end
@@ -138,6 +141,24 @@ namespace :refs do
     puts "Index: #{index.size} entries at #{index.path}"
   end
 
+  desc "Merge separate archive indexes into the committed one (FILES=a.yaml,b.yaml); " \
+       "a newer fetch wins, but a failure never replaces an archived copy"
+  task :merge do
+    require_relative "lib/this_day/archive/index"
+    index = ThisDay::Archive::Index.new
+    ENV.fetch("FILES").split(",").each do |path|
+      ThisDay::Archive::Index.new(path).entries.each do |entry|
+        current = index[entry["url"]]
+        next if current && current["fetched_at"].to_s > entry["fetched_at"].to_s
+        next if current && current["status"] == "ok" && entry["status"] != "ok"
+
+        index.upsert(entry)
+      end
+    end
+    index.save
+    puts "Index: #{index.size} entries at #{index.path}"
+  end
+
   desc "Report references that are missing, failed, or whose page title contradicts the label"
   task :audit do
     _index, audit = archive_components
@@ -150,6 +171,151 @@ namespace :refs do
         puts "#{f.file} | #{f.title}\n    #{f.label}\n    #{f.url}\n    #{f.detail}"
       end
     end
+  end
+end
+
+namespace :provision do
+  # Fetching and writing are separate steps. This task does every fetch
+  # for a month in one process (polite, Wayback fallback, one index), so
+  # the writers need only read files: no shell, no web.
+  desc "Archive the cited sources of a month's candidates and write a brief with readable text (MONTH=12)"
+  task :fetch do
+    require "json"
+    require_relative "lib/this_day/archive/archiver"
+    require_relative "lib/this_day/archive/text"
+    require "aws-sdk-s3"
+
+    month = Integer(ENV.fetch("MONTH"))
+    dir = File.expand_path("tmp/provision-#{month}", __dir__)
+    candidates_path = File.join(dir, "candidates.json")
+    ruby File.expand_path("../research/wikipedia-year-pages/select.rb", __dir__), month.to_s, candidates_path
+    days = JSON.parse(File.read(candidates_path))["days"]
+
+    index = ThisDay::Archive::Index.new
+    fetcher = ThisDay::Archive::Fetcher.new
+    archiver = ThisDay::Archive::Archiver.new(
+      index: index, fetcher: fetcher, wayback: ThisDay::Archive::Wayback.new(fetcher: fetcher),
+      bucket: BACKUP_BUCKET, prefix: ARCHIVE_PREFIX, s3_client: Aws::S3::Client.new(region: BACKUP_REGION)
+    )
+
+    cands = days.flat_map { |d| d["candidates"] }
+    urls = (cands.map { |c| c["permalink"] } +
+            cands.flat_map { |c| c["refs"].map { |r| r["url"] } }.grep(%r{\Ahttps?://})).uniq
+    todo = urls.reject { |u| index.archived?(u) }
+    puts "#{urls.size} cited URLs, #{todo.size} to archive"
+    todo.each_with_index do |url, i|
+      entry = archiver.archive(url)
+      index.save
+      puts format("%3d/%d %-9s %s%s", i + 1, todo.size, entry["status"], url, entry["via"] ? " (wayback)" : "")
+    end
+
+    sources_dir = File.join(dir, "sources")
+    FileUtils.mkdir_p(sources_dir)
+    text_path = lambda do |url|
+      e = index[url]
+      return nil unless e && e["status"] == "ok" && e["cache_path"] && File.exist?(e["cache_path"])
+
+      path = File.join(sources_dir, "#{ThisDay::Archive::Index.url_key(url)}.txt")
+      unless File.exist?(path)
+        text = e["cache_path"].end_with?(".pdf") ? ThisDay::Archive::Text.from_pdf(e["cache_path"]) : ThisDay::Archive::Text.from_html(File.read(e["cache_path"]))
+        File.write(path, text.to_s)
+      end
+      path
+    end
+
+    brief = ["# Candidates for #{Date::MONTHNAMES[month]}: uncovered days", ""]
+    days.each do |d|
+      brief << "## #{Date::MONTHNAMES[month]} #{d['day']}" << ""
+      d["candidates"].each_with_index do |c, i|
+        brief << "### Candidate #{i + 1}: #{c['year']} (score #{c['score']})" << ""
+        brief << "Wikipedia entry (#{c['page']}, revision #{c['revid']}; permalink #{c['permalink']}, " \
+                 "archive: #{index[c['permalink']]&.fetch('status') || 'missing'}):" << ""
+        brief << "> #{c['text'].gsub("\n", "\n> ")}" << ""
+        c["refs"].each do |r|
+          label = r["title"] || r["text"] || "(untitled citation)"
+          if r["url"].to_s.start_with?("http")
+            e = index[r["url"]]
+            brief << "- Cited: #{label} (#{[r['author'], r['last'], r['work'], r['publisher'], r['date'], r['year'], r['page'] || r['pages']].compact.join(', ')})"
+            brief << "  URL: #{r['url']} | archive: #{e&.fetch('status') || 'missing'}#{e&.dig('via') ? ' (Wayback copy)' : ''}" \
+                     "#{e&.dig('title') ? " | page title: #{e['title']}" : ''}"
+            path = text_path.call(r["url"])
+            brief << "  Text: #{path}" if path
+          else
+            brief << "- Cited, no URL: #{label}"
+          end
+        end
+        brief << ""
+      end
+    end
+    File.write(File.join(dir, "brief.md"), brief.join("\n"))
+    puts "Brief: #{File.join(dir, 'brief.md')}"
+  end
+
+  DRAFT_KEYS = %w[month day year title body photo_url photo_alt references status source_text
+                  summarized_by summarized_at].sort.freeze
+  BANNED_WORDS = /\b(richer|exactly|honest\w*|cleanly|spine|load[- ]bearing|settles|importantly)\b/i
+
+  def draft_problems(event, index)
+    problems = []
+    problems << "keys: extra #{event.keys.sort - DRAFT_KEYS}, missing #{DRAFT_KEYS - event.keys.sort}" if event.keys.sort != DRAFT_KEYS
+    plain = event["body"].to_s.gsub(/<[^>]+>/, " ").strip
+    opening = "On #{Date::MONTHNAMES[event['month'].to_i]} #{event['day']}, #{event['year']}, "
+    problems << "opening #{plain[0, 30].inspect}" unless plain.start_with?(opening)
+    words = plain.split.size
+    problems << "#{words} words" unless words.between?(80, 180)
+    problems << "banned word #{plain[BANNED_WORDS]}" if plain.match?(BANNED_WORDS)
+    problems << "status #{event['status']}" unless event["status"] == "draft"
+    Array(event["references"]).each do |r|
+      status = index[r["url"]]&.fetch("status")
+      problems << "reference #{status || 'unarchived'}: #{r['url']}" unless status == "ok"
+    end
+    problems
+  end
+
+  desc "Check drafts against the style brief and the archive (FILE=tmp/provision-12/drafts.yaml)"
+  task :check do
+    require "yaml"
+    require_relative "lib/this_day/archive/index"
+    index = ThisDay::Archive::Index.new
+    events = YAML.safe_load_file(ENV.fetch("FILE"), permitted_classes: [Date])
+    failing = 0
+    events.each do |e|
+      problems = draft_problems(e, index)
+      failing += 1 unless problems.empty?
+      words = e["body"].to_s.gsub(/<[^>]+>/, " ").split.size
+      puts format("%2d/%-2d/%d %3dw %d refs  %s", e["month"], e["day"], e["year"], words, Array(e["references"]).size, e["title"])
+      problems.each { |p| puts "    ! #{p}" }
+    end
+    puts "#{events.size} drafts, #{failing} with problems"
+  end
+
+  # One block per event with JSON-quoted strings, the format the draft
+  # files were generated in, so a replaced event is a small diff.
+  def draft_block(e)
+    q = ->(s) { s.nil? ? "null" : JSON.generate(s.to_s) }
+    lines = ["- month: #{e['month']}", "  day: #{e['day']}", "  year: #{e['year']}",
+             "  title: #{q.(e['title'])}", "  body: #{q.(e['body'])}",
+             "  photo_url: #{q.(e['photo_url'])}", "  photo_alt: #{q.(e['photo_alt'])}", "  references:"]
+    e["references"].each { |r| lines << "    - label: #{q.(r['label'])}" << "      url: #{q.(r['url'])}" }
+    lines << "  status: #{q.(e['status'])}" << "  source_text: #{q.(e['source_text'])}"
+    lines << "  summarized_by: #{q.(e['summarized_by'])}" << "  summarized_at: #{q.(e['summarized_at'])}"
+    "#{lines.join("\n")}\n"
+  end
+
+  desc "Add or replace drafts in an event file, matched on month and day (FILE=drafts.yaml OUT=data/events/x.yaml)"
+  task :add do
+    require "yaml"
+    require "json"
+    incoming = YAML.safe_load_file(ENV.fetch("FILE"), permitted_classes: [Date])
+    out = ENV.fetch("OUT")
+    header = "# DRAFTS for human review -- every item below is status: draft and has not been checked by a person.\n" \
+             "# Candidates from Wikipedia \"<year> in the Vietnam War\" pages (CC BY-SA 4.0); each body is written from the passages in source_text.\n"
+    head, *blocks = File.exist?(out) ? File.read(out).split(/^(?=- month: )/) : [header]
+    keyed = blocks.to_h { |b| [[b[/^- month: (\d+)/, 1].to_i, b[/^  day: (\d+)/, 1].to_i], b] }
+    incoming.each { |e| keyed[[e["month"], e["day"]]] = draft_block(e) }
+    File.write(out, head + keyed.sort.map(&:last).join)
+    YAML.safe_load_file(out, permitted_classes: [Date])
+    puts "#{out}: #{keyed.size} events (#{incoming.size} added or replaced)"
   end
 end
 
