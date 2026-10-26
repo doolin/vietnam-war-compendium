@@ -213,7 +213,9 @@ def parse_ref(raw_inner, raw_full, named_refs)
     body = named_refs[name].to_s if name && named_refs[name]
     ref['resolved_from_name'] = true if name && named_refs[name]
   end
-  url = body[/https?:\/\/[^\s|\]}<]+/]&.sub(/[.,;:)'"]+\z/, '')
+  # A URL ends at whitespace, a template pipe or brace (including the
+  # "{{Dead link}}" that can follow it), a bracket, or a tag.
+  url = body[/https?:\/\/[^\s|\]{}<]+/]&.sub(/[.,;:)'"]+\z/, '')
   ref['url'] = url if url
   tpl = body[/\{\{\s*(cite[^|}]*)/i, 1]
   if tpl
