@@ -364,6 +364,100 @@ Opened 2026-10-25.
       for June 25–28 (Wikipedia: 475 PAVN and 24 Marines, presumably
       for the whole operation).
 
+## July drafts
+
+22. **14 drafts, one per uncovered day, plus Nam Dong on July 7 and
+    the Australian training team on August 3 (2026-10-26).** Two
+    Claude Opus 5.5 writers, from the committed `docs/WRITER_BRIEF.md`.
+    Review at `/this-day-in-vietnam-war/review/7` (and `/review/8`).
+    *Decision:* approve, reject, or re-source by date.
+    - **Moved by the source's date.** Nam Dong (Wikipedia: July 5,
+      1964) is filed under July 7: Whitlow, *The Advisory and Combat
+      Assistance Era*, p. 157, has the attack "shortly after midnight on
+      7 July" (the VVAA calendar dates Conway's death 6 July). The
+      Australian Army Training Team's arrival (Wikipedia: July 31, 1962)
+      is filed under August 3, the Australian War Memorial's date.
+    - **Thin:** Jul 5 (73 words), Jul 13 (45), Jul 14 (48, one Pike
+      sentence), Jul 20 (60), Jul 26 (36), Jul 31 (48).
+    - **Wikipedia only:** Jul 5, 10, 13, 20, 26, 31. The Jul 10 body
+      keeps Wikipedia's "Varic Oriental River", which may be garbled.
+    - **Weak source:** Jul 17 (Schlesinger's Cambodia testimony) rests
+      on The History Place timeline.
+    - **Sources disagreed with Wikipedia** (bodies follow the source):
+      Jul 7, 55 South Vietnamese killed (Wikipedia: 57); Jul 9, the
+      convoy was sent out as bait; Jul 14, a prison in Quang Nam
+      province (Wikipedia: Hội An); Jul 16, the 7th Marines (Wikipedia:
+      1st Marine Division); Jul 17, the Senate Armed Services Committee
+      (Wikipedia: Congress); Jul 21, 209 "enemy" by body count, not VC;
+      Jul 25, the Guam remarks never say "Nixon Doctrine"; Jul 29,
+      Futrell describes two MIG-21s downed, not the other events in the
+      entry.
+    - **Dead source:** the dcbsoftware MACV 1966 chronology archive is
+      now a spam page; every candidate citing it is unusable.
+
+## August drafts
+
+23. **16 drafts, one per uncovered day, plus August 3 from July
+    (2026-10-26).** Two Claude Opus 5.5 writers. Review at
+    `/this-day-in-vietnam-war/review/8`.
+    *Decision:* approve, reject, or re-source by date.
+    - **Thin:** Aug 8 (40 words), Aug 13 (44, one Pike sentence),
+      Aug 14 (49), Aug 22 (76).
+    - **Wikipedia only:** Aug 5, 8, 14, 16, 22, 23, 31. Aug 16 repairs
+      Wikipedia's garbled "Twelve demonstrators issued subpoenas" as
+      "had been issued subpoenas"; check the reading.
+    - **Weak or uncertain sources:**
+      - Aug 10 (first herbicide test, 1961) rests on a History Channel
+        Australia classroom page. It also puts Dak To "in the Mekong
+        Delta region", which the body leaves out.
+      - Aug 15: FRUS does not date Sau Ha's arrest. Loan reported it
+        on 18 August, so the August 15 date rests on Wikipedia.
+      - Aug 1: Shulimson contradicts himself. His chronology has the
+        Korean Marine advance echelon at Chu Lai on 1 August; his
+        narrative has the "first echelons" arriving on 18 August.
+    - **Sources disagreed with Wikipedia** (bodies follow the source):
+      - Aug 17: the "enemy" sank the SS Green Bay with a "Viet Cong
+        mine" (Wikipedia: VC sappers).
+      - Aug 27: "terrorists" and a Revolutionary Development team
+        (Wikipedia: VC, CORDS team), and "Ten die" with no mention of
+        civilians.
+      - Aug 29: the "more than 30" VC killed was the village chief's
+        unconfirmed report, not later intelligence.
+      - Aug 30: Fox's caption ("Two of the five 420,000 gallon fuel
+        tanks destroyed") is quoted rather than turned into a count.
+
+## September drafts
+
+24. **18 drafts, one per uncovered day (2026-10-26).** Three Claude
+    Opus 5.5 writers. Review at `/this-day-in-vietnam-war/review/9`.
+    *Decision:* approve, reject, or re-source by date.
+    - **Thin:** Sep 8 (43 words), Sep 19 (36), Sep 24 (23, one Pike
+      sentence), Sep 27 (64).
+    - **Wikipedia only:**
+      - Sep 8: the FRUS document Wikipedia cites is an October telegram
+        that does not mention the triumvirate.
+      - Sep 19, 27, 28.
+    - **Sep 23** (Kissinger takes office as Secretary of State): the
+      State Department biography says nothing about Vietnam. Keep it?
+      The biography also contradicts itself: "from September 23, 1973"
+      in the text, "Entry on Duty: September 22" in its table.
+    - **Sep 3** is transcribed from the scanned Camp Radcliff
+      after-action report; checked against the scan. The report names
+      no attacker (Wikipedia: VC).
+    - **Sources disagreed with Wikipedia** (bodies follow the source):
+      - Sep 9: Futrell calls DeBellevue "the Air Force's second ace of
+        the war" and its leading MiG killer, not "the last" ace.
+      - Sep 11: Wheeler's paper went to Clifford, not to Johnson.
+      - Sep 13: Wikipedia's totals cover THAYER I, IRVING and THAYER
+        II together.
+      - Sep 16: "Over 100 enemy were killed" (Wikipedia: over 600 PAVN,
+        70 ARVN).
+      - Sep 22: the 26th Regiment of the B3 Front (Wikipedia: 320th
+        Division), and the three tanks were destroyed two days later.
+      - Sep 25: the Katum casualty line may cover August 18 to
+        September 25, not the 25th alone.
+      - Sep 29: the embassy was "dedicated" (Wikipedia: opened).
+
 ## Texas Tech letters and documents
 
 14. **Letters from the Virtual Vietnam Archive (2026-10-26).** Letters

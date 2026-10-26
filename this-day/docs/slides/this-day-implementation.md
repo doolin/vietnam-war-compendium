@@ -454,4 +454,5 @@ review items.
 | 10 | 6e892d6 | Combined drafts split into one entry per event |
 | 11 | f84a9ca | January and February: every day has a draft |
 | 12 | d57718a | March and April drafts; Pike re-sourcing; arrow-key navigation |
-| 13 | (this commit) | May and June: every day has a draft |
+| 13 | cac5e12 | May and June: every day has a draft |
+| 14 | (this commit) | July to September; 365 of 366 days have an entry (Dec 20 open) |

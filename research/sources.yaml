@@ -118,6 +118,13 @@ hosts:
     status: unreliable
     observed: 2026-10-26
     note: The FOIA reading room was down for maintenance.
+  - host: www.dcbsoftware.com
+    status: dead
+    observed: 2026-10-26
+    note: >-
+      The ccSEA MACV chronology pages (/ccSEA/Chronology/MACV_1966.html)
+      now serve an unrelated spam page in Chinese with a 200. Archived as
+      "ok" but carry no source text; Wikipedia's 1966 entries cite it.
   - host: www.realtime1960s.com
     status: fetchable
     observed: 2026-10-26

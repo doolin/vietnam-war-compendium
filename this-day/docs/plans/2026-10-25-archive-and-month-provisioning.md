@@ -59,6 +59,7 @@ site shows progress.
 - [x] 6i. Texas Tech report PDFs cited and archived at the catalog host; Pike's chronology resolved to part c; Oct 20 and Nov 30 re-sourced (review queue item 15).
 - [x] 6j. March (5 drafts) and April (13 drafts): every day now has an event (review queue items 18, 19). Arrow-key navigation on day and review pages.
 - [x] 6k. May (11 drafts, plus April 30) and June (11 drafts): every day now has an event (review queue items 20, 21).
+- [x] 6l. July (14 drafts, plus Nam Dong on July 7), August (16, plus August 3), September (18): 365 of 366 calendar days now have an entry; only December 20 is empty (its draft moved to December 19). 539 events, 187 of them drafts (review queue items 22–24). Writers now follow the committed `docs/WRITER_BRIEF.md`; an event whose source gives another date is filed under that date.
 - [~] 7. Deck growing in `docs/slides/`.
 - [~] 8. Lessons growing in `docs/LESSONS.md`.
 
