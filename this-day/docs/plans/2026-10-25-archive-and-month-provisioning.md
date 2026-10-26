@@ -49,6 +49,7 @@ site shows progress.
 - Open questions for the operator: `docs/REVIEW_QUEUE.md`.
 - [x] 5. October: 23 drafts, every day now has an event.
 - [x] 6. November: 15 drafts, every day now has an event.
+- [x] 6b. Dead references: Wayback fallback in the archiver; 9 of 14 failing URLs rescued. Open Library (61 book references) and one Texas Tech PDF remain.
 - [~] 7. Deck growing in `docs/slides/`.
 - [~] 8. Lessons growing in `docs/LESSONS.md`.
 

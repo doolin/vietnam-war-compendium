@@ -22,31 +22,66 @@
   cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/cdeb94c0399cd046.html"
   s3_key: this-day/references/cdeb94c0399cd046/964de824145fec8a32e01677a0d66ceb2c524565b9fdfcf7ca3eea9b6006f84f.html
 - url: http://www.afhso.af.mil/shared/media/document/AFD-100525-052.pdf
-  final_url: http://www.afhso.af.mil/shared/media/document/AFD-100525-052.pdf
-  status: error
-  code: 0
-  fetched_at: '2026-10-25T23:28:22Z'
-  note: 'Socket::ResolutionError: Failed to open TCP connection to www.afhso.af.mil:80
-    (getaddrinfo(3): nodename nor servname provided, or not known)'
+  final_url: https://web.archive.org/web/20161123144448id_/http://www.afhso.af.mil/shared/media/document/AFD-100525-052.pdf
+  status: ok
+  code: 200
+  fetched_at: '2026-10-26T01:14:12Z'
+  content_type: application/pdf
+  sha256: 7b8f0b44af755a584e6b98e343810a2885cad9c9f07f15f6bab6abc26d4995b3
+  bytes: 23917702
+  title:
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/a2bf436f7c85a50b.pdf"
+  s3_key: this-day/references/a2bf436f7c85a50b/7b8f0b44af755a584e6b98e343810a2885cad9c9f07f15f6bab6abc26d4995b3.pdf
+  via: wayback
+  snapshot_url: https://web.archive.org/web/20161123144448/http://www.afhso.af.mil/shared/media/document/AFD-100525-052.pdf
+  captured_at: '2016-11-23T14:44:48Z'
+  live_status: error
 - url: http://www.let.rug.nl/usa/presidents/richard-milhous-nixon/vietnamization-speech-1969.php
-  final_url: https://www.let.rug.nl/usa/presidents/richard-milhous-nixon/vietnamization-speech-1969.php
-  status: http-404
-  code: 404
+  final_url: https://web.archive.org/web/20260413110540id_/https://www.let.rug.nl/usa/presidents/richard-milhous-nixon/vietnamization-speech-1969.php
+  status: ok
+  code: 200
   content_type: text/html
-  fetched_at: '2026-10-25T23:28:15Z'
+  fetched_at: '2026-10-26T01:14:01Z'
+  sha256: 132925145176f5ec554e827c29417a0fe883ff15c641b461e76119ac469ac355
+  bytes: 31349
+  title: Vietnamization Speech 1969 &lt; Richard Milhous Nixon &lt; Presidents &lt;
+    American History From Revolution To Reconstruction and beyond
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/1183396e819fb0f0.html"
+  s3_key: this-day/references/1183396e819fb0f0/132925145176f5ec554e827c29417a0fe883ff15c641b461e76119ac469ac355.html
+  via: wayback
+  snapshot_url: https://web.archive.org/web/20260413110540/https://www.let.rug.nl/usa/presidents/richard-milhous-nixon/vietnamization-speech-1969.php
+  captured_at: '2026-04-13T11:05:40Z'
+  live_status: http-404
 - url: http://www.nixonlibrary.gov/exhibits/decbomb/chapter-ii.html
-  final_url: https://www.nixonlibrary.gov/exhibits/decbomb/chapter-ii.html
-  status: http-404
-  code: 404
+  final_url: https://web.archive.org/web/20170207115939id_/https://www.nixonlibrary.gov/exhibits/decbomb/chapter-ii.html
+  status: ok
+  code: 200
   content_type: text/html
-  fetched_at: '2026-10-25T23:40:43Z'
+  fetched_at: '2026-10-26T01:22:46Z'
+  sha256: 1ebb394085f699c04c518021a857f2e96e187dd0740c176adf6d8ec278aca8c9
+  bytes: 18970
+  title: 'Chapter II - Memoirs V. Tapes: President Nixon &#38; the December Bombings'
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/d5c9d8be7e067deb.html"
+  s3_key: this-day/references/d5c9d8be7e067deb/1ebb394085f699c04c518021a857f2e96e187dd0740c176adf6d8ec278aca8c9.html
+  via: wayback
+  snapshot_url: https://web.archive.org/web/20170207115939/https://www.nixonlibrary.gov/exhibits/decbomb/chapter-ii.html
+  captured_at: '2017-02-07T11:59:39Z'
+  live_status: http-404
 - url: http://www.usno.navy.mil/NOOC/nmfc-ph/RSS/jtwc/atcr/1971atcr.pdf
-  final_url: http://www.usno.navy.mil/NOOC/nmfc-ph/RSS/jtwc/atcr/1971atcr.pdf
-  status: error
-  code: 0
-  fetched_at: '2026-10-25T23:40:31Z'
-  note: 'Net::OpenTimeout: Failed to open TCP connection to www.usno.navy.mil:80 (user
-    specified timeout for www.usno.navy.mil port 80)'
+  final_url: https://web.archive.org/web/20201020154344id_/https://www.usno.navy.mil/NOOC/nmfc-ph/RSS/jtwc/atcr/1971atcr.pdf
+  status: ok
+  code: 200
+  fetched_at: '2026-10-26T01:21:58Z'
+  content_type: application/pdf
+  sha256: 05f697713f339d8dcc450164563f026fec3dab39fd99bafb6ebb4ebfef7ac893
+  bytes: 18473102
+  title:
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/6d06c4f8529929ff.pdf"
+  s3_key: this-day/references/6d06c4f8529929ff/05f697713f339d8dcc450164563f026fec3dab39fd99bafb6ebb4ebfef7ac893.pdf
+  via: wayback
+  snapshot_url: https://web.archive.org/web/20201020154344/https://www.usno.navy.mil/NOOC/nmfc-ph/RSS/jtwc/atcr/1971atcr.pdf
+  captured_at: '2020-10-20T15:43:44Z'
+  live_status: error
 - url: https://arsof-history.org/arsof_timeline/index.html
   final_url: https://arsof-history.org/arsof_timeline/index.html
   status: ok
@@ -59,11 +94,20 @@
   cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/398fae52712e507c.html"
   s3_key: this-day/references/398fae52712e507c/78cd1b731e13cb16c2596b304f00bdf2d9406bc141f4b1b1220ca689ce1537a8.html
 - url: https://aviation-safety.net/wikibase/76002
-  final_url: https://aviation-safety.net/wikibase/76002
-  status: http-403
-  code: 403
+  final_url: https://web.archive.org/web/20260302054258id_/https://aviation-safety.net/wikibase/76002
+  status: ok
+  code: 200
   content_type: text/html
-  fetched_at: '2026-10-25T23:36:36Z'
+  fetched_at: '2026-10-26T01:16:49Z'
+  sha256: 30a7775b89a651ce2698f2e9a462e8ba652759443589e54245fe627416f65c95
+  bytes: 12092
+  title: Accident Boeing CH-47C Chinook 68-15866, Sunday 28 November 1971
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/31db53269c71ae43.html"
+  s3_key: this-day/references/31db53269c71ae43/30a7775b89a651ce2698f2e9a462e8ba652759443589e54245fe627416f65c95.html
+  via: wayback
+  snapshot_url: https://web.archive.org/web/20260302054258/https://aviation-safety.net/wikibase/76002
+  captured_at: '2026-03-02T05:42:58Z'
+  live_status: http-403
 - url: https://catalog.archives.gov/id/2240992
   final_url: https://catalog.archives.gov/id/2240992
   status: ok
@@ -214,17 +258,36 @@
   content_type: text/html
   fetched_at: '2026-10-25T14:36:10Z'
 - url: https://history.army.mil/html/books/091/91-5/index.html
-  final_url: https://history.army.mil/html/books/091/91-5/
-  status: http-404
-  code: 404
+  final_url: https://web.archive.org/web/20241218091602id_/https://www.history.army.mil/html/books/091/91-5/index.html
+  status: ok
+  code: 200
   content_type: text/html
-  fetched_at: '2026-10-25T23:36:27Z'
+  fetched_at: '2026-10-26T01:16:41Z'
+  sha256: e8c4e0df4aebd3a6780bb04347e6f274a508a8fc16252b9a6e2b64dabd70e293
+  bytes: 3230
+  title: Stemming the Tide, May 1965 to October 1966 - U.S. Army Center of Military
+    History
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/d1bc3029cfb6dbc1.html"
+  s3_key: this-day/references/d1bc3029cfb6dbc1/e8c4e0df4aebd3a6780bb04347e6f274a508a8fc16252b9a6e2b64dabd70e293.html
+  via: wayback
+  snapshot_url: https://web.archive.org/web/20241218091602/https://www.history.army.mil/html/books/091/91-5/index.html
+  captured_at: '2024-12-18T09:16:02Z'
+  live_status: http-404
 - url: https://history.army.mil/html/books/091/91-6/CMH_Pub_91-6.pdf
-  final_url: https://history.army.mil/html/books/091/91-6/CMH_Pub_91-6.pdf
-  status: http-404
-  code: 404
-  content_type: text/html
-  fetched_at: '2026-10-25T23:40:11Z'
+  final_url: https://web.archive.org/web/20250104105602id_/https://www.history.army.mil/html/books/091/91-6/CMH_Pub_91-6.pdf
+  status: ok
+  code: 200
+  content_type: application/pdf
+  fetched_at: '2026-10-26T01:17:23Z'
+  sha256: be197b867ef545165bce85fdfcc4ae26a083d51bb222d7514966aaa5c27a99ff
+  bytes: 15707286
+  title:
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/dd569dd9a7130deb.pdf"
+  s3_key: this-day/references/dd569dd9a7130deb/be197b867ef545165bce85fdfcc4ae26a083d51bb222d7514966aaa5c27a99ff.pdf
+  via: wayback
+  snapshot_url: https://web.archive.org/web/20250104105602/https://www.history.army.mil/html/books/091/91-6/CMH_Pub_91-6.pdf
+  captured_at: '2025-01-04T10:56:02Z'
+  live_status: http-404
 - url: https://history.state.gov/historicaldocuments/frus1961-63v01
   final_url: https://history.state.gov/historicaldocuments/frus1961-63v01
   status: ok
@@ -380,11 +443,20 @@
   cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/53e0e6018e5f7cf2.html"
   s3_key: this-day/references/53e0e6018e5f7cf2/bac2cf410ecc6d5becafb15acfc6dfe5efc3777d8e6a9c21f28dc019a6c45a39.html
 - url: https://media.defense.gov/2010/Sep/21/2001329821/-1/-1/0/AFD-100921-010.pdf
-  final_url: https://media.defense.gov/2010/Sep/21/2001329821/-1/-1/0/AFD-100921-010.pdf
-  status: http-404
-  code: 404
-  content_type: text/html
-  fetched_at: '2026-10-25T23:40:16Z'
+  final_url: https://web.archive.org/web/20250206034334id_/https://media.defense.gov/2010/Sep/21/2001329821/-1/-1/0/AFD-100921-010.pdf
+  status: ok
+  code: 200
+  content_type: application/pdf
+  fetched_at: '2026-10-26T01:18:53Z'
+  sha256: e9bf058248a90e59fb677db07d7a5f0f494b58182c7d9f1d5d17d3fd099b499f
+  bytes: 36965401
+  title:
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/14a43eecdd32a29e.pdf"
+  s3_key: this-day/references/14a43eecdd32a29e/e9bf058248a90e59fb677db07d7a5f0f494b58182c7d9f1d5d17d3fd099b499f.pdf
+  via: wayback
+  snapshot_url: https://web.archive.org/web/20250206034334/https://media.defense.gov/2010/Sep/21/2001329821/-1/-1/0/AFD-100921-010.pdf
+  captured_at: '2025-02-06T03:43:34Z'
+  live_status: http-404
 - url: https://media.defense.gov/2010/Sep/28/2001329801/-1/-1/0/AFD-100928-054.pdf
   final_url: https://media.defense.gov/2010/Sep/28/2001329801/-1/-1/0/AFD-100928-054.pdf
   status: http-404
@@ -425,36 +497,28 @@
   cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/3d7c3576a1f48b14.pdf"
   s3_key: this-day/references/3d7c3576a1f48b14/d2e04260e1856f6e83bdab05ae3cfd3ac6a03d8878a43ec2e0b1f8f2f43a68dc.pdf
 - url: https://openlibrary.org/isbn/0060929081
-  final_url: https://openlibrary.org/verify_human?next=/books/OL9239612M
-  status: bot-wall
-  code: 200
+  final_url: https://openlibrary.org/isbn/0060929081
+  status: error
+  code: 0
   content_type: text/html
-  fetched_at: '2026-10-25T23:27:00Z'
-  sha256: 63ee18847a1ebcba7b2631b7ce492a3aa93b3e6629be7e60017b177799d87768
-  bytes: 43285
-  title: Human Verification | Open Library
-  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/f63a0aa4aac17312.html"
-  s3_key: this-day/references/f63a0aa4aac17312/63ee18847a1ebcba7b2631b7ce492a3aa93b3e6629be7e60017b177799d87768.html
+  fetched_at: '2026-10-26T01:13:54Z'
   note: 'Errno::ECONNREFUSED: Failed to open TCP connection to openlibrary.org:443
     (Connection refused - connect(2) for "openlibrary.org" port 443)'
 - url: https://openlibrary.org/works/OL27817833W
   final_url: https://openlibrary.org/works/OL27817833W
   status: error
   code: 0
-  fetched_at: '2026-10-25T23:42:11Z'
+  fetched_at: '2026-10-26T01:23:00Z'
   note: 'Errno::ECONNREFUSED: Failed to open TCP connection to openlibrary.org:443
     (Connection refused - connect(2) for "openlibrary.org" port 443)'
 - url: https://openlibrary.org/works/OL27982066W
-  final_url: https://openlibrary.org/verify_human?next=/works/OL27982066W
-  status: bot-wall
-  code: 200
+  final_url: https://openlibrary.org/works/OL27982066W
+  status: error
+  code: 0
   content_type: text/html
-  fetched_at: '2026-10-25T23:41:10Z'
-  sha256: 43399813e0da53f07bd1a7429637a95caace689a68cc3a15ebc0c988dcf9e882
-  bytes: 43287
-  title: Human Verification | Open Library
-  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/ad8170fc493bbc6a.html"
-  s3_key: this-day/references/ad8170fc493bbc6a/43399813e0da53f07bd1a7429637a95caace689a68cc3a15ebc0c988dcf9e882.html
+  fetched_at: '2026-10-26T01:22:47Z'
+  note: 'Errno::ECONNREFUSED: Failed to open TCP connection to openlibrary.org:443
+    (Connection refused - connect(2) for "openlibrary.org" port 443)'
 - url: https://openlibrary.org/works/OL40265521W
   final_url: https://openlibrary.org/works/OL40265521W
   status: error
@@ -466,7 +530,7 @@
   final_url: https://openlibrary.org/works/OL6443002W
   status: error
   code: 0
-  fetched_at: '2026-10-25T23:42:09Z'
+  fetched_at: '2026-10-26T01:22:57Z'
   note: 'Errno::ECONNREFUSED: Failed to open TCP connection to openlibrary.org:443
     (Connection refused - connect(2) for "openlibrary.org" port 443)'
 - url: https://sogsite.com/2021/04/29/st-idaho-still-missing-53-years-later/
@@ -497,22 +561,14 @@
   code: 200
   content_type: text/html
   fetched_at: '2026-10-25T14:36:16Z'
-  sha256: 9b3e0d92861469f6cb6cf9a8089757f63f984e7d0757dd89dcb524ec8f7e355d
-  bytes: 3781
   title: Amazon.com
-  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/824c80864424e894.html"
-  s3_key: this-day/references/824c80864424e894/9b3e0d92861469f6cb6cf9a8089757f63f984e7d0757dd89dcb524ec8f7e355d.html
 - url: https://www.amazon.com/dp/0073513253
   final_url: https://www.amazon.com/dp/0073513253
   status: bot-wall
   code: 200
   content_type: text/html
   fetched_at: '2026-10-25T14:36:19Z'
-  sha256: de4020d3d6c7955e88d76c8395ef8c8ee57fe8924138e3fdacfa931700f7b623
-  bytes: 3781
   title: Amazon.com
-  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/1c6e0bca8a06012d.html"
-  s3_key: this-day/references/1c6e0bca8a06012d/de4020d3d6c7955e88d76c8395ef8c8ee57fe8924138e3fdacfa931700f7b623.html
 - url: https://www.amazon.com/dp/0143035258
   final_url: https://www.amazon.com/dp/0143035258
   status: ok
@@ -531,77 +587,49 @@
   code: 200
   content_type: text/html
   fetched_at: '2026-10-25T14:36:31Z'
-  sha256: d819d35fb324a008389ac933a6ad9c633501af41bd9c091a04698ef5195e308a
-  bytes: 3781
   title: Amazon.com
-  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/aab303e613c106f8.html"
-  s3_key: this-day/references/aab303e613c106f8/d819d35fb324a008389ac933a6ad9c633501af41bd9c091a04698ef5195e308a.html
 - url: https://www.amazon.com/dp/0312070004
   final_url: https://www.amazon.com/dp/0312070004
   status: bot-wall
   code: 200
   content_type: text/html
   fetched_at: '2026-10-25T14:36:37Z'
-  sha256: b866439c84d63266a43e4671d6da4857b9c2a8797c317b784fb0d9ae6b9f28a1
-  bytes: 3781
   title: Amazon.com
-  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/8e4e093f7030c8b0.html"
-  s3_key: this-day/references/8e4e093f7030c8b0/b866439c84d63266a43e4671d6da4857b9c2a8797c317b784fb0d9ae6b9f28a1.html
 - url: https://www.amazon.com/dp/0345472640
   final_url: https://www.amazon.com/dp/0345472640
   status: bot-wall
   code: 200
   content_type: text/html
   fetched_at: '2026-10-25T14:36:34Z'
-  sha256: c0fc8726dcdfe0c88a60436ab1519f0e6e87cf06788fb1754dc57b0ed2079872
-  bytes: 3781
   title: Amazon.com
-  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/65ff97a3a9404893.html"
-  s3_key: this-day/references/65ff97a3a9404893/c0fc8726dcdfe0c88a60436ab1519f0e6e87cf06788fb1754dc57b0ed2079872.html
 - url: https://www.amazon.com/dp/0393307867
   final_url: https://www.amazon.com/dp/0393307867
   status: bot-wall
   code: 200
   content_type: text/html
   fetched_at: '2026-10-25T14:36:28Z'
-  sha256: 852345955f9df216361e11bf9da09533f67d7dfd527bd5c4491d392028e44fd4
-  bytes: 3781
   title: Amazon.com
-  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/669f77a74b17c023.html"
-  s3_key: this-day/references/669f77a74b17c023/852345955f9df216361e11bf9da09533f67d7dfd527bd5c4491d392028e44fd4.html
 - url: https://www.amazon.com/dp/0440215005
   final_url: https://www.amazon.com/dp/0440215005
   status: bot-wall
   code: 200
   content_type: text/html
   fetched_at: '2026-10-25T14:36:03Z'
-  sha256: 91422299a621ba2c2bf1705841f24f88e0e7ef7ded57868aa6efa8f28fa02db4
-  bytes: 3781
   title: Amazon.com
-  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/db5be35f528a370d.html"
-  s3_key: this-day/references/db5be35f528a370d/91422299a621ba2c2bf1705841f24f88e0e7ef7ded57868aa6efa8f28fa02db4.html
 - url: https://www.amazon.com/dp/0547844921
   final_url: https://www.amazon.com/dp/0547844921
   status: bot-wall
   code: 200
   content_type: text/html
   fetched_at: '2026-10-25T14:36:25Z'
-  sha256: bddd450f847f3d49ceac3871e87dd0cf16bde6b1bc48422c4c83928e4eebf70e
-  bytes: 3781
   title: Amazon.com
-  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/9950ccbe9db24080.html"
-  s3_key: this-day/references/9950ccbe9db24080/bddd450f847f3d49ceac3871e87dd0cf16bde6b1bc48422c4c83928e4eebf70e.html
 - url: https://www.amazon.com/dp/0618219285
   final_url: https://www.amazon.com/dp/0618219285
   status: bot-wall
   code: 200
   content_type: text/html
   fetched_at: '2026-10-25T14:36:22Z'
-  sha256: 56c34e08346d06be129acc690f717429a662a81202103565fe1c2ec60ae2b25b
-  bytes: 3781
   title: Amazon.com
-  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/a918371c8c9ad967.html"
-  s3_key: this-day/references/a918371c8c9ad967/56c34e08346d06be129acc690f717429a662a81202103565fe1c2ec60ae2b25b.html
 - url: https://www.amazon.com/dp/0700612459
   final_url: https://www.amazon.com/dp/0700612459
   status: ok
@@ -633,22 +661,14 @@
   code: 200
   content_type: text/html
   fetched_at: '2026-10-25T14:36:40Z'
-  sha256: 73885d5765a0524f78fb229b9226eb1ad026a71811e5f0834d43c1da27e07b78
-  bytes: 3781
   title: Amazon.com
-  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/c92fd8475b02ce5a.html"
-  s3_key: this-day/references/c92fd8475b02ce5a/73885d5765a0524f78fb229b9226eb1ad026a71811e5f0834d43c1da27e07b78.html
 - url: https://www.amazon.com/dp/1935149075
   final_url: https://www.amazon.com/dp/1935149075
   status: bot-wall
   code: 200
   content_type: text/html
   fetched_at: '2026-10-25T14:36:06Z'
-  sha256: e9fd33c3b448049b856ef421e1d5f26d354940f82c5245b76001d79b55a95965
-  bytes: 3781
   title: Amazon.com
-  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/af4af1cbc380d663.html"
-  s3_key: this-day/references/af4af1cbc380d663/e9fd33c3b448049b856ef421e1d5f26d354940f82c5245b76001d79b55a95965.html
 - url: https://www.archives.gov/research/military/vietnam-war/fall-of-saigon
   final_url: https://www.archives.gov/research/military/vietnam-war/fall-of-saigon
   status: http-404
@@ -830,18 +850,27 @@
   content_type: text/html
   fetched_at: '2026-10-25T14:36:13Z'
 - url: https://www.vietnam.ttu.edu/exhibits/helicopter/aircav.php
-  final_url: https://www.vietnam.ttu.edu/exhibits/helicopter/aircav.php
-  status: error
-  code: 0
-  fetched_at: '2026-10-25T23:41:56Z'
-  note: 'Net::OpenTimeout: Net::OpenTimeout'
+  final_url: https://web.archive.org/web/20250616101854id_/https://vietnam.ttu.edu/exhibits/helicopter/aircav.php
+  status: ok
+  code: 200
+  fetched_at: '2026-10-26T01:22:56Z'
+  content_type: text/html
+  sha256: c6a0b793f61d860c2749f0b8d34df8ffd58213325be7feb5f67ffd3bbc3120b9
+  bytes: 68259
+  title: 'The Vietnam Center and Sam Johnson Vietnam Archive: Exhibits - Vietnam:
+    The Helicopter War'
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/530642508172f829.html"
+  s3_key: this-day/references/530642508172f829/c6a0b793f61d860c2749f0b8d34df8ffd58213325be7feb5f67ffd3bbc3120b9.html
+  via: wayback
+  snapshot_url: https://web.archive.org/web/20250616101854/https://vietnam.ttu.edu/exhibits/helicopter/aircav.php
+  captured_at: '2025-06-16T10:18:54Z'
+  live_status: error
 - url: https://www.vietnam.ttu.edu/reports/images.php?img=/images/231/2311404008a.pdf
   final_url: https://www.vietnam.ttu.edu/reports/images.php?img=/images/231/2311404008a.pdf
   status: error
   code: 0
-  fetched_at: '2026-10-25T23:36:45Z'
-  note: 'OpenSSL::SSL::SSLError: SSL_connect returned=1 errno=0 peeraddr=141.193.178.92:443
-    state=error: certificate verify failed (unable to get local issuer certificate)'
+  fetched_at: '2026-10-26T01:17:04Z'
+  note: 'Net::OpenTimeout: Net::OpenTimeout'
 - url: https://yalebooks.yale.edu/book/9780300026306/big-story/
   final_url: https://yalebooks.yale.edu/book/9780300026306/big-story/
   status: ok

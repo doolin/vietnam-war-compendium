@@ -107,9 +107,10 @@ def build_database
         Array(evt["references"]).each_with_index do |ref, i|
           archived = ARCHIVE_INDEX[ref["url"]] || {}
           db.execute(
-            'INSERT INTO "references" (event_id, position, label, url, archive_status, archived_at) ' \
-            "VALUES (?, ?, ?, ?, ?, ?)",
-            [event_id, i + 1, ref["label"], ref["url"], archived["status"], archived["fetched_at"]]
+            'INSERT INTO "references" (event_id, position, label, url, archive_status, archived_at, snapshot_url) ' \
+            "VALUES (?, ?, ?, ?, ?, ?, ?)",
+            [event_id, i + 1, ref["label"], ref["url"], archived["status"], archived["fetched_at"],
+             archived["snapshot_url"]]
           )
         end
       end

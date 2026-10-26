@@ -108,3 +108,34 @@ normalizes new commits but does not rewrite history, so the first
 edit through the file tools turned a one-line change into a
 whole-file diff. Normalize once, in the same commit as the edit,
 and say so in the message.
+
+## 2026-10-26 — A dead link is usually still in the Wayback Machine
+
+Fourteen cited URLs would not archive: ten dead government and
+university pages (404s, retired hosts such as afhso.af.mil and
+usno.navy.mil, a 403) and four Open Library pages behind a bot wall.
+The Wayback Machine had a 200 capture of nine of the ten, including
+four full PDFs (two Futrell Air Force histories, Cosmas's MACV
+volume, the 1971 typhoon report) totalling about 95 MB. The archiver now falls back to the latest such capture, keeps
+the cited URL as the key, and records `via: wayback`, the snapshot
+URL, the capture date, and the live failure. The page links the
+Wayback copy beside the dead link.
+
+Use the CDX API, not the availability API. The availability API
+answered 429 on the first request of the session and returns the
+closest capture whatever its status, which for a dead page is often
+a capture of the 404. CDX takes `filter=statuscode:200`. The `id_`
+flag in the snapshot URL returns the original bytes without the
+Wayback toolbar, so the hash is the document's.
+
+Open Library has no 200 captures of the pages cited: it is a
+dynamic site that the Wayback Machine mostly records as redirects.
+
+## 2026-10-26 — Merging index entries kept stale fields
+
+`Index#upsert` merged each new fetch into the old entry. A fetch
+that succeeded through Wayback kept the old `Net::OpenTimeout`
+note, and fifteen bot-wall entries kept the hash and S3 key of the
+robot page stored before bot-wall detection existed. Each entry is
+one complete fetch, so it now replaces the old one. A record of what
+was consulted is only as good as its least-recent field.

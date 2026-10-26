@@ -112,7 +112,8 @@ namespace :refs do
     [index, audit]
   end
 
-  desc "Fetch, cache, upload, and index every unarchived reference URL (URL=... for one; NO_S3=1 to skip upload)"
+  desc "Fetch, cache, upload, and index every unarchived reference URL, falling back to the latest " \
+       "Wayback Machine capture (URL=... for one; NO_S3=1 to skip upload; NO_WAYBACK=1 for live only)"
   task :archive do
     index, audit = archive_components
     s3 = if ENV["NO_S3"]
@@ -121,13 +122,17 @@ namespace :refs do
            require "aws-sdk-s3"
            Aws::S3::Client.new(region: BACKUP_REGION)
          end
-    archiver = ThisDay::Archive::Archiver.new(index: index, bucket: BACKUP_BUCKET,
-                                              prefix: ARCHIVE_PREFIX, s3_client: s3)
+    # One fetcher for both, so the per-host delay covers web.archive.org too.
+    fetcher = ThisDay::Archive::Fetcher.new
+    wayback = ENV["NO_WAYBACK"] ? nil : ThisDay::Archive::Wayback.new(fetcher: fetcher)
+    archiver = ThisDay::Archive::Archiver.new(index: index, fetcher: fetcher, wayback: wayback,
+                                              bucket: BACKUP_BUCKET, prefix: ARCHIVE_PREFIX, s3_client: s3)
     urls = ENV["URL"] ? [ENV["URL"]] : audit.unarchived_urls
     puts "Archiving #{urls.size} URL(s)"
     urls.each_with_index do |url, i|
       entry = archiver.archive(url)
-      puts format("%3d/%d %-9s %s", i + 1, urls.size, entry["status"], url)
+      via = entry["via"] ? " (#{entry['via']}, live #{entry['live_status']})" : ""
+      puts format("%3d/%d %-9s %s%s", i + 1, urls.size, entry["status"], url, via)
       index.save
     end
     puts "Index: #{index.size} entries at #{index.path}"

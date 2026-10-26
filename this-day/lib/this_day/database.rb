@@ -19,7 +19,9 @@ module ThisDay
       end
     end
 
-    Reference = Struct.new(:label, :url, :archive_status, :archived_at, keyword_init: true) do
+    # snapshot_url is set when the archived copy came from the Wayback
+    # Machine because the cited URL no longer serves the document.
+    Reference = Struct.new(:label, :url, :archive_status, :archived_at, :snapshot_url, keyword_init: true) do
       def archived? = archive_status == "ok"
 
       # "2026-10-25T18:02:11Z" -> "2026-10-25"
@@ -63,7 +65,8 @@ module ThisDay
 
     def build_event(row)
       refs = @db.execute(
-        'SELECT label, url, archive_status, archived_at FROM "references" WHERE event_id = ? ORDER BY position',
+        'SELECT label, url, archive_status, archived_at, snapshot_url FROM "references" ' \
+        "WHERE event_id = ? ORDER BY position",
         [row["id"]]
       )
 
@@ -83,7 +86,8 @@ module ThisDay
         summarized_at: row["summarized_at"],
         references: refs.map do |r|
           Reference.new(label: r["label"], url: r["url"],
-                        archive_status: r["archive_status"], archived_at: r["archived_at"])
+                        archive_status: r["archive_status"], archived_at: r["archived_at"],
+                        snapshot_url: r["snapshot_url"])
         end
       )
     end

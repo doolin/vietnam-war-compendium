@@ -103,6 +103,66 @@ RSpec.describe ThisDay::Archive::Archiver do
     expect(entry["s3_key"]).to be_nil
   end
 
+  describe "Wayback fallback" do
+    let(:dead) { "http://old.test/report.pdf" }
+    let(:capture) { ThisDay::Archive::Wayback::Capture.new(timestamp: "20161123144448", original: dead) }
+    let(:wayback) { instance_double(ThisDay::Archive::Wayback, latest_capture: capture) }
+
+    # 404 for the live URL, the PDF for the Wayback raw URL.
+    let(:fetcher) do
+      instance_double(ThisDay::Archive::Fetcher).tap do |f|
+        allow(f).to receive(:fetch) do |url|
+          live = url == dead
+          ThisDay::Archive::Fetcher::Result.new(url: url, final_url: url, code: live ? 404 : 200,
+                                                body: live ? "gone" : "%PDF-1.4",
+                                                content_type: live ? "text/html" : "application/pdf", error: nil)
+        end
+      end
+    end
+
+    def wayback_archiver(wb)
+      described_class.new(index: index, fetcher: fetcher, wayback: wb, cache_dir: cache_dir,
+                          bucket: "bucket", s3_client: s3_client, clock: clock)
+    end
+
+    it "archives the latest 200 capture under the original URL when the live fetch fails" do
+      entry = wayback_archiver(wayback).archive(dead)
+
+      expect(entry["status"]).to eq("ok")
+      expect(entry["url"]).to eq(dead)
+      expect(entry["via"]).to eq("wayback")
+      expect(entry["live_status"]).to eq("http-404")
+      expect(entry["snapshot_url"]).to eq("https://web.archive.org/web/20161123144448/#{dead}")
+      expect(entry["captured_at"]).to eq("2016-11-23T14:44:48Z")
+      expect(File.read(entry["cache_path"])).to eq("%PDF-1.4")
+      expect(entry["s3_key"]).to start_with("this-day/references/#{ThisDay::Archive::Index.url_key(dead)}/")
+      expect(index.archived?(dead)).to be(true)
+    end
+
+    it "keeps the live failure when there is no capture" do
+      entry = wayback_archiver(instance_double(ThisDay::Archive::Wayback, latest_capture: nil)).archive(dead)
+
+      expect(entry["status"]).to eq("http-404")
+      expect(entry).not_to have_key("via")
+    end
+
+    it "does not consult Wayback when the live fetch succeeds" do
+      live_ok = fetcher_returning(code: 200, body: html, content_type: "text/html")
+      described_class.new(index: index, fetcher: live_ok, wayback: wayback, cache_dir: cache_dir).archive(dead)
+
+      expect(wayback).not_to have_received(:latest_capture)
+    end
+  end
+
+  it "replaces an earlier entry so no field from the old fetch survives" do
+    url = "https://flaky.test/"
+    archiver(fetcher_returning(code: 0, body: nil, content_type: nil, error: "Net::OpenTimeout")).archive(url)
+    archiver(fetcher_returning(code: 200, body: html, content_type: "text/html")).archive(url)
+
+    expect(index[url]["status"]).to eq("ok")
+    expect(index[url]).not_to have_key("note")
+  end
+
   it "persists the index to disk sorted by url" do
     a = archiver(fetcher_returning(code: 200, body: html, content_type: "text/html"))
     a.archive("https://z.test/")

@@ -326,6 +326,24 @@ Built for a phone screen: one column, no tables wider than the text.
 
 ---
 
+# Dead links: the Wayback fallback
+
+```
+live fetch fails (404, retired host, 403)
+  └─ CDX: latest capture with statuscode 200
+       └─ fetch web.archive.org/web/<ts>id_/<url>   (original bytes)
+            └─ cache + S3 under the cited URL's key
+                 index: via: wayback, snapshot_url, captured_at, live_status
+```
+
+| Cited URLs failing | Rescued from Wayback | Still failing |
+|---|---|---|
+| 14 | 9 (4 full PDFs, ~95 MB) | 4 Open Library, 1 Texas Tech |
+
+The page keeps the cited link and adds a "Wayback copy" link beside it.
+
+---
+
 # Cross-checking sources against each other
 
 The DCAS casualty file (58,220 records, pipe-delimited, 54 fields)

@@ -38,6 +38,9 @@
       <li><a href="<%= ref.url %>" rel="noopener noreferrer"><%= ref.label %></a>
         <% if ref.archived? %>
         <span class="archive-status archived">archived <%= ref.archived_on %></span>
+        <% if ref.snapshot_url %>
+        <a class="snapshot" href="<%= ref.snapshot_url %>" rel="noopener noreferrer">Wayback copy</a>
+        <% end %>
         <% else %>
         <span class="archive-status unverified">unverified<%= ref.archive_status ? " (#{ref.archive_status})" : "" %></span>
         <% end %>

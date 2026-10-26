@@ -128,7 +128,12 @@ RSpec.describe ThisDay::App do
         db, month: month, day: 3, year: 1966, title: "Review draft", body: "<p>Draft body.</p>",
         status: "draft", source_text: "Excerpt from the source.", source_file: "drafts.yaml",
         summarized_by: "Claude Fable 5.1", summarized_at: "2026-10-25T19:00:00Z",
-        references: [{ label: "Dead link", url: "https://example.com/404", archive_status: "http-404" }]
+        references: [
+          { label: "Dead link", url: "https://example.com/404", archive_status: "http-404" },
+          { label: "Moved report", url: "http://old.example.com/report.pdf", archive_status: "ok",
+            archived_at: "2026-10-26T01:00:00Z",
+            snapshot_url: "https://web.archive.org/web/20161123144448/http://old.example.com/report.pdf" }
+        ]
       )
       TestDatabaseHelper.seed_event(
         db, month: month, day: 3, year: 1970, title: "Review rejected", body: "<p>No.</p>", status: "rejected"
@@ -162,6 +167,14 @@ RSpec.describe ThisDay::App do
       get "/this-day-in-vietnam-war/#{month}/3"
       body = last_response.body
       expect(body).to include("Draft body.").and include("draft-notice")
+    end
+
+    it "links the Wayback copy of a reference archived from the Wayback Machine" do
+      snapshot = %(href="https://web.archive.org/web/20161123144448/http://old.example.com/report.pdf")
+      get "/this-day-in-vietnam-war/#{month}/3"
+      expect(last_response.body).to include(snapshot).and include("Wayback copy")
+      get "/this-day-in-vietnam-war/review/#{month}"
+      expect(last_response.body).to include(snapshot)
     end
 
     it "returns 404 for a month outside 1-12" do

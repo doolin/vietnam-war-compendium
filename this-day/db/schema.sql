@@ -22,6 +22,7 @@ CREATE TABLE IF NOT EXISTS "references" (
   url TEXT NOT NULL,
   archive_status TEXT,
   archived_at TEXT,
+  snapshot_url TEXT,
   FOREIGN KEY (event_id) REFERENCES events(id)
 );
 

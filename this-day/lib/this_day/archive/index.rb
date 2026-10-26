@@ -11,8 +11,10 @@ module ThisDay
     # One entry per URL, keyed by the URL string. Stored as a YAML array
     # sorted by URL so diffs stay readable. Fields:
     #
-    #   url, final_url, status (ok | http-<code> | error), code, sha256,
-    #   bytes, content_type, title, fetched_at, cache_path, s3_key, note
+    #   url, final_url, status (ok | bot-wall | http-<code> | error), code,
+    #   sha256, bytes, content_type, title, fetched_at, cache_path, s3_key,
+    #   note; and for a copy taken from the Wayback Machine, via, snapshot_url,
+    #   captured_at, live_status
     class Index
       DEFAULT_PATH = File.expand_path("../../../data/archive/index.yaml", __dir__)
 
@@ -36,9 +38,11 @@ module ThisDay
         !entry.nil? && entry["status"] == "ok"
       end
 
+      # Replaces any earlier entry for the URL: each entry is one complete
+      # fetch, and merging let a stale note or hash outlive the fetch that
+      # wrote it.
       def upsert(entry)
-        url = entry.fetch("url")
-        @entries[url] = (@entries[url] || {}).merge(entry)
+        @entries[entry.fetch("url")] = entry
         self
       end
 

@@ -36,6 +36,9 @@
     <li><a href="<%= ref.url %>" rel="noopener noreferrer"><%= ref.label %></a>
       <% if ref.archived? %>
       <span class="archive-status archived" title="A copy of this source was fetched and archived on <%= ref.archived_on %>">archived <%= ref.archived_on %></span>
+      <% if ref.snapshot_url %>
+      <a class="snapshot" href="<%= ref.snapshot_url %>" rel="noopener noreferrer" title="The cited address no longer serves this document; this is the Wayback Machine copy that was archived">Wayback copy</a>
+      <% end %>
       <% else %>
       <span class="archive-status unverified" title="No archived copy of this source exists yet">unverified</span>
       <% end %>
