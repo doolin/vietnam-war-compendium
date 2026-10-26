@@ -54,6 +54,8 @@ site shows progress.
 - [x] 6d. Provisioning tools and candidate index committed to `research/wikipedia-year-pages/` (all twelve months); source registry in `research/sources.yaml`.
 - [x] 6e. December: fetch/write split (`rake provision:fetch`, `provision:check`, `provision:add`); 19 drafts, every day now has an event (review queue item 12).
 - [x] 6f. Day page serves reviewed entries only, at random. Seventeen combined drafts split into 39 single-event entries (`rake provision:split`; review queue item 13).
+- [x] 6g. January (10 drafts) and February (7 drafts): every day now has an event (review queue items 16, 17). The brief lists the lines naming each day in every source, so writers with Read only can go straight to the passage.
+- [x] 6h. Texas Tech catalog (vva.vietnam.ttu.edu) reachable: bundled missing intermediate certificate. Letters tooling and records in `research/texas-tech-letters/` (review queue items 14, 15).
 - [~] 7. Deck growing in `docs/slides/`.
 - [~] 8. Lessons growing in `docs/LESSONS.md`.
 

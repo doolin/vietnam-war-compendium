@@ -310,6 +310,43 @@ rake provision:add    FILE=... OUT=data/events/drafts-december-wikipedia.yaml
 
 ---
 
+# January and February: point the writer at the line
+
+Writers have Read and Write only, no search. The brief now lists, for
+every source, the lines that name the day:
+
+```
+Text: tmp/provision-1/sources/14a43eecdd32a29e.txt (510749 bytes)
+Lines naming January 2: 5
+  - line 1319, page 25: Meanwhile, on 2 January 1967 the 8th Tactical
+  - line 2454, page 51: prognostication, D-day was set for 2 January 1967.
+```
+
+| | December | January + February |
+|---|---|---|
+| Drafts | 19 | 17 |
+| Writers, time | 3, ~7 min | 3, ~4 min |
+| Written from a non-Wikipedia source | 13 of 19 | 12 of 17 |
+
+A new check after writing: the share of each excerpt's 8-word runs
+found in the archived text. Misses were PDF line breaks and `[...]`.
+
+---
+
+# A certificate a browser never complains about
+
+vva.vietnam.ttu.edu (Texas Tech's Vietnam Archive catalog) sends its
+own certificate without the intermediate. Browsers download it;
+OpenSSL fails: `unable to get local issuer certificate`.
+
+- Bundle the intermediate in `config/certs/`, after checking it
+  verifies to a system root and signed the host's certificate.
+- Verification stays on for every host.
+- Result: the Pike *Strategy of Terror* PDF, which failed in every
+  month so far, downloads from the catalog host.
+
+---
+
 # Review page
 
 `/this-day-in-vietnam-war/review/10`
@@ -411,3 +448,8 @@ review items.
 | 4 | bd40aea | All 352 legacy events rewritten; Oct 31/31, Nov 30/30 days covered |
 | 5 | 738f83a | Wayback copies for 9 dead references, linked on the page |
 | 6 | 85077d4 | 8 thin drafts re-sourced from primary documents; Oct 8 moved to 1963 |
+| 7 | 4d2940e | Today's event at the trailing-slash URL |
+| 8 | 7751086 | December: every day has a sourced draft |
+| 9 | d9f8129 | Day page serves reviewed entries only, at random |
+| 10 | 6e892d6 | Combined drafts split into one entry per event |
+| 11 | (this commit) | January and February: every day has a draft |

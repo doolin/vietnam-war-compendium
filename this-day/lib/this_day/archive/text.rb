@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require "cgi"
+require "date"
 require "open3"
 
 module ThisDay
@@ -29,6 +30,21 @@ module ThisDay
         out.split("\f").each_with_index.map { |page, i| "=== page #{i + 1} ===\n#{page.strip}" }.join("\n\n")
       rescue Errno::ENOENT
         nil
+      end
+
+      # The lines that name a calendar date, as [line number, PDF page or
+      # nil, line], so a writer without a search tool can Read the passage
+      # by offset. Matches "4 January", "January 4", "Jan. 4th", "4 Jan 66".
+      def date_lines(text, month, day)
+        names = [Date::MONTHNAMES[month], Date::ABBR_MONTHNAMES[month]]
+        names << "Sept" if month == 9
+        name = "(?:#{names.join('|')})\\.?"
+        pattern = /(?<!\d)#{day}(?:st|nd|rd|th)?\s+#{name}\b|\b#{name}\s+#{day}(?:st|nd|rd|th)?(?!\d)/i
+        page = nil
+        text.to_s.each_line.with_index(1).filter_map do |line, n|
+          page = Regexp.last_match(1).to_i if line =~ /\A=== page (\d+) ===/
+          [n, page, line.strip] if line.match?(pattern)
+        end
       end
     end
   end

@@ -177,3 +177,38 @@ pre-locate each day's date in every source and put the line numbers
 in the brief. And index pages and archive.org landing pages archive
 as "ok" but carry no text: an archived copy is not the same as a
 readable source.
+
+## 2026-10-26 — Point a writer without search at the line
+
+The December writers had no Grep and paged through multi-megabyte
+PDFs by guessing offsets. For January and February the fetch step
+lists, under each source in the brief, the lines that name the day
+("2 January", "January 2", "Jan. 2nd", "2 Jan 67"), with line number
+and PDF page. Three writers finished 17 drafts in about four minutes,
+12 of them from a source other than Wikipedia. "Lines naming: none"
+told a writer early that a source was a page shell or covered another
+date.
+
+A second check now runs after writing: the share of each excerpt's
+8-word runs that appear in the archived text. The misses it found were
+words split across PDF lines and runs that straddle a `[...]`, not
+paraphrase. It is still a script in `tmp/` and belongs in
+`provision:check`.
+
+## 2026-10-26 — A certificate error that a browser never shows
+
+The Texas Tech Vietnam Archive catalog (vva.vietnam.ttu.edu) failed
+every fetch with "certificate verify failed (unable to get local
+issuer certificate)", and WebFetch failed the same way. The site opens
+in a browser. The server sends only its own certificate and omits the
+intermediate, InCommon RSA Server CA 2; browsers download missing
+intermediates from the certificate's AIA URL, and OpenSSL does not.
+The fix was to bundle that intermediate in `config/certs/`, after checking
+that it verifies against a system root and signed the host's
+certificate. Verification stays on. Turning it off would also have made
+the error go away, and it would have stopped checking every other host
+as well.
+
+The same host times out on about one request in three, and its search
+page answers non-browser clients with a CAPTCHA. Item records fetch;
+searching does not.

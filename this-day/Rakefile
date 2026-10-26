@@ -239,7 +239,17 @@ namespace :provision do
             brief << "  URL: #{r['url']} | archive: #{e&.fetch('status') || 'missing'}#{e&.dig('via') ? ' (Wayback copy)' : ''}" \
                      "#{e&.dig('title') ? " | page title: #{e['title']}" : ''}"
             path = text_path.call(r["url"])
-            brief << "  Text: #{path}" if path
+            if path
+              # Writers have no search tool: point them at the lines that
+              # name this day, to Read with offset/limit.
+              hits = ThisDay::Archive::Text.date_lines(File.read(path), month, d["day"])
+              brief << "  Text: #{path} (#{File.size(path)} bytes)"
+              brief << "  Lines naming #{Date::MONTHNAMES[month]} #{d['day']}: #{hits.empty? ? 'none' : hits.size}"
+              hits.first(12).each do |n, page, line|
+                brief << "    - line #{n}#{page ? ", page #{page}" : ''}: #{line[0, 160]}"
+              end
+              brief << "    - (#{hits.size - 12} more)" if hits.size > 12
+            end
           else
             brief << "- Cited, no URL: #{label}"
           end

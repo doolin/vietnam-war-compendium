@@ -195,6 +195,81 @@ Opened 2026-10-25.
       Hayden) was inside the Gallup paragraph; it is now its own
       entry.
 
+## January drafts
+
+16. **10 drafts, one per uncovered day (2026-10-26).** Two Claude
+    Opus 5.5 writers, one event per entry, from archived copies of the
+    candidates' cited sources; the Wikipedia entry is the second
+    reference. Review at `/this-day-in-vietnam-war/review/1`.
+    *Decision:* approve, reject, or re-source by date.
+    - **Thin:** Jan 7 (42 words; the Time cover page carries only the
+      cover title and credit) and Jan 16 (50 words, Wikipedia only; the
+      cited CMH page is an empty catalog page). The writer offers the
+      1965 fight near Huế for Jan 7, from Wikipedia alone but long
+      enough for a full body.
+    - **Weak source:** Jan 23 (Nixon announces the Paris agreement)
+      rests on The History Place timeline; the other candidates'
+      sources were empty page shells.
+    - **Jan 4** is transcribed from a scanned after-action report with
+      no text layer (checked against the scan). The place name, Ban Me
+      Thuot East Airfield, comes from Wikipedia; the report gives grid
+      coordinates only. The report says Viet Cong; Wikipedia says PAVN.
+    - **Sources disagreed with Wikipedia** (bodies follow the source):
+      Jan 3, the amendment "was passed" (Hartsook), not "signed into
+      law"; Jan 19, 12,200 was MACV's strength in mid-1965 before
+      reduction to 1,500, not a reduction target; Jan 20, Abrams's
+      message went to CINCPAC, not to Washington; Jan 21, Westmoreland
+      launched Niagara, not "the USAF", and the source gives 20,000 to
+      25,000 North Vietnamese against about 5,700 Marines and 500
+      Rangers; Jan 25, the speech offers withdrawal of "all U.S. and
+      allied forces" and the international supervision applies to the
+      election.
+
+## February drafts
+
+17. **7 drafts, one per uncovered day (2026-10-26).** One Claude Opus
+    5.5 writer, same process as January. Review at
+    `/this-day-in-vietnam-war/review/2`.
+    *Decision:* approve, reject, or re-source by date.
+    - **Feb 29 is 30 words**, Wikipedia only; it was the day's only
+      candidate.
+    - **Wikipedia only:** Feb 14 (An Luu raid) and Feb 17 (Church's
+      Senate speech). Birtle's *Advice and Support: The Middle Years*
+      again archived as an empty catalog page. For Feb 17 the writer
+      chose the Church speech over the Nui Lac San ridge fight in the
+      same entry.
+    - **Feb 3** rests on a 2002 Texas Tech symposium paper (Peoples),
+      a secondary source.
+    - **Sources disagreed with Wikipedia** (bodies follow the source):
+      Feb 3, Diem "formally launched" the program and Nhu "commanded"
+      it; Feb 8, Admiral Felt activated MACV on February 8 (Kennedy had
+      approved the terms in early January) and McNamara, not Taylor,
+      nominated Harkins (Cosmas); Feb 27, the 2 killed and 74 wounded
+      were the total of five attacks on Bien Hoa that year, not this
+      attack (Nalty).
+    - **Feb 12:** the af.mil article contradicts itself (54 flights
+      between February 12 and April 4 in a caption; flights "through
+      late March" in the text). The body follows the caption, which
+      agrees with Wikipedia.
+
+## Texas Tech letters and documents
+
+14. **Letters from the Virtual Vietnam Archive (2026-10-26).** Letters
+    home sit inside donor collections in the Texas Tech catalog
+    (vva.vietnam.ttu.edu). Eleven records are saved with the tools to
+    fetch more in `research/texas-tech-letters/` (README there). The
+    catalog search is closed to scripts, so records come from known ids.
+    *Decision (later, per operator):* which collections to read, and
+    whether a dated letter can be a day's event.
+
+15. **Pike, *Viet Cong Strategy of Terror*, can now be archived.** The
+    PDF cited by Wikipedia (www.vietnam.ttu.edu/reports/...) never
+    fetched; the same file downloads from the catalog host
+    (vva.vietnam.ttu.edu/images.php?img=/images/231/2311404008a.pdf).
+    It is the source behind Oct 20 and Nov 30 (item 11).
+    *Decision:* cite and archive the vva URL in place of the old one,
+    and re-source Oct 20 and Nov 30 from it?
+
 ## Infrastructure
 
 7. **Official-history hosts block automated fetches.**
