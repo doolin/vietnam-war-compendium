@@ -207,5 +207,15 @@
     <%= yield %>
     <footer id="build-info"><%= ThisDay::App.build_sha %></footer>
   </main>
+  <script>
+    // Left and right arrow keys follow the page's previous and next links.
+    document.addEventListener("keydown", function (e) {
+      if (e.defaultPrevented || e.altKey || e.ctrlKey || e.metaKey || e.shiftKey) return;
+      if (/^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName) || e.target.isContentEditable) return;
+      var rel = { ArrowLeft: "prev", ArrowRight: "next" }[e.key];
+      var link = rel && document.querySelector('.day-nav a[rel="' + rel + '"]');
+      if (link) window.location.href = link.href;
+    });
+  </script>
 </body>
 </html>

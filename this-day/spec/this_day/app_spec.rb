@@ -119,6 +119,16 @@ RSpec.describe ThisDay::App do
       get "/"
       expect(last_response.body).to include("<h1>")
     end
+
+    it "links the previous and next days with arrows the arrow keys follow" do
+      get "/this-day-in-vietnam-war/3/1"
+      body = last_response.body
+      expect(body).to include(%(<a rel="prev" href="/this-day-in-vietnam-war/2/)).and include("&larr; February")
+      expect(body).to include(%(<a rel="next" href="/this-day-in-vietnam-war/3/2">March 2 &rarr;</a>))
+      expect(body).to include("ArrowLeft").and include("ArrowRight")
+      get "/this-day-in-vietnam-war/review/1"
+      expect(last_response.body).to include(%(<a rel="prev" href="/this-day-in-vietnam-war/review/12">&larr; December</a>))
+    end
   end
 
   describe "GET /this-day-in-vietnam-war with and without a trailing slash" do

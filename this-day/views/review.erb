@@ -1,7 +1,7 @@
 <% covered = days.count { |_, evts| evts.any? { |e| !e.status.eql?("rejected") } } %>
 <nav class="day-nav">
-  <a href="/this-day-in-vietnam-war/review/<%= month == 1 ? 12 : month - 1 %>"><%= Date::MONTHNAMES[month == 1 ? 12 : month - 1] %></a>
-  <a href="/this-day-in-vietnam-war/review/<%= month == 12 ? 1 : month + 1 %>"><%= Date::MONTHNAMES[month == 12 ? 1 : month + 1] %></a>
+  <a rel="prev" href="/this-day-in-vietnam-war/review/<%= month == 1 ? 12 : month - 1 %>">&larr; <%= Date::MONTHNAMES[month == 1 ? 12 : month - 1] %></a>
+  <a rel="next" href="/this-day-in-vietnam-war/review/<%= month == 12 ? 1 : month + 1 %>"><%= Date::MONTHNAMES[month == 12 ? 1 : month + 1] %> &rarr;</a>
 </nav>
 
 <h1>Review &mdash; <%= month_name %></h1>
