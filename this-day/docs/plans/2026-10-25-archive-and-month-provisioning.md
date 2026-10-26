@@ -56,6 +56,8 @@ site shows progress.
 - [x] 6f. Day page serves reviewed entries only, at random. Seventeen combined drafts split into 39 single-event entries (`rake provision:split`; review queue item 13).
 - [x] 6g. January (10 drafts) and February (7 drafts): every day now has an event (review queue items 16, 17). The brief lists the lines naming each day in every source, so writers with Read only can go straight to the passage.
 - [x] 6h. Texas Tech catalog (vva.vietnam.ttu.edu) reachable: bundled missing intermediate certificate. Letters tooling and records in `research/texas-tech-letters/` (review queue items 14, 15).
+- [x] 6i. Texas Tech report PDFs cited and archived at the catalog host; Pike's chronology resolved to part c; Oct 20 and Nov 30 re-sourced (review queue item 15).
+- [x] 6j. March (5 drafts) and April (13 drafts): every day now has an event (review queue items 18, 19). Arrow-key navigation on day and review pages.
 - [~] 7. Deck growing in `docs/slides/`.
 - [~] 8. Lessons growing in `docs/LESSONS.md`.
 

@@ -274,6 +274,38 @@ Opened 2026-10-25.
       C-123 crash Wikipedia puts on March 4, 1968 gives 6 March, a
       Vietnam Air Force aircraft, and 49 dead (Wikipedia: USAF, 44).
 
+## April drafts
+
+19. **13 drafts, one per uncovered day (2026-10-26).** Two Claude
+    Opus 5.5 writers. Review at `/this-day-in-vietnam-war/review/4`.
+    *Decision:* approve, reject, or re-source by date.
+    - **Thin:** Apr 9 (29 words; Pike's one-sentence chronology entry
+      on the Phu Binh refugee center, the only usable source) and
+      Apr 27 (56 words, Wikipedia only; the 25th Division artillery
+      report Wikipedia cites has no 27 April action, so the citation
+      does not support the entry).
+    - **Apr 23:** the Time cover itself rests on Wikipedia; the Air
+      Force biography supports the rest of the body but never mentions
+      the cover.
+    - **Apr 18:** the source says only "The first launch occurred on
+      18 April" (Wolk, footnote); Wikipedia's "first successful",
+      Fan Song target, and F-100F are not in it. The writer read the
+      OCR "caruled" as "carried"; a word after "Fan Song fire control"
+      is unreadable, so the body says "Fan Song targets".
+    - **Sources disagreed with Wikipedia** (bodies follow the source):
+      Apr 3, Ford "authorized" Babylift (Ford Library), not
+      "announced"; Apr 7, Le Gro says "all nine" died in the narrative
+      but "7 killed" in his own table, and names no PAVN shooter;
+      Apr 12, 84 U.S. citizens evacuated (287 in all), not 82; Apr 17,
+      the draft estimate said the war "at best will be protracted and
+      costly"; Apr 22, Wheeler recommended a South Vietnamese attack on
+      the Parrot's Beak, and U.S. troops were the choice of Bunker,
+      Abrams and the Joint Chiefs; Apr 28, "territorial forces", not
+      Regional Forces.
+    - **Apr 29:** Tran contradicts himself on the task forces (325,
+      318, 333 on p. 42; 318, 225, 333 on p. 54); the body follows the
+      detailed account on p. 54.
+
 ## Texas Tech letters and documents
 
 14. **Letters from the Virtual Vietnam Archive (2026-10-26).** Letters
