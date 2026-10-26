@@ -139,3 +139,19 @@ note, and fifteen bot-wall entries kept the hash and S3 key of the
 robot page stored before bot-wall detection existed. Each entry is
 one complete fetch, so it now replaces the old one. A record of what
 was consulted is only as good as its least-recent field.
+
+## 2026-10-26 — The process lived in the scratchpad
+
+Asked whether the URLs found during research were being saved, the
+answer was "the cited ones". The candidate index (449 October and
+November entries), the 21 cached year pages, the selector, the
+sources the landmark agent found, and every dead end existed only in
+the session scratchpad under /private/tmp, which is cleared on
+reboot. The proof-of-concept was shipping its output while losing
+the process that made it. They now live in
+`research/wikipedia-year-pages/` (extended to all twelve months:
+2,770 candidates) and `research/sources.yaml` (hosts and how they
+answer, documents worth reusing).
+
+Lesson: a script that produced committed data is part of the
+provenance. Commit it with the first data it produced.

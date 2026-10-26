@@ -1,0 +1,163 @@
+# Source registry for the compendium.
+#
+# What has been tried as a source, and how it behaved, so the next
+# research pass starts from what is known instead of re-discovering it.
+# Two lists:
+#
+#   hosts:     how a site answers an automated, polite fetch
+#              (fetchable | blocked | wayback-only | dead), with the
+#              date last observed.
+#   documents: specific works found useful, with what they cover and
+#              whether an archived copy exists in
+#              this-day/data/archive/index.yaml (archived: true) or not.
+#
+# Cited references live in this-day/data/events/*.yaml; the archive
+# index records each fetch. This file is for sources not yet cited,
+# sources worth reusing, and dead ends. Add to it when a research pass
+# finds something; record failures with the URL and what came back.
+
+hosts:
+  - host: history.state.gov
+    status: fetchable
+    observed: 2026-10-25
+    note: FRUS documents and editorial notes; one document per URL (.../frus1964-68v06/d123).
+  - host: www.presidency.ucsb.edu
+    status: fetchable
+    observed: 2026-10-25
+    note: American Presidency Project; presidential statements, addresses, news conferences.
+  - host: www.gutenberg.org
+    status: fetchable
+    observed: 2026-10-25
+    note: Some public-domain USMC histories are transcribed here (Shore, Khe Sanh, #54613).
+  - host: www.army.mil
+    status: fetchable
+    observed: 2026-10-25
+    note: Medal of Honor citation pages (citations25.html and siblings).
+  - host: arsof-history.org
+    status: fetchable
+    observed: 2026-10-25
+    note: USASOC timeline; one-line entries.
+  - host: visit.archives.gov
+    status: fetchable
+    observed: 2026-10-25
+  - host: en.wikipedia.org
+    status: fetchable
+    observed: 2026-10-25
+    note: Use the MediaWiki API (action=parse) and pin the revision id; see research/wikipedia-year-pages/.
+  - host: web.archive.org
+    status: fetchable
+    observed: 2026-10-26
+    note: >-
+      Use the CDX API (/cdx/search/cdx?url=...&filter=statuscode:200&limit=-1)
+      and fetch /web/<timestamp>id_/<url> for the original bytes. The archiver
+      does this automatically when a live fetch fails.
+  - host: archive.org
+    status: blocked
+    observed: 2026-10-26
+    note: The availability API (/wayback/available) answered 429 on the first request. Use CDX on web.archive.org instead.
+  - host: history.army.mil
+    status: blocked
+    observed: 2026-10-25
+    note: Akamai "Access Denied" to non-browser clients. Old /html/books/ URLs also 404 live; Wayback has 200 captures of many.
+  - host: www.marines.mil
+    status: blocked
+    observed: 2026-10-25
+    note: Akamai "Access Denied".
+  - host: www.usmcu.edu
+    status: blocked
+    observed: 2026-10-25
+    note: Akamai "Access Denied".
+  - host: openlibrary.org
+    status: blocked
+    observed: 2026-10-26
+    note: >-
+      "Human Verification" page after about 30 requests in twenty minutes on
+      2026-10-25, then connection refused. The Wayback Machine has no 200
+      captures of the /isbn/ and /works/ pages cited.
+  - host: www.goodreads.com
+    status: blocked
+    observed: 2026-10-25
+    note: 503 to a polite fetcher.
+  - host: www.amazon.com
+    status: blocked
+    observed: 2026-10-25
+    note: 200 with a robot page titled "Amazon.com". Not a source in any case.
+  - host: www.vietnam.ttu.edu
+    status: unreliable
+    observed: 2026-10-26
+    note: Net::OpenTimeout on 2026-10-25 and 2026-10-26; Wayback has the exhibit pages but not the virtual-archive PDF (images.php).
+  - host: www.afhso.af.mil
+    status: dead
+    observed: 2026-10-26
+    note: Retired host; Wayback has the Air Force history PDFs.
+  - host: www.usno.navy.mil
+    status: dead
+    observed: 2026-10-26
+    note: Retired host; Wayback has the JTWC annual tropical cyclone reports.
+  - host: www.nixonlibrary.gov
+    status: dead
+    observed: 2026-10-26
+    note: Old /exhibits/ URLs 404; Wayback has them.
+
+documents:
+  - title: "The United States Air Force in Southeast Asia: The Advisory Years to 1965"
+    author: Robert Futrell
+    publisher: Office of Air Force History, 1981
+    url: http://www.afhso.af.mil/shared/media/document/AFD-100525-052.pdf
+    archived: true
+    via: wayback
+    covers: USAF in Southeast Asia to 1965.
+  - title: "United States Air Force in Southeast Asia 1965-1973: Aces and Aerial Victories"
+    author: Frank Futrell
+    publisher: Air University, Headquarters USAF, 1976
+    url: https://media.defense.gov/2010/Sep/21/2001329821/-1/-1/0/AFD-100921-010.pdf
+    archived: true
+    via: wayback
+    covers: USAF air-to-air victories, 1965-1973.
+  - title: "MACV: The Joint Command in the Years of Escalation, 1962-1967"
+    author: Graham A. Cosmas
+    publisher: U.S. Army Center of Military History, 2006 (CMH Pub 91-6)
+    url: https://history.army.mil/html/books/091/91-6/CMH_Pub_91-6.pdf
+    archived: true
+    via: wayback
+    covers: MACV command decisions 1962-1967.
+  - title: "Combat Operations: Stemming the Tide, May 1965 to October 1966"
+    author: John M. Carland
+    publisher: U.S. Army Center of Military History, 2000 (CMH Pub 91-5)
+    url: https://history.army.mil/html/books/091/91-5/index.html
+    archived: true
+    via: wayback
+    covers: U.S. Army ground operations 1965-1966. Only the index page is archived; the chapter PDFs are not.
+  - title: "Annual Tropical Cyclone Report 1971"
+    author: Joint Typhoon Warning Center
+    publisher: Joint Typhoon Warning Center, 1972
+    url: http://www.usno.navy.mil/NOOC/nmfc-ph/RSS/jtwc/atcr/1971atcr.pdf
+    archived: true
+    via: wayback
+    covers: The 1971 typhoon season, including Typhoon Hester (October 1971).
+  - title: "The Battle for Khe Sanh"
+    author: Capt. Moyers S. Shore II, USMC
+    publisher: Historical Branch, G-3 Division, HQ USMC, 1969 (Project Gutenberg #54613)
+    url: https://www.gutenberg.org/files/54613/54613-h/54613-h.htm
+    archived: true
+    covers: The battle for Khe Sanh.
+  - title: "Foreign Relations of the United States, 1964-1968, Volumes I-VII (Vietnam)"
+    author: U.S. Department of State, Office of the Historian
+    url: https://history.state.gov/historicaldocuments/frus1964-68v06
+    archived: partial
+    covers: U.S. government documents on Vietnam, 1964-1968, with dated editorial notes. Five documents from Volumes II and VI are archived.
+  - title: "Foreign Relations of the United States, 1961-1963, Volumes I-IV (Vietnam)"
+    author: U.S. Department of State, Office of the Historian
+    url: https://history.state.gov/historicaldocuments/frus1961-63v01
+    archived: false
+    covers: U.S. government documents on Vietnam, 1961-1963. Cited by several October Wikipedia entries (1961 and 1963).
+  - title: "Defense Casualty Analysis System extract, Vietnam Conflict"
+    author: National Archives and Records Administration
+    url: research/nara-dcas/DCAS-vietnam.dat
+    archived: true
+    covers: 58,220 U.S. fatal casualties with incident date, unit, and remains status; parser in research/nara-dcas/.
+  - title: "<year> in the Vietnam War (Wikipedia, 1955-1975)"
+    author: Wikipedia contributors (CC BY-SA 4.0)
+    url: research/wikipedia-year-pages/candidates.json
+    archived: true
+    covers: 2,770 day-dated entries across all twelve months, each with its revision permalink and attached citations. An index of candidates, not a source; see research/wikipedia-year-pages/README.md.
