@@ -85,8 +85,10 @@ Opened 2026-10-25.
     Wikipedia year-page entry for that day, which is quoted in each
     draft's source excerpt, with the entry's own cited source as a
     second reference when it had a URL. Review on the phone at
-    `/this-day-in-vietnam-war/review/10` and `/review/11`; drafts are
-    also served on the day page with a "not yet reviewed" notice.
+    `/this-day-in-vietnam-war/review/10` and `/review/11`. Since
+    2026-10-26 the day page serves only reviewed (approved) entries,
+    chosen at random when a date has several; drafts appear only on
+    the review pages.
     *Decision:* approve, reject, or re-source by date ("approve Oct
     3, 4; reject Nov 11").
 
@@ -151,12 +153,12 @@ Opened 2026-10-25.
       copy.
     - **Dec 28 is 36 words**, under the 80-word floor; no candidate
       had more text.
-    - **Dec 20, wrong day.** Shulimson, *An Expanding War, 1966*, has
-      3/26 Marines setting up on 19 December; the operation was named
-      Chinook on 23 December. Nothing in the source happens on the
-      20th, and the draft's "in its second day" is the writer's
-      inference. *Decision:* move to Dec 19 (which already has an
-      event), or reject.
+    - **Dec 20 moved to Dec 19** (operator, 2026-10-26: a date can
+      carry many entries, kept separate). Shulimson, *An Expanding
+      War, 1966*, has 3/26 Marines setting up their CP on 19 December;
+      the body was rewritten for that date from the same passages,
+      dropping the writer's "in its second day" inference. December
+      20 has no event again.
     - **Dec 22.** The conviction date rests on the Wikipedia entry;
       Weber (Tulsa Law Review) says only that the trial was "right
       before Christmas 1965".

@@ -302,7 +302,10 @@ namespace :provision do
     "#{lines.join("\n")}\n"
   end
 
-  desc "Add or replace drafts in an event file, matched on month and day (FILE=drafts.yaml OUT=data/events/x.yaml)"
+  # A date can carry many entries, so a draft replaces an existing block
+  # only when month, day, and title all match; otherwise it is added.
+  desc "Add drafts to an event file, replacing a block with the same month, day, and title " \
+       "(FILE=drafts.yaml OUT=data/events/x.yaml)"
   task :add do
     require "yaml"
     require "json"
@@ -311,8 +314,9 @@ namespace :provision do
     header = "# DRAFTS for human review -- every item below is status: draft and has not been checked by a person.\n" \
              "# Candidates from Wikipedia \"<year> in the Vietnam War\" pages (CC BY-SA 4.0); each body is written from the passages in source_text.\n"
     head, *blocks = File.exist?(out) ? File.read(out).split(/^(?=- month: )/) : [header]
-    keyed = blocks.to_h { |b| [[b[/^- month: (\d+)/, 1].to_i, b[/^  day: (\d+)/, 1].to_i], b] }
-    incoming.each { |e| keyed[[e["month"], e["day"]]] = draft_block(e) }
+    key = ->(e) { [e["month"].to_i, e["day"].to_i, e["title"].to_s] }
+    keyed = blocks.to_h { |b| [key.(YAML.safe_load(b, permitted_classes: [Date]).first), b] }
+    incoming.each { |e| keyed[key.(e)] = draft_block(e) }
     File.write(out, head + keyed.sort.map(&:last).join)
     YAML.safe_load_file(out, permitted_classes: [Date])
     puts "#{out}: #{keyed.size} events (#{incoming.size} added or replaced)"

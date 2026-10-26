@@ -30,7 +30,8 @@ Ruby · Roda · SQLite · AWS Lambda · CloudFront
 - One URL. One date. One event from the Indochina wars, 1940–1980.
 - `GET /this-day-in-vietnam-war/10/25` → a page for October 25.
 - The root URL serves today's date.
-- Several events on a date? One is chosen at random per request.
+- Several events on a date? One reviewed event is chosen at random
+  per request. Drafts appear only on the month review page.
 - No date? A fallback page says so, with prev/next links.
 - Self-contained HTML. No external CSS, JS, or fonts.
 

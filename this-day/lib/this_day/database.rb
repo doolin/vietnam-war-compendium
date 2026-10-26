@@ -36,11 +36,12 @@ module ThisDay
       @db.results_as_hash = true
     end
 
-    # One event for the date, chosen at random when several exist.
-    # Rejected events are never served.
+    # One reviewed event for the date, chosen at random when several
+    # exist. Drafts and rejected events are never served; drafts appear
+    # only on the month review page.
     def event_for_date(month, day)
       rows = @db.execute(
-        "SELECT #{EVENT_COLUMNS} FROM events WHERE month = ? AND day = ? AND status <> 'rejected'",
+        "SELECT #{EVENT_COLUMNS} FROM events WHERE month = ? AND day = ? AND status = 'approved'",
         [month, day]
       )
       return nil if rows.empty?

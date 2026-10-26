@@ -40,6 +40,13 @@ RSpec.describe ThisDay::Database do
       status: "rejected"
     )
 
+    TestDatabaseHelper.seed_event(db, month: 2, day: 14, year: 1966, title: "Reviewed February event",
+                                      body: "<p>Approved.</p>")
+    3.times do |i|
+      TestDatabaseHelper.seed_event(db, month: 2, day: 14, year: 1967 + i, title: "Draft February event #{i}",
+                                        body: "<p>Draft.</p>", status: "draft")
+    end
+
     TestDatabaseHelper.seed_event(
       db,
       month: 11, day: 3, year: 1967,
@@ -131,12 +138,13 @@ RSpec.describe ThisDay::Database do
       expect(database.event_for_date(11, 20)).to be_nil
     end
 
-    it "serves drafts with their review fields" do
-      event = database.event_for_date(11, 3)
-      expect(event).to be_draft
-      expect(event.source_text).to eq("Verbatim excerpt the body was written from.")
-      expect(event.source_file).to eq("october-november-drafts.yaml")
-      expect(event.credit).to eq("Summary by Claude Fable 5.1, 2026-10-25")
+    it "never serves a draft" do
+      expect(database.event_for_date(11, 3)).to be_nil
+    end
+
+    it "chooses only among reviewed events when a date also has drafts" do
+      titles = Array.new(20) { database.event_for_date(2, 14).title }.uniq
+      expect(titles).to eq(["Reviewed February event"])
     end
 
     it "has no credit for legacy unattributed summaries" do
@@ -145,11 +153,16 @@ RSpec.describe ThisDay::Database do
   end
 
   describe "#events_for_month" do
-    it "returns every event in the month, rejected included, ordered by day then year" do
+    it "returns every event in the month, drafts and rejected included, ordered by day then year" do
       events = database.events_for_month(11)
       expect(events.map { |e| [e.day, e.year, e.status] }).to eq(
         [[3, 1967, "draft"], [9, 1965, "approved"], [9, 1967, "approved"], [20, 1969, "rejected"]]
       )
+      draft = events.first
+      expect(draft).to be_draft
+      expect(draft.source_text).to eq("Verbatim excerpt the body was written from.")
+      expect(draft.source_file).to eq("october-november-drafts.yaml")
+      expect(draft.credit).to eq("Summary by Claude Fable 5.1, 2026-10-25")
       expect(events.first.references).to eq([])
       expect(events[1].references.first.label).to eq("We Were Soldiers Once... and Young")
     end

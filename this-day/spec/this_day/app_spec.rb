@@ -10,6 +10,10 @@ require_relative "../../lib/this_day/app"
 RSpec.describe ThisDay::App do
   include Rack::Test::Methods
 
+  SNAPSHOT = "https://web.archive.org/web/20161123144448/http://old.example.com/report.pdf"
+  MOVED_REPORT = { label: "Moved report", url: "http://old.example.com/report.pdf", archive_status: "ok",
+                   archived_at: "2026-10-26T01:00:00Z", snapshot_url: SNAPSHOT }.freeze
+
   def app
     described_class.app
   end
@@ -26,7 +30,8 @@ RSpec.describe ThisDay::App do
       references: [
         { label: "Test Reference", url: "https://example.com/ref",
           archive_status: "ok", archived_at: "2026-10-25T18:02:11Z" },
-        { label: "Another Reference", url: "https://example.com/ref2" }
+        { label: "Another Reference", url: "https://example.com/ref2" },
+        MOVED_REPORT
       ]
     )
 
@@ -40,7 +45,8 @@ RSpec.describe ThisDay::App do
       references: [
         { label: "Photo Source", url: "https://example.com/photo-source",
           archive_status: "ok", archived_at: "2026-10-25T18:02:11Z" },
-        { label: "Dead Source", url: "https://example.com/dead", archive_status: "http-404" }
+        { label: "Dead Source", url: "https://example.com/dead", archive_status: "http-404" },
+        MOVED_REPORT
       ]
     )
 
@@ -140,9 +146,7 @@ RSpec.describe ThisDay::App do
         summarized_by: "Claude Fable 5.1", summarized_at: "2026-10-25T19:00:00Z",
         references: [
           { label: "Dead link", url: "https://example.com/404", archive_status: "http-404" },
-          { label: "Moved report", url: "http://old.example.com/report.pdf", archive_status: "ok",
-            archived_at: "2026-10-26T01:00:00Z",
-            snapshot_url: "https://web.archive.org/web/20161123144448/http://old.example.com/report.pdf" }
+          MOVED_REPORT
         ]
       )
       TestDatabaseHelper.seed_event(
@@ -173,18 +177,16 @@ RSpec.describe ThisDay::App do
       expect(body).to include("1 drafts awaiting review")
     end
 
-    it "labels a draft on the day page" do
+    it "does not serve a draft on the day page" do
       get "/this-day-in-vietnam-war/#{month}/3"
-      body = last_response.body
-      expect(body).to include("Draft body.").and include("draft-notice")
+      expect(last_response.body).not_to include("Draft body.")
     end
 
     it "links the Wayback copy of a reference archived from the Wayback Machine" do
-      snapshot = %(href="https://web.archive.org/web/20161123144448/http://old.example.com/report.pdf")
-      get "/this-day-in-vietnam-war/#{month}/3"
-      expect(last_response.body).to include(snapshot).and include("Wayback copy")
       get "/this-day-in-vietnam-war/review/#{month}"
-      expect(last_response.body).to include(snapshot)
+      expect(last_response.body).to include(%(href="#{SNAPSHOT}")).and include("Wayback copy")
+      get "/"
+      expect(last_response.body).to include(%(href="#{SNAPSHOT}"))
     end
 
     it "returns 404 for a month outside 1-12" do
