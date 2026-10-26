@@ -16,6 +16,14 @@ RSpec.describe ThisDay::Archive::Fetcher do
     [described_class.new(delay: 2, http: http, sleeper: sleeper), calls]
   end
 
+  it "trusts the bundled intermediate certificates through a system root" do
+    pem = Dir[File.join(described_class::EXTRA_CERTS_DIR, "*.pem")]
+    expect(pem).not_to be_empty
+    pem.each do |f|
+      expect(described_class.cert_store.verify(OpenSSL::X509::Certificate.new(File.read(f)))).to be(true), f
+    end
+  end
+
   it "returns body, code, and content type for a 200" do
     fetcher, = fetcher_with("https://a.test/p" => ["200", { "content-type" => "text/html; charset=utf-8" }, "<html>"])
     result = fetcher.fetch("https://a.test/p")

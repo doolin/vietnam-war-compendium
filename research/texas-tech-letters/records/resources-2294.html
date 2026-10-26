@@ -1,0 +1,1778 @@
+	<!DOCTYPE html>
+	<html lang="en">
+
+	<head>
+
+		<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SM4YZZC9C6"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-SM4YZZC9C6', {
+        'anonymize_ip': true,
+        'cookie_flags': 'SameSite=None; Secure'
+    });
+</script>
+
+<link rel="icon" href="/global/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="/global/favicon.ico" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Language" content="en-US" />
+<meta name="KEYWORDS" content="Vietnam Center and Archive, Vietnam Project, Vietnam Center, Vietnam Archive, Virtual Vietnam Archive, Oral History Project, Vietnam War, Vietnam Conflict" />
+<meta name="DATE" content="2020-01-20" />
+<meta name="rating" content="general" />
+<meta name="distribution" content="global" />
+<meta name="DC.Title" content="The Vietnam Center and Sam Johnson Vietnam Archive" />
+<meta name="DC.Creator" content="The Vietnam Center and Archive, Michael Dutill" />
+<meta name="DC.Publisher" content="The Vietnam Center and Archive, Texas Tech University" />
+<meta name="DC.Date" content="2017-01-20" />
+<meta name="DC.Language" content="en" />
+<meta name="DC.Identifier" scheme="URI" content="http://www.vietnam.ttu.edu" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta name="description" content="Vietnam Center & Sam Johnson Virtual Archive at Texas Tech University.">
+
+<title>Vietnam Center and Sam Johnson Vietnam Archive</title>
+<meta name="title" content="Vietnam Center and Sam Johnson Vietnam Archive" />
+<link rel="canonical" href="https://www.vietnam.ttu.edu/" />
+
+<!--<script src="https://kit.fontawesome.com/3afa2b4b00.js" crossorigin="anonymous"></script>-->
+<link href="/global/fontawesome/css/fontawesome.min.css" rel="stylesheet" />
+<link href="/global/fontawesome/css/brands.min.css" rel="stylesheet" />
+<link href="/global/fontawesome/css/solid.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+</script>
+
+
+<link rel="stylesheet" href="/global/css/custom.css">
+<link rel="stylesheet" href="/global/css/ttu.min.css">
+<link rel="stylesheet" href="/global/css/lightbox.min.css">
+<link rel="stylesheet" href="//code.jquery.com/ui/1.14.2/themes/base/jquery-ui.min.css">
+
+
+
+<script>
+    $(function() {
+        $(".datepicker").datepicker({
+            dateFormat: "yy-mm-dd",
+            changeMonth: true,
+            changeYear: true,
+            yearRange: "1900:c",
+            defaultDate: "1967-06-01",
+            showOn: "button",
+            buttonImage: "https://jqueryui.com/resources/demos/datepicker/images/calendar.gif",
+            buttonImageOnly: true,
+            buttonText: "Select date"
+        }).keyup(function(e) {
+            if (e.keyCode != '8') {
+                if (e.target.value.length == 5) e.target.value = e.target.value.slice(0, 4) + '-' + e.target.value.slice(4);
+                if (e.target.value.length == 8) e.target.value = e.target.value.slice(0, 7) + '-' + e.target.value.slice(7);
+                if (e.keyCode >= '107') {
+                    e.target.value = e.target.value.slice(0, -1);
+                }
+            }
+        });
+        $(".ui-datepicker-trigger").addClass("btn");
+
+        var thesaurusSets = [
+            ["A Shau Valley", "Thua Thien Province", "Ashau", "Ashaw", "A Shaw"],
+["Ap Bac", "Apbac"],
+["Bearcat", "Bear Cat", "Bear Cat Base Camp", "Camp Martin Cox", "Long Thanh Airfield", "MACV-SOG"],
+["Cam Pha", "Campha", "Kam pha", "Kampha"],
+["Cam Ranh Bay", "CRB", "Cam Ran Bay", "Camranh"],
+["Chu Lai", "Rocket Pocket", "Chulai", "Chu Lay"],
+["Con Thien", "Hill of Angels"],
+["Cu Chi", "Hells Half Acre", "Chu Chi"],
+["Da Lat", "Dalat"],
+["Dak To", "Dakto", "Doc To", "Dacto", "Dac To", "Battle for the Highlands", "Hill 875"],
+["Da Nang", "Danang", "DNG", "Happy Valley"],
+["DMZ", "demilitarized zone", "17th parallel", "Helicopter Valley", "I Corps", "Mutter's Ridge", "Ben Hai River", "demarcation line", "Hien Luong Bridge"],
+["Khe Sanh", "Khesanh", "Que San", "Que Sanh", "Que Son", "Queson", "Que Son Valley", "Duck Pond", "Khe Sanh Combat Base", "KSCB", "LZ Stud", "Operation Scotland", "Operation  Niagara", "Operation Pegasus", "Pegasus", "Operation Charlie", "FSB Vandegrift"],
+["Kim Son", "Kim Son Valley", "Eagle's Claw", "Crow's Foot", "Kim San"],
+["Lang Vei", "Lang Vay"],
+["Mekong Delta", "Me Kong Delta", "IV Corps"],
+["Saigon", "Sai Gon", "III Corps"],
+["Thanh Tuy Ha", "Tan Thuy Ha"],
+["U Minh Forest", "Forest of Darkness"],
+["Van Dien", "Little Detroit"],
+["1st Infantry Division", "Big Red One", "Blanket Division", "Bloody One"],
+["A-4 aircraft", "Skyhawk", "A-4 plane", "Scooter", "Tinkertoy"],
+["A-5 aircraft", "Vigilante", "A-5 plane"],
+["A-7 aircraft", "SLUF", "A-7 plane", "A-7 Corsair"],
+["ABN", "Airborne", "paratrooper", "heliborne", "helicopterborne"],
+["ACH-47", "armored Chinook", "armed Chinook", "Go-Go Bird", "Guns-A-Go-Go", "combat assault helicopter", "NOROC"],
+["AHB", "Assault Helicopter Battalion"],
+["AHC", "Assault Helicopter Company", "Hueys", "gunships", "Huey", "heavy fire team", "heavy gun team", "M-60", "lifeline", "monkey strap"],
+["aircraft", "a/c"],
+["Airmobile", "Aeromobile", "Air Mobile", "AMBL", "Airborne", "airmobile infantry", "eagle flight", "reaction platoon", "reaction force"],
+["AIT", "Advanced Individual Training", "Advanced Infantry Training"],
+["AK-47", "Kalashnikov", "Kalishnikov", "7.62mm", "banana clip", "enemy assault rifle", "viet cong war material"],
+["Alpha Alpha", "automatic ambush", "mechanical ambush"],
+["ambush", "guerrilla warfare", "guerilla warfare", "guerrilla tactics", "hit and run", "automatic ambush", "killer team", "sneak attack", "boobytrap", "decoy", "goodie", "grazing fire", "killing zone", "kill zone", "sniper", "kill fire", "lethal radius", "draw ambush", "mouse trap"],
+["ammunition", "ammo", "ready box"],
+["amphibious assault", "Task Force 76", "amphibious action"],
+["anti-aircraft artillery", "AAA", "antiaircraft artillery", "antiaircraft artillary", "groundfire", "general support"],
+["antipersonnel mine", "Claymore", "clacker", "perimeter defense", "Bouncing Betty", "daisy chain", "det cord", "XM-27", "gravel mine"],
+["ARA", "aerial rocket artillery", "Hog", "M3", "FFAR", "2.75\" rocket", "Cobra helicopter", "gunrun"],
+["ARL", "landing craft repair ship", "repair ship"],
+["artillery", "artillary", "Big Boys", "big stuff", "arty", "field of fire", "fire ball", "fireball", "fire for effect", "fire mission", "flare", "heavy stuff", "piss tube", "outgoing", "redleg", "red leg", "Phao Binh"],
+["artillery aiming stake", "red and white pole", "aiming stake", "trajectory"],
+["ARP", "Aero Rifle Platoon", "aero rifle"],
+["ART", "Armed Reconnaissance Team", "armed recon team"],
+["ARVN", "Arvin", "Army of the Republic of Vietnam", "double force", "lien doi", "ARVN Battalion Refresher Training", "ARVN special forces", "Quan Luc Viet Nam Cong Hoa"],
+["ASHC", "Assault Support Helicopter Company", "assault support helicopter", "eagle strike", "door gunner"],
+["ASPB", "Assault Support Patrol Boat", "Alpha boat", "Destroyer", "Minesweeper", "Mobile Riverine Force", "Monitor", "zippo boat"],
+["assassinate", "neutralize", "assassination", "sanitize"],
+["Australian anti-war", "Australian antiwar", "moratorium march", "Parliamentary Opposition", "induction centre"],
+["Australian command", "Australian Force Vietnam", "Commander Australian Force Vietnam", "COMAFV", "Commander 1st Australian Task Force", "1ATF", "1st Australian Logistic Support", "Australian Logistics"],
+["Australian forces", "Australian troops", "Royal Australian Air Force", "RAAF", "Royal Australian Regiment", "#RAR (use 1-9, e.g., 1RAR)", "Royal Australian Navy", "RAN Helicopter", "Australian advisor", "Australian Army Training Team", "Australian Field Hospital", "Australian nurse", "RAN Sydney", "Centurion tank", "Australian killed", "Australian wounded", "Australian training"],
+["Australian prime minister", "Prime Minister Robert Menzies", "Prime Minister Menzies", "Robert Menzies", "Prime Minister Harold Holt", "John McEwan", "Prime Minister John Gorton", "Prime Minister William McMahon", "Prime Minister Gough Whitlam"],
+["Australian in Vietnam", "Phuoc Tuy Province", "Phuoc Le", "Ba Ria", "Baria", "Nui Dat", "Australian, Vung Tau", "Bien Hoa Province", "Long Khanh Province", "Binh Tuy Province"],
+["Australian veteran", "Australian POW", "Australian MIA", "Australian missing in action", "Australian PTSD", "Australian Vietnam War Memorial"],
+["automatic weapons fire", "mad minute", "hose down", "hosedown", "mad mike", "mad moment"],
+["AVN", "Aviation"],
+["AWC", "Aerials Weapons Company"],
+["B-40 rocket", "B40", "RPG", "rocket-propelled grenade launcher"],
+["B-52", "B52", "B-52 bomber", "Stratofortress", "long-range heavy bombers", "Rolling Thunder", "Whispering Death", "BUFFS", "Arc Light", "arclight", "carpet bombing", "sorties"],
+["BAR", "Browning Automatic Rifle", ".30 caliber", "M-14"],
+["barbed wire", "concertina wire", "frankenstein", "tanglefoot"],
+["barbeque", "barbecue", "BBQ", "B-B-Q"],
+["Battalion", "Bn"],
+["berm", "berm line", "hedgerow", "dike", "perimeter fortification"],
+["Big Shotgun", "106mm recoilless rifle"],
+["Bladder Bird", "Flying Cow", "C-123", "C-130", "POL"],
+["bladder", "blivet", "seal bin", "rubberized collapsable drum", "POL"],
+["body count", "BC", "enemy dead", "enemy killed", "enemy KIA", "kill ratio", "favorable kill ratio", "mop up", "mop up operation", "War of Attrition", "cutting off ear", "ear necklace"],
+["bomb", "BLU-#", "MK", "GBU", "dumb bomb", "smart bomb", "guava", "butterfly bomb", "snakeye bomb"],
+["bomb, smart", "LGB", "laser-guided bomb", "EOGB"],
+["bombing sortie", "sorties", "protective reaction", "bombing mission", "skyspot", "airstrike"],
+["bombing North Vietnam", "Operation Rolling Thunder", "Rolling Thunder", "Freedom Train", "Operation Linebacker", "linebacker", "Christmas bombing", "going downtown", "Oplan 34", "Oplan 37", "Peace Offensive", "Pierce Arrow", "prohibited zone", "Proud Deep"],
+["booby trap", "concealed explosive device", "boobytrap", "FM 5-31", "finger charge", "tripwire", "trip-wire", "Tu Dai area", "Tu Dai"],
+["boondocks", "boonies", "bush", "field", "brush", "jungle", "triple canopy", "remote area"],
+["burn victim", "crispy critter"],
+["C-117", "Hummer", "flare mission"],
+["C-119", "flying boxcar", "aerial cargo", "cargo transport plane", "starlight", "AC-119 gunship", "AC-119K", "Stinger", "AC-119G", "AC-119G Shadow", "Project Gunship"],
+["C-130", "Hercules", "transport plane", "Herky", "Herk", "airlifter"],
+["C-47", "Gooney Bird", "utility aircraft", "utility airplane"],
+["C-5A", "Galaxy", "Lockheed"],
+["CAB", "Combat Aviation Battalion", "combat aviation"],
+["Caribou", "Army CV-2", "CV-2", "Air Force C-7", "CA-7", "MTT", "Medium Tactical Transport", "Air America"],
+["cavalry", "calvary", "Ca Be Ky Binh"],
+["CCB", "Command Communications Boat", "Command Communication Boat", "Command Control Boat", "Mobile Riverine Forces"],
+["CDEC", "Combined Document Exploitation Center", "captured enemy document", "National Interrogation Center", "NIC", "Combined Military Interrogation Center", "CMIC", "PSYOPS", "Personal History Statement"],
+["CH-34", "Sea Horse", "H-34"],
+["CH-37", "Mojave", "medium lift transport", "medium lift", "heavy lift", "aircraft recovery", "cargo helicopter", "Mohave"],
+["CH-47", "Chinook", "cargo helicopter", "Hook helicopter", "ACH-47", "shithook", "armored Chinook", "armed Chinook", "Go-Go Bird", "Guns A Go Go", "troop transport", "lift bird"],
+["CH-53", "Sea Stallion", "Rooster"],
+["CH-54", "Skycrane", "C-54"],
+["chaplain", "sky pilot"],
+["Chickasaw", "OH-19"],
+["Chicom", "China weapon", "chinese weapon", "chinese made weapon"],
+["CIDG", "Civilian Irregular Defense Group", "Luc Luong Ban Quan Tu Ve", "Luc Luong Bao An Ban Chinh Quy"],
+["Claymore mine", "M18", "steel cubes", "anti-personnel mine", "mechanical ambush", "The Animal", "The Monster", "C-4 explosive", "perimeter defense"],
+["Close Air Support", "CAS", "air strike", "bring smoke", "salvo", "laser", "weapons delivery", "air ordnance"],
+["cluster bomb", "bomblet", "fire bomb", "incendiary bomb", "fragmentation bomb", "anti-personnel mine", "anti-tank mine", "unexploded ordnance", "submunition", "landmine", "SUU", "Suspension Utility Unit", "BLU-3", "cbu"],
+["Cobra", "Huey Cobra", "AH-1G", "AH1G", "gunship", "Shark", "Snake", "attack helicopter", "HueyCobra", "gunbird", "red bird", "TH-1G", "gunrun"],
+["COFRAM", "firecracker round", "firecracker", "controlled fragmentation", "105mm", "155mm"],
+["combat", "cbt"],
+["combat fatigues", "jungle fatigues", "fatigues", "jungle utilities", "fatikees", "tiger suit", "greens", "tropical fatigues", "army green", "olive drab", "cammies", "camos", "boonie hat", "khakis", "camouflage", "fresh camouflage"],
+["combat patrol", "point man", "slack man", "gunner", "S&D", "S&C"],
+["Combat Tracker Team", "CTT", "dog handler", "tracker dog", "Jungle Warfare School", "JWS", "Labrador", "visual tracker", "cover man", "Fort Gordon", "Infantry Platoon Combat Tracker", "IPCT"],
+["Command & Control", "C&C", "Command & Control North", "CCN", "Task Force 1", "Command & Control Central", "CCC", "Task Force 2", "Command & Control South", "CCS", "Task Force 3", "MACV-SOG", "field command", "unconventional warfare", "guerrilla warfare"],
+["Commo", "communications", "commo wire", "Truyen Tin"],
+["Con Son Prison", "Poulo Condor", "Hell Island", "tiger cage"],
+["convoy", "Transportation Company", "Trans Co", "tanker unit", "Ambush Alley", "Orient Express", "caterpillar", "doan xe", "line haul", "long haul"],
+["Cordon and Search", "C&S", "C and S"],
+["covering fire", "cover fire", "stopper", "cross fire"],
+["C-rations", "Crations", "Cs", "charlie rats", "combat rations", "heat tabs", "P-38 can opener", "P-38", "SP pack"],
+["crazy", "dinky dau", "flaky", "freaky", "fugazi"],
+["CS gas", "tear gas", "anti-riot gas", "riot control gas", "riot control agent", "CS grenade"],
+["Cu Chi tunnels", "Little IRT", "Operation Crimp", "Operation Cedar Falls"],
+["Cu Loc Prison", "The Zoo"],
+["daisy cutter", "BLU-82", "BLU-82 bomb"],
+["DDP", "Daylight Defensive Position"],
+["deep serious", "deep shit", "overrun", "firefight", "broken arrow", "ambush", "hardspot", "hard spot"],
+["DENT CAP", "Dental Civilian Action Program", "DENTCAP"],
+["DEROS", "Date Eligible for Return", "Early-out", "Freedom Bird", "ETS", "date expected return", "tour of duty", "short timer", "date of departure", "departure date", "end of tour report", "Repo Depo", "fini flight"],
+["deuce and a half", "2.5 ton truck", "2.5 ton", "six-by"],
+["Donut Dolly", "Donut Dollies", "Doughnut Dollies", "Doughnut Dolly", "Red Cross woman", "Red Cross women", "Red Cross girls", "Doughnut Six", "Clubmobile"],
+["Douglas A-3", "Skywarrior"],
+["DOW", "died of wounds"],
+["DP", "displaced person"],
+["DSA", "Defense Supply Agency", "procurement"],
+["DZ", "Drop Zone"],
+["E&E", "escape and evasion", "escape and evade", "behind enemy line", "SAFE area", "Survival Evasion Resistance Escape", "SERE"],
+["ECM", "electronic countermeasure", "jamming", "detection", "deception"],
+["EOD", "explosive ordnance", "explosive ordinance"],
+["extraction", "extracted", "helilift", "exfiltration", "EXFIL", "forest penetrator", "flip-flop", "hot hoist", "ice it", "jungle penetrator", "pick up zone"],
+["F-100", "F-100 bomber", "Super Sabre", "lead bird"],
+["F-101", "Voodoo", "supersonic", "fighter plane", "fast bird"],
+["F-102", "Delta Dart", "F-106", "Delta Dagger", "strip alert"],
+["F-4", "Phantom", "fast mover", "fighter plane", "strip alert", "fast bird", "F-4B", "F-4C", "MACH-2", "fly by", "Fox Four", "Sidewinder"],
+["F-5 aircraft", "Freedom Fighter", "Freedom Fighter plane", "F-5 plane"],
+["FAC", "Forward Air Controller", "Forward Air Controllers", "bird dog", "Forward Controller", "FC", "close air support", "O-1 Cessna", "light observation aircraft", "light observation plane", "spotter plane", "O-2", "Mixmaster", "OV-10", "Misty Bronco"],
+["FAG", "Forward Air Guide", "field artillery guy"],
+["FB", "Firebase", "Fire Base", "FSB", "Fire Support Base", "FSA", "Fire Support Area", "FSPB", "Firs Support Patrol Base", "searchlight", "xenon light"],
+["FFAR", "folding fin aerial rocket", "folding fin"],
+["field service", "memorial service", "field cross"],
+["firefight", "fire fight", "enemy contact", "skirmish"],
+["first up", "lead helicopter", "lead chopper"],
+["fish sauce", "nuoc mam"],
+["flak", "antiaircraft fire", "shrapnel", "flak jacket", "flack", "flack jacket", "flak vest", "chicken plate"],
+["flag", "colors"],
+["flare", "illumination flare", "hand-held flare", "green flare", "red flare", "white flare", "aerial flare", "flare ship", "flareship", "moonshine", "night operation", "parachute flare"],
+["flechette", "fleshette", "beehive", "steel dart"],
+["FNG", "fucking new guy", "new in country", "new incountry", "cherry", "boots", "newby", "newbie", "buddy system", "Replacement Depot", "repo depo", "cut orders", "replacement training"],
+["FM", "Field Manual"],
+["FOB", "Forward Operating Base"],
+["fougas", "phougas", "fu-gas", "jellied gas", "napalm", "phou-gas", "foo-gas"],
+["FORCAP", "Force Combat Air"],
+["foxhole", "fighting hole", "entrenching tool", "E-Tool"],
+["FPJMC", "Four Party Joint Military Commission", "Four Party Joint"],
+["free-fire zone", "FFZ", "free drop zone", "free strike area", "free strike zone", "village relocaiton", "peasant relocation", "civilian relocation", "civilian relocate", "Specified Strike Zone", "Strategic Hamlet Program"],
+["friendly fire", "friendly wounds", "misadventure", "nonhostile casualty"],
+["FTA", "fun travel adventure", "fuck the Army"],
+["FUO", "Fever Unknown Origin"],
+["ghost time", "time off duty", "off duty time", "free time"],
+["grenade", "fragmentation grenade", "hand grenade", "frag grenade", "fragged", "hand frag", "pineapple grenade", "CS grenade", "SM-54", "smoke grenade", "pop smoke", "M-18 grenade", "baseball grenade"],
+["gunship", "Cobra", "Hueys", "M-60", "door gunner", "monkey strap", "lifeline", "red smoke grenade"],
+["H-21", "Shawnee", "transport helicopter", "flying banana", "Workhorse", "troop transport"],
+["H&I", "harrassment and interdiction", "harassment and interdictory", "harassing fire", "interdictory", "artillery bombardment", "dumb bomb", "high angle hell", "GBU", "Thunder Run"],
+["HA(L)", "Helicopter Attack Light"],
+["HALO", "High Altitude Low Opening", "troop insertion", "helilift", "paratrooper", "helo cast"],
+["hangar", "hanger"],
+["Hawks", "reconnaissance platoon", "recon platoon"],
+["HE", "high explosive", "Hotel Echo", "big stuff", "H&E", "hercules missile"],
+["HEAT", "High Explosive Anti Tank"],
+["helipad", "chopper pad", "landing pad", "landing zone"],
+["helmet", "pith helmet", "steel pot", "steel helmet"],
+["HH-43", "Huskie", "Husky", "local base rescue", "fire fighter", "crash rescue", "Air Rescue Team", "rescue helicopter"],
+["Highway 1", "Hwy 1", "Street Without Joy", "convoy", "supply route"],
+["Highway 13", "Hwy 13", "Thunder Road"],
+["Hillsboro", "command control aircraft"],
+["Ho Chi Minh", "Nguyen Ai Quoc", "Uncle Ho", "Office of Strategic Services", "Viet Minh"],
+["Ho Chi Minh sandals", "Ho Chi Minhs", "Ho Chi Minh slippers", "tire sandals"],
+["hospital ship", "USS Repose", "AH-16", "USS Sanctuary", "AH-17", "medical ship"],
+["howitzer 105mm", "howitzer 105 mm", "dime nickel"],
+["HUAC", "House Un-American Committee", "House Un-American"],
+["Huey", "U1-H1", "UH-1", "HU-1", "Iroquois", "chopper", "whirlybird", "utility helicopter", "blade time", "bird", "eagle flight", "heliborne", "NOROC"],
+["Huey mechanic", "crew chief"],
+["Hunter-Killer", "Iron Hand", "Iron Hand Mission"],
+["IBS", "inflatable boat"],
+["ICC", "International Control Commission"],
+["I & I", "intelligence and interdiction", "night artillery"],
+["Infantryman", "Grunt", "Cruncher", "Ground Pounder", "boonierat", "blueleg", "groundpounder", "boonie rat", "crunchies", "new recruit", "saddle up"],
+["INTSUM", "intelligence summary"],
+["IPW", "Prisoner of War interrogation", "Prisoner of War interrogate"],
+["IR mission", "Infrared Mission", "Infrared", "hotspots", "Infra-red", "hot spots", "IR readout"],
+["Jane Fonda", "Hanoi Jane"],
+["Jolly Green Giant", "Jolly Green", "Jolly", "HH-53", "heavy rescue helicopter", "HH-3E", "CH-54", "CH-3", "Jolly Green SAR", "Jolly Green Search Rescue"],
+["JTF", "Joint Task Force"],
+["K-9", "K9", "canine", "scout dog", "guard dog", "patrol dog", "tunnel dog", "sentry dog", "Air Police Squadron", "war dog", "dog handler", "lancer", "K-Nine", "military working dog"],
+["K-Bar", "Kabar", "survival knife"],
+["KBH", "Killed by Helicopter"],
+["KC-135", "Stratotanker", "flying gas station"],
+["KHA", "Killed Hostile Action", "American KHA", "U.S. KHA"],
+["Khmer Peoples National Liberation Front", "KPNFL", "Cambodia resistance", "Cambodia resistance group", "Khmer Serai", "Khmer Serei", "Sereika", "Khmer Kampuchea Krom", "Khmer Kampuchea"],
+["KIA", "Killed in Action", "Kool-Aid", "Kilo India", "presumed KIA", "PKIA", "casualties", "friendly losses"],
+["Kill Team", "hit team", "KT", "ding team"],
+["killing", "get it on", "get some", "get wet", "kill zone", "lethal radius"],
+["kilometer", "klick"],
+["LAAW", "LAW", "66mm rocket", "66 mm rocket", "rocket launcher", "Light Anti-Armor", "Light Anti-Tank", "bazooka", "M-72", "M72", "bunker buster"],
+["landing pad temporary", "aluminum matting", "pierced aluminum plank", "Marston mat", "Am-2", "hardstand", "pierced steel plate", "PSP", "perforated steel place", "MN-19", "tarmac"],
+["landlines", "telephone lines", "lima lima", "lema lema", "road sweep"],
+["Lao Dong", "Vietnamese Workers Party"],
+["LAPES", "low altitude parachute extraction", "insert equipment"],
+["LBE", "load bearing equipment", "web belt", "suspender", "load carrying equipment", "bag strap", "equipment belt"],
+["LCM", "Landing Craft Medium", "Mike Boat", "riverine"],
+["LCPL", "Landing Craft Personnel, Large"],
+["LDNN", "Lien Doi Nguoi Nhai", "Vietnamese Navy Seal", "Navy Seal counterpart"],
+["LGH", "Large Green Helicopter"],
+["Litterbug", "Remotely Piloted Vehicle", "RPV", "propaganda leaflets", "drop propaganda leaflets"],
+["LOH", "LOACH", "Lt Hel", "Light Observation Helicopter", "air reconnaissance", "OH-6A", "White Team", "Pink Team", "OH-58A", "Kiowa"],
+["Log Bird", "logistics bird", "resupply bird", "resupply helicopter", "log run", "logistics helicopter", "logging"],
+["LORAN", "Long Range Radio Navigation", "position fixing system"],
+["LPH", "Amphibious Assault Ship", "aircraft carrier", "aircraft transport", "flattop", "flat top"],
+["LZ", "Landing Zone", "hot LZ", "red LZ", "green LZ", "safe LZ", "cold LZ", "LZ cut", "Lima Zulu", "LZ prep"],
+["M-107", "175mm", "Long John", "Long Tom", "long-range artillery", "long-range artillery gun", "heavy artillery"],
+["M-16", "Assault rifle", "M16", "M-16-1A", "black magic", "rock-n-roll", "grazing fire", "LSA", "small arms lubricant", "lock and load", "Matty Mattel", "widow maker", "5.56mm", "Colt rifle", "small arms fire"],
+["M-21", "XM-21", "Sniper Weapon System"],
+["M-3", "grease gun", ".45 caliber", "Special Forces Recon Team"],
+["M-38", "M38", "Army jeep", "rat patrol"],
+["M-42", "anti-aircraft tank", "Duster", "40mm", "pom poms", "M42", "tracked vehicle", "perimeter defense", "perimeter security", "convoy security", "antiaircraft guns"],
+["M-561", "1-1/4 ton truck", "Gama Goat"],
+["M-60", "The Gun", "light machine gun", "LMG", "The Pig", "7.62mm", "7.62 mm", "minigun", "gunner", "assistant gunner", "ammunition bearer", "ammo bearer", "ammo humper", "GPMG", "bandoliers", "strafe", "gatling", "grazing fire", "Hog-60"],
+["M-79", "M-79 grenade launcher", "thump-gun", "thumper", "blooper", "chunker", "burp gun", "grenadier"],
+["mad minute", "automatic weapons fire", "expend ordnance", "hose down", "hosedown", "mad mike", "mad moment", "mike-mike"],
+["malaria", "vivax", "falciparum", "malaria tablet"],
+["map", "map location", "grid coordinates", "grid square", "fix location", "grids", "funny paper", "pictomap", "sit map"],
+["Marine", "Leatherneck", "jarhead", "Snuffy"],
+["Marine Amphibious Force", "Marine Expeditionary Force"],
+["MASH", "Mobile Army Surgical Hospital"],
+["MAT", "Mobile Advisory Team", "MAT team", "Province Senior Advisor", "PSA", "District Senior Advisor", "DSA", "RF/PF", "Mobile Advisory Logistics Team", "Vietnamization", "counterparts"],
+["McNamara Line", "McNamara Wall", "McNamara's Wall", "Illinois City", "Operation Dye Marker", "DMZ electronic fence", "McNamara's Fence"],
+["mechanical mule", "M274", "Mule"],
+["medal", "Medal of Honor", "Silver Star", "Legion of Merit", "Distinguished Flying Cross", "Meritorious Service Medal", "Bronze Star Medal", "Purple Heart", "Air Medal", "Vietnam Service Medal", "Armed Forces Expeditionary Medal", "National Defense Service Medal", "Awarded for Valor", "Awarded for Merit", "fruit salad", "Good Conduct Medal"],
+["medal, service", "medal, campaign", "service ribbon", "service star", "service stripe"],
+["MEDCAP", "Med-Cap", "Medical Civic Action Program", "Medical Civil Action Program", "civilian health program"],
+["medic", "corpsman", "Doc", "combat medic", "bac si", "medical corps", "six type", "medevac", "cracker box", "field ambulance", "band aid", "litter case", "M-5 bag", "M-5 kit", "syrette", "Quan Y"],
+["MILPHAP", "Military Provincial Health Assistance", "MILPHAP Advisory Team", "civilian health program"],
+["military map", "topographic map", "comics", "funny papers"],
+["Military Police", "MP", "Mike Papa", "checkpoint", "check point", "Quan Cahn", "Canh Sat Quan Su", "Quan Canh"],
+["mining ports", "Duck Hook", "Pocket Money"],
+["Monitor", "Assault Support Patrol Boat", "zippo boat", "Mobile Riverine Force"],
+["MOS", "Military Occupational Specialty", "new MOS", "change MOS"],
+["MPC", "Military Payment Certificate", "military scrip", "funny money", "Military Payment Currency", "monopoly money", "ration card"],
+["MSB", "minesweeping boat", "Mobile Riverine Force"],
+["MSC", "coastal minesweeper"],
+["MSF", "Mobile Strike Force", "Mike Force", "Mobile Guerrilla Force"],
+["MSO", "ocean minesweeper"],
+["MSTS", "Military Sea Transportation Service", "aircraft ferry"],
+["MTT", "Mobile Training Team"],
+["MUST", "Medical Unit Self-Contained Transport", "mobile hospital", "Bubbles"],
+["napalm", "nape", "jellied gas", "napalm incendiary", "flamethrower", "napalm weapon", "zippo", "defoliant weapon", "jellied petroleum", "selective ordnance"],
+["native", "natire"],
+["NCRC", "National Council of Reconciliation and Concord"],
+["NDP", "night defensive position", "night defense position", "night defensive perimeter", "night defense perimeter", "remain overnight", "night location"],
+["Neptune", "patrol aircraft", "SP-2H"],
+["NFZ", "No Fire Zone"],
+["North Vietnam operations", "Operation Dewey Canyon", "Operation Rolling Thunder", "Operation Linebacker II", "Operation Popeye", "Operation Ivory Coast", "Task Force 77"],
+["North Vietnam weapon", "North Vietnam equipment", "AK-47", "M-46", "Chicom", "Chicom grenade", "potato masher", "MiG-17", "K-50M", "RPG-2", "Mi-8", "Type 56", "Molotova truck", "RPD", "SA-7", "grail", "SA-2", "SKS", "TT-33", "ZPU-4"],
+["NPD", "night perimeter defense", "laager", "lager", "listening post", "LP", "early warning", "picket line", "trip flare", "Claymore mine"],
+["obstacle course", "infiltration course"],
+["OCO", "Office of Civil Operations", "CORDS", "USAID"],
+["OCS", "Office Candidate School"],
+["OH-6A", "Cayuse", "OH-6", "white bird", "LOH", "Loch", "tadpole", "light observation"],
+["OP", "Observation Post"],
+["Operation", "Op.", "Opn", "OPS", "covert operation", "sweeping operation", "intelligence operation", "mop up operation", "night operation", "rescue operation", "supply operation", "recon operation", "roadrunner operation", "village sweep", "zippo mission", "Vietnam Counteroffensive", "road clearing", "CP location", "Command Post location"],
+["ordnance", "ordinance", "Quan Cu"],
+["PACV", "Patrol Air Cushion Vehicle", "hovercraft"],
+["paratrooper", "parachute commando", "Airborne training", "elite unit", "hazard pay", "parajumper", "parachute rescue", "behind enemy lines", "infiltration mission"],
+["Pathfinder", "Black Hats", "airborne operation", "LRRP", "insert team", "bushmaster", "elite unit", "Pathfinder Badge", "Pathfinder course"],
+["PBR", "patrol boat riverine", "patrol boat river", "River Patrol Force", "Brown Water Navy"],
+["PCF", "patrol craft fast", "swift boat", "swiftboat", "Brown Water Navy", "inshore patrol craft"],
+["Philippines", "Philippine troops", "Philippine nurse", "Filipino troops", "Philippine engineer", "PHILCAGV", "PHILCAG", "Ferdinand Marcos"],
+["pilot down", "downed pilot", "Fulton Recovery", "retrieve pilot", "rescue pilot", "pilot eject", "pilot punch out", "phi cong"],
+["platoon", "PLT", "platoon leader"],
+["POL", "petroleum, oil, lubricant", "POL point", "POL point", "POL strike"],
+["Pony Express", "courier flight", "Errand Boy"],
+["POW North Vietnamese", "POW Viet Cong", "POW NVA", "POW PAVN", "captured PAVN", "tu binh"],
+["POW South Vietnamese", "SVN POW", "ARVN POW", "captured ARVN", "ARVN prisoner"],
+["PRU", "Provincial Reconnaissance Unit"],
+["PSDF", "Peoples Self Defense Force", "village militia", "hamlet militia"],
+["punji stick", "punji stake", "pungee", "boobytrap VC", "punji pit", "punji trap", "bamboo stake", "poison stake"],
+["PX", "post exchange", "BX", "base exchange"],
+["Quad-50", ".50 cal machine gun", ".50 caliber machine gun"],
+["RAC", "Reconnaissance Airplane Company"],
+["RAG", "River Assault Group", "STAN/FOM"],
+["Raven", "OH-23", "LOACH", "light observation helicopter"],
+["RD cadre", "Rural Development Cadre", "pacification"],
+["reconnaissance", "recce", "recon by fire", "RBF", "recon flight", "red haze", "observation flight", "RF-8A", "RIF", "Reconnaissance in Force"],
+["Reconnaissance in Force", "recon in force", "military sweep", "search and destroy", "search and clear", "sweeping operation", "helicopter assault"],
+["recruitment program", "Great Society Program", "Project 100,000", "recruiting office", "military recruiting"],
+["REMF", "Rear Echelon", "Rear Echelon troops", "RAMF", "pogue", "support capacity", "rear area", "rear duty"],
+["revetment", "revetment area", "plane revetment", "airfield revetment", "sandbag revetment"],
+["rice paddy", "rice patty", "rice paddies"],
+["Rolling Thunder Operation", "Flaming Dart", "USS Hancock", "USS Coral Sea", "Route Package"],
+["Rome plow", "bulldozer", "D-7", "jungle eater", "land clearing operation", "engineer battalion", "dozer"],
+["RON", "remain overnight", "NL", "night location"],
+["RPC", "river patrol craft"],
+["RSP", "ration supply pack", "ration card"],
+["RTO", "radio telephone operator", "field radio", "PRC-25", "Prick-25", "PRC-77", "PRC-74", "PRC-10", "portable radio", "backpack radio", "radioman", "shackle", "scrambler", "Radio Intercept Officer", "signal hill", "TACAN", "talk quick", "wilco"],
+["rucksack", "ruck sack", "backpack", "saddle up", "haversack", "field pack", "humping"],
+["Rules of Conduct", "Nine Rules"],
+["rumors", "scuttlebutt"],
+["S&C", "Search & Clear", "search and clear", "clearing operation", "free-fire zone"],
+["S&S", "Supply & Service", "Supply and Service", "supply unit", "Search and Seize"],
+["SAC", "Strategic Air Command", "Strategic Air Command Advanced Echelon", "SACADVON", "Surveillance Aircraft Company"],
+["sapper", "Viet Cong commando", "VC commando", "NVA commando", "NVA infiltrator", "VC demolition", "sapper team", "sapper inside wire", "satchel charge", "sapper tactics", "sapper training", "three-man cell"],
+["SARC", "SARCAP", "combat reporting center"],
+["SATS", "SATS system", "Short Airfield Tactical Support", "catapult"],
+["Scoutship", "OH-13", "OH-23"],
+["Sea Knight", "H-46"],
+["Secretary of Defense, U.S.", "SecDef", "George Marshall, Jr.", "Robert Lovett", "Charles Wilson", "Neil McElroy", "Thomas Gates", "Robert McNamara", "Clark Clifford", "Melvin Laird", "Elliot Richardson", "James Schlesinger"],
+["Secretary of State, U.S.", "SecState", "John Foster Dulles", "Christian Herter", "Dean Rusk", "William Rogers", "Henry Kissinger"],
+["seismic intrusion device", "PSID", "MORSID", "MAGID", "PIRID", "miniSID", "microSID"],
+["Sidewinder", "side winder", "AIM-9", "heat-seeking missile", "infrared missile", "Fox Two", "F-4"],
+["Sioux", "Bubble", "OH-13", "LOACH"],
+["situation report", "Sit-Rep", "SitRep"],
+["Skimmer", "Boston Whaler", "Riverine forces"],
+["Skyraider", "Douglas A-1", "A-1E", "Close Air Support", "VNAF", "South Vietnamese Air Force", "Sandy escort"],
+["SLAR", "side-looking airborne radar"],
+["Slick", "UH-1 assault helicopter"],
+["snatch mission", "snatch", "detainee", "VC suspect", "interrogate suspect", "snatcher"],
+["sniper", "dinger", "ding team"],
+["Son Tay Prison", "Sontay Prison", "Ivory Coast"],
+["South Vietnam Civilian Irregular Defense Group", "Civilian Irregular Defense Group", "Luc Luong Nhau Dan Tu Ve", "CIDG", "South Vietnam Special Forces", "VNSF", "Mike Force", "Vietnamese Ranger", "Vietnamese Rangers", "LLDB", "Luc Luong Dac Biet", "Hatchet Team", "cross border operation"],
+["South Vietnam Popular Forces", "Popular Forces", "PF unit", "Nghia Quan", "RF/PF", "Ruff Puff", "village militia", "U.S. Military Advisor", "Combined Action Platoon", "Mobile Advisory Team", "RF/PF upgrading", "Regional Forces Popular Forces upgrading"],
+["Spectre", "AC-130"],
+["Spooky", "Spookies", "Snoopy", "AC-47", "dragonship", "Dragon ship", "Puff the Magic Dragon", "miniguns", "C-47"],
+["SPT", "support"],
+["Starlifter", "C-141", "military cargo aircraft"],
+["Starlight", "night reconnaissance", "starlight scope"],
+["STOL", "Short Take Off and Landing"],
+["SVC", "service"],
+["Swimmer Support Boat", "Dong Nai Boat", "styrofoam boat"],
+["TAC CP", "Tactical Command Post"],
+["TACC", "Tactical Air Control Center"],
+["TARCAP", "Target Combat Air Patrol"],
+["TASS", "Tactical Air Support Squadron"],
+["TCMS", "Tactical Control Maintenance Squadron"],
+["TF", "Task Force"],
+["TOC", "Tactical Operations Center"],
+["tree line", "treeline", "green line", "wood line"],
+["Troop", "Trp"],
+["TRW", "Tactical Reconnaissance Wing"],
+["under fire", "under enemy fire", "hot", "red", "dangerous", "ambush"],
+["UCMJ", "Uniform Code of Military Justice", "Uniform Code", "Military Justice", "Red Book"],
+["unconventional warfare", "guerrilla warfare", "escape and evasion", "sabotage", "covert operation", "clandestine operation"],
+["US Army", "U.S. Army", "United States Army", "General William Westmoreland", "Westy", "General Creighton Abrams", "General Fred C. Weyand", "Support Command Vietnam", "SUPCOM", "USARV", "USARPAC"],
+["US Coast Guard", "U.S. Coast Guard", "USCG"],
+["US Marines", "U.S. Marines", "United States Marines", "USMC", "Marine Unit Vietnam", "SHUFLY", "III MAF", "Third Marine Amphibious Force", "General Lewis W. Walt"],
+["USO", "United Service Organization"],
+["USOM", "United States Operations Mission", "Office of Rural Affairs"],
+["veteran U.S.", "Operation Outreach", "outreach center", "readjustment counseling"],
+["Veterinary Corps", "veterinarian", "DVM", "Small Animal Hospital", "Veterinary Detachment", "dog medevac"],
+["Viet Cong boobytrap", "VC boobytrap", "Viet Cong booby trap", "VC booby trap", "bicycle mine", "cartridge trap", "spike board", "trap bridge", "mace", "spike trap", "punji stick", "bamboo stakes", "earth pit", "Malay whip"],
+["Viet Cong Captured", "VCC"],
+["Viet Cong Infrastructure", "VCI", "shadow governement", "Viet Cong government", "VCI cadre", "Communist cadre", "Communist infrastructure", "COSVN", "Phoenix Program", "Provisional Revolutionary Government"],
+["Viet Cong rifle", "Viet Cong assault rifle", "AK-47", "K-44", "K-50", "Chicom Type-56", "PPSh-41", "MAT49", "RPD-7", "75mm recoilless"],
+["Viet Cong Suspect", "VCS", "VC Suspect"],
+["Viet Cong weapon", "Viet Cong claymore mine", "DH-5", "DH5", "DH-10", "T-54 tank", "Type-24", "RPG-7", "Tokarev", "Makarov", "81mm mortar"],
+["Vietnam Memorial", "Vietnam War Memorial", "Vietnam Veterans Memorial", "The Wall", "Vietnam Women's Memorial", "In Memory Project"],
+["Vietnam Veteran U.S.", "Operation Outreach", "outreach center", "readjustment counseling", "Viet-Nam Veteran"],
+["Vietnam War", "Second Indochina War", "Chien Tranh Viet Nam", "Khang Chien Chong My", "Resistance War Against America", "war of containment"],
+["Vietnamese transportation", "rickshaw", "cycle rickshaw", "bicycle taxi", "sampan", "Ghe Nang", "ghe", "houseboat", "round boat", "coracle", "basket boat", "thung chai", "bamboo boat", "bamboo canoe", "scooter taxi", "Lambretta", "pedicab", "Quan Van"],
+["Vietnamese clothing", "conical hat", "non la", "ao dai", "ao ba ba"],
+["Vietnamese girlfriend", "manoi", "ma noi"],
+["vietnamization", "Dong Tien", "de-americanization", "Hamlet Upgrading Team", "U.S. troop withdrawal", "Keystone", "Operation Keystone", "keystoned"],
+["VR", "visual reconnaissance", "visual recon"],
+["VVA", "Vietnam Veterans of America"],
+["War of Attrition", "body count", "kill ratio", "war statistics", "enemy erosion", "casualty estimate", "weapons captured", "WIEU", "Weekly Intelligence Estimate"],
+["war crime", "atrocity", "atrocities", "mass murder", "civilian murder", "civilian casualties", "Winter Soldier Investigation", "My Lai", "Tiger Force", "payback", "brutality", "massacre", "egregious", "revenge"],
+["water purification tablet", "halazone"],
+["web gear", "web belt", "war belt"],
+["WIA", "Wounded in Action", "dust off", "mass-cal", "Wounded Hostile Action", "MFW", "multiple frag wounds", "notched", "McGuire rig", "rig line", "STABO", "rescue wounded", "torso harness", "medic", "triage", "casualty report", "casualties", "friendly losses"],
+["WP", "white phosphorus", "Willy Pete", "Willie Pete", "incendiary", "Whiskey Papa"],
+["zippo", "flamethrower", "flame thrower", "zippo mission", "zippo boat", "zippo monitor", "zippo raid", "zippo squad", "zippo track", "M10-8"],
+["Zumwalt, Elmo R.", "Admiral Zumwalt", "ERZ", "E.R. Zumwalt", "E. R. Zumwalt"],
+["2nd Lieutenant", "Second Lieutenant", "2LT", "Butter Bar", "Brown Bar", "Thieu Uy"],
+["AG", "Adjutant General", "Assistant Gunner"],
+["Brigadier General", "BG"],
+["Colonel", "COL", "full bird", "Thuong Ta", "Lieutenant Colonel", "Trung Ta", "Senior Colonel", "Dai Ta"],
+["Commanding General", "CG"],
+["Commanding Officer", "CO", "honcho", "head honcho"],
+["Company Commander", "CC"],
+["Corporal", "CPL", "Ha Si", "Ha Si Nhat", "Corporal 1st Class", "Ha Si Nhut"],
+["Captain", "CPT", "Cap.", "Capt.", "Dai-uy", "di wee", "Dai Uy"],
+["Chief Warrant Officer", "CW1", "CW2", "CW3", "CW4"],
+["ENGR", "engineer"],
+["First Sergeant", "1st Sergeant", "First Shirt", "1st Shirt", "Top Kick", "First Sleeve", "First Pig", "First Sargeant", "Trung Si Nhat", "Trung Si Nhut"],
+["G-1", "personnel and administration"],
+["G-2", "intelligence", "counterintelligence"],
+["G-3", "plans and operations", "tactical advisor"],
+["G-4", "supply and logistics"],
+["G-5", "occupied military government"],
+["Gunnery Sergeant", "GySgt", "gunny", "gunney"],
+["Inspector General", "IG"],
+["Lance Corporal", "LCPL"],
+["Master Sergeant", "MSGT", "Master Sargeant", "Thuong Si"],
+["NCO", "noncommissioned officer", "non-commissioned officer", "NCOIC", "noncom", "squad leader", "platoon sergeant"],
+["Property Book Officer", "PBO"],
+["Private First Class", "PFC", "Binh Nhut", "Private", "Binh Nhi"],
+["Personnel", "S-1"],
+["PIO", "Public Information Officer"],
+["TAOR", "Tactical Area of Operations"],
+["Supply", "S-4"],
+["Sergeant", "SGT", "sargeant", "Trung Si"],
+["Staff Sergeant", "SSGT", "Staff Sargeant"],
+["Warrant Officer", "WO", "Chan Uy"],
+["Executive Officer", "XO"],
+["Combined Reconnaissance and Intelligence Platoon", "CRIP"],
+["Logistics and Administration Advisory Team", "LAAT"],
+["Improvement Action Team", "IMPACT"],
+["Area Coordination Center", "ACC", "consolidation operation"],
+["DOICC", "District Operations and Intelligence Control Center", "CORDS"],
+["M109", "M-109", "155mm howitzer", "155mm self-propelled howitzer", "self-propelled howitzer"],
+["Personal History Statement", "PHS", "CDEC PHS"],
+["Church World Services", "CWS", "Domestic & Foreign Missionary Service of the Episcopal Church of the USA", "International Catholic Migration Commission", "ICMC", "International Rescue Committee", "IRC", "Lutheran Immigrant Aid Society", "LIRS", "United States Catholic Conference, Migration & Refugee Services", "US Conference of Catholic Bishops", "USCCB", "IRSA", "World Relief Corporation, Immigrant & Refugee Services of America", "ODP Assisting Agencies"],
+["FVPPA", "Families of Vietnamese Political Prisoners Association"],
+["NEZ", "New Economic Zone"],
+["Refugee Camp", "Trai Ti Nan"],
+["Engineering", "Cong Binh"],
+["Parachute Commando", "Biet Kich Du"],
+["Presidential Guard", "Ho Ve Tong Thong", "Ve Binh", "Bao Ve Tong Thong"],
+["South Vietnamese Marines", "VNMC", "Republic of Vietnam Marine Corps", "Thuy Quan Luc Chien"],
+["Women's Army Auxiliary Corps", "WAC", "Women's Armed Force Corps", "WAFC"],
+["Admiral", "Do Doc", "Rear Admiral", "Chuan Do Doc", "Vice Admiral", "Pho Do Doc"],
+["Airman", "Binh Nhat", "Airman 1st Class", "Binh Nhat"],
+["Commander", "Trung Ta", "Lieutenant Commander", "Thieu Ta"],
+["Commodore", "Dai Ta"],
+["Ensign", "Thieu Uy"],
+["5 Star General", "General of the Army", "Colonel General", "Thong Tuong", "4 Star General", "General", "Gen", "Army Chief of Staff", "Dai Tuong", "3 Star General", "Lieutenant General", "LTG", "Trung Tuong", "2 Star General", "Major General", "MG", "Thieu Tuong", "1 Star General", "Brigadier General", "BG", "Chuan Tuong"],
+["Major", "Thieu Ta"],
+["Seaman", "Binh Nhat", "Binh Nhi"],
+["Lieutenant", "LT", "Dai Uy"],
+["Birth Certificate", "Giay Khai Sinh", "Giay Khai Sanh"],
+["Civilian ID", "Giay Chung Minh Nhan Dan", "Giay Can Cuoc", "The Can Cuoc"],
+["Death Certificate", "Giay Khai Tu"],
+["Driving Permit", "Bang Lai Xe"],
+["Exit Permit", "Giay Cho Phep Xuat Canh"],
+["High School Diploma", "Bang Tot Nghiep Trung Hoc"],
+["House Record", "So Ho Khau Gia Dinh", "So Khai Gia Dinh"],
+["Marriage Certificate", "Giay Hon Thu", "Giay Ket Hon"],
+["Military Training", "Huan Luyen Quan Su"],
+["Prisoner Release Certificate", "Giay Ra Trai"],
+["University Diploma", "Bang Dai Hoc", "Bang Cap Dai Hoc"],
+["Air Cavalry", "Airmobile", "1st Cavalry Division", "First Team", "101st Airborne Division", "Screaming Eagles", "AirCav", "reverse planning", "Assault Helicopter Battalion", "Assault Helicopter Company", "Assault Support Helicopter Battalion", "Assault Support Helicopter Company", "LRRP", "Rangers", "11th Air Assault Test"],
+["correspondence", "letter", "personal letter", "audio letter"],
+["smoke screen", "smoke generator", "XM-52", "Smokey the bear"],
+["OV-1", "Mohawk", "Grumman OV-1", "OV-1B", "aerial surveillance", "sensor aircraft"],
+["EC-47", "Electric Goon", "Gooney Bird", "Goonie Bird", "6994th", "6994th Security", "electronic reconnaissance aircraft", "ARDF", "Airborne Direction Finding", "Forward Air Controller"],
+["7th Radio Research Field Station", "7th RRFS", "Ramasun Station", "ARDF", "Aerial Radio Direction Finding", "radio direction finding", "Army Security Agency", "USASA", "Snoopy Mission", "RU-8D", "Twin Bonanza", "Udorn, Thailand"],
+["Igloo White", "Practice Nine", "Illinois City", "Dye Marker", "Commando Hunt", "Muscle Shoals", "aerial interdiction", "seismic sensor", "Infiltration Surveillance Center", "533rd Reconnaissance Wing"],
+["water buffalo", "carabao"],
+["Dragon ship", "dragonship", "AC-47", "Puff", "Spooky", "Spookies", "Magic Dragon", "Gabby"],
+["Dien Bien Phu", "Muong Thanh"],
+["Military Region", "Corps Tactical Zone", "I Corps", "II Corps", "III Corps", "IV Corps", "I CTZ", "II CTZ", "III CTZ", "IV CTZ"],
+["LRPR", "long-range patrol rations", "lurps"],
+["Ap Bia", "Apbia", "Hill 937", "Hamburger Hill", "Operation Apache Snow", "A Shau Valley", "Apache Snow"],
+["Bachelor Officer Quarters", "BOQ"],
+["Foreign Broadcast Information Service", "FBIS"],
+["Hanoi Hilton", "Hoa Lo Prison", "Hoa Loa Prison", "The Garage", "Golden Nugget", "American POW", "prisoner of war camp", "Heartbreak Hotel", "Quiz Room", "New Guy Village", "Battle of Hanoi"],
+["Workers' Party", "Communist Party of Vietnam", "����������ng Lao �����������ng Vi�������t Nam"],
+["National Liberation Front of South Vietnam", "NLF", "M������t tr������n D����n t�������c Gi������i ph����ng mi������n Nam Vi�������t Nam", "Viet Cong", "VC", "NLFSV", "NLFSVN"],
+["HA(L)-3", "HAL-3", "Seawolf", "Seawolves", "Helicopter Attack Light Squadron 3", "Helicopter Attack Light Squadron Three", "Helatkltron-3"],
+["MACOI", "Military Assistance Command Office of Information"],
+["NVA", "North Vietnamese Army", "PAVN", "Peoples Army of Vietnam", "Peoples Army of Viet-Nam", "bo doi", "General Vo Nguyen Giap", "Van Tien Dung", "patriotic forces", "patriotic armed forces"],
+["tunnels", "tunnel rat", "tunnel dog", "tunnel blower", "Mity Mite", "Mighty Mite", "spider hole", "enemy fighting hole", "Cu Chi tunnels", "Tunnel Exploration Kit"],
+["Khmer Rouge", "red khmers", "Cambodian Communist Party", "Khmers Rouges", "Angka"],
+["PERINTREP", "Periodic Intelligence Report"],
+["Project 100,000", "Project 100000", "Project One Hundred Thousand", "McNamara 100,000", "New Standards Men"],
+["Passport", "Ho Chieu", "Giay Thong Hanh", "safe conduct pass", "Chieu Hoi"],
+["Armed Forces Language School", "AFLS", "Advisory Team 62", "Palace Dog"],
+["Central Highlands", "Truong Son Mountains", "Truong Son", "Montagnards", "Truongson", "Trung Son", "Trong Son", "II Corps"],
+["United States", "U.S.", "America", "CONUS"],
+["race relations", "racial tension", "racism", "civil rights movement", "civil rights activist", "discrimination", "segregation", "integration", "Martin Luther King Jr.", "MLK", "Black Panthers", "black power", "racial harmony", "racial prejudice", "Jim Crow", "bigot"],
+["Operation Nightingale", "OP Nightingale", "Army Nurse Corps"],
+["Gay Rights Movement", "Gay Liberation Movement", "gay liberation", "gay rights", "homosexual", "gay", "lesbian", "transgender"],
+["short-timer's calendar", "Short-timer", "Short-Timer stick", "Two Digit Number", "countdown"],
+["FWMAF", "Free World Military Assistance Forces", "Free World", "South Vietnam allies", "allies", "KANZUS"],
+["hootch", "hooch", "living quarters", "hootch girl", "hootch maid", "mama-san", "mama-son", "mamasan", "boq", "quarters"],
+["Cold War", "containment", "Domino Theory", "advance of communism", "fear of communism", "McCarthyism"],
+["McCarthyism", "Joseph McCarthy", "Red Scare", "anti-communism", "anticommunism", "fear of communism", "smear tactics", "smear"],
+["International Voluntary Services", "IVS"],
+["South Vietnam Air Force", "VNAF", "RVNAF", "B-26", "Bien Hoa Air Base", "Da Nang Air Base", "Danang Air Base", "Nha Trang Air Base", "Tan Son Nhut Air Base", "VNAF pilot", "VNAF crew", "VNAF A-1", "Khong Quan", "Vietnamese Air Force", "Vietnam Air Force"],
+["Quang Tri Combat Base", "Ai Tu Combat Base", "����i T������ Combat Base", "Qu������ng Tr������� Combat Base"],
+["Search and Rescue", "SAR", "SARTAF", "Search and Rescue Task Force", "search rescue combat air", "pilot search and rescue", "S&R mission", "Sea Air Rescue", "Sea King", "VH-3"],
+["pacification 1960s", "Rural Construction", "Rural Reconstruction", "Revolutionary Development Program", "rev-dev", "Chien Thang", "Chien Thang Plan", "Weller Pacification"],
+["FANK", "Forces Armees Nationales Khmer", "Khmer Special Forces", "Khmer National Armed Forcfank"],
+["FANK", "Forces Arm����es Nationales Khm����res", "Forces Armees Nationales Khmeres", "Khmer Armed Forces", "Khmer National Armed Forces", "Khmer Special Forces"],
+["Thailand", "Royal Thai Air Force", "RTAF", "Royal Thai Air Force Base", "Royal Thai Air Base", "Task Force Alpha", "U-Tapao", "Udorn", "Korat", "Takhli", "Ubon", "Nakhon Phanom", "Nam Phong", "air rescue and recovery", "USSAG", "Seventh Air Force"],
+["Nam Phong Royal Thai Air Base", "Nam Phong", "Rose Garden"],
+["1st CEG", "1st Combat Evaluation Group", "1st CEVG", "mobile duty location", "MDL", "Barksdale", "Sky Spot", "Skyspot", "radar bomb scoring", "RBS"],
+["Hmong", "\"Special Guerrilla Unit\"", "SGU", "Hmong AND CIA", "\"Secret War\" AND Laos", "Hmong AND Laos", "indigenous AND laos", "\"Lao Hmong and American Veterans Memorial\""],
+["Footboy", "OPLAN 34A", "Plowboy", "Midriff", "Humidor", "Timberwork", "STRATA"],
+["15th ACS", "15th Air Commando Squadron", "Stray Goose", "MACVSOG"],
+["SSPL", "Sacred Sword of the Patriots League", "Paradise Island", "MACV SOG", "MISO", "military information support operations", "PSYWAR", "OPLAN 34A", "Bright Light"],
+["journalist", "bao chi", " b����o ch����", "media"],
+["Operations", "S-3", "Ops", "S-3 Journal", "S-2 / S-3 Journal", "Daily Staff Journal", "Smooth Journal"],
+["Philippine Refugee Processing Center", "PRPC", "Vietnamese refugees Philippines"],
+["Miracle Rice", "IR8", "IR-8", "high-yield rice", "USAID", "U.S. Agency for International Development", "United States Agency for International Development", "Agency for International Development"],
+["JPDC", "Joint Propaganda Development Center", "PSYOPS", "Psychological Operations"],
+["JUSPAO", "Joint United States Public Affairs Office", "JPDC"],
+["Rules of Engagement", "MACV 525-13", "525-13", "ROE", "romeo", "rules of war", "full suppression", "normal rules", "negative suppression", "normal suppression", "code of conduct", "Geneva Conventions", "Quick Fire Quick Kill"],
+["Truong Son Road", "Ho Chi Minh Trail", "Tr����������ng S����n", "Truong Son", "559th Transportation Group", "Line 559", "QU-22", "Corridor 613", "Liaison Line 559", "Corridor Line", "Strategic Supply Route", "Quang Trung Transportation Unit"],
+["Ho Chi Minh Trail", "Truong Son Road", "Truong Son", "Igloo White", "Muscle Shoals", "Mud River", "Infiltration Surveillance Center", "infiltration route", "NVA infiltration route", "NVA supply route", "guerrilla supply line", "enemy infiltration", "Yellow Brick Road", "Operation Commando Hunt", "air interdiction", "Tiger Hound", "Steel Tiger", "HCM Trail", "Task Force Alpha"],
+["COC", "Combat Operations Center"],
+["Vietnam News Agency", "VNA", "Hanoi VNA"],
+["BSA", "Beach Support Area"],
+["LSA", "Landing Support Area"],
+["HST", "Helicopter Support Team", "rigging team"],
+["Combined Action Program", "Combined Action Platoon", "Combined Action", "Civil Action Program", "CAP", "Velvet Glove", "Combined Action Group", "CAG", "Combined Action Company", "CACO", "CAP Marine"],
+["Hunter-Killer Team", "Pink Team", "hunter killer", "OH-6", "OH-6A", "Cobra gunship", "AH-1G"],
+["Australian operation", "Long Tan", "Coral Balmoral", "Binh Ba", "Operation Coburg", "Operation Goodwind", "Operation Crimp", "Operation Bribie", " Suoi Bong Trang"],
+["Australian government", "Australian Senate", "Australian House of Representatives", "Australian Parliament", "Australian Leader Opposition", "Australian embassy", "Australian conscription", "Australian draft", "birthday ballot", "service scheme", "ANZUS", "Prime Minister Menzies"],
+["New Zealand", "New Zealand soldier", "New Zealand troops", "New Zealand engineer", "War Zone D", "Royal New Zealand Artillery", "RNZA", "RNZIR", "NZSAS", "New Zealand Medical Team", "ANZAC", "Australian Task Force", "1st Australian Task Force", "RNZAF", "New Zealand, Nui Dat", "New Zealand Red Cross", "Prime Minister Holyoake", "ANZUS"],
+["Ban Me Thuot", "Buon Ma Thuot", "Buon Me Thuot", "Buonmethuot"],
+["NKP", "Nakhon Phanom", "NKP RTAFB", "Royal Thai Air Force", "Naked Fanny"],
+["patrol", "pace man", "cloverleaf", "S&D", "S&C", "C&S", "walk point", "point man", "pointman", "point element", "relief patrol", "patrol harness", "contact patrol", "night patrol", "mop up operation", "patrol base", "walk slack", "Slack"],
+["S&D", "Search & Destroy", "Search and Destroy", "zippo mission", "zippo raid", "Reconnaissance in Force", "patrol"],
+["REDOPS", "Response and Defeat Operations Support"],
+["Civil Affairs", "S-5", "Civic Action"],
+["Communist propaganda", "anti-American", "proselyting", "Hanoi Hannah", "Hanoi Hattie", "Hanoi Radio", "Voice of Vietnam", "Communist Radio", "Voice of the National Liberation Front", "Communist psychological", "VC propaganda", "Viet Cong propaganda"],
+["Vietnam News Agency", "VNA", "Viet Nam News Agency", "VNTTX", "Vietnam Thong tan xa"],
+["Liberation News Agency", "LNA"],
+["American Forces Information Service", "AFIS", "Armed Forces Press Service", "AFPS"],
+["AUTODIN", "Automatic Digital Network", "Manual Data Relay Center", "MDRC", "RUMDMFA"],
+["civilianization", "Local National Civilian", "LNC", "hire civilians", "hire Vietnamese"],
+["humor", "comics", "cartoon", "caricature", "parody", "satire", "comic strip", "funnies", "funny", "spoof"],
+["AIK", "Assistance in Kind"],
+["Force Logistic Command", "FLC", "Force Logistic Support Group", "FLSG", "Logistic Support Unit", "LSU", "Marine Corps Operational Effectiveness System", "MARES", "Operation SAFE", "Op SAFE", "Stop Accidental Firing Entirely", "ASP", "Project 972", "Ammunition Supply Point", "PP&P", "Packing, Packaging & Preservation", "Roll On Roll Off Program", "RO/RO", "Local National Civilian Hire Program", "TERO", "Tactical Equipment Repair Order"],
+["DTG", "Date-Time-Group"],
+["force recon", "recon team", "recon unit", "force recon Marine", "Hawks", "stingray", "sting ray"],
+["dustoff", "dust off", "emergency medevac", "medevac", "medivac", "med evac", "medical evacuation", "aeromedical evacuation", "aeromedical", "air ambulance", "helicopter ambulance", "evac'd"],
+["MACV", "Military Assistance Command Vietnam", "MAC-V", "Mac-Vee", "Fat City", "MACV headquarters", "MACV HQ", "madhouse", "Volunteer Information Program", "SACSA", "Special Assistant Counterinsurgency", "MACV-SOG", "advisor", "counterpart"],
+["infantry", "fire team", "fire team operation", "patrol", "reaction force", "reaction platoon", "standby force", "reaction unit", "fire squad", "Immediate Response Force", "IRF", "Ready Reaction Force", "RRF"],
+["Viet Cong", "Vietcong", "VC", "Viet Cong San", "co cong", "Dac Cong", "VC Special Forces", "Viet Cong Special Forces", "Main Force Battalion", "MR IV", "military proselyting unit", "proselyting activities", "Communist proselyting", "LF Bn", "Local Force Battalion"],
+["FULRO", "Front unifi���� de lutte des races opprim����es", "United Struggle for the Oppressed Races", "Montagnard rebels", "Montagnard guerilla", "Montagnard guerrilla", "Montagnard guerillas", "Montagnard guerrillas", "Montagnards"],
+["Montagnards", "Yards", "Montegnard", "Central Highlands people", "ethnic minority", "Payse Montagnard du Sud", "U.S. Special Forces", "Jarai", "Koho", "Rhade", "Halang", "Dega Association", "Hre", "Hroy", "indigenous AND Vietnam \"viet nam\"", "Katu", "Nung"],
+["KBA", "Killed by Air Artillery", "Killed by Artillery", "Killed by Air", "Killed by Action"],
+["7th Air Force", "Seventh Air Force", "7th AF", "Seventh AF", "Blue Chip"],
+["submarine", "COMSUBPAC", "USS Perch", "USS Grayback", "USS Tunny", "Underwater Demolition Team", "UDT", "SEAL", "combat swimmer"],
+["Plain of Reeds", "Dong Thap Muoi", "�����������ng Th����p M����������i", "Plaine des Joncs"],
+["Plain of Jars", "Plain des Jarres", "PDJ", "Haihin Plain", "Thong Hai Hin", "Xiangkhoang Plateau"],
+["PTSD", "Post-Traumatic Stress Disorder", "war experience problem", "flashback", "antisocial behavior", "interpersonal problems", "veteran suicide", "post-war problems", "veteran counseling", "self-mutilation", "veteran substance abuse", "delayed onset", "post-war trauma", "post-Vietnam syndrome", "PVS", "psychosocial problem", "spouse support", "alienation"],
+["Tan Son Nhut Air Base", "Tan Son Nhut Airbase", "TSN Air Base", "Ton Son Nhut Air Base", "Ton Son Nhut Airbase", "Ton Son Nhut", "Tan San Nhut", "Tan Son Nhat"],
+["My Lai", "Mylai", "Son My", "Sonmy", "Pinkville", "Calley", "Ronald V. Dellum", "Peers Inquiry", "William R. Peers", "James A. Endicott", "Paul Ray", "Charles Calhoun", "Captain Medina"],
+["Easter Offensive", "1972 Easter Offensive", "Nguyen Hue", "Nguy�������n Hu�������"],
+["Combined Unit Pacification Program", "CUPP", "CUPP unit", "CUPP platoon"],
+["Criminal Investigation Division", "CID", "criminal investigation"],
+["PAX", "passengers"],
+["DAI", "death by accidental injury"],
+["USMC Casualty", "Battle Casualty", "Body Not Recovered", "BNR", "Death from Accidental Injuries", "DAI", "Death from Other Causes", "DOC", "Died of Diesase", "DOD", "Died of Wounds Received in Action", "DOW", "Killed in Action", "KIA", "Wounded in Action", "WIA", "Hostile Casualty", "Wounded in Action Not Evacuated", "WIANE"],
+["OV-10", "OV10", "Bronco", "Bronco aircraft", "counterinsurgency aircraft", "counter insurgency aircraft"],
+["Task Force 115", "TF 115", "Coastal Surveillance Force", "Market Time", "Mobile Riverine Force", "Naval Advisory Group", "Task Force 71", "Vietnam Patrol Force"],
+["Naval Support Activity Saigon", "Naval Support Activity", "NAVSUPPACT", "Mobile Riverine Force", "river assault flotilla", "river patrol flotilla", "Binh Thuy", "Can Tho", "Vung Tau", "River Division 51", "HAL-3", "coastal surveillance", "coastal interdiction"],
+["Republic of Vietnam Navy", "RVN Navy", "Hai Quan", "VNN", "South Vietnamese Navy", "Junk Force", "Coastal Group", "River Assault Group", "coastal interdiction", "coastal surveillance", "beach survey", "Coastal Zone", "Danang", "Da Nang", "Can Tho", "Vung Tau", "An Thoi", "Navy advisor"],
+["Armored Landing Craft", "ALC Task Force", "Medical Aid Boat", "Aid Boat", "dustoff boat", "douche boat"],
+["ATC", "Armored Troop Carrier", "LCM-6", "Tango", "Tango boat", "RIVFLOT 1", "T-152-1", "Mobile Riverine Force", "Vung Tau", "brownwater", "brown water"],
+["Mobile Riverine Force", "River Assault Squadron", "MRF", "Brown Water", "Brownwater", "Operation Game Warden", "Gamewarden", "Game Warden", "Mobile Riverine Base", "MRB", "PBR", "patrol gunboat", "tango", "airboat", "rag boat", "hovercraft", "Riverine Forces", "river patrol", "river assault", "river support", "minesweeper", "prevention of mutual interference", "Gamewardens", "Division 51", "Task Force 116", "TF 116", "TF116", "Task Force 117", "TF 117", "TF117"],
+["personal narrative", "memoir", "first hand account", "personal account", "personal experiences", "diary", "journal", "oral history", "witness statement"],
+["1st Lieutenant", "First Lieutenant", "1LT", "Silver Bar", "First Louie", "Trung Uy", "Trang Uy", "Thuong Uy"],
+["Ontos", "M50", "M50A1", "anti-tank vehicle"],
+["VVAW", "Vietnam Veterans Against the War", "antiwar movement", "Dewey Canyon III", "Dewey Canyon 3", "Winter Soldier", "Ron Kovic", "Viet-Nam Veterans Against the War", "V. V. A. W.", "post-Vietnam struggle", "PVS", "Gainesville 8"],
+["Gainesville 8", "VVAW", "Vietnam Veterans Against the War", "John Briggs", "Scott Camil", "Alton Foss", "John Kniffin", "Peter Mahoney", "Stanley Michelson", "Bill Patterson", "Don Perdue", "Bill Lemmer FBI", "Gainesville 8+4", "Wayne Beverly"],
+["graffiti", "vandal*", "nose art", "bunk bottoms"],
+["Military Assistance Advisory Group", "MAAG", "Assistance Advisory Group", "AAG"],
+["British Advisory Mission", "BRIAM", "Sir Robert Thompson", "strategic hamlet programme", "British Military Advisory"],
+["Navigation", "LORAN", "DECCA"],
+["BARCAP", "Barrier Combat Air Patrol"],
+["malaria tablet", "malaria pill", "horse pill", "CP pill", "anti-malaria", "Monday pill", "orange bomb", "Dapsone", "chloroquine", "primiquine", "chemoprophylaxis", "M11"],
+["Kim Phuc", "Trang Bang", "napalm burn", "napalm victim", "napalm girl", "Nick Ut"],
+["draft resistance", "anti-draft", "draft protest", "noncooperatives", "conscientious objector", "draft evasion"],
+["antiwar movement", "antiwar", "anti-war", "dissent", "antiwar protest", "conscientious objector", "disaffection", "VVAW", "Chicago Seven", "Keep Connie Home", "Mobe", "New Mobe", "New Mobilization Committee", "moratorium march", "Vietnam Moratorium Committee", "Kent State", "bomb ROTC", "Students for Democratic Society", "SDS", "Youth International Party", "Yippies"],
+["Tonkin Incident", "Gulf of Tonkin incident", "S������ ki�������n V�������nh B������c B�������", "Tonkin Resolution", "USS Maddox", "Maddox", "USS C. Turner Joy", "Turner Joy", "Su kien Vinh Bac Bo"],
+["sexual violence", "sexual assault", "rape"],
+["Table of Organization and Equipment", "T.O.E.", "TOE", "TO&E", "T.O.&.E."],
+["Saturday Night Massacre", "26957", "Archibald Cox", "Elliot Richardson", "William Ruckelshaus", "Robert Bork"],
+["MARS", "Military Auxiliary Radio System", "Marsgram", "radio telephone"],
+["SIGINT", "signals intelligence", "Iron Horse", "Teaball"],
+["Paris Peace Accords", "Paris Agreement", "International Commission of Control and Supervision", "Henry Kissinger", "Le Duc Tho", "L���� ����������c Th������", "Agreement on Ending the War and Restoring Peace in Vietnam"],
+["Rung Sat Special Zone", "Rung Sat", "RSSZ", "Forest of Assassins", "Gia Dinh"],
+["Seabee", "CB", "Mobile Construction Battalion", "MCB", "Construction Battalion", "Navy construction", "Seabees", "Seabee Team"],
+["ODP", "Orderly Departure Program", "Viet Kieu", "Vietnamese refugee", "Vietnamese refugees", "Vietnamese immigration", "Vietnamese emigration", "Vietnamese diaspora", "reeducation center", "reeducation camp"],
+["R&R", "R and R", "rest and recuperation", "rest and relaxation", "R&R processing", "transient facility", "transient"],
+["computer", "automated", "data processing", "data system", "electronic data", "machine readable", "microdata", "data analysis"],
+["counterculture movement", "counterculture", "counter culture", "underground", "social movements", "antiwar"],
+["underground movement", "underground press", "student movement", "activisim", "underground newspaper", "underground publication", "counterculture"],
+["Viet Cong (American terms)", "Viet Cong", "Charlie", "Victor Charlie", "NLF", "PLAF", "People's Liberation Armed Forces", "District Mobile Company", "DMC", "District Mobile", "sapper", "Vietnamese guerrillas", "village guerrilla", "VC sympathizer", "hard hats", "unfriendlies"],
+["People's Liberation Armed Forces", "PLAF", "National Liberation Front", "NLF", "Liberation Army"],
+["Central Office of South Viet-Nam", "COSVN", "Central Office of South Vietnam", "Trung ��������ng C������c mi������n Nam", "TUCMN", "T.U.C.M.N.", "Viet Cong"],
+["Officers Club", "O Club"],
+["Non-Commissioned Officers Club", "NCO Club", "Enlisted Club"],
+["Cambodia", "FARK", "Royal Cambodian Armed Forces", "King Norodom Sihanouk", "Sinahouk", "Prime Minister Lon Nol", "Lon Nol", "Khmer Republic", "Sihanouk Trail", "Cambodia supply route", "Snuol", "Operation Menu", "over the fence"],
+["SOG", "Studies and Observations Group", "MACV-SOG", "MACVSOG", "Special Operations Group", "covert operations", "Special Project", "SOG Operations", "Leaping Lena", "Footboy", "Operation Desoto", "LLDB", "Project Delta", "C-123 Blackbird", "OPS 31", "OPS 32", "OPS 33", "OPLAN 34", "OPLAN 34A", "OPLAN 34-A", "OPS 35", "OP-35", "Counter Insurgency Support Office", "counterinsurgency", "CISO", "MINT", "maritime interdiction", "black ops", "over the fence"],
+["U.S. Special Forces", "Green Beret", "USSF", "USASF", "5th Special Forces Group Airborne", "5th SF", "American Special Forces", "A-team", "SF", "elite unit", "Green Beanie", "hatchet team", "hatchet force", "McGuire rig", "Nha Trang Air Base", "SFOB", "Project Delta", "tiger stripes", "Forward Operational Base", "FOB-1", "FOB-2", "FOB-3", "FOB-4", "CCN team", "CCC team", "CCS team", "exploitation team", "Snatch Team", "silent recon", "cross-border operation", "over the fence"],
+["directory", "phone book"],
+["Bird Air ", "BirdAir", "civilian contractor", "airlift", "airdrop"],
+["Agent Orange", "rainbow herbicide", "TCDD", "2,4,5-T", "defoliant mission", "aerial spraying", "weed killer", "herbicide", "Operation Ranch Hand", "Operation Ranchhand", "Operation Trail Dust", "Trail Dust", "Operation Hades", "Monsanto", "dioxin", "herbicidal warfare", "Dow Chemical", "herbicidal", "Diamond Shamrock", "Pink Rose", "defoliant", "anti-plant ", "Ranch Hand", "Ranchhand"],
+["Agent Blue", "rainbow herbicide", "sodium cacodylate trihydrate", "C2H6AsNaO2", "cacodylic acid", "cacodylic", "arsenic", "arsenic poisoning", "arsenic contamination", "Ansul Co", "Phytar 560", "carcinogen"],
+["American Friends of Vietnam"],
+["racial slur", "gook", "slope", "slant", "dink", "little people", "nigger", "wetback", "racist", "dehumanizing"],
+["conscientious objector", "1-A-0", "draft dodger", "draft evasion", "noncombatant", "exile Canada", "objector Canada", "conscientious object*", "Form 150"],
+["Selective Service System", "draft military", "Selective Service classification", "1-A-0", "Selective Service", "SSS", "conscientious objector*"],
+["Vietnamese Information Service", "VIS", "political warfare", "POLWAR"],
+["PSYOPS", "Psy-Ops", "psyop", "Psychological Operations", "no-doze mission", "PSYWAR", "psychological warfare", "Psy War", "PSYWAR", "Gabby", "propaganda", "psycho-killer", "Wandering Soul", "ghost tape number 10", "Quyet Chien", "Nguyen Trai"],
+["DIOCC", "District Intelligence Operations Coordination Center"],
+["PIOCC", "Province Intelligence Operations Coordination Center"],
+["Phoenix Program", "Operation Phoenix", "Phung Hoang", "Phuong Hoang", "Ph������ng Ho����ng", "counterinsurgency", "counter insurgency", "CORDS", "Provincial Security Committee", "PCS", "Provincial Reconnaissance Unit", "PRUs", "Chien Dich Phung Hoang"],
+["standdown", "stand down", "withdrawal", "unit departure", "Vietnamization"],
+["CIA", "captured in action", "prisoner of war"],
+["re-education detainee", "reeducation camp prisoner", "re-education camp prisoner", "re-education political prisoner", "reeducation political prisoner", "reeducation camp detainee", "reeducation center detainee", "Vietnamese political prisoner", "re-education camp detainee", "re-education center detainee", "thought reform"],
+["People's Revolutionary Party of South Vietnam", "PRPSVN", "PRP", "����������ng Nh����n D����n C����ch M������ng Vi�������t Nam", "Viet Cong"],
+["NLF", "National Liberation Front", "SVNNFL", "S.V.N.N.F.L.", "South Viet Nam National Front for Liberation", "Peoples Revolutionary Party", "PRP", "Provisional Revolutionary Government", "PRG", "Viet Cong", "COSVN", "Central Office of South Viet-nam", "Main Force Battalion", "Main Force Elements", "Main Force Unit", "anti-america resistance", "People's Liberation Armed Forces", "PLAF", "M������t tr������n D����n t�������c Gi������i ph����ng mi������n Nam Vi�������t Nam", "President Nguyen Huu Tho", "Vanguard Youth"],
+["Democratic Republic of Vietnam", "DRV", "North Vietnam", "North Viet-Nam", "NVN", "VPA", "Vietnam People's Army", "NVA", "PAVN", "Foreign Language Publishing House"],
+["Hanoi Hannah", "communist radio", "radio propaganda", "Trinh Thi Ngo", "Thu Huong"],
+["Commonwealth Peace Mission"],
+["FDC", "Fire Direction Center", "artillery", "mortar", "fire support", "target acquisition", "technical fire", "tactical fire", "firing battery", "firing tables", "Fire Direction Officer", "destruction", "neutralization", "suppression"],
+["FDO", "Fire Direction Officer", "artillery", "mortar"],
+["Socialist Republic of Vietnam", "SRV"],
+["National United Front for the Liberation of Vietnam", "NUFLVN", "Hoang Co Minh", "resistance"],
+["South Vietnam Prisons", "Con Son Prison", "Poulo Condor", "Phu Quoc Island", "Cay Dua Prison", "Thu Doc Prison", "Tay Ninh Prison"],
+["FTA Show", "FTA", "Free the Army", "antiwar", "GI movement", "Donald Sutherland", "Jane Fonda"],
+["Republic of Vietnam", "Republic of Viet-Nam", "RVN", "Vi�������t Nam C�������ng h����a", "Viet Nam Cong Hoa", "in country", "South Vietnam", "South Viet-Nam", "SVN", "GVN"],
+["DICC", "District Intelligence Coordination Center"],
+["airbase", "air base", "airfield", "air field", "tactical aerodrome", "aerodrome"],
+["Black soldier", "African American", "dap greeting", "dap handshake", "dapping", "dignity and pride", "Black officer", "Black marine", "Black sailor", "Black airman", "Black pilot", "Black nurse", "racism"],
+["anti-SRV resistance", "Restoration of the Nation", "Vietnam Restoration Party", "ex-ARVN", "Hoa Hao", "Vietnamese resistance", "resistance", "restoration"],
+["�����������i M�������i", "Doi Moi", "Doi Moi 1986", "renovation", "free market reform", "remaking SRV", "modernizing", "development", "reform economic system"],
+["Firefly", "lightning bug", "lightening bug", "helicopter searchlight", "firefly mission"],
+["Lightning Bug", "reconnaissance drone", "remote control", "Model 147", "Bien Hoa Air Base", "Monkey Mountain Facility", "Strategic Air Command", "overflight", "overflight North Vietnam", "46th Communications Group", "USMC Bikini system"],
+["BDA", "bomb damage assessment", "battle damage assessment", "combat assessment"],
+["reeducation camp", "re-education center", "reeducation center", "re-education camp", "prison camp", "labor camp", "tr������i h������c t������p c������i t������o", "re-education detention", "hop tac", "political indoctrination", "military proselyting", "reeducation policy", "Vietnamese reeducation", "Trai Cai Tao", "thought reform"],
+["7th Airborne Command and Control Squadron", "7th ABCCC", "7th Airborne Command and Control Center", "Airborne Battlefield Command", "Cricket", "Moonbeam", "Alley Cat", "Hillsboro"],
+["burn pit", "burn barrel", "burning shit", "shit detail"],
+["latrine", "pit latrine", "burnout latrine", "head", "outhouse", "one-holer", "four-holer", "honey bucket", "crapper", "cat hole", "saddle trench"],
+["UTT", "Utility Tactical Transport Helicopter Company", "First With Guns", "utility tactical transport", "68th Armed Helicopter Company", "68th Assault Helicopter Company", "68th Aviation Company"],
+["National Alliance of Families for the Return of America's Missing Servicemen", "Alliance of Families", "U.S. MIA's", "American MIAs", "American Missing in Action"],
+["National League of Families of American Prisoners and Missing in Southeast Asia", "League of Families", "The League", "Sybil Stockdale", "Shirley Johnson", "Evelyn Grubb", "POW wife wives", "mistreatment of U.S. Prisoners of War", "U.S. POW's", "American POWs", "American Missing in Action", "U.S. MIA's", "POW/MIA flag", "Department of Defense POW/MIA Accounting Agency"],
+["MIA", "Missing In Action", "MIA/BNR", "Body Not Recovered", "National League of Families of American Prisoners and Missing in Southeast Asia", "National Alliance of Families for the Return of America's Missing Servicemen", "MIA bracelet", "American remains", "disposition American remains", "repatriate American remains", "personnel recovery mission", "Defense POW/MIA Accounting Agency", "DPAA", "Joint POW/MIA Accounting Command", "Joint Personnel Recovery Center", "JPRC", "Joint Casualty Resolution Center", "Committee on Prisoners and Detainees", "POW/MIA issues"],
+["POW American", "Prisoner of War", "prisoners of war", "POW/MIA", "PW/MIA", "PW", "POW bracelet", "American prisoner of war", "captured American", "tu binh", "Homecoming 1973", "Operation Homecoming", "Hanoi Hilton", "Skid Row", "American escape attempt", "prisoner exchange", "Bright Light Rescue", "Brightlight", "Joint Casualty Resolution Center", "JCRC", "Egress Recap", "tap code", "secret code", "National League of Families of American Prisoners and Missing in Southeast Asia", "POW/MIA issues", "POW/MIA wife wives"],
+["Operation record", "Operation Order", "OpOrd", "OpOrder", "Operation Plan", "Oplan", "Opplan", "Operation Report Lessons Learned", "ORLL", "After Action Report", "AAR"],
+["District Senior Advisor", "DSA"],
+["Operation New Arrivals", "New Arrivals", "Vietnamese refugees 1975", "Camp Pendleton resettlement center", "Fort Chaffee resettlement center", "Eglin resettlement center", "Fort Indiantown Gap resettlement center", "Fall of Saigon"],
+["Operation New Life", "OP New Life", "Project New Life", "Vietnamese refugees 1975", "Vietnamese refugees Guam", "refugee camp Guam", "Camp Fortuitous", "Fall of Saigon"],
+["Vietnamese refugees", "boat people", "Thuy������n nh����n Vi�������t Nam", "Thuyen nhan", "Vietnamese emigration", "Vietnamese immigration", "Thai pirates", "Refugee Resettlement", "Vietnamese refugee resettlement", "Vietnamese diaspora", "Humanitarian Resettlement", "UNHRC", "refugee camp Hong Kong", "refugee camp Thailand", "refugee camp Malaysia", "refugee Philippines", "refugee training Philippines", "Vietnamese American immigration", "Humanitarian Operation", "Vietnamese refugee resettlement", "Orderly Departure Program", "war victims", "Indochinese refugees"],
+["Accelerated Pacification Campaign", "Le Loi Campaign"],
+["U.S. Navy", "US Navy", "United States Navy", "Naval Forces Vietnam", "NAVFORV", "COMNAVFORV", "Seventh Fleet", "SEAL", "USNS", "Mobile Riverine Force", "CINCPAC", "Admiral Sharp", "Admiral Zumwalt", "Sea Dragon", "SEALORDS", "Operation Market Time", "Market Time", "TF-115", "Naval Advisory Group", "Naval Gunfire Support", "NIS", "Naval Intelligence Survey", "Coastal Division", "COSDIV", "Naval Advisory Group", "NAVADVGRP", "CHNAVADVGRP"],
+["intelligence", "S-2", "army intelligence", "Sphinx", "counter intelligence", "military intelligence", "Central Registry Det", "intelligence mission", "safe bar", "safe house", "S-2 Journal", "S-2 / S-3 Journal", "Daily Staff Journal", "Smooth Journal"],
+["American Red Cross", "Donut Dolly", "ANRC", "Red Cross", "SRAO", "Supplement Recreation Activities Overseas", "Write Hanoi", "Helgoland"],
+["Individual Deceased Personnel File", "IDPF", "Report of Casualty", "Certificate of Death", "Statement of Identification", "autopsy", "mortuary", "casualty code", "identification processing", "dental chart", "personal effects", "Escort's Report of Mission", "Disposition of Personal Property", "Disposition of Remains", "funeral home"],
+["Tactical Nuclear Weapons", "TNW", "OREGON TRAIL"],
+["Vietnamese child*", "humanitarian aid", "international aid", "refugee", "displaced child*", "orphan", "orphanage", "Operation Babylift", "medical aid", "street child*"],
+["ARVN Special Forces", "LLDB", "Luc Luong Dac Biet", "81st Special Airborne", "Liaison Office", "Technical Directorate", "ARVN Ranger", "Special Commando Unit", "Xung Kich", "exploitation force", "Biet Dong Quan"],
+["Amerasian", "Amer-Asian", "Amerasian child", "Con Lai", "dust of life", "child of dust", "d����n b������i", "dan bui", "Bui Doi", "Orderly Departure Program", "American Homecoming Act", "McCain Kids", "Operation Babylift"],
+["International Commission of Control and Supervision", "ICCS", "International Commission for Supervision and Control", "ICSC", "International Control Commission", "Paris Peace Accords", "Operation Gallant", "peacekeeping operation 1973"],
+["Tet Offensive 1968", "Tet Offensive", "M������u Th����n 1968", "Mau Than", "Lunar New Year Campaign", "Lunar New Year Offensive", "general uprising", "general offensive", "Vietcong offensive", "Tet Offensive Saigon", "Battle of Hue", "Siege of Khe Sanh"],
+["fragging", "officer assassination", "assassinate officer", "freeze"],
+["SEAL", "SEAL team", "SEAL forces", "SEALs", "Navy Seal", "Sea Air Land unit", "barndance", "barn dance"],
+["village", "hamlet", "ville", "HES", "Hamlet Evaluation System", "rural pacification", "rural defense", "Strategic Hamlet", "Operation Sunrise"],
+["Strategic Hamlet Program", "Ap Moi Hamlet", "rural pacification", "fortified village", "village self-defense", "village relocation", "hamlet relocation", "refugee center", "relocation camp", "gom dan", "civilian war casualties"],
+["Hamlet Evaluation System", "HES", "New Life Hamlet", "New Life program", "pacification", "Vietnamization", "CORDS", "Vietnam Special Studies Group", "VSSG", "George W. Allen"],
+["Night Phantom", "night interdiction", "aerial interdiction"],
+["LRRP", "LRP", "Lurp", "Lerp", "Long Range Reconnaissance Patrol", "Ranger Company", "75th Infantry", "75th Ranger", "Sneaky Pete", "heavy team", "roadrunner", "commando", "recondo", "Recondo School", "Nha Trang", "tiger stripes", "provisional lrp"],
+["Australia", "����c ����������i L������i", "Uc Dai Loi"],
+["United States", "Hoa K������", "Hoa Ky", "M������ (colloquial)", "H������p Ch����ng Qu�������c Hoa K������ (full formal)"],
+["CIA", "Central Intelligence Agency", "Air America", "Phoenix Program", "O.S.S.", "Combined Studies Group", "William Colby", "Edward Lansdale"],
+["military dog", "military working dog", "MWD", "scout dog", "war dog", "military police dog", "sentry dog", "dog KIA", "dog WIA", "dog disposition", "dog training", "dog mortality", "IPSD", "scout dog team", "SDT", "dog handler", "tracker dog", "labrador", "german shepard", "veterinary", "mortality records", "9th Medical Laboratory Veterinary"],
+["Army Security Agency", "ASA", "USASA", "National Security Agency", "NSA", "military intelligence", "electronic surveillance", "radio operations", "cryptography", "radio research", "field station Bien Hoa", "field station Nha Trang", "field station Pleiku", "field station Phu Bai", "SP4 James T. Davis", "enemy communications", "codebreaking", "secure communications", "intercept enemy communications", "direction finding"],
+["AARTS", "Army Aviation Refresher Training School"],
+["GTA", "General Training Aid"],
+["sensor", "seismic sensor", "acoustic sensor", "listening device", "sound sensor", "electronic battlefield", "Igloo White", "Duck Blind", "ACOUSID", "ADSID", "HANDSID", "ACOUBUOY", "SPIKEBUOY", "MAGID", "Microtale", "Portatale", "TACSIV", "target acquisition"],
+["landmines", "minelaying", "minefields", "antipersonnel mines", "unexploded ordnance", "UXO", "clearing landmines", "demining"],
+["chemical warfare", "herbicides", "toxic gas"],
+["Bird & Sons", "BirdAir", "clandestine operations", "Central Intelligence Agency"],
+["DASPO", "Department of the Army Special Photographic Office", "military photographer"],
+["military photographer", "combat photographer", "motion picture photographer", "DASPO", "Army Pictorial Center", "Signal Corps", "Signal Battalion", "Signal Brigade", "MACV photo team", "information office", "Army Photo Agency", "Southeast Asia Pictorial Center", "SEAPC", "U.S. Information Agency", "Pacific Fleet Combat Camera Group"],
+["land mine", "landmine", "lo dun", "mine warfare", "Mine Warfare Project"],
+["World Airways", "Ed Daly", "military contractor", "humanitarian", "Vietnamese orphans", "Vietnamese children", "babylift"],
+["Air America families", "Air America child*", "American School of Vientianne", "Air America School Udorn"],
+["M������t tr������n T������� qu�������c", "Mat tran To quoc", "Vietnam Fatherland Front", "VFF", "Fatherland Front"],
+["Viet Minh", "League for the Independence of Vietnam", "M������t tr������n Vi�������t Minh", "Mat tran Viet Minh", "Vi�������t Nam �����������c l������p �����������ng minh", "Viet Nam Doc lap dong minh", "Ho Chi Minh", "Vo Nguyen Giap", "Le Duan", "Pham Van Dong"],
+["Vo Nguyen Giap", "V���� Nguy����n Gi����p", "General Giap", "Commander Giap", "Viet Minh", "Democratic Republic of Vietnam", "Vice Prime Minister", "Minister of Defense"],
+["Armored Vehicle Launched Bridge", "AVLB", "engineer company"],
+["Quyet Thang", "ARVN operation", "\"Resolved to Win\""],
+["Lima Site", "LS", "landing site", "aircraft landing site", "landing strip"],
+["CIA in Laos", "Controlled American Source", "CAS", "Air America", "Lima Site", "sheep dipping"],
+["JCRC", "Joint Casualty Resolution Center", "Personnel Recovery Center", "JMC", "Joint Military Commission", "JPRC", "Joint Personnel Recovery Group", "Joint Field Activity", "JFA"],
+["TACAN", "Tactical Air Control and Navigation", "TACAN site", "radar site"],
+["R&R in country", "China Beach", "Vung Tau"],
+["R&R out-of-country", "Hawaii", "Australia", "Japan", "Taiwan", "Philippines", "Malaysia", "Hong Kong", "Singapore", "Thailand"],
+["Naval Support Activity", "NAVSUPPACT", "NSA Saigon", "NSA Da Nang", "NSA Danang", "NSA Chu Lai", "NSA Cua Viet", "NSA Dong Ha", "NSA Hoi An", "NSA Hue-Phu Bai", "NSA Cam Ranh Bay", "NSA Nha Trang", "NSA Qui Nhon", "NSA Nha Be", "NSA An Thoi", "NSA Can Tho-Binh Thuy", "NSA Dong Tam", "NSA My Tho", "Naval Support Activity Detachment", "Naval Intermediate Support Base", "Naval Operating Station", "Naval Advanced Tactical Support Base", "ATSB", "Naval Operating Base", "Naval Combat and Logistics Base, Cat Lo"],
+["Lima Site 85", "Phou Pha Thi Mountain", "LS 85", "Site 85", "Project Heavy Green", "LTCOL James Kelly Patterson", "radar site", "TSQ-81 radar", "radar bombing system", "11 March 1968 sapper attack", "PAVN 41st Sapper Battalion", "secret war in Laos", "Air America", "Lockheed", "sheep dipping", "Operation Rolling Thunder", "POW/MIA REFNO 2052", "Clarence \"Bill\" Blanton", "James Calfee", "Gerald Clayton", "James Davis", "Henry Gish", "Willis Hall", "Melvin Arnold Holland", "Herbert Kirk", "David Price", "Patrick Shannon", "Donald Springsteadah", "Don Worley", "Donald Westbrook", "Ambassador William H. Sullivan"],
+["APC", "Armored Personnel Carrier", "tracked vehicle", "M-113", "M113", "ACAV", "Armored Cavalry Assault Vehicle", "green dragon", "fire track", "flamethrower tank", "herringbone formation", "mechanized platoon"],
+["people sniffer", "XM-3", "concealed personnel detector", "personnel detector", "sniffer team", "airborne personnel detector", "APD", "Manpack Personnel Detector", "Army Chemical Corps", "Snoopy"],
+["Anh D����ng B�������i Tinh", "Anh D����ng B�������i Tinh, Vi�������t Nam C�������ng H����a", "Cross of Gallantry, Republic of Vietnam", "Gallantry Cross", "Anh Dung Boi Tinh"],
+["Defense Attach���� Office Saigon", "DAO", "Threat Assessment", "Military Intelligence Summary and Treat Analysis", "MISTA", "Weekly Wrap-up", "U.S. Support Activities Group", "USSAG", "Major General Homer Smith"],
+["evacuation of Saigon", "evacuate Saigon", "Frequent Wind", "Operation Frequent Wind", "Operation Babylift", "Operation Baby Lift", "Orphan Lift", "Talon Vise", "White Christmas", "Fall of Saigon", "Major General Homer Smith", "Homer D. Smith", "Option IV", "Pittman Apartments", "Task Force 75", "Vietnamese refugees 1975"],
+["F-105", "Thunderchief", "turbojet", "Operation Rolling Thunder", "Operation Linebacker", "bombing North Vietnam"],
+["Team Hector", "South Vietnam commandos", "South Vietnam special forces", "intelligence agents", "spies in North Vietnam", "covert operations"],
+["Presidential Palace", "Gia Long Palace", "Governor General's Palace", "Norodom Palace", "Independence Palace", "Dinh Doc Lap", "Reunification Palace", "Reunification Hall", "Museum of Ho Chi Minh City"],
+["Project 404", "Project Palace Dog", "Palace Dog", "Laos Secret War", "Laos air support", "Butterfly project", "Raven FAC", "Air America", "sheep-dip", "sheepdip", "U.S. Air Force air controllers", "Armed Forces Language School", "Defense Language Institute"],
+["Laos", "Laos covert operation", "Laos covert", "Ravens, The", "Raven FAC", "Butterfly FAC", "Laos Secret War", "over the fence", "other theater", "O-1 Bird Dog", "Shining Brass", "Prairie Fire", "Phu Dung", "seminar camp", "Tiger Hound", "White Star", "Spike Team", "OP-35", "Laos covert operation", "Ho Chi Minh Trail", "Lam Son 719", "Air America", "Operation Tailwind", "Operation Barrel Roll"],
+["Presidential Guard", "L������ �����o����n Li����n binh ph����ng v������� T�������ng Th�������ng Ph������", "Lu doan lien binh phong ve Tong Thong Phu", "Presidential Palace guard", "palace guard", "palace security"],
+["Chieu Hoi", "open arms program", "amnesty program", "hoi chanh", "h�������i ch����nh", "defector", "VC defector", "NVA defector", "rallier", "Psychological Operations", "clemency", "Kit Carson scout", "KCS", "Tiger Scout", "white envelope", "Giay Thong-Hanh", "safe conduct pass"],
+["NILO", "Naval Intelligence Liaison Officer", "littoral warfare", "littoral zone", "coastal warfare", "riverine warfare"],
+["Lam Son 719", "Lamson 719", "Chi������n d�������ch ���������������ng 9 Nam L����o", "Chien dich duong 9 Nam Lao", "Laos 1971", "Dewey Canyon II", "Ho Chi Minh Trail", "Truong Son Road", "Route 9 Laos", "Tchepone", "General James W. Sutherland", "XXIV Corps 1971"],
+["Republic of Korea", "Rocks", "ROCs", "ROK Marines", "ROKMC", "ROKAF", "Tiger Division", "Capital Infantry Division (Tiger)", "White Horse Division", "Blue Dragon Marine Brigade", "OP Dok Su Ri Maeng Ho 11"],
+["RANHVF", "RAN-HFV", "RAN Helicopter Vietnam Flight", "Royal Australian Navy ", "Australian naval detachment", "attached to 135th Assault Helicopter Company", "135th AHC", "Vung Tau Airfield", "Camp Blackhorse"],
+["AATTV", "Australian Army Training Team Vietnam", "advisor teams to ARVN", "operational field advising"],
+["Royal Australian Navy", "RMAS SYDNEY", "troop ship JEPARIT", "Operation Sea Dragon", "destroyer RMAS HOBART", "destroyer RMAS PERTH", "destroyer RMAS BRISBANE", "destroyer RMAS VENDETTA", "Helicopter Vietnam Flight", "Clearance Diving Team 3", "CDT3", "Operation Stable Door", "Rear Admiral R.G. Loosli"],
+["pacification", "CORDS", "rural pacification", "hamlet evaluation system", "Strategic Hamlet", "DSA", "District Senior Advisor", "hearts and minds", "winning hearts and minds", "WHAM", "Hop ac", "protect civilians", "counterinsurgency", "counter insurgency", "Community Defense Development", "accelerated pacification", "Revolutionary Development Team", "Political Action Team", "pacification cadre", "PROVN", "County Fair", "Golden Fleece", "CUPP", "Combined Unit Pacification Program", "agroville"],
+["Project Jenny", "Blue Eagle", "VXN-8", "NC-121J", "Navy television", "airborne broadcast", "AFVN", "THVN"],
+["drug problem", "recreational drug", "drug abuse", "drug use", "marijuana", "doobie", "doper", "fried", "hashish", "heroin", "barbituate", "BTS", "drug testing", "urinalysis", "urinary surveillance", "golden flow test", "piss test", "drug rehabilitation", "drug rehab", "drug program", "drug amnesty", "Drug Discipline Division", "detoxification center", "detox", "drug education", "drugs", "heroin addiction", "skag", "skag freak", "Golden Gate", "halfway house"],
+["Project Popeye", "Operation Popeye", "weather warfare", "rainmaking", "\"rain making\""],
+["environmental warfare", "meteorological warfare", "weather modification", "weather weapon", "weather control techniques", "weather warfare", "rainmaking", "\"cloud-seeding\"", "weather Ho Chi Minh Trail", "Central Intelligence Agency", "Department of Defense"],
+["Office of Strategic Services", "OSS", "O.S.S.", "civilian intelligence agency", "World War II", "DEER Mission 1945"],
+["Air America", "AAM", "Air America CIA", "civilian intelligence agency", "clandestine operations", "Project 404", "Operation Hot Foot", "Operation White Star", "Laos logistical support", "Air America intelligence", "pilot search and rescue", "Operation Frequent Wind", "Central Intelligence Agency"],
+["Children's Medical Relief International", "CMRI", "Barsky Unit", "Center for Plastic and Reconstructive Surgery Saigon", "Arthur Barsky", "reconstructive surgery"],
+["reconstructive surgery", "Operation Smile", "Children's Medical Relief Center", "Center for Plastic and Reconstructive Surgery"],
+["volunteer medical assistance", "American Red Cross", "Children's Medical Relief Inernational", "Kontum Hospital Fund", "Minh Quy Hospital", "Operation Smile", "Quaker Rehabilitation Center", "Quaker Service Vietnam", "Vietnam Christian Service", "Volunteer Physicians for Viet Nam"],
+["solatium", "condolence payment"],
+["AFVN", "Armed Forces Vietnam Network", "Armed Forces Radio", "AFVN-AM", "AFVN-PM", "Armed Forces Television", "Armed Forces TV", "AFVN-TV", "Armed Forces Radio and Television Service", "AFRTS", "MACV Office of Information"],
+["Operation Babylift", "C-5A Galaxy crash", "Vietnamese orphan evacuation", "Amerasian orphan evacuation", "Vietnamese adoptees", "Tail Number 68-218", "Frederick M. \"Skip\" Burkle Jr. ", " Defense Attach���� Office, Saigon", "Friends for All Children", "Friends of Children of Vietnam", "International Social Services", "International Orphans", "Catholic Relief Service", "volunteer American nurse", "volunteer Australian nurse", "American volunteers"],
+["CORDS", "Civil Operations and Revolutionary Development", "Civil Operations and Rural Development", "pacification", "Robert Komer", "counterinsurgency", "counter insurgency", "Hamlet Evaluation System", "Strategic Hamlet Program", "William Colby", "Phoenix Program", "pacification", "New Life Development", "NLD", "land reform", "rural development"],
+["political warfare", "POLWAR", "POLWAR Battalion", "Political Warfare Battalion", "General Political Warfare Directorate", "GPWD", "Cultural Platoon", "Entertainment Platoon", "Armed Propaganda Platoon", "Chaplain Directorate", "Civic Action", "RVNAF PsyOps", "ARVN PsyOps", "Political Warfare College", "Cultural Drama Team", "CDT", "Van Tac Vu", "DICC", "county fair", "pacification"],
+["inclosures", "enclosures"],
+["Long Binh Post", "LBP", "Long Binh Jail"],
+["Long Binh Jail", "Long Binh Stockade", "Long Binh Junction", "LBJ", "LBJ Ranch", "Long Binh Post"],
+["Lyndon B. Johnson", "President Lyndon B. Johnson", "President Johnson", "LBJ"],
+["Free World Assistance", "FWA", "civilian assistance"],
+["Pleiku", "Plei Ku", "Plaiku", "Plai Ku", "Pleiku Campaign"],
+["Project Agile", "counterinsurgency", "Advanced Research Projects Agency", "warfare research", "weapons development"],
+["Advanced Research Projects Agency", "ARPA", "Defense Advanced Research Projects Agency", "DARPA", "weapons development", "warfare research", "weapon test projects"],
+["South Vietnam Regional Forces", "Regional Forces", "RF unit", "militia unit", "RF/PF", "Ruff Puff", "volunteer unit", "TFES", "Territorial Forces", "Territorial Forces eval", "Hamlet Evaluation System", "Mobile Advisory Team", "Dia Phuong Quan", "�����������a ph��������ng qu����n"],
+["U.S. Advisor", "advisory role", "advisory position", "advisory team", "Co Van", "U.S. Adviser", "adviser", "province team", "Province Senior Advisor", "PSA", "Vietnamese counterpart", "ARVN counterpart", "Montagnard counterpart", "Montagnard bracelet", "counterpart", "MACV"],
+["advisory team", "Regional Assistance Command", "U.S. advisor", "senior advisor", "military advisory team"],
+["An Khe", "An Khe Base Camp", "Charm School", "First Team Academy", "An Que", "Ankhe", "1st Cavalry Division", "Golf Course", "Camp Radcliffe", "Ankhe", "An Kue"],
+["radio research", "Tropo", "Tropo-Scatter", "troposcatter", "troposphere", "Tropo Hill", "signal intelligence", "SIGINT", "signal hill", "microwave communications", "radio telephone", "MARS", "radio repair"],
+["venereal disease", "VD", "preventive medicine", "venereal disease education", "venereal disease control", "venereal disease treatment", "venereal disease prevention", "vd prevention", " potassium phenoxymethyl peniclllln", "prophylactics", "penicillin", "prostitutes", "street walker", "bar girls", "Saigon tea", "syphillis", "gonorrhea"]        ];
+
+        $("[id^='q0'], .q0-field").autocomplete({
+            minLength: 2,
+            source: function(request, response) {
+                var term = request.term.toLowerCase();
+                var suggestions = [];
+
+                $.each(thesaurusSets, function(index, set) {
+                    var matchFound = set.some(function(word) {
+                        return word.toLowerCase().indexOf(term) > -1;
+                    });
+
+                    if (matchFound) {
+                        $.each(set, function(i, word) {
+                            if (suggestions.indexOf(word) === -1) {
+                                suggestions.push(word);
+                            }
+                        });
+                    }
+                });
+
+                response(suggestions);
+            }
+        });
+    });
+</script>
+
+<script src="/global/js/vva.js"></script>
+		
+	</head>
+	<style>
+		#btn-back-to-top {
+			position: fixed;
+			bottom: 20px;
+			left: 50%;
+			display: none;
+			z-index: 999;
+		}
+	</style>
+
+	<body>
+		<button type="button" class="btn btn-danger btn-floating btn-lg shadow" id="btn-back-to-top" title="Back To Top">
+			<i class="fas fa-arrow-up"></i>
+		</button>
+		<div class="university--head d-print-none"><span class="university--head__title"><a href="//www.ttu.edu/">Texas Tech University</a></span>
+	<nav class="university--head__nav">
+		<a href="//directory.texastech.edu/" tabindex="2" aria-label="TTU System Online Directory">Directory</a>
+		<a href="//raiderlink.ttu.edu/" tabindex="3" aria-label="Raiderlink">Raiderlink</a>
+		<a href="//www.ttu.edu/site/" tabindex="4" aria-label="Site Index">A-Z Index</a>
+	</nav>
+	<div class="university--head__search">
+		<!-- <a class="university__button" href="#">Menu<span></span></a>-->
+		<a class="ttu-search-trigger" href="#ttu-search"><span></span></a>
+	</div>
+
+</div>
+<header class="ttu-main-header d-print-none" id="nav">
+	<div class="logo__lockup"><a href="//www.vietnam.ttu.edu/"><img src="/global/images/logo.png" alt="Vietnam Center <em>&amp;</em> Sam Johnson Vietnam Archive"></a>
+	</div>
+	<nav class="ttu-nav">
+		<ul id="cd-primary-nav" class="ttu-primary-nav is-fixed">
+
+			<div class="c-page-header__mobile">
+				<label class="c-page-header__title moves-out"> Vietnam Center <em>&amp;</em> Sam Johnson Vietnam Archive </label>
+			</div>
+
+			<li><a href="//www.vietnamwarlegacy.ttu.edu/">Vietnam War Legacy</a>
+			</li>
+			<li class="has-children "><a href="#">Digital Materials</a>
+				<ul class="ttu-secondary-nav is-hidden">
+					<li class="c-page-header__mobile">
+						<label class="c-page-header__title moves-out"> Vietnam Center <em>&amp;</em> Sam Johnson Vietnam Archive <br>
+							<span class="title--location">Digital Materials</span>
+						</label>
+					</li>
+					<li class="go-back"><a href="#0">Back</a></li>
+					<li class="has-children "><a href="//www.vietnam.ttu.edu/virtualarchive/">Virtual Archive</a>
+						<ul class="is-hidden ">
+							<li class="c-page-header__mobile">
+								<label class="c-page-header__title moves-out"> Vietnam Center <em>&amp;</em> Sam Johnson Vietnam Archive <br>
+									<span class="title--location">Virtual Archive</span>
+								</label>
+							</li>
+							<li class="go-back"><a href="#0">Back</a></li>
+							<li><a href="//www.vietnam.ttu.edu/virtualarchive/">Virtual Vietnam Archive</a></li>
+							<li><a href="//www.vietnam.ttu.edu/virtualarchive/vrr.php">Vietnam Reading Room</a></li>
+							<li><a href="//www.vietnam.ttu.edu/resources/digital.php">Browse Collections</a></li>
+							<li><a href="//www.vietnam.ttu.edu/resources/searches.php">Specialized Searches</a></li>
+						</ul>
+					</li>
+					<li class="has-children "><a href="//www.vietnam.ttu.edu/virtualarchive/faq.php">Virtual Resources</a>
+						<ul class="is-hidden ">
+							<li class="c-page-header__mobile">
+								<label class="c-page-header__title moves-out"> Vietnam Center <em>&amp;</em> Sam Johnson Vietnam Archive <br>
+									<span class="title--location">Virtual Resources</span>
+								</label>
+							</li>
+							<li class="go-back"><a href="#0">Back</a></li>
+							<li><a href="//www.vietnam.ttu.edu/exhibits/">Online Exhibits</a></li>
+							<li><a href="//www.vietnam.ttu.edu/virtualarchive/faq.php">Frequently Asked Questions</a></li>
+							<li><a href="//www.vietnam.ttu.edu/teachers/searches.php">Teachers' Resources Web Subject Searches</a></li>
+							<li><a href="//www.vietnam.ttu.edu/friends/">Friends of the Vietnam Center</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li class="has-children "><a href="#">Donating</a>
+				<ul class="ttu-secondary-nav is-hidden">
+					<li class="c-page-header__mobile">
+						<label class="c-page-header__title moves-out"> Vietnam Center <em>&amp;</em> Sam Johnson Vietnam Archive <br>
+							<span class="title--location">Donating</span>
+						</label>
+					</li>
+					<li class="go-back"><a href="#0">Back</a></li>
+
+					<li><a href="//www.vietnam.ttu.edu/donors/materials.php">Donating Materials</a></li>
+					<li><a href="//www.vietnam.ttu.edu/donors/monetary.php">Monetary Donations <em>&amp;</em> Scholarships</a></li>
+					<li><a href="//www.vietnam.ttu.edu/general/privacy.php">Privacy Statement</a></li>
+					<li><a href="//www.vietnam.ttu.edu/donors/contact.php">Donation Submission Form</a></li>
+
+				</ul>
+			</li>
+			<li class="has-children "><a href="#">Oral History</a>
+				<ul class="ttu-secondary-nav is-hidden">
+					<li class="c-page-header__mobile">
+						<label class="c-page-header__title moves-out"> Vietnam Center <em>&amp;</em> Sam Johnson Vietnam Archive <br>
+							<span class="title--location">Oral History</span>
+						</label>
+					</li>
+					<li class="go-back"><a href="#0">Back</a></li>
+					<li class="has-children "><a href="//www.vietnam.ttu.edu/oralhistory/participation/">Want To Participate?</a>
+						<ul class="is-hidden ">
+							<li class="c-page-header__mobile">
+								<label class="c-page-header__title moves-out"> Vietnam Center <em>&amp;</em> Sam Johnson Vietnam Archive <br>
+									<span class="title--location">Want To Participate?</span>
+								</label>
+							</li>
+							<li class="go-back"><a href="#0">Back</a></li>
+							<li><a href="//www.vietnam.ttu.edu/oralhistory/participation/">How to Participate</a></li>
+							<li><a href="//www.vietnam.ttu.edu/general/contact.php">Contact Information</a></li>
+							<li><a href="//www.vietnam.ttu.edu/oralhistory/participation/">Interview Process</a></li>
+							<li><a href="//www.vietnam.ttu.edu/oralhistory/participation/#forms">Pre-interview Questionnaires</a></li>
+							<li><a href="//www.vietnam.ttu.edu/oralhistory/participation/forms/release.pdf">Interview Agreement Form</a></li>
+						</ul>
+					</li>
+					<li class="has-children "><a href="//www.vietnam.ttu.edu/oralhistory/">Interviews <em>&amp;</em> Resources</a>
+						<ul class="is-hidden ">
+							<li class="c-page-header__mobile">
+								<label class="c-page-header__title moves-out"> Vietnam Center <em>&amp;</em> Sam Johnson Vietnam Archive <br>
+									<span class="title--location">Interviews <em>&amp;</em> Resources</span>
+								</label>
+							</li>
+							<li class="go-back"><a href="#0">Back</a></li>
+							<li><a href="//www.vietnam.ttu.edu/oralhistory/">Oral History Interviews</a></li>
+							<li><a href="//www.vietnam.ttu.edu/oralhistory/workshop/resources.php">Oral History Resources</a></li>
+							<li><a href="//www.vietnam.ttu.edu/general/privacy.php">Privacy Statement</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li class="has-children "><a href="#">Researching</a>
+				<ul class="ttu-secondary-nav is-hidden">
+					<li class="c-page-header__mobile">
+						<label class="c-page-header__title moves-out"> Vietnam Center <em>&amp;</em> Sam Johnson Vietnam Archive <br>
+							<span class="title--location">Researching</span>
+						</label>
+					</li>
+					<li class="go-back"><a href="#0">Back</a></li>
+					<li class="has-children "><a href="//www.vietnam.ttu.edu/resources/reproductions/">Purchasing <em>&amp;</em> Information</a>
+						<ul class="is-hidden ">
+							<li class="c-page-header__mobile">
+								<label class="c-page-header__title moves-out"> Vietnam Center <em>&amp;</em> Sam Johnson Vietnam Archive <br>
+									<span class="title--location">Purchasing <em>&amp;</em> Information</span>
+								</label>
+							</li>
+							<li class="go-back"><a href="#0">Back</a></li>
+							<li><a href="//www.vietnam.ttu.edu/resources/reproductions/">Purchasing Duplicates</a></li>
+							<li><a href="//www.vietnam.ttu.edu/general/copyright.php">Copyright Statement</a></li>
+							<li><a href="//www.vietnam.ttu.edu/general/privacy.php">Privacy Statement</a></li>
+							<li><a href="//www.vietnam.ttu.edu/resources/reproductions/contract.pdf">Request to Use Materials</a></li>
+							<li><a href="//www.vietnam.ttu.edu/resources/links.php">Links to Other Resources</a></li>
+							<li><a href="//www.vietnam.ttu.edu/virtualarchive/faq.php">Frequently Asked Questions</a></li>
+						</ul>
+					</li>
+					<li class="has-children "><a href="//www.vietnam.ttu.edu/resources/">How To Research</a>
+						<ul class="is-hidden ">
+							<li class="c-page-header__mobile">
+								<label class="c-page-header__title moves-out"> Vietnam Center <em>&amp;</em> Sam Johnson Vietnam Archive <br>
+									<span class="title--location">How To Research</span>
+								</label>
+							</li>
+							<li class="go-back"><a href="#0">Back</a></li>
+							<li><a href="//www.vietnam.ttu.edu/resources/">Conducting Research</a></li>
+							<li><a href="//www.vietnam.ttu.edu/resources/onsite.php">Researching Onsite</a></li>
+							<li><a href="//www.vietnam.ttu.edu/resources/digital.php">Digital Materials</a></li>
+							<li><a href="//www.vietnam.ttu.edu/resources/tutorials/">Digital Materials Tutorials</a></li>
+							<li><a href="//www.vietnam.ttu.edu/resources/#topics">Subject Guides</a></li>
+							<li><a href="//www.depts.ttu.edu/library/">Book Catalog</a></li>
+							<li><a href="//www.vietnam.ttu.edu/resources/projects.php">Special Projects</a></li>
+							<li><a href="//www.vietnam.ttu.edu/resources/request.php">Ask a Reference Question</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li class="has-children "><a href="#">Conferences &amp; Events</a>
+				<ul class="ttu-secondary-nav is-hidden">
+					<li class="c-page-header__mobile">
+						<label class="c-page-header__title moves-out"> Vietnam Center <em>&amp;</em> Sam Johnson Vietnam Archive <br>
+							<span class="title--location">Conferences &amp; Events</span>
+						</label>
+					</li>
+					<li class="go-back"><a href="#0">Back</a></li>
+
+					<li><a href="//www.vietnam.ttu.edu/conference.php">Next Conference or Event</a></li>
+					<li><a href="//www.vietnam.ttu.edu/events/calendar.php">All Upcoming Events</a></li>
+					<li><a href="//www.vietnam.ttu.edu/events/">Past Conferences &amp; Events</a></li>
+					<li><a href="//www.vietnam.ttu.edu/events/LectureSeries">Guest Lecture Series</a></li>
+
+				</ul>
+			</li>
+			<li class="has-children "><a href="#">About Us</a>
+				<ul class="ttu-secondary-nav is-hidden">
+					<li class="c-page-header__mobile">
+						<label class="c-page-header__title moves-out"> Vietnam Center <em>&amp;</em> Sam Johnson Vietnam Archive <br>
+							<span class="title--location">About Us</span>
+						</label>
+					</li>
+					<li class="go-back"><a href="#0">Back</a></li>
+					<li class="has-children "><a href="//www.vietnam.ttu.edu/general/">About Us <em>&amp;</em> Contacting</a>
+						<ul class="is-hidden ">
+							<li class="c-page-header__mobile">
+								<label class="c-page-header__title moves-out"> Vietnam Center <em>&amp;</em> Sam Johnson Vietnam Archive <br>
+									<span class="title--location">About Us <em>&amp;</em> Contacting</span>
+								</label>
+							</li>
+							<li class="go-back"><a href="#0">Back</a></li>
+							<li><a href="//www.vietnam.ttu.edu/general/">About the VNCA</a></li>
+							<li><a href="//www.vietnam.ttu.edu/general/contact.php">Contact / Locations</a></li>
+							<li><a href="//www.vietnam.ttu.edu/general/hours.php">Hours of Operation</a></li>
+							<li><a href="//www.vietnam.ttu.edu/general/staff.php">Staff</a></li>
+							<li><a href="//www.vietnam.ttu.edu/general/#center">Mission Statements</a></li>
+							<li><a href="//www.vietnam.ttu.edu/general/advisoryboard.php">Vietnam Center Advisory Boards</a></li>
+						</ul>
+					</li>
+					<li class="has-children "><a href="//www.vietnam.ttu.edu/exhibits/timeline/">History <em>&amp;</em> Information</a>
+						<ul class="is-hidden ">
+							<li class="c-page-header__mobile">
+								<label class="c-page-header__title moves-out"> Vietnam Center <em>&amp;</em> Sam Johnson Vietnam Archive <br>
+									<span class="title--location">History <em>&amp;</em> Information</span>
+								</label>
+							</li>
+							<li class="go-back"><a href="#0">Back</a></li>
+							<li><a href="//www.vietnam.ttu.edu/exhibits/timeline/">History of the VNCA</a></li>
+							<li><a href="//www.vietnam.ttu.edu/general/thanks.php">Thanks To...</a></li>
+							<li><a href="//www.vietnam.ttu.edu/veterans/">Information for Veterans Associations</a></li>
+							<li><a href="//www.vietnam.ttu.edu/outreach/">Scholarships <em>&amp;</em> Outreach</a></li>
+						</ul>
+					</li>
+					<li class="has-children "><a href="//www.vietnam.ttu.edu/followus/">Follow Us <em>&amp;</em> Help</a>
+						<ul class="is-hidden ">
+							<li class="c-page-header__mobile">
+								<label class="c-page-header__title moves-out"> Vietnam Center <em>&amp;</em> Sam Johnson Vietnam Archive <br>
+									<span class="title--location">Follow Us <em>&amp;</em> Help</span>
+								</label>
+							</li>
+							<li class="go-back"><a href="#0">Back</a></li>
+							<li><a href="//www.vietnam.ttu.edu/followus/">Follow the VNCA</a></li>
+							<li><a href="//www.vietnam.ttu.edu/future/">Future of the VNCA</a></li>
+							<li><a href="//www.vietnam.ttu.edu/general/help.php">Help</a></li>
+							<li><a href="//www.vietnam.ttu.edu/sitemap.php">Site Map</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+
+
+			<div class="l-ttunav is-hidden"><label class="c-page-header__title">Additional Resources</label>
+				<a href="//www.ttu.edu/" alt="TTU Home" title="TTU Home">TTU Home</a><a href="//directory.texastech.edu/" tabindex="2" aria-label="TTU System Online Directory">Directory</a>
+				<a href="//raiderlink.ttu.edu/" tabindex="3" aria-label="Raiderlink">Raiderlink</a>
+				<a href="//www.ttu.edu/site/" tabindex="4" aria-label="Site Index">A-Z Index</a>
+			</div>
+		</ul>
+
+	</nav>
+	<ul class="ttu-header-buttons">
+		<li><a class="ttu-nav-trigger" href="#ttu-primary-nav">Menu<span></span></a></li>
+		<li><a class="ttu-search-trigger mobile-search" href="#ttu-search">Search<span></span></a></li>
+	</ul>
+
+</header>
+
+
+
+<main class="ttu-main-content pt-1"><nav class="navbar navbar-expand-lg navbar-light bg-light top-bar d-print-none">
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<ul class="navbar-nav mx-auto">
+			<li class="nav-item px-3 h5 mt-2"><a href="/" title="Return to Search Home page"><span class="fa fa-home" aria-hidden="true"></span><span class="sr-only">Home</span></a></li>
+			<li class="nav-item px-3 h5 mt-2"><a href="/search?utf8=%E2%9C%93&advanced=true&commit=Search&op%5B%5D=AND&q%5B%5D=&field%5B%5D=&op%5B%5D=AND&q%5B%5D=&field%5B%5D=&op%5B%5D=AND&q%5B%5D=&field%5B%5D=item_number_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=title&op%5B%5D=AND&q%5B%5D=&field%5B%5D=coll_name_u_utext&op%5B%5D=AND&q%5B%5D=&field%5B%5D=do_box_u_utext&op%5B%5D=AND&q%5B%5D=&field%5B%5D=do_folder_u_utext&op%5B%5D=AND&q%5B%5D=&field%5B%5D=begin_u_udate&op%5B%5D=AND&q%5B%5D=&field%5B%5D=begin_u_udate&op%5B%5D=AND&q%5B%5D=&field%5B%5D=assoc_u_utext&op%5B%5D=AND&q%5B%5D=&field%5B%5D=do_author_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=do_coll_num_u_ustr&op%5B%5D=NOT&q%5B%5D=&field%5B%5D=do_coll_num_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=copyrighted_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=create_time&op%5B%5D=AND&q%5B%5D=&field%5B%5D=digital_object_type&op%5B%5D=AND&q%5B%5D=resource&field%5B%5D=primary_type&mt5=on" title="Browse or search by name limited to the collection Finding Aids ">Collections</a></li>
+			<li class="nav-item px-3 h5 mt-2"><a href="/search?utf8=%E2%9C%93&advanced=true&commit=Search&op%5B%5D=AND&q%5B%5D=&field%5B%5D=&op%5B%5D=AND&q%5B%5D=&field%5B%5D=&op%5B%5D=AND&q%5B%5D=&field%5B%5D=item_number_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=title&op%5B%5D=AND&q%5B%5D=&field%5B%5D=coll_name_u_utext&op%5B%5D=AND&q%5B%5D=&field%5B%5D=do_box_u_utext&op%5B%5D=AND&q%5B%5D=&field%5B%5D=do_folder_u_utext&op%5B%5D=AND&q%5B%5D=&field%5B%5D=begin_u_udate&op%5B%5D=AND&q%5B%5D=&field%5B%5D=begin_u_udate&op%5B%5D=AND&q%5B%5D=&field%5B%5D=assoc_u_utext&op%5B%5D=AND&q%5B%5D=&field%5B%5D=do_author_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=do_coll_num_u_ustr&op%5B%5D=NOT&q%5B%5D=&field%5B%5D=do_coll_num_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=copyrighted_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=create_time&op%5B%5D=AND&q%5B%5D=&field%5B%5D=digital_object_type&op%5B%5D=AND&q%5B%5D=digital_object&field%5B%5D=primary_type&mt5=on">Records</a></li>
+			<li class="nav-item px-3 h5 mt-2"><a href="/search?utf8=%E2%9C%93&map=true&maplink=true&commit=Search&op%5B%5D=AND&q%5B%5D=&field%5B%5D=&op%5B%5D=AND&q%5B%5D=&field%5B%5D=map_country&op%5B%5D=AND&q%5B%5D=&field%5B%5D=map_scale&op%5B%5D=AND&q%5B%5D=&field%5B%5D=identifier&op%5B%5D=AND&q%5B%5D=&field%5B%5D=map_latdeg&op%5B%5D=AND&q%5B%5D=&field%5B%5D=map_latmin&op%5B%5D=AND&q%5B%5D=&field%5B%5D=map_londeg&op%5B%5D=AND&q%5B%5D=&field%5B%5D=map_lonmin&op%5B%5D=AND&q%5B%5D=&field%5B%5D=map_zone&op%5B%5D=AND&q%5B%5D=&field%5B%5D=map_ew&op%5B%5D=AND&q%5B%5D=&field%5B%5D=map_ns&op%5B%5D=AND&q%5B%5D=&field%5B%5D=coll_name_u_utext&op%5B%5D=AND&q%5B%5D=cartographic&field%5B%5D=digital_object_type" title="Specialized Map Search fields with era location lookup tools">Maps</a></li>
+			<li class="nav-item px-3 h5 mt-2"><a href="/search?utf8=%E2%9C%93&operation=true&commit=Search&op%5B%5D=AND&q%5B%5D=&field%5B%5D=&op%5B%5D=AND&q%5B%5D=&field%5B%5D=title&op%5B%5D=AND&q%5B%5D=&field%5B%5D=ops_date_u_udate&op%5B%5D=AND&q%5B%5D=&field%5B%5D=end_ops_date_u_udate&op%5B%5D=AND&q%5B%5D=&field%5B%5D=ops_tao_u_utext&op%5B%5D=AND&q%5B%5D=&field%5B%5D=ops_units_u_utext&op%5B%5D=AND&q%5B%5D=operation&field%5B%5D=primary_type" title="Search by operation name. Includes dates and units involved">Operations</a></li>
+			<!--<li class="nav-item px-3 h5 mt-2"><a href="/search?utf8=%E2%9C%93&cdec=true&commit=Search&op%5B%5D=AND&q%5B%5D=&field%5B%5D=&op%5B%5D=AND&q%5B%5D=&field%5B%5D=&op%5B%5D=AND&q%5B%5D=&field%5B%5D=cdec_log&op%5B%5D=AND&q%5B%5D=&field%5B%5D=cdec_intel&op%5B%5D=AND&q%5B%5D=&field%5B%5D=cdec_sub&op%5B%5D=AND&q%5B%5D=&field%5B%5D=cdec_capture&op%5B%5D=AND&q%5B%5D=&field%5B%5D=to_cdec_capture&op%5B%5D=AND&q%5B%5D=&field%5B%5D=cdec_intel_date&op%5B%5D=AND&q%5B%5D=&field%5B%5D=to_cdec_intel_date&op%5B%5D=AND&q%5B%5D=&field%5B%5D=cdec_report&op%5B%5D=AND&q%5B%5D=&field%5B%5D=to_cdec_report&op%5B%5D=AND&q%5B%5D=&field%5B%5D=cdec_keypunched&op%5B%5D=AND&q%5B%5D=&field%5B%5D=to_cdec_keypunched&op%5B%5D=AND&q%5B%5D=&field%5B%5D=cdec_org&op%5B%5D=AND&q%5B%5D=&field%5B%5D=cdec_pname&op%5B%5D=AND&q%5B%5D=&field%5B%5D=cdec_keywords&op%5B%5D=AND&q%5B%5D=&field%5B%5D=cdec_loc&op%5B%5D=AND&q%5B%5D=&field%5B%5D=cdec_grid&op%5B%5D=AND&q%5B%5D=cdec&field%5B%5D=primary_type">CDEC</a></li>-->
+			<li class="nav-item px-3 h5 mt-2"><a href="search?utf8=%E2%9C%93&thesa=true&commit=Search&op[]=AND&q[]=&field[]=&op[]=AND&q[]=thesa&field[]=primary_type&sort=title_sort%20asc" title="Era search terms found in the archive. Use to narrow or broaden search results">Thesaurus</a></li>
+			<li class="nav-item px-3 h5 mt-2"><a href="search?utf8=%E2%9C%93&prdcl_title=true&commit=Search&op[]=AND&q[]=&field[]=&op[]=AND&q[]=prdcl_title&field[]=primary_type&sort=title_sort%20asc" title="Era Master Titles in the archive. Includes publication information and links to individual issues, some of which may be digitized">Periodicals</a></li>
+			<li class="nav-item px-3 h5 mt-2 dropdown">
+				<a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+				Help / Guides
+				</a>
+				<div class="dropdown-menu">
+					<a class="dropdown-item" href="#" data-toggle="modal" data-target="#searchTipsModal">View Search Tips</a>
+					<a class="dropdown-item" href="/shared/guides/Guide_Using the Virtual.pdf" target="_blank">Search Guide</a>
+					<a class="dropdown-item" href="https://www.youtube.com/watch?v=ujUBx7Hr4eY&list=PLUEytDKvaNNmrpuHcQ3a1sXa_4qhsPgHw" target="_blank">Advanced Search Video Guide. </a>
+					<a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLUEytDKvaNNmrpuHcQ3a1sXa_4qhsPgHw" target="_blank" class="ml-2">View all Video Guides.</a>
+					<a class="dropdown-item" href="/shared/guides/Guide_Using Maps Search.pdf" target="_blank">Map Search Guide</a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="https://readingroom.vietnam.ttu.edu/" class="btn btn-primary ">Want access to copyrighted materials?</a>
+					<a class="dropdown-item" href="https://www.vietnam.ttu.edu/references/usmc/" class="btn btn-primary ">USMC Command Chronologies by Unit</a>
+				</div>
+			</li>
+			<li class="nav-item px-3">
+				<div class="form-inline">
+					<div class="input-group">
+						<input class="form-control border-dark" type="search" name="quick_search" id="quick_search" value="" placeholder=" Quick Search" aria-label="Search">
+						<div class="input-group-append">
+							<label for="qs_button" style="display:none">Start Search</label>
+							<button class="btn btn-outline-dark" onclick="AS_quick_search();" id="qs_button"><span class="fa fa-search"></span></button>
+						</div>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+</nav>
+<script>
+	var input = document.getElementById("quick_search");
+	input.addEventListener("keyup", function(event) {
+		if (event.keyCode === 13) {
+			event.preventDefault();
+			document.getElementById("qs_button").click();
+		}
+	});
+</script>
+<!--<div class="alert alert-danger" role="alert">
+	<center>Our websites are having technical issues.  Please be patient as we work through these issues.</center>
+</div>-->		<section class="container-fluid">
+			<div class="row justify-content-center mt-2">
+				<div class="col-md-12">
+					<div class="row">
+    <div class="col-md-9">
+        <h3>Robert T. Jordan Collection (2823) Finding Aid</h3>
+        <h6 class="pl-2 pt-1 bold"><span class="px-2 icons"><i class="fas fa-archive"></i> Collection</span> Item Number: 28230000000</h6>
+    </div>
+    <div class="col-md-3 text-right d-print-none">
+        <button type="button" class="btn btn-danger btn-modal" data-toggle="modal" data-target="#citeModal"><i class="fa fa-book fa-3x"></i><br>Citation</button>
+        <button type="button" class="btn btn-danger btn-modal" data-toggle="modal" data-target="#permaModal"><i class="fa fa-link fa-3x"></i><br>PermaLink</button>
+    </div>
+</div>
+
+<div class="row d-print-none">
+    <div class="col-md-12">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/"><i class="fa fa-home"></i> Vietnam Center and Sam Johnson Vietnam Archive</a></li>
+                <li class="breadcrumb-item"><a href="javascript:history.back()"><i class="fas fa-backward"></i> Previous Page</a></li>
+                <li class="breadcrumb-item active" aria-current="page"><i class="fas fa-archive"></i> Robert T. Jordan Collection (2823) Finding Aid</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+
+
+<div class="row">
+            <div class="col-md-6">
+            <div class="container-fluid">
+                    <dl class="row no-margin">
+                    <dt class="col-md-4 text-right">Collection</dt>
+                    <dd class="col-md-8 text-left"><a href="/search?utf8=%E2%9C%93&advanced=true&commit=Search&op[]=AND&q[]=&field[]=&op[]=AND&q[]=&field[]=&op[]=AND&q[]=&field[]=item_number_u_ustr&op[]=AND&q[]=&field[]=title&op[]=AND&q[]=2823&field[]=coll_name_u_utext&op[]=AND&q[]=&field[]=do_box_u_utext&op[]=AND&q[]=&field[]=do_folder_u_utext&op[]=AND&q[]=&field[]=begin_u_udate&op[]=AND&q[]=&field[]=begin_u_udate&op[]=AND&q[]=&field[]=assoc_u_utext&op[]=AND&q[]=&field[]=do_author_u_ustr&op[]=AND&q[]=&field[]=do_coll_num_u_ustr&op[]=NOT&q[]=&field[]=do_coll_num_u_ustr&op[]=AND&q[]=&field[]=copyrighted_u_ustr&op[]=AND&q[]=&field[]=create_time&op[]=AND&q[]=&field[]=digital_object_type&op[]=AND&q[]=&field[]=primary_type">Robert T. Jordan Collection</a></dd>
+                </dl>
+            </div>        </div>
+    </div>
+<div class="row py-2">
+    <div class="col-md-12">
+                    <dl class="row no-margin">
+                <dt class="col-md-2 text-right">Title</dt>
+                <dd class="col-md-10 text-left">Robert T. Jordan Collection (2823) Finding Aid</dd>
+            </dl>
+                                    <dl class="row no-margin">
+                <dt class="col-md-2 text-right">Finding Aid Author</dt>
+                <dd class="col-md-10 text-left">Amy Mondt</dd>
+            </dl>
+                            <dl class="row no-margin">
+                <dt class="col-md-2 text-right">Finding Aid Date</dt>
+                <dd class="col-md-10 text-left">2017-05-19</dd>
+            </dl>
+                                    <dl class="row no-margin">
+                <dt class="col-md-2 text-right">Linear Feet</dt>
+                <dd class="col-md-10 text-left">1</dd>
+            </dl>
+                                                                <dl class="row no-margin">
+                    <dt class="col-md-2 text-right">Language(s)</dt>
+                    <dd class="col-md-10 text-left">
+                        English                     </dd>
+                </dl>
+                </div>
+</div>
+
+    <div class="row py-2">
+        <div class="col-md-12">
+            <dl class="row no-margin">
+            <dt class="col-md-2 text-right">Dates</dt>
+            <dd class="col-md-10 text-left">
+            Creation: August 1967 - August 1968<br>            </dd>
+            </dl>
+        </div>
+    </div>
+
+<div class="row py-2 justify-content-center">
+                            <div class="col-md-8">
+                                <h5><b>Scope and Contents</b></h5>
+                                The collection consists of slides and letters home from Robert Jordan's tour in Vietnam from August 1967 through August 1968. The slides show soldiers and operations at the following RVN locations: Tam Ky, Hill 54, Duc Pho, LZ Bronco, LZ Tempest, Chu Lai, LZ Uptight, LZ Hardcore, LZ Geronimo, LZ English, Phu Cat Air Force Base, Polei Kleng, LZ No Slack, LZ Swinger, LZ Mickey Mouse, LZ Roberts, Cam Ranh Bay, Kontum, and LZ Marylou; and R&R in Singapore.
+                            </div>
+                        </div><div class="row py-2 justify-content-center">
+                            <div class="col-md-8">
+                                <h5><b>Biographical / Historical</b></h5>
+                                Born in 1947 in Jersey City, New Jersey, Robert Jordan was drafted into the United States Army in 1966 and served for three (3) years. He was assigned to the 3rd Brigade, 4th Inf Division and held an MOS as a Field Wireman and as a courier while being stationed at Duc Pho, Vietnam with the rank of E4. Robert Jordan was discharged in 1970 and after the military became a Respiratory Therapist.
+                            </div>
+                        </div>
+
+
+<div class="row py-2 justify-content-center">
+    <div class="col-md-10">
+        <div class="accordion" id="accordion_record">
+
+                            <div class="card">
+                    <div class="card-header py-0" id="Separations_head">
+                        <button class="btn btn-link btn-block text-left text-ttu-red bold" type="button" data-toggle="collapse" data-target="#Separations" aria-expanded="false" aria-controls="Separations">
+                            <h5><i class="fa fa-angle-up"></i><i class="fa fa-angle-down"></i> Separations</h5>
+                        </button>
+                    </div>
+
+                    <div id="Separations" class="collapse" aria-labelledby="Separations_head">
+                        <div class="card-body">
+
+                                                            
+                                <dl class="row no-margin">
+                                    <dt class="col-md-1 text-right">476</dt>
+                                                                            <dd class="col-md-11 text-left"><a href="/search?utf8=%E2%9C%93&advanced=true&commit=Search&op[]=AND&q[]=&field[]=&op[]=AND&q[]=&field[]=&op[]=AND&q[]=&field[]=item_number_u_ustr&op[]=AND&q[]=&field[]=title&op[]=AND&q[]=2823&field[]=coll_name_u_utext&op[]=AND&q[]=&field[]=do_box_u_utext&op[]=AND&q[]=&field[]=do_folder_u_utext&op[]=AND&q[]=&field[]=begin_u_udate&op[]=AND&q[]=&field[]=begin_u_udate&op[]=AND&q[]=&field[]=assoc_u_utext&op[]=AND&q[]=&field[]=do_author_u_ustr&op[]=AND&q[]=&field[]=do_coll_num_u_ustr&op[]=NOT&q[]=&field[]=do_coll_num_u_ustr&op[]=AND&q[]=&field[]=copyrighted_u_ustr&op[]=AND&q[]=&field[]=create_time&op[]=AND&q[]=slide &field[]=digital_object_type&op[]=AND&q[]=&field[]=primary_type"><b>Slides</b></a><br>Slides donated by Robert T. Jordan showing his service in Vietnam from August 1967 through August 1968<br><a href="/search?utf8=%E2%9C%93&advanced=true&commit=Search&op[]=AND&q[]=&field[]=&op[]=AND&q[]=&field[]=&op[]=AND&q[]=&field[]=item_number_u_ustr&op[]=AND&q[]=&field[]=title&op[]=AND&q[]=2823&field[]=coll_name_u_utext&op[]=AND&q[]=&field[]=do_box_u_utext&op[]=AND&q[]=&field[]=do_folder_u_utext&op[]=AND&q[]=&field[]=begin_u_udate&op[]=AND&q[]=&field[]=begin_u_udate&op[]=AND&q[]=&field[]=assoc_u_utext&op[]=AND&q[]=&field[]=do_author_u_ustr&op[]=AND&q[]=&field[]=do_coll_num_u_ustr&op[]=NOT&q[]=&field[]=do_coll_num_u_ustr&op[]=AND&q[]=&field[]=copyrighted_u_ustr&op[]=AND&q[]=&field[]=create_time&op[]=AND&q[]=slide &field[]=digital_object_type&op[]=AND&q[]=&field[]=primary_type" class="pl-4">Click to view all Slides</a></dd>
+                                                                    </dl>
+
+                                                    </div>
+                    </div>
+                </div>
+            
+                            <div class="card">
+                    <div class="card-header py-0" id="physical_head">
+                        <button class="btn btn-link btn-block text-left text-ttu-red bold" type="button" data-toggle="collapse" data-target="#physical" aria-expanded="false" aria-controls="physical">
+                            <h5><i class="fa fa-angle-up"></i><i class="fa fa-angle-down"></i> Physical Storage Information</h5>
+                        </button>
+                    </div>
+
+                    <div id="physical" class="collapse" aria-labelledby="physical_head">
+                        <div class="card-body">
+                            <ul>
+                                                                    <li>Box 1 [TTU - Southwest Collections Building, 2nd Floor, Stacks, D167.3 [D167.3]]</li>                                                                    <li>Box 1000 [TTU - Southwest Collections Building,  [Individual Collections - Oversize ]]</li>                                                            </ul>
+                        </div>
+                    </div>
+                </div>
+            
+                            <div class="card">
+                    <div class="card-header py-0" id="inventorys_head">
+                        <button class="btn btn-link btn-block text-left text-ttu-red bold" type="button" data-toggle="collapse" data-target="#inventorys" aria-expanded="true" aria-controls="inventorys">
+                            <h5><i class="fa fa-angle-up"></i><i class="fa fa-angle-down"></i> Inventory</h5>
+                        </button>
+                    </div>
+
+                    <div id="inventorys" class="collapse show" aria-labelledby="inventorys_head">
+                        <div class="card-body">
+                            <ul>
+                                                                    <li class="row row-bg-head">
+                                                                                    <div class="col-md-12">
+                                                                                                    <a href="/search?utf8=%E2%9C%93&advanced=true&commit=Search&op%5B%5D=AND&q%5B%5D=&field%5B%5D=&op%5B%5D=AND&q%5B%5D=&field%5B%5D=&op%5B%5D=AND&q%5B%5D=&field%5B%5D=item_number_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=title&op%5B%5D=AND&q%5B%5D=2823&field%5B%5D=coll_name_u_utext&op%5B%5D=AND&q%5B%5D=1&field%5B%5D=do_box_u_utext&op%5B%5D=AND&q%5B%5D=&field%5B%5D=do_folder_u_utext&op%5B%5D=AND&q%5B%5D=&field%5B%5D=begin_u_udate&op%5B%5D=AND&q%5B%5D=&field%5B%5D=end_u_udate&op%5B%5D=AND&q%5B%5D=&field%5B%5D=assoc_u_utext&op%5B%5D=AND&q%5B%5D=&field%5B%5D=do_author_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=do_coll_num_u_ustr&op%5B%5D=NOT&q%5B%5D=&field%5B%5D=do_coll_num_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=copyrighted_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=create_time&op%5B%5D=AND&q%5B%5D=&field%5B%5D=digital_object_type&op%5B%5D=AND&q%5B%5D=&field%5B%5D=primary_type" class="indent2">Box 1</a>
+                                                                                            </div>
+                                                                            </li>
+                                                                            <li class="row row-bg-foot">
+                                                                                            <div class="col-md-12">
+                                                    <a href="/search?utf8=%E2%9C%93&advanced=true&commit=Search&op%5B%5D=AND&q%5B%5D=&field%5B%5D=&op%5B%5D=AND&q%5B%5D=&field%5B%5D=&op%5B%5D=AND&q%5B%5D=&field%5B%5D=item_number_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=title&op%5B%5D=AND&q%5B%5D=2823&field%5B%5D=coll_name_u_utext&op%5B%5D=AND&q%5B%5D=1&field%5B%5D=do_box_u_utext&op%5B%5D=AND&q%5B%5D=1&field%5B%5D=do_folder_u_utext&op%5B%5D=AND&q%5B%5D=&field%5B%5D=begin_u_udate&op%5B%5D=AND&q%5B%5D=&field%5B%5D=end_u_udate&op%5B%5D=AND&q%5B%5D=&field%5B%5D=assoc_u_utext&op%5B%5D=AND&q%5B%5D=&field%5B%5D=do_author_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=do_coll_num_u_ustr&op%5B%5D=NOT&q%5B%5D=&field%5B%5D=do_coll_num_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=copyrighted_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=create_time&op%5B%5D=AND&q%5B%5D=&field%5B%5D=digital_object_type&op%5B%5D=AND&q%5B%5D=&field%5B%5D=primary_type" class="indent3">Folder 1</a>
+                                                </div>
+                                                                                    </li>
+                                                                                    <li class="row">
+                                                <div class="col-md-12">
+                                                    <span  class="indent4">Letters home written by Robert Jordan (August 1967)</span>                                                </div>
+                                            </li>
+                                                                                                                    <li class="row row-bg-foot">
+                                                                                            <div class="col-md-12">
+                                                    <a href="/search?utf8=%E2%9C%93&advanced=true&commit=Search&op%5B%5D=AND&q%5B%5D=&field%5B%5D=&op%5B%5D=AND&q%5B%5D=&field%5B%5D=&op%5B%5D=AND&q%5B%5D=&field%5B%5D=item_number_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=title&op%5B%5D=AND&q%5B%5D=2823&field%5B%5D=coll_name_u_utext&op%5B%5D=AND&q%5B%5D=1&field%5B%5D=do_box_u_utext&op%5B%5D=AND&q%5B%5D=2&field%5B%5D=do_folder_u_utext&op%5B%5D=AND&q%5B%5D=&field%5B%5D=begin_u_udate&op%5B%5D=AND&q%5B%5D=&field%5B%5D=end_u_udate&op%5B%5D=AND&q%5B%5D=&field%5B%5D=assoc_u_utext&op%5B%5D=AND&q%5B%5D=&field%5B%5D=do_author_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=do_coll_num_u_ustr&op%5B%5D=NOT&q%5B%5D=&field%5B%5D=do_coll_num_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=copyrighted_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=create_time&op%5B%5D=AND&q%5B%5D=&field%5B%5D=digital_object_type&op%5B%5D=AND&q%5B%5D=&field%5B%5D=primary_type" class="indent3">Folder 2</a>
+                                                </div>
+                                                                                    </li>
+                                                                                    <li class="row">
+                                                <div class="col-md-12">
+                                                    <span  class="indent4">Letters home written by Robert Jordan (September 1967)</span>                                                </div>
+                                            </li>
+                                                                                                                    <li class="row row-bg-foot">
+                                                                                            <div class="col-md-12">
+                                                    <a href="/search?utf8=%E2%9C%93&advanced=true&commit=Search&op%5B%5D=AND&q%5B%5D=&field%5B%5D=&op%5B%5D=AND&q%5B%5D=&field%5B%5D=&op%5B%5D=AND&q%5B%5D=&field%5B%5D=item_number_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=title&op%5B%5D=AND&q%5B%5D=2823&field%5B%5D=coll_name_u_utext&op%5B%5D=AND&q%5B%5D=1&field%5B%5D=do_box_u_utext&op%5B%5D=AND&q%5B%5D=3&field%5B%5D=do_folder_u_utext&op%5B%5D=AND&q%5B%5D=&field%5B%5D=begin_u_udate&op%5B%5D=AND&q%5B%5D=&field%5B%5D=end_u_udate&op%5B%5D=AND&q%5B%5D=&field%5B%5D=assoc_u_utext&op%5B%5D=AND&q%5B%5D=&field%5B%5D=do_author_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=do_coll_num_u_ustr&op%5B%5D=NOT&q%5B%5D=&field%5B%5D=do_coll_num_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=copyrighted_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=create_time&op%5B%5D=AND&q%5B%5D=&field%5B%5D=digital_object_type&op%5B%5D=AND&q%5B%5D=&field%5B%5D=primary_type" class="indent3">Folder 3</a>
+                                                </div>
+                                                                                    </li>
+                                                                                    <li class="row">
+                                                <div class="col-md-12">
+                                                    <span  class="indent4">Letters home written by Robert Jordan (October 1967)</span>                                                </div>
+                                            </li>
+                                                                                                                    <li class="row row-bg-foot">
+                                                                                            <div class="col-md-12">
+                                                    <a href="/search?utf8=%E2%9C%93&advanced=true&commit=Search&op%5B%5D=AND&q%5B%5D=&field%5B%5D=&op%5B%5D=AND&q%5B%5D=&field%5B%5D=&op%5B%5D=AND&q%5B%5D=&field%5B%5D=item_number_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=title&op%5B%5D=AND&q%5B%5D=2823&field%5B%5D=coll_name_u_utext&op%5B%5D=AND&q%5B%5D=1&field%5B%5D=do_box_u_utext&op%5B%5D=AND&q%5B%5D=4&field%5B%5D=do_folder_u_utext&op%5B%5D=AND&q%5B%5D=&field%5B%5D=begin_u_udate&op%5B%5D=AND&q%5B%5D=&field%5B%5D=end_u_udate&op%5B%5D=AND&q%5B%5D=&field%5B%5D=assoc_u_utext&op%5B%5D=AND&q%5B%5D=&field%5B%5D=do_author_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=do_coll_num_u_ustr&op%5B%5D=NOT&q%5B%5D=&field%5B%5D=do_coll_num_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=copyrighted_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=create_time&op%5B%5D=AND&q%5B%5D=&field%5B%5D=digital_object_type&op%5B%5D=AND&q%5B%5D=&field%5B%5D=primary_type" class="indent3">Folder 4</a>
+                                                </div>
+                                                                                    </li>
+                                                                                    <li class="row">
+                                                <div class="col-md-12">
+                                                    <span  class="indent4">Letters home written by Robert Jordan (November 1967)</span>                                                </div>
+                                            </li>
+                                                                                                                    <li class="row row-bg-foot">
+                                                                                            <div class="col-md-12">
+                                                    <a href="/search?utf8=%E2%9C%93&advanced=true&commit=Search&op%5B%5D=AND&q%5B%5D=&field%5B%5D=&op%5B%5D=AND&q%5B%5D=&field%5B%5D=&op%5B%5D=AND&q%5B%5D=&field%5B%5D=item_number_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=title&op%5B%5D=AND&q%5B%5D=2823&field%5B%5D=coll_name_u_utext&op%5B%5D=AND&q%5B%5D=1&field%5B%5D=do_box_u_utext&op%5B%5D=AND&q%5B%5D=5&field%5B%5D=do_folder_u_utext&op%5B%5D=AND&q%5B%5D=&field%5B%5D=begin_u_udate&op%5B%5D=AND&q%5B%5D=&field%5B%5D=end_u_udate&op%5B%5D=AND&q%5B%5D=&field%5B%5D=assoc_u_utext&op%5B%5D=AND&q%5B%5D=&field%5B%5D=do_author_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=do_coll_num_u_ustr&op%5B%5D=NOT&q%5B%5D=&field%5B%5D=do_coll_num_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=copyrighted_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=create_time&op%5B%5D=AND&q%5B%5D=&field%5B%5D=digital_object_type&op%5B%5D=AND&q%5B%5D=&field%5B%5D=primary_type" class="indent3">Folder 5</a>
+                                                </div>
+                                                                                    </li>
+                                                                                    <li class="row">
+                                                <div class="col-md-12">
+                                                    <span  class="indent4">Letters home written by Robert Jordan (December 1967)</span>                                                </div>
+                                            </li>
+                                                                                                                    <li class="row row-bg-foot">
+                                                                                            <div class="col-md-12">
+                                                    <a href="/search?utf8=%E2%9C%93&advanced=true&commit=Search&op%5B%5D=AND&q%5B%5D=&field%5B%5D=&op%5B%5D=AND&q%5B%5D=&field%5B%5D=&op%5B%5D=AND&q%5B%5D=&field%5B%5D=item_number_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=title&op%5B%5D=AND&q%5B%5D=2823&field%5B%5D=coll_name_u_utext&op%5B%5D=AND&q%5B%5D=1&field%5B%5D=do_box_u_utext&op%5B%5D=AND&q%5B%5D=6&field%5B%5D=do_folder_u_utext&op%5B%5D=AND&q%5B%5D=&field%5B%5D=begin_u_udate&op%5B%5D=AND&q%5B%5D=&field%5B%5D=end_u_udate&op%5B%5D=AND&q%5B%5D=&field%5B%5D=assoc_u_utext&op%5B%5D=AND&q%5B%5D=&field%5B%5D=do_author_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=do_coll_num_u_ustr&op%5B%5D=NOT&q%5B%5D=&field%5B%5D=do_coll_num_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=copyrighted_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=create_time&op%5B%5D=AND&q%5B%5D=&field%5B%5D=digital_object_type&op%5B%5D=AND&q%5B%5D=&field%5B%5D=primary_type" class="indent3">Folder 6</a>
+                                                </div>
+                                                                                    </li>
+                                                                                    <li class="row">
+                                                <div class="col-md-12">
+                                                    <span  class="indent4">Letters home written by Robert Jordan (January 1968)</span>                                                </div>
+                                            </li>
+                                                                                                                    <li class="row row-bg-foot">
+                                                                                            <div class="col-md-12">
+                                                    <a href="/search?utf8=%E2%9C%93&advanced=true&commit=Search&op%5B%5D=AND&q%5B%5D=&field%5B%5D=&op%5B%5D=AND&q%5B%5D=&field%5B%5D=&op%5B%5D=AND&q%5B%5D=&field%5B%5D=item_number_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=title&op%5B%5D=AND&q%5B%5D=2823&field%5B%5D=coll_name_u_utext&op%5B%5D=AND&q%5B%5D=1&field%5B%5D=do_box_u_utext&op%5B%5D=AND&q%5B%5D=7&field%5B%5D=do_folder_u_utext&op%5B%5D=AND&q%5B%5D=&field%5B%5D=begin_u_udate&op%5B%5D=AND&q%5B%5D=&field%5B%5D=end_u_udate&op%5B%5D=AND&q%5B%5D=&field%5B%5D=assoc_u_utext&op%5B%5D=AND&q%5B%5D=&field%5B%5D=do_author_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=do_coll_num_u_ustr&op%5B%5D=NOT&q%5B%5D=&field%5B%5D=do_coll_num_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=copyrighted_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=create_time&op%5B%5D=AND&q%5B%5D=&field%5B%5D=digital_object_type&op%5B%5D=AND&q%5B%5D=&field%5B%5D=primary_type" class="indent3">Folder 7</a>
+                                                </div>
+                                                                                    </li>
+                                                                                    <li class="row">
+                                                <div class="col-md-12">
+                                                    <span  class="indent4">Letters home written by Robert Jordan (February 1968)</span>                                                </div>
+                                            </li>
+                                                                                                                    <li class="row row-bg-foot">
+                                                                                            <div class="col-md-12">
+                                                    <a href="/search?utf8=%E2%9C%93&advanced=true&commit=Search&op%5B%5D=AND&q%5B%5D=&field%5B%5D=&op%5B%5D=AND&q%5B%5D=&field%5B%5D=&op%5B%5D=AND&q%5B%5D=&field%5B%5D=item_number_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=title&op%5B%5D=AND&q%5B%5D=2823&field%5B%5D=coll_name_u_utext&op%5B%5D=AND&q%5B%5D=1&field%5B%5D=do_box_u_utext&op%5B%5D=AND&q%5B%5D=8&field%5B%5D=do_folder_u_utext&op%5B%5D=AND&q%5B%5D=&field%5B%5D=begin_u_udate&op%5B%5D=AND&q%5B%5D=&field%5B%5D=end_u_udate&op%5B%5D=AND&q%5B%5D=&field%5B%5D=assoc_u_utext&op%5B%5D=AND&q%5B%5D=&field%5B%5D=do_author_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=do_coll_num_u_ustr&op%5B%5D=NOT&q%5B%5D=&field%5B%5D=do_coll_num_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=copyrighted_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=create_time&op%5B%5D=AND&q%5B%5D=&field%5B%5D=digital_object_type&op%5B%5D=AND&q%5B%5D=&field%5B%5D=primary_type" class="indent3">Folder 8</a>
+                                                </div>
+                                                                                    </li>
+                                                                                    <li class="row">
+                                                <div class="col-md-12">
+                                                    <span  class="indent4">Letters home written by Robert Jordan (March 1968)</span>                                                </div>
+                                            </li>
+                                                                                                                    <li class="row row-bg-foot">
+                                                                                            <div class="col-md-12">
+                                                    <a href="/search?utf8=%E2%9C%93&advanced=true&commit=Search&op%5B%5D=AND&q%5B%5D=&field%5B%5D=&op%5B%5D=AND&q%5B%5D=&field%5B%5D=&op%5B%5D=AND&q%5B%5D=&field%5B%5D=item_number_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=title&op%5B%5D=AND&q%5B%5D=2823&field%5B%5D=coll_name_u_utext&op%5B%5D=AND&q%5B%5D=1&field%5B%5D=do_box_u_utext&op%5B%5D=AND&q%5B%5D=9&field%5B%5D=do_folder_u_utext&op%5B%5D=AND&q%5B%5D=&field%5B%5D=begin_u_udate&op%5B%5D=AND&q%5B%5D=&field%5B%5D=end_u_udate&op%5B%5D=AND&q%5B%5D=&field%5B%5D=assoc_u_utext&op%5B%5D=AND&q%5B%5D=&field%5B%5D=do_author_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=do_coll_num_u_ustr&op%5B%5D=NOT&q%5B%5D=&field%5B%5D=do_coll_num_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=copyrighted_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=create_time&op%5B%5D=AND&q%5B%5D=&field%5B%5D=digital_object_type&op%5B%5D=AND&q%5B%5D=&field%5B%5D=primary_type" class="indent3">Folder 9</a>
+                                                </div>
+                                                                                    </li>
+                                                                                    <li class="row">
+                                                <div class="col-md-12">
+                                                    <span  class="indent4">Letters home written by Robert Jordan (April 1968)</span>                                                </div>
+                                            </li>
+                                                                                                                    <li class="row row-bg-foot">
+                                                                                            <div class="col-md-12">
+                                                    <a href="/search?utf8=%E2%9C%93&advanced=true&commit=Search&op%5B%5D=AND&q%5B%5D=&field%5B%5D=&op%5B%5D=AND&q%5B%5D=&field%5B%5D=&op%5B%5D=AND&q%5B%5D=&field%5B%5D=item_number_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=title&op%5B%5D=AND&q%5B%5D=2823&field%5B%5D=coll_name_u_utext&op%5B%5D=AND&q%5B%5D=1&field%5B%5D=do_box_u_utext&op%5B%5D=AND&q%5B%5D=10&field%5B%5D=do_folder_u_utext&op%5B%5D=AND&q%5B%5D=&field%5B%5D=begin_u_udate&op%5B%5D=AND&q%5B%5D=&field%5B%5D=end_u_udate&op%5B%5D=AND&q%5B%5D=&field%5B%5D=assoc_u_utext&op%5B%5D=AND&q%5B%5D=&field%5B%5D=do_author_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=do_coll_num_u_ustr&op%5B%5D=NOT&q%5B%5D=&field%5B%5D=do_coll_num_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=copyrighted_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=create_time&op%5B%5D=AND&q%5B%5D=&field%5B%5D=digital_object_type&op%5B%5D=AND&q%5B%5D=&field%5B%5D=primary_type" class="indent3">Folder 10</a>
+                                                </div>
+                                                                                    </li>
+                                                                                    <li class="row">
+                                                <div class="col-md-12">
+                                                    <span  class="indent4">Letters home written by Robert Jordan (May 1968)</span>                                                </div>
+                                            </li>
+                                                                                                                    <li class="row row-bg-foot">
+                                                                                            <div class="col-md-12">
+                                                    <a href="/search?utf8=%E2%9C%93&advanced=true&commit=Search&op%5B%5D=AND&q%5B%5D=&field%5B%5D=&op%5B%5D=AND&q%5B%5D=&field%5B%5D=&op%5B%5D=AND&q%5B%5D=&field%5B%5D=item_number_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=title&op%5B%5D=AND&q%5B%5D=2823&field%5B%5D=coll_name_u_utext&op%5B%5D=AND&q%5B%5D=1&field%5B%5D=do_box_u_utext&op%5B%5D=AND&q%5B%5D=11&field%5B%5D=do_folder_u_utext&op%5B%5D=AND&q%5B%5D=&field%5B%5D=begin_u_udate&op%5B%5D=AND&q%5B%5D=&field%5B%5D=end_u_udate&op%5B%5D=AND&q%5B%5D=&field%5B%5D=assoc_u_utext&op%5B%5D=AND&q%5B%5D=&field%5B%5D=do_author_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=do_coll_num_u_ustr&op%5B%5D=NOT&q%5B%5D=&field%5B%5D=do_coll_num_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=copyrighted_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=create_time&op%5B%5D=AND&q%5B%5D=&field%5B%5D=digital_object_type&op%5B%5D=AND&q%5B%5D=&field%5B%5D=primary_type" class="indent3">Folder 11</a>
+                                                </div>
+                                                                                    </li>
+                                                                                    <li class="row">
+                                                <div class="col-md-12">
+                                                    <span  class="indent4">Letters home written by Robert Jordan (June 1968)</span>                                                </div>
+                                            </li>
+                                                                                                                    <li class="row row-bg-foot">
+                                                                                            <div class="col-md-12">
+                                                    <a href="/search?utf8=%E2%9C%93&advanced=true&commit=Search&op%5B%5D=AND&q%5B%5D=&field%5B%5D=&op%5B%5D=AND&q%5B%5D=&field%5B%5D=&op%5B%5D=AND&q%5B%5D=&field%5B%5D=item_number_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=title&op%5B%5D=AND&q%5B%5D=2823&field%5B%5D=coll_name_u_utext&op%5B%5D=AND&q%5B%5D=1&field%5B%5D=do_box_u_utext&op%5B%5D=AND&q%5B%5D=12&field%5B%5D=do_folder_u_utext&op%5B%5D=AND&q%5B%5D=&field%5B%5D=begin_u_udate&op%5B%5D=AND&q%5B%5D=&field%5B%5D=end_u_udate&op%5B%5D=AND&q%5B%5D=&field%5B%5D=assoc_u_utext&op%5B%5D=AND&q%5B%5D=&field%5B%5D=do_author_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=do_coll_num_u_ustr&op%5B%5D=NOT&q%5B%5D=&field%5B%5D=do_coll_num_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=copyrighted_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=create_time&op%5B%5D=AND&q%5B%5D=&field%5B%5D=digital_object_type&op%5B%5D=AND&q%5B%5D=&field%5B%5D=primary_type" class="indent3">Folder 12</a>
+                                                </div>
+                                                                                    </li>
+                                                                                    <li class="row">
+                                                <div class="col-md-12">
+                                                    <span  class="indent4">Letters home written by Robert Jordan (July 1968)</span>                                                </div>
+                                            </li>
+                                                                                                                                                <li class="row row-bg-head">
+                                                                                    <div class="col-md-12">
+                                                                                                    <a href="/search?utf8=%E2%9C%93&advanced=true&commit=Search&op%5B%5D=AND&q%5B%5D=&field%5B%5D=&op%5B%5D=AND&q%5B%5D=&field%5B%5D=&op%5B%5D=AND&q%5B%5D=&field%5B%5D=item_number_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=title&op%5B%5D=AND&q%5B%5D=2823&field%5B%5D=coll_name_u_utext&op%5B%5D=AND&q%5B%5D=1000&field%5B%5D=do_box_u_utext&op%5B%5D=AND&q%5B%5D=&field%5B%5D=do_folder_u_utext&op%5B%5D=AND&q%5B%5D=&field%5B%5D=begin_u_udate&op%5B%5D=AND&q%5B%5D=&field%5B%5D=end_u_udate&op%5B%5D=AND&q%5B%5D=&field%5B%5D=assoc_u_utext&op%5B%5D=AND&q%5B%5D=&field%5B%5D=do_author_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=do_coll_num_u_ustr&op%5B%5D=NOT&q%5B%5D=&field%5B%5D=do_coll_num_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=copyrighted_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=create_time&op%5B%5D=AND&q%5B%5D=&field%5B%5D=digital_object_type&op%5B%5D=AND&q%5B%5D=&field%5B%5D=primary_type" class="indent2">Box 1000</a>
+                                                                                            </div>
+                                                                            </li>
+                                                                            <li class="row row-bg-foot">
+                                                                                            <div class="col-md-12">
+                                                    <a href="/search?utf8=%E2%9C%93&advanced=true&commit=Search&op%5B%5D=AND&q%5B%5D=&field%5B%5D=&op%5B%5D=AND&q%5B%5D=&field%5B%5D=&op%5B%5D=AND&q%5B%5D=&field%5B%5D=item_number_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=title&op%5B%5D=AND&q%5B%5D=2823&field%5B%5D=coll_name_u_utext&op%5B%5D=AND&q%5B%5D=1000&field%5B%5D=do_box_u_utext&op%5B%5D=AND&q%5B%5D=1&field%5B%5D=do_folder_u_utext&op%5B%5D=AND&q%5B%5D=&field%5B%5D=begin_u_udate&op%5B%5D=AND&q%5B%5D=&field%5B%5D=end_u_udate&op%5B%5D=AND&q%5B%5D=&field%5B%5D=assoc_u_utext&op%5B%5D=AND&q%5B%5D=&field%5B%5D=do_author_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=do_coll_num_u_ustr&op%5B%5D=NOT&q%5B%5D=&field%5B%5D=do_coll_num_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=copyrighted_u_ustr&op%5B%5D=AND&q%5B%5D=&field%5B%5D=create_time&op%5B%5D=AND&q%5B%5D=&field%5B%5D=digital_object_type&op%5B%5D=AND&q%5B%5D=&field%5B%5D=primary_type" class="indent3">Folder 1</a>
+                                                </div>
+                                                                                    </li>
+                                                                                    <li class="row">
+                                                <div class="col-md-12">
+                                                    <span  class="indent4">Clipping - Ivy Leaf (May 19, 1968)</span>                                                </div>
+                                            </li>
+                                                                                                                                        </ul>
+                        </div>
+                    </div>
+                </div>
+            
+        </div>
+    </div>
+</div>
+
+
+<hr>
+<div class="row">
+    <div class="col-md-12 text-center">
+            <dl class="row no-margin">
+                <dt class="col-md-4 text-right">Perma Link</dt>
+                <dd class="col-md-8 text-left long-string">https://www.vietnam.ttu.edu/virtualarchive/items.php?item=28230000000</dd>
+            </dl>
+    </div>
+</div>
+<hr>
+<div class="row">
+    <div class="col-md-12 text-center">
+            <dl class="row no-margin">
+                <dt class="col-md-4 text-right">Citation</dt>
+                <dd class="col-md-8 text-left long-string">Robert T. Jordan Collection (2823) Finding Aid, Robert T. Jordan Collection, Vietnam Center and Sam Johnson Vietnam Archive, Texas Tech University, https://www.vietnam.ttu.edu/virtualarchive/items.php?item=28230000000, Accessed 26 Oct 2026.</dd>
+            </dl>
+    </div>
+</div>
+<hr>
+<div class="row">
+    <div class="col-md-12 text-center">
+            <dl class="row no-margin">
+                <dt class="col-md-4 text-right">Pub Credit Line</dt>
+                <dd class="col-md-8 text-left long-string">28230000000, Robert T. Jordan Collection, Vietnam Center and Sam Johnson Vietnam Archive, Texas Tech University</dd>
+                            </dl>
+    </div>
+</div>
+<hr>
+<div class="row">
+    <div class="col-md-12 text-center">
+            <dl class="row no-margin">
+                <dt class="col-md-4 text-right"></dt>
+                <dd class="col-md-8 text-left"><span class="pt-1 rUp"><b>Added</b>: 19 May 2017 <b>[Updated</b>: 09 Mar 2026<b>]</b></span></dd>
+            </dl>
+    </div>
+</div>
+<div class="modal fade" id="citeModal" tabindex="-1" role="dialog" aria-labelledby="citeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="citeModalLabel">Citation</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <textarea id="citation" class="form-control" rows="5">Robert T. Jordan Collection (2823) Finding Aid, Robert T. Jordan Collection, Vietnam Center and Sam Johnson Vietnam Archive, Texas Tech University, https://www.vietnam.ttu.edu/virtualarchive/items.php?item=28230000000, Accessed 26 Oct 2026.</textarea>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" onclick="copyToClipboard('citation')">Copy</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="permaModal" tabindex="-1" role="dialog" aria-labelledby="permaModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="permaModalLabel">PermaLink</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <textarea id="permalink" class="form-control" rows="5">https://www.vietnam.ttu.edu/virtualarchive/items.php?item=28230000000</textarea>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" onclick="copyToClipboard('permalink')">Copy</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>				</div>
+			</div>
+		</section>
+
+		<div class="container-fluid mt-4">
+			<div class="alert alert-info" role="alert">
+				<center><h4 class="alert-heading">Virtual Vietnam Archive Disclaimer - Please Read</h4></center>
+				<p>The Vietnam Center and Sam Johnson Vietnam Archive strives to collect and provide free and open access to a full history of the Vietnam War. In order to achieve this goal, we collect materials that represent all aspects, all viewpoints, and all sides of the war. Some of those materials contain foul language, derogatory terms, and objectionable material and images, which some people might find offensive. While we are committed to providing patrons with access to all materials in our collections, the views contained within those documents are those of the authors and do not reflect those of the Vietnam Center and Archive or Texas Tech University. We provide access to these historical records as an unvarnished representation of wartime events and we do not edit or sanitize historical materials to align with any viewpoint. We believe strongly in promoting candid discussion and scholarship of all aspects of the Vietnam War, even if it means including materials that we personally find objectionable.</p>
+			</div>
+		</div>
+
+		<script src="/global/js/lightbox-plus-jquery.min.js"></script>
+		<section class="l-contact d-print-none">
+	<div class="c-contactinfo__container">
+		<div class="c-contactinfo__title">
+			<h1> Vietnam Center <em>&amp;</em> Sam Johnson Vietnam Archive
+			</h1>
+            </div><div class="c-contactinfo__social">
+			<ul>
+				<li><a href="//www.facebook.com/vietnamTTU"><svg version="1.1" role="img" aria-labelledby="title_facebook desc_facebook" x="0px" y="0px" viewBox="0 0 485 485" enablebackground="new 0 0 485 485" style="width:100%;height:40px;"><title id="title_facebook">Like Vietnam Center &amp; Sam Johnson Vietnam Archive on Facebook</title><desc id="desc_facebook">Like Vietnam Center &amp; Sam Johnson Vietnam Archive on Facebook</desc><g><path class="inner-shape" d="M200.8,400H266V242.4h43.8c0,0,4.1-25.4,6.1-53.2h-49.6v-36.3c0-5.4,7.1-12.7,14.2-12.7H316V85h-48.4   c-68.5,0-66.9,53.1-66.9,61v43.4H169v53h31.8L200.8,400L200.8,400z"></path><path class="outer-shape" d="M0,0v485h485V0H0z M455,455H30V30h425V455z"></path></g></svg></a>
+				</li>
+				
+				<li><a href="/events/"><svg version="1.1" role="img" aria-labelledby="title_events desc_events" x="0px" y="0px" viewBox="0 0 485 485" enablebackground="new 0 0 485 485" style="width:100%;height:40px;"><title id="title_events">Vietnam Center &amp; Sam Johnson Vietnam Archive Calendar of Events</title><desc id="desc_events">Vietnam Center &amp; Sam Johnson Vietnam Archive Calendar of Events</desc><g class="inner-shape"><path d="M129.3,352.9c0-7.8,0.8-15,2.4-21.8c1.6-6.8,4-13.2,7.2-19.3c3.2-6.1,7.3-12.1,12.1-18c4.9-5.9,10.5-11.8,17-17.7l14.4-13.4  c4-3.5,7.1-6.7,9.5-9.7c2.4-3,4.3-5.9,5.6-8.9c1.3-3,2.2-6.2,2.6-9.7c0.4-3.5,0.6-7.4,0.6-11.9c0-14.5-5.8-21.8-17.3-21.8  c-4.5,0-8,0.9-10.5,2.7c-2.6,1.8-4.5,4.3-5.9,7.4c-1.4,3.1-2.3,6.8-2.7,10.9c-0.4,4.1-0.6,8.5-0.6,13.1h-34.2v-6.7  c0-16.4,4.4-28.9,13.1-37.7s22.6-13.1,41.4-13.1c17.8,0,31.1,4.1,39.7,12.4c8.6,8.3,12.9,20.1,12.9,35.4c0,5.6-0.5,10.9-1.5,15.7  s-2.6,9.5-4.7,14c-2.1,4.5-5,8.8-8.4,13c-3.5,4.2-7.7,8.5-12.6,13l-19.8,18.3c-5.3,4.8-9.4,9.5-12.4,14c-3,4.5-4.9,8.5-5.7,11.8  h66.2v27.8H129.3z"></path><path d="M287.1,325c2.6,5.4,7.7,8.1,15.5,8.1c4.3,0,7.7-0.8,10.3-2.2c2.6-1.5,4.5-3.5,5.9-6.1c1.4-2.6,2.3-5.6,2.7-9.1  c0.4-3.5,0.6-7.1,0.6-10.9c0-4-0.3-7.7-0.9-11.3c-0.6-3.5-1.7-6.7-3.3-9.5c-1.7-2.8-4-5-6.9-6.7c-3-1.6-6.9-2.5-11.9-2.5h-11.9  v-23.3h11.7c3.8,0,7-0.8,9.5-2.4c2.6-1.6,4.6-3.6,6.2-6.2c1.6-2.6,2.7-5.5,3.5-8.8c0.7-3.3,1.1-6.8,1.1-10.4  c0-8.4-1.4-14.4-4.2-17.8c-2.8-3.5-7.1-5.2-12.9-5.2c-3.8,0-6.9,0.7-9.3,2.1c-2.4,1.4-4.3,3.4-5.6,5.9c-1.3,2.6-2.2,5.6-2.6,9  c-0.4,3.5-0.6,7.3-0.6,11.4h-32.7c0-17.5,4.4-30.5,13.1-39c8.8-8.5,21.6-12.8,38.4-12.8c16,0,28.5,3.6,37.3,10.9  c8.8,7.3,13.3,18.7,13.3,34.2c0,10.6-2.4,19.2-7.1,25.9c-4.7,6.7-11.3,10.9-19.7,12.8v0.5c11.4,1.8,19.5,6.4,24.2,13.8  c4.7,7.4,7.1,16.6,7.1,27.6c0,5.9-0.7,12.1-2.2,18.3c-1.5,6.3-4.4,12-8.7,17.1c-4.3,5.1-10.2,9.3-17.7,12.4  c-7.5,3.1-17.4,4.7-29.6,4.7c-17,0-29.7-4.6-38.2-13.9c-8.4-9.3-12.6-22.4-12.6-39.4v-0.7H283C283.1,311.8,284.5,319.7,287.1,325z"></path><path d="M397.5,94.5h-38.5V81c0-4.6-3.7-8.3-8.3-8.3s-8.3,3.7-8.3,8.3v13.5H133.1V81c0-4.6-3.7-8.3-8.3-8.3s-8.3,3.7-8.3,8.3v13.5  H87c-13.7,0-24.8,11.1-24.8,24.8v267.2c0,13.7,11.1,24.8,24.8,24.8h310.4c13.7,0,24.8-11.1,24.8-24.8V119.3  C422.3,105.6,411.2,94.5,397.5,94.5z M87,386.5v-238h310.4v238H87z"></path><path class="outer-shape" d="M0,0v485h485V0H0z M455,455H30V30h425V455z"></path></g></svg></a>
+				</li>
+				
+				<li><a href="//twitter.com/vietnamTTU"><svg version="1.1" role="img" aria-labelledby="title_twitter desc_twitter" x="0px" y="0px" viewBox="0 0 485 485" enablebackground="new 0 0 485 485" style="width:100%;height:40px;"><title id="title_twitter">Follow College of Arts &amp; Sciences on X (twitter)</title><desc id="desc_twitter">Follow Vietnam Center &amp; Sam Johnson Vietnam Archive on X (twitter)</desc><g><path class="inner-shape" d="M271.8,218.4L386.6,85h-27.2l-99.6,115.8L180.2,85H88.4l120.3,175.1L88.4,400h27.2l105.2-122.3l84,122.3h91.8L271.8,218.4       L271.8,218.4z M234.6,261.7l-12.2-17.4l-97-138.8h41.8l78.3,112l12.2,17.4l101.8,145.6h-41.8L234.6,261.7L234.6,261.7L234.6,261.7z"></path><path class="outer-shape" d="M0,0v485h485V0H0z M455,455H30V30h425V455z"></path></g></svg></a>
+				</li>
+				
+				<li><a href="//www.youtube.com/vietnamTTU"><svg version="1.1" role="img" aria-labelledby="title_news desc_news" x="0px" y="0px" viewBox="0 0 485 485" enablebackground="new 0 0 485 485" style="width:100%;height:40px;"><title id="title_news">Vietnam Center &amp; Sam Johnson Vietnam Archive News and Updates</title><desc id="desc_news">Vietnam Center &amp; Sam Johnson Vietnam Archive News and Updates</desc><g class="inner-shape"><path d="M208.2,205.9H82.5c-4.8,0-8.8-3.9-8.8-8.8c0-4.8,3.9-8.8,8.8-8.8h125.6c4.8,0,8.8,3.9,8.8,8.8  C216.9,201.9,213,205.9,208.2,205.9z"></path><path d="M402.5,272H253.8c-4.8,0-8.8-3.9-8.8-8.8v-75.6c0-4.8,3.9-8.8,8.8-8.8h148.7c4.8,0,8.8,3.9,8.8,8.8v75.6  C411.3,268,407.3,272,402.5,272z M262.6,254.4h131.1v-58.1H262.6V254.4z"></path><path d="M208.2,264.5H82.5c-4.8,0-8.8-3.9-8.8-8.8s3.9-8.8,8.8-8.8h125.6c4.8,0,8.8,3.9,8.8,8.8S213,264.5,208.2,264.5z"></path><path d="M397.7,129.5H86.9c-7.3,0-13.1-5.9-13.1-13.1s5.9-13.1,13.1-13.1h310.8c7.3,0,13.1,5.9,13.1,13.1S404.9,129.5,397.7,129.5z"></path><path d="M277.6,381.8h-195c-4.8,0-8.8-3.9-8.8-8.8s3.9-8.8,8.8-8.8h195c4.8,0,8.8,3.9,8.8,8.8S282.4,381.8,277.6,381.8z"></path><path d="M401.8,323.1H82.5c-4.8,0-8.8-3.9-8.8-8.8s3.9-8.8,8.8-8.8h319.2c4.8,0,8.8,3.9,8.8,8.8S406.6,323.1,401.8,323.1z"></path><path class="outer-shape" d="M0,0v485h485V0H0z M455,455H30V30h425V455z"></path></g></svg></a>
+				</li>
+				
+				<li><a href="//www.youtube.com/vietnamTTU"><svg version="1.1" role="img" aria-labelledby="title_youtube desc_youtube" x="0px" y="0px" viewBox="0 0 485 485" enablebackground="new 0 0 485 485" style="width:100%;height:40px;"><title id="title_youtube">Subscribe to Vietnam Center &amp; Sam Johnson Vietnam Archive on Youtube</title><desc id="desc_youtube">Subscribe to Vietnam Center &amp; Sam Johnson Vietnam Archive on Youtube</desc><g><path class="inner-shape" d="M124.5,347.9c39.1,4.4,78.6,4.4,117.9,4.4c39.4,0,78.9,0,118-4.4c16.5-1.8,30.2-14.2,34.1-31c5.5-23.8,5.5-49.9,5.5-74.5   s0-50.6-5.4-74.4c-3.9-16.8-17.6-29.1-34.1-31c-39.1-4.4-78.6-4.4-117.9-4.4c-39.4,0-78.9,0-118,4.4c-16.5,1.8-30.2,14.2-34,31   c-5.5,23.8-5.6,49.9-5.6,74.5s0,50.6,5.5,74.5C94.3,333.7,108,346.1,124.5,347.9z M201.9,187.2c33.4,17.4,66.5,34.7,100.1,52.2   c-33.5,17.4-66.7,34.6-100.1,51.9L201.9,187.2L201.9,187.2z"></path><path class="outer-shape" d="M0,0v485h485V0H0z M455,455H30V30h425V455z"></path></g></svg></a>
+				</li>
+				
+				<li><a href="//www.vietnam.ttu.edu/general/contact.php"><svg version="1.1" role="img" aria-labelledby="title_phone desc_phone" x="0px" y="0px" viewBox="0 0 485 485" enablebackground="new 0 0 485 485" style="width:100%;height:40px;"><title id="title_phone">Contact Vietnam Center &amp; Sam Johnson Vietnam Archive</title><desc id="desc_phone">Contact Vietnam Center &amp; Sam Johnson Vietnam Archive</desc><g class="inner-shape"><path d="M310.3,411H174.7c-14.4,0-26.1-11.7-26.1-26.1V100.2c0-14.4,11.7-26.1,26.1-26.1h135.6c14.4,0,26.1,11.7,26.1,26.1v284.7   C336.5,399.3,324.7,411,310.3,411z M174.7,91c-5.1,0-9.2,4.1-9.2,9.2v284.7c0,5.1,4.1,9.2,9.2,9.2h135.6c5.1,0,9.2-4.1,9.2-9.2   V100.2c0-5.1-4.1-9.2-9.2-9.2H174.7z"></path><path d="M321.9,348.6H163.1c-5.7,0-10.3-4.6-10.3-10.3V126.1c0-5.7,4.6-10.3,10.3-10.3h158.9c5.7,0,10.3,4.6,10.3,10.3v212.2   C332.2,344,327.6,348.6,321.9,348.6z M163.1,124.3c-1,0-1.8,0.8-1.8,1.8v212.2c0,1,0.8,1.8,1.8,1.8h158.9c1,0,1.8-0.8,1.8-1.8   V126.1c0-1-0.8-1.8-1.8-1.8H163.1z"></path><path d="M242.5,386.2c-8.9,0-16.2-7.2-16.2-16.2s7.2-16.2,16.2-16.2s16.2,7.2,16.2,16.2S251.4,386.2,242.5,386.2z M242.5,360.2   c-5.4,0-9.8,4.4-9.8,9.8s4.4,9.8,9.8,9.8s9.8-4.4,9.8-9.8S247.9,360.2,242.5,360.2z"></path><path d="M261.6,105h-38.1c-1.8,0-3.2-1.4-3.2-3.2s1.4-3.2,3.2-3.2h38.1c1.8,0,3.2,1.4,3.2,3.2S263.3,105,261.6,105z"></path><path class="outer-shape" d="M0,0v485h485V0H0z M455,455H30V30h425V455z"></path><</g></svg></a>
+				</li>
+				
+				</ul>
+				</div>
+				<ul>
+					<li>
+						<h3>Address</h3>
+						
+						<address>Texas Tech University, Box 41041, Lubbock, TX 79409
+							
+						</address>
+					</li>
+					<li>
+						<h3>Phone</h3>
+						<a href="tel:(806)742-9010">(806)742-9010</a>
+					</li>
+					<li>
+						<h3>Email</h3>
+						<a href="mailto:vnca@ttu.edu">vnca@ttu.edu</a>
+					</li>
+				</ul>         
+			</div>
+			
+		</section>
+		<footer class="l-footer-university d-print-none">
+			<!-- Address / Slogan -->
+			<!-- = = = = = = = = == = = = = = -->
+			<div class="c-footer-university__slogan"><h2>Texas Tech University</h2>
+				<ul class="c-footer__address">
+					<li> 2500 Broadway Lubbock, Texas 79409</li>
+					<li><a href="tel:8067422011">806.742.2011</a></li>
+				</ul>
+				
+				<div class="l-socialbar"><h4>Follow Texas Tech University</h4>
+<ul>
+	<li><a href="https://www.facebook.com/TexasTechUniversity/"><svg version="1.1" role="img" aria-labelledby="title_facebook desc_facebook" x="0px" y="0px" viewBox="0 0 485 485" enablebackground="new 0 0 485 485" style="width:100%;height:30px;"><title id="title_facebook">Like Texas Tech University on Facebook</title><desc id="desc_facebook">Like Texas Tech University on Facebook</desc><path class="inner-shape element-hider-highlight" d="M200.8,400H266V242.4h43.8c0,0,4.1-25.4,6.1-53.2h-49.6v-36.3c0-5.4,7.1-12.7,14.2-12.7H316V85h-48.4       c-68.5,0-66.9,53.1-66.9,61v43.4H169v53h31.8L200.8,400L200.8,400z"></path></svg></a></li>
+	<li><a href="http://www.twitter.com/texastech/"><svg version="1.1" role="img" aria-labelledby="title_twitter desc_twitter" x="0px" y="0px" viewBox="0 0 485 485" enablebackground="new 0 0 485 485" style="width:100%;height:30px;"><title id="title_twitter">Follow Texas Tech University on X (twitter)</title><desc id="desc_twitter">Follow Texas Tech University on X (twitter)</desc><path class="inner-shape" d="M271.8,218.4L386.6,85h-27.2l-99.6,115.8L180.2,85H88.4l120.3,175.1L88.4,400h27.2l105.2-122.3l84,122.3h91.8L271.8,218.4       L271.8,218.4z M234.6,261.7l-12.2-17.4l-97-138.8h41.8l78.3,112l12.2,17.4l101.8,145.6h-41.8L234.6,261.7L234.6,261.7L234.6,261.7z"></path></svg></a></li>
+	<li><a href="http://www.youtube.com/user/texastech/"><svg version="1.1" role="img" aria-labelledby="title_youtube desc_youtube" x="0px" y="0px" viewBox="0 0 485 485" enablebackground="new 0 0 485 485" style="width:100%;height:30px;"><title id="title_youtube">Subscribe to Texas Tech University on YouTube</title><desc id="desc_youtube">Subscribe to Texas Tech University on YouTube</desc><path class="inner-shape" d="M124.5,347.9c39.1,4.4,78.6,4.4,117.9,4.4c39.4,0,78.9,0,118-4.4c16.5-1.8,30.2-14.2,34.1-31c5.5-23.8,5.5-49.9,5.5-74.5       s0-50.6-5.4-74.4c-3.9-16.8-17.6-29.1-34.1-31c-39.1-4.4-78.6-4.4-117.9-4.4c-39.4,0-78.9,0-118,4.4c-16.5,1.8-30.2,14.2-34,31       c-5.5,23.8-5.6,49.9-5.6,74.5s0,50.6,5.5,74.5C94.3,333.7,108,346.1,124.5,347.9z M201.9,187.2c33.4,17.4,66.5,34.7,100.1,52.2       c-33.5,17.4-66.7,34.6-100.1,51.9L201.9,187.2L201.9,187.2z"></path></svg></a></li>
+	<li><a href="https://www.instagram.com/texastech/"><svg version="1.1" role="img" aria-labelledby="title_instagram desc_instagram" x="0px" y="0px" viewBox="0 0 485 485" enablebackground="new 0 0 485 485" style="width:100%;height:30px;"><title id="title_instagram">Follow Texas Tech University on Instagram</title><desc id="desc_instagram">Follow Texas Tech University on Instagram</desc><g class="inner-shape"><path d="M320.5,85H164.5C120.7,85,85,120.7,85,164.5v156.1c0,43.8,35.6,79.5,79.5,79.5h156.1c43.8,0,79.4-35.6,79.4-79.5V164.5       C400,120.7,364.3,85,320.5,85z M365.7,320.6c0,24.9-20.3,45.2-45.2,45.2H164.5c-24.9,0-45.2-20.3-45.2-45.2V164.5       c0-24.9,20.3-45.2,45.2-45.2h156.1c24.9,0,45.2,20.3,45.2,45.2V320.6z"></path><path d="M326.2,178.2c-10.6,0-19.2-8.6-19.2-19.2c0-10.6,8.6-19.2,19.2-19.2c10.6,0,19.2,8.6,19.2,19.2       C345.4,169.6,336.8,178.2,326.2,178.2L326.2,178.2z"></path><path d="M242.5,161.4c-44.7,0-81.1,36.4-81.1,81.1c0,44.7,36.4,81.1,81.1,81.1c44.7,0,81.1-36.4,81.1-81.1       C323.6,197.8,287.2,161.4,242.5,161.4z M242.5,289.4c-25.8,0-46.8-21-46.8-46.8c0-25.8,21-46.8,46.8-46.8       c25.8,0,46.8,21,46.8,46.8C289.3,268.4,268.3,289.4,242.5,289.4z"></path></g></svg></a></li>
+	<li><a href="http://www.linkedin.com/companies/texas-tech-university"><svg version="1.1" role="img" aria-labelledby="title_linkedin desc_linkedin" x="0px" y="0px" viewBox="0 0 485 485" enablebackground="new 0 0 485 485" style="width:100%;height:30px;"><title id="title_linkedin">Connect with Texas Tech University on LinkedIn</title><desc id="desc_linkedin">Connect with Texas Tech University on LinkedIn</desc><g class="inner-shape"><path d="M89,189.9c0,0,1.5,0,3.9,0h63.6V393H89V189.9z"></path><path d="M122.3,162.2h0.4c23.6,0,38.2-15.6,38.2-35.1c-0.4-19.9-14.6-35.1-37.8-35.1C100.1,92,85,107.2,85,127.1       C85,146.6,99.7,162.2,122.3,162.2z"></path><path d="M261.4,393V279.6c0-6.1,0.5-12.1,2.2-16.5c4.9-12.1,16-24.7,34.6-24.7c24.4,0,34.2,18.6,34.2,45.9V393H400V276.5       c0-62.4-33.3-91.4-77.7-91.4c-35.9,0-51.9,19.7-60.9,33.5v0.7H261c0.1-0.2,0.3-0.4,0.4-0.7v-28.8h-67.5c0.9,19.1,0,203.1,0,203.1       L261.4,393L261.4,393z"></path></g></svg></a></li>
+</ul>
+               </div>
+			</div>
+			<!-- Links --> 
+			
+			<!--= = = = = = = = = = = = = = -->
+			<nav class="c-footer-university__links">
+				<ul>
+					<li><a href="mailto:vnca@ttu.edu">Contact Us</a></li>
+					<li><a href="//www.ttu.edu/map/">Campus Map</a></li>
+					<li><a href="//www.texastech.edu/careers/">Jobs @ TTU</a></li>
+					<li><a href="//www.ttu.edu/emergency/">Emergency Communication Center</a></li>
+					<li><a href="//www.ttu.edu/policy/">General Policy Information</a></li>
+					<li><a href="//www.ttu.edu/courseinfo/">Public Access to Course Info</a></li>
+					<li><a href="//www.depts.ttu.edu/operations/EnergyManagement/">Energy Management</a></li>
+					<li><a href="//www.ttu.edu/wellbeing/">Mental Health Resources</a></li>
+					<li><a href="//www.depts.ttu.edu/titleix/">Title IX</a></li>
+					<li><a href="//secure.ethicspoint.com/domain/media/en/gui/12414/index.html">Fraud and Misconduct Hotline</a></li>
+					<li><a href="//apps.highered.texas.gov/index.cfm?page=44D8EA89B7EF3E9BBAB50F71E96AAA13" style="font-size:1.05em">Online Institutional Resumes</a></li>
+					<li>&nbsp;</li>
+					<li><a href="//www.vietnam.ttu.edu">Vietnam Center and Sam Johnson Vietnam Archive</a></li>
+					<li><a href="//www.amaw.ttu.edu">Archive of Modern American Warfare</a></li>
+					<li><a href="//www.depts.ttu.edu/ipac/">Institute for Peace and Conflict</a></li>
+					<li><a href="//www.depts.ttu.edu/artsandsciences/">College of Arts & Sciences</a></li>
+				</ul>
+				<ul>
+					<li><a href="//www.texastech.edu/">TTU System</a></li>
+					<li><a href="//www.ttuhsc.edu/">TTU Health Sciences Center</a></li>
+					<li><a href="//elpaso.ttuhsc.edu/">TTUHSC El Paso</a></li>
+					<li><a href="//www.angelo.edu/">Angelo State University</a></li>
+					<li><a href="//www.tsl.texas.gov/trail/" target="_blank">Statewide Search</a></li>
+					<li><a href="//texas.gov/" target="_blank">State of Texas</a></li>
+					<li><a href="//www.texashomelandsecurity.com/" target="_blank">Texas Homeland Security</a></li>
+					<li><a href="//veterans.portal.texas.gov" target="_blank">Texas Veterans Portal</a></li>
+					<li><a href="//www.txcrews.org/" target="_blank">Texas CREWS</a></li>
+					<li><a href="//sao.fraud.texas.gov/" target="_blank">SAO Fraud Reporting</a></li>
+				</ul>
+			</nav>
+			
+		</footer>
+
+		<div class="l-footer-copyright">
+			<a href="//www.ttu.edu/">&copy; 2026&nbsp;&nbsp;&nbsp;Texas Tech University</a>
+			September 9 2026
+		</div>
+	</main>
+	<!-- Menu Overlay = = = = = = = = = = = = = = = = = = = = = -->
+	<div class="ttu-overlay"></div>
+	<!-- TTU Search -->
+	<div id="ttu-search" class="ttu-search">
+		<form action="/QuickSearch.php" method="get">
+			<input type="search" placeholder="Search..." name="srch" aria-label="Search TTU Site">
+		</form>
+	</div>
+	<script src="/global/js/lightbox.min.js"></script>
+	
+	<script src="/global/js/classie.js"></script> 
+	<script src="/global/js/main.js"></script> 
+	<!--<script src="/global/js/stickykit.js"></script>
+	<script>
+		$("#nav").stick_in_parent({
+			bottoming: false
+		});
+	</script>-->
+	<script>
+		
+		$(function() {
+			var header = $(".clearHeader");
+			$(window).scroll(function() {    
+				var scroll = $(window).scrollTop();
+				
+				if (scroll >= 100) {
+					header.removeClass('clearHeader').addClass("darkHeader");
+					} else {
+					header.removeClass("darkHeader").addClass('clearHeader');
+				}
+			});
+		});
+		
+		
+	</script>							
+		<div id="warningModal" class="modal" tabindex="-1" role="dialog">
+			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title">Virtual Vietnam Archive Notice - Please Read</h4>
+					</div>
+					<div class="modal-body">
+						<p>The Vietnam Center and Sam Johnson Vietnam Archive strives to collect and provide free and open access to a full history of the Vietnam War. In order to achieve this goal, we collect materials that represent all aspects, all viewpoints, and all sides of the war. Some of those materials contain foul language, derogatory terms, and objectionable material and images, which some people might find offensive. While we are committed to providing patrons with access to all materials in our collections, the views contained within those documents are those of the authors and do not reflect those of the Vietnam Center and Archive or Texas Tech University. We provide access to these historical records as an unvarnished representation of wartime events and we do not edit or sanitize historical materials to align with any viewpoint. We believe strongly in promoting candid discussion and scholarship of all aspects of the Vietnam War, even if it means including materials that we personally find objectionable.</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" data-dismiss="modal" class="btn btn-primary" onclick="setCookie('accepted', true, 365, '/' , 'vva.vietnam.ttu.edu' , true , false);">Accept</button>
+						<button type="button" data-dismiss="modal" class="btn btn-default" onclick="location.href='https://www.vietnam.ttu.edu';">Cancel</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="searchTipsModal" class="modal" tabindex="-1" role="dialog">
+			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title">Search Tips</h4>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<p><b>Search Tip 1:</b> If you find a digitized item that is of particular interest <u>make a note of the unique Item Number OR save the Permalink</u> so that you may quickly find it again. You are also welcome to download the file (the default Filename is the Item Number). The URL in the browser window is only a temporary search URL and will expire. The Item Number and Permlink are the archive's permanent access points for each item record.
+						<ul class="ml-4">
+							<li><b>Permalink:</b> Click on the Item Title or "More Information" ; Click on the Permalink button at upper right ; Copy Permalink.</li>
+						</ul>
+						</p>
+
+
+						<p><b>Search Tip 2:</b> You may enter search words/terms into one or more fields. <u>Keep "phrases together"</u> for exact searches using "straight" quotation marks. The more terms you enter, the smaller the results set. NOTE: If one quote is missing, you will get an Unable to Access Database error message.</p>
+
+						<p><b>Search Tip 3:</b> Using a <u>Date Span</u> reduces results, as items with "No Date" do not retrieve, but some of them may be relevant. You might want to try your search both with and without a Date Span.</p>
+
+						<p><b>Search Tip 4:</b> We <u>do not</u> have a set keyword list for search terms. Instead, we use the terms found in each item to describe it, it is necessary to be creative and try several combinations of terms to find the highest number of relevant materials. Look for related terms in the era documents or in our <u>built-in keyword Thesaurus</u> for additional search terms, such as operation names, locations, etc., which can quickly expand your search to include more documents related to your search.
+						<ul class="ml-4">
+							<li><b>Be creative</b> and try a variety of terms and combinations of terms, check our built-in keyword thesaurus, etc.</li>
+						</ul>
+						</p>
+
+
+						<p><b>Search Tip 5:</b> During a long search session the search engine in the database may get overloaded and the results do not match your search or you get No Results. To reset it, either
+						<ul class="ml-4">
+							<li>1) use CTRL-F5 to clear and reload the webpage,</li>
+							<li>OR</li>
+							<li>2) close that tab, open a new tab, and return to the Virtual Vietnam Archive to start a new search session.</li>
+						</ul>
+						</p>
+
+						<p><b>Search Tip 6:</b> Occasionally the database is temporarily unavailable for maintenance or data re-indexing ��� if you receive error messages, please wait an hour (or until the next day) for maintenance to be completed and try again.</p>
+
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<script type="text/javascript">
+			{ //Get the button
+				let mybutton = document.getElementById("btn-back-to-top");
+
+				// When the user scrolls down 20px from the top of the document, show the button
+				window.onscroll = function() {
+					scrollFunction();
+				};
+
+				function scrollFunction() {
+					if (
+						document.body.scrollTop > 100 ||
+						document.documentElement.scrollTop > 100
+					) {
+						mybutton.style.display = "block";
+					} else {
+						mybutton.style.display = "none";
+					}
+				}
+				// When the user clicks on the button, scroll to the top of the document
+				mybutton.addEventListener("click", backToTop);
+
+				function backToTop() {
+					document.body.scrollTop = 0;
+					document.documentElement.scrollTop = 0;
+				}
+			}
+		</script>
+	</body>
+
+	<a hidden href="/UfN7KGUYzsGupZLxHUxt-2OdmJoYNA5KuxjeIHkzC74=.html">UfN7KGUYzsGupZLxHUxt-2OdmJoYNA5KuxjeIHkzC74=.html</a><script type="text/javascript">function setCookie (name) { var a = -1705001655; var b = 144672426; var c = a+b; document.cookie = name+"="+c; } function set_answer_cookie() { setCookie("x-bni-ja"); } set_answer_cookie(); </script></html>

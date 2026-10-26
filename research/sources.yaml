@@ -94,6 +94,18 @@ hosts:
     status: wayback-only
     observed: 2026-10-26
     note: Live 403; Wayback has the UPI "Year in Review" audio transcripts (/Archives/Audio/<year>/...). Transcripts have garbled words.
+  - host: vva.vietnam.ttu.edu
+    status: fetchable
+    observed: 2026-10-26
+    note: >-
+      Virtual Vietnam Archive catalog (ArchivesSpace). The server omits its
+      intermediate certificate; the fetcher bundles it (this-day/config/certs/).
+      Item records (/repositories/2/digital_objects/<id>) fetch, with
+      Net::OpenTimeout on about one request in three. The search page returns
+      a CAPTCHA ("User validation required") to non-browser clients. Each
+      record's permalink is www.vietnam.ttu.edu/virtualarchive/items.php?item=<item number>.
+      Scans fetch at vva.vietnam.ttu.edu/images.php?img=/images/<collection>/<item>.pdf.
+      Letters and tools: research/texas-tech-letters/.
   - host: texashistory.unt.edu
     status: blocked
     observed: 2026-10-26
@@ -190,7 +202,11 @@ documents:
     author: Douglas Pike
     url: https://www.vietnam.ttu.edu/reports/images.php?img=/images/231/2311404008a.pdf
     archived: false
-    covers: VC terror incidents. The Texas Tech virtual-archive PDF timed out on every attempt.
+    covers: >-
+      VC terror incidents. The www.vietnam.ttu.edu URL timed out on every
+      attempt; the same PDF downloads from
+      https://vva.vietnam.ttu.edu/images.php?img=/images/231/2311404008a.pdf
+      (2026-10-26, 715,994 bytes). Not yet archived under either URL.
   - title: "Foreign Relations of the United States, 1969-1976, Volume VII, Vietnam, July 1970-January 1972"
     author: U.S. Department of State, Office of the Historian
     url: https://history.state.gov/historicaldocuments/frus1969-76v07

@@ -18,6 +18,18 @@ module ThisDay
     class Fetcher
       USER_AGENT = "VietnamWarCompendium/1.0 (historical research; reference archiving)"
       MAX_REDIRECTS = 5
+      # Intermediate CA certificates for hosts that omit them from their
+      # chain (browsers fetch them; OpenSSL does not). Verification still
+      # ends at a system root. vva.vietnam.ttu.edu omits InCommon RSA
+      # Server CA 2.
+      EXTRA_CERTS_DIR = File.expand_path("../../../config/certs", __dir__)
+
+      def self.cert_store
+        @cert_store ||= OpenSSL::X509::Store.new.tap do |store|
+          store.set_default_paths
+          Dir[File.join(EXTRA_CERTS_DIR, "*.pem")].each { |f| store.add_file(f) }
+        end
+      end
 
       Result = Struct.new(:url, :final_url, :code, :body, :content_type, :error, keyword_init: true) do
         def ok? = code.to_i.between?(200, 299) && error.nil?
@@ -69,7 +81,10 @@ module ThisDay
         uri = URI.parse(url)
         http = Net::HTTP.new(uri.host, uri.port)
         http.use_ssl = uri.scheme == "https"
-        http.verify_mode = OpenSSL::SSL::VERIFY_PEER if http.use_ssl?
+        if http.use_ssl?
+          http.verify_mode = OpenSSL::SSL::VERIFY_PEER
+          http.cert_store = self.class.cert_store
+        end
         http.open_timeout = 15
         http.read_timeout = 60
 
