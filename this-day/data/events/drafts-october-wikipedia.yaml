@@ -37,7 +37,7 @@
   day: 4
   year: 1964
   title: "VC ambush two ARVN battalions in Bình Dương Province"
-  body: "<p>On October 4, 1964, more than 1,000 VC ambushed two ARVN 8th Infantry battalions as they moved between the hamlets of Phu Hoa Dong and Ap Dong Nhut in Bình Dương Province. The ambush killed 32 ARVN soldiers and one U.S. adviser. Another 53 were wounded, 13 were missing, and 37 weapons were lost. The allies found 13 VC dead and estimated that the VC had lost 80 dead and one hundred wounded, mostly from airstrikes.</p><p>The same day in Quang Ngai, the VC forced civilians into a Regional Forces ambush site and then fired on the Regional Forces troops. The troops returned fire, killing 16 civilians and wounding 17.</p>"
+  body: "<p>On October 4, 1964, more than 1,000 VC ambushed two ARVN 8th Infantry battalions as they moved between the hamlets of Phu Hoa Dong and Ap Dong Nhut in Bình Dương Province. The ambush killed 32 and one U.S. adviser, with 53 wounded, 13 missing, and 37 weapons lost.</p><p>The allies found 13 VC dead and estimated that the VC had lost 80 dead and one hundred wounded, mostly from airstrikes.</p>"
   photo_url: null
   photo_alt: null
   references:
@@ -46,9 +46,25 @@
     - label: "Andrew Birtle, \"Advice and Support: The Middle Years, January 1964–June 1965\", Center of Military History, United States Army, 2024"
       url: "https://history.army.mil/Publications/Publications-Catalog-Sub/Publications-By-Title/Advice-and-Support-The-Middle-Years/"
   status: "draft"
-  source_text: "[Wikipedia, 1964_in_the_Vietnam_War, rev 1370342430] Over 1,000 VC ambushed two ARVN 8th Infantry battalions as they were moving between the hamlets Phu Hoa Dong and Ap Dong Nhut, Bình Dương Province, killing 32 and one U.S. adviser, with 53 wounded, 13 missing and 37 weapons lost. The allies found 13 VC dead and estimated that the VC had lost 80 dead and one hundred wounded, mostly from airstrikes.\n\nThe VC forced civilians into a Regional Forces ambush site in Quang Ngai and then fired on the Regional Forces troops making them return fire and kill 16 civilians and wound 17."
-  summarized_by: "Claude Fable 5.1"
-  summarized_at: "2026-10-25T14:34:58Z"
+  source_text: "[Wikipedia, 1964_in_the_Vietnam_War, rev 1370342430] Over 1,000 VC ambushed two ARVN 8th Infantry battalions as they were moving between the hamlets Phu Hoa Dong and Ap Dong Nhut, Bình Dương Province, killing 32 and one U.S. adviser, with 53 wounded, 13 missing and 37 weapons lost. The allies found 13 VC dead and estimated that the VC had lost 80 dead and one hundred wounded, mostly from airstrikes."
+  summarized_by: "Claude Opus 5.5"
+  summarized_at: "2026-10-26T14:00:00Z"
+- month: 10
+  day: 4
+  year: 1964
+  title: "VC force civilians into Regional Forces ambush in Quang Ngai"
+  body: "<p>On October 4, 1964, the VC forced civilians into a Regional Forces ambush site in Quang Ngai and then fired on the Regional Forces troops. The troops returned fire, killing 16 civilians and wounding 17.</p>"
+  photo_url: null
+  photo_alt: null
+  references:
+    - label: "Wikipedia, \"1964 in the Vietnam War\", revision 1370342430 (CC BY-SA 4.0)"
+      url: "https://en.wikipedia.org/w/index.php?title=1964_in_the_Vietnam_War&oldid=1370342430"
+    - label: "Andrew Birtle, \"Advice and Support: The Middle Years, January 1964–June 1965\", Center of Military History, United States Army, 2024"
+      url: "https://history.army.mil/Publications/Publications-Catalog-Sub/Publications-By-Title/Advice-and-Support-The-Middle-Years/"
+  status: "draft"
+  source_text: "[Wikipedia, 1964_in_the_Vietnam_War, rev 1370342430] The VC forced civilians into a Regional Forces ambush site in Quang Ngai and then fired on the Regional Forces troops making them return fire and kill 16 civilians and wound 17."
+  summarized_by: "Claude Opus 5.5"
+  summarized_at: "2026-10-26T14:00:00Z"
 - month: 10
   day: 5
   year: 1963
@@ -116,8 +132,8 @@
 - month: 10
   day: 9
   year: 1962
-  title: "Taylor curbs DOD visitors; armed UH-1A company arrives"
-  body: "<p>On October 9, 1962, Taylor issued a directive to \"reduce the number of visitors...to those having actual business of pressing interest.\" In the previous month he had been deluged with more than 200 visitors from the DOD, all requiring food, housing, entertainment, and visits to the countryside to see the war. The directive only temporarily reduced the number of visitors.</p><p>The same day, the Utility Tactical Transport Helicopter Company, equipped with 15 armed UH-1A helicopters, arrived in South Vietnam. The company would make its combat debut ten days later, escorting troop-carrying helicopters.</p>"
+  title: "Taylor issues directive to cut DOD visitors"
+  body: "<p>On October 9, 1962, Taylor issued a directive to \"reduce the number of visitors...to those having actual business of pressing interest.\" In the previous month he had been deluged with more than 200 visitors from the DOD, all requiring food, housing, entertainment, and visits to the countryside to see the war.</p><p>The directive only temporarily reduced the number of visitors.</p>"
   photo_url: null
   photo_alt: null
   references:
@@ -126,9 +142,23 @@
     - label: "Graham Cosmas, \"MACV: the Joint Command in the Years of Escalation, 1962-1967\", United States Army Center of Military History, 2006"
       url: "https://history.army.mil/html/books/091/91-6/CMH_Pub_91-6.pdf"
   status: "draft"
-  source_text: "[Wikipedia, 1962_in_the_Vietnam_War, rev 1374503779] After being deluged with more than 200 visitors from the DOD in the previous month, all requiring food, housing, entertainment, and visits to the countryside to see the war, Taylor issued a directive to \"reduce the number of visitors...to those having actual business of pressing interest.\" The directive only temporarily reduced the number of visitors.\n\nThe Utility Tactical Transport Helicopter Company equipped with 15 armed UH-1A helicopters arrived in South Vietnam. They would make their combat debut escorting troop carrying helicopters ten days later."
-  summarized_by: "Claude Fable 5.1"
-  summarized_at: "2026-10-25T14:34:58Z"
+  source_text: "[Wikipedia, 1962_in_the_Vietnam_War, rev 1374503779] After being deluged with more than 200 visitors from the DOD in the previous month, all requiring food, housing, entertainment, and visits to the countryside to see the war, Taylor issued a directive to \"reduce the number of visitors...to those having actual business of pressing interest.\" The directive only temporarily reduced the number of visitors."
+  summarized_by: "Claude Opus 5.5"
+  summarized_at: "2026-10-26T14:00:00Z"
+- month: 10
+  day: 9
+  year: 1962
+  title: "Armed UH-1A helicopter company arrives in South Vietnam"
+  body: "<p>On October 9, 1962, the Utility Tactical Transport Helicopter Company, equipped with 15 armed UH-1A helicopters, arrived in South Vietnam. The company made its combat debut ten days later, escorting troop-carrying helicopters.</p>"
+  photo_url: null
+  photo_alt: null
+  references:
+    - label: "Wikipedia, \"1962 in the Vietnam War\", revision 1374503779 (CC BY-SA 4.0)"
+      url: "https://en.wikipedia.org/w/index.php?title=1962_in_the_Vietnam_War&oldid=1374503779"
+  status: "draft"
+  source_text: "[Wikipedia, 1962_in_the_Vietnam_War, rev 1374503779] The Utility Tactical Transport Helicopter Company equipped with 15 armed UH-1A helicopters arrived in South Vietnam. They would make their combat debut escorting troop carrying helicopters ten days later."
+  summarized_by: "Claude Opus 5.5"
+  summarized_at: "2026-10-26T14:00:00Z"
 - month: 10
   day: 10
   year: 1969
@@ -148,8 +178,22 @@
 - month: 10
   day: 11
   year: 1964
-  title: "North Vietnam orders PAVN into the South; VC attack Tay Ninh hamlets"
-  body: "<p>On October 11, 1964, the North Vietnamese Central Military Commission ordered the VC and PAVN to jointly \"annihilate a part of the enemy's main force units\" in South Vietnam between December 1964 and March 1965. PAVN units had not previously participated in the war in South Vietnam.</p><p>The same day, four VC battalions attacked two New Rural Life hamlets in Tay Ninh Province, 48km northwest of Saigon. At Phouc Thanh, defended by a rifle company and the headquarters of the ARVN 1st Battalion, 9th Infantry, the VC penetrated the hamlet, captured a 57mm recoilless rifle, and withdrew. They returned twenty minutes later, and the defenders repulsed the attack with the assistance of nearby artillery.</p><p>The 9th Infantry lost 30 dead, 34 wounded, 29 missing, a recoilless rifle, and 43 other weapons. The VC left 64 bodies, 12 prisoners, and 17 weapons. During the pursuit, a VC mine exploded under a jeep carrying the commander of the 1st Battalion, 43rd Infantry, and two US advisers, killing all three.</p>"
+  title: "Central Military Commission orders VC and PAVN to strike jointly"
+  body: "<p>On October 11, 1964, the North Vietnamese Central Military Commission ordered the VC and PAVN to jointly \"annihilate a part of the enemy's main force units\" in South Vietnam between December 1964 and March 1965. Before this announcement, PAVN units had not participated in the war in South Vietnam.</p>"
+  photo_url: null
+  photo_alt: null
+  references:
+    - label: "Wikipedia, \"1964 in the Vietnam War\", revision 1370342430 (CC BY-SA 4.0)"
+      url: "https://en.wikipedia.org/w/index.php?title=1964_in_the_Vietnam_War&oldid=1370342430"
+  status: "draft"
+  source_text: "[Wikipedia, 1964_in_the_Vietnam_War, rev 1370342430] The North Vietnamese Central Military Commission ordered the VC and PAVN to jointly \"annihilate a part of the enemy's main force units\" in South Vietnam between December 1964 and March 1965. Prior to this announcement, PAVN units had not participated in the war in South Vietnam."
+  summarized_by: "Claude Opus 5.5"
+  summarized_at: "2026-10-26T14:00:00Z"
+- month: 10
+  day: 11
+  year: 1964
+  title: "Four VC battalions attack Tay Ninh hamlets"
+  body: "<p>On October 11, 1964, four VC battalions attacked two New Rural Life hamlets in Tay Ninh Province, 48km northwest of Saigon. The VC penetrated Phouc Thanh, which a rifle company and the headquarters of the ARVN 1st Battalion, 9th Infantry, defended. They captured a 57mm recoilless rifle and withdrew, then returned twenty minutes later; this time the defenders repulsed the attack with the assistance of nearby artillery. At Ap Chanh, the VC dispersed two infantry companies from the 1/9th Infantry, and the ARVN reoccupied the hamlet after dawn.</p><p>The 9th Infantry lost 30 dead, 34 wounded, 29 missing, a recoilless rifle, and 43 other weapons. The VC left 64 bodies, 12 prisoners, and 17 weapons, and the allies estimated that the ARVN had caused another 100 casualties. Three civilians died in the fighting and five were injured.</p><p>Three battalions set off in pursuit of the VC. During the pursuit, the VC exploded a mine under a jeep carrying the commander of the 1st Battalion, 43rd Infantry, and two US advisers, killing all three.</p>"
   photo_url: null
   photo_alt: null
   references:
@@ -158,9 +202,9 @@
     - label: "Andrew Birtle, \"Advice and Support: The Middle Years, January 1964–June 1965\", Center of Military History, United States Army, 2024"
       url: "https://history.army.mil/Publications/Publications-Catalog-Sub/Publications-By-Title/Advice-and-Support-The-Middle-Years/"
   status: "draft"
-  source_text: "[Wikipedia, 1964_in_the_Vietnam_War, rev 1370342430] The North Vietnamese Central Military Commission ordered the VC and PAVN to jointly \"annihilate a part of the enemy's main force units\" in South Vietnam between December 1964 and March 1965. Prior to this announcement, PAVN units had not participated in the war in South Vietnam.\n\nThe ARVN 14th Infantry pushed a VC company into a confined area in Vinh Binh province where it was hit by aircraft and artillery. The ARVN commander refused an order from his superior to advance to block the VC escape. The operation continued into the following day, with the ARVN losing four dead and 16 wounded and the VC losing 21 dead, one prisoner, and three weapons.\n\nFour VC battalions attacked two New Rural Life hamlets in Tay Ninh Province, 48km northwest of Saigon. The VC penetrated Phouc Thanh, which a rifle company and the headquarters of the ARVN 1st Battalion, 9th Infantry, defended. The VC captured a 57mm recoilless rifle and then withdrew. Twenty minutes later, they returned. This time the defenders repulsed the attack with the assistance of nearby artillery. At Ap Chanh, the VC dispersed two infantry companies from the 1/9th Infantry. The ARVN reoccupied the hamlet after dawn. The 9th Infantry lost 30 dead, 34 wounded, 29 missing, a recoilless rifle, and 43 other weapons lost. The VC left 64 bodies, 12 prisoners, and 17 weapons, with the allies estimating that the ARVN had caused another 100 casualties. Three civilians died in the fighting and five suffered injuries. Three battalions set off in pursuit of the VC. During this operation, the VC exploded a mine under a jeep bearing the commander of the 1st Battalion, 43rd Infantry, and two US advisers, killing all three."
-  summarized_by: "Claude Fable 5.1"
-  summarized_at: "2026-10-25T14:34:58Z"
+  source_text: "[Wikipedia, 1964_in_the_Vietnam_War, rev 1370342430] Four VC battalions attacked two New Rural Life hamlets in Tay Ninh Province, 48km northwest of Saigon. The VC penetrated Phouc Thanh, which a rifle company and the headquarters of the ARVN 1st Battalion, 9th Infantry, defended. The VC captured a 57mm recoilless rifle and then withdrew. Twenty minutes later, they returned. This time the defenders repulsed the attack with the assistance of nearby artillery. At Ap Chanh, the VC dispersed two infantry companies from the 1/9th Infantry. The ARVN reoccupied the hamlet after dawn. The 9th Infantry lost 30 dead, 34 wounded, 29 missing, a recoilless rifle, and 43 other weapons lost. The VC left 64 bodies, 12 prisoners, and 17 weapons, with the allies estimating that the ARVN had caused another 100 casualties. Three civilians died in the fighting and five suffered injuries. Three battalions set off in pursuit of the VC. During this operation, the VC exploded a mine under a jeep bearing the commander of the 1st Battalion, 43rd Infantry, and two US advisers, killing all three."
+  summarized_by: "Claude Opus 5.5"
+  summarized_at: "2026-10-26T14:00:00Z"
 - month: 10
   day: 13
   year: 1972
@@ -229,7 +273,7 @@
   day: 20
   year: 1962
   title: "Grenade kills six in Saigon holiday crowd"
-  body: "<p>On October 20, 1962, a VC threw a grenade into a holiday crowd in downtown Saigon, killing six persons, including two children, and injuring 38 people.</p><p>The same day, journalist David Halberstam wrote in The New York Times that \"the closer one gets to the actual contact level of the war, the further one gets from official optimism.\"</p>"
+  body: "<p>On October 20, 1962, a VC threw a grenade into a holiday crowd in downtown Saigon, killing six persons, including two children, and injuring 38 people.</p>"
   photo_url: null
   photo_alt: null
   references:
@@ -238,9 +282,23 @@
     - label: "Douglas Pike, \"The Vietcong Strategy of Terror\", US Mission, Saigon, 1970"
       url: "https://www.vietnam.ttu.edu/reports/images.php?img=/images/231/2311404008a.pdf"
   status: "draft"
-  source_text: "[Wikipedia, 1962_in_the_Vietnam_War, rev 1374503779] Journalist David Halberstam wrote in The New York Times that \"the closer one gets to the actual contact level of the war, the further one gets from official optimism.\"\n\nA VC threw a grenade into a holiday crowd in downtown Saigon, killing six persons, including two children and injuring 38 people."
-  summarized_by: "Claude Fable 5.1"
-  summarized_at: "2026-10-25T14:34:58Z"
+  source_text: "[Wikipedia, 1962_in_the_Vietnam_War, rev 1374503779] A VC threw a grenade into a holiday crowd in downtown Saigon, killing six persons, including two children and injuring 38 people."
+  summarized_by: "Claude Opus 5.5"
+  summarized_at: "2026-10-26T14:00:00Z"
+- month: 10
+  day: 20
+  year: 1962
+  title: "Halberstam contrasts the fighting with official optimism"
+  body: "<p>On October 20, 1962, journalist David Halberstam wrote in The New York Times that \"the closer one gets to the actual contact level of the war, the further one gets from official optimism.\"</p>"
+  photo_url: null
+  photo_alt: null
+  references:
+    - label: "Wikipedia, \"1962 in the Vietnam War\", revision 1374503779 (CC BY-SA 4.0)"
+      url: "https://en.wikipedia.org/w/index.php?title=1962_in_the_Vietnam_War&oldid=1374503779"
+  status: "draft"
+  source_text: "[Wikipedia, 1962_in_the_Vietnam_War, rev 1374503779] Journalist David Halberstam wrote in The New York Times that \"the closer one gets to the actual contact level of the war, the further one gets from official optimism.\""
+  summarized_by: "Claude Opus 5.5"
+  summarized_at: "2026-10-26T14:00:00Z"
 - month: 10
   day: 23
   year: 1971
@@ -263,7 +321,21 @@
   day: 24
   year: 1964
   title: "Cambodia shoots down USAF C-123, killing eight"
-  body: "<p>On October 24, 1964, Cambodia shot down a USAF C-123 aircraft that was flying over the Cambodian border village of Dak Dam in the Mondulkiri Province. All eight crew members on board the aircraft were killed.</p><p>The same day, Ambassador Taylor met with Sửu and expressed his displeasure that the action had been taken without first consulting with the United States. Taylor said that, in the future, \"We could not accept\" a failure of the government to consult with the U.S.</p>"
+  body: "<p>On October 24, 1964, Cambodia shot down a USAF C-123 aircraft that was flying over the Cambodian border village of Dak Dam in the Mondulkiri Province. All eight crew members on board were killed.</p>"
+  photo_url: null
+  photo_alt: null
+  references:
+    - label: "Wikipedia, \"1964 in the Vietnam War\", revision 1370342430 (CC BY-SA 4.0)"
+      url: "https://en.wikipedia.org/w/index.php?title=1964_in_the_Vietnam_War&oldid=1370342430"
+  status: "draft"
+  source_text: "[Wikipedia, 1964_in_the_Vietnam_War, rev 1370342430] Cambodia shot down a USAF C-123 aircraft that was flying over the Cambodian border village of Dak Dam in the Mondulkiri Province. All eight crew members on board were killed."
+  summarized_by: "Claude Opus 5.5"
+  summarized_at: "2026-10-26T14:00:00Z"
+- month: 10
+  day: 24
+  year: 1964
+  title: "Taylor tells Sửu the U.S. must be consulted"
+  body: "<p>On October 24, 1964, Ambassador Taylor met with Sửu and expressed his displeasure that an action had been taken without consulting with the United States. Taylor said that, in the future, \"We could not accept\" a failure of the government to consult with the U.S.</p>"
   photo_url: null
   photo_alt: null
   references:
@@ -272,14 +344,28 @@
     - label: "FRUS, document 387"
       url: "http://history.state.gov/historicaldocuments/frus1964-68v01/d387"
   status: "draft"
-  source_text: "[Wikipedia, 1964_in_the_Vietnam_War, rev 1370342430] Ambassador Taylor met with Sửu and expressed his displeasure that the action had been taken without consulting with the United States. Taylor said that, in the future, \"We could not accept\" a failure of the government to consult with the U.S.\n\nCambodia shot down a USAF C-123 aircraft that was flying over the Cambodian border village of Dak Dam in the Mondulkiri Province. All eight crew members on board were killed."
-  summarized_by: "Claude Fable 5.1"
-  summarized_at: "2026-10-25T14:34:58Z"
+  source_text: "[Wikipedia, 1964_in_the_Vietnam_War, rev 1370342430] Ambassador Taylor met with Sửu and expressed his displeasure that the action had been taken without consulting with the United States. Taylor said that, in the future, \"We could not accept\" a failure of the government to consult with the U.S."
+  summarized_by: "Claude Opus 5.5"
+  summarized_at: "2026-10-26T14:00:00Z"
 - month: 10
   day: 25
   year: 1972
   title: "PAVN/VC launch 113 attacks ahead of expected ceasefire"
-  body: "<p>On October 25, 1972, PAVN/VC forces conducted 113 attacks across South Vietnam in what was seen as an attempt to seize as much territory as possible before an imminent ceasefire. A rocket attack on Danang Air Base killed one U.S. civilian and nine South Vietnamese civilians outside the base. A rocket attack on Hội An killed four civilians and wounded 35, and a rocket attack on Tri Tam, 36 mi northwest of Saigon, killed ten civilians and one ARVN soldier and wounded 37 civilians.</p><p>The same day, North Vietnam publicly broadcast the terms of the draft peace agreement and accused the United States of negotiating in bad faith. It said that the terms of a ceasefire agreement had been agreed, but that the U.S. had backed off signing, \"claiming that it had difficulties in Saigon.\"</p><p>South Vietnam's Foreign Minister Trần Văn Lắm briefed the ambassadors from Australia, Japan, Laos, the Philippines, Thailand, and West Germany on the current peace proposals.</p>"
+  body: "<p>On October 25, 1972, PAVN/VC forces conducted 113 attacks across South Vietnam in what was seen as an attempt to seize as much territory as possible before an imminent ceasefire. A rocket attack on Danang Air Base killed one U.S. civilian and nine South Vietnamese civilians outside the base. A rocket attack on Hội An killed four civilians and wounded 35, and a rocket attack on Tri Tam, 36 miles northwest of Saigon, killed ten civilians and one ARVN soldier and wounded 37 civilians.</p>"
+  photo_url: null
+  photo_alt: null
+  references:
+    - label: "Wikipedia, \"1972 in the Vietnam War\", revision 1372115736 (CC BY-SA 4.0)"
+      url: "https://en.wikipedia.org/w/index.php?title=1972_in_the_Vietnam_War&oldid=1372115736"
+  status: "draft"
+  source_text: "[Wikipedia, 1972_in_the_Vietnam_War, rev 1372115736] PAVN/VC conducted 113 attacks across South Vietnam in what was seen as an attempt to seize as much territory as possible before an imminent ceasefire. A rocket attack on Danang Air Base killed one U.S. civilian and nine South Vietnamese civilians outside the base. A rocket attack on Hội An killed four civilians and wounded 35. A rocket attack on Tri Tam 36 mi northwest of Saigon killed ten civilians and one ARVN and wounded 37 civilians."
+  summarized_by: "Claude Opus 5.5"
+  summarized_at: "2026-10-26T14:00:00Z"
+- month: 10
+  day: 25
+  year: 1972
+  title: "North Vietnam broadcasts draft peace terms"
+  body: "<p>On October 25, 1972, North Vietnam publicly broadcast the terms of the draft peace agreement and accused the United States of negotiating in bad faith. It said that the terms of a ceasefire agreement had been agreed, but that the U.S. had backed off signing, \"claiming that it had difficulties in Saigon.\"</p>"
   photo_url: null
   photo_alt: null
   references:
@@ -288,14 +374,28 @@
     - label: "\"Memoirs v Tapes: President Nixon and the December Bombings\""
       url: "http://www.nixonlibrary.gov/exhibits/decbomb/chapter-ii.html"
   status: "draft"
-  source_text: "[Wikipedia, 1972_in_the_Vietnam_War, rev 1372115736] PAVN/VC conducted 113 attacks across South Vietnam in what was seen as an attempt to seize as much territory as possible before an imminent ceasefire. A rocket attack on Danang Air Base killed one U.S. civilian and nine South Vietnamese civilians outside the base. A rocket attack on Hội An killed four civilians and wounded 35. A rocket attack on Tri Tam 36 mi northwest of Saigon killed ten civilians and one ARVN and wounded 37 civilians.\n\nNorth Vietnam broadcast publicly the terms of the draft peace agreement and accused the United States of negotiating in bad faith saying that the terms of a ceasefire agreement had been agreed, but that the U.S. had backed off signing \"claiming that it had difficulties in Saigon.\"\n\nSouth Vietnam's Foreign Minister Trần Văn Lắm briefed the ambassadors from Australia, Japan, Laos, the Philippines, Thailand and West Germany on the current peace proposals."
-  summarized_by: "Claude Fable 5.1"
-  summarized_at: "2026-10-25T14:34:58Z"
+  source_text: "[Wikipedia, 1972_in_the_Vietnam_War, rev 1372115736] North Vietnam broadcast publicly the terms of the draft peace agreement and accused the United States of negotiating in bad faith saying that the terms of a ceasefire agreement had been agreed, but that the U.S. had backed off signing \"claiming that it had difficulties in Saigon.\""
+  summarized_by: "Claude Opus 5.5"
+  summarized_at: "2026-10-26T14:00:00Z"
+- month: 10
+  day: 25
+  year: 1972
+  title: "Foreign Minister Lắm briefs six ambassadors on peace proposals"
+  body: "<p>On October 25, 1972, South Vietnam's Foreign Minister Trần Văn Lắm briefed the ambassadors from Australia, Japan, Laos, the Philippines, Thailand, and West Germany on the current peace proposals.</p>"
+  photo_url: null
+  photo_alt: null
+  references:
+    - label: "Wikipedia, \"1972 in the Vietnam War\", revision 1372115736 (CC BY-SA 4.0)"
+      url: "https://en.wikipedia.org/w/index.php?title=1972_in_the_Vietnam_War&oldid=1372115736"
+  status: "draft"
+  source_text: "[Wikipedia, 1972_in_the_Vietnam_War, rev 1372115736] South Vietnam's Foreign Minister Trần Văn Lắm briefed the ambassadors from Australia, Japan, Laos, the Philippines, Thailand and West Germany on the current peace proposals."
+  summarized_by: "Claude Opus 5.5"
+  summarized_at: "2026-10-26T14:00:00Z"
 - month: 10
   day: 26
   year: 1972
   title: "Kissinger declares \"Peace is at hand\""
-  body: "<p>On October 26, 1972, Kissinger declared that \"Peace is at hand\" in Vietnam and that a final agreement could be achieved after one more three-to-four-day negotiating session. He made the statement despite South Vietnamese opposition to the draft peace agreement and North Vietnam's charges that the U.S. was negotiating in bad faith.</p><p>South Vietnam announced that it was \"ready to accept a cease-fire\" but \"would never accept a political settlement which goes against the interests and aspirations of the 17 million South Vietnamese people.\" Xuân Thủy said that the U.S. and North Vietnam had resolved all outstanding points on 17 October, that a ceasefire agreement was scheduled to be signed on 31 October, and called on the U.S. to honor that commitment.</p><p>Heavy fighting was reported in Laos, particularly in the Plain of Jars area and near Saravane, as each side sought to maximize its territory before any ceasefire.</p>"
+  body: "<p>On October 26, 1972, Kissinger declared that \"Peace is at hand\" in Vietnam and that a final agreement could be achieved after one more three-to-four-day negotiating session. He made the statement despite South Vietnamese opposition to the draft peace agreement and North Vietnam's charges that the U.S. was negotiating in bad faith.</p><p>South Vietnam announced that it was \"ready to accept a cease-fire\" but \"would never accept a political settlement which goes against the interests and aspirations of the 17 million South Vietnamese people.\" Xuân Thủy said that the U.S. and North Vietnam had resolved all outstanding points on 17 October, that a ceasefire agreement was scheduled to be signed on 31 October, and called on the U.S. to honor that commitment.</p>"
   photo_url: null
   photo_alt: null
   references:
@@ -304,9 +404,23 @@
     - label: "\"Memoirs v Tapes: President Nixon and the December Bombings\""
       url: "http://www.nixonlibrary.gov/exhibits/decbomb/chapter-ii.html"
   status: "draft"
-  source_text: "[Wikipedia, 1972_in_the_Vietnam_War, rev 1372115736] Despite South Vietnamese opposition to the draft peace agreement and the charges by North Vietnam that the U.S. was negotiating in bad faith, Kissinger declared \"Peace is at hand\" in Vietnam and that a final agreement could be achieved after one more three-four day negotiating session.\n\nSouth Vietnam announced that it was \"ready to accept a cease-fire\" but \"would never accept a political settlement which goes against the interests and aspirations of the 17 million South Vietnamese people.\"\n\nXuân Thủy said that the U.S. and North Vietnam had resolved all outstanding points on 17 October, that a ceasefire agreement was scheduled to be signed on 31 October and called on the U.S. to honor that commitment.\n\nHeavy fighting was reported in Laos, particularly in the Plain of Jars area and near Saravane as each side sought to maximize their territory before any ceasefire."
-  summarized_by: "Claude Fable 5.1"
-  summarized_at: "2026-10-25T14:34:58Z"
+  source_text: "[Wikipedia, 1972_in_the_Vietnam_War, rev 1372115736] Despite South Vietnamese opposition to the draft peace agreement and the charges by North Vietnam that the U.S. was negotiating in bad faith, Kissinger declared \"Peace is at hand\" in Vietnam and that a final agreement could be achieved after one more three-four day negotiating session.\n\nSouth Vietnam announced that it was \"ready to accept a cease-fire\" but \"would never accept a political settlement which goes against the interests and aspirations of the 17 million South Vietnamese people.\"\n\nXuân Thủy said that the U.S. and North Vietnam had resolved all outstanding points on 17 October, that a ceasefire agreement was scheduled to be signed on 31 October and called on the U.S. to honor that commitment."
+  summarized_by: "Claude Opus 5.5"
+  summarized_at: "2026-10-26T14:00:00Z"
+- month: 10
+  day: 26
+  year: 1972
+  title: "Heavy fighting reported in Laos ahead of ceasefire"
+  body: "<p>On October 26, 1972, heavy fighting was reported in Laos, particularly in the Plain of Jars area and near Saravane, as each side sought to maximize its territory before any ceasefire.</p>"
+  photo_url: null
+  photo_alt: null
+  references:
+    - label: "Wikipedia, \"1972 in the Vietnam War\", revision 1372115736 (CC BY-SA 4.0)"
+      url: "https://en.wikipedia.org/w/index.php?title=1972_in_the_Vietnam_War&oldid=1372115736"
+  status: "draft"
+  source_text: "[Wikipedia, 1972_in_the_Vietnam_War, rev 1372115736] Heavy fighting was reported in Laos, particularly in the Plain of Jars area and near Saravane as each side sought to maximize their territory before any ceasefire."
+  summarized_by: "Claude Opus 5.5"
+  summarized_at: "2026-10-26T14:00:00Z"
 - month: 10
   day: 27
   year: 1965

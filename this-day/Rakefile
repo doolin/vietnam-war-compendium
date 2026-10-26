@@ -302,6 +302,32 @@ namespace :provision do
     "#{lines.join("\n")}\n"
   end
 
+  # FILE is a YAML list of {file:, month:, day:, title:, events: [...]}:
+  # the block in data/events/<file> with that month, day, and title is
+  # removed and the events are inserted in its place.
+  desc "Replace combined entries with separate events (FILE=tmp/split/splits.yaml)"
+  task :split do
+    require "yaml"
+    require "json"
+    splits = YAML.safe_load_file(ENV.fetch("FILE"), permitted_classes: [Date])
+    splits.group_by { |s| s["file"] }.each do |file, group|
+      path = File.join(EVENTS_DIR, file)
+      head, *blocks = File.read(path).split(/^(?=- month: )/)
+      group.each do |s|
+        i = blocks.index do |b|
+          e = YAML.safe_load(b, permitted_classes: [Date]).first
+          [e["month"], e["day"], e["title"]] == [s["month"], s["day"], s["title"]]
+        end
+        raise "#{file}: no entry #{s['month']}/#{s['day']} #{s['title'].inspect}" unless i
+
+        blocks[i, 1] = s["events"].map { |e| draft_block(e) }
+      end
+      File.write(path, head + blocks.join)
+      YAML.safe_load_file(path, permitted_classes: [Date])
+      puts "#{file}: #{group.size} entries split into #{group.sum { |s| s['events'].size }}"
+    end
+  end
+
   # A date can carry many entries, so a draft replaces an existing block
   # only when month, day, and title all match; otherwise it is added.
   desc "Add drafts to an event file, replacing a block with the same month, day, and title " \

@@ -68,21 +68,35 @@
   day: 10
   year: 1966
   title: "Marine bomber hits own troops near Đông Hà"
-  body: "<p>On December 10, 1966, sixteen U.S. Marines were killed and 11 others injured when a Marine bomber accidentally dropped two 250 pound bombs on them. The Marines were fighting near Đông Hà in Quảng Trị Province. They had come under a mortar attack and were firing their own 81 mm shells when the bombs either bounced off a ridge of boulders or fell about 300 yards from their intended target.</p><p>The same day, a taxi on Highway 29 in Phong Dinh Province ran over a mine. Five passengers, all women, were killed, and the driver was badly wounded.</p>"
+  body: "<p>On December 10, 1966, sixteen U.S. Marines were killed and 11 others injured when a Marine bomber accidentally dropped two 250 pound bombs on them. The Marines were fighting near Đông Hà in Quảng Trị Province. They had come under a mortar attack and were firing their own 81 mm shells when the bombs either bounced off a ridge of boulders or fell about 300 yards from their intended target.</p>"
   photo_url: null
   photo_alt: null
   references:
     - label: "Wikipedia, \"1966 in the Vietnam War\", revision 1380091905 (CC BY-SA 4.0)"
       url: "https://en.wikipedia.org/w/index.php?title=1966_in_the_Vietnam_War&oldid=1380091905"
   status: "draft"
-  source_text: "[Wikipedia, 1966_in_the_Vietnam_War, rev 1380091905] Sixteen U.S. Marines were killed and 11 others injured when a Marine bomber accidentally dropped two 250 pound bombs on them. The Marines were fighting near Đông Hà in Quảng Trị Province, when they came under a mortar attack, and were firing their own 81 mm shells when the bombs \"either bounced off a ridge of boulders, or fell about 300 yd yards from their intended target.\"\n[Wikipedia, 1966_in_the_Vietnam_War, rev 1380091905] A taxi on Highway 29, Phong Dinh Province ran over a mine. Five passengers, all women, were killed and the driver badly wounded."
+  source_text: "[Wikipedia, 1966_in_the_Vietnam_War, rev 1380091905] Sixteen U.S. Marines were killed and 11 others injured when a Marine bomber accidentally dropped two 250 pound bombs on them. The Marines were fighting near Đông Hà in Quảng Trị Province, when they came under a mortar attack, and were firing their own 81 mm shells when the bombs \"either bounced off a ridge of boulders, or fell about 300 yd yards from their intended target.\""
   summarized_by: "Claude Opus 5.5"
-  summarized_at: "2026-10-26T12:00:00Z"
+  summarized_at: "2026-10-26T14:00:00Z"
+- month: 12
+  day: 10
+  year: 1966
+  title: "Mine kills five taxi passengers on Highway 29"
+  body: "<p>On December 10, 1966, a taxi on Highway 29 in Phong Dinh Province ran over a mine. Five passengers, all women, were killed, and the driver was badly wounded.</p>"
+  photo_url: null
+  photo_alt: null
+  references:
+    - label: "Wikipedia, \"1966 in the Vietnam War\", revision 1380091905 (CC BY-SA 4.0)"
+      url: "https://en.wikipedia.org/w/index.php?title=1966_in_the_Vietnam_War&oldid=1380091905"
+  status: "draft"
+  source_text: "[Wikipedia, 1966_in_the_Vietnam_War, rev 1380091905] A taxi on Highway 29, Phong Dinh Province ran over a mine. Five passengers, all women, were killed and the driver badly wounded."
+  summarized_by: "Claude Opus 5.5"
+  summarized_at: "2026-10-26T14:00:00Z"
 - month: 12
   day: 11
   year: 1964
   title: "South Vietnamese C-123B crashes into Monkey Mountain"
-  body: "<p>On December 11, 1964, a South Vietnamese Air Force Fairchild C-123B-12-FA Provider, registration 55-4522, crashed into Monkey Mountain in evening darkness after departing Da Nang Air Base. All 38 occupants, South Vietnamese military personnel and two U.S. passengers, were killed, and the aircraft was destroyed. The crash site lay 10 km north of the base.</p><p>The same day, the VC D2 Regiment and a reinforcing unit, four battalions in all, assaulted Long My town in Chuong Thien Province. The territorial defenders held. After mauling a 21st Division battalion sent toward Long My, the VC attacked the town again and were again repelled. The ARVN lost 27 dead and 55 wounded; US losses were two dead, five wounded, and one missing.</p>"
+  body: "<p>On December 11, 1964, a South Vietnamese Air Force Fairchild C-123B-12-FA Provider, registration 55-4522, crashed into Monkey Mountain in evening darkness shortly after takeoff from Da Nang Air Base. All 38 occupants, South Vietnamese military personnel and two U.S. passengers, were killed, and the aircraft was destroyed. The crash site lay 10 km north of the base.</p>"
   photo_url: null
   photo_alt: null
   references:
@@ -91,9 +105,23 @@
     - label: "Wikipedia, \"1964 in the Vietnam War\", revision 1370342430 (CC BY-SA 4.0)"
       url: "https://en.wikipedia.org/w/index.php?title=1964_in_the_Vietnam_War&oldid=1370342430"
   status: "draft"
-  source_text: "[Aviation Safety Network, wikibase 193752] Date: Friday 11 December 1964 Time: evening Type: Fairchild C-123B-12-FA Provider Owner/operator: South Vietnamese Air Force (SVAF) Registration: 55-4522 MSN: 20183 Fatalities: Fatalities: 38 / Occupants: 38 Other fatalities: 0 Aircraft damage: Destroyed, written off Category: Accident Location: 10 km N of Da Nang AB, SVN - Vietnam Phase: Unknown Nature: Military Departure airport: Da Nang AB Destination airport: Narrative: Crashed into Monkey Mountain in evening darkness. SVN military personnel and two US passengers.\n[Wikipedia, 1964_in_the_Vietnam_War, rev 1370342430] An RVNAF C-123B crashed into Monkey Mountain shortly after takeoff from Da Nang Air Base killing all 38 on board, including two U.S.\n[Wikipedia, 1964_in_the_Vietnam_War, rev 1370342430] The VC D2 Regiment along with a reinforcing unit, four battalions in all, assaulted Long My town in Chuong Thien Province. The territorial defenders held as the VC set three ambushes for the relief forces. After mauling a 21st Division battalion sent toward Long My, the VC returned to attack the town. Once again, the defenders repelled the enemy. Eighteen US and RVNAF A-1s participated in the fighting, with the VC shooting down one and damaging three. They also damaged five US Army helicopters. Allied pilots claimed they had killed 400 insurgents. The ARVN lost 27 dead and 55 wounded. US losses were two dead, five wounded, and one missing."
+  source_text: "[Aviation Safety Network, wikibase 193752] Date: Friday 11 December 1964 Time: evening Type: Fairchild C-123B-12-FA Provider Owner/operator: South Vietnamese Air Force (SVAF) Registration: 55-4522 MSN: 20183 Fatalities: Fatalities: 38 / Occupants: 38 Other fatalities: 0 Aircraft damage: Destroyed, written off Category: Accident Location: 10 km N of Da Nang AB, SVN - Vietnam Phase: Unknown Nature: Military Departure airport: Da Nang AB Destination airport: Narrative: Crashed into Monkey Mountain in evening darkness. SVN military personnel and two US passengers.\n[Wikipedia, 1964_in_the_Vietnam_War, rev 1370342430] An RVNAF C-123B crashed into Monkey Mountain shortly after takeoff from Da Nang Air Base killing all 38 on board, including two U.S."
   summarized_by: "Claude Opus 5.5"
-  summarized_at: "2026-10-26T12:00:00Z"
+  summarized_at: "2026-10-26T14:00:00Z"
+- month: 12
+  day: 11
+  year: 1964
+  title: "VC D2 Regiment assaults Long My twice"
+  body: "<p>On December 11, 1964, the VC D2 Regiment, along with a reinforcing unit, four battalions in all, assaulted Long My town in Chuong Thien Province. The territorial defenders held as the VC set three ambushes for the relief forces. After mauling a 21st Division battalion sent toward Long My, the VC returned to attack the town, and once again the defenders repelled them.</p><p>Eighteen US and RVNAF A-1s took part in the fighting; the VC shot down one and damaged three, and also damaged five US Army helicopters. Allied pilots claimed they had killed 400 insurgents. The ARVN lost 27 dead and 55 wounded. US losses were two dead, five wounded, and one missing.</p>"
+  photo_url: null
+  photo_alt: null
+  references:
+    - label: "Wikipedia, \"1964 in the Vietnam War\", revision 1370342430 (CC BY-SA 4.0)"
+      url: "https://en.wikipedia.org/w/index.php?title=1964_in_the_Vietnam_War&oldid=1370342430"
+  status: "draft"
+  source_text: "[Wikipedia, 1964_in_the_Vietnam_War, rev 1370342430] The VC D2 Regiment along with a reinforcing unit, four battalions in all, assaulted Long My town in Chuong Thien Province. The territorial defenders held as the VC set three ambushes for the relief forces. After mauling a 21st Division battalion sent toward Long My, the VC returned to attack the town. Once again, the defenders repelled the enemy. Eighteen US and RVNAF A-1s participated in the fighting, with the VC shooting down one and damaging three. They also damaged five US Army helicopters. Allied pilots claimed they had killed 400 insurgents. The ARVN lost 27 dead and 55 wounded. US losses were two dead, five wounded, and one missing."
+  summarized_by: "Claude Opus 5.5"
+  summarized_at: "2026-10-26T14:00:00Z"
 - month: 12
   day: 12
   year: 1968

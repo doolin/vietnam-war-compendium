@@ -173,6 +173,28 @@ Opened 2026-10-25.
     - **Dec 7** is transcribed from a scanned after-action report
       with no text layer; `source_text` marks it as transcribed.
 
+## One event per entry
+
+13. **Seventeen combined drafts split into 39 entries (2026-10-26).**
+    Operator's rule: a date can carry many entries, each its own
+    event. Drafts that joined unrelated events with "The same day,
+    ..." are split (Oct 4, 9, 11, 20, 24, 25, 26; Nov 2, 4, 11, 22,
+    24, 27, 28, 30; Dec 10, 11). Each piece carries only its own
+    source passages; the Wikipedia entry's cited source goes on the
+    piece whose sentence it follows in the wikitext.
+    - **28 of the 39 are under 80 words**, most resting on a single
+      Wikipedia sentence (the Kennedy assassination entry is 19
+      words). *Decision:* approve thin entries as they are, or hold
+      them for re-sourcing.
+    - **Oct 24:** the source does not say which "action" Taylor
+      objected to, so the Taylor piece no longer ties it to the
+      C-123 shootdown.
+    - **Nov 2:** the release of aid funds to "the new Government" may
+      read better rejoined to the coup entry.
+    - **Nov 11:** a third event (the VC handing three POWs to Tom
+      Hayden) was inside the Gallup paragraph; it is now its own
+      entry.
+
 ## Infrastructure
 
 7. **Official-history hosts block automated fetches.**

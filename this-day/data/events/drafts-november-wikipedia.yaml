@@ -5,7 +5,21 @@
   day: 2
   year: 1963
   title: "Diệm and Nhu killed after coup led by Dương Văn Minh"
-  body: "<p>On November 2, 1963, the arrest and assassination of Ngô Đình Diệm and his younger brother Ngô Đình Nhu marked the culmination of a successful coup led by General Dương Văn Minh. Diệm and Nhu were arrested and then killed in an armoured personnel carrier by ARVN officers.</p><p>The same day, Ambassador Lodge was authorized by the State Department to release funds for aid projects to the new Government of South Vietnam. The United States had frozen the funding of those projects to pressure the Diệm government to undertake reforms.</p>"
+  body: "<p>On November 2, 1963, the arrest and assassination of Ngô Đình Diệm and his younger brother Ngô Đình Nhu marked the culmination of a successful coup led by General Dương Văn Minh. Diệm and Nhu were arrested and then killed in an armoured personnel carrier by ARVN officers.</p>"
+  photo_url: null
+  photo_alt: null
+  references:
+    - label: "Wikipedia, \"1963 in the Vietnam War\", revision 1370279475 (CC BY-SA 4.0)"
+      url: "https://en.wikipedia.org/w/index.php?title=1963_in_the_Vietnam_War&oldid=1370279475"
+  status: "draft"
+  source_text: "[Wikipedia, 1963_in_the_Vietnam_War, rev 1370279475] The arrest and assassination of Ngô Đình Diệm and his younger brother Ngô Đình Nhu marked the culmination of a successful coup led by General Dương Văn Minh. Diệm and Nhu were arrested and then killed in an armoured personnel carrier by ARVN officers."
+  summarized_by: "Claude Opus 5.5"
+  summarized_at: "2026-10-26T14:00:00Z"
+- month: 11
+  day: 2
+  year: 1963
+  title: "State Department authorizes release of aid funds to new government"
+  body: "<p>On November 2, 1963, the State Department authorized Ambassador Lodge to release funds for aid projects to the new Government of South Vietnam. The U.S. had frozen the funding of the projects to pressure the Diệm government to undertake reforms.</p>"
   photo_url: null
   photo_alt: null
   references:
@@ -14,9 +28,9 @@
     - label: "FRUS, Vietnam 1961-1963, Vol. 3"
       url: "https://history.state.gov/historicaldocuments/frus1961-63v04/d280"
   status: "draft"
-  source_text: "[Wikipedia, 1963_in_the_Vietnam_War, rev 1370279475] The arrest and assassination of Ngô Đình Diệm and his younger brother Ngô Đình Nhu marked the culmination of a successful coup led by General Dương Văn Minh. Diệm and Nhu were arrested and then killed in an armoured personnel carrier by ARVN officers.\n\nAmbassador Lodge was authorized by the State Department to release funds for aid projects to the new Government of South Vietnam. The funding of the projects had been frozen by the U.S. to pressure the Diệm government to undertake reforms."
-  summarized_by: "Claude Fable 5.1"
-  summarized_at: "2026-10-25T14:35:03Z"
+  source_text: "[Wikipedia, 1963_in_the_Vietnam_War, rev 1370279475] Ambassador Lodge was authorized by the State Department to release funds for aid projects to the new Government of South Vietnam. The funding of the projects had been frozen by the U.S. to pressure the Diệm government to undertake reforms."
+  summarized_by: "Claude Opus 5.5"
+  summarized_at: "2026-10-26T14:00:00Z"
 - month: 11
   day: 3
   year: 1969
@@ -36,8 +50,22 @@
 - month: 11
   day: 4
   year: 1964
-  title: "Trần Văn Hương installed as Prime Minister; VC overrun Long An posts"
-  body: "<p>On November 4, 1964, Trần Văn Hương was installed as the new Prime Minister of South Vietnam as part of a civilian government selected by the nation's military leaders.</p><p>The same day, the VC launched coordinated attacks in Hau Nghia and Long An provinces. Most of the actions were diversionary to the true targets, three platoon bases protecting pacification operations along Highway 4 in Long An. The VC overran these in 30 minutes, but the 3rd Battalion, 50th Infantry, to whom the posts belonged, reacted quickly and drove off the VC. ARVN losses were ten dead and 14 wounded. The ARVN found 31 VC dead.</p>"
+  title: "Trần Văn Hương installed as Prime Minister"
+  body: "<p>On November 4, 1964, Trần Văn Hương was installed as the new Prime Minister of South Vietnam as part of a civilian government selected by the nation's military leaders.</p>"
+  photo_url: null
+  photo_alt: null
+  references:
+    - label: "Wikipedia, \"1964 in the Vietnam War\", revision 1370342430 (CC BY-SA 4.0)"
+      url: "https://en.wikipedia.org/w/index.php?title=1964_in_the_Vietnam_War&oldid=1370342430"
+  status: "draft"
+  source_text: "[Wikipedia, 1964_in_the_Vietnam_War, rev 1370342430] Trần Văn Hương was installed as the new Prime Minister of South Vietnam as part of a civilian government selected by the nation's military leaders."
+  summarized_by: "Claude Opus 5.5"
+  summarized_at: "2026-10-26T14:00:00Z"
+- month: 11
+  day: 4
+  year: 1964
+  title: "VC overrun three Long An platoon bases"
+  body: "<p>On November 4, 1964, the VC launched coordinated attacks in Hau Nghia and Long An provinces. Most of the actions were diversionary to the true targets, three platoon bases protecting pacification operations along Highway 4 in Long An. The VC overran these in 30 minutes, but the 3rd Battalion, 50th Infantry, to whom the posts belonged, reacted quickly and drove off the VC.</p><p>ARVN losses were ten dead and 14 wounded. The ARVN found 31 VC dead.</p>"
   photo_url: null
   photo_alt: null
   references:
@@ -46,9 +74,9 @@
     - label: "Andrew Birtle, \"Advice and Support: The Middle Years, January 1964–June 1965\", Center of Military History, United States Army, 2024"
       url: "https://history.army.mil/Publications/Publications-Catalog-Sub/Publications-By-Title/Advice-and-Support-The-Middle-Years/"
   status: "draft"
-  source_text: "[Wikipedia, 1964_in_the_Vietnam_War, rev 1370342430] Trần Văn Hương was installed as the new Prime Minister of South Vietnam as part of a civilian government selected by the nation's military leaders.\n\nThe VC launched coordinated attacks in Hau Nghia and Long An provinces. Most of the actions were diversionary to the true targets, which were three platoon bases protecting pacification operations along Highway 4 in Long An. The VC overran these in 30 minutes, but the 3rd Battalion, 50th Infantry, to whom the posts belonged, reacted quickly and drove off the VC. ARVN losses were ten dead and 14 wounded. The ARVN found 31 VC dead."
-  summarized_by: "Claude Fable 5.1"
-  summarized_at: "2026-10-25T14:35:03Z"
+  source_text: "[Wikipedia, 1964_in_the_Vietnam_War, rev 1370342430] The VC launched coordinated attacks in Hau Nghia and Long An provinces. Most of the actions were diversionary to the true targets, which were three platoon bases protecting pacification operations along Highway 4 in Long An. The VC overran these in 30 minutes, but the 3rd Battalion, 50th Infantry, to whom the posts belonged, reacted quickly and drove off the VC. ARVN losses were ten dead and 14 wounded. The ARVN found 31 VC dead."
+  summarized_by: "Claude Opus 5.5"
+  summarized_at: "2026-10-26T14:00:00Z"
 - month: 11
   day: 6
   year: 1964
@@ -69,7 +97,7 @@
   day: 11
   year: 1967
   title: "MACV lowers its estimate of PAVN/VC strength to 242,000"
-  body: "<p>On November 11, 1967, MACV told reporters that the estimated number of PAVN/VC forces in South Vietnam had declined to 242,000 men, from a previously announced assessment of 299,000, and explained that the decrease was due to \"heavy casualties and plummeting morale.\" The decrease followed a MACV decision in July that some categories of VC should be dropped from the total estimate, which had been tallied at 299,000 at the beginning of 1967, in order to maintain the public position that PAVN/VC forces were less than 300,000. In 1975 a former CIA employee, Samuel A. Adams, would describe the falsifying of numbers in testimony before the U.S. House Intelligence Committee, and would state that his review of CIA documents indicated the enemy's strength had been 600,000 during 1967.</p><p>The same day, a Gallup poll found that 59 percent of Americans favored continuing the war, with 55 percent saying the U.S. should increase its military effort and involvement. In Phnom Penh, the VC handed over three U.S. prisoners of war to antiwar activist Tom Hayden.</p>"
+  body: "<p>On November 11, 1967, MACV told reporters that the estimated number of PAVN/VC forces in South Vietnam had declined to 242,000 men, from a previously announced assessment of 299,000, and explained that the decrease was due to \"heavy casualties and plummeting morale.\" The decrease came because MACV had decided in July that some categories of VC should be dropped from the total estimate, which had been tallied at 299,000 at the beginning of 1967, in order to maintain the public position that PAVN/VC forces were less than 300,000.</p><p>In 1975 a former CIA employee, Samuel A. Adams, revealed the falsifying of numbers in testimony before the U.S. House Intelligence Committee. Adams also said that his review of CIA documents indicated that the enemy's strength had been 600,000 during 1967. A CIA report on estimating PAVN/VC strength stated, \"we lack precise basic data on population size, rates of growth, and age distribution for both North and South Vietnam.\"</p>"
   photo_url: null
   photo_alt: null
   references:
@@ -78,9 +106,37 @@
     - label: "\"Capabilities of the Vietnamese Communists for fighting in South Vietnam\", United States State Department, 13 November 1967"
       url: "https://history.state.gov/historicaldocuments/frus1964-68v05/d397"
   status: "draft"
-  source_text: "[Wikipedia, 1967_in_the_Vietnam_War, rev 1370279584] MACV told reporters that the estimated number of PAVN/VC forces in South Vietnam had declined to 242,000 men, following the previous announced assessment of 299,000 and explained that the decrease was due to \"heavy casualties and plummeting morale\"; in reality, the decrease came because MACV had decided in July that some categories of VC should be dropped from the total estimate, which had been tallied at 299,000 at the beginning of 1967 in order to maintain the public position that PAVN/VC forces were less than 300,000. In 1975, a former CIA employee, Samuel A. Adams, would reveal the falsifying of numbers in testimony before the U.S. House Intelligence Committee. Adams would also reveal that his review of CIA documents indicated that the strength of the enemy had actually been 600,000 during 1967. Although the difficulties in attempting to put together an educated estimate of PAVN/VC strength in South Vietnam was described in a CIA report on the subject as \"we lack precise basic data on population size, rates of growth, and age distribution for both North and South Vietnam\", \"Our data and conclusions are therefore subject to continuing review and revision, especially since capabilities do not remain static.\"\n\nA Gallup poll found that 59% of Americans favored continuing the war with 55% saying the U.S. should increase its military effort and involvement.\n\nThe VC handed over three U.S. prisoners of war to antiwar activist Tom Hayden in Phnom Penh."
-  summarized_by: "Claude Fable 5.1"
-  summarized_at: "2026-10-25T14:35:03Z"
+  source_text: "[Wikipedia, 1967_in_the_Vietnam_War, rev 1370279584] MACV told reporters that the estimated number of PAVN/VC forces in South Vietnam had declined to 242,000 men, following the previous announced assessment of 299,000 and explained that the decrease was due to \"heavy casualties and plummeting morale\"; in reality, the decrease came because MACV had decided in July that some categories of VC should be dropped from the total estimate, which had been tallied at 299,000 at the beginning of 1967 in order to maintain the public position that PAVN/VC forces were less than 300,000. In 1975, a former CIA employee, Samuel A. Adams, would reveal the falsifying of numbers in testimony before the U.S. House Intelligence Committee. Adams would also reveal that his review of CIA documents indicated that the strength of the enemy had actually been 600,000 during 1967. Although the difficulties in attempting to put together an educated estimate of PAVN/VC strength in South Vietnam was described in a CIA report on the subject as \"we lack precise basic data on population size, rates of growth, and age distribution for both North and South Vietnam\", \"Our data and conclusions are therefore subject to continuing review and revision, especially since capabilities do not remain static.\""
+  summarized_by: "Claude Opus 5.5"
+  summarized_at: "2026-10-26T14:00:00Z"
+- month: 11
+  day: 11
+  year: 1967
+  title: "Gallup poll finds 59 percent favor continuing the war"
+  body: "<p>On November 11, 1967, a Gallup poll found that 59 percent of Americans favored continuing the war, with 55 percent saying the U.S. should increase its military effort and involvement.</p>"
+  photo_url: null
+  photo_alt: null
+  references:
+    - label: "Wikipedia, \"1967 in the Vietnam War\", revision 1370279584 (CC BY-SA 4.0)"
+      url: "https://en.wikipedia.org/w/index.php?title=1967_in_the_Vietnam_War&oldid=1370279584"
+  status: "draft"
+  source_text: "[Wikipedia, 1967_in_the_Vietnam_War, rev 1370279584] A Gallup poll found that 59% of Americans favored continuing the war with 55% saying the U.S. should increase its military effort and involvement."
+  summarized_by: "Claude Opus 5.5"
+  summarized_at: "2026-10-26T14:00:00Z"
+- month: 11
+  day: 11
+  year: 1967
+  title: "VC hand three U.S. POWs to Tom Hayden"
+  body: "<p>On November 11, 1967, the VC handed over three U.S. prisoners of war to antiwar activist Tom Hayden in Phnom Penh.</p>"
+  photo_url: null
+  photo_alt: null
+  references:
+    - label: "Wikipedia, \"1967 in the Vietnam War\", revision 1370279584 (CC BY-SA 4.0)"
+      url: "https://en.wikipedia.org/w/index.php?title=1967_in_the_Vietnam_War&oldid=1370279584"
+  status: "draft"
+  source_text: "[Wikipedia, 1967_in_the_Vietnam_War, rev 1370279584] The VC handed over three U.S. prisoners of war to antiwar activist Tom Hayden in Phnom Penh."
+  summarized_by: "Claude Opus 5.5"
+  summarized_at: "2026-10-26T14:00:00Z"
 - month: 11
   day: 15
   year: 1969
@@ -148,8 +204,36 @@
 - month: 11
   day: 22
   year: 1963
-  title: "Kennedy assassinated; Lê Duẩn urges offensive strategy in Hanoi"
-  body: "<p>On November 22, 1963, President Kennedy was assassinated in Dallas, Texas, and Lyndon Johnson became President of the U.S.</p><p>The Central Committee of the Communist Party of Vietnam met in emergency session to consider the implications of the fall of the Diệm government. First Secretary Lê Duẩn made a speech saying \"We are strong, while the enemy is weak...the strategy of revolution should not be a defensive one.\" He said an offensive strategy should be adopted \"to smash one by one the war policies of imperialism heading by the United States until its war plans are completely smashed.\" Lê Duẩn's speech won the approval of the members of the Central Committee, who had previously been cautious about helping the VC and pursuing an aggressive policy in South Vietnam. Ho Chi Minh, a moderate, reportedly removed himself from the debate.</p><p>An AP report on the Honolulu conference said that U.S. officials believed it might take six \"months to tell whether the overthrow of the Diệm regime has brought victory in the anti-Communists war closer.\"</p>"
+  title: "President Kennedy assassinated in Dallas"
+  body: "<p>On November 22, 1963, President Kennedy was assassinated in Dallas, Texas, and Lyndon Johnson became President of the U.S.</p>"
+  photo_url: null
+  photo_alt: null
+  references:
+    - label: "Wikipedia, \"1963 in the Vietnam War\", revision 1370279475 (CC BY-SA 4.0)"
+      url: "https://en.wikipedia.org/w/index.php?title=1963_in_the_Vietnam_War&oldid=1370279475"
+  status: "draft"
+  source_text: "[Wikipedia, 1963_in_the_Vietnam_War, rev 1370279475] President Kennedy was assassinated in Dallas, Texas. Lyndon Johnson become President of the U.S."
+  summarized_by: "Claude Opus 5.5"
+  summarized_at: "2026-10-26T14:00:00Z"
+- month: 11
+  day: 22
+  year: 1963
+  title: "Lê Duẩn calls for offensive strategy at emergency session"
+  body: "<p>On November 22, 1963, the Central Committee of the Communist Party of Vietnam met in emergency session to consider the implications of the fall of the Diệm government. First Secretary Lê Duẩn made a speech saying \"We are strong, while the enemy is weak...the strategy of revolution should not be a defensive one.\" He said an offensive strategy should be adopted \"to smash one by one the war policies of imperialism heading by the United States until its war plans are completely smashed.\"</p><p>Lê Duẩn's speech won the approval of the members of the Central Committee, who had previously been cautious about helping the VC and pursuing an aggressive policy in South Vietnam. Ho Chi Minh, a moderate, reportedly removed himself from the debate.</p>"
+  photo_url: null
+  photo_alt: null
+  references:
+    - label: "Wikipedia, \"1963 in the Vietnam War\", revision 1370279475 (CC BY-SA 4.0)"
+      url: "https://en.wikipedia.org/w/index.php?title=1963_in_the_Vietnam_War&oldid=1370279475"
+  status: "draft"
+  source_text: "[Wikipedia, 1963_in_the_Vietnam_War, rev 1370279475] The Central Committee of the Communist Party of Vietnam met in emergency session to consider the implications of the fall of the Diệm government. First Secretary Lê Duẩn made a fiery speech saying \"We are strong, while the enemy is weak...the strategy of revolution should not be a defensive one.\" Rather an offensive strategy should be adopted \"to smash one by one the war policies of imperialism heading by the United States until its war plans are completely smashed.\" Lê Duẩn's speech won the approval of the members of the Central Committee who had previously been cautious about helping the VC and pursuing an aggressive policy in South Vietnam. Ho Chi Minh, a moderate, reportedly removed himself from the debate."
+  summarized_by: "Claude Opus 5.5"
+  summarized_at: "2026-10-26T14:00:00Z"
+- month: 11
+  day: 22
+  year: 1963
+  title: "AP reports six-month outlook from Honolulu conference"
+  body: "<p>On November 22, 1963, an AP report on the Honolulu conference said that U.S. officials believed it might take six \"months to tell whether the overthrow of the Diệm regime has brought victory in the anti-Communists war closer.\"</p>"
   photo_url: null
   photo_alt: null
   references:
@@ -158,9 +242,9 @@
     - label: "Associated Press Report on the Honolulu Conference"
       url: "http://mcadams.posc.mu.edu/viet17.htm"
   status: "draft"
-  source_text: "[Wikipedia, 1963_in_the_Vietnam_War, rev 1370279475] President Kennedy was assassinated in Dallas, Texas. Lyndon Johnson become President of the U.S.\n\nThe Central Committee of the Communist Party of Vietnam met in emergency session to consider the implications of the fall of the Diệm government. First Secretary Lê Duẩn made a fiery speech saying \"We are strong, while the enemy is weak...the strategy of revolution should not be a defensive one.\" Rather an offensive strategy should be adopted \"to smash one by one the war policies of imperialism heading by the United States until its war plans are completely smashed.\" Lê Duẩn's speech won the approval of the members of the Central Committee who had previously been cautious about helping the VC and pursuing an aggressive policy in South Vietnam. Ho Chi Minh, a moderate, reportedly removed himself from the debate.\n\nAn AP report on the Honolulu conference said that U.S. officials believe it may take six \"months to tell whether the overthrow of the Diệm regime has brought victory in the anti-Communists war closer.\""
-  summarized_by: "Claude Fable 5.1"
-  summarized_at: "2026-10-25T14:35:03Z"
+  source_text: "[Wikipedia, 1963_in_the_Vietnam_War, rev 1370279475] An AP report on the Honolulu conference said that U.S. officials believe it may take six \"months to tell whether the overthrow of the Diệm regime has brought victory in the anti-Communists war closer.\""
+  summarized_by: "Claude Opus 5.5"
+  summarized_at: "2026-10-26T14:00:00Z"
 - month: 11
   day: 23
   year: 1970
@@ -179,7 +263,21 @@
   day: 24
   year: 1963
   title: "VC overrun Special Forces camp at Hiep Hoa"
-  body: "<p>On November 24, 1963, in the Battle of Hiep Hoa, a CIDG base was overrun in Hau Nghia on the Plain of Reeds west of Saigon. Five hundred VC attacked the base, which was manned by 5 U.S. Special Forces soldiers and 200 local militia. One of the Americans was wounded and the other four went missing; one of them, Isaac Camacho, became the first American to escape from VC captivity. Forty-one of the local militiamen were killed. This was the first U.S. Special Forces base to be captured by the VC.</p><p>The same day, the VC hit 24 U.S. and RVNAF aircraft and helicopters, destroying five, the highest number in the war to date.</p><p>President Johnson held his first meeting on Vietnam with senior advisers, the same group with whom former President Kennedy had often met. \"I am not going to lose Vietnam,\" he reportedly said, and he told Ambassador Lodge to tell the generals heading the government in South Vietnam that \"Lyndon Johnson intends to stand by our word.\"</p>"
+  body: "<p>On November 24, 1963, in the Battle of Hiep Hoa, a CIDG base was overrun in Hau Nghia on the Plain of Reeds west of Saigon. Five hundred VC attacked the base, which was manned by 5 U.S. Special Forces soldiers and 200 local militia. One of the Americans was wounded and the other four went missing; one of them, Isaac Camacho, became the first American to escape from VC captivity. Forty-one of the local militiamen were killed.</p><p>This was the first U.S. Special Forces base to be captured by the VC.</p>"
+  photo_url: null
+  photo_alt: null
+  references:
+    - label: "Wikipedia, \"1963 in the Vietnam War\", revision 1370279475 (CC BY-SA 4.0)"
+      url: "https://en.wikipedia.org/w/index.php?title=1963_in_the_Vietnam_War&oldid=1370279475"
+  status: "draft"
+  source_text: "[Wikipedia, 1963_in_the_Vietnam_War, rev 1370279475] In the Battle of Hiep Hoa, a CIDG base was overrun in Hau Nghia on the Plain of Reeds west of Saigon. Five hundred VC attacked the base, manned by 5 U.S. Special Forces soldiers and 200 local militia. One of the Americans was wounded and the other four went missing, one of whom, Isaac Camacho, became the first American to escape from VC captivity. Forty-one of the local militiamen were killed. This was the first U.S. Special Forces base to be captured by the VC."
+  summarized_by: "Claude Opus 5.5"
+  summarized_at: "2026-10-26T14:00:00Z"
+- month: 11
+  day: 24
+  year: 1963
+  title: "VC hit 24 U.S. and RVNAF aircraft, destroying five"
+  body: "<p>On November 24, 1963, the VC hit 24 U.S. and RVNAF aircraft and helicopters, destroying five, the highest number in the war to date.</p>"
   photo_url: null
   photo_alt: null
   references:
@@ -188,14 +286,56 @@
     - label: "Jacob Van Staaveren, \"USAF Plans and policies in South Vietnam 1961-1963\", USAF Historical Division Liaison Office, 1965"
       url: "https://media.defense.gov/2011/Mar/22/2001330192/-1/-1/0/AFD-110322-029.pdf"
   status: "draft"
-  source_text: "[Wikipedia, 1963_in_the_Vietnam_War, rev 1370279475] In the Battle of Hiep Hoa, a CIDG base was overrun in Hau Nghia on the Plain of Reeds west of Saigon. Five hundred VC attacked the base, manned by 5 U.S. Special Forces soldiers and 200 local militia. One of the Americans was wounded and the other four went missing, one of whom, Isaac Camacho, became the first American to escape from VC captivity. Forty-one of the local militiamen were killed. This was the first U.S. Special Forces base to be captured by the VC.\n\nThe VC hit 24 U.S. and RVNAF aircraft and helicopters, destroying five, the highest number in the war to date.\n\nPresident Johnson held his first meeting on Vietnam with senior advisers, the same group with whom former President Kennedy had often met. According to accounts, Johnson was aggressive at the meeting. \"I am not going to lose Vietnam\" he reportedly said and told Ambassador Lodge to tell the generals heading the government in South Vietnam that \"Lyndon Johnson intends to stand by our word.\" He also reportedly said that he had \"never been happy with our operations in Vietnam\" and the \"serious dissension and divisions\" within the U.S. government."
-  summarized_by: "Claude Fable 5.1"
-  summarized_at: "2026-10-25T14:35:03Z"
+  source_text: "[Wikipedia, 1963_in_the_Vietnam_War, rev 1370279475] The VC hit 24 U.S. and RVNAF aircraft and helicopters, destroying five, the highest number in the war to date."
+  summarized_by: "Claude Opus 5.5"
+  summarized_at: "2026-10-26T14:00:00Z"
+- month: 11
+  day: 24
+  year: 1963
+  title: "Johnson holds first Vietnam meeting as President"
+  body: "<p>On November 24, 1963, President Johnson held his first meeting on Vietnam with senior advisers, the same group with whom former President Kennedy had often met. According to accounts, Johnson was aggressive at the meeting. \"I am not going to lose Vietnam,\" he reportedly said, and he told Ambassador Lodge to tell the generals heading the government in South Vietnam that \"Lyndon Johnson intends to stand by our word.\"</p><p>He also reportedly said that he had \"never been happy with our operations in Vietnam\" and with the \"serious dissension and divisions\" within the U.S. government.</p>"
+  photo_url: null
+  photo_alt: null
+  references:
+    - label: "Wikipedia, \"1963 in the Vietnam War\", revision 1370279475 (CC BY-SA 4.0)"
+      url: "https://en.wikipedia.org/w/index.php?title=1963_in_the_Vietnam_War&oldid=1370279475"
+  status: "draft"
+  source_text: "[Wikipedia, 1963_in_the_Vietnam_War, rev 1370279475] President Johnson held his first meeting on Vietnam with senior advisers, the same group with whom former President Kennedy had often met. According to accounts, Johnson was aggressive at the meeting. \"I am not going to lose Vietnam\" he reportedly said and told Ambassador Lodge to tell the generals heading the government in South Vietnam that \"Lyndon Johnson intends to stand by our word.\" He also reportedly said that he had \"never been happy with our operations in Vietnam\" and the \"serious dissension and divisions\" within the U.S. government."
+  summarized_by: "Claude Opus 5.5"
+  summarized_at: "2026-10-26T14:00:00Z"
 - month: 11
   day: 27
   year: 1965
-  title: "SANE march draws 35,000 to Washington; VC release two U.S. POWs"
-  body: "<p>On November 27, 1965, the \"March on Washington for Peace in Vietnam\", organized by the \"Committee for a SANE Nuclear Policy\" (SANE), attracted a crowd of almost 35,000 demonstrators who picketed the White House. It was the largest public protest against U.S. involvement in Vietnam up to that time. The leaders of SANE, concerned about the public perception of the antiwar movement, asked that protesters carry only signs with \"authorized slogans\", not demand immediate withdrawal, and not burn the American flag.</p><p>In what it called a \"response to the friendly sentiments of the American people against the war in South Vietnam\", the VC released U.S. Army Sergeant George E. Smith and Specialist E-5 Claude E. McClure, both captured in November 1963. Vietnam Communist Party official Le Duc Tho escorted the two men across the border from North Vietnam into Cambodia, freeing them after two years as prisoners of war.</p><p>PAVN forces attacked the ARVN 7th Regiment, 5th Division in the Michelin Rubber Plantation, killing most of the Regiment and five U.S. advisers.</p>"
+  title: "SANE march draws 35,000 to Washington"
+  body: "<p>On November 27, 1965, the \"March on Washington for Peace in Vietnam\", organized by the \"Committee for a SANE Nuclear Policy\" (SANE), attracted a crowd of almost 35,000 demonstrators who picketed the White House, then moved on toward the Washington Monument. It was the largest public protest against U.S. involvement in Vietnam up to that time.</p><p>The leaders of SANE, concerned about the public perception of the antiwar movement, asked that protesters carry only signs with \"authorized slogans\", not demand immediate withdrawal, and not burn the American flag.</p>"
+  photo_url: null
+  photo_alt: null
+  references:
+    - label: "Wikipedia, \"1965 in the Vietnam War\", revision 1370279555 (CC BY-SA 4.0)"
+      url: "https://en.wikipedia.org/w/index.php?title=1965_in_the_Vietnam_War&oldid=1370279555"
+  status: "draft"
+  source_text: "[Wikipedia, 1965_in_the_Vietnam_War, rev 1370279555] The \"March on Washington for Peace in Vietnam\", organized by the \"Committee for a SANE Nuclear Policy\" (SANE), attracted a crowd of almost 35,000 demonstrators who picketed the White House, then moved on toward the Washington Monument. It was the largest public protest against U.S. involvement in Vietnam up to that time. The leaders of SANE were concerned about the public perception of the antiwar movement, so they asked that protesters only carry signs with \"authorized slogans\", and not to demand immediate withdrawal, nor to burn the American flag."
+  summarized_by: "Claude Opus 5.5"
+  summarized_at: "2026-10-26T14:00:00Z"
+- month: 11
+  day: 27
+  year: 1965
+  title: "VC release Sergeant Smith and Specialist McClure"
+  body: "<p>On November 27, 1965, in what it called a \"response to the friendly sentiments of the American people against the war in South Vietnam\", the VC released U.S. Army Sergeant George E. Smith and Specialist E-5 Claude E. McClure, who had both been captured on 24 November 1963. Vietnam Communist Party official Le Duc Tho escorted Smith and McClure across the border from North Vietnam into Cambodia, freeing both men after two years as prisoners of war.</p><p>Smith and McClure traveled across neutral Cambodia on their own and addressed a press conference in Phnom Penh on 30 November, praising their captors and American antiwar protesters and criticizing the war effort. On 27 December the U.S. military announced that Smith and McClure would face court martial for aiding the enemy.</p>"
+  photo_url: null
+  photo_alt: null
+  references:
+    - label: "Wikipedia, \"1965 in the Vietnam War\", revision 1370279555 (CC BY-SA 4.0)"
+      url: "https://en.wikipedia.org/w/index.php?title=1965_in_the_Vietnam_War&oldid=1370279555"
+  status: "draft"
+  source_text: "[Wikipedia, 1965_in_the_Vietnam_War, rev 1370279555] In an act which it said was being done as a \"response to the friendly sentiments of the American people against the war in South Vietnam\", the VC released U.S. Army Sergeant George E. Smith and Specialist E-5 Claude E. McClure, who had both been captured on 24 November 1963. Vietnam Communist Party official Le Duc Tho escorted Smith and McClure across the border from North Vietnam into Cambodia, freeing both men after two years as prisoners of war. Smith and McClure would travel across neutral Cambodia on their own and would address a press conference in Phnom Penh on 30 November, praising their captors and American antiwar protesters, and criticizing the war effort. On 27 December the U.S. military announced that Smith and McClure would face court martial for aiding the enemy."
+  summarized_by: "Claude Opus 5.5"
+  summarized_at: "2026-10-26T14:00:00Z"
+- month: 11
+  day: 27
+  year: 1965
+  title: "PAVN attack ARVN 7th Regiment in Michelin plantation"
+  body: "<p>On November 27, 1965, PAVN forces attacked the ARVN 7th Regiment, 5th Division in the Michelin Rubber Plantation, killing most of the Regiment and five U.S. advisers.</p>"
   photo_url: null
   photo_alt: null
   references:
@@ -204,14 +344,14 @@
     - label: "\"Combat Operations: Stemming the Tide, May 1965 to October 1966\", Center of Military History United States Army, August 2000"
       url: "https://history.army.mil/html/books/091/91-5/index.html"
   status: "draft"
-  source_text: "[Wikipedia, 1965_in_the_Vietnam_War, rev 1370279555] The \"March on Washington for Peace in Vietnam\", organized by the \"Committee for a SANE Nuclear Policy\" (SANE), attracted a crowd of almost 35,000 demonstrators who picketed the White House, then moved on toward the Washington Monument. It was the largest public protest against U.S. involvement in Vietnam up to that time. The leaders of SANE were concerned about the public perception of the antiwar movement, so they asked that protesters only carry signs with \"authorized slogans\", and not to demand immediate withdrawal, nor to burn the American flag.\n\nIn an act which it said was being done as a \"response to the friendly sentiments of the American people against the war in South Vietnam\", the VC released U.S. Army Sergeant George E. Smith and Specialist E-5 Claude E. McClure, who had both been captured on 24 November 1963. Vietnam Communist Party official Le Duc Tho escorted Smith and McClure across the border from North Vietnam into Cambodia, freeing both men after two years as prisoners of war. Smith and McClure would travel across neutral Cambodia on their own and would address a press conference in Phnom Penh on 30 November, praising their captors and American antiwar protesters, and criticizing the war effort. On 27 December the U.S. military announced that Smith and McClure would face court martial for aiding the enemy.\n\nPAVN forces attacked the ARVN 7th Regiment, 5th Division in the Michelin Rubber Plantation killing most of the Regiment and five U.S. advisers."
-  summarized_by: "Claude Fable 5.1"
-  summarized_at: "2026-10-25T14:35:03Z"
+  source_text: "[Wikipedia, 1965_in_the_Vietnam_War, rev 1370279555] PAVN forces attacked the ARVN 7th Regiment, 5th Division in the Michelin Rubber Plantation killing most of the Regiment and five U.S. advisers."
+  summarized_by: "Claude Opus 5.5"
+  summarized_at: "2026-10-26T14:00:00Z"
 - month: 11
   day: 28
   year: 1971
-  title: "CH-47 crash kills 33; Navy SEALs end combat role"
-  body: "<p>On November 28, 1971, a US Army CH-47 carrying five crew and 28 soldiers from the 327th Infantry Regiment, on a flight from Da Nang to Phu Bai Combat Base, crashed into high ground, killing all on board.</p><p>The same day, the U.S. Navy announced that the United States Navy SEALs had ended their combat role in the war and would be withdrawn in the next month. The SEALs had been kept in South Vietnam as a contingency force for Bright Light POW recovery operations.</p>"
+  title: "CH-47 crash kills all aboard on Da Nang–Phu Bai flight"
+  body: "<p>On November 28, 1971, a US Army CH-47 carrying five crew and 28 soldiers from the 327th Infantry Regiment, on a flight from Da Nang to Phu Bai Combat Base, crashed into high ground, killing all on board.</p>"
   photo_url: null
   photo_alt: null
   references:
@@ -220,14 +360,42 @@
     - label: "\"Accident Boeing CH-47C Chinook 68-15866\", Aviation Safety Network"
       url: "https://aviation-safety.net/wikibase/76002"
   status: "draft"
-  source_text: "[Wikipedia, 1971_in_the_Vietnam_War, rev 1370279651] A US Army CH-47 carrying five crew and 28 soldiers from the 327th Infantry Regiment on a flight from Da Nang to Phu Bai Combat Base crashed into high ground killing all on board.\n\nThe U.S. Navy announced that the United States Navy SEALs had ended their combat role in the war and would be withdrawn in the next month. The SEALs had been kept in South Vietnam as a contingency force for Bright Light POW recovery operations."
-  summarized_by: "Claude Fable 5.1"
-  summarized_at: "2026-10-25T14:35:03Z"
+  source_text: "[Wikipedia, 1971_in_the_Vietnam_War, rev 1370279651] A US Army CH-47 carrying five crew and 28 soldiers from the 327th Infantry Regiment on a flight from Da Nang to Phu Bai Combat Base crashed into high ground killing all on board."
+  summarized_by: "Claude Opus 5.5"
+  summarized_at: "2026-10-26T14:00:00Z"
+- month: 11
+  day: 28
+  year: 1971
+  title: "Navy announces end of SEALs' combat role"
+  body: "<p>On November 28, 1971, the U.S. Navy announced that the United States Navy SEALs had ended their combat role in the war and would be withdrawn in the next month. The SEALs had been kept in South Vietnam as a contingency force for Bright Light POW recovery operations.</p>"
+  photo_url: null
+  photo_alt: null
+  references:
+    - label: "Wikipedia, \"1971 in the Vietnam War\", revision 1370279651 (CC BY-SA 4.0)"
+      url: "https://en.wikipedia.org/w/index.php?title=1971_in_the_Vietnam_War&oldid=1370279651"
+  status: "draft"
+  source_text: "[Wikipedia, 1971_in_the_Vietnam_War, rev 1370279651] The U.S. Navy announced that the United States Navy SEALs had ended their combat role in the war and would be withdrawn in the next month. The SEALs had been kept in South Vietnam as a contingency force for Bright Light POW recovery operations."
+  summarized_by: "Claude Opus 5.5"
+  summarized_at: "2026-10-26T14:00:00Z"
 - month: 11
   day: 30
   year: 1966
   title: "Allies accept holiday ceasefires for Christmas, New Year and Tết"
-  body: "<p>On November 30, 1966, the United States, South Vietnam and their other allies in the Vietnam War agreed to a proposal from the VC and North Vietnam for three ceasefires to coincide with holidays. All fighting would halt from 07:00 on 24 December until 07:00 on 26 December, and again from the morning of New Year's Eve until the morning of 2 January 1967. In addition, there would be a four-day ceasefire during the 1967 Tết holidays, celebrated in both North Vietnam and South Vietnam, which marked the traditional start of the Vietnamese new year, with a truce to last between 8 and 12 February 1967.</p><p>The same day, the VC shelled Tân Uyên market in Bien Hoa Province, killing three civilians and wounding seven.</p>"
+  body: "<p>On November 30, 1966, the United States, South Vietnam and their other allies in the Vietnam War agreed to a proposal from the VC and North Vietnam for three ceasefires to coincide with holidays. All fighting would halt from 07:00 on 24 December until 07:00 on 26 December, and again from the morning of New Year's Eve until the morning of 2 January 1967.</p><p>In addition, there would be a four-day ceasefire during the 1967 Tết holidays, celebrated in both North Vietnam and South Vietnam, which marked the traditional start of the Vietnamese new year, with a truce to last between 8 and 12 February 1967.</p>"
+  photo_url: null
+  photo_alt: null
+  references:
+    - label: "Wikipedia, \"1966 in the Vietnam War\", revision 1380091905 (CC BY-SA 4.0)"
+      url: "https://en.wikipedia.org/w/index.php?title=1966_in_the_Vietnam_War&oldid=1380091905"
+  status: "draft"
+  source_text: "[Wikipedia, 1966_in_the_Vietnam_War, rev 1380091905] The United States, South Vietnam and their other allies in the Vietnam War agreed to a proposal from the VC and North Vietnam for three ceasefires to coincide with holidays. All fighting would halt from 07:00 24 December, until 07:00 on 26 December, as well as from the morning of New Year's Eve until the morning of 2 January 1967. In addition, there would be a four-day ceasefire during the 1967 Tết holidays, celebrated in both North Vietnam and South Vietnam, that marked the traditional start of the Vietnamese new year, with a truce to last between 8 and 12 February 1967."
+  summarized_by: "Claude Opus 5.5"
+  summarized_at: "2026-10-26T14:00:00Z"
+- month: 11
+  day: 30
+  year: 1966
+  title: "VC shell Tân Uyên market"
+  body: "<p>On November 30, 1966, the VC shelled Tân Uyên market in Bien Hoa Province, killing three civilians and wounding seven.</p>"
   photo_url: null
   photo_alt: null
   references:
@@ -236,6 +404,6 @@
     - label: "Douglas Pike, \"The Vietcong Strategy of Terror\", US Mission, Saigon, 1970"
       url: "https://www.vietnam.ttu.edu/reports/images.php?img=/images/231/2311404008a.pdf"
   status: "draft"
-  source_text: "[Wikipedia, 1966_in_the_Vietnam_War, rev 1380091905] The United States, South Vietnam and their other allies in the Vietnam War agreed to a proposal from the VC and North Vietnam for three ceasefires to coincide with holidays. All fighting would halt from 07:00 24 December, until 07:00 on 26 December, as well as from the morning of New Year's Eve until the morning of 2 January 1967. In addition, there would be a four-day ceasefire during the 1967 Tết holidays, celebrated in both North Vietnam and South Vietnam, that marked the traditional start of the Vietnamese new year, with a truce to last between 8 and 12 February 1967.\n\nThe VC shelled Tân Uyên market, Bien Hoa Province, killing three civilians and wounding seven."
-  summarized_by: "Claude Fable 5.1"
-  summarized_at: "2026-10-25T14:35:03Z"
+  source_text: "[Wikipedia, 1966_in_the_Vietnam_War, rev 1380091905] The VC shelled Tân Uyên market, Bien Hoa Province, killing three civilians and wounding seven."
+  summarized_by: "Claude Opus 5.5"
+  summarized_at: "2026-10-26T14:00:00Z"
