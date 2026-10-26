@@ -351,3 +351,4 @@ review items.
 | 1 | 7579932 | Archive markers on every reference |
 | 2 | ac89a06 | Month review page, status, credit fields |
 | 3 | 2b1bd35 | 1975 and Dereliction bodies rewritten, credited |
+| 4 | bd40aea | All 352 legacy events rewritten; Oct 31/31, Nov 30/30 days covered |
