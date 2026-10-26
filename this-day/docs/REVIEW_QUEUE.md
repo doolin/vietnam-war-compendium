@@ -484,6 +484,30 @@ Opened 2026-10-25.
     the catalog host (`lib/this_day/archive/mirrors.rb`), including the
     Jan 4 after-action report.
 
+## Open questions from 2026-10-26 (not yet answered)
+
+25. **December 20 is the only empty day.** 365 of 366 days have an
+    entry. Its draft moved to December 19 (item 12).
+    *Decision:* write December 20 from its remaining candidates?
+
+26. **Draft-only days read as empty.** The day page serves approved
+    entries only, so a day whose entries are all drafts says "No event
+    is recorded for this date." On 2026-10-26 that was most days.
+    *Proposal:* say "1 draft is awaiting review" there, linked to the
+    day on the review page. *Decision:* yes or no.
+
+27. **`views/nav.erb` is untracked and unused.** A previous/next
+    partial with `aria-keyshortcuts`. Nothing renders it, and the
+    session that wrote the arrow navigation did not create it.
+    *Decision:* delete, commit, or leave.
+
+28. **Ruby version mismatch.** New shells start with rvm's current
+    Ruby at 4.0.9 while the bundle is installed under 4.0.1 (the rvm
+    default), and rvm warns that PATH is not set up. Plain
+    `bundle exec` fails with GemNotFound; every command is run as
+    `rvm 4.0.1 do bundle exec ...`. *Decision:* pin 4.0.1 with a
+    `.ruby-version` in `this-day/`, or reinstall the bundle under 4.0.9.
+
 ## Infrastructure
 
 7. **Official-history hosts block automated fetches.**
