@@ -138,6 +138,39 @@ Opened 2026-10-25.
     which still fails to archive. November 11 repeats Wikipedia's "in
     reality" judgment about MACV's strength estimate.
 
+## December drafts
+
+12. **19 drafts, one per uncovered day (2026-10-26).** Written by
+    three Claude Opus 5.5 writers from archived copies of each
+    candidate's cited source, with the Wikipedia entry as the second
+    reference. Review at `/this-day-in-vietnam-war/review/12`.
+    *Decision:* approve, reject, or re-source by date.
+    - **Wikipedia only** (no cited source had usable text): Dec 10,
+      12, 13, 24, 25, 28. Six 1964 candidates cite Birtle's
+      *Advice and Support: The Middle Years*, which has no fetchable
+      copy.
+    - **Dec 28 is 36 words**, under the 80-word floor; no candidate
+      had more text.
+    - **Dec 20, wrong day.** Shulimson, *An Expanding War, 1966*, has
+      3/26 Marines setting up on 19 December; the operation was named
+      Chinook on 23 December. Nothing in the source happens on the
+      20th, and the draft's "in its second day" is the writer's
+      inference. *Decision:* move to Dec 19 (which already has an
+      event), or reject.
+    - **Dec 22.** The conviction date rests on the Wikipedia entry;
+      Weber (Tulsa Law Review) says only that the trial was "right
+      before Christmas 1965".
+    - **Sources disagreed with Wikipedia** (bodies follow the
+      source): Dec 4, 137 injured (FRUS), not 175; Dec 5, 42 VC
+      killed in all, a platoon of Company C; Dec 7, 668 enemy killed,
+      not 670; Dec 9, every figure differs (Hoffman: 70 enemy killed,
+      8 ARVN killed); Dec 16, nine CIDG killed, not ten; Dec 19, the
+      first Army elements arrived at Vung Tau, not "deployed into
+      combat"; Dec 26, 26 missing and one body recovered, not 29
+      killed.
+    - **Dec 7** is transcribed from a scanned after-action report
+      with no text layer; `source_text` marks it as transcribed.
+
 ## Infrastructure
 
 7. **Official-history hosts block automated fetches.**

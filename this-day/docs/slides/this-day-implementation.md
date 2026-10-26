@@ -288,6 +288,27 @@ agent (Opus 5.5) found, archived, and rewrote from a primary source:
 
 ---
 
+# December: fetch once, write with file tools
+
+```
+rake provision:fetch MONTH=12     one process, no prompts
+  ├─ rank 4 candidates per uncovered day (19 days)
+  ├─ archive every cited source (36 new, 33 ok, most via Wayback)
+  ├─ archived copy → plain text, PDF pages marked
+  └─ tmp/provision-12/brief.md
+3 writers, Read + Write only      ~7 minutes, 19 drafts
+rake provision:check  FILE=...    style + archive gate
+rake provision:add    FILE=... OUT=data/events/drafts-december-wikipedia.yaml
+```
+
+| | Research agents (Oct/Nov) | Fetch, then write (Dec) |
+|---|---|---|
+| Time | ~7 hours for 11 drafts | ~7 minutes for 19 |
+| Prompts | one per search, per path | none |
+| Written from a non-Wikipedia source | 8 of 11 | 13 of 19 |
+
+---
+
 # Review page
 
 `/this-day-in-vietnam-war/review/10`
@@ -388,3 +409,4 @@ review items.
 | 3 | 2b1bd35 | 1975 and Dereliction bodies rewritten, credited |
 | 4 | bd40aea | All 352 legacy events rewritten; Oct 31/31, Nov 30/30 days covered |
 | 5 | 738f83a | Wayback copies for 9 dead references, linked on the page |
+| 6 | 85077d4 | 8 thin drafts re-sourced from primary documents; Oct 8 moved to 1963 |

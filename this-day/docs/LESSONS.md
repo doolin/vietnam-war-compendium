@@ -155,3 +155,25 @@ answer, documents worth reusing).
 
 Lesson: a script that produced committed data is part of the
 provenance. Commit it with the first data it produced.
+
+## 2026-10-26 — Fetch once, then write with file tools only
+
+The first December attempt gave three research agents the whole
+job: search, fetch, read, write. Every web search and every command
+naming a scratchpad path or starting with `VAR=` prompted the
+operator, who called it a prompt storm. The previous re-sourcing
+agent had taken seven hours for eleven drafts the same way.
+
+The fix splits the work by who needs what. `rake provision:fetch`
+archives every cited source of every candidate in one process and
+writes a brief with a plain-text copy of each source. The writers
+get Read and Write only. The three December writers finished 19
+drafts in about seven minutes with no prompts, and 13 of the 19 are
+written from a source other than Wikipedia.
+
+Two gaps showed. The writers had no Grep tool, so they paged through
+multi-megabyte text files by guessing offsets; the fetch step should
+pre-locate each day's date in every source and put the line numbers
+in the brief. And index pages and archive.org landing pages archive
+as "ok" but carry no text: an archived copy is not the same as a
+readable source.

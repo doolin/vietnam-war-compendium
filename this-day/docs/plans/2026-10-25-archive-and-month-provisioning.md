@@ -52,6 +52,7 @@ site shows progress.
 - [x] 6b. Dead references: Wayback fallback in the archiver; 9 of 14 failing URLs rescued. Open Library (61 book references) and one Texas Tech PDF remain.
 - [x] 6c. Thin drafts re-sourced: 8 of 11 rewritten from archived sources (Claude Opus 5.5); Oct 8 moved to 1963. Oct 19, Oct 20, Nov 23 remain thin (review queue item 11).
 - [x] 6d. Provisioning tools and candidate index committed to `research/wikipedia-year-pages/` (all twelve months); source registry in `research/sources.yaml`.
+- [x] 6e. December: fetch/write split (`rake provision:fetch`, `provision:check`, `provision:add`); 19 drafts, every day now has an event (review queue item 12).
 - [~] 7. Deck growing in `docs/slides/`.
 - [~] 8. Lessons growing in `docs/LESSONS.md`.
 
