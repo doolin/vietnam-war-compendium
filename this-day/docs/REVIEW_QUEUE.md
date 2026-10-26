@@ -306,6 +306,64 @@ Opened 2026-10-25.
       318, 333 on p. 42; 318, 225, 333 on p. 54); the body follows the
       detailed account on p. 54.
 
+## May drafts
+
+20. **11 drafts, one per uncovered day, plus one for April 30
+    (2026-10-26).** Two Claude Opus 5.5 writers. Review at
+    `/this-day-in-vietnam-war/review/5` (and `/review/4` for April 30).
+    *Decision:* approve, reject, or re-source by date.
+    - **Moved to April 30.** The Cambodian border action Wikipedia lists
+      on May 1, 1966 is dated 30 April in Carland (*Stemming the Tide*,
+      p. 308), so it is filed under April 30, as Dec 20 was moved to
+      Dec 19. May 1 is instead the 1964 Tam Bang attack, written by the
+      main session from the Wikipedia entry alone (its cited Birtle
+      page is empty).
+    - **Thin:** May 22 (55 words) and May 31 (29 words), each one
+      sentence in Pike's chronology. May 22 was read from the scan
+      image because the OCR scrambled two columns; checked against the
+      page.
+    - **Wikipedia only:** May 1 and May 3 (the House M16 subcommittee;
+      the second reference is a Google Books record used only for the
+      report's title, date, and length).
+    - **Sources disagreed with Wikipedia** (bodies follow the source):
+      May 5, the operational report gives no U.S. death toll (Wikipedia:
+      11), names A/1/77 at LZ Peanuts, and supports neither "5 km
+      southwest of Khe Sanh" nor the 1/5 Cavalry companies; May 9, the
+      crowd at the Lincoln Memorial "swelled to about 30" (Wikipedia:
+      50); May 11, "Jefferson National Cemetery"; May 23, Futrell
+      describes two MIGs downed near Kep and none of Wikipedia's power
+      plant strikes or five MiGs; May 28, the League's members are
+      relatives of many kinds, not "a group of wives"; May 30, claimed
+      sightings of the abducted missionaries continued to 1970.
+
+## June drafts
+
+21. **11 drafts, one per uncovered day (2026-10-26).** Two Claude Opus
+    5.5 writers. Review at `/this-day-in-vietnam-war/review/6`.
+    *Decision:* approve, reject, or re-source by date.
+    - **Thin:** June 12 (34 words, one Pike sentence) and June 24 (38
+      words, Wikipedia only; no candidate cites a URL).
+    - **Wikipedia only:** June 3 and June 4 (1965); every 1965 candidate
+      cites the empty Birtle catalog page.
+    - **June 22: Wikipedia misreports the source.** Wikipedia says
+      North Vietnam "admitted that it had troops" in the South. The
+      President's Daily Brief of 22 June 1968 reports that the Liberation
+      Front's representative in Budapest, Dinh Ba Thi, said on 19 June
+      that the Viet Cong received "all-around" assistance from "brothers
+      in the North"; no admission about troops. The entry follows the
+      brief. Transcribed from the scan (no text layer); checked against
+      the page.
+    - **June 20** was read from the page image of the MACV 1972–73
+      chronology (OCR garbled); checked against the page. Wikipedia
+      dates Abrams's appointment as Chief of Staff June 20; the
+      chronology has June 21.
+    - **June 1:** the scan's figures for enemy killed and U.S. killed
+      are unreadable in the last digit, so the body leaves them out;
+      the source says 10,724 "detained", not "captured".
+    - **June 25:** Shulimson gives 23 Marines dead and 82 enemy bodies
+      for June 25–28 (Wikipedia: 475 PAVN and 24 Marines, presumably
+      for the whole operation).
+
 ## Texas Tech letters and documents
 
 14. **Letters from the Virtual Vietnam Archive (2026-10-26).** Letters

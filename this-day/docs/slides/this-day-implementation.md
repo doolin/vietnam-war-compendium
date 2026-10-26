@@ -453,4 +453,5 @@ review items.
 | 9 | d9f8129 | Day page serves reviewed entries only, at random |
 | 10 | 6e892d6 | Combined drafts split into one entry per event |
 | 11 | f84a9ca | January and February: every day has a draft |
-| 12 | (this commit) | March and April drafts; Pike re-sourcing; arrow-key navigation |
+| 12 | d57718a | March and April drafts; Pike re-sourcing; arrow-key navigation |
+| 13 | (this commit) | May and June: every day has a draft |

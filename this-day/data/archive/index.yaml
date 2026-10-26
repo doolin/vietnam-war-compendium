@@ -10,6 +10,12 @@
   title:
   cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/77af7a6179710055.pdf"
   s3_key: this-day/references/77af7a6179710055/f01b9a260aa1aab7bb7417d6734c40db2645d3187c4db1acc51d72b192777e90.pdf
+- url: http://apps.dtic.mil/dtic/tr/fulltext/u2/388883.pdf
+  final_url: http://apps.dtic.mil/dtic/tr/fulltext/u2/388883.pdf
+  status: http-403
+  code: 403
+  content_type: text/html
+  fetched_at: '2026-10-26T15:51:40Z'
 - url: http://archives.chicagotribune.com/1967/03/22/page/2/article/text-of-johnson-offer-to-ho
   final_url: https://web.archive.org/web/20170104090601id_/http://archives.chicagotribune.com/1967/03/22/page/2/article/text-of-johnson-offer-to-ho/
   status: ok
@@ -25,6 +31,21 @@
   snapshot_url: https://web.archive.org/web/20170104090601/http://archives.chicagotribune.com/1967/03/22/page/2/article/text-of-johnson-offer-to-ho/
   captured_at: '2017-01-04T09:06:01Z'
   live_status: http-503
+- url: http://army.gov.au/Our-history/Army-History-Unit/Chief-of-Army-History-Conference/2002-Chief-of-Army-Conference
+  final_url: https://web.archive.org/web/20160718120224id_/http://army.gov.au/Our-history/Army-History-Unit/Chief-of-Army-History-Conference/2002-Chief-of-Army-Conference
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-26T15:55:16Z'
+  sha256: 9dcbc7b271a52d148263e799ce324417243bf4b294c9b7a20ecb7ce0ae22e9fa
+  bytes: 19284
+  title: 2002 Chief of Army Conference - Australian Army
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/94a60e3f103955c9.html"
+  s3_key: this-day/references/94a60e3f103955c9/9dcbc7b271a52d148263e799ce324417243bf4b294c9b7a20ecb7ce0ae22e9fa.html
+  via: wayback
+  snapshot_url: https://web.archive.org/web/20160718120224/http://army.gov.au/Our-history/Army-History-Unit/Chief-of-Army-History-Conference/2002-Chief-of-Army-Conference
+  captured_at: '2016-07-18T12:02:24Z'
+  live_status: http-404
 - url: http://aviation-safety.net/database/record.php?id=19680306-1
   final_url: https://web.archive.org/web/20240304060846id_/http://www.aviation-safety.net/database/record.php?id=19680306-1
   status: ok
@@ -146,6 +167,32 @@
   snapshot_url: https://web.archive.org/web/20161123144816/http://www.afhso.af.mil/shared/media/document/AFD-100924-004.pdf
   captured_at: '2016-11-23T14:48:16Z'
   live_status: error
+- url: http://www.au.af.mil/au/awc/awcgate/army-usawc/ksil241.pdf
+  final_url: https://web.archive.org/web/20190714084121id_/http://www.au.af.mil/au/awc/awcgate/army-usawc/ksil241.pdf
+  status: ok
+  code: 200
+  content_type: application/pdf
+  fetched_at: '2026-10-26T15:55:27Z'
+  sha256: 0d3eaeefec8128bfb3850679a10ed0a7023cd10eadfa6bd0d1affceb80d6383a
+  bytes: 77057
+  title:
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/6732609bf096ae61.pdf"
+  s3_key: this-day/references/6732609bf096ae61/0d3eaeefec8128bfb3850679a10ed0a7023cd10eadfa6bd0d1affceb80d6383a.pdf
+  via: wayback
+  snapshot_url: https://web.archive.org/web/20190714084121/http://www.au.af.mil/au/awc/awcgate/army-usawc/ksil241.pdf
+  captured_at: '2019-07-14T08:41:21Z'
+  live_status: error
+- url: http://www.chron.com/news/article/The-last-missing-woman-from-the-Vietnam-War-2043691.php
+  final_url: https://www.chron.com/news/article/The-last-missing-woman-from-the-Vietnam-War-2043691.php
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-26T15:54:03Z'
+  sha256: 6f122c1b62921047db62a5f8f28baa7fa1fe926f5c8666184a4e00cfebf7da50
+  bytes: 679670
+  title: The last missing woman from the Vietnam War
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/9ea33a7e9e012502.html"
+  s3_key: this-day/references/9ea33a7e9e012502/6f122c1b62921047db62a5f8f28baa7fa1fe926f5c8666184a4e00cfebf7da50.html
 - url: http://www.dcbsoftware.com/ccSEA/Chronology/MACV_1966.html
   final_url: https://www.dcbsoftware.com/video/292956082628.html
   status: ok
@@ -158,6 +205,27 @@
     - &#x661F;&#x7738;AV"
   cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/9dbaa165109342f5.html"
   s3_key: this-day/references/9dbaa165109342f5/7d4c3af1ce6517d8cd8410ce6eb30e204424579130a22ee13817a5a5788a7925.html
+- url: http://www.defence.gov.au/ARMY/AHU/docs/PART_3.pdf
+  final_url: https://www.defence.gov.au/ARMY/AHU/docs/PART_3.pdf
+  status: http-404
+  code: 404
+  content_type: text/html
+  fetched_at: '2026-10-26T15:53:49Z'
+- url: http://www.dtic.mil/cgi-bin/GetTRDoc?AD=AD386041&Location=U2&doc=GetTRDoc.pdf
+  final_url: https://web.archive.org/web/20121003032053id_/http://www.dtic.mil/cgi-bin/GetTRDoc?AD=AD386041&Location=U2&doc=GetTRDoc.pdf
+  status: ok
+  code: 200
+  content_type: application/pdf
+  fetched_at: '2026-10-26T15:52:42Z'
+  sha256: c3ba71a2f76bf6819914b0cecd8446767c6e5154a3a3c096c1dc359e91a59ba2
+  bytes: 3939358
+  title:
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/f91cd937d6ec93e5.pdf"
+  s3_key: this-day/references/f91cd937d6ec93e5/c3ba71a2f76bf6819914b0cecd8446767c6e5154a3a3c096c1dc359e91a59ba2.pdf
+  via: wayback
+  snapshot_url: https://web.archive.org/web/20121003032053/http://www.dtic.mil/cgi-bin/GetTRDoc?AD=AD386041&Location=U2&doc=GetTRDoc.pdf
+  captured_at: '2012-10-03T03:20:53Z'
+  live_status: error
 - url: http://www.dtic.mil/doctrine/history/vn71_73.pdf
   final_url: http://www.dtic.mil/doctrine/history/vn71_73.pdf
   status: error
@@ -171,6 +239,21 @@
   code: 0
   fetched_at: '2026-10-26T13:29:25Z'
   note: 'URI::InvalidURIError: bad URI (is not URI?): "http://www.dtic.mil/doctrine/history/vn71_73.pdf{{Dead"'
+- url: http://www.dtic.mil/dtic/tr/fulltext/u2/393815.pdf
+  final_url: https://web.archive.org/web/20170202042341id_/http://www.dtic.mil/dtic/tr/fulltext/u2/393815.pdf
+  status: ok
+  code: 200
+  content_type: application/pdf
+  fetched_at: '2026-10-26T15:51:57Z'
+  sha256: 3d8ee0a90a323c168766173c5e403d2456454ce94b91902a1f86a3e689bb1d61
+  bytes: 1568183
+  title:
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/a79b87444545b305.pdf"
+  s3_key: this-day/references/a79b87444545b305/3d8ee0a90a323c168766173c5e403d2456454ce94b91902a1f86a3e689bb1d61.pdf
+  via: wayback
+  snapshot_url: https://web.archive.org/web/20170202042341/http://www.dtic.mil/dtic/tr/fulltext/u2/393815.pdf
+  captured_at: '2017-02-02T04:23:41Z'
+  live_status: error
 - url: http://www.dtic.mil/dtic/tr/fulltext/u2/509879.pdf
   final_url: https://web.archive.org/web/20170203024952id_/http://www.dtic.mil/dtic/tr/fulltext/u2/509879.pdf
   status: ok
@@ -185,6 +268,36 @@
   via: wayback
   snapshot_url: https://web.archive.org/web/20170203024952/http://www.dtic.mil/dtic/tr/fulltext/u2/509879.pdf
   captured_at: '2017-02-03T02:49:52Z'
+  live_status: error
+- url: http://www.footnote.com/image/#48326087&terms=Richard+B.+Fitzgibbon
+  final_url: https://web.archive.org/web/20150923230206id_/https://www.footnote.com/image/
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-26T15:55:20Z'
+  sha256: f295805cad16ef702f37cf7f172e6dcd8d97bf4167c25e502f27faedc1310f5c
+  bytes: 28936
+  title: Fold3 Viewer
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/db18fd469c1fa3a3.html"
+  s3_key: this-day/references/db18fd469c1fa3a3/f295805cad16ef702f37cf7f172e6dcd8d97bf4167c25e502f27faedc1310f5c.html
+  via: wayback
+  snapshot_url: https://web.archive.org/web/20150923230206/https://www.footnote.com/image/
+  captured_at: '2015-09-23T23:02:06Z'
+  live_status: http-404
+- url: http://www.history.army.mil/books/Pacification_Spt/Ch5.htm
+  final_url: https://web.archive.org/web/20250206091810id_/https://www.history.army.mil/books/Pacification_Spt/Ch5.htm
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-26T15:52:26Z'
+  sha256: 7dc4e3bd434c4cd30583ee0243eaf5fc2aa7c0d393372057ae120ba6b39b40a6
+  bytes: 35132
+  title: 'Chapter 5: Setting Up CORDS'
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/8de06df502049f08.html"
+  s3_key: this-day/references/8de06df502049f08/7dc4e3bd434c4cd30583ee0243eaf5fc2aa7c0d393372057ae120ba6b39b40a6.html
+  via: wayback
+  snapshot_url: https://web.archive.org/web/20250206091810/https://www.history.army.mil/books/Pacification_Spt/Ch5.htm
+  captured_at: '2025-02-06T09:18:10Z'
   live_status: error
 - url: http://www.history.com/this-day-in-history/diem-institutes-limited-agrarian-reforms
   final_url: https://web.archive.org/web/20190415233721id_/https://www.history.com/this-day-in-history/diem-institutes-limited-agrarian-reforms
@@ -222,6 +335,17 @@
   snapshot_url: https://web.archive.org/web/20141123031602/http://www.history.navy.mil:80/seairland/chap5.htm
   captured_at: '2014-11-23T03:16:02Z'
   live_status: http-404
+- url: http://www.historycentral.com/JFK/Press/5.5.61.html
+  final_url: https://www.historycentral.com/JFK/Press/5.5.61.html
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-26T15:52:08Z'
+  sha256: 93ce7db38a59afc1156d4d0189059731f325b9ba40329d1e78ee3f4c04009e13
+  bytes: 67858
+  title: Press Conference of President Kennedy&#x27;s ��� John F. Kennedy | HistoryCentral
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/1c1aafd89bbc8b47.html"
+  s3_key: this-day/references/1c1aafd89bbc8b47/93ce7db38a59afc1156d4d0189059731f325b9ba40329d1e78ee3f4c04009e13.html
 - url: http://www.historyplace.com/unitedstates/vietnam/index-1969.html
   final_url: http://www.historyplace.com/unitedstates/vietnam/index-1969.html
   status: ok
@@ -378,6 +502,36 @@
   snapshot_url: https://web.archive.org/web/20060828064336/http://www.vietnam.ttu.edu:80/star/images/041/04110134003.pdf
   captured_at: '2006-08-28T06:43:36Z'
   live_status: error
+- url: http://www.virtual.vietnam.ttu.edu/cgi-bin/starfetch.exe?GHvdsrMcNUbgpFLh7.PAaAJGjLaql6zyM0ISRqz.ZgGULq230shPPA8tnMzMQDBYepRlUkJsHXZTdICEjs9CoKm5yRT7hy@F2jRyub3Usy4iKY2Td2qBYg/1070703002b.pdf
+  final_url: https://web.archive.org/web/20160303170722id_/http://www.virtual.vietnam.ttu.edu/cgi-bin/starfetch.exe?GHvdsrMcNUbgpFLh7.PAaAJGjLaql6zyM0ISRqz.ZgGULq230shPPA8tnMzMQDBYepRlUkJsHXZTdICEjs9CoKm5yRT7hy@F2jRyub3Usy4iKY2Td2qBYg/1070703002b.pdf
+  status: ok
+  code: 200
+  content_type: application/pdf
+  fetched_at: '2026-10-26T15:52:12Z'
+  sha256: b81da5373ddfa23a3fe9ff67e6fd549717d24d43bbf80f02c0f91e1e70d07d84
+  bytes: 2515813
+  title:
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/c6ff8928ff89df12.pdf"
+  s3_key: this-day/references/c6ff8928ff89df12/b81da5373ddfa23a3fe9ff67e6fd549717d24d43bbf80f02c0f91e1e70d07d84.pdf
+  via: wayback
+  snapshot_url: https://web.archive.org/web/20160303170722/http://www.virtual.vietnam.ttu.edu/cgi-bin/starfetch.exe?GHvdsrMcNUbgpFLh7.PAaAJGjLaql6zyM0ISRqz.ZgGULq230shPPA8tnMzMQDBYepRlUkJsHXZTdICEjs9CoKm5yRT7hy@F2jRyub3Usy4iKY2Td2qBYg/1070703002b.pdf
+  captured_at: '2016-03-03T17:07:22Z'
+  live_status: error
+- url: http://www.weeklystandard.com/fact-check-why-are-so-few-womens-names-on-the-vietnam-memorial-wall/article/2008250
+  final_url: https://web.archive.org/web/20180618080034id_/https://www.weeklystandard.com/fact-check-why-are-so-few-womens-names-on-the-vietnam-memorial-wall/article/2008250
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-26T15:54:27Z'
+  sha256: 40596f8256a9ebf54ad71565446955888b4bd079c014c685c43c8fe2970fab24
+  bytes: 60443
+  title: 'Fact Check: Why Are So Few Women''s Names on the Vietnam Memorial Wall?'
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/b4d23202d8367754.html"
+  s3_key: this-day/references/b4d23202d8367754/40596f8256a9ebf54ad71565446955888b4bd079c014c685c43c8fe2970fab24.html
+  via: wayback
+  snapshot_url: https://web.archive.org/web/20180618080034/https://www.weeklystandard.com/fact-check-why-are-so-few-womens-names-on-the-vietnam-memorial-wall/article/2008250
+  captured_at: '2018-06-18T08:00:34Z'
+  live_status: http-522
 - url: https://apps.dtic.mil/dtic/tr/fulltext/u2/504193.pdf
   final_url: https://web.archive.org/web/20201019191636id_/https://apps.dtic.mil/dtic/tr/fulltext/u2/504193.pdf
   status: ok
@@ -513,6 +667,18 @@
     Borrow, and Streaming : Internet Archive'
   cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/0a8c2d1fa340d7ad.html"
   s3_key: this-day/references/0a8c2d1fa340d7ad/bd989dfd46696f81d90d45ee01aa3418d5e018baf8acb677fa670747ef864aab.html
+- url: https://archive.org/details/nomorevietnams00nixo
+  final_url: https://archive.org/details/nomorevietnams00nixo
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-26T15:53:04Z'
+  sha256: c88be7f9ee721d3d406fcd913cd06840d691dc00c4ad47e7d0e98704c337e6f5
+  bytes: 221988
+  title: 'No more Vietnams : Nixon, Richard M. (Richard Milhous), 1913-1994 : Free
+    Download, Borrow, and Streaming : Internet Archive'
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/3322308eb8763ba3.html"
+  s3_key: this-day/references/3322308eb8763ba3/c88be7f9ee721d3d406fcd913cd06840d691dc00c4ad47e7d0e98704c337e6f5.html
 - url: https://archive.org/stream/USMarinesInVietnamTheDefiningYear1968#page/n0/mode/2up
   final_url: https://archive.org/details/USMarinesInVietnamTheDefiningYear1968?view=theater
   status: ok
@@ -551,6 +717,21 @@
   snapshot_url: https://web.archive.org/web/20240103020954/https://aviation-safety.net/database/record.php?id=19660125-0
   captured_at: '2024-01-03T02:09:54Z'
   live_status: http-403
+- url: https://aviation-safety.net/database/record.php?id=19670617-0
+  final_url: https://web.archive.org/web/20240103133053id_/https://aviation-safety.net/database/record.php?id=19670617-0
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-26T15:55:42Z'
+  sha256: 4bb83f73430bf47cd9551d86bccd5dc7950b9b08cb65c449e8453e8814dc18da
+  bytes: 24553
+  title: ASN Aircraft accident Lockheed C-130B Hercules 60-0293 An Khe
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/8834324f28ef7a85.html"
+  s3_key: this-day/references/8834324f28ef7a85/4bb83f73430bf47cd9551d86bccd5dc7950b9b08cb65c449e8453e8814dc18da.html
+  via: wayback
+  snapshot_url: https://web.archive.org/web/20240103133053/https://aviation-safety.net/database/record.php?id=19670617-0
+  captured_at: '2024-01-03T13:30:53Z'
+  live_status: http-403
 - url: https://aviation-safety.net/wikibase/193752
   final_url: https://web.archive.org/web/20260304145830id_/https://aviation-safety.net/wikibase/193752
   status: ok
@@ -581,6 +762,19 @@
   snapshot_url: https://web.archive.org/web/20260302054258/https://aviation-safety.net/wikibase/76002
   captured_at: '2026-03-02T05:42:58Z'
   live_status: http-403
+- url: https://books.google.com/books?id=MQREAQAAMAAJ
+  final_url: https://books.google.com/books?id=MQREAQAAMAAJ
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-26T15:51:49Z'
+  sha256: 0ca14468a528c6fd6e88379a50ecf803deddc37d15d2ea7ad9482dbcc78886c4
+  bytes: 42896
+  title: Report of the Special Subcommittee on the M-16 Rifle Program of the ... -
+    United States. Congress. House. Committee on Armed Services. Special Subcommittee
+    on the M-16 Rifle Program - Google Books
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/894d9a7e2d787157.html"
+  s3_key: this-day/references/894d9a7e2d787157/0ca14468a528c6fd6e88379a50ecf803deddc37d15d2ea7ad9482dbcc78886c4.html
 - url: https://books.google.com/books?id=ZzQVpPvlVMcC&pg=PA362
   final_url: https://books.google.com/books?id=ZzQVpPvlVMcC&pg=PA362
   status: ok
@@ -643,6 +837,17 @@
   title: 1955 in the Vietnam War - Wikipedia
   cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/49f6dd572e079865.html"
   s3_key: this-day/references/49f6dd572e079865/38a0781e7972dea96e41742ee3bb7f6d89b42880e4a56d6a6c6b7b720781ec0b.html
+- url: https://en.wikipedia.org/w/index.php?title=1956_in_the_Vietnam_War&oldid=1370279370
+  final_url: https://en.wikipedia.org/w/index.php?title=1956_in_the_Vietnam_War&oldid=1370279370
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-26T15:54:38Z'
+  sha256: f6690a57a0fde121b6d3028c221f8a60f3614eb754018e28249618323804eb50
+  bytes: 280703
+  title: 1956 in the Vietnam War - Wikipedia
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/be2828b2aeadbb3a.html"
+  s3_key: this-day/references/be2828b2aeadbb3a/f6690a57a0fde121b6d3028c221f8a60f3614eb754018e28249618323804eb50.html
 - url: https://en.wikipedia.org/w/index.php?title=1957_in_the_Vietnam_War&oldid=1374374232
   final_url: https://en.wikipedia.org/w/index.php?title=1957_in_the_Vietnam_War&oldid=1374374232
   status: ok
@@ -1403,6 +1608,21 @@
   title:
   cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/e50b8307b405bf8f.pdf"
   s3_key: this-day/references/e50b8307b405bf8f/ce7313074eedddde707ee10eb8518abd72ae2b02e1fafa4dfadbc89728ffdc86.pdf
+- url: https://media.defense.gov/2011/Mar/23/2001330091/-1/-1/0/AFD-110323-033.pdf
+  final_url: https://web.archive.org/web/20250126183048id_/https://media.defense.gov/2011/Mar/23/2001330091/-1/-1/0/AFD-110323-033.pdf
+  status: ok
+  code: 200
+  content_type: application/pdf
+  fetched_at: '2026-10-26T15:53:15Z'
+  sha256: e1ac21fc88d9e31a6e1e9edde97917da9011b1e59658c7739e23db282a00bf77
+  bytes: 10517467
+  title:
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/5db35592ec42b497.pdf"
+  s3_key: this-day/references/5db35592ec42b497/e1ac21fc88d9e31a6e1e9edde97917da9011b1e59658c7739e23db282a00bf77.pdf
+  via: wayback
+  snapshot_url: https://web.archive.org/web/20250126183048/https://media.defense.gov/2011/Mar/23/2001330091/-1/-1/0/AFD-110323-033.pdf
+  captured_at: '2025-01-26T18:30:48Z'
+  live_status: http-404
 - url: https://media.defense.gov/2011/Mar/23/2001330094/-1/-1/0/AFD-110323-039.pdf
   final_url: https://web.archive.org/web/20240619100903id_/https://media.defense.gov/2011/Mar/23/2001330094/-1/-1/0/AFD-110323-039.pdf
   status: ok
@@ -1520,6 +1740,17 @@
   title:
   cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/caf1c6dcefc19e01.pdf"
   s3_key: this-day/references/caf1c6dcefc19e01/14a9f6f9be04b0617ce140bc90a978aeb74a51ddde382a3a0cb368141b183043.pdf
+- url: https://time.com/4780493/1967-vietnam-race/
+  final_url: https://time.com/4780493/1967-vietnam-race/
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-26T15:53:53Z'
+  sha256: '058fced8ca6d0d407e596f613afea6e1d10134eddd6592a4000181e9818663ef'
+  bytes: 319916
+  title: 'This Week in History: Vietnam and African-American Soldiers'
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/f1a943af5890eb09.html"
+  s3_key: this-day/references/f1a943af5890eb09/058fced8ca6d0d407e596f613afea6e1d10134eddd6592a4000181e9818663ef.html
 - url: https://vietnamwar50th.com/1969-1971_vietnamization/Second--8220-Moratorium-8221-Day-Protests
   final_url: https://web.archive.org/web/20251206045210id_/https://www.vietnamwar50th.com/1969-1971_vietnamization/Second--8220-Moratorium-8221-Day-Protests/
   status: ok
@@ -1579,6 +1810,21 @@
   title:
   cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/af2319bd7ed2ff6a.pdf"
   s3_key: this-day/references/af2319bd7ed2ff6a/4fdbd5c9a039110bf9fb84cad30013f56425b65241a82a900a40e4975b85dba9.pdf
+- url: https://vva.vietnam.ttu.edu/images.php?img=/images/1683/168300010791.pdf
+  final_url: https://web.archive.org/web/20261010093751id_/https://vva.vietnam.ttu.edu/images.php?img=%2Fimages%2F1683%2F168300010791.pdf
+  status: ok
+  code: 200
+  content_type: application/pdf
+  fetched_at: '2026-10-26T15:54:59Z'
+  sha256: f2a91f86b5800b3c7e285cf30367ea696ae9961eb41ca2283eb972286e8a4ff0
+  bytes: 1260386
+  title:
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/ef23ab282065e865.pdf"
+  s3_key: this-day/references/ef23ab282065e865/f2a91f86b5800b3c7e285cf30367ea696ae9961eb41ca2283eb972286e8a4ff0.pdf
+  via: wayback
+  snapshot_url: https://web.archive.org/web/20261010093751/https://vva.vietnam.ttu.edu/images.php?img=%2Fimages%2F1683%2F168300010791.pdf
+  captured_at: '2026-10-10T09:37:51Z'
+  live_status: error
 - url: https://vva.vietnam.ttu.edu/images.php?img=/images/1683/168300010829.pdf
   final_url: https://vva.vietnam.ttu.edu/images.php?img=/images/1683/168300010829.pdf
   status: ok
@@ -1601,6 +1847,17 @@
   title:
   cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/05fea696978b739d.pdf"
   s3_key: this-day/references/05fea696978b739d/d86c6568c001d2de8193e867b92757420b627655a14cbc4188f2057d3434a5bd.pdf
+- url: https://vva.vietnam.ttu.edu/images.php?img=/images/1683/168300010839.pdf
+  final_url: https://vva.vietnam.ttu.edu/images.php?img=/images/1683/168300010839.pdf
+  status: ok
+  code: 200
+  content_type: application/pdf
+  fetched_at: '2026-10-26T15:55:45Z'
+  sha256: c82a0038e7566e38973c15a560759d8e5ccb2546dceaf994b1fc0a426d93ce1e
+  bytes: 993580
+  title:
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/9a2482f9cd01de9f.pdf"
+  s3_key: this-day/references/9a2482f9cd01de9f/c82a0038e7566e38973c15a560759d8e5ccb2546dceaf994b1fc0a426d93ce1e.pdf
 - url: https://vva.vietnam.ttu.edu/images.php?img=/images/231/2311404008a.pdf
   final_url: https://web.archive.org/web/20260921063832id_/https://vva.vietnam.ttu.edu/images.php?img=%2Fimages%2F231%2F2311404008a.pdf
   status: ok
@@ -1889,6 +2146,32 @@
   snapshot_url: https://web.archive.org/web/20201112040324/https://www.cia.gov/library/center-for-the-study-of-intelligence/csi-publications/csi-studies/studies/vol48no1/article06.html
   captured_at: '2020-11-12T04:03:24Z'
   live_status: http-404
+- url: https://www.cia.gov/library/readingroom/docs/DOC_0005976215.pdf
+  final_url: https://web.archive.org/web/20181226233138id_/https://www.cia.gov/library/readingroom/docs/DOC_0005976215.pdf
+  status: ok
+  code: 200
+  content_type: application/pdf
+  fetched_at: '2026-10-26T15:55:51Z'
+  sha256: 9000dca312a0cd44d16bbac3a080a89e89b4c6a8d1dc1e8c38b14af89923fb67
+  bytes: 217356
+  title:
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/2abb2b5654c4ac07.pdf"
+  s3_key: this-day/references/2abb2b5654c4ac07/9000dca312a0cd44d16bbac3a080a89e89b4c6a8d1dc1e8c38b14af89923fb67.pdf
+  via: wayback
+  snapshot_url: https://web.archive.org/web/20181226233138/https://www.cia.gov/library/readingroom/docs/DOC_0005976215.pdf
+  captured_at: '2018-12-26T23:31:38Z'
+  live_status: http-404
+- url: https://www.defense.gov/releases/release.aspx?releaseid=1902
+  final_url: https://www.war.gov/News/Releases/Release/Article/
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-26T15:55:37Z'
+  sha256: 0eb519b8506d0db044622da519feaf74901cdb9eafc6cfa0997d53970ff4ab87
+  bytes: 107446
+  title: Release | U.S. Department of War
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/2a784a7fb76733c6.html"
+  s3_key: this-day/references/2a784a7fb76733c6/0eb519b8506d0db044622da519feaf74901cdb9eafc6cfa0997d53970ff4ab87.html
 - url: https://www.fordlibrarymuseum.gov/library/exhibits/babylift/babylift.asp
   final_url: https://www.fordlibrarymuseum.gov/digital-research-room/topic-guides/operation-babylift
   status: ok
@@ -1994,6 +2277,21 @@
   snapshot_url: https://web.archive.org/web/20251209075632/https://www.history.navy.mil/research/histories/ship-histories/danfs/n/newport-news-ii.html
   captured_at: '2025-12-09T07:56:32Z'
   live_status: error
+- url: https://www.history.navy.mil/research/publications/publications-by-subject/naval-air-war.html
+  final_url: https://web.archive.org/web/20251208183811id_/https://www.history.navy.mil/research/publications/publications-by-subject/naval-air-war.html
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-26T15:53:09Z'
+  sha256: fa5d7960e5eddfb937a8ed34660cbf1014da04740e5add53d5c45db92dd1d82e
+  bytes: 113529
+  title: Naval Air War
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/c341f59ed3844be4.html"
+  s3_key: this-day/references/c341f59ed3844be4/fa5d7960e5eddfb937a8ed34660cbf1014da04740e5add53d5c45db92dd1d82e.html
+  via: wayback
+  snapshot_url: https://web.archive.org/web/20251208183811/https://www.history.navy.mil/research/publications/publications-by-subject/naval-air-war.html
+  captured_at: '2025-12-08T18:38:11Z'
+  live_status: error
 - url: https://www.history.navy.mil/research/publications/publications-by-subject/nixons-trident.html
   final_url: https://web.archive.org/web/20251208183823id_/https://www.history.navy.mil/research/publications/publications-by-subject/nixons-trident.html
   status: ok
@@ -2037,6 +2335,21 @@
   title:
   cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/ff15818ad89b47a6.pdf"
   s3_key: this-day/references/ff15818ad89b47a6/82c151575c6311793922ac6cf2458d1c844e236197053ce71f94ebb2c8a6c4bf.pdf
+- url: https://www.newspapers.com/clip/48564932/boston-newspaper-wins-pulitzer-prize/
+  final_url: https://web.archive.org/web/20221002131310id_/https://www.newspapers.com/clip/48564932/boston-newspaper-wins-pulitzer-prize/
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-26T15:51:49Z'
+  sha256: 3406e78c4e82bdfdd8be84112cf580e113367d274c3ad9c080944316b6c2d0e4
+  bytes: 60903
+  title: Boston Newspaper Wins Pulitzer Prize - Newspapers.com
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/1bbb6aa3b6147c14.html"
+  s3_key: this-day/references/1bbb6aa3b6147c14/3406e78c4e82bdfdd8be84112cf580e113367d274c3ad9c080944316b6c2d0e4.html
+  via: wayback
+  snapshot_url: https://web.archive.org/web/20221002131310/https://www.newspapers.com/clip/48564932/boston-newspaper-wins-pulitzer-prize/
+  captured_at: '2022-10-02T13:13:10Z'
+  live_status: http-403
 - url: https://www.nixonlibrary.gov/sites/default/files/virtuallibrary/documents/nssm/nssm_001.pdf
   final_url: https://www.nixonlibrary.gov/sites/default/files/virtuallibrary/documents/nssm/nssm_001.pdf
   status: ok
@@ -2048,6 +2361,18 @@
   title:
   cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/deedea730b781f1e.pdf"
   s3_key: this-day/references/deedea730b781f1e/c87d6e68a3be62249813489726acd5df109a8635b458ab04e370cec29cef655e.pdf
+- url: https://www.nlm.nih.gov/exhibition/visibleproofs/galleries/cases/blassie.html
+  final_url: https://www.nlm.nih.gov/exhibition/visibleproofs/galleries/cases/blassie.html
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-26T15:52:34Z'
+  sha256: b29fd0b419653241037a52fb1084aec8e4ad466f5615f382a3852fe117329380
+  bytes: 17426
+  title: 'Visible Proofs: Forensic Views of the Body: Galleries: Cases: Michael Blassie:
+    unknown no more'
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/3f3e20063ddd9185.html"
+  s3_key: this-day/references/3f3e20063ddd9185/b29fd0b419653241037a52fb1084aec8e4ad466f5615f382a3852fe117329380.html
 - url: https://www.nytimes.com/1964/12/10/archives/us-casualties-in-vietnam-rise-reds-fall-back-in-3-day-battle.html
   final_url: https://web.archive.org/web/20251107224113id_/https://www.nytimes.com/1964/12/10/archives/us-casualties-in-vietnam-rise-reds-fall-back-in-3-day-battle.html
   status: ok
@@ -2064,6 +2389,21 @@
   snapshot_url: https://web.archive.org/web/20251107224113/https://www.nytimes.com/1964/12/10/archives/us-casualties-in-vietnam-rise-reds-fall-back-in-3-day-battle.html
   captured_at: '2025-11-07T22:41:13Z'
   live_status: http-403
+- url: https://www.pow-miafamilies.org/about-the-league.html
+  final_url: https://web.archive.org/web/20211205215030id_/https://www.pow-miafamilies.org/about-the-league.html
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-26T15:53:59Z'
+  sha256: a678129fdffe7c4a3b88f5247f5d3b4d54155f504c0233326f43ef1ed5c594dd
+  bytes: 63177
+  title: About the League
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/39f9891a325b18fc.html"
+  s3_key: this-day/references/39f9891a325b18fc/a678129fdffe7c4a3b88f5247f5d3b4d54155f504c0233326f43ef1ed5c594dd.html
+  via: wayback
+  snapshot_url: https://web.archive.org/web/20211205215030/https://www.pow-miafamilies.org/about-the-league.html
+  captured_at: '2021-12-05T21:50:30Z'
+  live_status: http-404
 - url: https://www.pownetwork.org/bios/a/a063.htm
   final_url: https://www.pownetwork.org/bios/a/a063.htm
   status: ok
@@ -2123,6 +2463,21 @@
     | The American Presidency Project
   cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/28307e4892f42297.html"
   s3_key: this-day/references/28307e4892f42297/a134e9e3801f2665fd529f9d372a6ce299514e3302c9da88981c9b1db3c4ea3f.html
+- url: https://www.rand.org/pubs/corporate_pubs/CP564.html
+  final_url: https://web.archive.org/web/20260912054404id_/https://www.rand.org/pubs/corporate_pubs/CP564.html
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-26T15:53:00Z'
+  sha256: dd936df4d0199cf68327dddd3aba4db4693d5cbb47d3b34e77f84003a46fc4c2
+  bytes: 31558
+  title: 'RAND in Southeast Asia: A History of the Vietnam War Era | RAND'
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/dede92703c0242b2.html"
+  s3_key: this-day/references/dede92703c0242b2/dd936df4d0199cf68327dddd3aba4db4693d5cbb47d3b34e77f84003a46fc4c2.html
+  via: wayback
+  snapshot_url: https://web.archive.org/web/20260912054404/https://www.rand.org/pubs/corporate_pubs/CP564.html
+  captured_at: '2026-09-12T05:44:04Z'
+  live_status: http-403
 - url: https://www.realtime1960s.com/post/grenade-attack-in-saigon-youth-arrested
   final_url: https://web.archive.org/web/20250121081849id_/https://www.realtime1960s.com/post/grenade-attack-in-saigon-youth-arrested
   status: ok
@@ -2138,6 +2493,22 @@
   snapshot_url: https://web.archive.org/web/20250121081849/https://www.realtime1960s.com/post/grenade-attack-in-saigon-youth-arrested
   captured_at: '2025-01-21T08:18:49Z'
   live_status: http-404
+- url: https://www.theatlantic.com/politics/archive/2011/11/i-am-not-a-kook-richard-nixons-bizarre-visit-to-the-lincoln-memorial/248443/
+  final_url: https://web.archive.org/web/20260609210134id_/https://www.theatlantic.com/politics/archive/2011/11/i-am-not-a-kook-richard-nixons-bizarre-visit-to-the-lincoln-memorial/248443/
+  status: ok
+  code: 200
+  content_type: text/html
+  fetched_at: '2026-10-26T15:52:32Z'
+  sha256: 317c777de46a0181da0212075f66558ba29dd31c240c5a658d31c97eacdf8f24
+  bytes: 133884
+  title: 'I Am Not a Kook: Richard Nixon&#x27;s Bizarre Visit to the Lincoln Memorial
+    - The Atlantic'
+  cache_path: "/Users/daviddoolin/src/vietnam-war-compendium/this-day/archive/cache/4040875a4b2dc62f.html"
+  s3_key: this-day/references/4040875a4b2dc62f/317c777de46a0181da0212075f66558ba29dd31c240c5a658d31c97eacdf8f24.html
+  via: wayback
+  snapshot_url: https://web.archive.org/web/20260609210134/https://www.theatlantic.com/politics/archive/2011/11/i-am-not-a-kook-richard-nixons-bizarre-visit-to-the-lincoln-memorial/248443/
+  captured_at: '2026-06-09T21:01:34Z'
+  live_status: http-403
 - url: https://www.upi.com/Archives/Audio/1969/War-Protests/
   final_url: https://web.archive.org/web/20250517132513id_/https://www.upi.com/Archives/Audio/1969/War-Protests/
   status: ok

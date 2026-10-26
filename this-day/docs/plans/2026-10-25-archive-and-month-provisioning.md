@@ -58,6 +58,7 @@ site shows progress.
 - [x] 6h. Texas Tech catalog (vva.vietnam.ttu.edu) reachable: bundled missing intermediate certificate. Letters tooling and records in `research/texas-tech-letters/` (review queue items 14, 15).
 - [x] 6i. Texas Tech report PDFs cited and archived at the catalog host; Pike's chronology resolved to part c; Oct 20 and Nov 30 re-sourced (review queue item 15).
 - [x] 6j. March (5 drafts) and April (13 drafts): every day now has an event (review queue items 18, 19). Arrow-key navigation on day and review pages.
+- [x] 6k. May (11 drafts, plus April 30) and June (11 drafts): every day now has an event (review queue items 20, 21).
 - [~] 7. Deck growing in `docs/slides/`.
 - [~] 8. Lessons growing in `docs/LESSONS.md`.
 
