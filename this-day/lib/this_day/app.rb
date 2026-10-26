@@ -63,7 +63,8 @@ module ThisDay
           view("fallback", locals: { date_string: "Invalid date" })
         end
 
-        r.get true do
+        # "" matches the trailing-slash form, /this-day-in-vietnam-war/
+        r.get ["", true] do
           serve_date(Date.today)
         end
       end

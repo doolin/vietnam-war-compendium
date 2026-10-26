@@ -115,6 +115,16 @@ RSpec.describe ThisDay::App do
     end
   end
 
+  describe "GET /this-day-in-vietnam-war with and without a trailing slash" do
+    it "serves today's event on both forms" do
+      ["/this-day-in-vietnam-war", "/this-day-in-vietnam-war/"].each do |path|
+        get path
+        expect(last_response.status).to eq(200), "#{path} returned #{last_response.status}"
+        expect(last_response.body).to include("Something happened on this day").or include("Another event for the same date")
+      end
+    end
+  end
+
   describe "GET /this-day-in-vietnam-war/review/:month" do
     # A month other than today's, so the "today" seeds above do not land in it.
     REVIEW_MONTH = Date.today.month == 4 ? 5 : 4
